@@ -1,71 +1,79 @@
 ---
-title: "mMAC₁ — Hypoxic Inflammatory Macrophage"
-aliases: [mMAC1, hypoxic inflammatory macrophage, hypoxic activated macrophage, mature MAC under 1% O2]
-tags: [macrophages, hypoxia, immunology, tumor-microenvironment, dna-methylation, in-vivo-correlate]
+title: "mMAC1 (hypoxic inflammatory macrophage)"
+aliases:
+  - "mMAC1"
+  - "hypoxic inflammatory macrophage"
+  - "hypoxic activated macrophage"
+  - "hypoxic LPS-activated macrophage"
+  - "hypoxic M(LPS) macrophage"
+  - "1% O2 LPS-stimulated MAC"
+  - "hypoxia-activated proinflammatory MAC"
+  - "in vivo correlate IL4I1 MAC"
+  - "hyperinflammatory hypoxic macrophage"
+tags:
+  - macrophage
+  - hypoxia
+  - immune-activation
+  - tumor-microenvironment
 maturity: emerging
-key_papers: [nf-kb-tet2-promote-macrophage-reprogramming]
-first_introduced: "2024 (de la Calle-Fabregat et al., Sci Adv)"
+key_papers:
+  - nf-kb-tet2-promote-macrophage-reprogramming
+first_introduced: "Calafell-Segura/de la Calle-Fabregat 2024"
 date_updated: 2026-05-05
-related_concepts: [nfkb-hif1a-cooperative-binding]
+related_concepts:
+  - cluster-c2-hypoxia-hypomethylation-signature
+  - nf-kb-mediated-dna-demethylation-hypoxia
+  - hif1a-nf-kb-cooperative-chromatin-binding
+  - tumor-associated-macrophage-immunosuppression
 ---
 
 ## Definition
 
-mMAC₁ denotes a *mature human macrophage* differentiated from peripheral CD14⁺ monocytes in the presence of M-CSF for 5 days under 1% O₂ (hypoxia) and then activated with LPS for 48 h. By construction, mMAC₁ is the hypoxic counterpart of mMAC₂₁ (LPS-activated 21% O₂ MAC). The cell is operationally defined by:
-
-- secreted IL-6 / TNF-α / lower IL-10 vs mMAC₂₁,
-- elevated HLA-DR / CD80 / CD86, reduced CD14 / CD206 / CD163,
-- reduced suppression of allogeneic CD8⁺ T-cell proliferation,
-- a hypoxia-specific DNA-demethylation cluster (C2) at NF-κB-bound LPS-induced enhancers including *IL6* and *TNF*.
+A monocyte-derived M-CSF MAC differentiated and LPS-activated under 1% O₂ (hypoxia) that displays an enhanced proinflammatory and antigen-presenting phenotype compared to its normoxic (21% O₂) counterpart (mMAC21). Defined by elevated IL-6/TNF-α secretion, reduced IL-10, higher HLA-DR/CD86/CD80, lower CD14/CD206/CD163, and a focal NF-κB-driven cluster-C2 DNA demethylation signature.
 
 ## Intuition
 
-mMAC₁ is the empirical counterpoint to "hypoxia → immunosuppressive TAM". When the only TME-derived signal a macrophage receives is low O₂, the cell does *not* default to suppressive M2-like behaviour; it acquires a *more* proinflammatory, antigen-presenting, T-cell–activating phenotype than its normoxic LPS-activated counterpart. The phenotype is portable: an mMAC₁ gene-expression signature plus an mMAC₁ C2 methylation signature both map onto specific in-vivo human MO/MAC populations (notably IL4I1, IL1B Mo, ISG Mo in MoMac-VERSE) and IL4I1⁺ tumor MACs sorted from primary ovarian carcinoma.
+Standard TME framing treats hypoxia as immunosuppressive — but mMAC1 is the counterexample. The hypoxic environment selectively enables NF-κB to override TET inhibition at proinflammatory enhancers, producing a MAC that is both metabolically hypoxic (HIF1α-driven) and immunologically hot (NF-κB/STAT/IRF-driven). In vivo, mMAC1 corresponds to IL4I1 MACs (and, to a lesser extent, IL1B Mo and ISG Mo) found in immune-infiltrated bladder and ovarian carcinomas.
 
 ## Formal notation
 
-Defined relative to a 4-condition factorial: O₂ ∈ {21%, 1%} × LPS ∈ {–, +}. The four labels are iMAC₂₁, mMAC₂₁, iMAC₁, mMAC₁.
-
-Cluster C2 = {CpGs with FDR < 0.05 and Δβ > 0.2 hypomethylation specifically in mMAC₁ relative to mMAC₂₁} — n ≈ 403 CpGs in the original analysis.
-
-mMAC₁ signature genes: cluster E2 (LPS-up DEGs) ∩ C2-associated genes (Fisher P = 3.03·10⁻⁴⁴).
+mMAC1 := monocyte → M-CSF (5d, 1% O₂) → LPS (48h, 1% O₂)
+- Cluster-C2 hypomethylation: 403 CpGs, NF-κB-motif-enriched, p65-bound
+- Transcriptomic cluster E2 enrichment (P=3.03×10⁻⁴⁴ for C2 ↔ E2)
+- DoRothEA: HIF1A + STAT2 + IRF1 + RELA regulons co-active
+- In vivo correlates: MoMac-VERSE clusters #15 (IL1B Mo), #6 (IL4I1 Mac), #4 (ISG Mo)
 
 ## Variants
 
-- **iMAC₁**: 1% O₂, no LPS — primed but not yet inflammatory; some intermediate methylation already present at C2.
-- **In-vivo equivalents**: IL4I1 Mac (MoMac-VERSE #6), IL1B Mo (#15), ISG Mo (#4) co-expressing the highest fraction of mMAC₁ signature genes.
-- **Distinct from M(LPS)** under standard normoxia (mMAC₂₁) and from TREM2⁺/FOLR2⁺ tumor MAC programs which carry the *opposite* prognostic association.
+- iMAC1: hypoxic but unstimulated — partially differentiated, *lower* p65-bound gene activity (paradoxical "immunosuppressed" intermediate state).
+- IL4I1 MAC (in vivo): primary correlate, sorted from ovarian tumors, recapitulates C2 hypomethylation.
+- IL1B Mo / ISG Mo: weaker correlates, also enriched but with admixture of normoxic mMAC21 features.
 
 ## Comparison
 
-vs **mMAC₂₁**: more proinflammatory, less suppressive, higher MHC-II / costimulatory marker expression, distinct C2 demethylation footprint at NF-κB sites.
-
-vs **TREM2 TAM**: TREM2⁺ MACs are immunosuppressive and associated with poor prognosis in 7/12 TCGA cancer types; mMAC₁/IL4I1 are associated with *better* prognosis.
-
-vs **Classical M1**: M1 is a normoxic LPS+IFNγ construct; mMAC₁ retains LPS but adds the hypoxia-specific NF-κB-mediated demethylation layer that is absent in classical M1 protocols.
+vs mMAC21 (normoxic activated): less suppressive of CD8⁺ T cells, less anti-inflammatory, higher antigen presentation.
+vs TREM2 MAC: TREM2 is normoxic-leaning and immunosuppressive; mMAC1 is the opposite.
+vs FOLR2 MAC: FOLR2 marks tissue-resident MACs with context-dependent role; mMAC1 is monocyte-derived and inflammatory.
 
 ## When to use
 
-- When discussing TAM heterogeneity in hypoxic tumor regions (BLCA, OC, and at least 7/12 TCGA cancer types).
-- When designing therapeutics aimed at *enhancing* TAM immunogenicity rather than depleting TAMs wholesale.
-- When mapping in-vitro MO-derived MAC subtypes to single-cell tumor atlases (MoMac-VERSE).
+When characterizing hypoxia-activated MACs in tumor or chronic-inflammation contexts where DNA methylation is profiled alongside transcriptomics. Useful as a deconvolution target for bulk RNA-seq from immune-hot vs immune-cold tumor samples.
 
 ## Known limitations
 
-- Defined under a single inflammatory stimulus (LPS); other PAMPs/cytokines reproduce the boost qualitatively but not quantitatively.
-- Not a tissue-resident MAC ontogeny; covers MO-derived MACs only.
-- Survival correlation is observational — causal contribution to T-cell infiltration is inferred from ligand-receptor analysis, not yet proven by in-vivo perturbation.
+- Defined from in vitro M-CSF MACs; tissue-resident embryonic MACs may not follow the same wiring.
+- "Swap" experiments suggest the activation step (not differentiation) is the critical hypoxic window — operational definition may need refinement for chronic in vivo hypoxia.
 
 ## Open problems
 
-- A clean genetic loss-of-function to confirm p65 vs HIF1α partitioning at C2 in vivo.
-- Whether non-LPS TME ligands (TGF-β, IL-10, lactate) can collapse mMAC₁ back to a suppressive state.
-- Time-resolved methylome+transcriptome to settle whether C2 demethylation precedes or follows transcriptional activation.
+- Whether GM-CSF-derived or tissue-resident MACs reproduce the C2 hypomethylation under hypoxia.
+- TET-isoform specificity (TET2 vs TET1/3) at C2 loci.
+- Whether the mMAC1 → T-cell crosstalk is causally responsible for the BLCA/OC survival benefit.
 
 ## Key papers
 
-- [[nf-kb-tet2-promote-macrophage-reprogramming]] — defines mMAC₁ in vitro and validates its in vivo correlate.
+- [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — original definition and characterization
 
 ## My understanding
 
-mMAC₁ is best treated as a *defined assay readout* (the 1% O₂ + LPS condition) plus a *portable signature* (C2 CpGs + E2 ∩ C2 genes) rather than a fixed in-vivo cell type. Its value is that the same signature carries through MoMac-VERSE, TCGA bulk deconvolution, and FACS-sorted primary ovarian MACs. Anyone using "mMAC₁" should be explicit about which of the three (assay condition / expression signature / methylation signature) they mean — the paper uses the term across all three.
+mMAC1 is a conceptual unit that ties together a coherent set of observations: epigenetic (C2), transcriptional (E2), TF-regulatory (RELA + HIF1A), in vivo correspondence (IL4I1), and clinical (improved BLCA/OC survival). For the HypoxiaVERSE thesis, mMAC1 is one of the central anchor populations.
