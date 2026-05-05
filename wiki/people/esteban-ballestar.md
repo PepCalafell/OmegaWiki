@@ -1,6 +1,12 @@
 ---
 name: "Esteban Ballestar"
 affiliation: "Epigenetics and Immune Disease Group, Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain; Epigenetics in Inflammatory and Metabolic Diseases Lab, ECNU, Shanghai, China"
+role: pi
+group: "Ballestar Lab"
+institution: "IJC, Badalona / ECNU Shanghai"
+papers_in_vault: 1
+relevance_tier: core
+manual_override: "user_decision_2026-05-05_thesis_supervisor"
 tags:
   - epigenetics
   - immunology

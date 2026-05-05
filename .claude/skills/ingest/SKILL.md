@@ -20,7 +20,7 @@ Open `docs/runtime-page-templates.en.md` before drafting any wiki page frontmatt
 ## Inputs
 
 - `source`: one of — arXiv URL (e.g. `https://arxiv.org/abs/2106.09685`), local `.tex`, local `.pdf`, or a `canonical_ingest_path` handed off by `/init` via `.checkpoints/init-sources.json`(see `references/init-mode.md`)
-- `--discover` (optional, default **off**): after the final report, invoke `/discover --anchor <this-paper's-arxiv-id>` and append the shortlist to the report as "Related papers you may want to ingest next". Never auto-ingests the suggestions. Skipped automatically in INIT MODE. Treat this as a user-owned flag: do not set it based on repo state.
+- `--discover` (optional, default **off**): after the final 	report, invoke `/discover --anchor <this-paper's-arxiv-id>` and append the shortlist to the report as "Related papers you may want to ingest next". Never auto-ingests the suggestions. Skipped automatically in INIT MODE. Treat this as a user-owned flag: do not set it based on repo state.
 
 ## Outputs
 
@@ -194,7 +194,21 @@ These validations run AFTER the shape check from Step 3 and BEFORE writing the f
 1. For each candidate concept or claim, call the matching `find-similar-*` tool first.
 2. Prefer merging into the top result. Create a new page only when the tool returns no acceptable candidate and the paper's importance justifies it.
 3. For each entity you write or edit, write the reverse link in the same turn. The obligation matrix lives in `references/cross-references.md`.
-4. Create a `wiki/people/{slug}.md` only for papers with importance ≥ 4. Otherwise append to existing author pages only.
+4. People pages — domain-adapted policy:
+   - For papers with importance ≥ 4: create new `wiki/people/{slug}.md` for first author, corresponding author, and senior author. Also create for any co-author with high independent importance (S2 hIndex ≥ 30 OR citation count ≥ 5000) when known.
+   - For papers with importance < 4: append to existing author pages only; create new pages only for first/corresponding/senior author.
+   - When CREATING a new people page, populate the full frontmatter:
+     - `name`, `affiliation`, `role` (pi | individual | both), `group`, `institution`, `tags`
+     - `papers_in_vault: 1`
+     - `relevance_tier: emerging`
+     - `manual_override:` (leave empty unless user-directed)
+   - When EDITING an existing people page (already in vault), increment `papers_in_vault` by 1, append the new paper slug to `## Key papers in vault`, and update `date_updated`.
+   - After incrementing, check `papers_in_vault` and `manual_override`:
+     - If `manual_override` is set (non-empty), DO NOT change `relevance_tier`.
+     - Else if `papers_in_vault ≥ 10`, the page should be tier `core`.
+     - Else if `papers_in_vault ≥ 4`, the page should be tier `established`.
+     - Else, tier remains `emerging`.
+   - When tier should change, DO NOT auto-update the `relevance_tier` field. Instead, surface a notification in the final report: `"PEOPLE TIER CHANGE SUGGESTED: <name> (papers_in_vault=<N>) — recommend tier <new_tier>. Update wiki/people/{slug}.md manually if confirmed."` This avoids silent state changes the user doesn't see.
 
 ### Step 5: Paper-to-paper edges and `cited_by`
 
@@ -234,7 +248,7 @@ Unless in INIT MODE:
 
 ### Step 8: Report
 
-Emit one compact summary covering: pages created, pages updated, graph edges added, contradictions surfaced (if any), and high-citation references not yet in the wiki (suggested follow-up ingests). Close with:
+Emit one compact summary covering: pages created, pages updated, graph edges added, contradictions surfaced (if any), high-citation references not yet in the wiki (suggested follow-up ingests), and **people tier change notifications** (if any author crossed a tier threshold during this ingest, output `"PEOPLE TIER CHANGE SUGGESTED: <name> (papers_in_vault=<N>) — recommend tier <new_tier>"` so the user can update `relevance_tier` manually). Close with:
 
 ```
 Wiki: +1 paper, +{N} claims, +{M} concepts, +{K} edges

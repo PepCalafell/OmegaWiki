@@ -1,6 +1,12 @@
 ---
 name: "Florent Ginhoux"
 affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; A*STAR SIgN, Singapore"
+role: pi
+group: "Ginhoux Lab"
+institution: "Gustave Roussy / A*STAR Singapore"
+papers_in_vault: 1
+relevance_tier: emerging
+manual_override:
 tags:
   - macrophage
   - dendritic-cell

@@ -126,6 +126,20 @@ Body sections: `## Overview` / `## Timeline` / `## Seminal works` / `## SOTA tra
 ---
 name: ""
 affiliation: ""
+role:                    # pi | individual | both — academic structural role
+group: ""                # lab name (e.g., "Ballestar Lab")
+institution: ""          # institution name (e.g., "IJC, Badalona")
+papers_in_vault: 1       # auto-incremented on each ingest mentioning this person
+relevance_tier: emerging # emerging (1-3 papers) | established (4-9) | core (10+)
+                         # auto-promotion thresholds: papers_in_vault ≥ 4 → established;
+                         # papers_in_vault ≥ 10 → core. The /ingest skill notifies the
+                         # user when a person crosses a threshold; promotion is recorded
+                         # by updating this field, NOT by moving the file (file lives
+                         # always at wiki/people/{slug}.md regardless of tier).
+manual_override:         # optional: if the user wants to assign a tier higher than
+                         # papers_in_vault would justify (e.g., the user's own profile,
+                         # the thesis supervisor), set to "user_decision_<YYYY-MM-DD>_<reason>"
+                         # and the auto-promotion logic will respect this override.
 tags: []
 homepage: ""
 scholar: ""
@@ -133,7 +147,11 @@ date_updated: YYYY-MM-DD
 ---
 ```
 
-Body sections: `## Research areas` / `## Key papers` / `## Recent work` / `## Collaborators` / `## My notes`
+Body sections: `## Research areas` / `## Key papers in vault` / `## Recent work` / `## Collaborators within vault` / `## My notes`
+
+`## Key papers in vault` lists papers from this vault that this person co-authored, in citation_key form `[[papers/<slug>]]`. The list grows with each ingest mentioning this person.
+
+`## Collaborators within vault` lists other people pages from this vault that share authorship with this person on at least one paper.
 
 ### Summary/{area-name}.md
 

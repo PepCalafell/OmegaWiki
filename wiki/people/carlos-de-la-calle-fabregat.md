@@ -1,6 +1,12 @@
 ---
 name: "Carlos de la Calle-Fabregat"
 affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; previously Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
+role: individual
+group: "Ginhoux Lab (current); Ballestar Lab (former)"
+institution: "Gustave Roussy / IJC Badalona (former)"
+papers_in_vault: 1
+relevance_tier: emerging
+manual_override:
 tags:
   - immunology
   - epigenetics

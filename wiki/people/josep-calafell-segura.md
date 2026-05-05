@@ -1,6 +1,12 @@
 ---
 name: "Josep Calafell-Segura"
 affiliation: "Epigenetics and Immune Disease Group, Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
+role: individual
+group: "Ballestar Lab"
+institution: "IJC, Badalona"
+papers_in_vault: 1
+relevance_tier: core
+manual_override: "user_decision_2026-05-05_vault_owner"
 tags:
   - epigenetics
   - immunology
