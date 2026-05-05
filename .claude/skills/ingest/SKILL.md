@@ -139,11 +139,40 @@ Before writing, run a **shape check** on the frontmatter you are about to emit �
 
 The shape check is intentionally narrow. Backlink symmetry, dangling-node detection, and cross-entity consistency are `/check`'s job, not this skill's.
 
-Body sections to populate: Problem, Key idea, Method, Results, Limitations, Open questions, My take, Related.
+Body sections to populate (in order): Problem, Key idea, Method, Results, **All claims (exhaustive)**, **Discussion captured**, Limitations, Open questions, My take, Related. See `docs/runtime-page-templates.en.md` for the exhaustive-claims format and the Discussion captured subsections — these are NEW REQUIRED sections for biomedical papers, do NOT skip them.
 
 ### Step 4: Concepts, claims, people
 
 Follow `references/dedup-policy.md`. In short:
+
+**Domain-specific guidance for biomedical papers (added):**
+
+A. CLAIM EXHAUSTIVITY. For biomedical papers, extract atomic claims exhaustively:
+   - TIER_1 papers (importance ≥ 4 OR top venue OR n_citations > 100): 15-30 atomic claims
+   - TIER_2 papers (importance = 3 with relevant venue OR n_citations > 20): 5-10 claims
+   - TIER_3 papers (importance ≤ 2): 3-5 claims
+   Each claim must be ATOMIC (one assertion per claim) and TYPED:
+   - mechanistic (how X works)
+   - correlational (X correlates with Y, with numeric values)
+   - methodological (result of applying technique X — HOMER, DoRothEA, ChIP-seq, etc.)
+   - pharmacological (effect of inhibitor/activator X)
+   - quantitative (specific numbers, p-values, fold changes, NES, r values)
+   Each claim entry on the paper page MUST include: short text, page number, exact quote, confidence level, type, and links to related concepts/claims.
+
+B. CONCEPT ALIASES MUST BE BROAD. When generating `aliases` for a new concept:
+   - Include both paper-specific terminology AND generalizable terminology used by other papers in the field.
+   - Aim for 6-12 aliases minimum.
+   - Include synonyms, abbreviations, common phrasings other authors might use, and tissue-context variants.
+   - Question to ask while writing aliases: "How would 5 different papers in this field refer to this concept?"
+
+C. FOUNDATIONS FOR METHODS. In addition to biological entities (HIF1α, p65, IRF1, etc.), create foundation pages for COMMON METHODS that recur across papers in the corpus:
+   - Single-cell methods: Seurat, Scanpy, Harmony, scVI, BBKNN, Cell Ranger, etc.
+   - TF/regulatory inference: DoRothEA, SCENIC, ChEA, HOMER motif analysis
+   - Sequencing assays: scRNA-seq_10x, ChIP-seq, CUT&RUN, ATAC-seq, EPIC array, RRBS
+   - Deconvolution / spatial / interaction: CIBERSORTx, CellChat, NicheNet
+   Method foundations are terminal (no reverse link), same as biological foundations.
+
+D. CLAIMS, CONCEPTS, FOUNDATIONS NO LONGER CAPPED AT 1-3. The previous conservative caps (1 concept + 1 claim for importance < 4; 3 concepts + 2 claims for importance ≥ 4) are SUPERSEDED by the per-tier policy in (A) for claims and "create all that are central to the paper" for concepts and foundations.
 
 1. For each candidate concept or claim, call the matching `find-similar-*` tool first.
 2. Prefer merging into the top result. Create a new page only when the tool returns no acceptable candidate and the paper's importance justifies it.
@@ -219,10 +248,11 @@ Append the markdown output to the report under a heading like "Related papers yo
 - Every forward link writes its reverse link in the same turn — the wiki's bidirectional-link invariant. The only exception is links to `wiki/foundations/`, which are terminal.
 - In INIT MODE, do not write reverse links into pages that already exist (created by a sibling worktree or scaffold). Record the relationship via `tools/research_wiki.py add-edge` only; the parent `/init` backfills reverse links during fan-in.
 - Source priority: `.tex` > `.pdf` > vision API fallback. Never ingest from a PDF when a usable `.tex` is available.
-- Ingest is conservative about new entities:
-  - importance < 4: at most **1** new concept and **1** new claim per paper
-  - importance ≥ 4: at most **3** new concepts and **2** new claims per paper
-  - Any further candidates must be merged into their nearest `find-similar-*` result, or left out for `/check` to flag. Rationale and matching rules: `references/dedup-policy.md`.
+- Ingest is EXHAUSTIVE for biomedical papers (domain-adapted policy, see Step 4 guidance):
+  - Claims: 15-30 atomic claims for TIER_1, 5-10 for TIER_2, 3-5 for TIER_3 (typed: mechanistic / correlational / methodological / pharmacological / quantitative).
+  - Concepts: create all that are central to the paper. No hard cap. Merge via `find-similar-concept` when an existing concept overlaps; create new only when no acceptable match exists. Aliases must be broad (6-12 entries including generalizable terminology).
+  - Foundations: create for both biological entities AND common methods (DoRothEA, HOMER, ChIP-seq, etc.) referenced centrally. No cap.
+  - Dedup tool calls remain mandatory before creating any new entity. Rationale and matching rules: `references/dedup-policy.md`.
 - `/ingest` runs a shape check on its own output (required keys, enum ranges, YAML parses) and stops there. Backlink symmetry, dangling nodes, and full semantic audits belong to `/check`. Do not re-implement them here.
 - Assume another `/ingest` may run concurrently in a sibling worktree. All shared-file writes (`graph/edges.jsonl`, `graph/citations.jsonl`, `index.md`, `log.md`) must go through `tools/research_wiki.py` or use append-only semantics. See `references/init-mode.md`.
 - In INIT MODE, skip `fetch_s2.py citations`, `fetch_s2.py references`, and the `rebuild-*` commands — the parent `/init` runs them once after fan-in.
