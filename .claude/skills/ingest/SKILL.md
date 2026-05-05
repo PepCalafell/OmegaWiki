@@ -174,6 +174,23 @@ C. FOUNDATIONS FOR METHODS. In addition to biological entities (HIF1α, p65, IRF
 
 D. CLAIMS, CONCEPTS, FOUNDATIONS NO LONGER CAPPED AT 1-3. The previous conservative caps (1 concept + 1 claim for importance < 4; 3 concepts + 2 claims for importance ≥ 4) are SUPERSEDED by the per-tier policy in (A) for claims and "create all that are central to the paper" for concepts and foundations.
 
+E. PAGE-WRITING VALIDATION (mandatory before saving any concept or paper page):
+
+Before writing a concept page to disk, verify the `aliases` field has 6+ entries. If empty or fewer than 6 entries, STOP and re-fill before proceeding. An empty `aliases:` list is a HARD FAIL — concepts without aliases break cross-paper deduplication.
+
+Before writing a paper page to disk, verify the biomedical frontmatter is filled when applicable:
+- For ANY biomedical paper (immunology, genomics, oncology, single-cell, etc.), the following fields MUST be filled with actual values from the paper, not left empty:
+  - `tissue` (e.g., [bone_marrow, blood] or [in_vitro_only])
+  - `condition` (e.g., [cancer] or [healthy])
+  - `species` (e.g., [human])
+  - `techniques` (e.g., [scRNA-seq_10x, ChIP-seq, EPIC_array])
+  - `key_cell_types` (cell types characterized in the paper)
+  - `key_markers` (genes/proteins central to the paper's findings)
+  - `projects` (default to [thesis] if relates to the user's PhD; add [hypoxia] if hypoxia-relevant; add [skin] if skin-related)
+- Empty biomedical frontmatter on a clearly biomedical paper is a HARD FAIL — these fields enable downstream filtering and Dataview queries.
+
+These validations run AFTER the shape check from Step 3 and BEFORE writing the file. If validation fails, regenerate the field with proper content and re-validate.
+
 1. For each candidate concept or claim, call the matching `find-similar-*` tool first.
 2. Prefer merging into the top result. Create a new page only when the tool returns no acceptable candidate and the paper's importance justifies it.
 3. For each entity you write or edit, write the reverse link in the same turn. The obligation matrix lives in `references/cross-references.md`.
