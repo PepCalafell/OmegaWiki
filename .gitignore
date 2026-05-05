@@ -34,3 +34,4 @@ raw/papers/*.pdf
 # Local working files
 raw/tmp/
 .env
+tools/*.bak
