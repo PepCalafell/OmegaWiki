@@ -8,24 +8,84 @@
 
 ```yaml
 ---
+# === Identification ===
 title: ""
 slug: ""
 arxiv: ""
+doi: ""                  # NEW: critical for biomedical papers without arXiv
+pmid: ""                 # NEW: PubMed ID
 venue: ""
 year:
-tags: []
-importance: 3           # 1-5
-date_added: YYYY-MM-DD
+authors: []              # NEW: ordered list of authors
+first_author: ""         # NEW: for citation_key generation
+corresponding_author: "" # NEW
+
+# === Source & metadata ===
 source_type: tex         # tex | pdf
 s2_id: ""
+date_added: YYYY-MM-DD
+ingested_date: YYYY-MM-DD  # NEW: same as date_added for now
+ingest_version: 1        # NEW: increment on reprocess with improved skill
+last_reviewed:           # NEW: null until manually reviewed
+
+# === Classification ===
+importance: 3            # 1-5
+tier: TIER_3             # NEW: TIER_1 | TIER_2 | TIER_3 (deep | medium | shallow)
+tags: []
 keywords: []
-domain: ""               # NLP / CV / ML Systems / Robotics
+domain: ""               # immunology / epigenetics / genomics / cell biology / methods / oncology
+
+# === Biomedical domain (fill if applicable, else leave empty list/null) ===
+tissue: []               # kidney | lung | skin | colon | stomach | liver | pancreas | bladder | ovary | bone_marrow | blood | multi | in_vitro_only
+condition: []            # healthy | cancer | inflam_precancer | autoimmune
+disease_specific: []     # lupus_nephritis | MASH | IgA_nephropathy | etc.
+species: []              # human | mouse | both
+hypoxia_relevant: false
+contains_immune_cells: false
+contains_myeloid: false
+
+# === Technique ===
+techniques: []           # scRNA-seq_10x | snRNA-seq | CITE-seq | spatial_visium | EPIC_array | RRBS | ChIP-seq | bulk_RNA-seq | flow_cytometry | etc.
+n_samples:
+n_cells_total:
+integration_method: ""   # Harmony | scVI | BBKNN | Seurat_CCA | null
+
+# === Biology captured (extracted from paper) ===
+key_cell_types: []
+key_markers: []
+key_pathways: []
+
+# === User project membership (multi-valued) ===
+projects: []             # hypoxia | skin | thesis | methods
+priority: reference      # core | context | reference
+read_status: not_read    # not_read | skimmed | read | deep_read
+
+# === HypoxiaVERSE-specific ===
+hypoxiaverse_status:     # candidate | included | excluded | null
+exclusion_reason:        # null
+data_availability: ""    # GSE id, dbGaP, EGA, etc.
+
+# === Cross-references ===
 code_url: ""
 cited_by: []
 ---
 ```
 
-Body sections: `## Problem` / `## Key idea` / `## Method` / `## Results` / `## Limitations` / `## Open questions` / `## My take` / `## Related`
+Body sections (in order): `## Problem` / `## Key idea` / `## Method` / `## Results` / `## All claims (exhaustive)` / `## Discussion captured` / `## Limitations` / `## Open questions` / `## My take` / `## Related`
+
+The `## All claims (exhaustive)` section lists 15-30 atomic claims for TIER_1 papers (5-10 for TIER_2, 3-5 for TIER_3). Each claim entry has the form:
+- `[claim_id]` short-text-summary `(p.X)` "exact quote from paper" — confidence: high|medium|low — type: mechanistic|correlational|methodological|pharmacological|quantitative — links: [[concepts/...]] [[claims/...]]
+
+The `## Discussion captured` section has the following subsections, faithful to what the AUTHORS themselves write (not your interpretation):
+- `### Authors' interpretation` — how authors interpret their own findings, mechanisms they propose
+- `### Comparisons with prior literature (made by authors)` — which papers they cite in the discussion and for what; include DOI/PMID when in text
+- `### Mechanistic hypotheses proposed` — explicit hypotheses with quote and page
+- `### Caveats and self-criticism` — limitations the authors acknowledge themselves (interpretive, distinct from methodological limitations in `## Limitations`)
+- `### Future directions suggested` — directions the authors propose
+
+The `## Open questions` section is split into two subsections:
+- `### Open questions raised by authors` — verbatim or paraphrased from the paper
+- `### Open questions identified during ingest` — system/user-identified gaps
 
 ### concepts/{concept-name}.md
 
