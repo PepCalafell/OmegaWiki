@@ -31,3 +31,5 @@ Thumbs.db
 
 # Raw data (large files managed separately)
 raw/papers/*.pdf
+# Local working files
+raw/tmp/
