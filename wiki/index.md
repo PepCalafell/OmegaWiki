@@ -3,6 +3,7 @@ papers:
   - slug: nf-kb-tet2-promote-macrophage-reprogramming
   - slug: tissue-resident-macrophages-provide-pro-tumorigenic
   - slug: physiology-diseases-tissue-resident-macrophages
+  - slug: molecular-landmarks-tumor-hypoxia-across-cancer
 
 concepts:
   - slug: il4i1-tumor-associated-macrophage
@@ -31,6 +32,17 @@ concepts:
   - slug: sirpa-cd47-don-t-eat-me-axis
   - slug: osteoclast-multinucleated-macrophage-bone
   - slug: pattern-recognition-receptors-macrophage
+  - slug: tumor-hypoxia-mrna-signature
+  - slug: nimbosus-aggressive-prostate-phenotype
+  - slug: mir-210-hypoxia-induced-microrna
+  - slug: mir-133a-3p-hypoxia-prostate
+  - slug: tumor-subclonal-evolution-architecture
+  - slug: hypoxia-genomic-instability-pga
+  - slug: ancestry-specific-tumor-hypoxia
+  - slug: hypoxia-pten-tert-telomere-axis
+  - slug: chromothripsis-hypoxia-prostate
+  - slug: intraductal-cribriform-carcinoma
+  - slug: tumor-hypoxia-intratumoral-heterogeneity
 
 foundations:
   - slug: hif1a
@@ -60,6 +72,15 @@ foundations:
   - slug: spi1-pu1-master-tf
   - slug: mertk-tam-receptors
   - slug: tgfb1-cytokine
+  - slug: pten-tumor-suppressor
+  - slug: tp53-tumor-suppressor
+  - slug: myc-oncogene
+  - slug: tert-telomerase
+  - slug: cdkn2a-tumor-suppressor
+  - slug: tcga-the-cancer-genome-atlas
+  - slug: buffa-hypoxia-signature
+  - slug: mir-210-mirna
+  - slug: mir-133a-3p-mirna
 
 claims:
   - slug: momac-verse-conserved-mnp-signatures-cross-tissue
@@ -112,6 +133,16 @@ claims:
   - slug: adipose-trm-pdgf-cc-controls-lipid-storage
   - slug: ccr2-monocyte-deficiency-reduces-fibrosis
   - slug: sirpa-cd47-axis-blocks-phagocytosis
+  - slug: hypoxia-elevates-genomic-instability-pancancer
+  - slug: tp53-snvs-recurrently-associated-with-hypoxia
+  - slug: pten-loss-co-occurs-with-hypoxia-localized-pca
+  - slug: mir-210-induced-under-hypoxia-pancancer
+  - slug: mir-133a-3p-tumor-suppressor-prostate-hypoxia
+  - slug: nimbosus-aggressive-pca-phenotype
+  - slug: hypoxia-cnas-occur-early-trunk-evolution
+  - slug: myc-gain-co-occurs-hypoxia-pancancer
+  - slug: ancestry-disparity-tumor-hypoxia-brca
+  - slug: hypoxia-pten-tert-three-way-telomere-interaction
 
 people:
   - slug: kevin-mulder
@@ -129,9 +160,36 @@ people:
   - slug: philippe-benaroch
   - slug: frederic-geissmann
   - slug: tomi-lazarov
+  - slug: vinayak-bhandari
+  - slug: paul-c-boutros
+  - slug: robert-g-bristow
 
 topics: []
 
 ideas: []
 
 experiments: []
+
+## Test Dataview — Papers ranked
+
+```dataview
+TABLE 
+  importance,
+  tier,
+  year,
+  length(file.outlinks) as "Outlinks"
+FROM "papers"
+SORT importance DESC, year DESC
+```
+
+## Test Dataview — Concepts most connected
+
+```dataview
+TABLE 
+  length(file.inlinks) as "Inlinks",
+  maturity
+FROM "concepts"
+WHERE length(file.inlinks) > 1
+SORT length(file.inlinks) DESC
+LIMIT 10
+```

@@ -12,6 +12,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Whether IL4I1_Mac is induced by chronic IFN signalling in non-tumour autoimmune contexts (lupus, RA flares, severe COVID-19), and whether the same mechanistic loop applies.
 - [paper/cross-tissue-single-cell-landscape-human] Quantitative comparison of the murine TREM2 TAM vs human TREM2_Mac transcriptional programme: is the cross-species "TREM2 TAM" a single conserved state or a convergence of distinct programmes?
 - [paper/cross-tissue-single-cell-landscape-human] Relationship of IL4I1_Mac to Calafell 2024 mMAC1 hypoxic state: is mMAC1 a hypoxic/in-vitro proxy of IL4I1_Mac, an upstream precursor, or a distinct differentiation path that converges on similar surface markers?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Does the ancestry-specific hypoxia signal in BRCA reflect biology or socioeconomic confounding (selection bias in TCGA)?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Are the hypoxia-mutation co-occurrences causally linked, or co-selected by independent microenvironmental pressures?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Can the nimbosus signature drive treatment-decision prospective trials in localized PCa?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] What is the role of hypoxia-modulated miRNAs (beyond miR-210, miR-133a-3p) in canonical HIF1A-response pathways?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] How does hypoxia drive trunk-timing of CNA fixation mechanistically?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Does hypoxia targeting (evofosfamide, etc.) work better in non-Caucasian patients, as implied by MAESTRO post-hoc analyses?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] The paper focuses on epithelial tumor genomics; the *immune-microenvironment* coupling of hypoxia (HIF1α in macrophages, mMAC1 phenotype) is not addressed and is the topic of complementary work in this wiki ([[papers/nf-kb-tet2-promote-macrophage-reprogramming]]). Does the nimbosus signature correlate with hypoxic-macrophage infiltration?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] TCGA bulk mRNA confounds tumor-cell hypoxia with stromal hypoxia. To what extent are pancancer hypoxia scores driven by malignant epithelium vs hypoxic stromal/myeloid compartments?
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] The paper proposes TP53 mutation as a *consequence* of hypoxia (selection); but mutual confounding by clonal hematopoiesis or germline modifiers is not ruled out.
+- [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Whether hypoxia-induced miR-133a-3p downregulation affects BIN1/PGM5 protein levels in vivo (not only correlationally) is open.
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] What is the precise temporal sequence of NF-κB binding, TET recruitment, and demethylation at C2 loci?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Why is HIF1α inhibition only partially effective at reducing inflammatory gene expression while not affecting C2 demethylation? Are there HIF1α-independent transcriptional layers?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the paradoxical "incomplete differentiation" pattern of iMAC1 (down-regulation of p65-bound genes) generalize to other hypoxic non-inflammatory contexts?
@@ -43,6 +53,13 @@ _Auto-generated open questions. Do not edit._
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
+- [concept/ancestry-specific-tumor-hypoxia] Whether genetic ancestry (HLA, germline DDR variants) drives the hypoxia signal, or whether it is environmental/socioeconomic
+- [concept/ancestry-specific-tumor-hypoxia] Validation in non-TCGA cohorts with prospective hypoxia measurement
+- [concept/ancestry-specific-tumor-hypoxia] Does ancestry-specific hypoxia mediate the higher evofosfamide response in Asian-descent MAESTRO subjects (post-hoc finding)
+- [concept/ancestry-specific-tumor-hypoxia] Replication in pediatric cancers and rare tumor types
+- [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
+- [concept/chromothripsis-hypoxia-prostate] Whether anti-hypoxia therapy reduces chromothripsis incidence in vivo
+- [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
@@ -55,10 +72,19 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/hypoxia-genomic-instability-pga] Why hypoxia-PGA fails to associate in 9/19 tumor types — tumor-type-specific DNA-repair compensations?
+- [concept/hypoxia-genomic-instability-pga] Can hypoxia + genomic instability be used to select tumors most likely to benefit from PARP inhibitors?
+- [concept/hypoxia-genomic-instability-pga] The role of immune editing in shaping hypoxia-PGA in vivo
+- [concept/hypoxia-pten-tert-telomere-axis] Direct mechanistic test: does hypoxia → HIF1A → TERT, with PTEN loss removing brake on PI3K/AKT-mediated TERT post-translational stabilization?
+- [concept/hypoxia-pten-tert-telomere-axis] Whether targeting TERT (imetelstat) in hypoxic + PTEN-loss tumors is selectively effective
+- [concept/hypoxia-pten-tert-telomere-axis] How the axis interacts with the broader nimbosus phenotype
 - [concept/il4i1-tumor-associated-macrophage] Whether targeting IL4I1 (pharmacological inhibitor available) suffices to reverse the immunosuppressive phenotype in vivo
 - [concept/il4i1-tumor-associated-macrophage] Compensatory induction of IL4I1 after PD-1/PD-L1 blockade
 - [concept/il4i1-tumor-associated-macrophage] Tumour-type-specific dependencies on IL4I1 vs IDO1 vs both
 - [concept/il4i1-tumor-associated-macrophage] Whether the ISG_Mo → IL4I1_Mac trajectory is reversible or terminally differentiated
+- [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
+- [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
+- [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
@@ -77,6 +103,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/microglia-synaptic-pruning-complement] Whether activity-dependent C1Q deposition is upstream or downstream of synaptic weakness.
 - [concept/microglia-synaptic-pruning-complement] The molecular logic of microglial decisions about which synapse to prune.
 - [concept/microglia-synaptic-pruning-complement] How disease-associated microglia (TREM2-driven DAM state) lose vs gain pruning capacity in Alzheimer's.
+- [concept/mir-133a-3p-hypoxia-prostate] Therapeutic potential of miR-133a-3p mimic delivery in hypoxic PCa
+- [concept/mir-133a-3p-hypoxia-prostate] Whether the miR-133a-3p–BIN1–MYC axis is the primary functional pathway, or whether pleiotropic targets dominate
+- [concept/mir-133a-3p-hypoxia-prostate] Tissue-specificity: muscle expression is high; how the prostate-tumor pool relates to muscle baseline is unclear
+- [concept/mir-210-hypoxia-induced-microrna] Whether miR-210-mediated mitochondrial repression *causes* the Warburg shift or amplifies a HIF1A-driven program is debated.
+- [concept/mir-210-hypoxia-induced-microrna] Therapeutic targeting of miR-210 (anti-miR strategies) has been explored preclinically with mixed results.
+- [concept/mir-210-hypoxia-induced-microrna] Single-cell resolution of miR-210 in tumor vs stromal compartments remains underexplored.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether GM-CSF-derived or tissue-resident MACs reproduce the C2 hypomethylation under hypoxia.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] TET-isoform specificity (TET2 vs TET1/3) at C2 loci.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether the mMAC1 → T-cell crosstalk is causally responsible for the BLCA/OC survival benefit.
@@ -88,6 +120,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
+- [concept/nimbosus-aggressive-prostate-phenotype] Does treating hypoxia (e.g., evofosfamide) prevent nimbosus emergence?
+- [concept/nimbosus-aggressive-prostate-phenotype] Are there tumor types beyond PCa where an analogous "constellation" exists?
+- [concept/nimbosus-aggressive-prostate-phenotype] Does the immune microenvironment modulate nimbosus emergence (cf. [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] hypoxic-MAC infiltration)?
+- [concept/nimbosus-aggressive-prostate-phenotype] Can a single molecular biomarker capture the full nimbosus state?
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
 - [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
@@ -122,4 +158,15 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-associated-macrophage-immunosuppression] Single-cell-resolved markers and signatures across cancers (atlas-scale).
 - [concept/tumor-associated-macrophage-immunosuppression] Causal vs correlational role of TAM presence in outcomes.
 - [concept/tumor-associated-macrophage-immunosuppression] Therapeutic targeting strategies (TREM2 antibodies, CSF1R inhibitors, reprogramming agonists).
+- [concept/tumor-hypoxia-intratumoral-heterogeneity] Spatial transcriptomics of hypoxia signatures: how do hypoxic and normoxic regions differ at single-cell resolution?
+- [concept/tumor-hypoxia-intratumoral-heterogeneity] Temporal dynamics: how stable is regional hypoxia over treatment?
+- [concept/tumor-hypoxia-intratumoral-heterogeneity] Causation: does within-tumor hypoxia heterogeneity drive subclonal divergence?
+- [concept/tumor-hypoxia-mrna-signature] Single-cell deconvolution: separating tumor-cell hypoxia from stromal hypoxia
+- [concept/tumor-hypoxia-mrna-signature] Calibration to absolute oxygen tension across signatures
+- [concept/tumor-hypoxia-mrna-signature] Validation in pediatric cancers (TCGA dominated by adult tumors)
+- [concept/tumor-hypoxia-mrna-signature] Temporal dynamics: signatures reflect *current* hypoxia or *integrated* hypoxia history?
+- [concept/tumor-subclonal-evolution-architecture] Spatial subclonality: where in the tumor each subclone resides
+- [concept/tumor-subclonal-evolution-architecture] Coupling phylogeny to microenvironmental data (hypoxia maps, immune infiltration)
+- [concept/tumor-subclonal-evolution-architecture] Validating bulk-derived phylogenies with single-cell data at scale
+- [concept/tumor-subclonal-evolution-architecture] How the immune system shapes branch-timed mutations through immune editing
 - [claim/mmac1-chemoattracts-cells-cxcl9-cxcl10] mMAC1 attracts and activates T cells via CXCL9/CXCL10 chemokines and HLA-class-I/MIF interactions (status: weakly_supported)

@@ -35,3 +35,6 @@ raw/papers/*.pdf
 raw/tmp/
 .env
 tools/*.bak
+
+# Obsidian local config (per-machine)
+wiki/.obsidian/
