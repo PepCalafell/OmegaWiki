@@ -12,14 +12,19 @@ tags:
 domain: "immunology"
 source_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
+  - cross-tissue-single-cell-landscape-human
 evidence:
   - source: nf-kb-tet2-promote-macrophage-reprogramming
     type: supports
     strength: strong
     detail: "MoMac-VERSE projection: mMAC1 transcriptomic + C2 demethylation signatures preferentially enriched on cluster #6 IL4I1 Mac (and to lesser extent IL1B Mo, ISG Mo). Sorted IL4I1 MACs from primary OC recapitulate C2 hypomethylation; p65 motif most enriched in their demethylated CpGs; RELA + HIF1A regulons up-regulated only in IL4I1 vs TREM2/FOLR2."
-conditions: "Primary OC tissue MACs sorted by flow cytometry; MoMac-VERSE atlas projection."
+  - source: cross-tissue-single-cell-landscape-human
+    type: supports
+    strength: strong
+    detail: "Provides the foundational MoMac-VERSE definition of cluster #6 IL4I1_Mac as an IL4I1⁺PD-L1⁺IDO1⁺ tumour-periphery-localised, IFN-driven, monocyte-derived immunosuppressive TAM. The shared NF-κB and IFN/STAT regulatory layers documented here are the in vivo background against which the in vitro mMAC1 correspondence in Calafell 2024 is interpretable."
+conditions: "Primary OC tissue MACs sorted by flow cytometry; MoMac-VERSE atlas projection (Mulder et al. 2021)."
 date_proposed: 2026-05-05
-date_updated: 2026-05-05
+date_updated: 2026-05-06
 ---
 
 ## Statement

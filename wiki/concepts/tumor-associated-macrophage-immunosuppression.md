@@ -17,10 +17,14 @@ tags:
 maturity: stable
 key_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
+  - cross-tissue-single-cell-landscape-human
 first_introduced: "(field-standard concept; refined here)"
-date_updated: 2026-05-05
+date_updated: 2026-05-06
 related_concepts:
   - mmac1-hypoxic-inflammatory-macrophage
+  - momac-verse-mnp-verse-atlas
+  - trem2-tumor-associated-macrophage
+  - il4i1-tumor-associated-macrophage
 ---
 
 ## Definition
@@ -66,6 +70,7 @@ When framing TME-driven MAC reprogramming, especially as the null hypothesis aga
 
 ## Key papers
 
+- [[papers/cross-tissue-single-cell-landscape-human]] — pan-tissue scRNA-seq decomposition of TAM heterogeneity into MoMac-VERSE clusters; defines TREM2_Mac and IL4I1_Mac as the two principal pan-cancer immunosuppressive TAM populations and shows that the binary M1/M2 framing under-describes this diversity.
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — provides a hypoxic exception to the universal-immunosuppression framing
 
 ## My understanding

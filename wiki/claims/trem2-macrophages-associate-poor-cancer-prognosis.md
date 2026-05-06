@@ -12,14 +12,19 @@ tags:
 domain: "oncology / immunology"
 source_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
+  - cross-tissue-single-cell-landscape-human
 evidence:
   - source: nf-kb-tet2-promote-macrophage-reprogramming
     type: supports
     strength: moderate
     detail: "TCGA pan-cancer: TREM2 MAC signature → worse OS in 7/12 cancer types, the highest-association poor-prognosis MAC signature in the panel. Consistent with prior literature (43)."
-conditions: "TCGA bulk-deconvolution-based scoring with MoMac-VERSE-derived signature."
+  - source: cross-tissue-single-cell-landscape-human
+    type: supports
+    strength: strong
+    detail: "MoMac-VERSE cluster #3 (TREM2_Mac) significantly accumulates in tumour vs healthy / normal-adjacent tissue across all 6 cancer scRNA-seq datasets (lung, colon, liver, breast, stomach, pancreas; paired t-test p<0.0001). Predominantly monocyte-derived per Ms4a3-Cre fate-mapping; cross-species validation against murine Trem2 TAMs (Katzenelenbogen 2020; Molgora 2020). Provides the foundational TREM2 TAM signature used downstream in TCGA scoring."
+conditions: "TCGA bulk-deconvolution-based scoring with MoMac-VERSE-derived signature; pan-cancer scRNA-seq across 6 tumour types in MoMac-VERSE."
 date_proposed: 2026-05-05
-date_updated: 2026-05-05
+date_updated: 2026-05-06
 ---
 
 ## Statement

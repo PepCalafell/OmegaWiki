@@ -19,12 +19,14 @@ maturity: emerging
 key_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
 first_introduced: "Calafell-Segura/de la Calle-Fabregat 2024"
-date_updated: 2026-05-05
+date_updated: 2026-05-06
 related_concepts:
   - cluster-c2-hypoxia-hypomethylation-signature
   - nf-kb-mediated-dna-demethylation-hypoxia
   - hif1a-nf-kb-cooperative-chromatin-binding
   - tumor-associated-macrophage-immunosuppression
+  - il4i1-tumor-associated-macrophage
+  - momac-verse-mnp-verse-atlas
 ---
 
 ## Definition

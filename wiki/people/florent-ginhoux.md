@@ -4,7 +4,7 @@ affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; A
 role: pi
 group: "Ginhoux Lab"
 institution: "Gustave Roussy / A*STAR Singapore"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -16,7 +16,7 @@ tags:
   - mononuclear-phagocyte
 homepage: ""
 scholar: ""
-date_updated: 2026-05-05
+date_updated: 2026-05-06
 ---
 
 ## Research areas
@@ -26,8 +26,9 @@ date_updated: 2026-05-05
 - Tumor-associated macrophages and TME immunology
 - Embryonic vs monocyte-derived MAC origins
 
-## Key papers
+## Key papers in vault
 
+- [[papers/cross-tissue-single-cell-landscape-human]] — co-corresponding senior author (Mulder, Patel, Kong et al., *Immunity* 2021); the MoMac-VERSE foundational paper.
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — co-author (Sci Adv 2024); MoMac-VERSE (cited reference 10) is the in vivo atlas used here for signature mapping.
 
 ## Recent work
@@ -35,11 +36,14 @@ date_updated: 2026-05-05
 - MoMac-VERSE pan-tissue MAC atlas (Mulder et al. *Immunity* 2021, ref 10 in the present paper).
 - Multiple landmark works on MAC ontogeny, microglia origins, dendritic cell development.
 
-## Collaborators
+## Collaborators within vault
 
 - [[people/carlos-de-la-calle-fabregat]] — postdoc in his lab at Gustave Roussy
 - [[people/esteban-ballestar]] — co-corresponding collaborator on macrophage epigenetics
-- [[people/josep-calafell-segura]] — collaborator (co-first author)
+- [[people/josep-calafell-segura]] — collaborator (co-first author on Calafell 2024)
+- [[people/kevin-mulder]] — co-first author on Mulder et al. 2021 MoMac-VERSE
+- [[people/charles-antoine-dutertre]] — co-corresponding senior author on Mulder et al. 2021
+- [[people/camille-bleriot]] — co-corresponding senior author on Mulder et al. 2021
 
 ## My notes
 
