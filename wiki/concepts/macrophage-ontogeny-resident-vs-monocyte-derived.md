@@ -22,7 +22,8 @@ tags:
 maturity: active
 key_papers:
   - cross-tissue-single-cell-landscape-human
-first_introduced: "Ginhoux 2010, Hashimoto 2013, Mass 2016, Liu (Ms4a3) 2019"
+  - tissue-resident-macrophages-provide-pro-tumorigenic
+first_introduced: "Ginhoux 2010, Hashimoto 2013, Mass 2016, Liu (Ms4a3) 2019; applied to NSCLC TRM vs MDM in Casanova-Acebes 2021"
 date_updated: 2026-05-06
 related_concepts:
   - mononuclear-phagocyte-system
@@ -82,6 +83,7 @@ vs MoMac-VERSE clusters: HES1_Mac (#2) and FTL_Mac (#17) lean embryonic-resident
 ## Key papers
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — uses Ms4a3-Cre mouse liver scRNA-seq and the LYVE1⁻ conserved monocyte signature to assign embryonic vs monocyte-derived origin to MoMac-VERSE clusters: HES1_Mac and FTL_Mac map to embryonic; TREM2_Mac, IL4I1_Mac, proliferating_Mac, C1Qhi_Mac map to monocyte-derived
+- [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — applies Map17(Pdzk1ip1)-creER and Cx3cr1-creER fate mapping in mouse NSCLC to assign group I (PPARG⁺/MARCO⁺/SIGLEC1⁺) to TRM lineage and group II (TREM2⁺/SPP1⁺/APOE⁺/GPNMB⁺) to MDM lineage; cross-species signatures conserved between human and mouse
 
 ## My understanding
 

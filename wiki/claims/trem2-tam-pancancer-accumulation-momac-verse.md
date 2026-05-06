@@ -13,11 +13,16 @@ tags:
 domain: "oncology / immunology"
 source_papers:
   - cross-tissue-single-cell-landscape-human
+  - tissue-resident-macrophages-provide-pro-tumorigenic
 evidence:
   - source: cross-tissue-single-cell-landscape-human
     type: supports
     strength: strong
     detail: "MoMac-VERSE cluster #3 (TREM2_Mac) is significantly increased in tumour vs matched healthy/normal-adjacent tissue across all 6 cancer scRNA-seq datasets included in the study (lung Kim, colon Zhang10X, colon Lee, liver Zheng10X, liver Sharma, breast Azizi, stomach Irac, pancreas Peng); paired t-test p<0.0001 (Fig. 4N). Cross-species validation: TREM2_Mac shares signature with murine Trem2 TAMs (Katzenelenbogen 2020; Molgora 2020). Mouse Ms4a3-Cre fate-mapping: TREM2_Mac is predominantly monocyte-derived."
+  - source: tissue-resident-macrophages-provide-pro-tumorigenic
+    type: supports
+    strength: moderate
+    detail: "Independent corroboration in NSCLC: Casanova-Acebes 2021 (Nature) identifies TREM2/SPP1/APOE/GPNMB as the canonical 'group II' monocyte-derived TAM signature in both mouse KP NSCLC and human NSCLC scRNA-seq (35-patient Mount Sinai cohort), with cross-species conservation. Supports the pan-cancer TREM2 TAM accumulation framework with NSCLC-specific in vivo lineage-tracing evidence (Map17-creER, Cx3cr1-creER)."
 conditions: "Pan-cancer scRNA-seq across 6 tumour types with paired healthy / normal-adjacent samples; cluster identity assigned via MoMac-VERSE Phenograph."
 date_proposed: 2026-05-06
 date_updated: 2026-05-06

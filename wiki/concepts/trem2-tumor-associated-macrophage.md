@@ -23,7 +23,8 @@ maturity: active
 key_papers:
   - cross-tissue-single-cell-landscape-human
   - nf-kb-tet2-promote-macrophage-reprogramming
-first_introduced: "Multiple (Katzenelenbogen 2020 *Cell*; Sharma 2020 *Cell*; Molgora 2020 *Cell*); consolidated by Mulder et al. 2021 as MoMac-VERSE cluster #3"
+  - tissue-resident-macrophages-provide-pro-tumorigenic
+first_introduced: "Multiple (Katzenelenbogen 2020 *Cell*; Sharma 2020 *Cell*; Molgora 2020 *Cell*); consolidated by Mulder et al. 2021 as MoMac-VERSE cluster #3; identified as monocyte-derived 'group II' MDM signature in NSCLC by Casanova-Acebes 2021"
 date_updated: 2026-05-06
 related_concepts:
   - momac-verse-mnp-verse-atlas
@@ -81,6 +82,7 @@ When characterising lipid-handling or efferocytic TAM populations in any cancer 
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — defined MoMac-VERSE cluster #3, demonstrated pan-cancer accumulation, fate-mapped to monocyte origin
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — used TREM2 TAM signature as the contrastive immunosuppressive baseline against the hypoxic mMAC1 / IL4I1 axis
+- [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — identifies TREM2/SPP1/APOE/GPNMB as the canonical monocyte-derived "group II" MDM signature in mouse and human NSCLC, ontogenically distinct from PPARG⁺/MARCO⁺ alveolar TRMs (group I); cross-species conservation reinforces the TREM2 TAM pan-cancer module
 
 ## My understanding
 

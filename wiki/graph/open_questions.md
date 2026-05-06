@@ -19,6 +19,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the same NF-κB-driven C2 demethylation occur in tissue-resident or embryonic-origin MACs, or is it specific to monocyte-derived M-CSF MACs?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Is the mMAC1 ↔ T-cell crosstalk causally responsible for the survival benefit in BLCA, or merely a co-occurring marker of immune-hot tumors?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How does mMAC1 relate to the trained-immunity literature, given the persistent epigenetic remodeling observed?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Which specific factor(s) secreted by TRMs are necessary and sufficient for the EMT/invasiveness programme in adjacent tumour cells?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Why is the niche function restricted to early lesions — what changes in TRMs (or in tumours) by day 12-15 that abolishes the dependence?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Is TRM-driven EMT generalisable to other early epithelial cancers beyond NSCLC?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] How can TRMs be selectively targeted in patients without affecting beneficial homeostatic functions (surfactant clearance)?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] How does the alveolar TRM PPARG⁺/MARCO⁺ signature relate to MoMac-VERSE cluster #2 (HES1) versus a missing alveolar-specific cluster?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
+- [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
@@ -31,6 +39,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/il4i1-tumor-associated-macrophage] Whether the ISG_Mo → IL4I1_Mac trajectory is reversible or terminally differentiated
 - [concept/m1-m2-polarization-paradigm] A formal replacement nomenclature that combines stimulus, ontogeny, and tissue niche
 - [concept/m1-m2-polarization-paradigm] Quantitative scoring frameworks that encode multidimensional polarisation rather than collapsing to one axis
+- [concept/macrophage-induced-emt-tumor-invasiveness] Identification of the necessary and sufficient TRM-secreted EMT inducer(s)
+- [concept/macrophage-induced-emt-tumor-invasiveness] Whether the TRM-EMT axis generalises to non-lung early epithelial cancers
+- [concept/macrophage-induced-emt-tumor-invasiveness] Interplay with hypoxic / WNT / Notch EMT signalling
+- [concept/macrophage-induced-emt-tumor-invasiveness] Therapeutic blockade strategies (anti-TGFβ, anti-uPAR, etc.) and timing requirements
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Whether monocyte-derived TAMs in tumours acquire long-term-resident properties or remain transient
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
@@ -45,9 +57,19 @@ _Auto-generated open questions. Do not edit._
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
+- [concept/tissue-resident-macrophage-tumor-niche] Identification of the secreted factor(s) (VEGFA? PLAU? TGFβ1?) that mediate the EMT-niche signal
+- [concept/tissue-resident-macrophage-tumor-niche] Mechanism of temporal restriction: why does TRM dependence end at day 12-15?
+- [concept/tissue-resident-macrophage-tumor-niche] Generalisability across tumour types — is there a Kupffer-cell-driven HCC niche, microglia-driven glioma niche, etc.?
+- [concept/tissue-resident-macrophage-tumor-niche] How TRM niche functions interface with hypoxia-driven macrophage reprogramming
+- [concept/tissue-resident-macrophage-tumor-niche] Therapeutic targeting strategies that selectively impair the niche function without compromising surfactant clearance and homeostatic TRM functions
 - [concept/trem2-tumor-associated-macrophage] Whether targeting TREM2 unmasks compensatory immunosuppressive programmes (e.g. IL4I1)
 - [concept/trem2-tumor-associated-macrophage] Spatial relationship of TREM2 TAM with tumour necrotic core vs invasive front
 - [concept/trem2-tumor-associated-macrophage] Tumour-type-specific functional roles vs pan-cancer commonalities
+- [concept/trm-induced-treg-licensing] Molecular basis of CD73/CTLA-4 induction by TRMs (vs MDMs)
+- [concept/trm-induced-treg-licensing] Whether TRM licensing renders Tregs resistant to anti-CTLA-4 (ipilimumab) clinical efficacy
+- [concept/trm-induced-treg-licensing] Generalisability beyond NSCLC and B16-OVA melanoma
+- [concept/trm-induced-treg-licensing] Single-cell phenotyping of TRM-licensed vs MDM-induced Tregs in human tumours
+- [concept/trm-induced-treg-licensing] Therapeutic exploitation: blocking TRM-Treg licensing without depleting TRMs
 - [concept/tumor-associated-macrophage-immunosuppression] Single-cell-resolved markers and signatures across cancers (atlas-scale).
 - [concept/tumor-associated-macrophage-immunosuppression] Causal vs correlational role of TAM presence in outcomes.
 - [concept/tumor-associated-macrophage-immunosuppression] Therapeutic targeting strategies (TREM2 antibodies, CSF1R inhibitors, reprogramming agonists).
