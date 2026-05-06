@@ -2,6 +2,7 @@ papers:
   - slug: cross-tissue-single-cell-landscape-human
   - slug: nf-kb-tet2-promote-macrophage-reprogramming
   - slug: tissue-resident-macrophages-provide-pro-tumorigenic
+  - slug: physiology-diseases-tissue-resident-macrophages
 
 concepts:
   - slug: il4i1-tumor-associated-macrophage
@@ -18,6 +19,18 @@ concepts:
   - slug: tissue-resident-macrophage-tumor-niche
   - slug: macrophage-induced-emt-tumor-invasiveness
   - slug: trm-induced-treg-licensing
+  - slug: tissue-specific-lineage-determining-factors-macrophage
+  - slug: csf1r-il34-csf2-trophic-axis
+  - slug: efferocytosis-anti-inflammatory-clearance
+  - slug: microglia-synaptic-pruning-complement
+  - slug: kupffer-cell-iron-recycling
+  - slug: adipose-macrophage-pdgf-cc-lipid-storage
+  - slug: trm-bmdm-tissue-repair-fibrosis-dichotomy
+  - slug: trem2-microglia-dementia-axis
+  - slug: lysosomal-storage-disease-macrophage-dysfunction
+  - slug: sirpa-cd47-don-t-eat-me-axis
+  - slug: osteoclast-multinucleated-macrophage-bone
+  - slug: pattern-recognition-receptors-macrophage
 
 foundations:
   - slug: hif1a
@@ -43,6 +56,10 @@ foundations:
   - slug: cx3cr1-creer-fate-mapping
   - slug: ms4a3-tdtom-monocyte-tracing
   - slug: scrna-seq-10x-chromium
+  - slug: csf1r-receptor
+  - slug: spi1-pu1-master-tf
+  - slug: mertk-tam-receptors
+  - slug: tgfb1-cytokine
 
 claims:
   - slug: momac-verse-conserved-mnp-signatures-cross-tissue
@@ -80,6 +97,21 @@ claims:
   - slug: trm-depletion-no-effect-established-tumors
   - slug: trm-depletion-reduces-b16-melanoma-tumor
   - slug: trm-mdm-conserved-cross-species-pparg-trem2
+  - slug: tissue-specific-ldfs-drive-trm-identity
+  - slug: niche-signals-instruct-trm-specification
+  - slug: csf1-il34-csf2-control-trm-development
+  - slug: trm-self-renew-locally
+  - slug: efferocytosis-uses-tim4-tam-and-bridging-ligands
+  - slug: efferocytosis-yields-anti-inflammatory-output
+  - slug: microglia-prune-synapses-via-c1q
+  - slug: microglia-bdnf-supports-learning-synapse-formation
+  - slug: csf1r-loss-causes-leukoencephalopathy
+  - slug: trem2-loss-causes-nasu-hakola-and-alzheimer-risk
+  - slug: osteoclasts-are-chimeric-EMP-HSC-syncytia
+  - slug: kupffer-recycle-iron-via-ferroportin
+  - slug: adipose-trm-pdgf-cc-controls-lipid-storage
+  - slug: ccr2-monocyte-deficiency-reduces-fibrosis
+  - slug: sirpa-cd47-axis-blocks-phagocytosis
 
 people:
   - slug: kevin-mulder
@@ -95,6 +127,8 @@ people:
   - slug: boris-reizis
   - slug: brian-d-brown
   - slug: philippe-benaroch
+  - slug: frederic-geissmann
+  - slug: tomi-lazarov
 
 topics: []
 

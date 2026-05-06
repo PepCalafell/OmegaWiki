@@ -19,6 +19,19 @@ _Auto-generated open questions. Do not edit._
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the same NF-κB-driven C2 demethylation occur in tissue-resident or embryonic-origin MACs, or is it specific to monocyte-derived M-CSF MACs?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Is the mMAC1 ↔ T-cell crosstalk causally responsible for the survival benefit in BLCA, or merely a co-occurring marker of immune-hot tumors?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How does mMAC1 relate to the trained-immunity literature, given the persistent epigenetic remodeling observed?
+- [paper/physiology-diseases-tissue-resident-macrophages] Whether TRM self-renewal occurs by mitosis of differentiated cells or via an unidentified tissue macrophage progenitor (p.701).
+- [paper/physiology-diseases-tissue-resident-macrophages] Whether single niche signals are sufficient to determine TRM identity, or whether unique cytokine-cocktails are required (p.700).
+- [paper/physiology-diseases-tissue-resident-macrophages] The relative contribution of stochastic vs instructive specification (p.700) — authors favour stochastic/selection but acknowledge unresolved.
+- [paper/physiology-diseases-tissue-resident-macrophages] The respective roles of monocytes vs resident macrophages in efferocytosis (p.704).
+- [paper/physiology-diseases-tissue-resident-macrophages] Whether the primitive haematopoietic (RUNX1-independent) lineage contributes to adult mammalian microglia (p.699).
+- [paper/physiology-diseases-tissue-resident-macrophages] Mechanisms underlying Kupffer-cell-mediated anti-tumour activity in liver (p.704).
+- [paper/physiology-diseases-tissue-resident-macrophages] Whether BMDM contribution to fat-resident macrophage pool in obesity is clinically targetable (p.704).
+- [paper/physiology-diseases-tissue-resident-macrophages] Which LDFs are *necessary* vs *sufficient* for tissue-specific TRM identity remains unmapped — most evidence is loss-of-function, not gain-of-function reprogramming.
+- [paper/physiology-diseases-tissue-resident-macrophages] Quantitative parameters of "ancillary pairing" — how much TRM dysfunction is tolerated before parenchymal cell decompensates? Threshold-effect is implied by hypomorphic-vs-bi-allelic CSF1R severity gradient but not formalized.
+- [paper/physiology-diseases-tissue-resident-macrophages] How does the *epigenetic* TRM state (Lavin 2014, Gosselin 2014 enhancer landscapes) interact with the LDF-instructive vs stochastic-selection mechanism? The review treats them as a single layer, but the field has pulled them apart.
+- [paper/physiology-diseases-tissue-resident-macrophages] Which TRM diseases are amenable to BMT/HSC-replacement and which are not? Review notes BMT helps "some but not all" LSD patients; the predictive logic is unclear.
+- [paper/physiology-diseases-tissue-resident-macrophages] For tumour immunology specifically: do early-stage Kupffer-cell-mediated tumour limitation and late-stage TAM-mediated tumour promotion involve the *same* lineage of cells switching state, or are they distinct populations?
+- [paper/physiology-diseases-tissue-resident-macrophages] How does the model interface with the Casanova-Acebes 2021 finding that lung TRMs *promote* (not limit) early tumours? The Lazarov review predates that paper's TRM-pro-tumour story being fully appreciated; future syntheses need to reconcile organ-specific opposite directions.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Which specific factor(s) secreted by TRMs are necessary and sufficient for the EMT/invasiveness programme in adjacent tumour cells?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Why is the niche function restricted to early lesions — what changes in TRMs (or in tumours) by day 12-15 that abolishes the dependence?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Is TRM-driven EMT generalisable to other early epithelial cancers beyond NSCLC?
@@ -27,9 +40,18 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
+- [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
+- [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
+- [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
+- [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
+- [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
+- [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
+- [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
+- [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
@@ -37,6 +59,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/il4i1-tumor-associated-macrophage] Compensatory induction of IL4I1 after PD-1/PD-L1 blockade
 - [concept/il4i1-tumor-associated-macrophage] Tumour-type-specific dependencies on IL4I1 vs IDO1 vs both
 - [concept/il4i1-tumor-associated-macrophage] Whether the ISG_Mo → IL4I1_Mac trajectory is reversible or terminally differentiated
+- [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
+- [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
+- [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
+- [concept/lysosomal-storage-disease-macrophage-dysfunction] Whether boosting alternative degradative pathways (autophagy, proteasome) can compensate for hydrolase deficiency.
+- [concept/lysosomal-storage-disease-macrophage-dysfunction] Why some LSDs respond well to BMT and others don't despite similar enzyme deficiency.
+- [concept/lysosomal-storage-disease-macrophage-dysfunction] The role of microglia replacement (CSF1R-blockade-and-replacement strategies) in neuropathic LSDs.
 - [concept/m1-m2-polarization-paradigm] A formal replacement nomenclature that combines stimulus, ontogeny, and tissue niche
 - [concept/m1-m2-polarization-paradigm] Quantitative scoring frameworks that encode multidimensional polarisation rather than collapsing to one axis
 - [concept/macrophage-induced-emt-tumor-invasiveness] Identification of the necessary and sufficient TRM-secreted EMT inducer(s)
@@ -46,6 +74,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Whether monocyte-derived TAMs in tumours acquire long-term-resident properties or remain transient
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
+- [concept/microglia-synaptic-pruning-complement] Whether activity-dependent C1Q deposition is upstream or downstream of synaptic weakness.
+- [concept/microglia-synaptic-pruning-complement] The molecular logic of microglial decisions about which synapse to prune.
+- [concept/microglia-synaptic-pruning-complement] How disease-associated microglia (TREM2-driven DAM state) lose vs gain pruning capacity in Alzheimer's.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether GM-CSF-derived or tissue-resident MACs reproduce the C2 hypomethylation under hypoxia.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] TET-isoform specificity (TET2 vs TET1/3) at C2 loci.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether the mMAC1 → T-cell crosstalk is causally responsible for the BLCA/OC survival benefit.
@@ -57,14 +88,32 @@ _Auto-generated open questions. Do not edit._
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
+- [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
+- [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
+- [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
+- [concept/pattern-recognition-receptors-macrophage] Why some PRR-deficient patients develop autoinflammation (e.g. NLRP3 gain-of-function = CAPS) while others develop susceptibility to specific infections.
+- [concept/pattern-recognition-receptors-macrophage] The role of macrophage PRRs in *sterile* injury (DAMP-driven inflammation, atherosclerosis, neurodegeneration).
+- [concept/pattern-recognition-receptors-macrophage] Whether PRR inhibitors can be developed without unacceptable infection susceptibility.
+- [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
+- [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
+- [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
 - [concept/tissue-resident-macrophage-tumor-niche] Identification of the secreted factor(s) (VEGFA? PLAU? TGFβ1?) that mediate the EMT-niche signal
 - [concept/tissue-resident-macrophage-tumor-niche] Mechanism of temporal restriction: why does TRM dependence end at day 12-15?
 - [concept/tissue-resident-macrophage-tumor-niche] Generalisability across tumour types — is there a Kupffer-cell-driven HCC niche, microglia-driven glioma niche, etc.?
 - [concept/tissue-resident-macrophage-tumor-niche] How TRM niche functions interface with hypoxia-driven macrophage reprogramming
 - [concept/tissue-resident-macrophage-tumor-niche] Therapeutic targeting strategies that selectively impair the niche function without compromising surfactant clearance and homeostatic TRM functions
+- [concept/tissue-specific-lineage-determining-factors-macrophage] Whether stochastic or instructive specification dominates in the embryo.
+- [concept/tissue-specific-lineage-determining-factors-macrophage] Whether unique cocktails of cytokines and growth factors can substitute for LDF expression.
+- [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).
+- [concept/trem2-microglia-dementia-axis] Whether TREM2 agonists in late-stage Alzheimer's will help (DAM may be exhausted) or harm (overdrive of inflammation).
+- [concept/trem2-microglia-dementia-axis] The interaction between TREM2-DAM and complement-pruning machinery in synapse loss.
+- [concept/trem2-microglia-dementia-axis] Why some TREM2 variants are protective (T96K, L211P) while others are risk-increasing (R47H, R62H).
 - [concept/trem2-tumor-associated-macrophage] Whether targeting TREM2 unmasks compensatory immunosuppressive programmes (e.g. IL4I1)
 - [concept/trem2-tumor-associated-macrophage] Spatial relationship of TREM2 TAM with tumour necrotic core vs invasive front
 - [concept/trem2-tumor-associated-macrophage] Tumour-type-specific functional roles vs pan-cancer commonalities
+- [concept/trm-bmdm-tissue-repair-fibrosis-dichotomy] Quantitative thresholds for TRM-vs-BMDM contribution at which repair tips into fibrosis.
+- [concept/trm-bmdm-tissue-repair-fibrosis-dichotomy] Whether BMDMs that persist in tissue can be re-educated into TRM-like restorative cells.
+- [concept/trm-bmdm-tissue-repair-fibrosis-dichotomy] Why anti-CCR2 therapy underperforms in human fibrotic disease compared to mouse models.
 - [concept/trm-induced-treg-licensing] Molecular basis of CD73/CTLA-4 induction by TRMs (vs MDMs)
 - [concept/trm-induced-treg-licensing] Whether TRM licensing renders Tregs resistant to anti-CTLA-4 (ipilimumab) clinical efficacy
 - [concept/trm-induced-treg-licensing] Generalisability beyond NSCLC and B16-OVA melanoma

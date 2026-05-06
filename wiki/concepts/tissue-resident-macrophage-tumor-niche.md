@@ -26,7 +26,8 @@ tags:
 maturity: emerging
 key_papers:
   - tissue-resident-macrophages-provide-pro-tumorigenic
-first_introduced: "Casanova-Acebes et al. *Nature* 2021 (this paper); precursor framings in Lavin 2017, Mantovani 2017"
+  - physiology-diseases-tissue-resident-macrophages
+first_introduced: "Casanova-Acebes et al. *Nature* 2021 (this paper); precursor framings in Lavin 2017, Mantovani 2017; broader TRM-disease context in Lazarov & Geissmann 2023 Nature review"
 date_updated: 2026-05-06
 related_concepts:
   - macrophage-ontogeny-resident-vs-monocyte-derived

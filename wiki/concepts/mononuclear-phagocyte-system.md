@@ -23,6 +23,7 @@ tags:
 maturity: stable
 key_papers:
   - cross-tissue-single-cell-landscape-human
+  - physiology-diseases-tissue-resident-macrophages
 first_introduced: "van Furth et al. 1972 *Bull World Health Organ*"
 date_updated: 2026-05-06
 related_concepts:
