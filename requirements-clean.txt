@@ -1,0 +1,26 @@
+# OmegaWiki minimal dependencies for /ingest skill
+# Generated from analyzing tools/*.py imports
+
+# Core PDF/text processing
+PyMuPDF>=1.23.0
+
+# HTTP requests (Semantic Scholar, arXiv, PubMed)
+requests>=2.28.0
+
+# RSS/feed parsing (arXiv RSS)
+feedparser>=6.0.0
+
+# HTML to markdown conversion (web fetches)
+markdownify>=0.11.0
+
+# Character encoding detection
+chardet>=5.0.0
+
+# YAML frontmatter parsing (Obsidian wiki)
+PyYAML>=6.0
+
+# JSON-line files (graph edges)
+# (uses Python stdlib only)
+
+# Optional: DeepXiv (auto-registers token, often skipped)
+# deepxiv-sdk>=0.2.0
