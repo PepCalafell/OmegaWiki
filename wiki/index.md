@@ -298,18 +298,6 @@ claims:
     status: supported
     confidence: 0.85
     domain: cell biology / metabolism / immunology
-  - slug: ancestry-disparity-tumor-hypoxia-brca
-    title: "Tumor hypoxia in BRCA differs by self-reported ancestry — Caucasian < Asian/African"
-    tags: [hypoxia, ancestry, BRCA, health-disparity, precision-medicine, evofosfamide]
-    status: supported
-    confidence: 0.8
-    domain: oncology / cancer-genomics / health-disparities
-  - slug: belzutifan-first-fda-approved-hif2a-inhibitor-vhl
-    title: "Belzutifan (MK-6482) is the first FDA-approved HIF-2α inhibitor, indicated for VHL-disease-associated tumors"
-    tags: [Belzutifan, MK-6482, HIF-2α, VHL-disease, clear-cell-renal-cell-carcinoma, pancreatic-neuroendocrine-tumor, hemangioblastoma, small-molecule, PAS-B-pocket, FDA-approved, clinical-trial, oncology-drug-development]
-    status: supported
-    confidence: 0.95
-    domain: oncology / drug-discovery / hypoxia-therapeutics
   - slug: c2-cluster-cpg-demethylation-specific-hypoxic
     title: "Cluster C2 (403 CpGs) is hypomethylated specifically in hypoxic LPS-activated MACs"
     tags: [DNA-methylation, hypoxia, macrophage, NF-kB, epigenetics]
@@ -382,12 +370,6 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology / epigenetics
-  - slug: hypoxia-cnas-occur-early-trunk-evolution
-    title: "Hypoxia-associated CNAs preferentially occur early in tumor evolution (in trunk, not branch)"
-    tags: [hypoxia, subclonal-evolution, trunk, CNAs, early-driver, selection, prostate-cancer]
-    status: supported
-    confidence: 0.9
-    domain: oncology / cancer-genomics / tumor-evolution
   - slug: hypoxia-elevates-genomic-instability-pancancer
     title: "Tumor hypoxia is associated with elevated genomic instability across cancer types"
     tags: [hypoxia, genomic-instability, PGA, pancancer, cancer]
@@ -406,24 +388,6 @@ claims:
     status: supported
     confidence: 0.85
     domain: epigenetics
-  - slug: hypoxia-pten-tert-three-way-telomere-interaction
-    title: "Hypoxia × PTEN × TERT three-way interaction modulates telomere length in localized PCa"
-    tags: [hypoxia, PTEN, TERT, telomere, prostate-cancer, interaction, HIF1A]
-    status: supported
-    confidence: 0.75
-    domain: oncology / cancer-genomics / prostate-cancer
-  - slug: hypoxia-tam-pd-l1-immune-evasion
-    title: "Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs"
-    tags: [PD-L1, hypoxia, TAM, immune-evasion, HIF-1α, exosome, lactate, IL-6, STAT3, immune-checkpoint, intermittent-hypoxia, obstructive-sleep-apnea]
-    status: supported
-    confidence: 0.75
-    domain: oncology / immunology / hypoxia
-  - slug: hypoxic-tumor-exosomes-drive-tam-m2-polarization
-    title: "Hypoxic tumor cell-derived exosomes carrying ncRNA cargo drive TAM M2 polarization across cancer types"
-    tags: [hypoxia, exosome, extracellular-vesicle, miRNA, M2-polarization, TAM, tumor-microenvironment]
-    status: supported
-    confidence: 0.85
-    domain: oncology / immunology / hypoxia
   - slug: il4i1-macrophages-vivo-correlates-mmac1
     title: "IL4I1 macrophages are the in vivo correlates of in vitro mMAC1"
     tags: [macrophage, IL4I1, tumor-microenvironment, signature-mapping, in-vivo]
@@ -442,24 +406,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / oncology
-  - slug: kdm6a-kdm5a-direct-oxygen-sensors
-    title: "KDM6A and KDM5A histone demethylases are direct oxygen sensors regulating cell fate independent of HIF"
-    tags: [KDM6A, KDM5A, histone-demethylase, oxygen-sensor, chromatin, epigenetics, hypoxia, HIF-independent, H3K27me3, H3K4me3]
-    status: supported
-    confidence: 0.85
-    domain: molecular-biology / chromatin / hypoxia
   - slug: kupffer-recycle-iron-via-ferroportin
     title: "Kupffer cells recycle iron from senescent erythrocytes via ferroportin export, the dominant iron-recycling pathway in mammals"
     tags: [kupffer-cell, iron-metabolism, ferroportin, macrophage, liver, homeostasis]
     status: supported
     confidence: 0.95
     domain: cell biology / hematology / immunology
-  - slug: lactate-tam-m2-polarization-hif1a-pka-creb
-    title: "Tumor-derived lactate drives TAM M2 polarization via HIF-1α and via GPCR/PKA-CREB; synergizes with hypoxia"
-    tags: [lactate, lactic-acid, TAM, M2-polarization, HIF-1α, PKA-CREB, oncometabolite, hypoxia, VEGFA, ARG1]
-    status: supported
-    confidence: 0.85
-    domain: oncology / metabolism / immunology
   - slug: macrophages-express-five-prr-families-tlr
     title: "Macrophages express five pattern recognition receptor families — TLRs, NLRs, RLRs, ALRs and CLRs — for pathogen sensing"
     tags: [macrophage, prr, pattern-recognition-receptor, tlr, nlr, rlr, alr, clr, innate-immunity, immunology]
@@ -478,18 +430,6 @@ claims:
     status: supported
     confidence: 0.9
     domain: neuroscience / immunology
-  - slug: mir-133a-3p-tumor-suppressor-prostate-hypoxia
-    title: "miR-133a-3p is a hypoxia-downregulated tumor-suppressor microRNA in localized prostate cancer"
-    tags: [miR-133a-3p, hypoxia, prostate-cancer, tumor-suppressor, microRNA, in-vitro-validation, functional]
-    status: supported
-    confidence: 0.85
-    domain: oncology / non-coding-RNA / prostate-cancer
-  - slug: mir-210-induced-under-hypoxia-pancancer
-    title: "miR-210 abundance is positively correlated with hypoxia score in 18 of 19 tumor types"
-    tags: [miR-210, hypoxia, microRNA, HIF1A, pancancer, canonical]
-    status: supported
-    confidence: 0.95
-    domain: oncology / non-coding-RNA / hypoxia
   - slug: mmac1-chemoattracts-cells-cxcl9-cxcl10
     title: "mMAC1 attracts and activates T cells via CXCL9/CXCL10 chemokines and HLA-class-I/MIF interactions"
     tags: [macrophage, T-cell, chemokine, tumor-microenvironment, cell-cell-communication]
@@ -508,30 +448,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / single-cell
-  - slug: myc-gain-co-occurs-hypoxia-pancancer
-    title: "MYC oncogene gain co-occurs with elevated hypoxia in 11 tumor types"
-    tags: [MYC, hypoxia, oncogene, pancancer, amplification, CNA]
-    status: supported
-    confidence: 0.85
-    domain: oncology / cancer-genomics
-  - slug: nfkb-dimer-composition-determines-tam-m1-m2
-    title: "NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2"
-    tags: [NF-κB, p50, p65, RELA, NFKB1, dimer-composition, macrophage-polarization, M1, M2, TAM]
-    status: weakly_supported
-    confidence: 0.6
-    domain: molecular-biology / immunology
   - slug: niche-signals-instruct-trm-specification
     title: "Tissue-niche-derived signals (TGFβ, IL-34, retinoic acid, desmosterol, CSF2, haem) instruct lineage-determining factor expression in tissue-resident macrophage specification"
     tags: [macrophage, niche-signaling, tissue-specification, TGFb, IL-34, immunology]
     status: supported
     confidence: 0.85
     domain: immunology / developmental biology
-  - slug: nimbosus-aggressive-pca-phenotype
-    title: "Hypoxia + IDC-CA + PTEN-loss define a constellation 'nimbosus' associated with extreme PCa aggression"
-    tags: [prostate-cancer, nimbosus, hypoxia, PTEN, IDC-CA, aggressive-phenotype, prognostic, HR]
-    status: supported
-    confidence: 0.85
-    domain: oncology / cancer-genomics / prostate-cancer
   - slug: osteoclasts-are-chimeric-EMP-HSC-syncytia
     title: "Adult osteoclasts are chimeric multinucleated cells containing both EMP-derived and HSC-derived nuclei"
     tags: [osteoclast, macrophage, bone, EMP, HSC, lineage-tracing, chimeric]
@@ -562,24 +484,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology / cancer-genomics / prostate-cancer
-  - slug: sema3a-nrp1-plexina-stop-signal-tam-hypoxic-niche
-    title: "Sema3A captures TAMs in hypoxic niches via NRP1-followed-by-PlexinA1/A4 stop signaling"
-    tags: [Sema3A, NRP1, PlexinA1, PlexinA4, TAM, hypoxic-niche, macrophage-recruitment, tumor-microenvironment]
-    status: supported
-    confidence: 0.7
-    domain: oncology / immunology / hypoxia
   - slug: sirpa-cd47-axis-blocks-phagocytosis
     title: "SIRPα–CD47 axis is a 'don't-eat-me' signal that protects normal cells and tumour cells from macrophage phagocytosis; targeting it is a clinical-stage cancer immunotherapy strategy"
     tags: [SIRPa, CD47, phagocytosis, macrophage-checkpoint, cancer-immunotherapy, macrophage]
     status: supported
     confidence: 0.9
     domain: immunology / cancer biology
-  - slug: succinate-sucnr1-tam-recruitment-emt
-    title: "Tumor-derived succinate engages SUCNR1 on TAMs and tumor cells to drive macrophage recruitment, M2 polarization, and EMT via PI3K-HIF-1α"
-    tags: [succinate, SUCNR1, GPR91, TAM, oncometabolite, macrophage-recruitment, M2-polarization, EMT, HIF-1α, PI3K]
-    status: supported
-    confidence: 0.75
-    domain: oncology / metabolism / immunology
   - slug: tissue-specific-ldfs-drive-trm-identity
     title: "Tissue-specific lineage-determining factors (LDFs) drive TRM identity, and their genetic deletion causes subset-specific deficiencies"
     tags: [macrophage, LDF, tissue-specification, transcription-factor, immunology]
