@@ -142,11 +142,11 @@ The shape check is intentionally narrow. Backlink symmetry, dangling-node detect
 Body sections to populate (in order): Problem, Key idea, Method, Results, **All claims (exhaustive)**, **Discussion captured**, Limitations, Open questions, My take, Related. See `docs/runtime-page-templates.en.md` for the exhaustive-claims format and the Discussion captured subsections — these are NEW REQUIRED sections for biomedical papers, do NOT skip them.
 
 **IMPORTANT — Two-pass writing for `## All claims (exhaustive)`**:
-The `[Cnn]` bullets in this section reference `[[claims/{slug}]]` wikilinks that depend on Step 4 having created the claim files. Since Step 4 runs AFTER Step 3, you must:
-1. In Step 3, write the `[Cnn]` bullets with the body content (claim text, page, quote, confidence, type, links to concepts/foundations).
+The `[cnn]` bullets in this section reference `[[claims/{slug}]]` wikilinks that depend on Step 4 having created the claim files. Since Step 4 runs AFTER Step 3, you must:
+1. In Step 3, write the `[cnn]` bullets with the body content (claim text, page, quote, confidence, type, links to concepts/foundations).
 2. Leave the `[[claims/{slug}]]` references as TODO placeholders if needed (e.g. `[[claims/TODO]]`).
 3. After Step 4 has created all claim files and you know each claim's slug, RETURN to the paper page and replace each TODO with the correct `[[claims/{slug}]]`.
-4. Step 4.E's PAGE-WRITING VALIDATION will HARD FAIL if any `[Cnn]` line lacks its `[[claims/{slug}]]` reverse-link, so do not skip this back-fill.
+4. Step 4.E's PAGE-WRITING VALIDATION will HARD FAIL if any `[cnn]` line lacks its `[[claims/{slug}]]` reverse-link, so do not skip this back-fill.
 
 ### Step 4: Concepts, claims, people
 
@@ -197,10 +197,10 @@ Before writing a paper page to disk, verify the biomedical frontmatter is filled
 - Empty biomedical frontmatter on a clearly biomedical paper is a HARD FAIL — these fields enable downstream filtering and Dataview queries.
 
 Before writing a paper page to disk, verify reverse-links to claims in the `## All claims (exhaustive)` section:
-- For EACH `[Cnn]` bullet line in the `## All claims (exhaustive)` section, the line MUST end with a ` — links: ...` field that contains `[[claims/{slug}]]` where `{slug}` is the slug of the corresponding claim file just created (or merged into) under `wiki/claims/`.
-- Mapping rule: claim at position N in the ingest's claim creation order corresponds to `[CnN]` bullet at position N. Order MUST be preserved between Step 3's `[Cnn]` numbering and Step 4's claim file creation.
+- For EACH `[cnn]` bullet line in the `## All claims (exhaustive)` section, the line MUST end with a ` — links: ...` field that contains `[[claims/{slug}]]` where `{slug}` is the slug of the corresponding claim file just created (or merged into) under `wiki/claims/`.
+- Mapping rule: claim at position N in the ingest's claim creation order corresponds to `[cnN]` bullet at position N. Order MUST be preserved between Step 3's `[cnn]` numbering and Step 4's claim file creation.
 - The `links:` field may contain `[[concepts/X]]` and `[[foundations/Y]]` in addition, but `[[claims/{slug}]]` MUST be present.
-- Missing `[[claims/{slug}]]` on any `[Cnn]` line is a HARD FAIL — orphan claims break the bidirectional-link invariant declared in the Constraints section. Regenerate the line with the proper claim wikilink and re-validate.
+- Missing `[[claims/{slug}]]` on any `[cnn]` line is a HARD FAIL — orphan claims break the bidirectional-link invariant declared in the Constraints section. Regenerate the line with the proper claim wikilink and re-validate.
 - This validation runs AFTER Step 4 has created all claim files (so the slugs are known), and BEFORE the paper page is written to disk. The paper page may need to be regenerated post-Step-4 with the correct slugs filled in.
 
 These validations run AFTER the shape check from Step 3 and BEFORE writing the file. If validation fails, regenerate the field with proper content and re-validate.
