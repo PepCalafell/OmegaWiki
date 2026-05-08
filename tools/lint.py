@@ -144,6 +144,7 @@ def find_all_pages(wiki_dir: Path) -> dict[str, Path]:
         for f in dir_path.glob("*.md"):
             slug = f.stem
             pages[slug] = f
+            pages[f"{subdir}/{slug}"] = f  # <-- línea añadida
     return pages
 
 
