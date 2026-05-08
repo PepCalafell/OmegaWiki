@@ -2,6 +2,20 @@
 
 Open this reference when `/ingest` receives a local `.pdf` and needs to convert it into a prepared `.tex` before ingest can proceed. Skip it in INIT MODE — `/init` already ran an equivalent batch preprocessing pass and handed off a canonical path.
 
+## Canonical text extraction library
+
+This project uses **PyMuPDF (`import fitz`)** as the sole PDF text extraction library. It is declared in `requirements.txt` and installed in the project's `.venv`. Do NOT probe alternatives like `pdftotext`, `pypdf`, `PyPDF2`, or `pdfplumber` — they are not project dependencies and probing them wastes turns. If `import fitz` fails, the venv is broken and the user needs to run `pip install -r requirements.txt`; surface that as the error rather than falling through to other libraries.
+
+For inline text extraction during ingest agent inspection (Step 1 of the recovery order below), use:
+
+```python
+import fitz
+doc = fitz.open("<path-to-pdf>")
+print(doc.load_page(0).get_text())  # first page; iterate doc.page_count for the rest
+```
+
+For the actual preprocessing pipeline that produces a prepared `.tex`, use `tools/prepare_paper_source.py` — it handles `fitz` internally and writes the synthetic `.tex` under `raw/tmp/`. Do not roll your own extraction pipeline.
+
 ## Why preprocessing exists
 
 A PDF on its own is a poor ingest source: text extraction quality varies, equations and captions are easy to miss, and the reference list is often unreliable. When the paper is on arXiv we can do much better by resolving it to an arXiv ID and fetching the original TeX source. If no arXiv source is available we still normalize the PDF into a synthetic `.tex` so the rest of `/ingest` works from one uniform input shape.

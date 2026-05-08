@@ -109,15 +109,21 @@ Raw persistence rule: never copy or duplicate a file already under `raw/discover
    "$PYTHON_BIN" tools/research_wiki.py slug "<paper-title>"
    ```
 
-2. Stop-if-exists: if `wiki/papers/{slug}.md` already exists and the arXiv ID or title matches, report and exit. If they differ, resolve the collision per `references/error-handling.md`.
-3. When an arXiv ID is available, query Semantic Scholar:
+2. **Stop-if-exists vs reingest**: if `wiki/papers/{slug}.md` already exists and the arXiv ID or title matches, the default action is to report and exit. However, the user may explicitly request a reingest (phrases like "reingest", "regenerate", "refresh the page", "bump ingest_version", or any explicit instruction to overwrite). When a reingest is requested:
+   - Bump the page's `ingest_version` by 1 (e.g. 1 → 2) and update `ingested_date` to today.
+   - Preserve ALL existing slugs (concepts, claims, foundations, people) — when reconciling entities in Step 4, ALWAYS check `wiki/{type}/` for existing files before creating new ones. Use `find-similar-*` tools as usual; merge into existing rather than creating duplicates with `-2` suffixes.
+   - Run `tools/validate_step4e.py` on the existing page BEFORE regenerating to surface what specifically needs fixing (often: missing `[[claims/{slug}]]` reverse-links, stale frontmatter, or new template sections not yet populated).
+   - Treat reingest as a Step-4-heavy operation: most paper-page sections may stay nearly identical; the value is in fixing reverse-links and creating the claim files that older ingests did not create.
+   - If the user did NOT explicitly request reingest, still report and exit per the default. Do NOT auto-reingest based on heuristics like ingest_version being old.
+3. **Slug collision resolution**: if `wiki/papers/{slug}.md` exists but the arXiv ID AND title both differ from the new paper, resolve the collision per `references/error-handling.md` (numeric suffix or rename).
+4. When an arXiv ID is available, query Semantic Scholar:
 
    ```bash
    "$PYTHON_BIN" tools/fetch_s2.py paper <arxiv-id>
    ```
 
    Use the result for `venue`, `year`, `s2_id`, citation count, and the evidence behind the `importance` score (1-5).
-4. Optional DeepXiv enrichment, when available. Skip silently if it fails:
+5. Optional DeepXiv enrichment, when available. Skip silently if it fails:
 
    ```bash
    "$PYTHON_BIN" tools/fetch_deepxiv.py brief <arxiv-id>
@@ -202,6 +208,7 @@ Before writing a paper page to disk, verify reverse-links to claims in the `## A
 - The `links:` field may contain `[[concepts/X]]` and `[[foundations/Y]]` in addition, but `[[claims/{slug}]]` MUST be present.
 - Missing `[[claims/{slug}]]` on any `[cnn]` line is a HARD FAIL — orphan claims break the bidirectional-link invariant declared in the Constraints section. Regenerate the line with the proper claim wikilink and re-validate.
 - This validation runs AFTER Step 4 has created all claim files (so the slugs are known), and BEFORE the paper page is written to disk. The paper page may need to be regenerated post-Step-4 with the correct slugs filled in.
+- **Canonical validator**: run `"$PYTHON_BIN" tools/validate_step4e.py <path/to/paper.md>` against the draft. Exit code 0 = PASS (proceed to write). Non-zero = HARD FAIL (regenerate the failing bullets per the printed reasons and re-run the validator). Do NOT improvise an inline regex check; the canonical script enforces the exact invariant the wiki depends on.
 
 These validations run AFTER the shape check from Step 3 and BEFORE writing the file. If validation fails, regenerate the field with proper content and re-validate.
 
