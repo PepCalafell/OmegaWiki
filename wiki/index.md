@@ -4,6 +4,7 @@ papers:
   - slug: tissue-resident-macrophages-provide-pro-tumorigenic
   - slug: physiology-diseases-tissue-resident-macrophages
   - slug: molecular-landmarks-tumor-hypoxia-across-cancer
+  - slug: hypoxia-driven-crosstalk-between-tumor-tumor
 
 concepts:
   - slug: il4i1-tumor-associated-macrophage
@@ -43,6 +44,14 @@ concepts:
   - slug: chromothripsis-hypoxia-prostate
   - slug: intraductal-cribriform-carcinoma
   - slug: tumor-hypoxia-intratumoral-heterogeneity
+  - slug: hypoxia-exosomal-mirna-tam-polarization
+  - slug: tam-recruitment-hypoxic-niche-chemokines
+  - slug: lactate-driven-tam-m2-polarization
+  - slug: succinate-sucnr1-tam-axis
+  - slug: hypoxia-pd-l1-tam-immune-evasion
+  - slug: hif-2a-pas-b-small-molecule-inhibition
+  - slug: tumor-hypoxia-classification-chronic-acute-cyclic
+  - slug: kdm-direct-oxygen-sensing-hif-independent
 
 foundations:
   - slug: hif1a
@@ -81,6 +90,17 @@ foundations:
   - slug: buffa-hypoxia-signature
   - slug: mir-210-mirna
   - slug: mir-133a-3p-mirna
+  - slug: vhl-von-hippel-lindau
+  - slug: phd-prolyl-hydroxylases
+  - slug: belzutifan-mk-6482
+  - slug: pt2385-hif2a-inhibitor
+  - slug: px-478-hif1a-inhibitor
+  - slug: vegf
+  - slug: cxcl8-il8
+  - slug: ccl2-mcp1
+  - slug: oncostatin-m-osm
+  - slug: galectin-3
+  - slug: sucnr1-succinate-receptor
 
 claims:
   - slug: momac-verse-conserved-mnp-signatures-cross-tissue
@@ -143,6 +163,14 @@ claims:
   - slug: myc-gain-co-occurs-hypoxia-pancancer
   - slug: ancestry-disparity-tumor-hypoxia-brca
   - slug: hypoxia-pten-tert-three-way-telomere-interaction
+  - slug: hypoxic-tumor-exosomes-drive-tam-m2-polarization
+  - slug: sema3a-nrp1-plexina-stop-signal-tam-hypoxic-niche
+  - slug: kdm6a-kdm5a-direct-oxygen-sensors
+  - slug: succinate-sucnr1-tam-recruitment-emt
+  - slug: lactate-tam-m2-polarization-hif1a-pka-creb
+  - slug: belzutifan-first-fda-approved-hif2a-inhibitor-vhl
+  - slug: nfkb-dimer-composition-determines-tam-m1-m2
+  - slug: hypoxia-tam-pd-l1-immune-evasion
 
 people:
   - slug: kevin-mulder
@@ -163,6 +191,9 @@ people:
   - slug: vinayak-bhandari
   - slug: paul-c-boutros
   - slug: robert-g-bristow
+  - slug: ruixue-bai
+  - slug: lin-zhao
+  - slug: minjie-wei
 
 topics: []
 

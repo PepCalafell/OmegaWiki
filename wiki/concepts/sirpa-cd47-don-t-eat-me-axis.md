@@ -22,8 +22,9 @@ tags:
 maturity: active
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
-first_introduced: "Oldenborg 2000 Science (CD47 don't-eat-me); Jaiswal 2009 Cell (CD47 in cancer); reviewed in Lazarov & Geissmann 2023"
-date_updated: 2026-05-06
+  - hypoxia-driven-crosstalk-between-tumor-tumor
+first_introduced: "Oldenborg 2000 Science (CD47 don't-eat-me); Jaiswal 2009 Cell (CD47 in cancer); reviewed in Lazarov & Geissmann 2023; hypoxic colon-cancer paradox in Bai 2022"
+date_updated: 2026-05-08
 related_concepts:
   - efferocytosis-anti-inflammatory-clearance
   - tumor-associated-macrophage-immunosuppression
@@ -84,6 +85,7 @@ vs efferocytosis: efferocytosis is the active *uptake* programme triggered by ea
 ## Key papers
 
 - [[papers/physiology-diseases-tissue-resident-macrophages]] — Lazarov & Geissmann 2023 *Nature* — review highlights SIRPα-CD47 as the principal macrophage-checkpoint and a "promising strategy for cancer treatment"
+- [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — Bai 2022 *Molecular Cancer* — describes the colon-cancer paradox where hypoxia *decreases* macrophage SIRPα while *increasing* tumor CD47, net effect tilting toward enhanced phagocytosis and potentially explaining the better prognosis of HIF-1α-high colon cancer relative to other cancers
 
 ## My understanding
 

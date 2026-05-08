@@ -25,8 +25,9 @@ tags:
 maturity: active
 key_papers:
   - tissue-resident-macrophages-provide-pro-tumorigenic
-first_introduced: "Conceptual roots in Pollard et al. (1990s-2000s); direct demonstration with TRM-specific specificity in Casanova-Acebes et al. *Nature* 2021"
-date_updated: 2026-05-06
+  - hypoxia-driven-crosstalk-between-tumor-tumor
+first_introduced: "Conceptual roots in Pollard et al. (1990s-2000s); direct demonstration with TRM-specific specificity in Casanova-Acebes et al. *Nature* 2021; hypoxic mechanism integration in Bai 2022 review"
+date_updated: 2026-05-08
 related_concepts:
   - tissue-resident-macrophage-tumor-niche
   - tumor-associated-macrophage-immunosuppression
@@ -86,6 +87,7 @@ vs MDM-driven cell-cycle programme: in 3D co-culture KP cells with BMMs upregula
 ## Key papers
 
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — first to establish that TRMs (not MDMs or BMMs) are the EMT-inducing macrophage lineage in early NSCLC, with selective TRM-CM effect, in vivo TWIST1/ZEB1 reduction in TRM-depleted mice, and 3D spheroid invasive-protrusion assay
+- [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — Bai 2022 *Molecular Cancer*. Adds the hypoxia-driven EMT mechanisms via TAMs: necrotic-debris-driven IL-1β/HIF-1α/COX-2 axis, exosomal miR-301a-3p (PTEN/PI3Kγ), HMGB1/IL-6/STAT3, succinate/SUCNR1/PI3K/HIF-1α, and HMMR-AS1 lncRNA — all converging on tumor-cell EMT enhancement through hypoxic TAM signaling
 
 ## My understanding
 

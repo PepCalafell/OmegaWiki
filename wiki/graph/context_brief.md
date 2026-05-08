@@ -2,12 +2,13 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (60 total)
+## Claims (68 total)
 - [supported] IL4I1 macrophages are the in vivo correlates of in vitro mMAC1 (conf: 0.8)
 - [supported] TREM2⁺ tumor-associated macrophages associate with poor cancer prognosis (conf: 0.7)
 - [supported] TREM2⁺ TAMs accumulate across all six human cancer types in the MoMac-VERSE (conf: 0.85)
 - [supported] White adipose tissue-resident macrophages produce diet-regulated PDGF-CC that promotes lipid storage in adipocytes; loss redirects energy to brown adipose dissipation (conf: 0.85)
 - [supported] Tumor hypoxia in BRCA differs by self-reported ancestry — Caucasian < Asian/African (conf: 0.8)
+- [supported] Belzutifan (MK-6482) is the first FDA-approved HIF-2α inhibitor, indicated for VHL-disease-associated tumors (conf: 0.95)
 - [supported] Cluster C2 (403 CpGs) is hypomethylated specifically in hypoxic LPS-activated MACs (conf: 0.9)
 - [supported] CCR2-deficient mice (lacking circulating monocytes) show substantially milder fibrosis in liver, heart, kidney, and lung injury models (conf: 0.9)
 - [supported] Intranasal CD169-DTR + diphtheria toxin specifically depletes lung TRMs without affecting MDMs (conf: 0.9)
@@ -16,8 +17,7 @@ _Auto-generated compressed context. Do not edit._
 - [supported] Efferocytosis uses TIM4 (direct PtdSer recognition) and TAM receptors (TYRO3/AXL/MERTK) with bridging ligands MFGE8, GAS6, protein S, and C1Q (conf: 0.95)
 - [supported] Efferocytosis induces anti-inflammatory cytokine secretion (TGFβ, IL-10, PGE2) and inhibits pro-inflammatory cytokines (TNF, IL-1β, IL-6) (conf: 0.9)
 - [supported] HIF1α and p65 cooperate at cobound chromatin regions without strong physical interaction (conf: 0.7)
-- [supported] Hypoxia boosts macrophage immunogenicity via NF-κB-driven, TET-dependent demethylation (conf: 0.85)
-- [supported] Hypoxia-associated CNAs preferentially occur early in tumor evolution (i
+- [supported] Hypoxia boosts macrophage immunogenicity via NF-κB
 ## Open Gaps
 _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] What are the precise ligand-receptor pathways by which IL4I1_Macs dampen antitumour T-cell responses, and how do they vary across tumour types? "The precise pathways involved are still unclear and deserve further investigation to fully decipher the T cell/TAM relationship" (p.1897, citing Gordon et al. 2017).
@@ -27,19 +27,22 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Direct in-vitro T-cell suppression assays on FACS-isolated IL4I1_Mac to confirm causal immunosuppression beyond gene-programme inference.
 - [paper/cross-tissue-single-cell-landscape-human] Anti-IFNγ or anti-CD40L perturbation in mouse tumour models to test the proposed T-cell → IL4I1_Mac induction loop.
 - [paper/cross-tissue-single-cell-landscape-human] Spatial-transcriptomic 
-## Papers (5 total)
-- [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
+## Papers (6 total)
+- [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
+- [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [5] Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease (immunology / single-cell / oncology)
-## Recent Relationships (152 total)
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --introduces_concept--> concepts/hypoxia-pten-tert-telomere-axis
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --uses_concept--> concepts/chromothripsis-hypoxia-prostate
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --uses_concept--> concepts/intraductal-cribriform-carcinoma
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --introduces_concept--> concepts/tumor-hypoxia-intratumoral-heterogeneity
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --derived_from--> foundations/pten-tumor-suppressor
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --derived_from--> foundations/tp53-tumor-suppressor
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --derived_from--> foundations/myc-oncogene
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --derived_from--> foundations/tert-telomerase
-  papers/molecular-landmarks-tumor-hypoxia-across-cancer --derived_from--> foundations/cdkn2a
+## Recent Relationships (194 total)
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/pt2385-hif2a-inhibitor
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/px-478-hif1a-inhibitor
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/vegf
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/cxcl8-il8
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/ccl2-mcp1
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/oncostatin-m-osm
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/galectin-3
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/sucnr1-succinate-receptor
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/hif1a
+  papers/hypoxia-driven-crosstalk-between-tumor-tumor --derived_from--> foundations/nf-kb-p65-rela
+  papers/hypox

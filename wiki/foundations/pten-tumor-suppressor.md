@@ -13,7 +13,7 @@ aliases:
   - "tumor suppressor on chromosome 10q23"
   - "PTEN/PI3K/AKT axis suppressor"
 first_introduced: "Li et al. 1997 Science; Steck et al. 1997 Nat Genet"
-date_updated: 2026-05-06
+date_updated: 2026-05-08
 source_url: "https://www.uniprot.org/uniprot/P60484"
 ---
 
@@ -51,4 +51,4 @@ Think of PTEN as the brake on the PI3K-AKT growth-survival axis. Loss of one or 
 
 ## Relevance to active research
 
-PTEN allelic loss is one of the central axes in [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]]: hypoxia and PTEN loss synergistically predict poor outcome in localized PCa (HR=4.4, p=1.95×10⁻³), and PTEN mRNA is negatively correlated with TERT mRNA in a hypoxia-dependent manner. PTEN status is a defining feature of the "nimbosus" aggressive phenotype proposed by Bhandari et al. 2019.
+PTEN allelic loss is one of the central axes in [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]]: hypoxia and PTEN loss synergistically predict poor outcome in localized PCa (HR=4.4, p=1.95×10⁻³), and PTEN mRNA is negatively correlated with TERT mRNA in a hypoxia-dependent manner. PTEN status is a defining feature of the "nimbosus" aggressive phenotype proposed by Bhandari et al. 2019. In [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] (Bai 2022 review), PTEN suppression is the key downstream node in two TAM-tumor crosstalk axes: hypoxic pancreatic-cancer exosomal miR-301a-3p (HIF-1α/HIF-2α-regulated) → PTEN ↓ in macrophages → PI3Kγ ↑ → M2 polarization with EMT, and hypoxic-TAM-derived exosomal miR-223 → tumor PTEN ↓ → PI3K/AKT ↑ → drug resistance and decreased apoptosis. PTEN's role as the central PI3K-AKT-mTOR brake makes it the convergent target of multiple hypoxic exosomal miRNA mechanisms.

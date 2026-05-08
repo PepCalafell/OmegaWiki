@@ -18,8 +18,9 @@ maturity: stable
 key_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
   - cross-tissue-single-cell-landscape-human
+  - hypoxia-driven-crosstalk-between-tumor-tumor
 first_introduced: "(field-standard concept; refined here)"
-date_updated: 2026-05-06
+date_updated: 2026-05-08
 related_concepts:
   - mmac1-hypoxic-inflammatory-macrophage
   - momac-verse-mnp-verse-atlas
@@ -72,6 +73,7 @@ When framing TME-driven MAC reprogramming, especially as the null hypothesis aga
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — pan-tissue scRNA-seq decomposition of TAM heterogeneity into MoMac-VERSE clusters; defines TREM2_Mac and IL4I1_Mac as the two principal pan-cancer immunosuppressive TAM populations and shows that the binary M1/M2 framing under-describes this diversity.
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — provides a hypoxic exception to the universal-immunosuppression framing
+- [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — Bai 2022 *Molecular Cancer*. Comprehensive review of hypoxia-driven mechanisms (exosomes, cytokines, oncometabolites, ligand-receptor pairs, cellular debris) that reprogram TAMs into the M2-like immunosuppressive state, with rare counter-mechanisms (Spint1 secretion by HIF-2α-high TAMs, colon-cancer SIRPα-CD47 paradox) preserving anti-tumor TAMs
 
 ## My understanding
 

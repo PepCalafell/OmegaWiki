@@ -13,7 +13,7 @@ aliases:
   - "canonical NF-κB"
   - "RelA / p65 subunit"
 first_introduced: "Sen & Baltimore 1986"
-date_updated: 2026-05-05
+date_updated: 2026-05-08
 source_url: "https://www.uniprot.org/uniprot/Q04206"
 ---
 
@@ -49,4 +49,4 @@ NF-κB is the master inflammatory transcription factor — almost any pathogen-a
 
 ## Relevance to active research
 
-In [[papers/nf-kb-tet2-promote-macrophage-reprogramming]], p65 is the primary driver of hypoxia-specific cluster-C2 DNA demethylation: BAY11-7082 inhibition restores normoxic methylation levels at C2 CpGs, while HIF1α inhibition does not. p65 binding peaks (P1 ChIP-seq cluster) maximize in mMAC1 and overlap ~15% with HIF1α H2-cluster peaks. The paper proposes a non-physical cooperative mechanism between p65 and HIF1α.
+In [[papers/nf-kb-tet2-promote-macrophage-reprogramming]], p65 is the primary driver of hypoxia-specific cluster-C2 DNA demethylation: BAY11-7082 inhibition restores normoxic methylation levels at C2 CpGs, while HIF1α inhibition does not. p65 binding peaks (P1 ChIP-seq cluster) maximize in mMAC1 and overlap ~15% with HIF1α H2-cluster peaks. The paper proposes a non-physical cooperative mechanism between p65 and HIF1α. In [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] (Bai 2022 review), the *dimer composition* of NF-κB (p65-p50 heterodimer vs p50-p50 homodimer) is argued to determine TAM polarization direction: LPS-driven p50-p50 homodimers favor M2 reprogramming, Bufalin-driven p65-p50 heterodimers favor M1 transition. NF-κB is also central to multiple hypoxic TAM mechanisms reviewed in Bai 2022: TLR4/TRIF/NF-κB-driven IL-1β/M2 from necrotic debris; CCL8 → CCR2-NF-κB TAM infiltration; tumor IL-10/NF-κB → M2; CCL15-CCR1-NF-κB gefitinib resistance; ROS-NF-κB-driven Galectin-3 expression in hypoxic TAMs.

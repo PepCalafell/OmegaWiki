@@ -14,7 +14,7 @@ aliases:
   - "PAMP signaling"
   - "TLR4-NF-κB axis"
 first_introduced: "Medzhitov & Janeway 1997 (TLR-mammalian)"
-date_updated: 2026-05-05
+date_updated: 2026-05-08
 source_url: "https://www.uniprot.org/uniprot/O00206"
 ---
 
@@ -51,4 +51,4 @@ LPS is the textbook activator of innate immunity — drop it on macrophages, mon
 
 ## Relevance to active research
 
-[[papers/nf-kb-tet2-promote-macrophage-reprogramming]] uses LPS at 48 h to activate normoxic and hypoxic MACs, demonstrating that NF-κB activation by LPS in hypoxia drives focal C2 demethylation. The "swap" experiment shows the activation step (not differentiation) is the critical hypoxic window for the proinflammatory boost.
+[[papers/nf-kb-tet2-promote-macrophage-reprogramming]] uses LPS at 48 h to activate normoxic and hypoxic MACs, demonstrating that NF-κB activation by LPS in hypoxia drives focal C2 demethylation. The "swap" experiment shows the activation step (not differentiation) is the critical hypoxic window for the proinflammatory boost. In [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] (Bai 2022 review), TLR4 features as the receptor that recognizes severely-hypoxic-tumor necrotic cell debris (TLR4/TRIF/NF-κB axis) to drive macrophage M2 polarization and IL-1β secretion in HCC, which then engages tumor IL-1β/HIF-1α/COX-2 to enhance EMT. The same review notes that exosomal Hsa-circ-0048117 (esophageal SCC ceRNA sponging miR-140) upregulates TLR4 in macrophages to promote M2 polarization, and that LPS-driven p50-p50 NF-κB homodimers favor M2 reprogramming in TAMs.

@@ -12,6 +12,19 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Whether IL4I1_Mac is induced by chronic IFN signalling in non-tumour autoimmune contexts (lupus, RA flares, severe COVID-19), and whether the same mechanistic loop applies.
 - [paper/cross-tissue-single-cell-landscape-human] Quantitative comparison of the murine TREM2 TAM vs human TREM2_Mac transcriptional programme: is the cross-species "TREM2 TAM" a single conserved state or a convergence of distinct programmes?
 - [paper/cross-tissue-single-cell-landscape-human] Relationship of IL4I1_Mac to Calafell 2024 mMAC1 hypoxic state: is mMAC1 a hypoxic/in-vitro proxy of IL4I1_Mac, an upstream precursor, or a distinct differentiation path that converges on similar surface markers?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "How does Nrp-1, which is produced by cancer cells, promotes M2 macrophage polarization under hypoxic conditions?" (p.11)
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "The molecular mechanism of MYDGF action in tumor progression is still unclear" (p.11)
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "Mechanisms of these miRNAs [miR-1305, miR-21, miR-940] have not been thoroughly studied" (p.9)
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "TLR4 can cause macrophage polarization towards M1 or M2" — how is this paradox resolved? (p.10)
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Why do HIF-1α inhibitors (e.g. 2ME2) upregulate Gal-3 in normoxia but not in hypoxia in TAMs? (p.11)
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "Mechanisms of tumor hypoxic adaptation are more complex than currently envisaged" — what are the additional non-HIF oxygen sensors? (p.16)
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Will the HIF-2α inhibitor + checkpoint / TKI combinations show survival benefit beyond VHL-RCC?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Are the exosomal miRNA mechanisms (miR-1246, miR-21-3p/125b/181d, miR-301a-3p, let-7a) unified by a single hypoxic exosome-loading machinery (HIF-driven nSMase / Rab27a etc.) or independently regulated per miRNA?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Does Spint1-mediated tumor suppression by HIF-2α-high TAMs partially offset Belzutifan's intended tumor-restraining effect (i.e. blocking HIF-2α in TAMs may release pro-HGF cleavage and promote tumor cell proliferation)?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] The colon-cancer paradox of hypoxia-enhanced phagocytosis is at odds with the broader literature of hypoxia-driven CD47 upregulation. Is colon cancer's better prognosis explained primarily by this mechanism, or by independent factors (microbiome, MSI, etc.)?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Are MHC-II^lo TAMs equivalent to a specific MoMac-VERSE cluster (e.g. cluster #4 hypoxic-inflammatory IL1B^+ Mac, or TREM2^+ LAM)?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Is the synergy between hypoxia and lactate in driving TAM M2 explained by Hedgehog as a downstream effector, or is Hedgehog-pathway involvement a lactate-only signal?
+- [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Does intermittent / cyclic hypoxia (vs chronic hypoxia) drive *quantitatively different* exosome cargos / mediator outputs, given the H-R cycles induce ROS bursts that re-stabilize HIF-1α/NF-κB?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Does the ancestry-specific hypoxia signal in BRCA reflect biology or socioeconomic confounding (selection bias in TCGA)?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Are the hypoxia-mutation co-occurrences causally linked, or co-selected by independent microenvironmental pressures?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Can the nimbosus signature drive treatment-decision prospective trials in localized PCa?
@@ -69,12 +82,25 @@ _Auto-generated open questions. Do not edit._
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
+- [concept/hif-2a-pas-b-small-molecule-inhibition] Predictive biomarker for response (beyond VHL mutation): is there a transcriptomic signature that identifies HIF-2α-dependent tumors better than VHL status alone?
+- [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
+- [concept/hif-2a-pas-b-small-molecule-inhibition] Dose-response and chronic toxicity: long-term Belzutifan safety in young VHL patients (lifelong therapy).
+- [concept/hif-2a-pas-b-small-molecule-inhibition] Whether the same mechanism can be extended to HIF-3α (where OEA is an endogenous agonist) for inverse-direction indications.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/hypoxia-exosomal-mirna-tam-polarization] A unified model of hypoxic exosome biogenesis: is HIF-1α driving Rab27a / nSMase to scale up release, or are there hypoxia-specific cargo-loading proteins?
+- [concept/hypoxia-exosomal-mirna-tam-polarization] Cell-of-origin labelling (CD63-GFP transgenic donor cell, in vivo tracking) for tumor-cell vs TAM exosomes in TME.
+- [concept/hypoxia-exosomal-mirna-tam-polarization] Identifying which TAM cluster (in MoMac-VERSE / Casanova-Acebes / Mulder taxonomies) is the dominant exosome-uptake compartment.
+- [concept/hypoxia-exosomal-mirna-tam-polarization] Translatable exosome-based prognostic biomarkers from hypoxic-tumor patient plasma (miR-1246, miR-21-3p as pan-cancer plasma signals?).
+- [concept/hypoxia-exosomal-mirna-tam-polarization] Therapeutic exosome blockade (GW4869, nSMase inhibitors, exosome-uptake inhibitors) in combination with HIF inhibitors and checkpoint blockade.
 - [concept/hypoxia-genomic-instability-pga] Why hypoxia-PGA fails to associate in 9/19 tumor types — tumor-type-specific DNA-repair compensations?
 - [concept/hypoxia-genomic-instability-pga] Can hypoxia + genomic instability be used to select tumors most likely to benefit from PARP inhibitors?
 - [concept/hypoxia-genomic-instability-pga] The role of immune editing in shaping hypoxia-PGA in vivo
+- [concept/hypoxia-pd-l1-tam-immune-evasion] A definitive in vivo demonstration that TAM-specific PD-L1 deletion (e.g. LysM-Cre × CD274 floxed) phenocopies pan-PD-L1 deletion in hypoxic tumor models.
+- [concept/hypoxia-pd-l1-tam-immune-evasion] Single-cell-resolved mapping of PD-L1+ TAM subsets across cancer types and oxygen levels.
+- [concept/hypoxia-pd-l1-tam-immune-evasion] Therapeutic implications of intermittent vs chronic hypoxia: should OSA cancer patients receive different immunotherapy strategies?
+- [concept/hypoxia-pd-l1-tam-immune-evasion] Mechanism of lactate-driven PD-L1 induction (transcription vs protein stabilization vs trafficking).
 - [concept/hypoxia-pten-tert-telomere-axis] Direct mechanistic test: does hypoxia → HIF1A → TERT, with PTEN loss removing brake on PI3K/AKT-mediated TERT post-translational stabilization?
 - [concept/hypoxia-pten-tert-telomere-axis] Whether targeting TERT (imetelstat) in hypoxic + PTEN-loss tumors is selectively effective
 - [concept/hypoxia-pten-tert-telomere-axis] How the axis interacts with the broader nimbosus phenotype
@@ -85,9 +111,18 @@ _Auto-generated open questions. Do not edit._
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
+- [concept/kdm-direct-oxygen-sensing-hif-independent] A complete map of which KDMs are O₂-substrate-limited at physiological tumor hypoxia (pO₂ < 10 mmHg) — KMs vary across the family.
+- [concept/kdm-direct-oxygen-sensing-hif-independent] Whether KDM oxygen sensing dominates or merely modulates the HIF transcriptional response in hypoxic cancer cells in vivo.
+- [concept/kdm-direct-oxygen-sensing-hif-independent] Therapeutic exploitation: KDM inhibitors as hypoxia-mimetic compounds, or KDM activators as anti-hypoxia compounds.
+- [concept/kdm-direct-oxygen-sensing-hif-independent] Cross-talk with the metabolic state: 2-OG and succinate are competing co-substrates / inhibitors of KDMs; oncometabolite states (SDH-deficient paragangliomas, IDH-mutant gliomas) overlap with KDM regulation.
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
+- [concept/lactate-driven-tam-m2-polarization] Identification of the dominant macrophage lactate-sensing receptor under hypoxia.
+- [concept/lactate-driven-tam-m2-polarization] Quantitative partitioning of HIF-1α stabilization in hypoxic TAMs: how much from low O₂ alone, how much from lactate, how much from other oncometabolites?
+- [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
+- [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
+- [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] Whether boosting alternative degradative pathways (autophagy, proteasome) can compensate for hydrolase deficiency.
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] Why some LSDs respond well to BMT and others don't despite similar enzyme deficiency.
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] The role of microglia replacement (CSF1R-blockade-and-replacement strategies) in neuropathic LSDs.
@@ -133,6 +168,14 @@ _Auto-generated open questions. Do not edit._
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
+- [concept/succinate-sucnr1-tam-axis] A unified pharmacological model of SUCNR1 antagonism in TAM and tumor cell — does the same antagonist hit both?
+- [concept/succinate-sucnr1-tam-axis] Whether SUCNR1 signaling in TAM converges with the lactate-GPCR axis at common downstream nodes (HIF-1α, mTOR).
+- [concept/succinate-sucnr1-tam-axis] The role of cyclic / intermittent hypoxia in modulating tumor-cell succinate release: H-R cycles induce ROS bursts that may release succinate transiently.
+- [concept/succinate-sucnr1-tam-axis] Tissue-resident macrophage vs monocyte-derived macrophage SUCNR1 expression — likely heterogeneous and ontogeny-linked.
+- [concept/tam-recruitment-hypoxic-niche-chemokines] Are there recruitment programs unique to chronic vs cyclic hypoxia? CCL2 induction kinetics under H-R cycles is not characterized.
+- [concept/tam-recruitment-hypoxic-niche-chemokines] Does intermittent hypoxia (OSA setting) drive a distinct chemokine signature with implications for sleep-apnea cancer comorbidity?
+- [concept/tam-recruitment-hypoxic-niche-chemokines] Which MoMac-VERSE / Casanova-Acebes TAM cluster is the canonical "hypoxic-niche-recruited" subset, and is recruitment cluster-specific or receptor-promiscuous?
+- [concept/tam-recruitment-hypoxic-niche-chemokines] Therapeutic value of NRP1 antagonism: blocks the Sema3A-mediated stop-signal but may also affect VEGF signaling; selectivity strategies needed.
 - [concept/tissue-resident-macrophage-tumor-niche] Identification of the secreted factor(s) (VEGFA? PLAU? TGFβ1?) that mediate the EMT-niche signal
 - [concept/tissue-resident-macrophage-tumor-niche] Mechanism of temporal restriction: why does TRM dependence end at day 12-15?
 - [concept/tissue-resident-macrophage-tumor-niche] Generalisability across tumour types — is there a Kupffer-cell-driven HCC niche, microglia-driven glioma niche, etc.?
@@ -158,6 +201,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-associated-macrophage-immunosuppression] Single-cell-resolved markers and signatures across cancers (atlas-scale).
 - [concept/tumor-associated-macrophage-immunosuppression] Causal vs correlational role of TAM presence in outcomes.
 - [concept/tumor-associated-macrophage-immunosuppression] Therapeutic targeting strategies (TREM2 antibodies, CSF1R inhibitors, reprogramming agonists).
+- [concept/tumor-hypoxia-classification-chronic-acute-cyclic] A unified molecular signature that distinguishes chronic vs cyclic hypoxia from bulk transcriptomics.
+- [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Spatial-temporal imaging of H-R cycles in vivo at single-cell resolution.
+- [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Whether intermittent vs chronic hypoxia drive *quantitatively different* exosome cargos and TAM phenotypes (some evidence: PD-L1 upregulation specifically in TAMs from intermittently hypoxic NSCLC exosomes).
+- [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Therapeutic differentiation: which HIF inhibitors / antioxidants are most effective per subtype.
 - [concept/tumor-hypoxia-intratumoral-heterogeneity] Spatial transcriptomics of hypoxia signatures: how do hypoxic and normoxic regions differ at single-cell resolution?
 - [concept/tumor-hypoxia-intratumoral-heterogeneity] Temporal dynamics: how stable is regional hypoxia over treatment?
 - [concept/tumor-hypoxia-intratumoral-heterogeneity] Causation: does within-tumor hypoxia heterogeneity drive subclonal divergence?
@@ -170,3 +217,4 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-subclonal-evolution-architecture] Validating bulk-derived phylogenies with single-cell data at scale
 - [concept/tumor-subclonal-evolution-architecture] How the immune system shapes branch-timed mutations through immune editing
 - [claim/mmac1-chemoattracts-cells-cxcl9-cxcl10] mMAC1 attracts and activates T cells via CXCL9/CXCL10 chemokines and HLA-class-I/MIF interactions (status: weakly_supported)
+- [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)

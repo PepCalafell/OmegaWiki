@@ -11,7 +11,7 @@ aliases:
   - "EPAS1 paralog (HIF2α)"
   - "alpha subunit of HIF-1"
 first_introduced: "Semenza & Wang 1992"
-date_updated: 2026-05-05
+date_updated: 2026-05-08
 source_url: "https://www.uniprot.org/uniprot/Q16665"
 ---
 
@@ -48,4 +48,4 @@ HIF1α is the cell's master oxygen sensor's output: when O₂ is plentiful, it g
 
 ## Relevance to active research
 
-HIF1α is foundational to any study on hypoxic gene regulation. In [[papers/nf-kb-tet2-promote-macrophage-reprogramming]], HIF1α is the dominant transcriptional regulator in hypoxic resting MACs but is overtaken by STAT2/IRF1/RELA after LPS activation. HIF1α and p65 (NF-κB) cooperate at a subset of cobound chromatin regions without strong physical interaction. PX-478, a HIF1α inhibitor, was used to dissect HIF1α-dependent vs NF-κB-dependent contributions. In [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]], 51 of 85 HIF1A target genes correlate strongly with mRNA hypoxia score in localized prostate cancer (CPC-GENE / TCGA), and TERT — a direct HIF1A target — anchors a three-way hypoxia × PTEN × TERT interaction modulating telomere length.
+HIF1α is foundational to any study on hypoxic gene regulation. In [[papers/nf-kb-tet2-promote-macrophage-reprogramming]], HIF1α is the dominant transcriptional regulator in hypoxic resting MACs but is overtaken by STAT2/IRF1/RELA after LPS activation. HIF1α and p65 (NF-κB) cooperate at a subset of cobound chromatin regions without strong physical interaction. PX-478, a HIF1α inhibitor, was used to dissect HIF1α-dependent vs NF-κB-dependent contributions. In [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]], 51 of 85 HIF1A target genes correlate strongly with mRNA hypoxia score in localized prostate cancer (CPC-GENE / TCGA), and TERT — a direct HIF1A target — anchors a three-way hypoxia × PTEN × TERT interaction modulating telomere length. In [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] (Bai 2022 review), HIF1α is the central transcription factor in the hypoxic-TAM crosstalk, driving CCL2/MCP-1 secretion, lactate-mediated TAM M2 polarization, MYDGF release, HMGB1 induction, miR-301a-3p exosome regulation, HMMR-AS1 lncRNA induction, IL-1β/HIF-1α/COX-2 axis in tumor cells, and succinate/SUCNR1/PI3K-HIF-1α signaling. PX-478 is the principal HIF1α small-molecule inhibitor candidate clinically evaluated.
