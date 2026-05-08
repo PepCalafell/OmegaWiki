@@ -1,18 +1,22 @@
 ---
 title: INGEST_AUDIT
-date: 2026-05-09
+date: 2026-05-09 (rev. afternoon)
 author: Pep Calafell-Segura
 status: design-doc
-related: .claude/skills/ingest/SKILL.md
+related: .claude/skills/ingest/SKILL.md, docs/STATUS_2026-05-09b.md
 ---
 
 # Auditoría de la skill `/ingest` v1 y plan de mejoras incrementales
+
+> **Revisión 2026-05-09 tarde**: añadida Mejora 6 (crítica). Ajustada Sección 5 con orden de ejecución revisado. Mejora 4 (validate_wiki.py) marcada como descartada — redundante con `/check` que ya existe.
 
 ## 1. Contexto
 
 Sesión 9 mayo 2026. Después de procesar 6 papers con `/ingest` v1 (Calafell, Mulder, Casanova-Acebes, Park, Bhandari, Bai), se evaluó la posibilidad de refactorizar la skill en sub-skills con asignación de modelo (Sonnet/Opus) por paso.
 
-**Decisión**: NO refactorizar. La skill v1 está bien diseñada. Aplicar mejoras incrementales que no rompen su lógica.
+**Decisión inicial (mañana 9 mayo)**: NO refactorizar. La skill v1 está bien diseñada. Aplicar mejoras incrementales que no rompen su lógica.
+
+**Hallazgo posterior (tarde 9 mayo)**: la skill v1 tiene una regresión progresiva en escribir reverse links a claims en la sección `## All claims (exhaustive)`. Documentado en `STATUS_2026-05-09b.md`. Resultado: añadida Mejora 6 como crítica antes que las demás.
 
 Este documento captura el razonamiento para no perderlo cuando regresemos a esta decisión en futuras sesiones.
 
@@ -24,187 +28,242 @@ Este documento captura el razonamiento para no perderlo cuando regresemos a esta
 
 ### 2.2 Sistema INIT MODE / direct mode
 
-La skill detecta si la invoca `/init` (manifest-driven, parallel-safe via worktrees) o un usuario directamente. En INIT MODE:
-- Skip Step 5 (paper-to-paper edges) — `/init` lo hace al fan-in
-- Skip `rebuild-context-brief` y `rebuild-open-questions` — `/init` los corre una vez
-- Skip reverse links en pages existentes — `/init` los backfilla
-
-Romper esto al refactorizar habría introducido race conditions difíciles de debuguear. Mantener.
+La skill detecta si la invoca `/init` (manifest-driven, parallel-safe via worktrees) o un usuario directamente. Mantener.
 
 ### 2.3 Worktree-safety
 
-Lookup de PYTHON_BIN vía `git rev-parse --git-common-dir` para que subagents en `.worktrees/<branch>/` encuentren `.venv` del repo principal (que es gitignored). Esto es ingeniería avanzada y necesaria.
+Lookup de PYTHON_BIN vía `git rev-parse --git-common-dir`. Mantener.
 
 ### 2.4 `/discover` integrado vía flag `--discover`
 
-Step 9 invoca `/discover --anchor <arxiv-id>` y append una shortlist al reporte. **Esto resuelve directamente la R3 del usuario** ("buscar más papers, encontrar joyas"). No hay que construir un sistema nuevo, solo mejorar el existente.
+Step 9 invoca `/discover --anchor <arxiv-id>`. Resuelve la R3 del usuario.
 
 ### 2.5 Policy biomedical específica (Step 4)
 
-Domain-adapted policy explícita para biomedical:
-- Claim exhaustivity por tier: 15-30 (TIER_1) / 5-10 (TIER_2) / 3-5 (TIER_3)
-- Claims tipados: mechanistic / correlational / methodological / pharmacological / quantitative
-- Concept aliases broad (6-12 mínimo, paper-specific + generalizable)
-- Foundations para métodos comunes (Scanpy, scVI, DoRothEA, HOMER, ChIP-seq, CUT&RUN, ATAC-seq, EPIC array, RRBS, CIBERSORTx, CellChat, NicheNet)
-- HARD FAIL si `aliases` < 6 o biomedical frontmatter vacío (`tissue`, `condition`, `species`, `techniques`, `key_cell_types`, `key_markers`, `projects`)
-
-Esta policy ya está adaptada al campo. Una refactor genérica la habría diluido.
+Domain-adapted policy explícita para biomedical (claim exhaustivity por tier, aliases broad, foundations para métodos comunes, HARD FAIL en biomedical frontmatter). Mantener.
 
 ### 2.6 People tier suggestion (no auto-update)
 
-Step 4.4 incrementa `papers_in_vault` y sugiere tier change al usuario sin auto-modificar. Evita silent state changes. Mantener.
+Step 4.4 incrementa `papers_in_vault` y sugiere tier change al usuario sin auto-modificar.
 
 ### 2.7 Layer Python sólido
 
-- `tools/research_wiki.py` — slug, find-similar, add-edge, add-citation, log, rebuild
-- `tools/fetch_s2.py` — Semantic Scholar
-- `tools/fetch_deepxiv.py` — DeepXiv (graceful fallback)
-- `tools/init_discovery.py` — single-paper arXiv source/PDF download
-- `tools/prepare_paper_source.py` — PDF preprocessing
-- `tools/discover.py` — discovery con anchors
+`tools/research_wiki.py`, `tools/fetch_s2.py`, `tools/fetch_deepxiv.py`, `tools/init_discovery.py`, `tools/prepare_paper_source.py`, `tools/discover.py`, `tools/lint.py`. Bien construido.
 
-`add-edge` rechaza missing confidence/evidence en paper-paper y paper-concept semantic edges, y rechaza legacy types. Validación a nivel tool. Buena defensa.
+## 3. Mejoras propuestas (orden por prioridad)
 
-## 3. Mejoras incrementales propuestas (NO refactor)
+### Mejora 6 — [CRÍTICA] Enforce `[[claims/{slug}]]` en sección `## All claims`
+
+**Añadida 9 mayo tarde tras descubrir bug retrospectivo.**
+
+#### Problema
+
+La skill `/ingest` v1 declara como constraint global (línea 279 SKILL.md):
+> "Every forward link writes its reverse link in the same turn — the wiki's bidirectional-link invariant"
+
+Pero NO valida específicamente que cada `[Cnn]` line de la sección `## All claims (exhaustive)` contenga `[[claims/{slug-del-claim-creado}]]` en su campo `links`. Resultado: regresión progresiva entre paper 4 (Lazarov: 68% claims con reverse link) y paper 6 (Bai: 0% claims con reverse link). 15 claims huérfanos en wiki actual.
+
+#### Diagnóstico ground-truth
+
+Análisis del 9 mayo tarde (ver `STATUS_2026-05-09b.md` §2.4):
+
+| Paper | Claims con `[[claims/X]]` link | Total claims | % |
+|---|---|---|---|
+| Calafell | 13 | ~13 | 100% |
+| Mulder | 6 | ~6 | 100% |
+| Casanova | 21 | ~22 | ~95% |
+| Lazarov | 15 | 22 | 68% |
+| Bhandari | 4 | 28 | 14% |
+| Bai | 0 | 28 | 0% |
+
+#### Cambio propuesto (a Step 3)
+
+Añadir al Step 3 ("Write the paper page") una validación HARD FAIL post-write y pre-commit:
+
+```
+PAGE-WRITING VALIDATION (mandatory before saving the paper page):
+
+After writing the paper page body, verify the `## All claims (exhaustive)`
+section. For each `[Cnn]` bullet line:
+
+1. Each bullet MUST end with a `— links:` field containing 1+ wikilinks.
+2. The links field MUST include `[[claims/{slug}]]` where `{slug}` is the slug
+   of the corresponding claim file just created in `wiki/claims/`.
+3. Mapping rule: claim slug at position N of the claims list created in this
+   ingest corresponds to `[Cnn]` bullet at position N in the `## All claims`
+   section. The order MUST be preserved.
+
+If any `[Cnn]` line is missing its `[[claims/{slug}]]` reverse-link, this is
+a HARD FAIL — regenerate the section with proper links and re-validate.
+This validation runs BEFORE writing the file to disk.
+```
+
+#### Variante alternativa (más robusta pero más cambios)
+
+Cambiar Step 3 para que primero genere la lista de claims (Step 4) y DESPUÉS escriba el paper page rellenando `[[claims/{slug}]]` con los slugs ya conocidos. Implica reorden Step 3 ↔ Step 4. Más invasivo pero elimina la posibilidad estructural del bug.
+
+**Recomendación**: empezar con la HARD FAIL validation. Si en re-ingests futuros el modelo sigue regresando, considerar el reorden.
+
+#### Procedimiento de re-ingest después de aplicar Mejora 6
+
+Para Bhandari y Bai (los 2 papers afectados):
+
+```bash
+cd ~/omegawiki
+
+# 1. Backup git tag para volver atrás si algo falla
+git tag pre-reingest-bhandari-bai
+
+# 2. Reset selectivo del paper Bhandari
+# Borrar paper page
+rm wiki/papers/molecular-landmarks-tumor-hypoxia-across-cancer.md
+
+# Borrar claims huérfanos generados solo por Bhandari (NO los de Bai)
+rm wiki/claims/ancestry-disparity-tumor-hypoxia-brca.md
+rm wiki/claims/hypoxia-cnas-occur-early-trunk-evolution.md
+rm wiki/claims/hypoxia-pten-tert-three-way-telomere-interaction.md
+rm wiki/claims/mir-133a-3p-tumor-suppressor-prostate-hypoxia.md
+rm wiki/claims/mir-210-induced-under-hypoxia-pancancer.md
+rm wiki/claims/myc-gain-co-occurs-hypoxia-pancancer.md
+rm wiki/claims/nimbosus-aggressive-pca-phenotype.md
+
+# Eliminar edges asociados (script o manual via tools/research_wiki.py)
+# Aquí la skill /ingest los regenerará al re-ingestar
+
+# 3. Re-ingest
+claude
+# /ingest raw/papers/Bhandari-2019.pdf
+
+# 4. Verificar
+python3 tools/lint.py --wiki-dir wiki/
+# Esperado: 0 🔴, 0 🟡, ≤8 🔵 (los 8 huérfanos de Bai siguen pendientes)
+
+# 5. Commit
+git add wiki/
+git commit -m "ingest(reingest): Bhandari 2019 with Mejora 6 — claims with proper reverse-links"
+
+# 6. Repetir Pasos 2-5 para Bai
+```
+
+**Coste estimado**: 1 sesión Opus por paper. ~2 sesiones total.
+
+**Riesgo**: si Mejora 6 no detecta el bug correctamente, segundo intento gasta 1 sesión adicional. Mitigación: probar Mejora 6 reingestando Lazarov (que ya está bien) primero, verificar que el output queda idéntico.
 
 ### Mejora 1 — Asignación Sonnet en steps mecánicos vía subagents
 
-**Problema**: Todo el `/ingest` corre en Opus 4.7. Steps 5-7 son mecánicos (matching + append + ejecutar comandos) y no requieren juicio semántico.
+**Problema**: Todo el `/ingest` corre en Opus 4.7. Steps 5-7 son mecánicos.
 
-**Cambio propuesto**: invocar subagents con `model: sonnet` para steps mecánicos.
-
-**Mapeo modelo por step**:
+**Cambio**: invocar subagents con `model: sonnet` para steps mecánicos.
 
 | Step | Tarea | Modelo | Razón |
 |---|---|---|---|
 | 1 | Resolve source | Opus | Branching, INIT MODE detection |
-| 2 | Paper identity, importance score | Opus | Juicio semántico (importance) |
-| 3 | Paper page (problem, key idea, claims, discussion) | Opus | Núcleo semántico del ingest |
-| 4 | Concepts, claims, people | Opus | Dedup decisions, tier policy |
-| 5 | Paper-to-paper edges, citations | **Sonnet** | Matching arXiv-ID → existing slug, append-only |
-| 6 | Topics y index | **Sonnet** | Matching tags, append por tier |
+| 2 | Paper identity, importance score | Opus | Juicio semántico |
+| 3 | Paper page (con Mejora 6 enforcement) | Opus | Núcleo semántico |
+| 4 | Concepts, claims, people | Opus | Dedup decisions |
+| 5 | Paper-to-paper edges, citations | **Sonnet** | Matching, append-only |
+| 6 | Topics y index | **Sonnet** | Matching, append |
 | 7 | Log y rebuild | **Sonnet** | Ejecutar comandos |
 | 8 | Report | Opus | Síntesis final |
 | 9 | Optional discovery | Opus | Si se invoca |
 
 **Ahorro estimado**: 40-50% cuota Opus por ingest.
 
-**Cómo implementar (sin tocar Steps 1-4)**:
-1. En Step 5, invocar subagent: `Task(model: sonnet, description: "Add paper-to-paper edges and citations for {arxiv-id}", prompt: <Step 5 instructions>)`
-2. En Step 6, mismo patrón
-3. En Step 7, mismo patrón
-4. Subagents devuelven summary; Opus principal compila el reporte final en Step 8
-
-**Riesgo**: subagent Sonnet podría no entender `references/cross-references.md` para edge-type selection en Step 5. **Mitigación**: pre-cargar la reference en el prompt del subagent.
-
-**Validación antes de aceptar**: re-procesar Bai 2022 con la skill modificada y comparar:
-- Mismos paper-paper edges?
-- Mismas citations?
-- Misma topic placement?
-- Si hay drift > 5% en cualquier output, revertir.
+**Aplicar DESPUÉS de Mejora 6**: porque Mejora 1 modifica la estructura de invocación de la skill, y queremos validar primero que Mejora 6 funciona en la skill estable.
 
 ### Mejora 2 — Pre-check de calidad antes de Step 3
 
-**Problema**: La calidad de los 6 papers procesados es variable (algunos tienen claims más densos que otros). Esto sugiere que la skill funciona mejor cuando ha visto un ejemplo bueno reciente.
+**Problema**: Variabilidad en calidad por paper. Un ejemplo bueno reciente como referencia ayuda.
 
-**Cambio propuesto**: añadir una pre-action al Step 3 que cargue como ejemplo el paper TIER_1 más reciente del wiki como referencia de calidad esperada.
+**Cambio**: pre-action al Step 3 que cargue `wiki/papers/Lazarov-2023.md` (TIER_1 más reciente bien construido) como reference quality target.
 
-**Cómo**:
-- Antes de Step 3, leer `wiki/papers/Bai-2022.md` (el TIER_1 más reciente con 4 cross-paper edges)
-- Pasarlo al modelo como "Reference quality target: this is the level of detail expected"
-- No requiere cambios estructurales, solo añadir un párrafo a Step 3
+**Riesgo bajo**, beneficio incremental.
 
-**Riesgo bajo**, beneficio incremental en consistencia.
+### Mejora 3 — `/check` skill (verificada — YA EXISTE)
 
-### Mejora 3 — `/check` skill (validar que existe y completarla)
+`/check` está implementada y funcional. Cubre:
+- Structural completeness (9 entity types)
+- Field validation (enums, ranges, required fields)
+- Cross-reference symmetry
+- Graph edge consistency
+- Content quality (LLM-assisted)
 
-**Problema**: `/ingest` v1 menciona repetidamente `/check` como owner de "backlink symmetry, dangling nodes, full semantic audits". Verificar:
-1. ¿Existe `.claude/skills/check/SKILL.md`?
-2. ¿Cubre lo que `/ingest` delega (líneas 287-288)?
+**Acción**: Ninguna — ya existe. Solo añadir como práctica recomendada correr `/check` cada 3 ingests.
 
-**Acción**:
-- Si NO existe → crearla. Sería violar el contrato de `/ingest`.
-- Si existe pero incompleta → completarla.
-- Si existe y completa → solo documentar en este audit que está OK.
+### Mejora 4 — ~~Validator Python sin LLM~~ DESCARTADA
 
-**Tareas mínimas que `/check` debe cubrir**:
-- Backlink symmetry (todo forward link tiene reverse)
-- Dangling nodes (entities sin papers en `key_papers`)
-- Slug duplication (semantic title similarity)
-- YAML validity en todos los wiki/*.md
-- Concepts sin "Key papers" section
-- Foundations huérfanas (ningún paper las referencia)
-- Edges referenciando archivos no existentes
+**Razón del descarte**: `tools/lint.py` (que `/check` invoca) ya implementa validation Python sin LLM. Construir un script paralelo es duplicación.
 
-### Mejora 4 — Validator Python sin LLM (Opción A del status anterior)
+### Mejora 5 — Tier-ranking script Python
 
-**Independiente de la skill**, mantiene relevancia.
-
-`scripts/validate_wiki.py`:
-- Detecta: duplicate slugs, semantic title similarity, foundations huérfanas, edges referenciando archivos no existentes, YAML inválido, concepts sin "Key papers" section
-- Output: `docs/wiki_validation_report.md`
-- Coste: 0 cuota Claude
-- Tiempo de construcción: 30-45 min en Claude Code
-
-Complementa `/check` (que sí usa LLM). Validator es check rápido sin gastar; `/check` es audit semántico profundo.
-
-### Mejora 5 — Tier-ranking script Python (Opción B del status anterior)
-
-Mantiene relevancia. La frustración real "elegir paper" sigue ahí.
+**Mantiene relevancia**. La frustración real "elegir paper" sigue ahí.
 
 `scripts/tier_candidates.py`:
-- Para cada PDF en `raw/papers/`: extrae metadata, query S2 (citations, venue), computa keyword overlap con concepts/foundations existentes del wiki
-- Output: ranking priorizado en markdown con justificación
+- Para cada PDF en `raw/papers/`: extrae metadata, query S2, computa keyword overlap con concepts/foundations existentes del wiki
+- Output: ranking priorizado en markdown
 - Coste: 0 cuota Claude
 - Tiempo de construcción: 30-45 min
 
+**Aplicar cuando**: después de Mejora 6 + reingest de Bhandari y Bai. Ningún apuro.
+
 ## 4. Lo que NO se va a tocar
 
-- Steps 1-4 (lógica core)
+- Steps 1-4 de la lógica core (excepto añadir validación HARD FAIL al final de Step 3 vía Mejora 6)
 - Policy dedup
 - Policy biomedical Step 4
 - Sistema INIT MODE
 - Layer Python (tools/)
-- HARD FAIL validations (Step 4.E)
+- HARD FAIL validations existentes (Step 4.E)
 - People tier suggestion (no auto-update)
 - Worktree-safety en PYTHON_BIN lookup
 
-## 5. Orden de ejecución propuesto
+## 5. Orden de ejecución revisado
 
 | # | Tarea | Tiempo | Coste sesión | Dónde |
 |---|---|---|---|---|
-| 1 | Verificar existencia y completud de `/check` | 15 min | bajo | Claude Code |
-| 2 | Si falta, crear/completar `/check` | 1 sesión | medio | Claude Code |
-| 3 | Construir `validate_wiki.py` | 30-45 min | 0 (sin LLM) | Claude Code |
-| 4 | Construir `tier_candidates.py` | 30-45 min | 0 (sin LLM) | Claude Code |
-| 5 | Aplicar Mejora 1 (subagents Sonnet en Steps 5-7) | 1 sesión | medio | Claude Code |
-| 6 | Re-procesar Bai 2022 con skill modificada y comparar | 1 ingest | bajo si comparado | Claude Code |
-| 7 | Aplicar Mejora 2 (pre-check calidad) | 30 min | bajo | Claude Code |
-| 8 | Re-validar con paper nuevo | 1 ingest | normal | Claude Code |
+| **1** | **Implementar Mejora 6 (HARD FAIL claims links)** | 1 sesión | medio | Claude Code |
+| **2** | **Probar Mejora 6 reingestando Lazarov (paper sano)** | 1 ingest | medio | Claude Code |
+| **3** | **Reset selectivo Bhandari + reingest** | 1 sesión Opus | alto | Claude Code |
+| **4** | **Reset selectivo Bai + reingest** | 1 sesión Opus | alto | Claude Code |
+| **5** | Verificar `/check`: 0 🔴, 0 🟡, ≤5 🔵 | 5 min | bajo | Claude Code |
+| 6 | Mejora 1 (subagents Sonnet en Steps 5-7) | 1 sesión | medio | Claude Code |
+| 7 | Re-procesar 1 paper para validar Mejora 1 | 1 ingest | normal | Claude Code |
+| 8 | Mejora 2 (pre-check calidad referencia) | 30 min | bajo | Claude Code |
+| 9 | Construir `tier_candidates.py` | 30-45 min | 0 (sin LLM) | Claude Code |
+| 10 | Procesar 5 papers nuevos con sistema mejorado | 5 ingests | alto | Claude Code |
+
+**Tareas 1-5 son críticas** y deben hacerse antes que cualquier otra cosa. Bloquean al resto.
 
 ## 6. Métricas de éxito
 
-Antes de aceptar cualquier mejora aplicada al `/ingest`:
+### Para Mejora 6 (CRÍTICA)
 
-- **Cuota Opus por ingest**: medir antes y después. Target: -40% mínimo en Mejora 1.
-- **Cross-paper edges**: contar antes y después. Target: ≥ que la baseline (no perder edges).
-- **Claims extraídos**: contar antes y después. Target: ≥ que la baseline.
-- **Tiempo wall-clock por ingest**: antes y después. Target: ≤ baseline.
-- **HARD FAIL count**: target 0 (no romper validations existentes).
+- Después de Tarea 2 (reingest Lazarov): output idéntico al original (mismos claims, mismos edges, mismas personas). Diff `git diff wiki/papers/physiology-diseases-tissue-resident-macrophages.md` mínimo.
+- Después de Tarea 3 (reingest Bhandari): paper page contiene `[[claims/X]]` en cada `[Cnn]` bullet de `## All claims`. `/check` no reporta orphans nuevos.
+- Después de Tarea 4 (reingest Bai): igual.
+- Después de Tarea 5 (verificación): `0 🔴, 0 🟡, 0 🔵 [orphan]` (puede haber otros 🔵 informacionales).
 
-Si alguna métrica empeora, revertir el cambio.
+### Para Mejora 1 (cuando llegue)
 
-## 7. Decisiones rechazadas (sesión 9 mayo)
+- Cuota Opus por ingest: target -40% mínimo medido vs Tarea 7 baseline.
+- Cross-paper edges, claims, tiempo wall-clock: ≥ que Tarea 7 baseline.
+- Cero HARD FAIL nuevas.
+
+## 7. Decisiones rechazadas
 
 | Decisión rechazada | Por qué |
 |---|---|
 | Refactorizar `/ingest` en 7 sub-skills | La v1 está bien diseñada. Refactor habría roto INIT MODE, separación `/ingest` vs `/check`, y policy biomedical adaptada. |
-| Reemplazar `tools/fetch_s2.py` por K-Dense `paper-lookup` | El v1 funciona. K-Dense entra en `/discover`, no en `/ingest`. |
-| Auto-procesar 30 papers en batch con subagent paralelos | Cuota Max finita. Cross-paper edges requieren wiki ya construido — orden importa. Sin supervisión humana, después de 20 papers tendríamos concepts duplicados. |
-| Construir validator basado en LLM en vez de Python | Validator es check rápido y barato. Python sin LLM es lo correcto. `/check` (que sí usa LLM) cubre lo semántico. |
+| Reemplazar `tools/fetch_s2.py` por K-Dense `paper-lookup` | Coexisten sin problema. Mantener. |
+| Auto-procesar 30 papers en batch | Cuota finita. Cross-paper edges requieren wiki ya construido. |
+| Construir `validate_wiki.py` (Mejora 4) | Redundante con `/check` y `tools/lint.py` que ya existen. |
+| Aplicar `fix_orphan_claims.py` automático | Heurística keyword overlap insuficiente. 2/3 falsos positivos en validación manual. |
+| Opción C (reset wiki completo y reingestar 6 papers) | 4 papers están bien. Tirarlos sería desperdicio (~20-25h Opus). |
+| Opción D (dejar 15 huérfanos como debt) | A 2 meses de tesis, ruido en grafo es inaceptable. |
 
 ## 8. Notas para sesiones futuras
 
 - Cuando regreses a este audit, lee primero la skill `/ingest` actual. Si ha cambiado, este documento puede estar desactualizado.
 - Si ves que tu yo-anterior decidió no refactorizar y ahora te tienta refactorizar, vuelve a leer Sección 2 antes de proceder.
-- La skill v1 evolucionará con mejoras incrementales (Mejoras 1-5). Documentar cada cambio en Git con commit message claro.
+- Mejora 6 es CRÍTICA y bloquea casi todo. No saltársela.
+- **Práctica recomendada nueva**: correr `/check` cada 3 ingests (`python3 tools/lint.py --wiki-dir wiki/`). Si aparecen 🟡 o 🔵 nuevos no triviales, debug ANTES de seguir procesando.
