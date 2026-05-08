@@ -38,3 +38,9 @@ tools/*.bak
 
 # Obsidian local config (per-machine)
 wiki/.obsidian/
+
+# Windows Zone.Identifier metadata files (from browser downloads through WSL)
+*:Zone.Identifier
+
+# Obsidian config in repo root (created by mistake when opening wrong folder)
+/.obsidian/
