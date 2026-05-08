@@ -144,7 +144,6 @@ def find_all_pages(wiki_dir: Path) -> dict[str, Path]:
         for f in dir_path.glob("*.md"):
             slug = f.stem
             pages[slug] = f
-            pages[f"{subdir}/{slug}"] = f  # <-- línea añadida
     return pages
 
 
@@ -172,25 +171,26 @@ def check_missing_fields(wiki_dir: Path, pages: dict[str, Path]) -> list[LintIss
 
 
 def check_broken_links(wiki_dir: Path, pages: dict[str, Path]) -> tuple[list[LintIssue], dict[str, set]]:
-    """Check wikilinks and track incoming links."""
+    """Check wikilinks and track incoming links.
+    Wikilinks may be written as [[slug]] or [[subdir/slug]] (e.g. [[foundations/hif1a]]).
+    We normalize by stripping any subdir prefix before lookup. Fixed 2026-05-09.
+    """
     issues = []
     incoming: dict[str, set[str]] = {slug: set() for slug in pages}
-
     for slug, fpath in pages.items():
         content = fpath.read_text(encoding="utf-8")
         rel = str(fpath.relative_to(wiki_dir))
-
         for match in WIKILINK_RE.finditer(content):
             target = match.group(1).strip()
-            if target in pages:
-                incoming.setdefault(target, set()).add(slug)
+            # Normalize: strip "subdir/" prefix if present (e.g. "foundations/hif1a" -> "hif1a")
+            target_slug = target.split("/")[-1] if "/" in target else target
+            if target_slug in pages:
+                incoming.setdefault(target_slug, set()).add(slug)
             else:
                 issues.append(LintIssue("🟡", "broken-link", rel,
                                         f"[[{target}]] → file not found",
                                         suggestion=f"Remove [[{target}]] or create a page for it"))
-
     return issues, incoming
-
 
 def check_orphan_pages(wiki_dir: Path, pages: dict[str, Path],
                        incoming: dict[str, set]) -> list[LintIssue]:
