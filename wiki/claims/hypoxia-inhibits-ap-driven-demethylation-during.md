@@ -1,14 +1,15 @@
 ---
-title: "Hypoxia inhibits AP-1-driven bulk DNA demethylation during MAC differentiation"
+title: "Hypoxia partially blocks AP-1-driven DNA demethylation that normally occurs during macrophage differentiation (cluster C1)"
 slug: hypoxia-inhibits-ap-driven-demethylation-during
 status: supported
 confidence: 0.85
 tags:
   - hypoxia
   - DNA-methylation
-  - macrophage
+  - TET-inhibition
   - AP-1
-  - epigenetics
+  - macrophage-differentiation
+  - cluster-C1
 domain: "epigenetics"
 source_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
@@ -16,37 +17,36 @@ evidence:
   - source: nf-kb-tet2-promote-macrophage-reprogramming
     type: supports
     strength: strong
-    detail: "Cluster C1 (2782 CpGs) hypomethylated in normoxic MAC differentiation, AP-1 motif-enriched, partially blocked under hypoxia. Consistent with prior literature (Thienpont 2016 Nature, ref 26) on global hypoxic hypermethylation via TET inhibition."
-conditions: "Human M-CSF MACs at 1% O2; bulk MAC differentiation program."
-date_proposed: 2026-05-05
-date_updated: 2026-05-05
+    detail: "EPIC array DMPs (FDR<0.05, |Δβ|>0.2) cluster into 3 sets. C1 (2782 CpGs) is hypomethylated during normoxic MAC differentiation (vs MO), AP-1-motif-enriched. In hypoxia, the demethylation tendency is partially inhibited — consistent with hypoxic TET inhibition (Thienpont 2016). Fig. 1E-F."
+conditions: "M-CSF MAC differentiation 5d, 1% vs 21% O2; EPIC array vs MO baseline; AP-1 motif by HOMER."
+date_proposed: 2026-05-11
+date_updated: 2026-05-11
 ---
 
 ## Statement
 
-Hypoxia (1% O₂) partially inhibits the bulk DNA demethylation program associated with normal MAC differentiation. The most affected cluster (C1, 2782 CpGs) is canonically demethylated during monocyte-to-MAC differentiation in normoxia and is enriched for AP-1 motifs (associated with myeloid differentiation), but this demethylation is blunted in hypoxia, consistent with hypoxic suppression of TET activity.
+The largest DMP cluster (C1, 2782 CpGs) during normal MO→MAC differentiation is hypomethylated in normoxia and enriched in AP-1 motifs (canonically associated with MAC differentiation). Under hypoxia, this demethylation is partially inhibited — consistent with global hypoxic TET inhibition. This is the *expected* hypoxic-TET phenotype that mMAC1's NF-κB-driven C2 cluster paradoxically overrides at a focal subset of CpGs.
 
 ## Evidence summary
 
-- Cluster C1 = 2782 hypomethylated CpGs in normoxic MAC differentiation (Fig. 1E).
-- HOMER motif enrichment: AP-1 family motifs in C1 (Fig. 1F).
-- Methylation tendency partially inhibited in hypoxia (Fig. 1E and Fig. S1B).
-- Reference (26) [Thienpont 2016 Nature] cited as concordant prior literature for global hypoxic hypermethylation.
+- EPIC array DMP clustering (Calafell 2024 Fig. 1E).
+- HOMER motif analysis on cluster C1 (Fig. 1F).
+- Consistent with Thienpont et al. 2016 (Nature) showing tumor hypoxia → DNA hypermethylation via TET activity reduction.
 
 ## Conditions and scope
 
-- In vitro MAC differentiation only.
-- The blunting is partial, not complete.
+- Comparison: differentiated MACs vs starting MOs.
+- AP-1 family TFs as the canonical drivers of the C1 demethylation program.
 
 ## Counter-evidence
 
-- A focal exception to this pattern is cluster C2 (NF-κB-driven), which demethylates *despite* hypoxia (see [[claims/c2-cluster-cpg-demethylation-specific-hypoxic]]).
+- The C2 cluster (NF-κB-enriched) demethylates *despite* the hypoxic environment — focal NF-κB-driven exception.
 
 ## Linked ideas
 
-(none yet)
+- Frames the C2 finding as a *paradoxical* exception to the global rule (Thienpont 2016).
 
 ## Open questions
 
-- Is the hypoxic inhibition of C1 demethylation reversible upon return to normoxia?
-- Does the same blunting occur with GM-CSF differentiation or in non-myeloid lineages?
+- TET isoform specificity for C1 vs C2 demethylation.
+- Whether AP-1 binding is itself reduced in hypoxia or whether AP-1 binds but TET cannot demethylate.

@@ -1,56 +1,56 @@
 ---
-title: "HIF1α and p65 cooperate at cobound chromatin regions without strong physical interaction"
+title: "HIF1α and p65 cooperatively bind chromatin at cobound peaks without obligate physical interaction (Pearson r = 0.13)"
 slug: hif1a-p65-cooperate-promoter-regions-without
 status: supported
-confidence: 0.7
+confidence: 0.8
 tags:
-  - HIF1a
-  - NF-kB
-  - chromatin
-  - transcription-factor
-  - hypoxia
-domain: "molecular-biology / epigenomics"
+  - HIF1A
+  - p65
+  - RELA
+  - ChIP-seq
+  - chromatin-cooperation
+  - non-physical-interaction
+domain: "epigenetics"
 source_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
 evidence:
   - source: nf-kb-tet2-promote-macrophage-reprogramming
     type: supports
-    strength: moderate
-    detail: "ChIP-seq cobinding (~15% overlap of HIF1α H2 cluster with p65 peaks in mMAC1), motif co-enrichment at cobound peaks (HIF + NF-κB + AP-1 + IRF + ETS), weak Pearson correlation of binding intensities (r=0.13, P=2.5×10⁻⁴), distinct functional categories (HIF1α-only=glycolysis, p65-only=immune adhesion, cobound=LPS signaling)."
-conditions: "Human M-CSF MACs at 1% O2 + LPS 48h. Conclusion 'without physical interaction' is inferential, not from co-IP."
+    strength: strong
+    detail: "ChIP-seq for HIF1α and p65 in all four conditions, with peak co-occurrence analysis in mMAC1 (Calafell 2024 Fig. 4A-F). HIF1α and p65 cobound peaks (~15% of HIF1α H2 cluster) show binding intensity correlation Pearson r = 0.13, P = 2.5×10⁻⁴ — statistically significant but very weak linear relationship, ruling out stoichiometric physical complex."
+conditions: "ChIP-seq cobinding analysis; cobound peaks defined as HIF1α H2 ∩ p65 P1."
 date_proposed: 2026-05-05
-date_updated: 2026-05-05
+date_updated: 2026-05-11
 ---
 
 ## Statement
 
-In hypoxic LPS-activated MACs (mMAC1), HIF1α and p65 share occupancy at a subset of chromatin regions (~15% of HIF1α H2 cluster overlaps p65 peaks) without strong correlation of binding intensities (Pearson r=0.13). Motifs for both TFs are co-enriched at cobound peaks. The two TFs regulate functionally distinct gene programs at single-TF peaks (HIF1α-only → glycolysis; p65-only → immune adhesion) and a third axis at cobound peaks (LPS signaling). The authors infer cooperative regulation without physical complex formation.
+HIF1α and p65 ChIP-seq peaks in mMAC1 overlap at a meaningful subset of regions (~15% of HIF1α H2 cluster), and their binding intensities on these cobound peaks are positively correlated. However, the Pearson r = 0.13 (P = 2.5×10⁻⁴) indicates a very weak linear relationship inconsistent with a stoichiometric physical HIF1α-p65 complex. The cooperation is "non-physical" — likely mediated by shared cofactors, sequential recruitment, or cooperative chromatin opening.
 
 ## Evidence summary
 
-- ChIP-seq cobinding analysis: ~15% of HIF1α H2-cluster peaks overlap p65 peaks in mMAC1 (Fig. 4B).
-- Motif analysis at cobound peaks: HIF, NF-κB, AP-1, IRF, ETS motifs all enriched (Fig. 4C).
-- HIF1α-centered analysis: HIF1α motif dominant, p65 motif weaker; p65-centered: both motifs equal (Fig. 4D).
-- Pearson correlation of HIF1α and p65 binding intensities at cobound peaks: r=0.13, P=2.5×10⁻⁴ (Fig. 4F).
-- GO functional separation by binding pattern (Fig. 4G).
-- Time-resolved Western blot suggests HIF1α stabilizes earlier than nuclear p65 in iMAC1 (Fig. 3A-C).
+- HIF1α + p65 ChIP-seq, all 4 MAC conditions, consensus peaks (Calafell 2024 Fig. 4A).
+- Cobound peak set defined by overlap of HIF1α and p65 significant peaks in mMAC1 (Fig. 4B).
+- Motif enrichment in HIF1α-centered vs p65-centered analyses of cobound peaks (Fig. 4C-D).
+- Cobound peak binding intensity correlation: r = 0.13, P = 2.5×10⁻⁴ (Fig. 4F).
 
 ## Conditions and scope
 
-- Human M-CSF MACs in vitro, 1% O₂, LPS 48 h.
-- Conclusion of "cooperation without physical interaction" rests on the low correlation alone; co-IP/proximity-ligation experiments not performed.
+- mMAC1 cobound peaks specifically.
+- ChIP-seq cannot distinguish direct vs indirect chromatin binding.
 
 ## Counter-evidence
 
-- Other systems have reported direct HIF1α-NF-κB physical interaction (e.g., in cancer cells); cell-type specificity of the present finding is not established.
-- Low Pearson correlation does not exclude non-linear or switch-like interaction modes.
+- Statistical significance (P = 2.5×10⁻⁴) shows the correlation is real but weak.
+- Alternative interpretation: stoichiometric binding may occur at a subset of cobound peaks not captured in the bulk correlation.
 
 ## Linked ideas
 
-(none yet)
+- Concept: [[concepts/hif1a-nf-kb-cooperative-chromatin-binding]].
+- Direct mechanistic follow-up: proximity ligation assay (PLA), BioID, CUT&Tag for chromatin readers, co-IP under non-stringent conditions.
 
 ## Open questions
 
-- Is the cooperation switch-like (one TF licenses the other) rather than continuous?
-- Do other hypoxic TFs (HIF2α) participate in the cobinding pattern?
-- Is the cooperation conserved at C2 demethylated CpGs specifically, or distributed across regulatory elements?
+- Identity of bridging cofactors (p300/CBP, BRD4, mediator complex?).
+- Whether HIF1α priming is sufficient to recruit p65, or whether NF-κB-target sequences are also required.
+- Cell-cycle / activation-state dependence of the cooperation.

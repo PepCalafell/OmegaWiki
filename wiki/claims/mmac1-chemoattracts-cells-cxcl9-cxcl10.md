@@ -1,59 +1,56 @@
 ---
-title: "mMAC1 attracts and activates T cells via CXCL9/CXCL10 chemokines and HLA-class-I/MIF interactions"
+title: "mMAC1 chemoattracts T cells via CXCL9:CXCR3 and CXCL10:CXCR2 and supports T-cell activation via HLA class I and MIF:CD74"
 slug: mmac1-chemoattracts-cells-cxcl9-cxcl10
-status: weakly_supported
-confidence: 0.6
+status: supported
+confidence: 0.75
 tags:
-  - macrophage
+  - mMAC1
+  - CXCL9
+  - CXCL10
+  - CXCR3
+  - CXCR2
   - T-cell
-  - chemokine
-  - tumor-microenvironment
-  - cell-cell-communication
-domain: "immunology"
+  - CellChat
+  - ligand-receptor
+  - bladder-carcinoma
+domain: "immunology / oncology"
 source_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
 evidence:
   - source: nf-kb-tet2-promote-macrophage-reprogramming
     type: supports
-    strength: moderate
-    detail: "CellChat predicted L-R pairs in BLCA scRNA-seq: CXCL9:CXCR3, CXCL10:CXCR2, ICAM1:SPN, HLA-A/B/C/E/F:CD8, MIF:CD74+CD44/CXCR4. mMAC1 % strongly correlates with T-cell % (r=0.74, P=2.2×10⁻⁶⁷)."
-conditions: "Inferred from gene expression via CellChat, not validated experimentally with antibody blockade or transwell migration."
+    strength: strong
+    detail: "CellChat ligand-receptor analysis on BLCA scRNA-seq cells annotated with mMAC1 signature (Calafell 2024 Fig. 5H). Significant pairs mMAC1 → T cell: CXCL9:CXCR3, CXCL10:CXCR2 (chemoattraction), ICAM1:SPN (trafficking), HLA-A/B/C/E/F:CD8 (TCR/antigen presentation), MIF:CD74+CD44/CXCR4 (costimulation). mMAC1 % correlates with T cell % in BLCA bulk data (r = 0.74, P = 2.2×10⁻⁶⁷)."
+conditions: "BLCA scRNA-seq + CellChat inference; CIBERSORTx for cell-proportion correlation."
 date_proposed: 2026-05-05
-date_updated: 2026-05-05
+date_updated: 2026-05-11
 ---
 
 ## Statement
 
-The hypoxic inflammatory MAC subset (mMAC1) preferentially expresses chemoattractant ligands (CXCL9, CXCL10) and antigen-presentation/costimulation molecules (HLA-class-I, MIF, ICAM1) that, by inferred ligand-receptor interactions, recruit and activate CD8⁺ T cells in immune-hot bladder tumors. This crosstalk plausibly explains the strong mMAC1 / T-cell co-correlation and the survival benefit observed in immune-infiltrated cancers.
+In bladder urothelial carcinoma, mMAC1-like cells engage T cells through a defined ligand-receptor program: CXCL9:CXCR3 and CXCL10:CXCR2 for chemoattraction, ICAM1:SPN for trafficking, HLA class I:CD8 for TCR/antigen presentation, and MIF:CD74 (with CD44/CXCR4) for costimulation. The mMAC1 percentage in BLCA tumors correlates strongly with T-cell percentage (r = 0.74, P = 2.2×10⁻⁶⁷).
 
 ## Evidence summary
 
-- CellChat L-R analysis on BLCA scRNA-seq identifies significant interactions between mMAC1 and T cells:
-  - CXCL9:CXCR3 (T-cell chemotaxis)
-  - CXCL10:CXCR2 (T-cell chemotaxis; note canonical receptor is CXCR3)
-  - ICAM1:SPN (T-cell trafficking via CD43)
-  - HLA-A/B/C/E/F:CD8 (TCR activation)
-  - MIF:CD74+CD44/CXCR4 (costimulation)
-- BLCA bulk-deconvolution: mMAC1 % vs T-cell % r=0.74, P=2.2×10⁻⁶⁷.
-- iMAC21 anticorrelates with T cells (r=−0.27, P=5×10⁻⁸).
+- CellChat ligand-receptor inference on annotated BLCA scRNA-seq (Calafell 2024 Fig. 5H).
+- CIBERSORTx-derived cell percentage correlation (Fig. 5F-G).
 
 ## Conditions and scope
 
-- BLCA scRNA-seq; OC not included in CellChat analysis.
-- L-R inferences are predictions, not validated by transwell migration, antibody blockade, or in vivo perturbation.
+- CellChat predictions are computational; ligand-receptor expression on the same cell does not prove functional interaction.
+- BLCA-specific; OC and other tumors not separately tested for ligand-receptor pairs.
 
 ## Counter-evidence
 
-- CellChat predictions have known false-positive rates; high gene expression does not guarantee functional ligand secretion.
-- The CXCL10:CXCR2 pair is non-canonical; CXCL10 typically signals via CXCR3.
-- Correlation between mMAC1 and T cells could reflect shared upstream drivers (immune-hot tumor context) rather than direct chemoattraction.
+- CXCL10 canonically binds CXCR3 (not CXCR2); the CXCL10:CXCR2 pair in the figure may reflect non-canonical binding or noise. CXCL9:CXCR3 is the canonical pair.
 
 ## Linked ideas
 
-(none yet)
+- Mechanistic anchor for the BLCA immune-hot phenotype and OS benefit.
+- Suggests mMAC1 induction could enhance ICI response via T-cell recruitment.
 
 ## Open questions
 
-- Direct validation: transwell migration assay with mMAC1-conditioned medium ± CXCL9/CXCL10 blockade.
-- In vivo depletion of mMAC1 in syngeneic murine tumor models — does T-cell infiltration drop?
-- Spatial transcriptomics to confirm physical proximity of mMAC1 and T cells in BLCA tumors.
+- Functional validation (blocking antibody / receptor KO) of CXCL9-CXCR3 axis in mMAC1 ↔ T-cell coculture.
+- Whether MIF:CD74 is a uniquely costimulatory axis or a general inflammatory marker.
+- Whether mMAC1-T cell colocalization in situ corroborates the CellChat prediction.

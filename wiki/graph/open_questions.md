@@ -35,13 +35,17 @@ _Auto-generated open questions. Do not edit._
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] TCGA bulk mRNA confounds tumor-cell hypoxia with stromal hypoxia. To what extent are pancancer hypoxia scores driven by malignant epithelium vs hypoxic stromal/myeloid compartments?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] The paper proposes TP53 mutation as a *consequence* of hypoxia (selection); but mutual confounding by clonal hematopoiesis or germline modifiers is not ruled out.
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Whether hypoxia-induced miR-133a-3p downregulation affects BIN1/PGM5 protein levels in vivo (not only correlationally) is open.
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] What is the precise temporal sequence of NF-κB binding, TET recruitment, and demethylation at C2 loci?
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Why is HIF1α inhibition only partially effective at reducing inflammatory gene expression while not affecting C2 demethylation? Are there HIF1α-independent transcriptional layers?
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the paradoxical "incomplete differentiation" pattern of iMAC1 (down-regulation of p65-bound genes) generalize to other hypoxic non-inflammatory contexts?
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] TET2 vs TET1/TET3 specificity at C2 loci is not resolved by chemical TET inhibition alone — a TET-isoform-specific genetic perturbation experiment would close this.
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the same NF-κB-driven C2 demethylation occur in tissue-resident or embryonic-origin MACs, or is it specific to monocyte-derived M-CSF MACs?
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Is the mMAC1 ↔ T-cell crosstalk causally responsible for the survival benefit in BLCA, or merely a co-occurring marker of immune-hot tumors?
-- [paper/nf-kb-tet2-promote-macrophage-reprogramming] How does mMAC1 relate to the trained-immunity literature, given the persistent epigenetic remodeling observed?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] How is the temporal sequence of HIF1α / p65 binding and DNA demethylation orchestrated mechanistically? (paired time-resolved methylome+transcriptome required)
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Which TET isoform is responsible for C2 demethylation? Is TET2 specifically recruited by p65?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does GM-CSF or tissue-resident lineage reproduce the C2 hypomethylation under hypoxia?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Is the mMAC1 ↔ T-cell crosstalk the *causal* driver of the BLCA/OC survival benefit, or correlational?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Can mMAC1 / IL4I1 MAC be therapeutically expanded or induced in vivo for anti-tumor immunity?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] What is the HIF1α-p65 cofactor that mediates non-physical cooperation? Candidates: p300/CBP, BRD4, mediator complex, chromatin remodelers.
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Why is iMAC1 (hypoxic unstimulated) p65-bound-gene-down while mMAC1 is p65-bound-gene-up — what's the molecular switch?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] How does NF-κB recruitment of TET2 evade the canonical Fe²⁺/2-OG/O₂ requirement? Is there a hypoxia-resistant TET isoform or post-translational modification?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] How robust is the mMAC1 ↔ IL4I1 mapping to other tumor types (HCC, NSCLC, breast, melanoma) and to chronic non-malignant hypoxia (arthritis, ischemic tissues)?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the C2 hypomethylation persist after re-oxygenation, or is it reversible?
+- [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does mMAC1 / IL4I1 MAC enhance ICI response (PD-1/PD-L1 blockade) as the OS data and Park 2024 (CRC efferocytosis) collectively suggest?
 - [paper/physiology-diseases-tissue-resident-macrophages] Whether TRM self-renewal occurs by mitosis of differentiated cells or via an unidentified tissue macrophage progenitor (p.701).
 - [paper/physiology-diseases-tissue-resident-macrophages] Whether single niche signals are sufficient to determine TRM identity, or whether unique cytokine-cocktails are required (p.700).
 - [paper/physiology-diseases-tissue-resident-macrophages] The relative contribution of stochastic vs instructive specification (p.700) — authors favour stochastic/selection but acknowledge unresolved.
@@ -216,5 +220,6 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-subclonal-evolution-architecture] Coupling phylogeny to microenvironmental data (hypoxia maps, immune infiltration)
 - [concept/tumor-subclonal-evolution-architecture] Validating bulk-derived phylogenies with single-cell data at scale
 - [concept/tumor-subclonal-evolution-architecture] How the immune system shapes branch-timed mutations through immune editing
-- [claim/mmac1-chemoattracts-cells-cxcl9-cxcl10] mMAC1 attracts and activates T cells via CXCL9/CXCL10 chemokines and HLA-class-I/MIF interactions (status: weakly_supported)
+- [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)

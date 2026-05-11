@@ -286,6 +286,21 @@ people:
   - slug: vinayak-bhandari
     tags: [cancer-genomics, hypoxia, prostate-cancer, pancancer, bioinformatics, computational-oncology]
     affiliation: "Department of Medical Biophysics, University of Toronto; Informatics and Biocomputing Program, Ontario Institute for Cancer Research (OICR)"
+  - slug: javier-rodriguez-ubreva
+    tags: [epigenetics, immunology, macrophage, DNA-methylation, autoimmune-disease]
+    affiliation: "Epigenetics and Immune Disease Group, Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
+  - slug: aymeric-silvin
+    tags: [macrophage, mononuclear-phagocyte, single-cell, immunology, tumor-microenvironment]
+    affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France"
+  - slug: angel-l-corbi
+    tags: [macrophage, immunology, myeloid-cell, integrin, leukocyte-biology, PI]
+    affiliation: "Myeloid Cell Laboratory, Centro de Investigaciones Biológicas (CIB-CSIC), Madrid, Spain"
+  - slug: cristina-munoz-pinedo
+    tags: [cell-death, thoracic-tumor, tumor-microenvironment, metabolism, hypoxia, PI]
+    affiliation: "Preclinical and Experimental Research in Thoracic Tumors (PReTT), IDIBELL, Barcelona, Spain"
+  - slug: sebastien-gouy
+    tags: [surgical-oncology, ovarian-cancer, gynecological-oncology, clinical-research, PI]
+    affiliation: "Department of Surgical Oncology, Gustave Roussy, Villejuif, France"
 
 ideas:
 
@@ -796,6 +811,90 @@ claims:
     status: supported
     confidence: 0.75
     domain: pharmacology / oncology / drug-repurposing
+  - slug: mmac1-higher-mhcii-costim-lower-suppressive-markers
+    title: "mMAC1 displays higher MHC-II and costimulatory marker expression and lower immunoregulatory marker expression than mMAC21"
+    tags: [macrophage, hypoxia, HLA-DR, CD80, CD86, CD14, CD163, CD206, antigen-presentation]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: hypoxic-macs-lose-cd8-suppressive-capacity
+    title: "Hypoxic macrophages (iMAC1 and mMAC1) show reduced capacity to suppress CD8⁺ T cell proliferation versus normoxic counterparts"
+    tags: [macrophage, hypoxia, CD8-T-cell, immunosuppression, coculture]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: c2-regions-lps-dependent-de-novo-enhancers
+    title: "Cluster C2 regions are LPS-dependent de novo enhancers, gaining H3K4me1 and H3K27ac upon activation"
+    tags: [cluster-C2, enhancer, H3K4me1, H3K27ac, DNA-methylation, chromatin]
+    status: supported
+    confidence: 0.8
+    domain: epigenetics
+  - slug: c2-genes-enriched-e2-transcriptional-cluster
+    title: "C2-associated genes are specifically enriched in transcriptional cluster E2 (Fisher P=3.03×10⁻⁴⁴)"
+    tags: [cluster-C2, cluster-E2, methylation-expression, LPS-response, GSEA]
+    status: supported
+    confidence: 0.95
+    domain: epigenetics
+  - slug: dorothea-hif1a-rela-irf-stat-co-active-mmac1
+    title: "DoRothEA TF activity shows HIF1A, RELA, STAT2, IRF1 co-active in mMAC1 with RELA NES rising from 3.8 to 5"
+    tags: [DoRothEA, TF-regulon, HIF1A, RELA, STAT2, IRF1]
+    status: supported
+    confidence: 0.85
+    domain: methods / epigenetics
+  - slug: nf-kb-overactivation-not-specific-stimulus-drives-hypoxic-inflammation
+    title: "NF-κB activation per se drives hypoxic upregulation of inflammatory genes — multiple NF-κB stimuli converge"
+    tags: [NF-kB, hypoxia, LPS, P3C, polyI-C, TNF-alpha, IL-1-beta, PAMP]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: hypoxic-activation-not-differentiation-window-critical
+    title: "The activation step (LPS in hypoxia), not differentiation, is the critical hypoxic window for the mMAC1 inflammatory program"
+    tags: [hypoxia, macrophage-differentiation, LPS-activation, swap-experiment]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: hif1a-p65-protein-peak-in-mmac1-distinct-localization
+    title: "HIF1α and p65 proteins both peak in mMAC1 with distinct subcellular dynamics"
+    tags: [HIF1A, p65, RELA, protein-localization, immunofluorescence, Western-blot]
+    status: supported
+    confidence: 0.85
+    domain: immunology / cell biology
+  - slug: hif1a-binds-earlier-than-p65-cobound-peaks
+    title: "HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers"
+    tags: [HIF1A, p65, ChIP-seq, priming, temporal-sequence]
+    status: weakly_supported
+    confidence: 0.7
+    domain: epigenetics
+  - slug: hif1a-only-p65-only-cobound-peaks-distinct-functions
+    title: "HIF1α-only, p65-only, and cobound peaks map to functionally distinct gene sets: glycolysis, immune adhesion, LPS signaling"
+    tags: [HIF1A, p65, ChIP-seq, GO-enrichment, GSEA, glycolysis, LPS-signaling]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
+  - slug: c2-cpgs-colocalize-p65-specific-peaks
+    title: "Cluster C2 CpGs co-localize exclusively with p65-specific ChIP-seq peaks (Fisher P=8.3×10⁻¹⁰³)"
+    tags: [cluster-C2, p65, RELA, ChIP-seq, DNA-methylation, colocalization]
+    status: supported
+    confidence: 0.95
+    domain: epigenetics
+  - slug: tet-inhibition-blocks-c2-demethylation-target-expression
+    title: "TET2 inhibition (4-octyl itaconate) increases C2 methylation and decreases C2-target gene expression"
+    tags: [4-octyl-itaconate, TET2-inhibitor, DNA-demethylation, cluster-C2, itaconate, pharmacological]
+    status: supported
+    confidence: 0.85
+    domain: pharmacology / epigenetics
+  - slug: mmac1-signature-enriched-momac-verse-il4i1-il1b-isg
+    title: "mMAC1 signatures enrich in MoMac-VERSE clusters IL4I1 Mac, IL1B Mo, ISG Mo — not TREM2/FOLR2"
+    tags: [mMAC1, MoMac-VERSE, IL4I1, IL1B-Mo, ISG-Mo, signature-projection, in-vivo-correlate]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: imac1-paradoxical-down-p65-bound-genes
+    title: "Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes"
+    tags: [iMAC1, p65, paradox, inflammatory-suppression, macrophage-differentiation, context-dependency]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
 
 Summary:
 
@@ -988,3 +1087,11 @@ foundations:
     title: "VHL — Von Hippel-Lindau tumor suppressor / E3 ubiquitin ligase"
     status: mainstream
     domain: molecular-biology / hypoxia-signaling / oncology
+  - slug: bay11-7082-p65-inhibitor
+    title: "BAY11-7082 — NF-κB / IκB kinase α (IKKα) covalent inhibitor"
+    status: mainstream
+    domain: pharmacology
+  - slug: 4-octyl-itaconate-tet2-inhibitor
+    title: "4-octyl itaconate (4-OI) — cell-permeable itaconate derivative; TET2 / Nrf2 modulator"
+    status: mainstream
+    domain: pharmacology / immunology

@@ -1,5 +1,5 @@
 ---
-title: "Hypoxia boosts macrophage immunogenicity via NF-κB-driven, TET-dependent demethylation"
+title: "Hypoxia boosts macrophage immunogenicity via NF-κB-driven epigenetic reprogramming, contradicting the dominant TME suppression paradigm"
 slug: hypoxia-boosts-macrophage-immunogenicity-nf-kb
 status: supported
 confidence: 0.85
@@ -7,55 +7,59 @@ tags:
   - hypoxia
   - macrophage
   - NF-kB
-  - TET
-  - epigenetics
+  - immunogenicity
+  - paradigm-challenge
   - tumor-microenvironment
-domain: "immunology / epigenetics"
+domain: "immunology"
 source_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
 evidence:
   - source: nf-kb-tet2-promote-macrophage-reprogramming
     type: supports
     strength: strong
-    detail: "Multi-modal evidence (cytokine secretion, surface markers, T-cell suppression, EPIC array C2 demethylation, ChIP-seq p65 binding, BAY11-7082 rescue, 4-octyl itaconate dependence, MoMac-VERSE in vivo correlate, TCGA survival)"
-conditions: "Human monocyte-derived M-CSF MACs, 1% O2 vs 21% O2, ± LPS 48h. May not generalize to GM-CSF MACs or tissue-resident MACs."
+    detail: "M-CSF MACs differentiated and LPS-activated at 1% O2 (mMAC1) display: increased IL-6/TNF-α secretion; increased HLA-DR/CD80/CD86; decreased IL-10/CD14/CD206/CD163; decreased CD8+ T-cell suppression in coculture. Mechanism: NF-κB-driven C2 cluster (403 CpGs) hypomethylation overrides hypoxic TET inhibition at proinflammatory enhancers. In vivo correlates (IL4I1 MAC, IL1B Mo, ISG Mo) enrich in immune-hot tumors with better OS."
+conditions: "Human peripheral blood monocyte-derived M-CSF MACs, 5d differentiation in 1% vs 21% O2, ± LPS 48h. Bladder/ovarian carcinoma in vivo validation. Generalizes to other NF-κB-activating PAMPs (P3C, CpG, polyI:C) and cytokines (TNF-α, IL-1β) but not yet tested in GM-CSF MACs or tissue-resident MACs."
 date_proposed: 2026-05-05
-date_updated: 2026-05-05
+date_updated: 2026-05-11
 ---
 
 ## Statement
 
-Under hypoxia, NF-κB (p65/RELA) drives focal, TET-dependent DNA demethylation at proinflammatory enhancer regions (cluster C2), overriding the global hypoxic suppression of TET activity, and producing a hyperinflammatory MAC state (mMAC1) with enhanced antigen presentation, cytokine secretion, and reduced T-cell-suppressive capacity.
+Contrary to the dominant TME paradigm in which hypoxia universally drives macrophage immunosuppression, low oxygen (1%) *enhances* the immunogenic features of M-CSF-derived macrophages — when paired with NF-κB-activating stimulation. The mechanism is a focal NF-κB-driven DNA demethylation of proinflammatory enhancers (cluster C2, 403 CpGs) that overrides global hypoxic TET inhibition.
 
 ## Evidence summary
 
-Six convergent lines from [[papers/nf-kb-tet2-promote-macrophage-reprogramming]]:
-
-1. Functional: mMAC1 secretes more IL-6/TNF-α, less IL-10, expresses more HLA-DR/CD86/CD80, less CD14/CD206/CD163, fails to suppress CD8⁺ T-cell proliferation.
-2. Epigenomic: 403 CpGs (cluster C2) hypomethylated specifically in mMAC1, enriched for NF-κB motifs and at LPS-induced de novo enhancers.
-3. Transcriptomic: RNA cluster E2 (LPS-induced, hypoxia-amplified) significantly enriched for C2-associated genes (P=3.03×10⁻⁴⁴); RELA regulon NES rises to 5 in mMAC1.
-4. ChIP-seq: C2 regions exclusively associate with p65-specific peaks, not HIF1α.
-5. Pharmacology: p65 inhibition (BAY11-7082) restores normoxic methylation; TET inhibition (4-octyl itaconate) blocks both demethylation and gene expression; HIF1α inhibition (PX-478) does *not* affect C2 demethylation.
-6. In vivo: mMAC1 signature is recapitulated by IL4I1 MACs in MoMac-VERSE, present in human tumors, and high-mMAC1 / high-IL4I1 / low-C2-methylation patients have significantly better survival in BLCA, OC, and 7–10/12 TCGA cancers.
+- Functional: increased IL-6/TNF-α, decreased IL-10, increased HLA-DR/CD80/CD86, decreased CD14/CD163/CD206, decreased T-cell suppression in mMAC1 vs mMAC21 (Calafell et al. 2024, Fig. 1B-D).
+- Epigenetic: NF-κB-motif-enriched C2 cluster hypomethylates specifically in mMAC1; p65 ChIP-seq peaks colocalize with C2 (Fisher P = 8.3×10⁻¹⁰³).
+- Pharmacological: BAY11-7082 (p65 inhibitor) blocks C2 demethylation; PX-478 (HIF1α inhibitor) does not; 4-octyl itaconate (TET2 inhibitor) phenocopies hypoxia inhibition.
+- In vivo: mMAC1 signature enriched in MoMac-VERSE IL4I1/IL1B/ISG clusters; IL4I1 MACs sorted from primary OC recapitulate C2 hypomethylation.
+- Clinical: mMAC1 signature associates with better OS in 10/12 TCGA cancer types; BLCA HR = 0.491 (P = 0.003).
 
 ## Conditions and scope
 
-- In vitro M-CSF MACs from human peripheral blood monocytes.
-- Validated in vivo correlate: IL4I1 MACs from primary OC.
-- TCGA correlation observed across 12 cancer types with strongest separation in BLCA.
-- Does NOT necessarily extend to GM-CSF MACs, tissue-resident embryonic-origin MACs, or non-cancer hypoxia (arthritic joints, ischemic tissues).
+Applies to:
+- Monocyte-derived (PB-MO) M-CSF MACs under static 1% O₂ + LPS or other NF-κB stimuli.
+- Bladder urothelial carcinoma and ovarian carcinoma (validated cohorts).
+
+Does NOT apply (or untested):
+- GM-CSF-derived MACs.
+- Tissue-resident embryonic MACs (microglia, Kupffer, LCs).
+- Cyclic hypoxia / H-R cycles (only static 1% tested).
+- Resting hypoxic MACs (iMAC1) which paradoxically down-regulate p65-bound genes.
 
 ## Counter-evidence
 
-- Prior literature (15, 38, 52, 53) reports immunosuppressive effects of hypoxia/HIFs in MACs — context-dependent contradiction is a real caveat.
-- iMAC1 (resting hypoxic) shows down-regulation of p65-bound genes, which the authors note as a possibly contradictory paradoxical state.
+- Prior literature (Mantovani, Murray, Sica & others; reviewed in Bai 2022) frames hypoxic TAMs as immunosuppressive — but mostly from in vivo TME studies where MAC ontogeny, activation state, and cyclic hypoxia confound. The mMAC1 result is consistent with a *subset* of TAMs (IL4I1+) rather than the bulk TAM population.
+- Thienpont 2016 (Nature): tumor hypoxia → DNA hypermethylation via TET inhibition. Calafell 2024 *extends* rather than contradicts — TET inhibition holds globally; NF-κB carves out a focal exception.
 
 ## Linked ideas
 
-(none yet)
+- HypoxiaVERSE: hypoxia is not a single binary axis; activation state is a critical co-axis.
+- Therapeutic exploitation: can mMAC1 / IL4I1 MAC be expanded or induced in vivo to improve ICI response?
 
 ## Open questions
 
-- TET-isoform-specific genetic perturbation needed to confirm TET2 attribution.
-- Does the C2-demethylation persist (epigenetic memory) once hypoxia is relieved?
-- Is the mMAC1 → T-cell crosstalk causal for the BLCA/OC survival benefit, or merely a co-marker?
+- Causal vs correlational role of mMAC1 in TME immune-hot phenotype and improved OS.
+- Whether GM-CSF or tissue-resident MACs reproduce the phenotype.
+- Whether cyclic hypoxia (H-R cycles) reverses or amplifies the effect.
+- Stability of the C2 hypomethylation upon re-oxygenation.
