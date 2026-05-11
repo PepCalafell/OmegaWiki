@@ -1,91 +1,99 @@
-# OmegaWiki — Estado al 2026-05-08 (final del dia)
+# OmegaWiki — Estado al 2026-05-11 (sesión IJC)
 
-## Resumen del dia (commits)
+## Resumen del día
 
-- 7f2921f gitignore *.backup
-- 7efb442 patches Step 3 (two-pass writing) + Step 4.E (HARD FAIL)
-- 67e7b44 fix lowercase [cnn]
-- f80b762 reingest Lazarov to ingest_version 2 (validacion en produccion)
-- 4cccd91 mejoras: validador canonico, reingest protocol, PyMuPDF declaration
-- <commit-actual> normalizacion + recovery + STATUS
+Plan crítico del 9 de mayo (Tareas 1-5 del INGEST_AUDIT) COMPLETADO.
 
-## Estado actual del wiki
+## Commits del día
+
+- 7d9f32f ingest(reingest): Bhandari 2019 → ingest_version 2 (Tarea 3)
+- 6656a1e ingest(reingest): Bai 2022 → ingest_version 2 + 16 claims nuevos (Tarea 4)
+
+## Estado del wiki
 
 - papers:      6
+- claims:      91 (+16 hoy en Bai reingest)
 - concepts:    45
 - foundations: 47
 - people:      21
-- claims:      75 (60 + 15 huerfanos recuperados)
-- edges:       186
+- edges:       211 (+25 hoy)
 
-## Papers - estado del validador
+## Validador por paper
 
-| Paper | Validador | Bullets [cnn] | Enlazados | Estado |
-|---|---|---|---|---|
-| Lazarov 2023 (physiology-diseases-tissue-resident-macrophages) | PASS | 22 | 22/22 | Completo |
-| Calafell 2024 (TUYO) (nf-kb-tet2-promote-macrophage-reprogramming) | FAIL | 30 | 12/30 | 18 stubs pendientes |
-| cross-tissue-single-cell-landscape-human | FAIL | 27 | 5/27 | 22 stubs pendientes |
-| molecular-landmarks-tumor-hypoxia-across-cancer | FAIL | 31 | 4/31 | 27 stubs pendientes |
-| hypoxia-driven-crosstalk-between-tumor-tumor | FAIL | 28 | 0/28 | 28 stubs pendientes |
-| tissue-resident-macrophages-provide-pro-tumorigenic | FAIL | 0 | - | Vacio (reingest necesario) |
+| Paper | Validador | Bullets [cnn] |
+|---|---|---|
+| Lazarov 2023 | PASS | 22/22 |
+| Bhandari 2019 (molecular-landmarks) | PASS | 31/31 |
+| Bai 2022 (hypoxia-driven-crosstalk) | PASS | 28/28 |
+| Calafell 2024 (TUYO, nf-kb-tet2) | FAIL | 12/30 |
+| Park (cross-tissue) | FAIL | 5/27 |
+| Tissue-resident-pro-tumorigenic | FAIL | 0 (vacío) |
 
-Total: 95 bullets sin claim file + 1 paper vacio.
+## Lint global
 
-## Lo que se hizo hoy
+- 🔴 (crítico) : 0
+- 🟡 (warning) : 0
+- 🔵 (info)    : 0
 
-1. Patches al SKILL.md de /ingest:
-   - Step 3: two-pass writing para All claims con [[claims/TODO]] placeholders
-   - Step 4.E: HARD FAIL si bullet [cnn] no enlaza a [[claims/{slug}]]
-   - Step 2: reingest protocol explicito
-   - PyMuPDF declarado canonico
-2. Validador canonico tools/validate_step4e.py commiteado
-3. Reingest de Lazarov para validar patches en produccion (PASS, 22/22)
-4. Normalizacion de formato [C01] -> [c01] con backticks en 4 papers
-5. Recovery de 15 claims que se borraron por error
+**Target de INGEST_AUDIT Tarea 5 alcanzado y excedido por primera vez.**
 
-## Contexto historico relevante
+## Plan crítico (Tareas 1-5) - status
 
-- Commit e49bd73 (Tue May 5 2026): "Wiki state v2: reprocessed Calafell 2024 with adapted skill"
-  Eres tu, hace 3 dias. Procesaste tu paper con una skill adaptada que NO es la actual.
-  Por eso tu paper tiene formato pre-canonical. Esto NO es residuo casual.
+- [x] Tarea 1: Mejora 6 HARD FAIL Step 4.E
+- [x] Tarea 2: Validar Mejora 6 con Lazarov reingest
+- [x] Tarea 3: Reset selectivo Bhandari + reingest
+- [x] Tarea 4: Reset selectivo Bai + reingest
+- [x] Tarea 5: /check global 0/0/0
 
-## Decision pendiente para manana
+## Pendiente (no bloqueante)
 
-Tres caminos posibles, decidir con cabeza fresca:
+### Reingests / fixes futuros
 
-### Opcion A: Crear 95 stubs (10 min, sin Opus)
-Stubs minimos para cada bullet sin claim file. El validador pasaria 100% en 4
-papers. Pierdes contenido rico de los claims (son esqueletos), pero la info
-del paper esta en el bullet con quote y pagina.
+- Calafell 2024 (TU paper): 18 bullets sin claim file. Coste: ~25% Opus por
+  reingest. Posibilidad: aplicar mismo procedimiento que Bai (Opus crea
+  claims nuevos para bullets sin pareja).
+- cross-tissue-single-cell-landscape-human (Park): 22 bullets sin claim file.
+  Mismo procedimiento.
+- tissue-resident-macrophages-provide-pro-tumorigenic: paper vacío. Necesita
+  reingest completo desde PDF.
 
-### Opcion B: Reingest selectivo de papers que mas importan
-Empezar por Calafell 2024 (el tuyo). Coste ~30% Opus por paper. Calidad
-maxima de claims, pero pierdes el contenido actual del paper.
+### Mejoras al sistema
 
-### Opcion C: Reset wiki + reingest masivo con /init mode
-Borrar todo, reingerir 6 papers con la skill nueva. Coste: ~180% Opus
-(2-3 dias de cuota Max). Coherencia total al final.
+- Mejora 1: Sonnet subagents en Steps 5-7 de /ingest (40-50% ahorro Opus)
+- Mejora 2: Pre-check de calidad referencia (Lazarov como TIER_1 baseline)
+- Mejora 5: scripts/tier_candidates.py (resolver frustración "elegir paper")
 
-### Recomendacion (yo, fresco): Opcion A primero, luego decidir B vs C
-Stubs ahora -> wiki coherente. Despues decidir si quieres calidad maxima
-en algun paper concreto via reingest.
+### Integración externa
 
-## Tareas pendientes adicionales
+- K-Dense Iteración 1: paper-lookup, database-lookup, bgpt-paper-search
+  vendoring. Procedimiento en KDENSE_INTEGRATION_PLAN.md §5.
 
-- 15 claim files huerfanos recuperados (no enlazados desde ningun bullet).
-  Decidir: matchear, dejar, o borrar.
-- 1 paper vacio (tissue-resident-pro-tumorigenic). Necesita reingest fresco.
-- Investigar si hay mas trabajo previo en commits viejos (ver e49bd73 y
-  commits anteriores del 5-9 de mayo).
+### Contradicción notada (worth flagging in thesis)
 
-## Comando util para retomar manana
+- hif2a-spint1-tam-suppresses-tumor-via-hgfa flag: Belzutifan/PT2385 pueden
+  remover Spint1 brake en HGF activation. Confounder para tratamientos
+  HIF-2α en thesis section.
 
-Validar todos los papers:
+## Tags actuales
 
+- pre-reingest-bai (rollback Bai)
+- pre-reingest-bhandari (rollback Bhandari)
+- baseline-opus-mulder-casanova
+- v1-baseline
+- v2-pre-inventory
+
+## Comando útil para retomar
+
+    cd ~/omegawiki
+    git pull origin main
+    .venv/bin/python tools/lint.py --wiki-dir wiki/
     for f in wiki/papers/*.md; do
       .venv/bin/python tools/validate_step4e.py "$f" 2>&1 | grep -E "^(PASS|FAIL|HARD)" | head -1 | xargs -I{} echo "$(basename $f .md): {}"
     done
 
-Ver historia git completa:
+## Siguiente acción recomendada (cuando retomes)
 
-    git log --all --oneline | head -30
+Opción A: Reingest Calafell 2024 (TU paper, completar el más importante)
+Opción B: Reingest cross-tissue Park (más bullets sin claim file)
+Opción C: Construir tier_candidates.py (sin Opus, prepara escalado)
+Opción D: K-Dense Iteración 1 (vendoring, prepara nuevas capacidades)
