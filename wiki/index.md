@@ -652,6 +652,150 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology / oncology
+  - slug: hypoxia-prevalent-feature-driver-cancer-malignancy
+    title: "Hypoxia is a persistent and prevalent feature of solid tumors and a major driver of cancer malignancy and poor prognosis"
+    tags: [hypoxia, solid-tumor, prognosis, cancer-malignancy, TME, HIF, oxygen-gradient, field-consensus]
+    status: supported
+    confidence: 0.95
+    domain: oncology / hypoxia / tumor-biology
+  - slug: tams-accumulate-hypoxic-tumor-regions-most-abundant
+    title: "TAMs are the most abundant immune cell population in the TME and accumulate preferentially in hypoxic tumor regions"
+    tags: [TAM, tumor-microenvironment, hypoxia, macrophage, immune-cell-abundance, hypoxic-niche, field-consensus]
+    status: supported
+    confidence: 0.95
+    domain: oncology / immunology / hypoxia
+  - slug: tumor-hypoxia-chronic-acute-cyclic-subtypes
+    title: "Tumor hypoxia is operationally classified into chronic, acute, and cyclic subtypes"
+    tags: [hypoxia, tumor-hypoxia, chronic-hypoxia, acute-hypoxia, cyclic-hypoxia, intermittent-hypoxia, hypoxia-reoxygenation, classification]
+    status: supported
+    confidence: 0.85
+    domain: oncology / hypoxia / methodology
+  - slug: hif-phd-vhl-fih-canonical-degradation-axis
+    title: "HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination"
+    tags: [HIF1A, HIF2A, PHD, prolyl-hydroxylase, FIH, VHL, ubiquitin-proteasome, oxygen-sensing, canonical-axis, text-book]
+    status: supported
+    confidence: 0.99
+    domain: molecular-biology / hypoxia / oxygen-sensing
+  - slug: hif1a-stronger-vhl-affinity-than-hif2a
+    title: "HIF-1α has stronger pVHL affinity than HIF-2α; proline-hydroxylation site differentially modulates HIF-α / pVHL interaction"
+    tags: [HIF1A, HIF2A, VHL, PHD, proline-hydroxylation, protein-protein-affinity, structural-biology, oxygen-sensing]
+    status: supported
+    confidence: 0.85
+    domain: molecular-biology / hypoxia / structural-biology
+  - slug: kdm6a-kdm5a-direct-oxygen-sensors
+    title: "KDM6A and KDM5A histone demethylases are direct oxygen sensors regulating cell fate independent of HIF"
+    tags: [KDM6A, KDM5A, histone-demethylase, oxygen-sensor, chromatin, epigenetics, hypoxia, HIF-independent, H3K27me3, H3K4me3]
+    status: supported
+    confidence: 0.85
+    domain: molecular-biology / chromatin / hypoxia
+  - slug: hif-uncoupled-from-oxygen-pim1-iaspp
+    title: "HIF-α activation can be uncoupled from O₂: PIM1 phosphorylates HIF-1α to block PHD binding; iASPP binds pVHL to block HIF-1α degradation"
+    tags: [HIF1A, PIM1, iASPP, VHL, oxygen-independent-HIF, kinase, post-translational-modification, cancer]
+    status: supported
+    confidence: 0.8
+    domain: molecular-biology / hypoxia / kinase-signaling
+  - slug: hypoxic-tumor-exosomes-drive-tam-m2-polarization
+    title: "Hypoxic tumor cell-derived exosomes carrying ncRNA cargo drive TAM M2 polarization across cancer types"
+    tags: [hypoxia, exosome, extracellular-vesicle, miRNA, M2-polarization, TAM, tumor-microenvironment]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immunology / hypoxia
+  - slug: hypoxic-tam-exosomal-mir-223-tumor-chemoresistance
+    title: "Hypoxic-TAM-derived exosomal miR-223 lowers tumor PTEN to activate PI3K/AKT, increasing tumor viability and chemoresistance"
+    tags: [miR-223, TAM, exosome, PTEN, PI3K, AKT, chemoresistance, hypoxia, TAM-to-tumor, reverse-direction-crosstalk]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immunology / exosome-biology
+  - slug: hypoxia-tam-pd-l1-immune-evasion
+    title: "Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs"
+    tags: [PD-L1, hypoxia, TAM, immune-evasion, HIF-1α, exosome, lactate, IL-6, STAT3, immune-checkpoint, intermittent-hypoxia, obstructive-sleep-apnea]
+    status: supported
+    confidence: 0.75
+    domain: oncology / immunology / hypoxia
+  - slug: osm-mtorc2-akt1-tam-m2-polarization
+    title: "OSM (oncostatin M) from hypoxic cancer cells drives TAM M2 polarization via mTORC2-AKT1 (not PKCα)"
+    tags: [OSM, oncostatin-M, mTORC2, AKT1, PKCα, TAM, M2-polarization, hypoxia, IL-6-family, CD206, CD163, Arg-1, COX-2]
+    status: supported
+    confidence: 0.8
+    domain: immunology / oncology / signaling
+  - slug: cxcl8-cxcr1-2-jak-stat1-tam-tumor-feedback-loop
+    title: "Hypoxia drives a CXCL8 (macrophage) → CXCR1/2 (gastric cancer) → JAK/STAT1 → IL-10 → TAM M2 (NF-κB) positive feedback loop"
+    tags: [CXCL8, IL-8, CXCR1, CXCR2, JAK, STAT1, IL-10, NF-κB, TAM, M2-polarization, gastric-cancer, positive-feedback, hypoxia]
+    status: supported
+    confidence: 0.8
+    domain: immunology / oncology / cytokine-signaling
+  - slug: sema3a-nrp1-plexina-stop-signal-tam-hypoxic-niche
+    title: "Sema3A captures TAMs in hypoxic niches via NRP1-followed-by-PlexinA1/A4 stop signaling"
+    tags: [Sema3A, NRP1, PlexinA1, PlexinA4, TAM, hypoxic-niche, macrophage-recruitment, tumor-microenvironment]
+    status: supported
+    confidence: 0.7
+    domain: oncology / immunology / hypoxia
+  - slug: galectin-3-ros-nfkb-hypoxic-tam-not-hif1a
+    title: "Galectin-3 in hypoxic TAMs is regulated by ROS-NF-κB rather than HIF-1α"
+    tags: [Galectin-3, LGALS3, ROS, NF-κB, HIF1A, hypoxic-TAM, VEGFA, angiogenesis, non-canonical-regulation]
+    status: supported
+    confidence: 0.8
+    domain: immunology / oncology / hypoxia-signaling
+  - slug: hif2a-spint1-tam-suppresses-tumor-via-hgfa
+    title: "HIF-2α-induced Spint1 secreted by TAMs blocks HGFA-mediated HGF activation, inhibiting tumor cell proliferation"
+    tags: [HIF2A, Spint1, HGFA, HGF, c-Met, TAM, serine-protease-inhibitor, tumor-suppression, dual-edged-hypoxia]
+    status: supported
+    confidence: 0.7
+    domain: immunology / oncology / hypoxia-signaling
+  - slug: hypoxia-sirpa-cd47-paradox-colon-cancer-phagocytosis
+    title: "In colon cancer, hypoxia decreases macrophage SIRPα while increasing tumor CD47, paradoxically enhancing phagocytosis"
+    tags: [SIRPα, SIRPA, CD47, hypoxia, phagocytosis, colon-cancer, paradoxical-effect, dual-edged-hypoxia, immune-checkpoint]
+    status: supported
+    confidence: 0.65
+    domain: immunology / oncology / phagocytosis
+  - slug: necrotic-debris-tlr4-trif-nfkb-il1b-emt-loop
+    title: "Severely hypoxic necrotic debris drives macrophage TLR4/TRIF/NF-κB → IL-1β → tumor IL-1β/HIF-1α/COX-2 EMT loop"
+    tags: [TLR4, TRIF, NF-κB, IL-1β, HIF1A, COX-2, EMT, necrotic-debris, DAMP, hypoxia, feedback-loop, macrophage]
+    status: supported
+    confidence: 0.8
+    domain: immunology / oncology / DAMP-signaling
+  - slug: nfkb-dimer-composition-determines-tam-m1-m2
+    title: "NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2"
+    tags: [NF-κB, p50, p65, RELA, NFKB1, dimer-composition, macrophage-polarization, M1, M2, TAM]
+    status: weakly_supported
+    confidence: 0.6
+    domain: molecular-biology / immunology
+  - slug: lactate-tam-m2-polarization-hif1a-pka-creb
+    title: "Tumor-derived lactate drives TAM M2 polarization via HIF-1α and via GPCR/PKA-CREB; synergizes with hypoxia"
+    tags: [lactate, lactic-acid, TAM, M2-polarization, HIF-1α, PKA-CREB, oncometabolite, hypoxia, VEGFA, ARG1]
+    status: supported
+    confidence: 0.85
+    domain: oncology / metabolism / immunology
+  - slug: succinate-sucnr1-tam-recruitment-emt
+    title: "Tumor-derived succinate engages SUCNR1 on TAMs and tumor cells to drive macrophage recruitment, M2 polarization, and EMT via PI3K-HIF-1α"
+    tags: [succinate, SUCNR1, GPR91, TAM, oncometabolite, macrophage-recruitment, M2-polarization, EMT, HIF-1α, PI3K]
+    status: supported
+    confidence: 0.75
+    domain: oncology / metabolism / immunology
+  - slug: hif2a-pas-b-pocket-small-molecule-inhibitors-selective
+    title: "HIF-2α small-molecule inhibitors targeting the PAS-B pocket are selective for HIF-2α/ARNT dissociation without affecting HIF-1"
+    tags: [HIF2A, PAS-B, small-molecule-inhibitor, Belzutifan, MK-6482, PT2385, ARNT, HIF-1, selectivity, structural-biology, allosteric-inhibition]
+    status: supported
+    confidence: 0.9
+    domain: pharmacology / oncology / structural-biology
+  - slug: belzutifan-first-fda-approved-hif2a-inhibitor-vhl
+    title: "Belzutifan (MK-6482) is the first FDA-approved HIF-2α inhibitor, indicated for VHL-disease-associated tumors"
+    tags: [Belzutifan, MK-6482, HIF-2α, VHL-disease, clear-cell-renal-cell-carcinoma, pancreatic-neuroendocrine-tumor, hemangioblastoma, small-molecule, PAS-B-pocket, FDA-approved, clinical-trial, oncology-drug-development]
+    status: supported
+    confidence: 0.95
+    domain: oncology / drug-discovery / hypoxia-therapeutics
+  - slug: px-478-hif1a-inhibitor-mechanism-pdac
+    title: "PX-478 inhibits HIF-1α protein, transactivation, deubiquitination, hypoxic VEGF synthesis, and PDAC GM-CSF / PNI"
+    tags: [PX-478, HIF1A-inhibitor, VEGF, GM-CSF, perineural-invasion, pancreatic-ductal-adenocarcinoma, PDAC, small-molecule, clinical-trial]
+    status: supported
+    confidence: 0.75
+    domain: pharmacology / oncology / hypoxia-targeted-therapy
+  - slug: camptothecin-analogs-hif1a-topoisomerase-i
+    title: "Camptothecin and analogs (SN-38, topotecan, irinotecan, CRLX101) block HIF-1α expression via Topoisomerase I inhibition"
+    tags: [Camptothecin, CPT, SN-38, topotecan, irinotecan, CRLX101, NLG207, Topoisomerase-I, HIF1A, drug-repurposing, nanoparticle-drug-conjugate]
+    status: supported
+    confidence: 0.75
+    domain: pharmacology / oncology / drug-repurposing
 
 Summary:
 
