@@ -318,6 +318,7 @@ A landmark paper for the field of cancer macrophage biology and a critical refer
 
 ## Related
 
+- [[papers/pd-l1-expressing-tumor-associated-macrophages]] — Wang 2024 Cell Reports Medicine; in human BC PD-L1+ MoDMs are immunostimulatory — complementary ontogeny axis where TRM (not MoDM) drive suppression in NSCLC
 - [[concepts/macrophage-ontogeny-resident-vs-monocyte-derived]] — extended in NSCLC: this paper applies Map17-creER and Cx3cr1-creER fate mapping to assign group I to TRM (embryonic) and group II to MDM (adult-HSC) lineage in lung cancer
 - [[concepts/trem2-tumor-associated-macrophage]] — group II MDM signature here (TREM2/SPP1/APOE/GPNMB) corresponds to the canonical TREM2 TAM cluster
 - [[concepts/tumor-associated-macrophage-immunosuppression]] — TRM-Treg axis is a parallel immunosuppressive mechanism alongside TREM2/IL4I1 TAM programmes

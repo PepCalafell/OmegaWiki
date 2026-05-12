@@ -23,6 +23,7 @@ maturity: active
 key_papers:
   - cross-tissue-single-cell-landscape-human
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - pd-l1-expressing-tumor-associated-macrophages
 first_introduced: "Mills, Kincaid et al. 2000 *J Immunol* (M1/M2 framing)"
 date_updated: 2026-05-08
 related_concepts:

@@ -349,6 +349,7 @@ Caveats worth keeping in mind: TET2 recruitment is inferred not shown; M-CSF/PB-
 ## Related
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — MoMac-VERSE atlas providing IL4I1/TREM2/FOLR2/IL1B Mo/ISG Mo cluster definitions used here as in vivo correlates
+- [[papers/pd-l1-expressing-tumor-associated-macrophages]] — Wang 2024 Cell Reports Medicine; parallel paradigm reversal for PD-L1+ TAM immunostimulatory phenotype in human breast cancer (complementary to this paper's hypoxic MAC reversal)
 - [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — comprehensive review of hypoxia → TAM polarization mechanisms; this paper is one of the rare counterexamples (hypoxia *enhances* MAC immunogenicity)
 - [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] — pan-cancer hypoxia signatures; complementary axis (tumor-cell-intrinsic) to this paper's MAC-centric axis
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — counterpoint: shows TRMs (not MoDMs) drive immunosuppression in NSCLC; this paper uses MoDMs

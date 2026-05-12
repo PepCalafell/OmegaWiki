@@ -46,6 +46,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How robust is the mMAC1 ↔ IL4I1 mapping to other tumor types (HCC, NSCLC, breast, melanoma) and to chronic non-malignant hypoxia (arthritis, ischemic tissues)?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the C2 hypomethylation persist after re-oxygenation, or is it reversible?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does mMAC1 / IL4I1 MAC enhance ICI response (PD-1/PD-L1 blockade) as the OS data and Park 2024 (CRC efferocytosis) collectively suggest?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] What is the impact of anti-PD-1/PD-L1 immunotherapy on PD-L1+ TAM function and abundance in vivo?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Are PD-L1+/− TAMs functionally equivalent in non-breast tumors (lung, HCC, urothelial)?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Do PD-L1+/− TAM functional differences hold in primary vs metastatic disease?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Is the PD-L1+/PD-L1− density ratio a viable clinical biomarker for ICI patient selection?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] What is the dominant PD-L1+ TAM → CD8+ T cell co-stimulatory signal (CD80:CD28? AREG-ICAM1? MIF? ANXA1?)?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Does ERK inhibition affect TAM function in vivo, and does it perturb the prognostic axis?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] How does the PD-L1 axis interact with the hypoxia-driven PD-L1+ M2 TAM phenotype reported in HGSOC (Bai 2022, Noman 2014) — are these distinct PD-L1+ TAM states in different niches?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Is the SIGLEC15+ subset itself a therapeutic target (anti-SIGLEC15 NC318)?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Does the PD-L1+ TAM signature change after anti-PD-L1 blockade — i.e., is PD-L1 a stable maturation marker or does its expression depend on the ICI-modulated environment?
+- [paper/pd-l1-expressing-tumor-associated-macrophages] Can PD-L1+ TAM enrichment be therapeutically induced (e.g., M-CSF + ERK pathway tuning) to convert immunosuppressive into immunostimulatory TIME?
 - [paper/physiology-diseases-tissue-resident-macrophages] Whether TRM self-renewal occurs by mitosis of differentiated cells or via an unidentified tissue macrophage progenitor (p.701).
 - [paper/physiology-diseases-tissue-resident-macrophages] Whether single niche signals are sufficient to determine TRM identity, or whether unique cytokine-cocktails are required (p.700).
 - [paper/physiology-diseases-tissue-resident-macrophages] The relative contribution of stochastic vs instructive specification (p.700) — authors favour stochastic/selection but acknowledge unresolved.
@@ -154,6 +164,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/momac-verse-mnp-verse-atlas] Updating the atlas with newer datasets (single-cell multi-omics, spatial)
 - [concept/momac-verse-mnp-verse-atlas] Standardising tumour-core / periphery annotations across cancers
 - [concept/momac-verse-mnp-verse-atlas] Bridging MoMac-VERSE clusters to murine populations across more tissues than liver
+- [concept/monocyte-macrophage-maturation-pd-l1-induction] The transcriptional regulators downstream of ERK driving PD-L1 in maturing monocytes (FOS, JUNB, CEBPD candidates).
+- [concept/monocyte-macrophage-maturation-pd-l1-induction] Whether adhesion (integrin signaling) is causal upstream of ERK→PD-L1.
+- [concept/monocyte-macrophage-maturation-pd-l1-induction] The role of monocyte-extrinsic cues (tumor-derived chemokines, ECM stiffness) in vivo.
+- [concept/monocyte-macrophage-maturation-pd-l1-induction] Whether GM-CSF-differentiated MoDMs (e.g., DC-like) show the same maturation-driven PD-L1 induction.
 - [concept/mononuclear-phagocyte-system] Cross-tissue, cross-disease, cross-species MPS reference at higher resolution
 - [concept/mononuclear-phagocyte-system] Lineage-tracing-validated taxonomy that combines ontogeny and state
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
@@ -169,6 +183,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/pattern-recognition-receptors-macrophage] Why some PRR-deficient patients develop autoinflammation (e.g. NLRP3 gain-of-function = CAPS) while others develop susceptibility to specific infections.
 - [concept/pattern-recognition-receptors-macrophage] The role of macrophage PRRs in *sterile* injury (DAMP-driven inflammation, atherosclerosis, neurodegeneration).
 - [concept/pattern-recognition-receptors-macrophage] Whether PRR inhibitors can be developed without unacceptable infection susceptibility.
+- [concept/pd-l1-immunostimulatory-tam-phenotype] Whether anti-PD-L1/PD-1 immunotherapy disrupts the immunostimulatory function of PD-L1+ TAMs (clinical mechanistic gap).
+- [concept/pd-l1-immunostimulatory-tam-phenotype] The molecular pathway through which PD-L1+ TAMs chemoattract T cells (AREG-ICAM1, CD162-CD62L, ANXA1, MIF identified as candidate cell-cell interactions).
+- [concept/pd-l1-immunostimulatory-tam-phenotype] Whether PD-L1 itself or another co-expressed marker is the functional driver (PD-L1 blocking antibody experiments suggest PD-L1 itself is incidental to the immunostimulatory function).
+- [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.

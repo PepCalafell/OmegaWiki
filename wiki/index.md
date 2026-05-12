@@ -37,6 +37,12 @@ papers:
     importance: 5
     domain: immunology / oncology / cell biology
     priority: context
+  - slug: pd-l1-expressing-tumor-associated-macrophages
+    title: "PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer"
+    tags: [PD-L1, tumor-associated-macrophage, TAM, breast-cancer, scRNA-seq, SIGLEC15, multiplex-immunofluorescence, mIF, immunotherapy, immune-checkpoint, CD8-T-cell, IFN-gamma, ERK, macrophage-maturation, METABRIC, TCGA]
+    importance: 4
+    domain: immuno-oncology / tumor immunology / single-cell genomics
+    priority: high
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -219,6 +225,18 @@ concepts:
     title: "Tumor subclonal evolution architecture"
     tags: [tumor-evolution, phylogenetics, subclonal, WGS, clonality, prostate-cancer]
     maturity: stable
+  - slug: pd-l1-immunostimulatory-tam-phenotype
+    title: "PD-L1+ TAMs as mature, immunostimulatory phenotype (paradigm reversal)"
+    tags: [PD-L1, TAM, macrophage, immunostimulation, breast-cancer, immune-checkpoint, paradigm-shift]
+    maturity: emerging
+  - slug: siglec15-pd-l1-mutually-exclusive-tam-dichotomization
+    title: "SIGLEC15/PD-L1 mutual exclusivity as a scRNA-seq TAM dichotomization strategy"
+    tags: [scRNA-seq, methodological, macrophage, PD-L1, SIGLEC15, dropout]
+    maturity: emerging
+  - slug: monocyte-macrophage-maturation-pd-l1-induction
+    title: "PD-L1 upregulation during monocyte-to-macrophage maturation is IFN-γ-independent and ERK-dependent"
+    tags: [PD-L1, monocyte, macrophage, maturation, ERK, MAPK, IFN-gamma, differentiation]
+    maturity: emerging
 
 topics:
 
@@ -301,6 +319,12 @@ people:
   - slug: sebastien-gouy
     tags: [surgical-oncology, ovarian-cancer, gynecological-oncology, clinical-research, PI]
     affiliation: "Department of Surgical Oncology, Gustave Roussy, Villejuif, France"
+  - slug: lei-wang
+    tags: [immuno-oncology, macrophage, PD-L1, breast-cancer, scRNA-seq]
+    affiliation: "International Cancer Center, Shenzhen University Medical School, Shenzhen, China"
+  - slug: peter-p-lee
+    tags: [immuno-oncology, tumor-immunology, breast-cancer, PD-L1, macrophage, PI]
+    affiliation: "Department of Immuno-Oncology, City of Hope Comprehensive Cancer Center, Duarte, CA, USA"
 
 ideas:
 
@@ -895,6 +919,84 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: immunology
+  - slug: pd-l1-siglec15-mutually-exclusive-tam-scrnaseq
+    title: "PD-L1 and SIGLEC15 are mutually exclusively expressed in human breast TAMs, enabling cluster-level dichotomization in scRNA-seq"
+    tags: [PD-L1, SIGLEC15, scRNA-seq, TAM, methodological, breast-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology / scRNA-seq methodology
+  - slug: pd-l1-pos-tams-upregulate-maturation-proinflammatory-genes
+    title: "PD-L1+/hi TAMs upregulate maturation markers (CD83, HLA-DRA/B), pro-inflammatory cytokines (IL1B, CXCL2/3/8, CCL3/4), and complement (C1QA/B/C)"
+    tags: [PD-L1, TAM, maturation, HLA-DR, CD83, IL1B, CXCL8, C1Q, breast-cancer]
+    status: supported
+    confidence: 0.9
+    domain: immunology / scRNA-seq
+  - slug: pd-l1-neg-tams-upregulate-pro-tumor-ecm-fa-genes
+    title: "PD-L1−/lo TAMs upregulate pro-tumor genes (SPP1, MMP9, SPARC), fatty acid metabolism (FABP4/5, LPL), and ECM organization (FN1, COL1A1/2, COL3A1)"
+    tags: [PD-L1, TAM, SPP1, MMP9, FABP4, FN1, collagen, pro-tumor, breast-cancer]
+    status: supported
+    confidence: 0.9
+    domain: immunology / scRNA-seq
+  - slug: pd-l1-tam-dichotomy-orthogonal-to-m1-m2
+    title: "PD-L1+/hi vs PD-L1−/lo TAM dichotomy is orthogonal to the canonical M1/M2 polarization scheme"
+    tags: [PD-L1, TAM, M1, M2, polarization, orthogonality, breast-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: pd-l1-pos-tam-signature-correlates-better-rfs-breast-cancer
+    title: "High PD-L1+/hi TAM gene signature correlates with better RFS in METABRIC (p=0.001) and TCGA (p=0.014) luminal BC; PD-L1+/PD-L1− ratio strongest"
+    tags: [PD-L1, TAM, prognosis, RFS, METABRIC, TCGA, breast-cancer]
+    status: supported
+    confidence: 0.9
+    domain: immuno-oncology / clinical correlation
+  - slug: pd-l1-tam-spatial-colocalization-with-t-cells-mif
+    title: "PD-L1+ TAMs spatially co-localize with CD8+/CD4+ T cells within 20 μm; PD-L1− TAMs co-localize with cancer cells and self-cluster"
+    tags: [PD-L1, TAM, spatial-biology, mIF, CD8, cancer-cell, breast-cancer]
+    status: supported
+    confidence: 0.9
+    domain: spatial immunology
+  - slug: pd-l1-upregulated-monocyte-maturation-ifng-independent
+    title: "PD-L1 is upregulated during monocyte-to-macrophage maturation independent of IFN-γ"
+    tags: [PD-L1, monocyte, macrophage, maturation, IFN-gamma, mechanism]
+    status: supported
+    confidence: 0.9
+    domain: immunology / monocyte biology
+  - slug: erk-inhibition-blocks-pd-l1-monocyte-maturation
+    title: "ERK1/2 inhibition (SCH772984) suppresses PD-L1 upregulation during monocyte-to-macrophage maturation"
+    tags: [PD-L1, ERK, MAPK, monocyte, SCH772984, small-molecule-screen, mechanism]
+    status: supported
+    confidence: 0.85
+    domain: immunology / pharmacology
+  - slug: pd-l1-pos-monocytes-higher-ifngr1-primed-pstat1
+    title: "PD-L1+ monocytes/macrophages have higher IFN-γR1 and stronger ΔpSTAT1 response to IFN-γ than PD-L1− cells — opposite to cancer cells"
+    tags: [PD-L1, IFN-gamma, IFNGR1, pSTAT1, monocyte, macrophage, cancer-cell, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: pd-l1-pos-macs-stimulate-cd8-proliferation-cytotoxicity
+    title: "PD-L1+/hi macrophages stimulate CD8+ T cell proliferation more than PD-L1−/lo in autologous co-culture; phagocytosis also higher"
+    tags: [PD-L1, macrophage, CD8, T-cell-proliferation, phagocytosis, functional, breast-cancer]
+    status: supported
+    confidence: 0.9
+    domain: immunology / functional assay
+  - slug: pd-l1-neg-macs-suppress-cd8-bite-killing
+    title: "PD-L1−/lo macrophages — not PD-L1+/hi — suppress antigen-specific CD8+ T cell killing in BiTE-mediated cytotoxicity assay"
+    tags: [PD-L1, macrophage, CD8, BiTE, blinatumomab, cytotoxicity, immunosuppression, functional]
+    status: supported
+    confidence: 0.85
+    domain: immunology / functional assay
+  - slug: pd-l1-tam-stimulatory-function-pdl1-pd1-independent
+    title: "PD-L1+ macrophage immunostimulatory function is PD-L1:PD-1-independent — anti-PD-L1 blockade does not abolish stimulation or BiTE killing"
+    tags: [PD-L1, PD-1, blockade, macrophage, co-stimulation, mechanism]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: pd-l1-pos-tam-density-ratio-multivariate-prognostic
+    title: "Density ratio of PD-L1+/PD-L1− TAMs is independent prognostic factor for RFS in luminal BC (multivariate p=0.0099, n=142)"
+    tags: [PD-L1, TAM, prognosis, multivariate, RFS, mIF, breast-cancer]
+    status: supported
+    confidence: 0.85
+    domain: clinical / prognostic biomarker
 
 Summary:
 
@@ -1095,3 +1197,19 @@ foundations:
     title: "4-octyl itaconate (4-OI) — cell-permeable itaconate derivative; TET2 / Nrf2 modulator"
     status: mainstream
     domain: pharmacology / immunology
+  - slug: pd-l1-cd274
+    title: "PD-L1 / CD274 — Programmed Death-Ligand 1"
+    status: established
+    domain: immunology / immune-checkpoint
+  - slug: siglec15-checkpoint-ligand
+    title: "SIGLEC15 — Siglec-15 immune co-inhibitory ligand"
+    status: emerging
+    domain: immunology / immune-checkpoint
+  - slug: multiplex-immunofluorescence
+    title: "Multiplex immunofluorescence (mIF) staining and spatial analysis"
+    status: established
+    domain: imaging / spatial-biology / immunology
+  - slug: cellphonedb-ligand-receptor
+    title: "CellPhoneDB — ligand-receptor interaction inference from scRNA-seq"
+    status: established
+    domain: bioinformatics / cell-cell-communication

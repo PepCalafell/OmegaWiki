@@ -19,6 +19,7 @@ key_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
   - cross-tissue-single-cell-landscape-human
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - pd-l1-expressing-tumor-associated-macrophages
 first_introduced: "(field-standard concept; refined here)"
 date_updated: 2026-05-08
 related_concepts:

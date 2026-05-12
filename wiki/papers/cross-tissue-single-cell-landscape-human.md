@@ -252,6 +252,7 @@ data_availability: "https://gustaveroussy.github.io/FG-Lab/ — interactive MoMa
 code_url: "https://gustaveroussy.github.io/FG-Lab/"
 cited_by:
   - nf-kb-tet2-promote-macrophage-reprogramming
+  - pd-l1-expressing-tumor-associated-macrophages
 ---
 
 ## Problem

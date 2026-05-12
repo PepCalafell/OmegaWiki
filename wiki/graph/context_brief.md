@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (105 total)
+## Claims (118 total)
 - [supported] IL4I1 macrophages are the in vivo correlates of in vitro mMAC1 (conf: 0.8)
 - [supported] TREM2⁺ tumor-associated macrophages associate with poor cancer prognosis (conf: 0.7)
 - [supported] TREM2⁺ TAMs accumulate across all six human cancer types in the MoMac-VERSE (conf: 0.85)
@@ -27,20 +27,22 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Direct in-vitro T-cell suppression assays on FACS-isolated IL4I1_Mac to confirm causal immunosuppression beyond gene-programme inference.
 - [paper/cross-tissue-single-cell-landscape-human] Anti-IFNγ or anti-CD40L perturbation in mouse tumour models to test the proposed T-cell → IL4I1_Mac induction loop.
 - [paper/cross-tissue-single-cell-landscape-human] Spatial-transcriptomic 
-## Papers (6 total)
+## Papers (7 total)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
+- [4] PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer (immuno-oncology / tumor immunology / single-cell genomics)
 - [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
 - [5] Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease (immunology / single-cell / oncology)
-## Recent Relationships (232 total)
-  papers/hypoxia-driven-crosstalk-between-tumor-tumor --supports--> claims/hif2a-pas-b-pocket-small-molecule-inhibitors-selective
-  papers/hypoxia-driven-crosstalk-between-tumor-tumor --supports--> claims/belzutifan-first-fda-approved-hif2a-inhibitor-vhl
-  papers/hypoxia-driven-crosstalk-between-tumor-tumor --supports--> claims/px-478-hif1a-inhibitor-mechanism-pdac
-  papers/hypoxia-driven-crosstalk-between-tumor-tumor --supports--> claims/camptothecin-analogs-hif1a-topoisomerase-i
-  papers/nf-kb-tet2-promote-macrophage-reprogramming --supports--> claims/mmac1-higher-mhcii-costim-lower-suppressive-markers
-  papers/nf-kb-tet2-promote-macrophage-reprogramming --supports--> claims/hypoxic-macs-lose-cd8-suppressive-capacity
-  papers/nf-kb-tet2-promote-macrophage-reprogramming --supports--> claims/c2-regions-lps-dependent-de-novo-enhancers
-  papers/nf-kb-tet2-promote-macrophage-reprogramming --supports--> claims/c2-genes-enriched-e2-transcriptional-cluster
-  papers/nf-kb-tet2-promote-macroph
+## Recent Relationships (262 total)
+  papers/pd-l1-expressing-tumor-associated-macrophages --critiques_concept--> concepts/m1-m2-polarization-paradigm
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/pd-l1-cd274
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/siglec15-checkpoint-ligand
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/multiplex-immunofluorescence
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/cellphonedb-ligand-receptor
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/cellchat-cell-cell-communication
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/scrna-seq-10x-chromium
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/seurat-v3-integration
+  papers/pd-l1-expressing-tumor-associated-macrophages --derived_from--> foundations/cibersortx-deconvolution
+  pape

@@ -24,6 +24,7 @@ tags:
 maturity: emerging
 key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - pd-l1-expressing-tumor-associated-macrophages
 first_introduced: "Noman 2014 J Exp Med (HIF-1α-PD-L1 in MDSCs); extended to TAM in HGSOC by Hartley 2018; intermittent-hypoxia-OSA mechanism by Almendros 2019; Bai 2022 reviews"
 date_updated: 2026-05-08
 related_concepts:
