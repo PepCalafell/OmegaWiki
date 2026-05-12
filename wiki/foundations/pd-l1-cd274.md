@@ -2,7 +2,7 @@
 title: "PD-L1 / CD274 — Programmed Death-Ligand 1"
 slug: pd-l1-cd274
 domain: "immunology / immune-checkpoint"
-status: established
+status: mainstream
 aliases:
   - "PD-L1"
   - "CD274"

@@ -2,7 +2,7 @@
 title: "SIGLEC15 — Siglec-15 immune co-inhibitory ligand"
 slug: siglec15-checkpoint-ligand
 domain: "immunology / immune-checkpoint"
-status: emerging
+status: mainstream
 aliases:
   - "SIGLEC15"
   - "Siglec-15"

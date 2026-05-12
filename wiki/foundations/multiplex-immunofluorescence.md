@@ -2,7 +2,7 @@
 title: "Multiplex immunofluorescence (mIF) staining and spatial analysis"
 slug: multiplex-immunofluorescence
 domain: "imaging / spatial-biology"
-status: established
+status: mainstream
 aliases:
   - "mIF"
   - "multiplex immunofluorescence"

@@ -2,7 +2,7 @@
 title: "CellPhoneDB — ligand-receptor interaction inference from scRNA-seq"
 slug: cellphonedb-ligand-receptor
 domain: "bioinformatics / cell-cell-communication"
-status: established
+status: mainstream
 aliases:
   - "CellPhoneDB"
   - "CPDB"
