@@ -2,7 +2,7 @@
 title: "CPI1000+ — expanded ICI-treated bulk RNAseq cohort (Litchfield lab)"
 slug: cpi1000-plus-ici-cohort
 domain: "clinical / immuno-oncology / cohort"
-status: established
+status: mainstream
 aliases:
   - "CPI1000+"
   - "CPI1000 plus"

@@ -1,7 +1,7 @@
 ---
 title: "TREM2+ clusters 3_ICIMac1 and 4_ICIMac2 partially recapitulate a melanoma ICI-resistance gene signature, yet are themselves enriched in responders in CPI1000+"
 slug: trem2-tams-recapitulate-melanoma-ici-resistance
-status: contested
+status: challenged
 confidence: 0.6
 tags: [TREM2,3_ICIMac1,4_ICIMac2,APOE,APOC1,SPP1,RNASE1,ICI-paradox]
 domain: immuno-oncology

@@ -19,7 +19,7 @@ tags:
   - reference-mapping
   - cell-type-prediction
   - methodological
-maturity: established
+maturity: stable
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - cross-tissue-single-cell-landscape-human

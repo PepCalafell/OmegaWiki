@@ -19,7 +19,7 @@ tags:
   - pan-cancer
   - Louvain
   - reference-mapping
-maturity: established
+maturity: stable
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
 first_introduced: "Coulton, Murai, Qian, Thakkar, Lewis & Litchfield 2024 *Nat Commun*"
