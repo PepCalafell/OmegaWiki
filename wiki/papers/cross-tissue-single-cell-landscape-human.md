@@ -414,3 +414,5 @@ This is a foundational atlas paper — the Tabula Sapiens-equivalent for human m
 - Foundations (biological): [[foundations/trem2-receptor]], [[foundations/ahr-ido1-tryptophan-axis]]
 - Claims: [[claims/momac-verse-conserved-mnp-signatures-cross-tissue]], [[claims/trem2-tam-pancancer-accumulation-momac-verse]], [[claims/il4i1-tam-induced-by-ifng-cd40l-from-tcells]], [[claims/il4i1-tam-degrade-tryptophan-via-ahr-immunosuppression]], [[claims/il4i1-macrophages-vivo-correlates-mmac1]], [[claims/trem2-macrophages-associate-poor-cancer-prognosis]]
 - People: [[people/kevin-mulder]], [[people/charles-antoine-dutertre]], [[people/camille-bleriot]], [[people/florent-ginhoux]]
+
+- [[papers/dictionary-immune-responses-cytokines-single-cell]] — Cui & Hacohen et al. 2024 *Nature* Immune Dictionary + IREA: cytokine perturbational atlas; complementary cytokine-activity inference framework.

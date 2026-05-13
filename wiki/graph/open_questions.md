@@ -12,6 +12,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Whether IL4I1_Mac is induced by chronic IFN signalling in non-tumour autoimmune contexts (lupus, RA flares, severe COVID-19), and whether the same mechanistic loop applies.
 - [paper/cross-tissue-single-cell-landscape-human] Quantitative comparison of the murine TREM2 TAM vs human TREM2_Mac transcriptional programme: is the cross-species "TREM2 TAM" a single conserved state or a convergence of distinct programmes?
 - [paper/cross-tissue-single-cell-landscape-human] Relationship of IL4I1_Mac to Calafell 2024 mMAC1 hypoxic state: is mMAC1 a hypoxic/in-vitro proxy of IL4I1_Mac, an upstream precursor, or a distinct differentiation path that converges on similar surface markers?
+- [paper/dictionary-immune-responses-cytokines-single-cell] How do cytokine combinations interact (synergy, antagonism, dominance)?
+- [paper/dictionary-immune-responses-cytokines-single-cell] What is the temporal evolution of cytokine-driven polarization states?
+- [paper/dictionary-immune-responses-cytokines-single-cell] Does the lymph-node dictionary translate to other tissues and to humans?
+- [paper/dictionary-immune-responses-cytokines-single-cell] How do dose-response relationships shape polarization-state induction?
+- [paper/dictionary-immune-responses-cytokines-single-cell] Can IREA reliably identify tumour-derived cytokine networks in hypoxic, structurally remodelled tumours where the cell-type composition differs from lymph node?
+- [paper/dictionary-immune-responses-cytokines-single-cell] How does the Mac-a/b/c/d/e taxonomy map onto hypoxic TAM phenotypes (e.g., mmac1-hypoxic-inflammatory-macrophage)?
+- [paper/dictionary-immune-responses-cytokines-single-cell] Is the IL-18 NK-f state operative in tumour-infiltrating NK cells?
+- [paper/dictionary-immune-responses-cytokines-single-cell] Can the Immune Dictionary serve as a reference panel for human PBMC datasets despite species differences?
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "How does Nrp-1, which is produced by cancer cells, promotes M2 macrophage polarization under hypoxic conditions?" (p.11)
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "The molecular mechanism of MYDGF action in tumor progression is still unclear" (p.11)
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "Mechanisms of these miRNAs [miR-1305, miR-21, miR-940] have not been thoroughly studied" (p.9)
@@ -102,6 +110,15 @@ _Auto-generated open questions. Do not edit._
 - [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
 - [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
 - [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
+- [concept/cytokine-cell-type-specific-response-pleiotropy] Combinatorial cytokine perturbation atlases (>2 cytokines simultaneously)
+- [concept/cytokine-cell-type-specific-response-pleiotropy] Dose-response and temporal dynamics of cell-type-specific programmes
+- [concept/cytokine-cell-type-specific-response-pleiotropy] Human translation of the mouse Immune Dictionary
+- [concept/cytokine-driven-immune-polarization-states-atlas] Mapping mouse states to human counterparts
+- [concept/cytokine-driven-immune-polarization-states-atlas] Multi-cytokine combinatorial polarization (most in vivo contexts mix signals)
+- [concept/cytokine-driven-immune-polarization-states-atlas] Persistence/reversibility of polarization states
+- [concept/cytokine-mediated-immune-cell-cell-interactome] Whether the lymph-node interactome generalizes to inflamed tissue / tumours
+- [concept/cytokine-mediated-immune-cell-cell-interactome] Spatial constraints (which interactions occur in which microniche)
+- [concept/cytokine-mediated-immune-cell-cell-interactome] Temporal dynamics of network reconfiguration during disease
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
@@ -143,6 +160,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-pten-tert-telomere-axis] Direct mechanistic test: does hypoxia → HIF1A → TERT, with PTEN loss removing brake on PI3K/AKT-mediated TERT post-translational stabilization?
 - [concept/hypoxia-pten-tert-telomere-axis] Whether targeting TERT (imetelstat) in hypoxic + PTEN-loss tumors is selectively effective
 - [concept/hypoxia-pten-tert-telomere-axis] How the axis interacts with the broader nimbosus phenotype
+- [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
+- [concept/il-18-polyfunctional-nk-cell-state] Translation to human NK cells
+- [concept/il-18-polyfunctional-nk-cell-state] Interaction with IL-18BP decoy axis
 - [concept/il4i1-tumor-associated-macrophage] Whether targeting IL4I1 (pharmacological inhibitor available) suffices to reverse the immunosuppressive phenotype in vivo
 - [concept/il4i1-tumor-associated-macrophage] Compensatory induction of IL4I1 after PD-1/PD-L1 blockade
 - [concept/il4i1-tumor-associated-macrophage] Tumour-type-specific dependencies on IL4I1 vs IDO1 vs both
@@ -214,6 +234,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
+- [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
+- [concept/rare-immune-cell-types-produce-many] Whether the relation generalizes outside lymph nodes (tumours, infected tissue)
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.

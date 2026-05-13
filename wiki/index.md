@@ -49,6 +49,12 @@ papers:
     importance: 5
     domain: oncology / hypoxia / cancer-genomics
     priority: core
+  - slug: dictionary-immune-responses-cytokines-single-cell
+    title: "Dictionary of immune responses to cytokines at single-cell resolution"
+    tags: [cytokines, immune-dictionary, IREA, scRNA-seq, polarization, cell-cell-communication, atlas, in-vivo-perturbation, lymph-node, IL-1beta, IL-18, IFNgamma, TGFb1, anti-PD-1, NK-cell, macrophage, M1-M2]
+    importance: 5
+    domain: immunology / single-cell / cytokine-biology
+    priority: core
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -271,6 +277,34 @@ concepts:
     title: "Hypoxia is a co-driver of tumour evolution alongside cancer driver genes"
     tags: [hypoxia, clonal-evolution, cancer-genomics, TP53, PTEN, MYC, BCL2]
     maturity: stable
+  - slug: cytokine-cell-type-specific-response-pleiotropy
+    title: "Cytokine pleiotropy: most cytokines induce highly cell-type-specific responses"
+    tags: [cytokines, pleiotropy, cell-type-specific, gene-programmes, immune-dictionary]
+    maturity: stable
+  - slug: cytokine-driven-immune-polarization-states-atlas
+    title: "Cytokine-driven polarization-state atlas across 17 immune cell types"
+    tags: [polarization, cytokines, immune-plasticity, scRNA-seq, immune-dictionary]
+    maturity: stable
+  - slug: il-multicellular-coordinated-immune-response
+    title: "IL-1 family triggers coordinated multicellular cytokine response"
+    tags: [IL-1, cytokines, multicellular-response, pleiotropy]
+    maturity: stable
+  - slug: il-18-polyfunctional-nk-cell-state
+    title: "IL-18-induced polyfunctional NK cell state (NK-f)"
+    tags: [NK-cell, IL-18, polyfunctional, NK-f, cancer-immunotherapy]
+    maturity: emerging
+  - slug: rare-immune-cell-types-produce-many
+    title: "Rare immune cell types produce the most cytokines (inverse abundance-production correlation)"
+    tags: [cytokine-networks, FRC, ILC, basophil, rare-cell-type]
+    maturity: emerging
+  - slug: cytokine-receptor-expression-insufficient-cytokine-response
+    title: "Cytokine receptor expression is insufficient to predict cytokine response"
+    tags: [cytokines, cell-cell-communication, methodological, scRNA-seq]
+    maturity: stable
+  - slug: cytokine-mediated-immune-cell-cell-interactome
+    title: "Cytokine-mediated immune cell–cell interactome"
+    tags: [cytokine-networks, cell-cell-communication, immune-network, lymph-node]
+    maturity: stable
 
 topics:
 
@@ -281,6 +315,18 @@ people:
   - slug: jack-ashton
     tags: [hypoxia, DNA-repair, genomic-instability]
     affiliation: "Translational Oncogenomics Laboratory, CRUK Manchester Institute, University of Manchester"
+  - slug: ang-cui
+    tags: [cytokine-biology, single-cell-genomics, immunology, computational-biology, PI]
+    affiliation: "Harvard–MIT HST; Broad Institute; Faculty of Medicine, Harvard University"
+  - slug: nir-hacohen
+    tags: [immunology, tumor-immunology, cytokine-biology, single-cell-genomics, innate-immunity, PI]
+    affiliation: "Massachusetts General Hospital, Harvard Medical School; Broad Institute"
+  - slug: catherine-j-wu
+    tags: [cancer-immunology, neoantigen-vaccines, cancer-genomics, immunotherapy, PI, clinician-scientist]
+    affiliation: "Dana–Farber Cancer Institute; Brigham and Women's Hospital, Harvard Medical School; Broad Institute"
+  - slug: ernest-fraenkel
+    tags: [systems-biology, network-modelling, computational-biology, multi-omics-integration, PI]
+    affiliation: "MIT; Broad Institute"
   - slug: boris-reizis
     tags: [dendritic-cell, mononuclear-phagocyte, hematopoiesis, PI, immunology, lineage-tracing]
     affiliation: "Department of Pathology, New York University Grossman School of Medicine, New York, NY, USA"
@@ -1169,6 +1215,114 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia / cell-stress
+  - slug: most-cytokines-induce-highly-cell-type
+    title: "Most cytokines induce highly cell-type-specific gene expression programmes"
+    tags: [cytokines, pleiotropy, cell-type-specific, immune-dictionary]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: il-1beta-induces-distinct-gene-programmes
+    title: "IL-1β induces distinct gene programmes in almost every immune cell type"
+    tags: [IL-1beta, multicellular-response, pleiotropy]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: ifnalpha-ifnbeta-induce-common-autonomous-antiviral
+    title: "IFNα1/IFNβ induce a common autonomous antiviral programme across nearly all cell types"
+    tags: [type-I-IFN, ISG, antiviral]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: immune-dictionary-characterizes-66-cytokine-driven
+    title: "Immune Dictionary characterizes 66 cytokine-driven polarization states across 17 cell types"
+    tags: [polarization, immune-dictionary, atlas]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: il-18-induces-unique-polyfunctional-nk
+    title: "IL-18 induces a unique polyfunctional NK cell state (NK-f) with >1,000 upregulated genes"
+    tags: [IL-18, NK-cell, NK-f, polyfunctional]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: il-polarizes-cells-distinct-il4i1-positive
+    title: "IL-4 polarizes B cells to a distinct Il4i1+ state (B-f)"
+    tags: [IL-4, B-cell, polarization, Il4i1]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd40l-il-21-polarize-cells-proliferating
+    title: "CD40L or IL-21 polarize B cells to a proliferating phenotype"
+    tags: [B-cell, CD40L, IL-21, proliferation]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: il-23-polarizes-gamma-delta-cells
+    title: "IL-23 polarizes γδ T cells to an Il22-expressing Tgd-f state"
+    tags: [IL-23, gamma-delta-T-cell, IL-22, Tgd-f]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: macrophage-mac-state-induced-ifng-m1
+    title: "Macrophage Mac-b state is IFNγ-induced M1-like; Mac-e is IL-4/13-induced alternative activation"
+    tags: [macrophage, M1, M2, IFNgamma, IL-4, IL-13]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: cytokine-production-sources-enriched-rare-immune
+    title: "Rare cell types (FRCs, basophils, ILCs) produce the most distinct cytokines"
+    tags: [cytokine-production, FRC, ILC, basophil, rare-cell-type]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: inverse-correlation-between-cell-type-abundance
+    title: "Inverse correlation between cell-type abundance and cytokine production (r=-0.71, P=0.0065)"
+    tags: [cytokine-production, abundance, statistics]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: cytokine-receptor-expression-alone-sufficient-predict
+    title: "Cytokine receptor expression alone is insufficient to predict cytokine response"
+    tags: [cytokine-response, receptor-expression, methodological]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: most-immune-cell-types-affect-most
+    title: "Most immune cell types affect most others through at least one cytokine"
+    tags: [cytokine-network, cell-cell-interactome]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: irea-enables-inference-cytokine-activities-cell
+    title: "IREA enables inference of cytokine activities and polarization from transcriptomic data"
+    tags: [IREA, cytokine-inference, polarization-inference, methodology]
+    status: supported
+    confidence: 0.9
+    domain: immunology / methods
+  - slug: anti-pd1-treatment-polarizes-tumour-macrophages
+    title: "Anti-PD-1 polarizes tumour macrophages to Mac-b (M1-like) and NK cells to NK-e (cytotoxic)"
+    tags: [anti-PD-1, ICB, macrophage, NK-cell, Mac-b, NK-e]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: tgfb1-shows-strongest-negative-cytokine-response
+    title: "TGFβ1 is the most negatively enriched cytokine response in tumours after anti-PD-1 therapy"
+    tags: [TGFb1, anti-PD-1, immunotherapy-resistance]
+    status: supported
+    confidence: 0.8
+    domain: immuno-oncology
+  - slug: 72-percent-cytokine-induced-degs-upregulated
+    title: "72% of cytokine-induced DEGs are upregulated rather than downregulated"
+    tags: [cytokine-response, DEG, gene-expression, statistics]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: average-51-degs-per-cytokine-cell
+    title: "Average 51 DEGs per cytokine × cell-type combination (range 0–1,510)"
+    tags: [DEG, cytokine, statistics, scope]
+    status: supported
+    confidence: 0.9
+    domain: immunology
 
 Summary:
 
@@ -1425,3 +1579,31 @@ foundations:
     title: "Ribonucleotide reductase (RRM1/RRM2)"
     status: mainstream
     domain: nucleotide-metabolism
+  - slug: irea-immune-response-enrichment-analysis-software
+    title: "IREA — Immune Response Enrichment Analysis"
+    status: mainstream
+    domain: immunology / bioinformatics
+  - slug: immune-dictionary-dataset
+    title: "Immune Dictionary — perturbational scRNA-seq atlas of 86 cytokines × 17+ immune cell types"
+    status: mainstream
+    domain: immunology / single-cell / atlas
+  - slug: il-beta-cytokine
+    title: "IL-1β (Interleukin-1 beta)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: il-18-cytokine
+    title: "IL-18 (Interleukin-18)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: ifn-gamma-cytokine
+    title: "IFNγ (Interferon gamma)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: type-interferon-ifna-ifnb
+    title: "Type I interferons (IFNα, IFNβ, IFNε, IFNκ)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: cytokine-perturbation-scrna-seq-vivo-lymph
+    title: "In vivo cytokine perturbation scRNA-seq (lymph-node injection)"
+    status: mainstream
+    domain: immunology / methods / single-cell
