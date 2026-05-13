@@ -416,3 +416,5 @@ This is a foundational atlas paper — the Tabula Sapiens-equivalent for human m
 - People: [[people/kevin-mulder]], [[people/charles-antoine-dutertre]], [[people/camille-bleriot]], [[people/florent-ginhoux]]
 
 - [[papers/dictionary-immune-responses-cytokines-single-cell]] — Cui & Hacohen et al. 2024 *Nature* Immune Dictionary + IREA: cytokine perturbational atlas; complementary cytokine-activity inference framework.
+
+- [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here

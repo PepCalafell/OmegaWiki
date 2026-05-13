@@ -2,6 +2,16 @@
 
 _Auto-generated open questions. Do not edit._
 
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How to design SAHRMs that engage tolerogenic AHR functions without off-target dioxin-like effects
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Whether AHR ratio in Th17 vs Treg is a clinically useful biomarker in SLE
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How CNS-penetrant AHR-targeted molecules can be developed for progressive MS
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How AHR-targeting probiotics or postbiotics can be standardised for clinical use
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Whether AHR antagonism + ICI is synergistic in cancer
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-TIPARP axis interact with cGAS-STING signalling — is there cross-regulation of type I IFN?
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-evasion]] contexts?
+- [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Where does IL4I1 fit relative to IDO1/TDO2 in AHR-ligand generation in human tumours (cf. [[papers/cross-tissue-single-cell-landscape-human]] IL4I1⁺PD-L1⁺IDO1⁺ MoMac-VERSE cluster)?
 - [paper/cross-tissue-single-cell-landscape-human] What are the precise ligand-receptor pathways by which IL4I1_Macs dampen antitumour T-cell responses, and how do they vary across tumour types? "The precise pathways involved are still unclear and deserve further investigation to fully decipher the T cell/TAM relationship" (p.1897, citing Gordon et al. 2017).
 - [paper/cross-tissue-single-cell-landscape-human] Are the monocyte-derived TAMs (TREM2, IL4I1, proliferating, C1Qhi) the appropriate therapeutic targets, given that they are monocyte-derived and therefore replenishable? Targeting recruitment vs differentiation are distinct strategies.
 - [paper/cross-tissue-single-cell-landscape-human] Is the M1/M2 Mills et al. 2000 paradigm refinable into a state + ontogeny taxonomy that captures the full diversity revealed by MoMac-VERSE?
@@ -114,6 +124,28 @@ _Auto-generated open questions. Do not edit._
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
+- [concept/ahr-astrocyte-microglia-cns-inflammation] AHR-targeted CNS-penetrant agonists (e.g., laquinimod-like compounds) for progressive MS
+- [concept/ahr-astrocyte-microglia-cns-inflammation] Whether AHR agonism in microglia can reverse chronic neurodegenerative inflammation
+- [concept/ahr-barrier-tissue-il22-antimicrobial] Optimum kinetics of AHR-IL-22 stimulation for barrier repair without tumour-promotion
+- [concept/ahr-barrier-tissue-il22-antimicrobial] Cell-type-specific IL-22 outputs from AHR agonists in human tissues
+- [concept/ahr-canonical-signalling-pathway] Quantitative kinetics of AHR–ARNT vs HIF-1α–ARNT competition in hypoxic tumours
+- [concept/ahr-canonical-signalling-pathway] High-resolution structures of full-length AHR in the cytosolic vs nuclear states
+- [concept/ahr-cyp1a1-negative-feedback-clearance] Tissue-specific CYP1A1 dynamics in patients receiving AHR therapy
+- [concept/ahr-cyp1a1-negative-feedback-clearance] Whether CYP1A1 inhibitors safely boost AHR-agonist efficacy
+- [concept/ahr-ligand-pharmacology-sahrm] Reliable biomarkers for ligand-biased AHR signalling in patients
+- [concept/ahr-ligand-pharmacology-sahrm] Predicting tissue-specific outcomes from pocket-interaction profiles
+- [concept/ahr-non-canonical-signalling] Physiological relevance of ligand-independent activation under shear/oxidative stress
+- [concept/ahr-non-canonical-signalling] Whether SAHRMs can selectively engage non-canonical over canonical branches
+- [concept/ahr-tam-immunosuppression-tumour] Whether AHR antagonism synergises with IDO1/IL4I1 inhibitors or PD-1 blockade
+- [concept/ahr-tam-immunosuppression-tumour] Spatial mapping of Trp-Kyn-AHR gradients within tumour micro-environments
+- [concept/ahr-tapinarof-psoriasis-clinical] Whether tapinarof's "remittive" effect generalises to other AHR agonists
+- [concept/ahr-tapinarof-psoriasis-clinical] Mechanism of memory T-cell modulation in clinical disease control
+- [concept/ahr-tiparp-antiviral-type-i-ifn-evasion] Whether AHR antagonism plus existing antivirals (e.g., nirmatrelvir) gives synergistic effects in SARS-CoV-2
+- [concept/ahr-tiparp-antiviral-type-i-ifn-evasion] Whether TIPARP-independent AHR antiviral mechanisms exist
+- [concept/ahr-tolerogenic-dendritic-cell] Translating AHR-tolerogenic DC induction to human therapy at scale
+- [concept/ahr-tolerogenic-dendritic-cell] AHR-DC effects on antigen presentation across DC subsets (cDC1, cDC2, pDC, Langerhans)
+- [concept/ahr-treg-th17-balance] A clinically actionable biomarker for AHR-driven Treg vs Th17 bias
+- [concept/ahr-treg-th17-balance] Targeted SAHRMs that engage only Treg- or Tr1-favouring AHR conformations
 - [concept/ancestry-specific-tumor-hypoxia] Whether genetic ancestry (HLA, germline DDR variants) drives the hypoxia signal, or whether it is environmental/socioeconomic
 - [concept/ancestry-specific-tumor-hypoxia] Validation in non-TCGA cohorts with prospective hypoxia measurement
 - [concept/ancestry-specific-tumor-hypoxia] Does ancestry-specific hypoxia mediate the higher evofosfamide response in Asian-descent MAESTRO subjects (post-hoc finding)
@@ -219,6 +251,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Whether monocyte-derived TAMs in tumours acquire long-term-resident properties or remain transient
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
+- [concept/microbiota-tryptophan-ahr-ligand-axis] Quantitative AHR-ligand fluxes at the mucosa
+- [concept/microbiota-tryptophan-ahr-ligand-axis] Engineering microbial strains that produce defined, dose-controlled AHR agonists
 - [concept/microglia-synaptic-pruning-complement] Whether activity-dependent C1Q deposition is upstream or downstream of synaptic weakness.
 - [concept/microglia-synaptic-pruning-complement] The molecular logic of microglial decisions about which synapse to prune.
 - [concept/microglia-synaptic-pruning-complement] How disease-associated microglia (TREM2-driven DAM state) lose vs gain pruning capacity in Alzheimer's.

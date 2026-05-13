@@ -61,6 +61,12 @@ papers:
     importance: 4
     domain: immuno-oncology / single-cell / tumor-immunology
     priority: high
+  - slug: aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+    title: "The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation"
+    tags: [AHR, aryl-hydrocarbon-receptor, immune-modulation, tapinarof, Treg, Th17, Tr1, dendritic-cell, ILC3, psoriasis, atopic-dermatitis, inflammatory-bowel-disease, multiple-sclerosis, tryptophan-metabolism, kynurenine, microbiota-AHR-axis, tumour-associated-macrophage, antiviral, drug-discovery, review]
+    importance: 4
+    domain: immunology
+    priority: context
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -335,6 +341,54 @@ concepts:
     title: "Gold-standard TAM signatures for bulk-RNAseq deconvolution"
     tags: [TAM, signature, bulk-RNAseq, deconvolution, UCell, biomarker, methodological]
     maturity: emerging
+  - slug: ahr-canonical-signalling-pathway
+    title: "AHR canonical signalling pathway (XRE/DRE-driven transcription)"
+    tags: [AHR, transcription, immunology, canonical-pathway, xenobiotic-response]
+    maturity: stable
+  - slug: ahr-non-canonical-signalling
+    title: "AHR non-canonical signalling (NF-κB crosstalk, E3 ligase, ligand-independent)"
+    tags: [AHR, non-canonical, NF-kB, E3-ligase, immunology]
+    maturity: active
+  - slug: ahr-ligand-pharmacology-sahrm
+    title: "AHR ligand pharmacology and selective AHR modulators (SAHRMs)"
+    tags: [AHR, pharmacology, ligand-bias, drug-discovery]
+    maturity: emerging
+  - slug: ahr-treg-th17-balance
+    title: "AHR control of the Treg / Th17 / Tr1 balance"
+    tags: [AHR, Treg, Th17, Tr1, T-cell-polarization, immunoregulation]
+    maturity: stable
+  - slug: ahr-tolerogenic-dendritic-cell
+    title: "AHR-driven tolerogenic dendritic cell programme"
+    tags: [AHR, dendritic-cell, tolerance, IDO1, Treg-induction]
+    maturity: active
+  - slug: ahr-tam-immunosuppression-tumour
+    title: "AHR-driven tumour-associated macrophage immunosuppression"
+    tags: [AHR, tumour-associated-macrophage, immunosuppression, glioblastoma, Trp-Kyn, CD39]
+    maturity: active
+  - slug: ahr-tiparp-antiviral-type-i-ifn-evasion
+    title: "AHR-TIPARP suppression of type I IFN — antiviral evasion mechanism"
+    tags: [AHR, antiviral, TIPARP, type-I-IFN, TBK1, viral-evasion]
+    maturity: active
+  - slug: ahr-tapinarof-psoriasis-clinical
+    title: "Tapinarof clinical proof-of-concept for AHR-agonist therapy"
+    tags: [AHR, tapinarof, psoriasis, atopic-dermatitis, clinical-trial, FDA-approval]
+    maturity: stable
+  - slug: microbiota-tryptophan-ahr-ligand-axis
+    title: "Microbiota / dietary tryptophan → AHR ligand axis"
+    tags: [AHR, microbiota, tryptophan, diet, gut-immunity, mucosal-immunity]
+    maturity: active
+  - slug: ahr-barrier-tissue-il22-antimicrobial
+    title: "AHR-IL-22 barrier-tissue homeostasis axis"
+    tags: [AHR, IL-22, barrier-immunity, mucosa, ILC3, epithelium]
+    maturity: stable
+  - slug: ahr-cyp1a1-negative-feedback-clearance
+    title: "AHR-CYP1A1 negative-feedback loop and AHR ligand clearance"
+    tags: [AHR, CYP1A1, negative-feedback, barrier-homeostasis, intestine]
+    maturity: stable
+  - slug: ahr-astrocyte-microglia-cns-inflammation
+    title: "AHR signalling in astrocytes and microglia (CNS inflammation control)"
+    tags: [AHR, astrocyte, microglia, CNS, neuroinflammation, multiple-sclerosis]
+    maturity: active
 
 topics:
 
@@ -450,6 +504,21 @@ people:
   - slug: claire-e-lewis
     tags: [tumor-associated-macrophage, macrophage-tumour-niche, angiogenesis, hypoxia-macrophage, PI]
     affiliation: "Department of Oncology and Metabolism, University of Sheffield Medical School"
+  - slug: francisco-j-quintana
+    tags: [AHR, neuroimmunology, multiple-sclerosis, tryptophan-metabolism, astrocyte, microglia, Tr1, PI]
+    affiliation: "Ann Romney Center for Neurologic Diseases; Brigham and Women's Hospital / Harvard Medical School; Broad Institute"
+  - slug: carolina-m-polonio
+    tags: [AHR, neuroimmunology, tryptophan-metabolism]
+    affiliation: "Brigham and Women's Hospital, Harvard Medical School"
+  - slug: david-h-sherr
+    tags: [AHR, environmental-immunology, breast-cancer, tryptophan-metabolism, PI]
+    affiliation: "Department of Environmental Health, Boston University School of Public Health"
+  - slug: kimberly-a-mchale
+    tags: [tapinarof, clinical-development, dermatology, psoriasis]
+    affiliation: "Dermavant Sciences Inc., Morrisville, NC"
+  - slug: david-rubenstein
+    tags: [tapinarof, clinical-development, dermatology]
+    affiliation: "Dermavant Sciences Inc., Morrisville, NC"
 
 ideas:
 
@@ -1470,6 +1539,144 @@ claims:
     status: contested
     confidence: 0.6
     domain: immuno-oncology
+  - slug: ahr-bhlh-pas-transcription-factor
+    title: "AHR is a bHLH-PAS ligand-activated transcription factor"
+    tags: [AHR, structure, transcription-factor]
+    status: supported
+    confidence: 0.98
+    domain: molecular biology
+  - slug: ahr-cytosolic-complex-hsp90-aip-p23
+    title: "Inactive AHR resides in a cytosolic HSP90/AIP/p23/c-Src complex"
+    tags: [AHR, chaperone, HSP90, AIP, c-Src]
+    status: supported
+    confidence: 0.95
+    domain: molecular biology
+  - slug: ahr-arnt-xre-tngcgtg-binding
+    title: "AHR-ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs"
+    tags: [AHR, ARNT, XRE, DRE, transcription]
+    status: supported
+    confidence: 0.95
+    domain: molecular biology
+  - slug: cyp1a1-clears-endogenous-ahr-agonists
+    title: "CYP1A1 clears endogenous AHR agonists — AHR negative-feedback loop"
+    tags: [AHR, CYP1A1, negative-feedback, barrier-immunity]
+    status: supported
+    confidence: 0.92
+    domain: immunology / metabolism
+  - slug: ahrr-tiparp-hif1a-ahr-feedback
+    title: "AHR signalling is constrained by AHRR/TIPARP/HIF-1α/proteasome/miRNA feedback"
+    tags: [AHR, AHRR, TIPARP, HIF1A, negative-feedback]
+    status: supported
+    confidence: 0.9
+    domain: molecular biology
+  - slug: ahr-acts-as-cul4b-e3-ligase
+    title: "Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase"
+    tags: [AHR, non-canonical, E3-ligase, CUL4B]
+    status: supported
+    confidence: 0.8
+    domain: molecular biology
+  - slug: ahr-ligand-specificity-determines-immune-outcome
+    title: "AHR responses are ligand- and context-specific (basis for SAHRM design)"
+    tags: [AHR, SAHRM, ligand-bias, pharmacology, immunology]
+    status: supported
+    confidence: 0.9
+    domain: pharmacology / immunology
+  - slug: ahr-tolerogenic-dc-reduces-mhcii-il12
+    title: "AHR activation in DCs drives a tolerogenic programme (↓MHC-II/co-stim/IL-12/TNF; ↑IDO1/IL-27/retinoic acid)"
+    tags: [AHR, dendritic-cell, tolerance, IDO1, IL-27]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-essential-ilc3-il22-barrier-defence
+    title: "AHR is essential for ILC3 IL-22 production and clearance of barrier pathogens"
+    tags: [AHR, ILC3, IL-22, barrier-immunity, Citrobacter]
+    status: supported
+    confidence: 0.92
+    domain: immunology
+  - slug: ahr-tcdd-tgfb-foxp3-treg-expansion
+    title: "AHR activation by TCDD + TGFβ drives SMAD1/Aiolos-dependent Foxp3⁺ Treg expansion"
+    tags: [AHR, Treg, Foxp3, SMAD1, Aiolos, TCDD, TGFb]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-stat3-aiolos-promotes-th17
+    title: "AHR cooperates with STAT3 in Aiolos / IL-22 to drive Th17 / Th22 differentiation"
+    tags: [AHR, Th17, STAT3, Aiolos, RORgt, IL-22]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-cmaf-induces-il10-il21-cd39-tr1
+    title: "IL-27 → STAT3 → AHR / c-Maf drives IL-10, IL-21, CD39 in Tr1 cells"
+    tags: [AHR, Tr1, IL-27, c-Maf, IL-10, CD39, immunoregulation]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-promotes-th17-tr1-conversion
+    title: "AHR drives Th17 → Tr1 conversion to limit immunopathology"
+    tags: [AHR, Th17, Tr1, transdifferentiation, immunoregulation]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: microbial-tryptophan-indoles-sustain-ahr-barrier
+    title: "Microbial tryptophan-derived indoles (IAA, I3A, tryptamine, I3S) are major endogenous AHR agonists"
+    tags: [AHR, microbiota, tryptophan, indoles, gut-immunity]
+    status: supported
+    confidence: 0.9
+    domain: immunology / microbiome
+  - slug: tapinarof-fda-approved-plaque-psoriasis-2022
+    title: "Tapinarof cream 1% is the first FDA-approved AHR-targeting therapeutic (2022)"
+    tags: [tapinarof, psoriasis, FDA-approval, clinical-trial, AHR-agonist]
+    status: supported
+    confidence: 0.99
+    domain: clinical / dermatology
+  - slug: tapinarof-suppresses-il17a-il17f-via-ahr
+    title: "Tapinarof requires AHR and suppresses IL-17A/IL-17F in T cells"
+    tags: [tapinarof, AHR, IL-17, psoriasis, mechanism-of-action]
+    status: supported
+    confidence: 0.92
+    domain: pharmacology / immunology
+  - slug: tapinarof-induces-skin-barrier-filaggrin
+    title: "Tapinarof induces skin-barrier proteins (filaggrin, loricrin, involucrin, hornerin) and Nrf2"
+    tags: [tapinarof, skin-barrier, filaggrin, Nrf2, antioxidant]
+    status: supported
+    confidence: 0.9
+    domain: pharmacology / dermatology
+  - slug: ms-patients-show-reduced-microbiome-ahr-ligands
+    title: "MS patients show reduced microbiome-derived AHR agonists"
+    tags: [AHR, multiple-sclerosis, microbiome, tryptophan-metabolites, biomarker]
+    status: supported
+    confidence: 0.8
+    domain: immunology / neurology
+  - slug: ahr-astrocyte-microglia-deletion-worsens-eae
+    title: "Astrocyte- or microglia-specific AHR deletion exacerbates EAE via NF-κB"
+    tags: [AHR, astrocyte, microglia, EAE, multiple-sclerosis, NF-kB]
+    status: supported
+    confidence: 0.88
+    domain: immunology / neurology
+  - slug: ahr-cancer-cells-overexpress-ido1-tdo2-make-kyn
+    title: "Cancer cells over-express IDO1/TDO2 to produce Kyn → AHR → antitumour immunosuppression"
+    tags: [AHR, cancer, IDO1, TDO2, kynurenine, immune-evasion]
+    status: supported
+    confidence: 0.9
+    domain: oncology / immunology
+  - slug: ahr-glioblastoma-tam-klf4-cd39-suppresses-cd8
+    title: "Glioblastoma TAMs: AHR drives KLF4 → ↓NF-κB / ↑CD39 → CD8⁺ T cell dysfunction"
+    tags: [AHR, glioblastoma, TAM, KLF4, CD39, CD8-T-cell-dysfunction, tumour-immunology]
+    status: supported
+    confidence: 0.88
+    domain: oncology / immunology
+  - slug: ahr-tiparp-suppresses-type-i-ifn-virus-hijack
+    title: "AHR-induced TIPARP suppresses TBK1 / type I IFN — pathway hijacked by viruses"
+    tags: [AHR, TIPARP, type-I-IFN, TBK1, viral-evasion, antiviral]
+    status: supported
+    confidence: 0.88
+    domain: immunology / virology
+  - slug: ahr-antagonism-suppresses-zikv-sars-cov-2-replication
+    title: "Pharmacologic AHR antagonism (HP163, CH-223191) suppresses ZIKV and SARS-CoV-2"
+    tags: [AHR, antiviral, ZIKV, SARS-CoV-2, microcephaly, HP163, CH-223191]
+    status: supported
+    confidence: 0.85
+    domain: virology / pharmacology
 
 Summary:
 
@@ -1788,3 +1995,103 @@ foundations:
     importance: 4
     domain: oncology / hypoxia / therapy
     priority: core
+  - slug: tapinarof
+    title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
+    status: mainstream
+    domain: immunology / dermatology / small-molecule drug
+  - slug: tcdd-2378-tetrachlorodibenzodioxin
+    title: "TCDD (2,3,7,8-tetrachlorodibenzo-p-dioxin)"
+    status: mainstream
+    domain: toxicology / immunology / AHR ligand
+  - slug: ficz-6-formylindolo-carbazole
+    title: "FICZ (6-formylindolo[3,2-b]carbazole)"
+    status: mainstream
+    domain: immunology / AHR ligand / tryptophan photoproduct
+  - slug: kynurenine
+    title: "Kynurenine (Kyn)"
+    status: mainstream
+    domain: immunology / metabolism / AHR ligand
+  - slug: cyp1a1-cytochrome
+    title: "CYP1A1 (cytochrome P450 1A1)"
+    status: mainstream
+    domain: metabolism / AHR target gene
+  - slug: arnt-hif1b
+    title: "ARNT (AHR nuclear translocator / HIF-1β)"
+    status: mainstream
+    domain: transcription factor / bHLH-PAS
+  - slug: ahrr-repressor
+    title: "AHRR (aryl hydrocarbon receptor repressor)"
+    status: mainstream
+    domain: transcription factor / AHR negative regulator
+  - slug: tiparp
+    title: "TIPARP / PARP7 (TCDD-inducible poly(ADP-ribose) polymerase)"
+    status: mainstream
+    domain: enzyme / AHR negative regulator / ADP-ribosylation
+  - slug: foxp3-tf
+    title: "FOXP3 (Forkhead box P3)"
+    status: mainstream
+    domain: transcription factor / regulatory T cell lineage
+  - slug: rorgt-tf
+    title: "RORγt (RORC)"
+    status: mainstream
+    domain: transcription factor / Th17 and ILC3 lineage
+  - slug: il-22-cytokine
+    title: "IL-22 (Interleukin-22)"
+    status: mainstream
+    domain: immunology / cytokine / barrier immunity
+  - slug: il-17a-il17f-cytokines
+    title: "IL-17A / IL-17F (Th17 effector cytokines)"
+    status: mainstream
+    domain: immunology / cytokine / autoimmune effector
+  - slug: il-10-cytokine
+    title: "IL-10 (Interleukin-10)"
+    status: mainstream
+    domain: immunology / cytokine / regulatory effector
+  - slug: cd39-ectonucleotidase
+    title: "CD39 (ENTPD1, ectonucleoside triphosphate diphosphohydrolase 1)"
+    status: mainstream
+    domain: immunology / ectoenzyme / adenosine pathway
+  - slug: c-maf-tf
+    title: "c-Maf (MAF)"
+    status: mainstream
+    domain: transcription factor / bZIP / Tr1 lineage
+  - slug: aiolos-tf
+    title: "Aiolos (IKZF3)"
+    status: mainstream
+    domain: transcription factor / Ikaros family
+  - slug: klf4-tf
+    title: "KLF4 (Krüppel-like factor 4)"
+    status: mainstream
+    domain: transcription factor / zinc-finger / pluripotency and myeloid
+  - slug: ch-223191-ahr-antagonist
+    title: "CH-223191 (AHR antagonist)"
+    status: mainstream
+    domain: small-molecule pharmacology / AHR antagonist
+  - slug: ite-ahr-agonist
+    title: "ITE (2-(1'H-indole-3'-carbonyl)-thiazole-4-carboxylic acid methyl ester)"
+    status: mainstream
+    domain: small-molecule pharmacology / AHR agonist
+  - slug: psoriasis-disease
+    title: "Psoriasis (plaque psoriasis)"
+    status: mainstream
+    domain: dermatology / autoimmune skin disease
+  - slug: atopic-dermatitis
+    title: "Atopic dermatitis (eczema)"
+    status: mainstream
+    domain: dermatology / atopic / Th2-driven disease
+  - slug: multiple-sclerosis-eae
+    title: "Multiple sclerosis & EAE (experimental autoimmune encephalomyelitis)"
+    status: mainstream
+    domain: neurology / autoimmune CNS disease
+  - slug: inflammatory-bowel-disease
+    title: "Inflammatory bowel disease (IBD: Crohn's & ulcerative colitis)"
+    status: mainstream
+    domain: gastroenterology / immune-mediated inflammation
+  - slug: imq-imiquimod-tlr7-agonist
+    title: "Imiquimod (IMQ) — TLR7/8 agonist and psoriasis model"
+    status: mainstream
+    domain: small-molecule / TLR agonist / dermatology model
+  - slug: hsp90-aip-chaperone-complex
+    title: "HSP90 / AIP (XAP2) / p23 — AHR cytosolic chaperone complex"
+    status: mainstream
+    domain: molecular biology / chaperone / AHR cytosolic complex

@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (194 total)
+## Claims (217 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -27,23 +27,25 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Direct in-vitro T-cell suppression assays on FACS-isolated IL4I1_Mac to confirm causal immunosuppression beyond gene-programme inference.
 - [paper/cross-tissue-single-cell-landscape-human] Anti-IFNγ or anti-CD40L perturbation in mouse tumour models to test the proposed T-cell → IL4I1_Mac induction loop.
 - [paper/cross-tissue-single-cell-landscape-human] Spatial-transcriptomic 
-## Papers (11 total)
+## Papers (12 total)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
+- [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
 - [4] PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer (immuno-oncology / tumor immunology / single-cell genomics)
 - [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
 - [5] Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease (immunology / single-cell / oncology)
-## Recent Relationships (461 total)
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/hif-1alpha-srebp1-fasn-de-novo-lipogenesis-hypoxia
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/hypoxia-hif1a-induces-emt-metastatic-cascade-mmp-cxcr4
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/hypoxia-1mmhg-three-fold-radioresistant-cancer-cells
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/hif-1alpha-induces-pgp-mdr1-bcrp-multidrug-efflux
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/hif-2alpha-promotes-sorafenib-resistance-hcc-tgfa-egfr
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/hypoxia-ccl28-recruits-treg-hif1a-polarization-crc
-  papers/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic --supports--> claims/tme-acidification-ph
+## Recent Relationships (501 total)
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --complementary_to--> papers/dictionary-immune-responses-cytokines-single-cell
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --complementary_to--> papers/physiology-diseases-tissue-resident-macrophages
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-bhlh-pas-transcription-factor
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-cytosolic-complex-hsp90-aip-p23
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-arnt-xre-tngcgtg-binding
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/cyp1a1-clears-endogenous-ahr-agonists
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahrr-tiparp-hif1a-ahr-feedback
+  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-ac

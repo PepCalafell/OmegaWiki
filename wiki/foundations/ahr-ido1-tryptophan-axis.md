@@ -48,3 +48,5 @@ T cells are exquisitely sensitive to tryptophan deprivation (via GCN2 stress res
 ## Relevance to active research
 
 [[papers/cross-tissue-single-cell-landscape-human]] characterises the IL4I1⁺PD-L1⁺IDO1⁺ macrophage subset (MoMac-VERSE cluster #6) as the dominant cellular substrate of this axis in human tumours. The authors propose that CD40L (from CD4⁺ T cells) plus IFNγ (from CD8⁺ T cells) reprograms IFN-primed monocytes into IL4I1_Mac, which then suppress T-cell function via PD-L1/PD-L2 and tryptophan catabolism, and recruit FOXP3⁺ Tregs through CXCL9/CXCL10/CXCL11. This frames IL4I1_Mac and the AHR-IDO1 axis as the mechanistic substrate of the immunosuppressive tumour periphery.
+
+[[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] (Polonio, McHale, Sherr, Rubenstein, Quintana — NRDD 2025) is the authoritative comprehensive review of AHR biology and therapeutic targeting, situating the IDO1/IL4I1/TDO2 → Kyn → AHR axis within the wider AHR pharmacology landscape (tapinarof clinical approval, AHR antagonists for cancer/antiviral, microbiota-driven AHR ligands).

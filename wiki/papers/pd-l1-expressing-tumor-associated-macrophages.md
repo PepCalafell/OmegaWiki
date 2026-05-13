@@ -359,3 +359,5 @@ Caveats: the ex vivo system is built from peripheral blood monocytes, leaving th
 - [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.
 
 - [[papers/dictionary-immune-responses-cytokines-single-cell]] — Cui & Hacohen et al. 2024 *Nature* Immune Dictionary + IREA: cytokine perturbational atlas; complementary cytokine-activity inference framework.
+
+- [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here

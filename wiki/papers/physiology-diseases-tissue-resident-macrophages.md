@@ -375,3 +375,5 @@ Reading note for me: the *ancillary cell* framing is the single most useful conc
 - [[people/tomi-lazarov]]
 - [[papers/cross-tissue-single-cell-landscape-human]] — Mulder 2021 MoMac-VERSE — same MoMac biology, single-cell view
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — Casanova-Acebes 2021 — TRM as pro-tumour niche, partly inverts the TRM-anti-tumour Kupffer story
+
+- [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here

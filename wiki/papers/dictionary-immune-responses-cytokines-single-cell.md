@@ -302,3 +302,5 @@ This is the most ambitious in vivo perturbational cytokine atlas to date and the
 - [[foundations/irea-immune-response-enrichment-analysis-software]], [[foundations/immune-dictionary-dataset]] — software + dataset deliverables.
 - [[papers/pd-l1-expressing-tumor-associated-macrophages]] — IREA's anti-PD-1 application corroborates Mac-b / M1-like findings; complementary axis.
 - [[papers/cross-tissue-single-cell-landscape-human]] — complementary single-cell atlas of macrophage diversity.
+
+- [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here
