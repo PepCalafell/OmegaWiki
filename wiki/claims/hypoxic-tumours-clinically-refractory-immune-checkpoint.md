@@ -7,11 +7,16 @@ tags: [hypoxia,immune-checkpoint-inhibitor,TMB,neoantigen,immunotherapy-resistan
 domain: hypoxia
 source_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
   - source: tumour-hypoxia-driving-genomic-instability-tumour
     type: supports
     strength: strong
     detail: "Quote (p.174): 'Although this would suggest that hypoxic tumours should be sensitive to immune checkpoint inhibition, accumulating evidence in the clinic suggests that the opposite is true as hypoxic tumours are usually refractory to immune checkpoint inhibition'."
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: strong
+    detail: "Quote (p.7): 'For some cancers, including breast, pancreatic, colorectal, and prostate cancers, a high proportion of non-responders has been reported, one of the main causes of which is hypoxic stress.' Mechanism: HIF1α → PD-L1, lactate acidosis blocking CTL, Treg recruitment, MDSC infiltration."
 conditions: "Clinical observation; multiple tumour types."
 date_proposed: 2026-05-13
 date_updated: 2026-05-13

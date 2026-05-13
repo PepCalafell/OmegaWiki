@@ -17,7 +17,12 @@ tags:
 domain: "molecular-biology / hypoxia / oxygen-sensing"
 source_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: strong
+    detail: "Quote (p.3): 'Owing to the presence of the oxygen-dependent proline hydroxylase family (PHD), under sufficient oxygen conditions, the HIF-α protein is hydroxylated and interacts with von Hippel-Lindau tumor suppressor protein (pVHL) to promote HIF-1α ubiquitin-proteasomal degradation. However, under hypoxic conditions, enzymatic activity of PHD is inhibited, preventing HIF-α hydroxylation and ubiquitin-mediated proteasomal degradation, leading to abnormal accumulation of HIF-α in cells.'"
   - source: hypoxia-driven-crosstalk-between-tumor-tumor
     type: supports
     strength: strong

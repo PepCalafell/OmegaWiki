@@ -7,11 +7,16 @@ tags: [hypoxia,PD-L1,CD47,immune-checkpoint,SIRPA]
 domain: hypoxia
 source_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
   - source: tumour-hypoxia-driving-genomic-instability-tumour
     type: supports
     strength: strong
     detail: "Quote (p.175): 'upregulation of immune checkpoint molecules such as programmed cell death protein 1 ligand 1 (PDL1) and CD47'."
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: strong
+    detail: "Quote (p.7): 'Hypoxia-induced HIF-1α can promote programmed death ligand-1 (PD-L1) expression in cancer cells and suppress immune effects.' Mechanism: direct HIF-1α transcriptional activation; also drives MDSC PD-L1 secretion."
 conditions: "Tumour-cell intrinsic. Multiple tumour types."
 date_proposed: 2026-05-13
 date_updated: 2026-05-13

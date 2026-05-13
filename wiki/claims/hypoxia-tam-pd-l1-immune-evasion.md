@@ -19,7 +19,12 @@ tags:
 domain: "oncology / immunology / hypoxia"
 source_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: moderate
+    detail: "Quote (p.10): 'PD-L1 is secreted by hypoxia-induced HIF-1α, but not HIF-2α in MDSCs.' Also supports HIF1α-driven PD-L1 in tumor cells (p.7) and TAMs as part of hypoxic immunosuppressive landscape. Identifies inhibition of HIF1α synthesis as enhancing CTL killing via PD-L1 lysosomal degradation (p.13)."
   - source: hypoxia-driven-crosstalk-between-tumor-tumor
     type: supports
     strength: strong

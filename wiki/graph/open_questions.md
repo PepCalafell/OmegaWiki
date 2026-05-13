@@ -33,6 +33,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Are MHC-II^lo TAMs equivalent to a specific MoMac-VERSE cluster (e.g. cluster #4 hypoxic-inflammatory IL1B^+ Mac, or TREM2^+ LAM)?
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Is the synergy between hypoxia and lactate in driving TAM M2 explained by Hedgehog as a downstream effector, or is Hedgehog-pathway involvement a lactate-only signal?
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Does intermittent / cyclic hypoxia (vs chronic hypoxia) drive *quantitatively different* exosome cargos / mediator outputs, given the H-R cycles induce ROS bursts that re-stabilize HIF-1α/NF-κB?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] Are there HIF-independent key genes mediating hypoxic adaptation in cancer?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How do TME microbiota and hypoxia interact mechanistically?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] What is the optimal sequencing / combination of HIF inhibition, oxygenation, ICB, and chemoradiation?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How to develop precision-medicine hypoxia treatment for refractory cancers?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] Why have multiple Phase III HAP trials (TH-302, tirapazamine, apaziquone) failed despite robust preclinical activity? Is biomarker stratification the missing piece, or is the mechanism context-dependent?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] Can HIF inhibitor + ICB combinations replicate the 32-134D/anti-PD-1 67% eradication in clinical HCC?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] Do TAM single-cell subsets (TREM2+ LAM, MMAC1, IL4I1+, IFNG+) correspond to specific hypoxia-niche identities, and which respond to oxygenation?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How does HIF2α-driven 5-FU resistance via macrophage DPD inform CRC combination strategy?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] What is the relationship between this review's HIF/TAM/TME framing and the genomic-instability framework of [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] (Suvac, Ashton, Bristow 2025)?
+- [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] For the user's thesis (skin / hypoxia / TAMs), which therapeutic class (HAP vs vascular normalization vs HIF inhibitor vs nano-O₂) maps best onto the skin-cancer hypoxic niche?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Does the ancestry-specific hypoxia signal in BRCA reflect biology or socioeconomic confounding (selection bias in TCGA)?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Are the hypoxia-mutation co-occurrences causally linked, or co-selected by independent microenvironmental pressures?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Can the nimbosus signature drive treatment-decision prospective trials in localized PCa?
@@ -136,6 +146,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/hypoxia-activated-prodrugs-haps] Whether combining HAPs with anti-angiogenic vascular *normalization* (which raises pO₂) cancels HAP activation — a paradoxical antagonism.
+- [concept/hypoxia-activated-prodrugs-haps] Whether biomarker-stratified trials (hypoxia-high only) would rescue HAP efficacy.
+- [concept/hypoxia-activated-prodrugs-haps] HAPs + ICB synergy as a way to convert ICB-cold hypoxic tumors to responders.
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Causal vs correlational role in driving CNAs
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Cycling vs chronic hypoxia contributions to centrosome defects
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Spatial validation in situ via single-cell centrosome imaging or spatial transcriptomics
@@ -164,9 +177,14 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-pd-l1-tam-immune-evasion] Single-cell-resolved mapping of PD-L1+ TAM subsets across cancer types and oxygen levels.
 - [concept/hypoxia-pd-l1-tam-immune-evasion] Therapeutic implications of intermittent vs chronic hypoxia: should OSA cancer patients receive different immunotherapy strategies?
 - [concept/hypoxia-pd-l1-tam-immune-evasion] Mechanism of lactate-driven PD-L1 induction (transcription vs protein stabilization vs trafficking).
+- [concept/hypoxia-pet-imaging-tracers] Whether tracer-guided dose painting improves outcomes prospectively.
+- [concept/hypoxia-pet-imaging-tracers] Combining hypoxia PET with mRNA hypoxia signatures for orthogonal biomarker stratification.
+- [concept/hypoxia-pet-imaging-tracers] Detection of pseudohypoxic vs true hypoxic tumors (likely tracer-negative pseudohypoxia).
 - [concept/hypoxia-pten-tert-telomere-axis] Direct mechanistic test: does hypoxia → HIF1A → TERT, with PTEN loss removing brake on PI3K/AKT-mediated TERT post-translational stabilization?
 - [concept/hypoxia-pten-tert-telomere-axis] Whether targeting TERT (imetelstat) in hypoxic + PTEN-loss tumors is selectively effective
 - [concept/hypoxia-pten-tert-telomere-axis] How the axis interacts with the broader nimbosus phenotype
+- [concept/hypoxia-radioresistance-oxygen-fixation] Whether nano-O₂-generating radiosensitizers (BFO/BWO, MnO₂, Au@Pt) translate to clinical benefit.
+- [concept/hypoxia-radioresistance-oxygen-fixation] Whether HIF / DNA-PK / NRF2 co-inhibition with radiation overcomes hypoxic radioresistance.
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
 - [concept/il-18-polyfunctional-nk-cell-state] Translation to human NK cells
 - [concept/il-18-polyfunctional-nk-cell-state] Interaction with IL-18BP decoy axis
@@ -294,6 +312,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-subclonal-evolution-architecture] Coupling phylogeny to microenvironmental data (hypoxia maps, immune infiltration)
 - [concept/tumor-subclonal-evolution-architecture] Validating bulk-derived phylogenies with single-cell data at scale
 - [concept/tumor-subclonal-evolution-architecture] How the immune system shapes branch-timed mutations through immune editing
+- [concept/tumor-vasculature-normalization-hypoxia] Biomarker for the normalization window in real time.
+- [concept/tumor-vasculature-normalization-hypoxia] Whether DLL1-based long-term normalization avoids the rebound problem of anti-VEGF.
+- [concept/tumor-vasculature-normalization-hypoxia] Combination ordering: normalize first then ICB, or simultaneous?
+- [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
+- [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
+- [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)

@@ -21,6 +21,7 @@ maturity: active
 key_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
   - hypoxia-pd-l1-tam-immune-evasion
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 first_introduced: "2014"
 date_updated: 2026-05-13
 related_concepts:

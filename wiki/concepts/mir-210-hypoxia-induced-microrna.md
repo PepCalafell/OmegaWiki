@@ -22,6 +22,7 @@ tags:
 maturity: stable
 key_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 first_introduced: "Kulshreshtha et al. 2007 Mol Cell Biol; Camps et al. 2008 Clin Cancer Res; Huang et al. 2009 Mol Cell"
 date_updated: 2026-05-06
 related_concepts: []

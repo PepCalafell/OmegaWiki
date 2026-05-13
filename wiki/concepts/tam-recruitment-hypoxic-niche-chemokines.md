@@ -25,6 +25,7 @@ tags:
 maturity: active
 key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 first_introduced: "Murdoch & Lewis 2005 Trends Immunol (TAM hypoxia recruitment); refined by Casazza 2013 Cancer Cell (Sema3A-NRP1); Bai 2022 review consolidates"
 date_updated: 2026-05-08
 related_concepts:

@@ -25,6 +25,7 @@ tags:
 maturity: active
 key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 first_introduced: "Colegio 2014 Nature (lactate → HIF-1α → VEGF/Arg-1 in macrophages); Bohn 2018 Nat Immunol (TAM subset metabolism by lactate); reviewed Bai 2022"
 date_updated: 2026-05-08
 related_concepts:

@@ -1782,3 +1782,9 @@ foundations:
     title: "SingleR — reference-based automated cell-type annotation for scRNAseq"
     status: mainstream
     domain: computational-biology / methods
+  - slug: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    title: "Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions"
+    tags: [hypoxia, cancer, tumor-microenvironment, HIF1a, HIF2a, immune-tolerance, chemoresistance, radioresistance, Warburg, hypoxia-activated-prodrug, vascular-normalization, nanoparticle-therapy, bacteriotherapy, hypoxia-tracer, review]
+    importance: 4
+    domain: oncology / hypoxia / therapy
+    priority: core

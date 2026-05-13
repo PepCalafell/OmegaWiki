@@ -17,7 +17,12 @@ tags:
 domain: "oncology / metabolism / immunology"
 source_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: moderate
+    detail: "Quote (p.9): 'Lactate, converted from pyruvate in cancer cells, plays a key signaling role by inducing HIF-1α-mediated expression of vascular endothelial growth factor in other processes.' Also: 'M2-like TAM promotes cancer progression by remodeling the extracellular microenvironment.' Aligns with the lactate-HIF1α-VEGF/M2 polarization axis."
   - source: hypoxia-driven-crosstalk-between-tumor-tumor
     type: supports
     strength: strong

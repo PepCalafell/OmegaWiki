@@ -14,7 +14,12 @@ tags:
 domain: "oncology / immunology / hypoxia"
 source_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: strong
+    detail: "Quote (p.9): 'Hypoxia, HIF-1α, and tumor secretion of multiple chemokines facilitate cancer-associated macrophage (TAM) recruitment to the TME... TAMs constitute a plastic and heterogeneous cell population and can account for up to 50% of certain solid tumors.' Quantifies abundance and confirms hypoxic-niche enrichment."
   - source: hypoxia-driven-crosstalk-between-tumor-tumor
     type: supports
     strength: strong

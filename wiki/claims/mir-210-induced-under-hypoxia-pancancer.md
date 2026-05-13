@@ -13,7 +13,12 @@ tags:
 domain: "oncology / non-coding-RNA / hypoxia"
 source_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
+  - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
 evidence:
+  - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+    type: supports
+    strength: moderate
+    detail: "Quote (p.10): 'PD-L1 is secreted by hypoxia-induced HIF-1α... arginase and NO are promoted by HIF-1α-induced miR-210 expression.' Mechanism: in MDSCs, miR-210 acts downstream of HIF1α to amplify arginase / iNOS / immunosuppression."
   - source: molecular-landmarks-tumor-hypoxia-across-cancer
     type: supports
     strength: strong
