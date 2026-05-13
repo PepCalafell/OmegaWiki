@@ -77,6 +77,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether hypoxia "niches" with intratumoural genetic heterogeneity for specific mutations recapitulate the global hypoxia-CN association at sub-tumour scale.
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether the centrosome/mitotic effects of hypoxia are causal vs correlational.
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether reversing hypoxia in situ sensitizes hypoxic tumours to ICB.
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] How to disentangle pseudohypoxic HIF1 activation from true low-O2 hypoxia in patient analyses.
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether hypoxic "creeping" cells in tumour niches are primed metastatic seeds.
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] What quantitative pO2/duration thresholds switch the hypoxic response from adaptive to mutagenic?
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] Can transient hypoxia-induced HRD be therapeutically weaponized (PARPi window) in non-BRCA-mutant tumours?
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] Does targeting the ROS–ATM–MRE11 axis under cycling hypoxia abolish APOBEC mutagenesis?
+- [paper/tumour-hypoxia-driving-genomic-instability-tumour] How do TAMs in hypoxic niches (cf. [[concepts/hypoxia-pd-l1-tam-immune-evasion]], [[concepts/tam-recruitment-hypoxic-niche-chemokines]]) mechanistically protect mutator clones — is the protection at the antigen-presentation, killing or trafficking step?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
@@ -103,6 +112,14 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/hypoxia-centrosome-amplification-mitotic-cin] Causal vs correlational role in driving CNAs
+- [concept/hypoxia-centrosome-amplification-mitotic-cin] Cycling vs chronic hypoxia contributions to centrosome defects
+- [concept/hypoxia-centrosome-amplification-mitotic-cin] Spatial validation in situ via single-cell centrosome imaging or spatial transcriptomics
+- [concept/hypoxia-co-driver-tumour-evolution-cancer] Hypoxia "niches" with locally distinct driver enrichment
+- [concept/hypoxia-co-driver-tumour-evolution-cancer] Pseudohypoxic vs true-hypoxic separation in driver-co-occurrence analyses
+- [concept/hypoxia-emt-lineage-plasticity-metastasis] Whether hypoxic "creeping" cells in tumour niches are primed metastatic seeds
+- [concept/hypoxia-emt-lineage-plasticity-metastasis] Mechanism by which polyclonal metastases originate from peri-necrotic hypoxic regions (e.g., TRACERx Renal)
+- [concept/hypoxia-emt-lineage-plasticity-metastasis] Therapeutic targeting of hypoxia-driven lineage plasticity
 - [concept/hypoxia-exosomal-mirna-tam-polarization] A unified model of hypoxic exosome biogenesis: is HIF-1α driving Rab27a / nSMase to scale up release, or are there hypoxia-specific cargo-loading proteins?
 - [concept/hypoxia-exosomal-mirna-tam-polarization] Cell-of-origin labelling (CD63-GFP transgenic donor cell, in vivo tracking) for tumor-cell vs TAM exosomes in TME.
 - [concept/hypoxia-exosomal-mirna-tam-polarization] Identifying which TAM cluster (in MoMac-VERSE / Casanova-Acebes / Mulder taxonomies) is the dominant exosome-uptake compartment.
@@ -111,6 +128,14 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-genomic-instability-pga] Why hypoxia-PGA fails to associate in 9/19 tumor types — tumor-type-specific DNA-repair compensations?
 - [concept/hypoxia-genomic-instability-pga] Can hypoxia + genomic instability be used to select tumors most likely to benefit from PARP inhibitors?
 - [concept/hypoxia-genomic-instability-pga] The role of immune editing in shaping hypoxia-PGA in vivo
+- [concept/hypoxia-immune-evasion-clonal-selection] Whether reversing hypoxia in situ rescues ICB efficacy
+- [concept/hypoxia-immune-evasion-clonal-selection] Which immune-evasion axis dominates per tumour type
+- [concept/hypoxia-immune-evasion-clonal-selection] Hypoxic cell fate-mapping in syngeneic models to test whether immune surveillance constrains clonal outgrowth
+- [concept/hypoxia-induced-mutator-phenotype] Quantifying per-cycle mutation gain in cycling vs chronic hypoxia in vivo
+- [concept/hypoxia-induced-mutator-phenotype] Whether the mutator phenotype is the dominant driver of clonal selection or whether secondary epigenetic plasticity dominates
+- [concept/hypoxia-inhibits-dna-repair-pathways-hr] Quantitative kinetics of repair-pathway suppression as a function of pO2 and duration
+- [concept/hypoxia-inhibits-dna-repair-pathways-hr] Whether transient hypoxia-induced HRD opens a therapeutic window for PARPi in non-BRCA-mutant tumours
+- [concept/hypoxia-inhibits-dna-repair-pathways-hr] Mechanistic dissection of NER/NHEJ regulation under hypoxia
 - [concept/hypoxia-pd-l1-tam-immune-evasion] A definitive in vivo demonstration that TAM-specific PD-L1 deletion (e.g. LysM-Cre × CD274 floxed) phenocopies pan-PD-L1 deletion in hypoxic tumor models.
 - [concept/hypoxia-pd-l1-tam-immune-evasion] Single-cell-resolved mapping of PD-L1+ TAM subsets across cancer types and oxygen levels.
 - [concept/hypoxia-pd-l1-tam-immune-evasion] Therapeutic implications of intermittent vs chronic hypoxia: should OSA cancer patients receive different immunotherapy strategies?
@@ -187,6 +212,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] The molecular pathway through which PD-L1+ TAMs chemoattract T cells (AREG-ICAM1, CD162-CD62L, ANXA1, MIF identified as candidate cell-cell interactions).
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether PD-L1 itself or another co-expressed marker is the functional driver (PD-L1 blocking antibody experiments suggest PD-L1 itself is incidental to the immunostimulatory function).
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
+- [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
+- [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.

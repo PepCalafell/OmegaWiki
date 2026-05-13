@@ -25,8 +25,9 @@ tags:
 maturity: stable
 key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
-first_introduced: "Brown 1979 Br J Radiol (acute vs chronic); Bayer & Vaupel 2011 Int J Radiat Oncol Biol Phys (refined classification); Saxena & Jolly 2019 Biomolecules (3-class chronic/acute/cyclic)"
-date_updated: 2026-05-08
+  - tumour-hypoxia-driving-genomic-instability-tumour
+first_introduced: "Brown 1979 Br J Radiol (acute vs chronic); Bayer & Vaupel 2011 Int J Radiat Oncol Biol Phys (refined classification); Saxena & Jolly 2019 Biomolecules (3-class chronic/acute/cyclic); Suvac, Ashton & Bristow 2025 Nat Rev Cancer (review)"
+date_updated: 2026-05-13
 related_concepts:
   - tumor-hypoxia-mrna-signature
   - tumor-hypoxia-intratumoral-heterogeneity

@@ -22,8 +22,9 @@ tags:
 maturity: stable
 key_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
-first_introduced: "Nik-Zainal 2012 Cell (BRCA); Espiritu 2018 Cell (PRAD); Gerstung et al. 2017 PCAWG"
-date_updated: 2026-05-06
+  - tumour-hypoxia-driving-genomic-instability-tumour
+first_introduced: "Nik-Zainal 2012 Cell (BRCA); Espiritu 2018 Cell (PRAD); Gerstung et al. 2017 PCAWG; Suvac, Ashton & Bristow 2025 Nat Rev Cancer (review)"
+date_updated: 2026-05-13
 related_concepts: []
 ---
 

@@ -22,8 +22,9 @@ tags:
 maturity: stable
 key_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
-first_introduced: "Bristow & Hill 2008 Nat Rev Cancer (review); Luoto et al. 2013 Genome Integr (PCa); Bhandari 2019 (pancancer)"
-date_updated: 2026-05-06
+  - tumour-hypoxia-driving-genomic-instability-tumour
+first_introduced: "Bristow & Hill 2008 Nat Rev Cancer (review); Luoto et al. 2013 Genome Integr (PCa); Bhandari 2019 (pancancer); Suvac, Ashton & Bristow 2025 Nat Rev Cancer (review)"
+date_updated: 2026-05-13
 related_concepts: []
 ---
 

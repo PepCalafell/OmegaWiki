@@ -355,3 +355,5 @@ Caveats: the ex vivo system is built from peripheral blood monocytes, leaving th
 - [[foundations/tcga-the-cancer-genome-atlas]] — survival cohort
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — parallel paradigm-reversal in hypoxic MAC immunogenicity (Calafell 2024)
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — counterpoint: tissue-resident MACs (not MoDMs) drive immunosuppression in NSCLC
+
+- [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.

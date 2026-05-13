@@ -4,7 +4,7 @@ affiliation: "Princess Margaret Hospital / University Health Network, Toronto; D
 role: pi
 group: "Bristow Lab"
 institution: "University of Manchester / CRUK Manchester (current); University of Toronto / Princess Margaret (former)"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override: ""
 tags:
@@ -18,7 +18,7 @@ tags:
   - clinician-scientist
 homepage: ""
 scholar: ""
-date_updated: 2026-05-06
+date_updated: 2026-05-13
 ---
 
 ## Research areas
@@ -32,6 +32,7 @@ date_updated: 2026-05-06
 ## Key papers in vault
 
 - [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] — co-corresponding author / co-senior PI. Co-supervised research; co-initiated the project; edited the manuscript. Also one of the originators of the underlying nimbosus / IDC-CA concept (Chua, van der Kwast, Bristow 2017 Eur Urol).
+- [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — senior / corresponding author of the 2025 Nat Rev Cancer review consolidating the hypoxia–DDR–CIN–evolution framework.
 
 ## Recent work
 

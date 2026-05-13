@@ -43,6 +43,12 @@ papers:
     importance: 4
     domain: immuno-oncology / tumor immunology / single-cell genomics
     priority: high
+  - slug: tumour-hypoxia-driving-genomic-instability-tumour
+    title: "Tumour hypoxia in driving genomic instability and tumour evolution"
+    tags: [hypoxia, genomic-instability, DNA-repair, tumour-evolution, clonal-evolution, CIN, aneuploidy, immune-evasion, metastasis, review, PCAWG, TRACERx, HIF1a, BRCA, MMR, APOBEC, prostate-cancer, ccRCC, HCC, TNBC]
+    importance: 5
+    domain: oncology / hypoxia / cancer-genomics
+    priority: core
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -237,10 +243,44 @@ concepts:
     title: "PD-L1 upregulation during monocyte-to-macrophage maturation is IFN-γ-independent and ERK-dependent"
     tags: [PD-L1, monocyte, macrophage, maturation, ERK, MAPK, IFN-gamma, differentiation]
     maturity: emerging
+  - slug: hypoxia-inhibits-dna-repair-pathways-hr
+    title: "Hypoxia inhibits DNA repair pathways (HR, MMR, BER)"
+    tags: [hypoxia, dna-repair, genomic-instability, HR, MMR, BER, BRCAness]
+    maturity: stable
+  - slug: hypoxia-induced-mutator-phenotype
+    title: "Hypoxia-induced mutator phenotype"
+    tags: [hypoxia, mutational-signatures, genomic-instability, translesion-synthesis, APOBEC]
+    maturity: stable
+  - slug: hypoxia-centrosome-amplification-mitotic-cin
+    title: "Hypoxia drives centrosome amplification and mitotic CIN"
+    tags: [hypoxia, mitosis, chromosomal-instability, aneuploidy, PLK4, CDC20]
+    maturity: emerging
+  - slug: hypoxia-immune-evasion-clonal-selection
+    title: "Hypoxia-mediated immune evasion enables clonal selection of mutator tumours"
+    tags: [hypoxia, immune-evasion, tumor-microenvironment, immunotherapy-resistance, PD-L1, CD47]
+    maturity: active
+  - slug: hypoxia-emt-lineage-plasticity-metastasis
+    title: "Hypoxia drives EMT, lineage plasticity and metastasis"
+    tags: [hypoxia, metastasis, EMT, epigenetics, neuroendocrine-plasticity]
+    maturity: stable
+  - slug: pseudohypoxia-oncogene-induced-hif-activation
+    title: "Pseudohypoxia: oncogene-driven HIF activation under normoxia"
+    tags: [hypoxia, oncogene, HIF, VHL, PTEN, MYC, tumour-microenvironment]
+    maturity: stable
+  - slug: hypoxia-co-driver-tumour-evolution-cancer
+    title: "Hypoxia is a co-driver of tumour evolution alongside cancer driver genes"
+    tags: [hypoxia, clonal-evolution, cancer-genomics, TP53, PTEN, MYC, BCL2]
+    maturity: stable
 
 topics:
 
 people:
+  - slug: alexandru-suvac
+    tags: [hypoxia, DNA-repair, genomic-instability, cancer-genomics]
+    affiliation: "Translational Oncogenomics Laboratory, CRUK Manchester Institute, University of Manchester"
+  - slug: jack-ashton
+    tags: [hypoxia, DNA-repair, genomic-instability]
+    affiliation: "Translational Oncogenomics Laboratory, CRUK Manchester Institute, University of Manchester"
   - slug: boris-reizis
     tags: [dendritic-cell, mononuclear-phagocyte, hematopoiesis, PI, immunology, lineage-tracing]
     affiliation: "Department of Pathology, New York University Grossman School of Medicine, New York, NY, USA"
@@ -997,6 +1037,138 @@ claims:
     status: supported
     confidence: 0.85
     domain: clinical / prognostic biomarker
+  - slug: chronic-hypoxia-transcriptionally-translationally-downregulates-brca1
+    title: "Chronic hypoxia transcriptionally and translationally downregulates BRCA1, BRCA2 and RAD51"
+    tags: [hypoxia, HR, BRCA1, BRCA2, RAD51, DNA-repair]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia / DNA-repair
+  - slug: hypoxia-hif1a-dependently-silences-mlh1-msh2
+    title: "Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner"
+    tags: [hypoxia, MMR, MLH1, MSH2, MSH6, microsatellite-instability]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia / DNA-repair
+  - slug: pcawg-high-hypoxia-tracks-hrd-mmr
+    title: "PCAWG: hypoxia tracks with HRD/MMR mutational signatures absent germline DDR mutations"
+    tags: [hypoxia, PCAWG, mutational-signatures, HRD, MMR]
+    status: supported
+    confidence: 0.85
+    domain: cancer-genomics
+  - slug: hypoxia-tracks-copy-number-signature-cn17
+    title: "Hypoxia correlates with copy-number signature CN17 (HRD/aneuploidy) across cancer types"
+    tags: [hypoxia, copy-number-signatures, HRD, CN17]
+    status: supported
+    confidence: 0.8
+    domain: cancer-genomics
+  - slug: hypoxia-inhibits-ribonucleotide-reductase-depleting-dntps
+    title: "Hypoxia inhibits RRM1/RRM2 (ribonucleotide reductase), depleting dNTPs and stalling forks"
+    tags: [hypoxia, RRM1, RRM2, replication-stress]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia / replication-stress
+  - slug: hypoxia-hif1-dependently-induces-low-fidelity
+    title: "Hypoxia HIF1-dependently induces low-fidelity translesion-synthesis DNA polymerases"
+    tags: [hypoxia, HIF1, translesion-synthesis, mutator]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia / DNA-repair
+  - slug: cycling-hypoxia-correlates-apobec-mediated-mutations
+    title: "Cycling hypoxia correlates with APOBEC-mediated mutations in patient tumours"
+    tags: [hypoxia, APOBEC, mutational-signatures, cycling-hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia / mutagenesis
+  - slug: ros-atm-mre11-complex-degrades-nascent
+    title: "ROS–ATM–MRE11 degrades nascent DNA under hypoxia, forcing error-prone repair"
+    tags: [hypoxia, ROS, ATM, MRE11, replication-stress]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia / DNA-repair
+  - slug: combination-high-hypoxia-high-pga-synergistically
+    title: "High hypoxia + high PGA synergistically worsens prognosis (prostate, sarcoma)"
+    tags: [hypoxia, PGA, prognosis, prostate-cancer, sarcoma]
+    status: supported
+    confidence: 0.9
+    domain: clinical / prognostic
+  - slug: mir-210-induction-under-hypoxia-causes
+    title: "miR-210 induction under hypoxia causes centrosome amplification and multipolar spindles"
+    tags: [hypoxia, miR-210, centrosome, CIN, aneuploidy]
+    status: supported
+    confidence: 0.7
+    domain: hypoxia / mitosis
+  - slug: hypoxia-upregulates-mitotic-genes-cdc20-bub1
+    title: "Hypoxia upregulates CDC20/BUB1/PLK1/KIF4A in TNBC independent of mutation"
+    tags: [hypoxia, TNBC, CDC20, BUB1, PLK1, KIF4A, mitosis]
+    status: supported
+    confidence: 0.7
+    domain: hypoxia / mitosis
+  - slug: cycling-hypoxia-hif1a-dependently-induces-aberrant
+    title: "Cycling hypoxia HIF1α-dependently induces aberrant mitoses and aneuploidy"
+    tags: [hypoxia, HIF1A, multipolar-spindle, aneuploidy, cycling-hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia / mitosis
+  - slug: tp53-null-cells-outcompete-wild-type
+    title: "TP53-null and BCL2-overexpressing cells outcompete WT under hypoxia (isogenic)"
+    tags: [hypoxia, TP53, BCL2, apoptosis, clonal-selection]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia / clonal-evolution
+  - slug: pten-loss-facilitates-hif1-activity-correlates
+    title: "PTEN loss facilitates HIF1 and correlates with hypoxia-driven polyclonality, poor prognosis"
+    tags: [hypoxia, PTEN, HIF1, prostate-cancer]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia / cancer-genomics
+  - slug: hypoxic-tumours-clinically-refractory-immune-checkpoint
+    title: "Hypoxic tumours are clinically refractory to ICB despite elevated TMB/neoantigens"
+    tags: [hypoxia, immune-checkpoint-inhibitor, TMB, immunotherapy-resistance]
+    status: supported
+    confidence: 0.8
+    domain: immuno-oncology
+  - slug: hypoxia-upregulates-immune-checkpoint-molecules-pd
+    title: "Hypoxia upregulates immune checkpoint molecules PD-L1 and CD47"
+    tags: [hypoxia, PD-L1, CD47, immune-checkpoint]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: hypoxia-pretreatment-increases-experimental-metastatic-potential
+    title: "Hypoxia pretreatment increases experimental metastatic potential of tumour cells"
+    tags: [hypoxia, metastasis, EMT, lung-colonization]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia / metastasis
+  - slug: hypoxia-downregulates-cadherin-induces-snail-twist
+    title: "Hypoxia downregulates E-cadherin and induces SNAIL, TWIST, N-cadherin, vimentin, JAGGED2"
+    tags: [hypoxia, EMT, E-cadherin, SNAIL, TWIST]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia / EMT
+  - slug: hcc-polyclonal-metastases-associate-hif1a-transcriptional
+    title: "HCC polyclonal metastases associate with HIF1α transcriptional activation, not genomic alterations"
+    tags: [hypoxia, HCC, HIF1A, polyclonal-metastasis]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia / metastasis
+  - slug: tracerx-renal-aggressive-subclonal-growth-occurs
+    title: "TRACERx Renal: aggressive subclonal growth occurs in peri-necrotic hypoxic centres"
+    tags: [hypoxia, TRACERx, ccRCC, peri-necrotic, subclonal-evolution]
+    status: supported
+    confidence: 0.85
+    domain: cancer-genomics / spatial-genomics
+  - slug: hypoxia-associated-mutations-cnas-predominantly-clonal
+    title: "Hypoxia-associated mutations/CNAs are predominantly clonal/early (99% of PCa hypoxia-CNAs early)"
+    tags: [hypoxia, clonal-evolution, prostate-cancer, early-mutations]
+    status: supported
+    confidence: 0.8
+    domain: cancer-genomics
+  - slug: severe-hypoxia-activates-perk-eif2a-arresting
+    title: "Severe hypoxia activates PERK–eIF2α, arresting global cap-dependent translation"
+    tags: [hypoxia, PERK, UPR, eIF2alpha, translation-arrest]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia / cell-stress
 
 Summary:
 
@@ -1213,3 +1385,43 @@ foundations:
     title: "CellPhoneDB — ligand-receptor interaction inference from scRNA-seq"
     status: established
     domain: bioinformatics / cell-cell-communication
+  - slug: brca1-tumor-suppressor
+    title: "BRCA1 (Breast Cancer 1)"
+    status: mainstream
+    domain: dna-repair
+  - slug: brca2-tumor-suppressor
+    title: "BRCA2 (Breast Cancer 2)"
+    status: mainstream
+    domain: dna-repair
+  - slug: rad51-recombinase
+    title: "RAD51 recombinase"
+    status: mainstream
+    domain: dna-repair
+  - slug: atr-kinase
+    title: "ATR (Ataxia Telangiectasia and Rad3-related kinase)"
+    status: mainstream
+    domain: dna-repair
+  - slug: atm-kinase
+    title: "ATM (Ataxia Telangiectasia Mutated kinase)"
+    status: mainstream
+    domain: dna-repair
+  - slug: pcawg-consortium
+    title: "PCAWG (Pan-Cancer Analysis of Whole Genomes)"
+    status: mainstream
+    domain: cancer-genomics
+  - slug: apobec-mutagenesis
+    title: "APOBEC-mediated mutagenesis"
+    status: mainstream
+    domain: mutational-signatures
+  - slug: mlh1-msh2-mismatch-repair
+    title: "MMR core (MLH1 / MSH2 / MSH6)"
+    status: mainstream
+    domain: dna-repair
+  - slug: perk-upr-pathway
+    title: "PERK–UPR pathway"
+    status: mainstream
+    domain: cell-stress
+  - slug: ribonucleotide-reductase-rrm1-rrm2
+    title: "Ribonucleotide reductase (RRM1/RRM2)"
+    status: mainstream
+    domain: nucleotide-metabolism

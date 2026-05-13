@@ -405,3 +405,5 @@ This is the foundational pancancer hypoxia paper in the genomics era — the *pr
 - [[people/paul-c-boutros]]
 - [[people/robert-g-bristow]]
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — complementary: hypoxic macrophage epigenetic reprogramming in tumor microenvironment
+
+- [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.

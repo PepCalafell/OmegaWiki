@@ -469,3 +469,5 @@ The review's biggest gap from my perspective is that it does not use single-cell
 - [[claims/belzutifan-first-fda-approved-hif2a-inhibitor-vhl]]
 - [[claims/px-478-hif1a-inhibitor-mechanism-pdac]]
 - [[claims/camptothecin-analogs-hif1a-topoisomerase-i]]
+
+- [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.
