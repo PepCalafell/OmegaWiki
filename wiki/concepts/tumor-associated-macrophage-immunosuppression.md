@@ -20,8 +20,9 @@ key_papers:
   - cross-tissue-single-cell-landscape-human
   - hypoxia-driven-crosstalk-between-tumor-tumor
   - pd-l1-expressing-tumor-associated-macrophages
+  - using-pan-cancer-atlas-investigate-tumour
 first_introduced: "(field-standard concept; refined here)"
-date_updated: 2026-05-08
+date_updated: 2026-05-13
 related_concepts:
   - mmac1-hypoxic-inflammatory-macrophage
   - momac-verse-mnp-verse-atlas

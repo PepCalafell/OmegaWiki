@@ -56,3 +56,5 @@ When the same biological cell type is sequenced across multiple datasets, batche
 ## Relevance to active research
 
 [[papers/cross-tissue-single-cell-landscape-human]] uses Seurat V3 anchor integration as the backbone for organ-level and pan-tissue MNP integration across 41 datasets and 178,651 cells, producing the MNP-VERSE and MoMac-VERSE atlases.
+
+[[papers/using-pan-cancer-atlas-investigate-tumour]] selects Seurat V4 RPCA over CCA / Harmony / Scanorama (iLISI benchmark on a 1.5 TB RAM node) to integrate 363,315 TAMs across 32 studies, 17 cancer types into a 23-cluster pan-cancer atlas.

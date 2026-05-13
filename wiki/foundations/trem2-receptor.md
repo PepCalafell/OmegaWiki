@@ -47,3 +47,5 @@ TREM2 is the canonical "lipid-sensing / damage-sensing" receptor of myeloid biol
 ## Relevance to active research
 
 [[papers/cross-tissue-single-cell-landscape-human]] uses TREM2 as the defining marker of MoMac-VERSE cluster #3 (TREM2_Mac), a tumor-associated macrophage subset that accumulates across all six cancer types studied (lung, colon, liver, breast, stomach, pancreas) and is shown by Ms4a3 fate-mapping in mouse to be predominantly monocyte-derived. The paper situates TREM2 TAM alongside IL4I1 and HES1 macs in a shared landscape of tumor-conditioned myeloid states.
+
+[[papers/using-pan-cancer-atlas-investigate-tumour]] resolves TREM2-positive TAMs into two distinct clusters in the 23-cluster pan-cancer atlas: `3_ICIMac1` (TREM2/SPP1/RNASE1/NUPR1) and `4_ICIMac2` (TREM2/APOE/APOC1, lipid-associated). Both clusters recapitulate a melanoma immunotherapy-resistance signature from prior literature yet — counterintuitively — are themselves *enriched* in ICI responders in CPI1000+ pan-cancer bulk RNAseq, highlighting context-dependence of the TREM2-TAM-ICI axis.

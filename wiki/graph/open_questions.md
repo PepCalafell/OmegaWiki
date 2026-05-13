@@ -94,6 +94,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Can transient hypoxia-induced HRD be therapeutically weaponized (PARPi window) in non-BRCA-mutant tumours?
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Does targeting the ROS–ATM–MRE11 axis under cycling hypoxia abolish APOBEC mutagenesis?
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] How do TAMs in hypoxic niches (cf. [[concepts/hypoxia-pd-l1-tam-immune-evasion]], [[concepts/tam-recruitment-hypoxic-niche-chemokines]]) mechanistically protect mutator clones — is the protection at the antigen-presentation, killing or trafficking step?
+- [paper/using-pan-cancer-atlas-investigate-tumour] Is 18_ECMMac a stable terminal state or a transient transition state toward myofibroblast identity?
+- [paper/using-pan-cancer-atlas-investigate-tumour] Can perturbation of TAM→fibroblast differentiation reverse ICI resistance in 18_ECMMac-high tumours?
+- [paper/using-pan-cancer-atlas-investigate-tumour] Do collagen-producing TAMs share an ontogenetic origin (monocyte-derived vs tissue-resident) across cancer types?
+- [paper/using-pan-cancer-atlas-investigate-tumour] Why is 18_ECMMac absent in oral cancer? Is collagen-TAM induction tumour-type-restricted by stromal context or tumour-cell-intrinsic factors?
+- [paper/using-pan-cancer-atlas-investigate-tumour] How does 18_ECMMac coordinate with cancer-associated fibroblasts (CAFs) — competition, complementarity, or co-differentiation?
+- [paper/using-pan-cancer-atlas-investigate-tumour] Are the 8_IFNGMac and 18_ECMMac axes orthogonal predictors that can be combined into a multivariate ICI-response classifier?
+- [paper/using-pan-cancer-atlas-investigate-tumour] Do hypoxia-driven TAM states (relevant to the user's thesis) preferentially seed 18_ECMMac or other ECM-modifying clusters?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.

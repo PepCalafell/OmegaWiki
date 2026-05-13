@@ -55,6 +55,12 @@ papers:
     importance: 5
     domain: immunology / single-cell / cytokine-biology
     priority: core
+  - slug: using-pan-cancer-atlas-investigate-tumour
+    title: "Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response"
+    tags: [tumor-associated-macrophage, TAM, pan-cancer, scRNA-seq, macrophage-atlas, immune-checkpoint-inhibitor, immunotherapy-response, CPI1000, ECM-macrophage, collagen-producing-TAM, IFNG-macrophage, CXCL9, reference-mapping, projection, MANA-score, neoantigen, spatial-transcriptomics, CosMx, melanoma-brain-metastasis]
+    importance: 4
+    domain: immuno-oncology / single-cell / tumor-immunology
+    priority: high
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -305,6 +311,30 @@ concepts:
     title: "Cytokine-mediated immune cell–cell interactome"
     tags: [cytokine-networks, cell-cell-communication, immune-network, lymph-node]
     maturity: stable
+  - slug: pan-cancer-tam-atlas-23-clusters
+    title: "Pan-cancer TAM atlas — 23-cluster Louvain taxonomy from 363,315 cells"
+    tags: [TAM, atlas, scRNA-seq, pan-cancer, Louvain, reference-mapping]
+    maturity: established
+  - slug: ecm-mac-collagen-producing-tam
+    title: "ECM macrophage (18_ECMMac) — collagen-producing TAM associated with ICI resistance"
+    tags: [TAM, 18_ECMMac, collagen, ECM, macrophage-fibroblast, ICI-resistance, biomarker]
+    maturity: emerging
+  - slug: ifng-mac-cxcl9-tam-ici-responder
+    title: "IFN-γ-driven CXCL9+ TAM (8_IFNGMac) — T-cell-recruiting macrophage associated with ICI response"
+    tags: [TAM, 8_IFNGMac, CXCL9, CXCL10, IFN-gamma, T-cell-recruitment, ICI-response, biomarker]
+    maturity: emerging
+  - slug: scrna-atlas-as-reference-projection
+    title: "scRNAseq atlas as a reference for query-to-atlas projection"
+    tags: [scRNA-seq, atlas, projection, reference-mapping, cell-type-prediction, methodological]
+    maturity: established
+  - slug: mana-score-neoantigen-tcell-signature
+    title: "MANA score — mutation-associated neoantigen-reactive CD8 T-cell signature"
+    tags: [T-cell, neoantigen, CD8, signature, CXCL13, MHC-class-II, lung-cancer]
+    maturity: emerging
+  - slug: gold-standard-bulk-tam-signatures
+    title: "Gold-standard TAM signatures for bulk-RNAseq deconvolution"
+    tags: [TAM, signature, bulk-RNAseq, deconvolution, UCell, biomarker, methodological]
+    maturity: emerging
 
 topics:
 
@@ -411,6 +441,15 @@ people:
   - slug: peter-p-lee
     tags: [immuno-oncology, tumor-immunology, breast-cancer, PD-L1, macrophage, PI]
     affiliation: "Department of Immuno-Oncology, City of Hope Comprehensive Cancer Center, Duarte, CA, USA"
+  - slug: alexander-coulton
+    tags: [tumor-associated-macrophage, scRNA-seq, pan-cancer-atlas, immune-checkpoint-inhibitor, immunogenomics]
+    affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute"
+  - slug: kevin-litchfield
+    tags: [tumor-immunogenomics, immune-checkpoint-inhibitor, bioinformatics, tumour-evolution, biomarker-discovery, CPI1000, PI]
+    affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute"
+  - slug: claire-e-lewis
+    tags: [tumor-associated-macrophage, macrophage-tumour-niche, angiogenesis, hypoxia-macrophage, PI]
+    affiliation: "Department of Oncology and Metabolism, University of Sheffield Medical School"
 
 ideas:
 
@@ -1323,6 +1362,114 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: pan-cancer-tam-atlas-363k-cells-23-clusters
+    title: "Pan-cancer TAM atlas integrates 363,315 cells from 32 studies and 17 cancer types into 23 Louvain clusters"
+    tags: [TAM, scRNA-seq, pan-cancer, atlas, clustering, Seurat]
+    status: supported
+    confidence: 0.95
+    domain: immuno-oncology
+  - slug: 18-ecmmac-novel-tam-collagen-producing
+    title: "Cluster 18_ECMMac is a previously-undescribed TAM subset characterized by COL1A1/COL1A2/COL3A1 production"
+    tags: [TAM, 18_ECMMac, collagen, ECM, macrophage-fibroblast-differentiation]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: 18-ecmmac-signature-enriched-ici-non-responders
+    title: "18_ECMMac signature is enriched in non-responders to ICI in CPI1000+ (fgsea q=3.8e-5)"
+    tags: [TAM, 18_ECMMac, ICI-resistance, CPI1000, fgsea, biomarker]
+    status: supported
+    confidence: 0.9
+    domain: immuno-oncology
+  - slug: 8-ifngmac-signature-enriched-ici-responders
+    title: "Seven TAM cluster signatures (8_IFNGMac, 17_IFNMac3, 14_ProliMac, 11_MetalloMac, 4_ICIMac2, 3_ICIMac1, 20_TDoub) enriched in ICI responders in CPI1000+"
+    tags: [TAM, 8_IFNGMac, ICI-response, CPI1000, fgsea, biomarker]
+    status: supported
+    confidence: 0.9
+    domain: immuno-oncology
+  - slug: 8-ifngmac-cxcl9-cxcl10-tcell-recruiting
+    title: "Cluster 8_IFNGMac is defined by CXCL9/CXCL10/MMP9/VAMP5, an IFN-γ-driven T-cell-recruiting TAM phenotype"
+    tags: [TAM, 8_IFNGMac, CXCL9, CXCL10, IFN-gamma, T-cell-recruitment]
+    status: supported
+    confidence: 0.9
+    domain: immuno-oncology
+  - slug: 18-ecmmac-higher-crc-primary-liver-met-vs-lihc
+    title: "18_ECMMac proportion differs significantly between primary CRC, CRC liver metastases, and primary LIHC (Propeller q=8.7e-7)"
+    tags: [TAM, 18_ECMMac, CRC, liver-metastasis, LIHC, Propeller]
+    status: supported
+    confidence: 0.9
+    domain: immuno-oncology
+  - slug: 12-mbmmac-melanoma-brain-met-lrmda
+    title: "Cluster 12_MBMMac is enriched in melanoma brain metastases and uniquely upregulates LRMDA"
+    tags: [TAM, 12_MBMMac, melanoma, brain-metastasis, LRMDA, niche]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: 18-ecmmac-spatial-cd68-collagen-coexpression
+    title: "CosMx spatial transcriptomics on NSCLC shows TAMs co-expressing CD68 + COL1A1/COL1A2/COL3A1"
+    tags: [18_ECMMac, CosMx, spatial-transcriptomics, CD68, collagen, NSCLC]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: ecmmac-fibroblast-ifngmac-tcell-spatial-neighbors
+    title: "Spatial NN analysis: 18_ECMMac TAMs neighbour fibroblasts; 8_IFNGMac TAMs neighbour CD4/CD8 memory T cells"
+    tags: [spatial, 18_ECMMac, 8_IFNGMac, CosMx, fibroblast, T-cell]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: 18-ecmmac-anticorrelates-mana-score-lung
+    title: "18_ECMMac anticorrelates with MANA score (q=0.078) and 8_IFNGMac correlates (q=0.060) in lung cancer"
+    tags: [MANA-score, neoantigen, 18_ECMMac, 8_IFNGMac, lung-cancer]
+    status: supported
+    confidence: 0.75
+    domain: immuno-oncology
+  - slug: 18-ecmmac-not-via-tcell-exclusion
+    title: "18_ECMMac-associated ICI resistance is not via general T-cell exclusion (T-cell signature higher in high-ECM samples)"
+    tags: [18_ECMMac, T-cell-exclusion, ICI-resistance, CPI1000, mechanism]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: seurat-rpca-best-pan-tam-integration
+    title: "Seurat RPCA ties Harmony and outperforms Scanorama on iLISI; Seurat CCA fails at 1.5 TB RAM"
+    tags: [Seurat, RPCA, Harmony, Scanorama, iLISI, integration, benchmark]
+    status: supported
+    confidence: 0.85
+    domain: computational-biology
+  - slug: seven-gold-standard-tam-bulk-signatures
+    title: "Seven TAM cluster signatures meet 'gold-standard' criteria for bulk-RNAseq deconvolution"
+    tags: [bulk-RNAseq, deconvolution, gold-standard, TAM-signature, UCell]
+    status: supported
+    confidence: 0.9
+    domain: computational-biology
+  - slug: oral-cancer-tam-projection-validates-atlas
+    title: "Projection of Luoma 2022 oral cancer TAMs validates the atlas reference-mapping; 18_ECMMac absent in oral cancer"
+    tags: [reference-mapping, projection, oral-cancer, validation, 18_ECMMac]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: ma-markers-vary-cluster-specificity
+    title: "Literature-proposed TAM markers (Ma 2022) vary in atlas-level specificity; APOE/APOC1/ARG1/HES1 are broadly distributed"
+    tags: [TAM-markers, MKI67, LYVE1, CXCL9, APOE, ARG1, specificity]
+    status: supported
+    confidence: 0.85
+    domain: immuno-oncology
+  - slug: lung-secondary-atlas-31k-mac-72k-tcell-mana
+    title: "Lung secondary atlas of 31,598 macrophages + 72,585 T cells from 7 studies enables MANA-score stratification"
+    tags: [lung-cancer, atlas, MANA-score, TAM, T-cell, methodological]
+    status: supported
+    confidence: 0.9
+    domain: immuno-oncology
+  - slug: pan-cancer-tam-atlas-public-zenodo-projection-ready
+    title: "Pan-cancer TAM atlas publicly distributed via Zenodo 11222158 as a projection-ready Seurat object"
+    tags: [data-availability, Zenodo, reproducibility, reference-mapping, atlas]
+    status: supported
+    confidence: 0.95
+    domain: immuno-oncology
+  - slug: trem2-tams-recapitulate-melanoma-ici-resistance
+    title: "TREM2+ clusters 3_ICIMac1 and 4_ICIMac2 partially recapitulate a melanoma ICI-resistance signature yet are themselves enriched in CPI1000+ responders"
+    tags: [TREM2, 3_ICIMac1, 4_ICIMac2, APOE, APOC1, ICI-paradox]
+    status: contested
+    confidence: 0.6
+    domain: immuno-oncology
 
 Summary:
 
@@ -1607,3 +1754,31 @@ foundations:
     title: "In vivo cytokine perturbation scRNA-seq (lymph-node injection)"
     status: mainstream
     domain: immunology / methods / single-cell
+  - slug: cpi1000-plus-ici-cohort
+    title: "CPI1000+ — expanded ICI-treated bulk RNAseq cohort (Litchfield lab, n=1,446)"
+    status: established
+    domain: clinical / immuno-oncology / cohort
+  - slug: ucell-signature-scoring
+    title: "UCell — gene-signature scoring for single-cell RNAseq"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: propeller-cell-composition-analysis
+    title: "Propeller — cell-type composition test for scRNAseq"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: fgsea-gene-set-enrichment
+    title: "fgsea — fast gene-set enrichment analysis"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: deseq2-differential-expression
+    title: "DESeq2 — negative-binomial differential expression for RNAseq counts"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: cosmx-spatial-transcriptomics
+    title: "CosMx Spatial Molecular Imager — NanoString in situ multiplex transcriptomics"
+    status: mainstream
+    domain: molecular-biology / spatial-transcriptomics / methods
+  - slug: singler-cell-type-annotation
+    title: "SingleR — reference-based automated cell-type annotation for scRNAseq"
+    status: mainstream
+    domain: computational-biology / methods

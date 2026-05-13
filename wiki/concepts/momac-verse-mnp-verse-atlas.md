@@ -24,6 +24,7 @@ maturity: active
 key_papers:
   - cross-tissue-single-cell-landscape-human
   - nf-kb-tet2-promote-macrophage-reprogramming
+  - using-pan-cancer-atlas-investigate-tumour
 first_introduced: "Mulder et al. 2021 *Immunity*"
 date_updated: 2026-05-06
 related_concepts:

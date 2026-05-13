@@ -27,4 +27,4 @@ Drives macrophage Mac-b state (Cxcl9/Cxcl10 high, M1-like) in the Immune Diction
 
 ## Relevance to active research
 
-Canonical biomarker and effector of ICB response; central to the cytokine network revealed by IREA in anti-PD-1-treated tumours (Cui & Hacohen 2024).
+Canonical biomarker and effector of ICB response; central to the cytokine network revealed by IREA in anti-PD-1-treated tumours (Cui & Hacohen 2024). The IFN-γ-driven CXCL9+ TAM state (cluster 8_IFNGMac) is one of the strongest ICI-responder-associated signatures in the [[papers/using-pan-cancer-atlas-investigate-tumour]] pan-cancer TAM atlas (fgsea q≈1.4e-11 in CPI1000+).

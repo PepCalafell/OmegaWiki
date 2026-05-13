@@ -24,6 +24,7 @@ key_papers:
   - cross-tissue-single-cell-landscape-human
   - nf-kb-tet2-promote-macrophage-reprogramming
   - tissue-resident-macrophages-provide-pro-tumorigenic
+  - using-pan-cancer-atlas-investigate-tumour
 first_introduced: "Multiple (Katzenelenbogen 2020 *Cell*; Sharma 2020 *Cell*; Molgora 2020 *Cell*); consolidated by Mulder et al. 2021 as MoMac-VERSE cluster #3; identified as monocyte-derived 'group II' MDM signature in NSCLC by Casanova-Acebes 2021"
 date_updated: 2026-05-06
 related_concepts:
