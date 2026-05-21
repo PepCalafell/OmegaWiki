@@ -267,3 +267,90 @@ git commit -m "ingest(reingest): Bhandari 2019 with Mejora 6 — claims with pro
 - Si ves que tu yo-anterior decidió no refactorizar y ahora te tienta refactorizar, vuelve a leer Sección 2 antes de proceder.
 - Mejora 6 es CRÍTICA y bloquea casi todo. No saltársela.
 - **Práctica recomendada nueva**: correr `/check` cada 3 ingests (`python3 tools/lint.py --wiki-dir wiki/`). Si aparecen 🟡 o 🔵 nuevos no triviales, debug ANTES de seguir procesando.
+
+## 9. Sesión de saneamiento 2026-05-21 — bugs de formato y linter
+
+Sesión dedicada tras detectar 24 falsos positivos `xref-asymmetry` durante el
+ingest del paper Cancer organoids. El diagnóstico destapó una cadena de bugs
+de formato y de linter. Todos resueltos o documentados aquí.
+
+### 9.1 Bug raíz — `source_papers` en 3 formatos incompatibles
+
+`/ingest` producía el campo `source_papers` de los claims en tres formatos
+distintos según el ingest:
+
+| Origen | Formato | Estado |
+|---|---|---|
+| Claims históricos (pre-13 mayo) | lista YAML multilínea, slug pelado | CANÓNICO |
+| Claims paper SVG (#2) | lista YAML multilínea, wikilink `[[papers/slug]]` | desviación |
+| Claims paper Cancer organoids (#4) | inline `[slug]` | desviación |
+
+Causa: `cross-references.md` L15 documentaba el formato como `[[paper-P]]`,
+contradiciendo el template canónico (`runtime-page-templates`: lista de slugs
+pelados). La doc de la skill dio permiso para improvisar.
+
+Fix aplicado (commit 5d0c3e1):
+- `cross-references.md` L15 (`source_papers`) y L16 (`key_papers`) reescritas:
+  lista YAML de slugs pelados, nunca wikilinks ni corchetes inline.
+- 31 claims normalizados al formato canónico (7 SVG + 24 organoids).
+- Verificado con el ingest del paper Luo (#8): los 20 claims nuevos salieron
+  ya en formato canónico. La fuente está cortada.
+
+### 9.2 Bug del linter — check `xref-asymmetry` de claims
+
+`tools/lint.py`, funcion `check_xref_asymmetry`. Dos defectos:
+
+1. Prefijo: el check buscaba el reverse-link como `[[{slug}]]` pelado, pero
+   `/ingest` escribe los reverse-links con prefijo `[[claims/{slug}]]`.
+   → 24 falsos positivos. Fix: L340 acepta `[[claims/{slug}]]` (commit f62f641).
+2. Regex: `source_papers:\s*\[(.*?)\]` solo parseaba listas inline; no
+   reconocia el formato canonico YAML multilinea. El check estaba INERTE para
+   el formato correcto. Fix: regex reemplazado para ambos formatos (5d0c3e1).
+
+Al activarse el check por primera vez sobre el formato canonico, quedaron
+expuestos 3 fallos reales preexistentes (ver 9.3).
+
+### 9.3 Deuda preexistente destapada — 3 claims multi-fuente
+
+3 claims con `source_papers` de 2 papers tenian el reverse-link solo en el
+paper primario, no en el secundario (corroborante). NO era `source_papers` mal
+asignado — multi-paper es legitimo (schema lo define como lista; 12 claims del
+wiki lo usan, 9 ya correctos).
+
+Fix aplicado (commit 0ad4869): anadido `[[claims/{slug}]]` en `## Related` de
+los 3 papers secundarios:
+- cross-tissue-single-cell-landscape-human -> mmac1-signature-enriched-momac-verse-il4i1-il1b-isg
+- nf-kb-tet2-promote-macrophage-reprogramming -> trem2-macrophages-associate-poor-cancer-prognosis
+- tissue-resident-macrophages-provide-pro-tumorigenic -> trem2-tam-pancancer-accumulation-momac-verse
+
+### 9.4 Otros bugs menores observados
+
+- Enums fuera de esquema (Mejora 7 — intermitente): `/ingest` ocasionalmente
+  emite status/maturity fuera de los valores validos. Opus suele autocorregirse
+  tras varios fixes en una misma sesion. No resuelto de raiz.
+- Wikilink huerfano: en el paper SVG, `/ingest` escribio `[[claims/X]]` en una
+  foundation sin crear `claims/X.md`. Corregido a mano (commit 66ddf3b).
+- Loop de preprocessing: con el PDF de Cancer organoids (8.3 MB),
+  `prepare_paper_source.py` se reejecuto ~10 veces antes de arrancar. Se
+  resolvio solo. PDFs grandes pueden disparar reintentos espurios.
+
+### 9.5 DEUDA PENDIENTE — no resuelta en esta sesión
+
+- Checks `xref-asymmetry` 313/325/355 (concepts/people/ideas): tienen el mismo
+  bug de prefijo que el de claims, Y el regex sin soporte multilinea. Solo se
+  parcheo el check de claims (L340/L332). Tarea dedicada pendiente: normalizar
+  los 4 checks de forma consistente.
+- Campo `evidence` de los claims: no auditado. Verificar que `/ingest` lo
+  produce consistente.
+- `cross-references.md` L11: describe el edge concept-paper de forma vaga.
+  Conviene alinear con L15/L16 en una pasada futura.
+
+### 9.6 Lección
+
+`/ingest` (LLM-driven) produce variaciones de formato que solo se detectan
+cuando un linter las compara. Pero el linter mismo puede estar desalineado con
+el formato real — un check que no salta NO significa que todo este bien; puede
+estar inerte. Verificar siempre que el linter realmente evalua lo que dice.
+La causa raiz casi siempre esta en la documentacion de la skill, no en el
+modelo: alinear `cross-references.md` con los templates canonicos corta la
+fuente.
