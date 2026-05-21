@@ -10,7 +10,7 @@ tags:
   - benchmarking
 domain: spatial-epigenomics-methods
 source_papers:
-  - "[[papers/systematic-benchmarking-computational-methods-identify-spatially]]"
+  - systematic-benchmarking-computational-methods-identify-spatially
 evidence:
   - source: "[[papers/systematic-benchmarking-computational-methods-identify-spatially]]"
     type: supports

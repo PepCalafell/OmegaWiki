@@ -12,8 +12,8 @@ Mirrors the matrix in the root `CLAUDE.md` ("Cross-Reference Rules"), trimmed to
 | `papers/P` writes `[[person-R]]` (in Key authors) | `people/R` appends `P` to `Key papers` |
 | `papers/P` writes `supports: [[claim-C]]` | `claims/C` appends `{source: P, type: supports}` to `evidence` |
 | `papers/P` writes `supports: [[claim-C]]` but paper contradicts claim | use `type: contradicts` in the evidence entry |
-| `claims/C` writes `source_papers: [[paper-P]]` | `papers/P` appends `C` to `## Related` |
-| `concepts/K` writes `key_papers: [[paper-P]]` | `papers/P` appends `K` to `## Related` |
+| `claims/C` writes `source_papers` as a YAML list of bare paper slugs (`source_papers:` then `  - paper-P` on its own line — never `[[wikilinks]]`, never inline `[brackets]`) | `papers/P` lists `[[claims/C]]` in its `## All claims (exhaustive)` section |
+| `concepts/K` writes `key_papers` as a YAML list of bare paper slugs (`key_papers:` then `  - paper-P` on its own line — never `[[wikilinks]]`, never inline `[brackets]`) | `papers/P` appends `[[concepts/K]]` to its `## Related` section |
 | any page writes `[[foundation-X]]` | **no reverse link** — foundations are terminal |
 
 Writing a forward link without its reverse is the most common way `/check` surfaces `missing-field` errors. Doing both together eliminates the class entirely.

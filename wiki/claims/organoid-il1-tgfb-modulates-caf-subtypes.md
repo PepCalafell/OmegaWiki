@@ -5,7 +5,8 @@ status: supported
 confidence: 0.8
 tags: [mechanistic, oncology, organoid, immunotherapy]
 domain: "oncology / immuno-oncology"
-source_papers: [cancer-organoids-modelling-complexity-tumour-immune]
+source_papers:
+  - cancer-organoids-modelling-complexity-tumour-immune
 evidence:
   - source: cancer-organoids-modelling-complexity-tumour-immune
     type: supports

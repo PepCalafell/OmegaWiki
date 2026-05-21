@@ -329,18 +329,24 @@ def check_xref_asymmetry(wiki_dir: Path, pages: dict[str, Path]) -> list[LintIss
 
         # claims source_papers ↔ papers Related
         if page_type == "claims":
+            refs = []
             for match in re.finditer(r"source_papers:\s*\[(.*?)\]", content):
-                for ref in re.findall(r"(\S+)", match.group(1)):
-                    ref = ref.strip(",").strip()
-                    if not ref:
-                        continue
-                    ref_path = wiki_dir / "papers" / f"{ref}.md"
-                    if ref_path.exists():
-                        ref_content = ref_path.read_text(encoding="utf-8")
-                        if f"[[claims/{slug}]]" not in ref_content and f"[[claims/{slug}|" not in ref_content:
-                            issues.append(LintIssue("🟡", "xref-asymmetry", rel,
-                                                    f"source_papers has {ref} but papers/{ref}.md doesn't link back to [[{slug}]]",
-                                                    fixable=True))
+                refs.extend(re.findall(r"[^\s,\[\]]+", match.group(1)))
+            ml = re.search(r"^source_papers:\s*$\n((?:\s*-\s*.+\n?)*)", content, re.MULTILINE)
+            if ml:
+                refs.extend(re.findall(r"-\s*(.+)", ml.group(1)))
+            for ref in refs:
+                ref = ref.strip().strip('"').strip("'").strip()
+                ref = ref.replace("[[", "").replace("]]", "").replace("papers/", "")
+                if not ref:
+                    continue
+                ref_path = wiki_dir / "papers" / f"{ref}.md"
+                if ref_path.exists():
+                    ref_content = ref_path.read_text(encoding="utf-8")
+                    if f"[[claims/{slug}]]" not in ref_content and f"[[claims/{slug}|" not in ref_content:
+                        issues.append(LintIssue("🟡", "xref-asymmetry", rel,
+                                                f"source_papers has {ref} but papers/{ref}.md doesn't link back to [[{slug}]]",
+                                                fixable=True))
 
         # ideas origin_gaps ↔ claims Linked ideas
         if page_type == "ideas":
