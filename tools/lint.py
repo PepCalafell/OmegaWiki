@@ -337,7 +337,7 @@ def check_xref_asymmetry(wiki_dir: Path, pages: dict[str, Path]) -> list[LintIss
                     ref_path = wiki_dir / "papers" / f"{ref}.md"
                     if ref_path.exists():
                         ref_content = ref_path.read_text(encoding="utf-8")
-                        if f"[[{slug}]]" not in ref_content and f"[[{slug}|" not in ref_content:
+                        if f"[[claims/{slug}]]" not in ref_content and f"[[claims/{slug}|" not in ref_content:
                             issues.append(LintIssue("🟡", "xref-asymmetry", rel,
                                                     f"source_papers has {ref} but papers/{ref}.md doesn't link back to [[{slug}]]",
                                                     fixable=True))

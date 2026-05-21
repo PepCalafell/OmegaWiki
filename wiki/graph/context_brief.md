@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (224 total)
+## Claims (248 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (13 total)
+## Papers (14 total)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
@@ -38,17 +38,19 @@ _Auto-generated open questions. Do not edit._
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
+- [4] Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment (oncology)
 - [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
 - [4] PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer (immuno-oncology / tumor immunology / single-cell genomics)
 - [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
 - [5] Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease (immunology / single-cell / oncology)
 - [3] Systematic benchmarking of computational methods to identify spatially variable genes (methods)
-## Recent Relationships (522 total)
-  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-cancer-cells-overexpress-ido1-tdo2-make-kyn
-  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-glioblastoma-tam-klf4-cd39-suppresses-cd8
-  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-tiparp-suppresses-type-i-ifn-virus-hijack
-  papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic --supports--> claims/ahr-antagonism-suppresses-zikv-sars-cov-2-replication
-  papers/systematic-benchmarking-computational-methods-identify-spatially --uses_concept--> concepts/spatially-variable-gene-detection
-  papers/systematic-benchmarking-computational-methods-identify-spatially --introduces_concept--> concepts/svg-pvalue-calibration
-  papers/systematic-benchmarking-computational-methods-identify-spatially --uses_concept--> concepts/spatial-domain-detection-from-svg
-  papers/systematic-benchmarking-computational-met
+## Recent Relationships (560 total)
+  papers/cancer-organoids-modelling-complexity-tumour-immune --derived_from--> foundations/cancer-associated-fibroblast
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/conventional-organoids-lack-immune-stromal-components
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/ali-organoids-preserve-native-immune-architecture
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/ali-pdo-tcell-decline-rescued-by-il2
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/pdots-recapitulate-icb-responses
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/pdots-identifies-cdk46-tbk1-icb-enhancers
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/ali-pdo-icb-activates-tils-one-third-cohort
+  papers/cancer-organoids-modelling-complexity-tumour-immune --supports--> claims/ali-rcc-nivolumab-response-cd8-not-pdl1
+  pape

@@ -12,6 +12,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-evasion]] contexts?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Where does IL4I1 fit relative to IDO1/TDO2 in AHR-ligand generation in human tumours (cf. [[papers/cross-tissue-single-cell-landscape-human]] IL4I1⁺PD-L1⁺IDO1⁺ MoMac-VERSE cluster)?
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] Can FNA-derived ALI or microfluidic organoids generate sufficient biomass to recapitulate tumour architecture and immune populations from minimally invasive biopsies?
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] Can perturb-seq / CROP-seq be extended to non-reconstituted native immune organoids despite multicellularity?
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] Which combination immunotherapies will reliably convert "cold" tumours to "hot" in immune organoid platforms?
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] How can larger prospective trials definitively correlate native immune organoid readouts with patient outcomes?
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] How do hypoxia and metabolic gradients within native immune organoid systems compare to in vivo tumour hypoxia? (relevance to the user's hypoxia project — none of the platforms reviewed explicitly model oxygen gradients).
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] Could native immune organoid platforms be combined with hypoxia tracers (FMISO, EF5) to identify hypoxic niches modulating T cell exhaustion ex vivo?
+- [paper/cancer-organoids-modelling-complexity-tumour-immune] Is the CXCL13+ exhausted T cell → TLS axis identified by MIBI reproducible in ALI PDOs from immune-infiltrated tumours?
 - [paper/cross-tissue-single-cell-landscape-human] What are the precise ligand-receptor pathways by which IL4I1_Macs dampen antitumour T-cell responses, and how do they vary across tumour types? "The precise pathways involved are still unclear and deserve further investigation to fully decipher the T cell/TAM relationship" (p.1897, citing Gordon et al. 2017).
 - [paper/cross-tissue-single-cell-landscape-human] Are the monocyte-derived TAMs (TREM2, IL4I1, proliferating, C1Qhi) the appropriate therapeutic targets, given that they are monocyte-derived and therefore replenishable? Targeting recruitment vs differentiation are distinct strategies.
 - [paper/cross-tissue-single-cell-landscape-human] Is the M1/M2 Mills et al. 2000 paradigm refinable into a state + ontogeny taxonomy that captures the full diversity revealed by MoMac-VERSE?
@@ -152,10 +159,16 @@ _Auto-generated open questions. Do not edit._
 - [concept/ahr-tolerogenic-dendritic-cell] AHR-DC effects on antigen presentation across DC subsets (cDC1, cDC2, pDC, Langerhans)
 - [concept/ahr-treg-th17-balance] A clinically actionable biomarker for AHR-driven Treg vs Th17 bias
 - [concept/ahr-treg-th17-balance] Targeted SAHRMs that engage only Treg- or Tr1-favouring AHR conformations
+- [concept/air-liquid-interface-tumour-organoid] FNA-compatible ALI culture from minimal biopsy material.
+- [concept/air-liquid-interface-tumour-organoid] Cell-type-specific in situ perturbation (CRISPR delivery).
+- [concept/air-liquid-interface-tumour-organoid] Standardized prospective clinical correlation.
 - [concept/ancestry-specific-tumor-hypoxia] Whether genetic ancestry (HLA, germline DDR variants) drives the hypoxia signal, or whether it is environmental/socioeconomic
 - [concept/ancestry-specific-tumor-hypoxia] Validation in non-TCGA cohorts with prospective hypoxia measurement
 - [concept/ancestry-specific-tumor-hypoxia] Does ancestry-specific hypoxia mediate the higher evofosfamide response in Asian-descent MAESTRO subjects (post-hoc finding)
 - [concept/ancestry-specific-tumor-hypoxia] Replication in pediatric cancers and rare tumor types
+- [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
+- [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
+- [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
 - [concept/chromothripsis-hypoxia-prostate] Whether anti-hypoxia therapy reduces chromothripsis incidence in vivo
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
@@ -230,6 +243,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/il4i1-tumor-associated-macrophage] Compensatory induction of IL4I1 after PD-1/PD-L1 blockade
 - [concept/il4i1-tumor-associated-macrophage] Tumour-type-specific dependencies on IL4I1 vs IDO1 vs both
 - [concept/il4i1-tumor-associated-macrophage] Whether the ISG_Mo → IL4I1_Mac trajectory is reversible or terminally differentiated
+- [concept/immune-checkpoint-blockade] Robust per-patient predictors of ICB response.
+- [concept/immune-checkpoint-blockade] Strategies to convert cold tumours to hot.
+- [concept/immune-checkpoint-blockade] Mechanistic drivers of acquired resistance.
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
@@ -290,6 +306,11 @@ _Auto-generated open questions. Do not edit._
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
 - [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
+- [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
+- [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
+- [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
+- [concept/patient-derived-tumour-organoid] Standardizing organoid-based ICB prediction across tumour types.
+- [concept/patient-derived-tumour-organoid] Reproducible incorporation of vasculature and physiologically relevant oxygen gradients.
 - [concept/pattern-recognition-receptors-macrophage] Why some PRR-deficient patients develop autoinflammation (e.g. NLRP3 gain-of-function = CAPS) while others develop susceptibility to specific infections.
 - [concept/pattern-recognition-receptors-macrophage] The role of macrophage PRRs in *sterile* injury (DAMP-driven inflammation, atherosclerosis, neurodegeneration).
 - [concept/pattern-recognition-receptors-macrophage] Whether PRR inhibitors can be developed without unacceptable infection susceptibility.
@@ -322,6 +343,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Does intermittent hypoxia (OSA setting) drive a distinct chemokine signature with implications for sleep-apnea cancer comorbidity?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Which MoMac-VERSE / Casanova-Acebes TAM cluster is the canonical "hypoxic-niche-recruited" subset, and is recruitment cluster-specific or receptor-promiscuous?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Therapeutic value of NRP1 antagonism: blocks the Sema3A-mediated stop-signal but may also affect VEGF signaling; selectivity strategies needed.
+- [concept/tertiary-lymphoid-structure] Causal role of CXCL13+ exhausted T cells in TLS induction (MIBI evidence in melanoma).
+- [concept/tertiary-lymphoid-structure] TLS-targeted therapeutics.
 - [concept/tissue-resident-macrophage-tumor-niche] Identification of the secreted factor(s) (VEGFA? PLAU? TGFβ1?) that mediate the EMT-niche signal
 - [concept/tissue-resident-macrophage-tumor-niche] Mechanism of temporal restriction: why does TRM dependence end at day 12-15?
 - [concept/tissue-resident-macrophage-tumor-niche] Generalisability across tumour types — is there a Kupffer-cell-driven HCC niche, microglia-driven glioma niche, etc.?
@@ -365,9 +388,22 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-vasculature-normalization-hypoxia] Biomarker for the normalization window in real time.
 - [concept/tumor-vasculature-normalization-hypoxia] Whether DLL1-based long-term normalization avoids the rebound problem of anti-VEGF.
 - [concept/tumor-vasculature-normalization-hypoxia] Combination ordering: normalize first then ICB, or simultaneous?
+- [concept/tumour-explant-short-term-culture] Standardized fragment selection and pooling protocols.
+- [concept/tumour-explant-short-term-culture] Linking pooled biomarker readouts to clinical outcomes prospectively.
+- [concept/tumour-immune-microenvironment] Causal mechanisms switching cold to hot TMEs.
+- [concept/tumour-immune-microenvironment] Role of hypoxic niches in shaping immune exclusion (see [[hypoxia-immune-evasion-clonal-selection]]).
+- [concept/tumour-immune-microenvironment] Spatial-transcriptomic mapping of TLS formation across tumour types.
+- [concept/tumour-infiltrating-lymphocyte] Identifying clonotypes most predictive of clinical benefit.
+- [concept/tumour-infiltrating-lymphocyte] Spatial determinants of TIL function (TLS proximity, hypoxic niches).
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
+- [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
+- [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
+- [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
+- [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
+- [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)

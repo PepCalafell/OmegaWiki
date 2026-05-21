@@ -73,6 +73,12 @@ papers:
     importance: 3
     domain: methods
     priority: reference
+  - slug: cancer-organoids-modelling-complexity-tumour-immune
+    title: "Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment"
+    tags: [cancer-organoids, tumour-microenvironment, immunotherapy, ALI-organoids, PDOTS, ICB, precision-medicine]
+    importance: 4
+    domain: oncology
+    priority: reference
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -411,6 +417,42 @@ concepts:
     title: "SVP detection on spatial ATAC-seq — methodological gap"
     tags: [spatial-atac-seq, spatial-epigenomics, methods-gap]
     maturity: emerging
+  - slug: patient-derived-tumour-organoid
+    title: "Patient-derived tumour organoid (PDO)"
+    tags: [oncology, organoids, in-vitro-models]
+    maturity: stable
+  - slug: tumour-immune-microenvironment
+    title: "Tumour immune microenvironment (immune TME)"
+    tags: [oncology, immunology, tumour-microenvironment]
+    maturity: stable
+  - slug: immune-checkpoint-blockade
+    title: "Immune-checkpoint blockade (ICB)"
+    tags: [immunotherapy, oncology, checkpoint]
+    maturity: stable
+  - slug: air-liquid-interface-tumour-organoid
+    title: "Air-liquid interface (ALI) tumour organoid"
+    tags: [organoids, oncology, immune-microenvironment, in-vitro-models]
+    maturity: active
+  - slug: patient-derived-organotypic-tumour-spheroid
+    title: "Patient-derived organotypic tumour spheroid (PDOTS / MDOTS)"
+    tags: [organoids, microfluidics, oncology, immune-microenvironment]
+    maturity: active
+  - slug: tumour-infiltrating-lymphocyte
+    title: "Tumour-infiltrating lymphocyte (TIL)"
+    tags: [immunology, oncology, T-cells, adoptive-therapy]
+    maturity: stable
+  - slug: car-t-cell-therapy
+    title: "CAR T cell therapy"
+    tags: [immunotherapy, oncology, adoptive-cell-therapy, T-cells]
+    maturity: stable
+  - slug: tertiary-lymphoid-structure
+    title: "Tertiary lymphoid structure (TLS)"
+    tags: [immunology, oncology, lymphoid-structures]
+    maturity: active
+  - slug: tumour-explant-short-term-culture
+    title: "Tumour explant and organotypic slice culture"
+    tags: [oncology, ex-vivo-models, immunotherapy]
+    maturity: active
 
 topics:
 
@@ -547,6 +589,15 @@ people:
   - slug: zhijian-li
     tags: [computational-biology, spatial-transcriptomics, benchmarking]
     affiliation: "Gene Regulatory Observatory, Broad Institute / MGH"
+  - slug: calvin-j-kuo
+    tags: [organoids, oncology, ALI-organoids, tumour-immune-microenvironment]
+    affiliation: "Stanford University School of Medicine"
+  - slug: roel-polak
+    tags: [organoids, oncology, paediatric-oncology, tumour-immune-microenvironment]
+    affiliation: "Stanford University / Princess Máxima Center"
+  - slug: elisa-t-zhang
+    tags: [organoids, oncology, tumour-immune-microenvironment]
+    affiliation: "Stanford University School of Medicine"
 
 ideas:
 
@@ -1747,6 +1798,150 @@ claims:
     status: supported
     confidence: 0.75
     domain: spatial-transcriptomics-methods
+  - slug: conventional-organoids-lack-immune-stromal-components
+    title: "Conventional 2D cell lines and standard 3D organoids represent only tumour epithelium without immune or stromal cells"
+    tags: [methodological, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.95
+    domain: oncology / immuno-oncology
+  - slug: ali-organoids-preserve-native-immune-architecture
+    title: "Air-liquid interface (ALI) tumour organoids preserve native tumour-stroma-immune architecture"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.9
+    domain: oncology / immuno-oncology
+  - slug: ali-pdo-tcell-decline-rescued-by-il2
+    title: "The T cell compartment of ALI PDOs declines over time but is partially preserved for >70 days by IL-2"
+    tags: [quantitative, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immuno-oncology
+  - slug: pdots-recapitulate-icb-responses
+    title: "PDOTS and MDOTS retain autologous lymphocytes and myeloid cells and recapitulate in vivo ICB responses"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immuno-oncology
+  - slug: pdots-identifies-cdk46-tbk1-icb-enhancers
+    title: "PDOTS-based screens identify CDK4, CDK6 and TBK1 inhibitors as enhancers of the ICB response"
+    tags: [pharmacological, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: ali-pdo-icb-activates-tils-one-third-cohort
+    title: "About one-third of ALI PDOs show patient-specific T cell activation upon anti-PD1/PDL1 ICB"
+    tags: [quantitative, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: ali-rcc-nivolumab-response-cd8-not-pdl1
+    title: "Nivolumab response in clear-cell RCC ALI PDOs depends on CD8+ T cell infiltration rather than PDL1"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.75
+    domain: oncology / immuno-oncology
+  - slug: crc-pdo-pbmc-cannot-predict-icb-response
+    title: "CRC PDO + autologous PB T cell co-culture did not predict combination-ICB clinical response"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / immuno-oncology
+  - slug: mos-icb-response-correlates-with-clinical
+    title: "MOS reaggregation preserving immune cells correlates with anti-PD1/bispecific clinical responses"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology / immuno-oncology
+  - slug: tumour-explant-cytokine-marker-predicts-icb
+    title: "Pooled multi-fragment tumour explant biomarker readouts predict ICB response across solid tumours"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.75
+    domain: oncology / immuno-oncology
+  - slug: anti-trem2-ali-bcc-induces-epithelial-death
+    title: "Anti-TREM2 in BCC ALI organoids induces epithelial cell death by targeting TREM2+ macrophages"
+    tags: [pharmacological, oncology, organoid, immunotherapy]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology / immuno-oncology
+  - slug: type-i-ifn-sensitises-cancer-organoid-cart
+    title: "Type I interferon signalling sensitizes breast cancer organoids to γδ CAR-T cell killing"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.75
+    domain: oncology / immuno-oncology
+  - slug: codex-cellular-neighbourhoods-stratify-crc-risk
+    title: "CODEX-defined cellular neighbourhoods stratify CRC progression risk and predict immunotherapy response"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: mibi-defines-novel-breast-cancer-subgroups
+    title: "MIBI 35-marker quantification defines novel breast cancer patient subgroups with clinical outcomes"
+    tags: [methodological, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: mibi-cxcl13-exhausted-t-cells-tls-formation
+    title: "MIBI suggests CXCL13+ exhausted T cells drive TLS formation in immune-infiltrated melanoma"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology / immuno-oncology
+  - slug: conventional-crc-pdo-predicts-irinotecan-not-folfox
+    title: "Conventional CRC PDOs predict irinotecan response but not 5-FU+oxaliplatin"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: conventional-crc-pdo-trial-no-clinical-benefit
+    title: "Prospective CRC PDO trial of mTOR/PI3K/EGFR/MEK/VEGFR inhibitors yielded no objective clinical responses"
+    tags: [correlational, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: bladder-assembloid-bmp-foxa1-axis
+    title: "In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / immuno-oncology
+  - slug: caf-wnt-promotes-pdac-emt-crc
+    title: "CAF-secreted WNT promotes PDAC organoid growth and EMT in CRC organoids"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: organoid-il1-tgfb-modulates-caf-subtypes
+    title: "Tumour organoids secrete IL-1 and TGFβ that modulate distinct CAF subtypes"
+    tags: [mechanistic, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: oncology / immuno-oncology
+  - slug: native-immune-organoid-low-throughput-engineering
+    title: "Native immune organoid approaches (ALI, PDOTS) are inherently low-throughput and difficult to engineer"
+    tags: [methodological, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immuno-oncology
+  - slug: tumour-explant-short-lifespan-vs-organoid
+    title: "Tumour explants preserve TME for hours-days; native immune organoids weeks-months"
+    tags: [quantitative, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.9
+    domain: oncology / immuno-oncology
+  - slug: il10-blockade-potentiates-cart-crc-explant
+    title: "IL-10 blockade potentiates CAR-T killing in CRC liver metastasis explants"
+    tags: [pharmacological, oncology, organoid, immunotherapy]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / immuno-oncology
+  - slug: tils-trex-clonotypes-recapitulated-in-ali-pdo
+    title: "ALI native immune organoids preserve TCR clonotype diversity of cognate biopsies"
+    tags: [methodological, oncology, organoid, immunotherapy]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immuno-oncology
 
 Summary:
 
@@ -2205,3 +2400,23 @@ foundations:
     title: "Open Problems in Single-Cell Analysis — community benchmarking platform"
     status: mainstream
     domain: benchmarking-infrastructure
+  - slug: micro-organosphere-mos
+    title: "Micro-organosphere (MOS) — droplet-emulsion microfluidic tumour organoid platform"
+    status: mainstream
+    domain: methods / organoids
+  - slug: codex-multiplexed-imaging
+    title: "CODEX — co-detection by indexing (multiplexed imaging)"
+    status: mainstream
+    domain: methods / imaging
+  - slug: mibi-imaging-mass-cytometry
+    title: "MIBI / imaging mass cytometry — multiplexed ion beam imaging"
+    status: mainstream
+    domain: methods / imaging
+  - slug: behav3d-imaging
+    title: "BEHAV3D — live confocal 3D imaging + transcriptomic phenotyping of immune cell behaviour"
+    status: mainstream
+    domain: methods / imaging
+  - slug: cancer-associated-fibroblast
+    title: "Cancer-associated fibroblast (CAF) — tumour-microenvironment stromal cell"
+    status: mainstream
+    domain: cell biology / oncology
