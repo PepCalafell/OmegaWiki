@@ -347,6 +347,7 @@ This paper is one of the two foundational works of the HypoxiaVERSE thesis (co-f
 Caveats worth keeping in mind: TET2 recruitment is inferred not shown; M-CSF/PB-monocyte system may not generalize to tissue-resident MACs; static 1% O₂ may not capture cyclic hypoxia dynamics.
 
 ## Related
+- [[claims/trem2-macrophages-associate-poor-cancer-prognosis]] — corroborating source paper for this claim
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — MoMac-VERSE atlas providing IL4I1/TREM2/FOLR2/IL1B Mo/ISG Mo cluster definitions used here as in vivo correlates
 - [[papers/pd-l1-expressing-tumor-associated-macrophages]] — Wang 2024 Cell Reports Medicine; parallel paradigm reversal for PD-L1+ TAM immunostimulatory phenotype in human breast cancer (complementary to this paper's hypoxic MAC reversal)
