@@ -272,3 +272,4 @@ This is the canonical 2025 statement of the hypoxia-genomic-instability-evolutio
 - [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — complementary view of hypoxia-driven tumour-immune crosstalk.
 - [[papers/pd-l1-expressing-tumor-associated-macrophages]] — TAM checkpoint axis underlying the hypoxic immune-evasion observations.
 - [[concepts/hypoxia-genomic-instability-pga]], [[concepts/hypoxia-inhibits-dna-repair-pathways-hr]], [[concepts/hypoxia-induced-mutator-phenotype]], [[concepts/hypoxia-centrosome-amplification-mitotic-cin]], [[concepts/hypoxia-immune-evasion-clonal-selection]], [[concepts/hypoxia-emt-lineage-plasticity-metastasis]], [[concepts/hypoxia-co-driver-tumour-evolution-cancer]], [[concepts/pseudohypoxia-oncogene-induced-hif-activation]] — primary concept anchors.
+- [[papers/hypoxia-signaling-human-health-diseases-implications]] — Luo et al. 2022 STTT comprehensive review of HIF cross-talk and disease landscape (added 2026-05-21).

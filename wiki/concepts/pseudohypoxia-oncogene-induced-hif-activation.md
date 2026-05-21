@@ -21,6 +21,7 @@ tags:
 maturity: stable
 key_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
+  - hypoxia-signaling-human-health-diseases-implications
 first_introduced: "2005"
 date_updated: 2026-05-13
 related_concepts:

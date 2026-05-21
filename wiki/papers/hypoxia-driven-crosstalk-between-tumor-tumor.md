@@ -471,3 +471,4 @@ The review's biggest gap from my perspective is that it does not use single-cell
 - [[claims/camptothecin-analogs-hif1a-topoisomerase-i]]
 
 - [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.
+- [[papers/hypoxia-signaling-human-health-diseases-implications]] — Luo et al. 2022 STTT comprehensive review of HIF cross-talk and disease landscape (added 2026-05-21).

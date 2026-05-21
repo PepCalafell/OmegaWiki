@@ -25,6 +25,7 @@ tags:
 maturity: emerging
 key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - hypoxia-signaling-human-health-diseases-implications
 first_introduced: "Chakraborty 2019 Science (KDM6A directly senses oxygen to control chromatin and cell fate); Gallipoli & Huntly 2019 Science perspective; Batie 2019 Science (KDM5A); reviewed Bai 2022"
 date_updated: 2026-05-08
 related_concepts:

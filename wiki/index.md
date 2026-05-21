@@ -13,6 +13,12 @@ papers:
     importance: 4
     domain: oncology / immunology / hypoxia
     priority: core
+  - slug: hypoxia-signaling-human-health-diseases-implications
+    title: "Hypoxia signaling in human health and diseases: implications and prospects for therapeutics"
+    tags: [hypoxia, HIF1A, HIF2A, HIF3A, oxygen-sensing, cancer, viral-infection, SARS-CoV-2, diabetes, NAFLD, osteoporosis, autophagy, pyroptosis, ferroptosis, immunometabolism, therapeutics, review]
+    importance: 4
+    domain: molecular-biology / hypoxia-signaling / translational-medicine
+    priority: core
   - slug: molecular-landmarks-tumor-hypoxia-across-cancer
     title: "Molecular landmarks of tumor hypoxia across cancer types"
     tags: [hypoxia, cancer, genomics, pancancer, prostate-cancer, TCGA, genomic-instability, microRNA, TP53, PTEN, HIF1a, subclonal-evolution, chromothripsis, telomere]

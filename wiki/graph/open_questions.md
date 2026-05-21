@@ -50,6 +50,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Are MHC-II^lo TAMs equivalent to a specific MoMac-VERSE cluster (e.g. cluster #4 hypoxic-inflammatory IL1B^+ Mac, or TREM2^+ LAM)?
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Is the synergy between hypoxia and lactate in driving TAM M2 explained by Hedgehog as a downstream effector, or is Hedgehog-pathway involvement a lactate-only signal?
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] Does intermittent / cyclic hypoxia (vs chronic hypoxia) drive *quantitatively different* exosome cargos / mediator outputs, given the H-R cycles induce ROS bursts that re-stabilize HIF-1α/NF-κB?
+- [paper/hypoxia-signaling-human-health-diseases-implications] Quantitative dominance of each cross-talk arm (PI3K-mTOR, NF-κB, ERK, UPR) in each disease context.
+- [paper/hypoxia-signaling-human-health-diseases-implications] Selective HIF-1α vs HIF-2α inhibitor strategies and therapeutic window.
+- [paper/hypoxia-signaling-human-health-diseases-implications] HIF biology of HIF-3α isoforms beyond dominant-negative function.
+- [paper/hypoxia-signaling-human-health-diseases-implications] Whether HIF stabilization is a biomarker / therapeutic target in severe COVID-19.
+- [paper/hypoxia-signaling-human-health-diseases-implications] Therapeutic synergy of HIF inhibitors with immune checkpoint blockade.
+- [paper/hypoxia-signaling-human-health-diseases-implications] Cross-validation: how does Luo et al. 2022's HIF-PCD synthesis map onto recent single-cell hypoxia heterogeneity data (e.g., Bhandari et al. on intratumoral hypoxia)?
+- [paper/hypoxia-signaling-human-health-diseases-implications] HIF subtype balance in regulatory immune cells (Bregs, TAMs) within hypoxic tumor microenvironment.
+- [paper/hypoxia-signaling-human-health-diseases-implications] Whether HIF cross-talk model predicts response to PHD inhibitors (roxadustat) across non-renal indications.
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] Are there HIF-independent key genes mediating hypoxic adaptation in cancer?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How do TME microbiota and hypoxia interact mechanistically?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] What is the optimal sequencing / combination of HIF inhibition, oxygenation, ICB, and chemoradiation?
@@ -194,6 +202,13 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Dose-response and chronic toxicity: long-term Belzutifan safety in young VHL patients (lifelong therapy).
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Whether the same mechanism can be extended to HIF-3α (where OEA is an endogenous agonist) for inverse-direction indications.
+- [concept/hif-bidirectional-regulation-programmed-cell-death] Threshold mapping: which severity/duration tips from survival to death
+- [concept/hif-bidirectional-regulation-programmed-cell-death] HIF-2α and HIF-3α roles in pyroptosis and necroptosis
+- [concept/hif-cross-talk-pi3k-mtor-nfkb-erk-er-stress] Quantitative attribution of HIF-α level to each input arm
+- [concept/hif-cross-talk-pi3k-mtor-nfkb-erk-er-stress] Whether HIF-3α is similarly regulated by cross-talk
+- [concept/hif-dependent-glycolysis-immune-cell-differentiation] Whether HIF-2α has reciprocal roles in immune subsets
+- [concept/hif-dependent-glycolysis-immune-cell-differentiation] Tissue-resident memory T-cell HIF biology under chronic hypoxia
+- [concept/hif-dependent-glycolysis-immune-cell-differentiation] How chronic tumor hypoxia transitions HIF-1α from CD8+ effector-supporting to exhaustion-driving
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
@@ -395,6 +410,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumour-immune-microenvironment] Spatial-transcriptomic mapping of TLS formation across tumour types.
 - [concept/tumour-infiltrating-lymphocyte] Identifying clonotypes most predictive of clinical benefit.
 - [concept/tumour-infiltrating-lymphocyte] Spatial determinants of TIL function (TLS proximity, hypoxic niches).
+- [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF inhibitors synergize with antivirals to clear HBV cccDNA
+- [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF stabilization is a biomarker of severe COVID-19
+- [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Mechanism of ORF3a-mitochondrial ROS coupling
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
