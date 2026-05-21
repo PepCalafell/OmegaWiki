@@ -97,6 +97,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/physiology-diseases-tissue-resident-macrophages] Which TRM diseases are amenable to BMT/HSC-replacement and which are not? Review notes BMT helps "some but not all" LSD patients; the predictive logic is unclear.
 - [paper/physiology-diseases-tissue-resident-macrophages] For tumour immunology specifically: do early-stage Kupffer-cell-mediated tumour limitation and late-stage TAM-mediated tumour promotion involve the *same* lineage of cells switching state, or are they distinct populations?
 - [paper/physiology-diseases-tissue-resident-macrophages] How does the model interface with the Casanova-Acebes 2021 finding that lung TRMs *promote* (not limit) early tumours? The Lazarov review predates that paper's TRM-pro-tumour story being fully appreciated; future syntheses need to reconcile organ-specific opposite directions.
+- [paper/systematic-benchmarking-computational-methods-identify-spatially] How should SVP-specific algorithms model the binary, sparse, high-dimensional structure of spatial ATAC-seq?
+- [paper/systematic-benchmarking-computational-methods-identify-spatially] Can SVG and SVP integration enable spatial gene-regulatory network reconstruction?
+- [paper/systematic-benchmarking-computational-methods-identify-spatially] Do these results extend to spatial proteomics and spatial methylation?
+- [paper/systematic-benchmarking-computational-methods-identify-spatially] Does SPARK-X's dominance hold on emerging high-resolution platforms (Visium HD, Slide-Tags) not represented in the 50 reference datasets?
+- [paper/systematic-benchmarking-computational-methods-identify-spatially] Could ensemble methods (e.g., SPARK-X + Moran's I + SpatialDE2 union) outperform any single method in practice given complementary pattern-specific behaviour ([c08])?
+- [paper/systematic-benchmarking-computational-methods-identify-spatially] For thesis-relevant TME work using Visium / Xenium, does the Moran's I → SpatialDE2 → nnSVG recommendation hold on macrophage-niche spatial data, or does TAM-rich tissue introduce SVG-pattern types where SPARK-X is preferable?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Which specific factor(s) secreted by TRMs are necessary and sufficient for the EMT/invasiveness programme in adjacent tumour cells?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Why is the niche function restricted to early lesions — what changes in TRMs (or in tumours) by day 12-15 that abolishes the dependence?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Is TRM-driven EMT generalisable to other early epithelial cancers beyond NSCLC?
@@ -298,10 +304,20 @@ _Auto-generated open questions. Do not edit._
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
+- [concept/spatial-atac-svp-detection-gap] Native SVP-detection algorithms designed for binary/Bernoulli sparse spatial signals.
+- [concept/spatial-atac-svp-detection-gap] Joint SVG–SVP integration for spatially aware gene-regulatory networks (a future-directions item in Li et al. 2025).
+- [concept/spatial-atac-svp-detection-gap] Analogous SVP-style methods for spatial proteomics, spatial methylation, and other spatial omics modalities.
+- [concept/spatial-domain-detection-from-svg] Joint SVG-selection-plus-clustering frameworks that learn the spatial domain partition and the feature set simultaneously.
+- [concept/spatial-domain-detection-from-svg] Spatial domain detection on spatial ATAC-seq where SVP signal is poor (see [[concepts/spatial-atac-svp-detection-gap]]).
+- [concept/spatially-variable-gene-detection] Specialised SVP detection for spatial ATAC-seq (current SVG methods fail; see [[concepts/spatial-atac-svp-detection-gap]]).
+- [concept/spatially-variable-gene-detection] SVG–SVP integration for spatial gene-regulatory networks.
+- [concept/spatially-variable-gene-detection] Rotation- and registration-invariant SVG scoring.
 - [concept/succinate-sucnr1-tam-axis] A unified pharmacological model of SUCNR1 antagonism in TAM and tumor cell — does the same antagonist hit both?
 - [concept/succinate-sucnr1-tam-axis] Whether SUCNR1 signaling in TAM converges with the lactate-GPCR axis at common downstream nodes (HIF-1α, mTOR).
 - [concept/succinate-sucnr1-tam-axis] The role of cyclic / intermittent hypoxia in modulating tumor-cell succinate release: H-R cycles induce ROS bursts that may release succinate transiently.
 - [concept/succinate-sucnr1-tam-axis] Tissue-resident macrophage vs monocyte-derived macrophage SUCNR1 expression — likely heterogeneous and ontogeny-linked.
+- [concept/svg-pvalue-calibration] A unified well-calibrated test that does not require multiple-kernel Cauchy combination.
+- [concept/svg-pvalue-calibration] Calibration analysis for spatial ATAC-seq, where the binary/sparse signal further complicates the null distribution.
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Are there recruitment programs unique to chronic vs cyclic hypoxia? CCL2 induction kinetics under H-R cycles is not characterized.
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Does intermittent hypoxia (OSA setting) drive a distinct chemokine signature with implications for sleep-apnea cancer comorbidity?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Which MoMac-VERSE / Casanova-Acebes TAM cluster is the canonical "hypoxic-niche-recruited" subset, and is recruitment cluster-specific or receptor-promiscuous?

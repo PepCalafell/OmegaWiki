@@ -67,6 +67,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: systematic-benchmarking-computational-methods-identify-spatially
+    title: "Systematic benchmarking of computational methods to identify spatially variable genes"
+    tags: [spatial-transcriptomics, SVG, benchmarking, methods, simulation, Visium, MERFISH, spatial-ATAC-seq, computational-biology]
+    importance: 3
+    domain: methods
+    priority: reference
 
 concepts:
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
@@ -389,6 +395,22 @@ concepts:
     title: "AHR signalling in astrocytes and microglia (CNS inflammation control)"
     tags: [AHR, astrocyte, microglia, CNS, neuroinflammation, multiple-sclerosis]
     maturity: active
+  - slug: spatially-variable-gene-detection
+    title: "Spatially variable gene (SVG) detection in spatial transcriptomics"
+    tags: [spatial-transcriptomics, methods, feature-selection, benchmarking]
+    maturity: active
+  - slug: svg-pvalue-calibration
+    title: "Statistical calibration of SVG detection p-values"
+    tags: [spatial-transcriptomics, statistics, calibration, benchmarking]
+    maturity: active
+  - slug: spatial-domain-detection-from-svg
+    title: "Spatial domain detection from SVG-based feature selection"
+    tags: [spatial-transcriptomics, clustering, downstream-analysis]
+    maturity: active
+  - slug: spatial-atac-svp-detection-gap
+    title: "SVP detection on spatial ATAC-seq — methodological gap"
+    tags: [spatial-atac-seq, spatial-epigenomics, methods-gap]
+    maturity: emerging
 
 topics:
 
@@ -519,6 +541,12 @@ people:
   - slug: david-rubenstein
     tags: [tapinarof, clinical-development, dermatology]
     affiliation: "Dermavant Sciences Inc., Morrisville, NC"
+  - slug: luca-pinello
+    tags: [computational-biology, gene-regulation, spatial-transcriptomics, single-cell, benchmarking, epigenomics]
+    affiliation: "Broad Institute of MIT and Harvard; Molecular Pathology Unit, MGH"
+  - slug: zhijian-li
+    tags: [computational-biology, spatial-transcriptomics, benchmarking]
+    affiliation: "Gene Regulatory Observatory, Broad Institute / MGH"
 
 ideas:
 
@@ -1677,6 +1705,48 @@ claims:
     status: supported
     confidence: 0.85
     domain: virology / pharmacology
+  - slug: sparkx-best-overall-svg-benchmark
+    title: "SPARK-X is the best-performing SVG detection method overall in a 14-method, 96-dataset benchmark"
+    tags: [spatial-transcriptomics, benchmarking, SVG]
+    status: supported
+    confidence: 0.85
+    domain: spatial-transcriptomics-methods
+  - slug: most-svg-methods-poorly-calibrated
+    title: "Most SVG-detection methods produce poorly calibrated p-values under spatial-null conditions"
+    tags: [spatial-transcriptomics, calibration, statistics, benchmarking]
+    status: supported
+    confidence: 0.85
+    domain: spatial-transcriptomics-methods
+  - slug: morans-i-competitive-baseline-svg
+    title: "Moran's I is a competitive SVG baseline despite algorithmic simplicity"
+    tags: [spatial-transcriptomics, benchmarking, SVG, baseline]
+    status: supported
+    confidence: 0.8
+    domain: spatial-transcriptomics-methods
+  - slug: svg-feature-selection-improves-spatial-clustering
+    title: "SVG-based feature selection generally improves spatial-domain clustering over HVG-based selection"
+    tags: [spatial-transcriptomics, clustering, feature-selection, benchmarking]
+    status: supported
+    confidence: 0.8
+    domain: spatial-transcriptomics-methods
+  - slug: somde-best-scalability-svg
+    title: "SOMDE has the best memory and runtime scalability among SVG-detection methods up to 40,000 spots"
+    tags: [spatial-transcriptomics, scalability, benchmarking, SVG]
+    status: supported
+    confidence: 0.85
+    domain: spatial-transcriptomics-methods
+  - slug: svg-methods-fail-spatial-atac-svp
+    title: "Repurposed SVG methods fail on spatial ATAC-seq SVP detection; 'use all peaks' beats most"
+    tags: [spatial-atac-seq, SVP, methods-gap, benchmarking]
+    status: supported
+    confidence: 0.8
+    domain: spatial-epigenomics-methods
+  - slug: scdesign3-realistic-svg-simulation
+    title: "scDesign3 GP simulation enables biologically realistic SVG benchmarks beyond binary classification"
+    tags: [simulation, benchmarking, spatial-transcriptomics, methodology]
+    status: supported
+    confidence: 0.75
+    domain: spatial-transcriptomics-methods
 
 Summary:
 
@@ -2095,3 +2165,43 @@ foundations:
     title: "HSP90 / AIP (XAP2) / p23 — AHR cytosolic chaperone complex"
     status: mainstream
     domain: molecular biology / chaperone / AHR cytosolic complex
+  - slug: spark-x-svg
+    title: "SPARK-X — non-parametric covariance test for spatially variable gene detection"
+    status: mainstream
+    domain: spatial-transcriptomics-methods
+  - slug: morans-i-spatial-autocorrelation
+    title: "Moran's I — spatial autocorrelation statistic"
+    status: mainstream
+    domain: spatial-statistics
+  - slug: scdesign3-simulator
+    title: "scDesign3 — realistic single-cell and spatial simulation framework"
+    status: mainstream
+    domain: single-cell-methods
+  - slug: 10x-visium-spatial-transcriptomics
+    title: "10x Genomics Visium — sequencing-based spatial transcriptomics"
+    status: mainstream
+    domain: spatial-transcriptomics
+  - slug: merfish-imaging-spatial
+    title: "MERFISH — multiplexed error-robust fluorescence in situ hybridization"
+    status: mainstream
+    domain: spatial-transcriptomics
+  - slug: spatial-atac-seq
+    title: "Spatial ATAC-seq — spatially resolved chromatin accessibility profiling"
+    status: mainstream
+    domain: spatial-epigenomics
+  - slug: nnsvg-svg
+    title: "nnSVG — nearest-neighbour Gaussian-process SVG detection"
+    status: mainstream
+    domain: spatial-transcriptomics-methods
+  - slug: somde-svg
+    title: "SOMDE — self-organising-map Gaussian-process SVG detection"
+    status: mainstream
+    domain: spatial-transcriptomics-methods
+  - slug: spatialde-svg
+    title: "SpatialDE / SpatialDE2 — Gaussian-process SVG detection"
+    status: mainstream
+    domain: spatial-transcriptomics-methods
+  - slug: openproblems-benchmark
+    title: "Open Problems in Single-Cell Analysis — community benchmarking platform"
+    status: mainstream
+    domain: benchmarking-infrastructure
