@@ -16,6 +16,7 @@ tags: [obesity, tam, pd-1, mtorc1, glycolysis, icb-response, immunometabolism]
 maturity: emerging
 key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - tumour-microenvironment-crosstalk-nsclc-progression-response
 first_introduced: "2024 (Bader, Voss, Rathmell)"
 date_updated: 2026-05-22
 related_concepts: [tumour-immune-microenvironment, immune-checkpoint-blockade]

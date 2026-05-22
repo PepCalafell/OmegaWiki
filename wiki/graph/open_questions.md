@@ -165,6 +165,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Can transient hypoxia-induced HRD be therapeutically weaponized (PARPi window) in non-BRCA-mutant tumours?
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Does targeting the ROS–ATM–MRE11 axis under cycling hypoxia abolish APOBEC mutagenesis?
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] How do TAMs in hypoxic niches (cf. [[concepts/hypoxia-pd-l1-tam-immune-evasion]], [[concepts/tam-recruitment-hypoxic-niche-chemokines]]) mechanistically protect mutator clones — is the protection at the antigen-presentation, killing or trafficking step?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] Are NSCLC immune-desert niches reprogrammable into immune-responsive ones, or are they irreversibly committed?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] Can protumorigenic CAF subtypes be selectively targeted while sparing tumour-suppressive CAFs?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] What mechanisms drive the paradoxical decrease in NSCLC incidence above age 80 (e.g., NUPR1–LCN2 / alveolar stem-cell senescence)?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] Are microbiome-based biomarkers (and FMT-style interventions) ready for prospective ICI trials in NSCLC?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] How should treatment sequencing (neoadjuvant ICI → surgery → adjuvant) be optimized given TME-remodelling effects of each modality?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] Could combining anti-CD55/CD59 with anti-PD-1 (mouse synergy) translate to NSCLC patients, and which TME archetype would benefit?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] Is the CXCL9:SPP1 ratio sufficient as a standalone biomarker, or must it be combined with spatial context (e.g., distance-to-tumour-nest) to predict ICI response robustly?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] How does the AHR–mTOR–PD-L1 axis intersect with [[concepts/ahr-tam-immunosuppression-tumour]] and AHR-targeted therapy strategies elsewhere in the wiki?
+- [paper/tumour-microenvironment-crosstalk-nsclc-progression-response] Does the obesity paradox extend to anti-TIGIT or LAG3 combination regimens, or is it PD-1-axis-specific?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Is 18_ECMMac a stable terminal state or a transient transition state toward myofibroblast identity?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Can perturbation of TAM→fibroblast differentiation reverse ICI resistance in 18_ECMMac-high tumours?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Do collagen-producing TAMs share an ontogenetic origin (monocyte-derived vs tissue-resident) across cancer types?
@@ -491,11 +500,19 @@ _Auto-generated open questions. Do not edit._
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
+- [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
+- [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
+- [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
+- [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
+- [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
+- [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
+- [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
+- [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)

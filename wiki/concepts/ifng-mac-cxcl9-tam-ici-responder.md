@@ -24,6 +24,7 @@ tags:
 maturity: emerging
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
+  - tumour-microenvironment-crosstalk-nsclc-progression-response
 first_introduced: "Coulton et al. 2024 *Nature Communications* (cluster definition + ICI-response association)"
 date_updated: 2026-05-13
 related_concepts:

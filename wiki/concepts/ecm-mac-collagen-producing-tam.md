@@ -25,6 +25,7 @@ maturity: emerging
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - pd-l1-expressing-tumor-associated-macrophages
+  - tumour-microenvironment-crosstalk-nsclc-progression-response
 first_introduced: "Coulton et al. 2024 *Nature Communications* (operationalization as a discrete cluster); analogous PD-L1−/lo ECM-FA TAM phenotype in Wang L 2024 Cell Reports Medicine (breast cancer)"
 date_updated: 2026-05-13
 related_concepts:

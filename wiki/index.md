@@ -109,6 +109,12 @@ papers:
     importance: 4
     domain: methods / oncology / immunology / spatial-omics
     priority: core
+  - slug: tumour-microenvironment-crosstalk-nsclc-progression-response
+    title: "Tumour and microenvironment crosstalk in NSCLC progression and response to therapy"
+    tags: [nsclc, tumour-microenvironment, immunotherapy, spatial-niches, tls, cafs, tams, hypoxia, sex-differences, ageing, obesity, microbiome, health-disparities, review]
+    importance: 4
+    domain: oncology
+    priority: core
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -588,6 +594,90 @@ concepts:
     title: "Cluster shape characterization in spatial omics (curl, elongation, linearity, purity)"
     tags: [spatial-omics, morphology, methodology, tissue-architecture]
     maturity: emerging
+  - slug: immune-rich-vs-immune-poor-niches-nsclc
+    title: "Immune-rich vs immune-poor spatial niches in the NSCLC TME"
+    tags: [nsclc, tme, spatial-niches, immune-infiltration, ici-response]
+    maturity: active
+  - slug: cxcl9-spp1-tam-ratio-ici-biomarker
+    title: "CXCL9:SPP1 macrophage ratio as ICI response biomarker"
+    tags: [tam, biomarker, ici-response, chemokines, macrophage-polarity]
+    maturity: active
+  - slug: col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc
+    title: "COL11A1+GREM1+ CAF — SPP1+ TAM axis driving CTL exclusion in NSCLC"
+    tags: [caf, tam, immune-exclusion, ecm, nsclc, ici-resistance]
+    maturity: emerging
+  - slug: stem-immunity-hub-nsclc-ici-response
+    title: "Stem-immunity hub (TCF7+PD1+CD8+ niche) predicting ICI response in NSCLC"
+    tags: [nsclc, cd8-tcf7, tls-precursor, dc-niche, ici-biomarker]
+    maturity: emerging
+  - slug: tls-maturation-stage-nsclc-ici-response
+    title: "TLS maturation stage predicts ICI response in NSCLC"
+    tags: [tls, nsclc, ici-biomarker, hypoxia, cd8-exhaustion]
+    maturity: emerging
+  - slug: cxcl13-cxcr5-tls-recruitment
+    title: "CXCL13–CXCR5 axis driving lymphocyte recruitment and TLS maturation"
+    tags: [chemokine, tls, b-cell, tfh, ici-mechanism]
+    maturity: active
+  - slug: trem2-tam-hypoxic-niche-immune-suppression
+    title: "TREM2+ TAMs as hypoxic-lipid niche immunosuppressors"
+    tags: [trem2, tam, hypoxia, lipid-metabolism, immune-exclusion]
+    maturity: active
+  - slug: notch3-stromal-tumour-invasion
+    title: "NOTCH3 stromal signalling driving CAF–pericyte–endothelial crosstalk and NSCLC invasion"
+    tags: [notch3, stromal-signalling, caf, pericyte, tgfb, nsclc-invasion]
+    maturity: emerging
+  - slug: treg-tme-stromal-tam-reprogramming-vegf
+    title: "Treg depletion-induced reprogramming of NSCLC stromal-TAM landscape via VEGF"
+    tags: [treg, tme-reprogramming, vegf, luad, vascularization]
+    maturity: emerging
+  - slug: tobacco-smoke-ahr-mtor-pdl1-immune-evasion
+    title: "Tobacco smoke → AHR → mTOR → PD-L1 immune-evasion axis"
+    tags: [smoking, ahr, mtor, pd-l1, immune-evasion, nsclc]
+    maturity: emerging
+  - slug: egfr-mutant-luad-immune-excluded-tme
+    title: "EGFR-mutant LUAD immune-excluded stromal-rich TME"
+    tags: [egfr, luad, immune-exclusion, low-tmb, tki-resistance, ici-resistance]
+    maturity: active
+  - slug: kras-stat3-sex-dimorphic-luad
+    title: "KRAS-mutant LUAD: sex-dimorphic response to STAT3 loss"
+    tags: [kras, stat3, sex-dimorphism, luad, il-6, neutrophil, oestrogen]
+    maturity: emerging
+  - slug: androgen-signaling-cd8-exhaustion-ici
+    title: "Androgen signalling expands progenitor exhausted CD8+ T cells and reduces male ICI efficacy"
+    tags: [androgen, sex-differences, cd8-exhaustion, ici-bias]
+    maturity: active
+  - slug: oestrogen-tam-immunosuppression
+    title: "Oestrogen polarizes TAMs to immunosuppressive phenotype; fulvestrant restores ICI sensitivity"
+    tags: [oestrogen, sex-differences, tam-polarization, fulvestrant, ici-resensitization]
+    maturity: emerging
+  - slug: ageing-nsclc-tme-immunosuppression
+    title: "Ageing-associated immunosuppressive TME in NSCLC"
+    tags: [ageing, nsclc, immunosuppression, pd-l2, tim3, il-1a]
+    maturity: active
+  - slug: methylmalonic-acid-aged-emt-metastasis
+    title: "Methylmalonic acid drives TGFβ/SOX4 EMT and metastasis in aged NSCLC"
+    tags: [ageing, metabolite, emt, tgfb, sox4, metastasis]
+    maturity: emerging
+  - slug: obesity-leptin-pd1-ici-paradox-nsclc
+    title: "Obesity paradox in NSCLC ICI: leptin–IL-6–PD-1 dependency"
+    tags: [obesity, leptin, pd1, ici-response, paradox, nsclc]
+    maturity: active
+  - slug: metformin-ici-synergy-treg-teff
+    title: "Metformin–ICI synergy via Treg suppression and Teff enhancement"
+    tags: [metformin, ici-synergy, treg, teff, obesity]
+    maturity: active
+  - slug: gut-microbiota-ici-response-nsclc
+    title: "Gut microbiota as modulator of ICI response in NSCLC"
+    tags: [microbiome, ici-response, akkermansia, alistipes, faecal-microbiota-transplant, nsclc]
+    maturity: active
+  - slug: complement-cd55-cd59-tumour-evasion
+    title: "CD55/CD59 complement-regulator upregulation as tumour immune-evasion mechanism"
+    tags: [complement, cd55, cd59, c5a, cd8-cytotoxicity, ici-combination]
+    maturity: emerging
+  - slug: il4-myeloid-immunosuppression-nsclc
+    title: "IL-4–driven bone-marrow myelopoiesis as immunosuppressive driver in NSCLC"
+    tags: [il-4, myeloid-progenitor, immunosuppression, dupilumab, ici-combination, nsclc]
+    maturity: emerging
 
 topics:
 
@@ -777,6 +867,22 @@ people:
   - slug: logan-walsh
     tags: [cancer-biology, lung-cancer, tumor-microenvironment, immuno-oncology]
     affiliation: "McGill University, Montreal"
+
+  - slug: zahraa-rahal
+    tags: [nsclc, tumour-microenvironment, spatial-biology]
+    affiliation: "MD Anderson Cancer Center"
+  - slug: roy-el-darzi
+    tags: [nsclc, tumour-microenvironment]
+    affiliation: "American University of Beirut"
+  - slug: seyed-javad-moghaddam
+    tags: [pulmonary, lung-cancer, kras-luad, inflammation]
+    affiliation: "MD Anderson Cancer Center"
+  - slug: tina-cascone
+    tags: [thoracic-oncology, nsclc, neoadjuvant-immunotherapy]
+    affiliation: "MD Anderson Cancer Center"
+  - slug: humam-kadara
+    tags: [nsclc, tumour-microenvironment, translational-pathology, lung-cancer-genomics]
+    affiliation: "MD Anderson Cancer Center"
 
 ideas:
 
@@ -2582,6 +2688,111 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: nsclc-tme-spatial-dichotomy-immune-rich-poor
+    title: "NSCLC TME is organised into immune-rich and immune-poor spatial niches"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: cxcl9-spp1-tam-ratio-ici-response-nsclc
+    title: "Low CXCL9:SPP1 macrophage ratio predicts ICI resistance"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc
+    title: "COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs"
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
+  - slug: stem-immunity-hub-tcf7-pd1-nsclc
+    title: "Pretreatment stem-immunity hub predicts ICI response in NSCLC"
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology
+  - slug: tls-late-stage-better-ici-response-nsclc
+    title: "Late-stage TLS correlate with chemo-ICI complete response in NSCLC"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: cxcl13-cxcr5-tls-maturation-nsclc
+    title: "CXCL13–CXCR5 axis activation drives TLS maturation under chemo-ICI"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: trem2-tam-nk-suppression-cd8-exhaustion-hypoxic-niche
+    title: "TREM2+ TAMs suppress NK and expand exhausted CD8 in hypoxic niches"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: notch3-stromal-tumour-invasion-tgfb-nsclc
+    title: "NOTCH3 CAF-pericyte-endothelial signalling drives NSCLC invasion"
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
+  - slug: luad-treg-depletion-tme-reprogramming-vegf
+    title: "Treg depletion reprograms LUAD TME and enhances VEGF signalling"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: tobacco-ahr-mtor-pdl1-immune-evasion-nsclc
+    title: "Tobacco-AHR-mTOR-PD-L1 axis fuels immune evasion in smokers"
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
+  - slug: egfr-mutant-luad-immune-excluded-stromal-rich-tme
+    title: "EGFR-mutant LUAD has low TMB and stromal-rich immune-excluded TME"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: kras-stat3-ko-sex-dimorphic-tumour-progression-il6-neutrophil
+    title: "STAT3 KO produces sex-dimorphic outcomes in KRAS LUAD"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: androgen-cd8-exhaustion-male-ici-bias
+    title: "Androgen signalling expands exhausted CD8 reducing male ICI efficacy"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: oestrogen-tam-immunosuppression-fulvestrant-resensitization
+    title: "Oestrogen-induced TAM immunosuppression reversed by fulvestrant"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: ageing-nsclc-tme-immunosuppression-pdl2-tim3-il1a
+    title: "Older LUAD biopsies show PD-L2/TIM3 high immunosuppressive TME"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis
+    title: "MMA drives TGFβ/SOX4 EMT and metastasis in aged NSCLC"
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
+  - slug: obesity-ici-paradox-leptin-pd1-nsclc
+    title: "Obesity paradox in NSCLC ICI via leptin-PD-1 dependency"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: metformin-treg-teff-ici-synergy
+    title: "Metformin enhances ICI efficacy by reducing Treg and improving Teff"
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
+  - slug: gut-microbiota-akkermansia-alistipes-ici-modulation
+    title: "Gut microbiota modulates NSCLC ICI response (Akkermansia vs Alistipes)"
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
+  - slug: cd55-cd59-complement-evasion-cd8-cytotoxicity-nsclc
+    title: "CD55/CD59 complement-regulator upregulation enables tumour immune evasion"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc
+    title: "IL-4 myeloid immunosuppression; dupilumab + anti-PD-(L)1 first-in-human signal"
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology
 
 Summary:
 
@@ -3224,3 +3435,35 @@ foundations:
     title: "MPO — myeloperoxidase"
     status: mainstream
     domain: molecular-biology / immunology / oncology
+  - slug: spp1-secreted-phosphoprotein-1
+    title: "SPP1 (secreted phosphoprotein 1 / osteopontin)"
+    status: mainstream
+    domain: cell biology / immunology
+  - slug: cxcl13-chemokine
+    title: "CXCL13 chemokine"
+    status: mainstream
+    domain: immunology
+  - slug: notch3-receptor
+    title: "NOTCH3 receptor"
+    status: mainstream
+    domain: cell biology
+  - slug: egfr-mutation-luad
+    title: "EGFR activating mutations in lung adenocarcinoma"
+    status: mainstream
+    domain: oncology / genomics
+  - slug: fulvestrant-er-degrader
+    title: "Fulvestrant (selective oestrogen receptor degrader, SERD)"
+    status: mainstream
+    domain: pharmacology
+  - slug: methylmalonic-acid
+    title: "Methylmalonic acid (MMA)"
+    status: mainstream
+    domain: metabolomics / biochemistry
+  - slug: akkermansia-muciniphila
+    title: "Akkermansia muciniphila"
+    status: mainstream
+    domain: microbiology
+  - slug: dupilumab-anti-il4ra
+    title: "Dupilumab (anti-IL-4Rα monoclonal antibody)"
+    status: mainstream
+    domain: pharmacology

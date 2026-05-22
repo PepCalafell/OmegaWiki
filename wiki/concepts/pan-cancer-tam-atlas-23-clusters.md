@@ -22,6 +22,7 @@ tags:
 maturity: stable
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
+  - tumour-microenvironment-crosstalk-nsclc-progression-response
 first_introduced: "Coulton, Murai, Qian, Thakkar, Lewis & Litchfield 2024 *Nat Commun*"
 date_updated: 2026-05-13
 related_concepts:
