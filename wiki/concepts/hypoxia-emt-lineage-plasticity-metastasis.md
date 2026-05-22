@@ -23,8 +23,9 @@ maturity: stable
 key_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+  - cellcharter-reveals-spatial-cell-niches-associated
 first_introduced: "2003"
-date_updated: 2026-05-13
+date_updated: 2026-05-22
 related_concepts:
   - macrophage-induced-emt-tumor-invasiveness
   - hypoxia-immune-evasion-clonal-selection

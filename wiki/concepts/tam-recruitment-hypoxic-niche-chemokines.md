@@ -26,8 +26,9 @@ maturity: active
 key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+  - cellcharter-reveals-spatial-cell-niches-associated
 first_introduced: "Murdoch & Lewis 2005 Trends Immunol (TAM hypoxia recruitment); refined by Casazza 2013 Cancer Cell (Sema3A-NRP1); Bai 2022 review consolidates"
-date_updated: 2026-05-08
+date_updated: 2026-05-22
 related_concepts:
   - tumor-associated-macrophage-immunosuppression
   - tissue-resident-macrophage-tumor-niche

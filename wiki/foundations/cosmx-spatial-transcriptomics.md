@@ -53,3 +53,4 @@ The NanoString CosMx Spatial Molecular Imager (SMI) is an in situ multiplex spat
 ## Relevance to active research
 
 - [[papers/using-pan-cancer-atlas-investigate-tumour]] — Coulton et al. 2024.
+- [[papers/cellcharter-reveals-spatial-cell-niches-associated]] — Varrone et al. 2024 use a CosMx 960-gene NSCLC dataset (5 patients, 8 sections, ~700k cells) to identify the LUAD hypoxic-tumour + tumour-associated-neutrophil niche (clusters C0/C11/C12).

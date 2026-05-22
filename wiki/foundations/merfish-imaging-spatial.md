@@ -35,4 +35,4 @@ Trade-off versus sequencing-based ST: gain sub-cellular spatial resolution and s
 
 ## Relevance to active research
 
-MERFISH is one of the 9 ST platforms (n = 5 datasets) covered by the Li et al. 2025 SVG benchmark. SVG-method behaviour on imaging-based platforms differs from Visium because of the smaller gene set and single-cell rather than spot resolution.
+MERFISH is one of the 9 ST platforms (n = 5 datasets) covered by the Li et al. 2025 SVG benchmark. SVG-method behaviour on imaging-based platforms differs from Visium because of the smaller gene set and single-cell rather than spot resolution. In [[papers/cellcharter-reveals-spatial-cell-niches-associated]], 2 Vizgen MERFISH 500-marker lung-cancer samples independently replicate the hypoxic-tumour + tumour-associated-neutrophil niche identified in CosMx and IMC.

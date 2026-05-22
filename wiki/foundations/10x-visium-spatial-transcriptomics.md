@@ -38,4 +38,4 @@ Spots contain multiple cells (typically 1–10), so Visium provides spot-resolut
 
 ## Relevance to active research
 
-Visium is the dominant sequencing-based ST platform in the [[papers/systematic-benchmarking-computational-methods-identify-spatially]] SVG benchmark (20 of 50 datasets) and is the standard input for SVG detection and spatial-domain-detection pipelines.
+Visium is the dominant sequencing-based ST platform in the [[papers/systematic-benchmarking-computational-methods-identify-spatially]] SVG benchmark (20 of 50 datasets) and is the standard input for SVG detection and spatial-domain-detection pipelines. The DLPFC Visium benchmark (12 and 42 samples) is also the primary head-to-head dataset on which [[papers/cellcharter-reveals-spatial-cell-niches-associated]] beats STAGATE, BayesSpace, SEDR, DR-SC, SOTIP, and UTAG on joint multi-sample clustering.

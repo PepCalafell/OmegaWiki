@@ -25,6 +25,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] How do hypoxia and metabolic gradients within native immune organoid systems compare to in vivo tumour hypoxia? (relevance to the user's hypoxia project — none of the platforms reviewed explicitly model oxygen gradients).
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Could native immune organoid platforms be combined with hypoxia tracers (FMISO, EF5) to identify hypoxic niches modulating T cell exhaustion ex vivo?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Is the CXCL13+ exhausted T cell → TLS axis identified by MIBI reproducible in ALI PDOs from immune-infiltrated tumours?
+- [paper/cellcharter-reveals-spatial-cell-niches-associated] How will CellCharter perform on multimodal spatial datasets at the cohort level?
+- [paper/cellcharter-reveals-spatial-cell-niches-associated] Could spatial niches predict immunotherapy response, and what is the prognostic value of cell-type admixing vs composition?
+- [paper/cellcharter-reveals-spatial-cell-niches-associated] Therapeutic targetability of the TAN-hypoxia niche (HIF1α inhibition with PX-478 / belzutifan, CXCR1/2 antagonism).
+- [paper/cellcharter-reveals-spatial-cell-niches-associated] Whether the hierarchical n=3/8/20 stable solutions generalise to other tumour cohorts.
+- [paper/cellcharter-reveals-spatial-cell-niches-associated] Robustness of analytical-NE false-positive rate vs permutation-NE.
 - [paper/cross-tissue-single-cell-landscape-human] What are the precise ligand-receptor pathways by which IL4I1_Macs dampen antitumour T-cell responses, and how do they vary across tumour types? "The precise pathways involved are still unclear and deserve further investigation to fully decipher the T cell/TAM relationship" (p.1897, citing Gordon et al. 2017).
 - [paper/cross-tissue-single-cell-landscape-human] Are the monocyte-derived TAMs (TREM2, IL4I1, proliferating, C1Qhi) the appropriate therapeutic targets, given that they are monocyte-derived and therefore replenishable? Targeting recruitment vs differentiation are distinct strategies.
 - [paper/cross-tissue-single-cell-landscape-human] Is the M1/M2 Mills et al. 2000 paradigm refinable into a state + ontogeny taxonomy that captures the full diversity revealed by MoMac-VERSE?
@@ -411,6 +416,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Does intermittent hypoxia (OSA setting) drive a distinct chemokine signature with implications for sleep-apnea cancer comorbidity?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Which MoMac-VERSE / Casanova-Acebes TAM cluster is the canonical "hypoxic-niche-recruited" subset, and is recruitment cluster-specific or receptor-promiscuous?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Therapeutic value of NRP1 antagonism: blocks the Sema3A-mediated stop-signal but may also affect VEGF signaling; selectivity strategies needed.
+- [concept/tan-hypoxia-tumor-niche-luad] Therapeutic targetability — does HIF1α inhibition (PX-478, belzutifan) or CXCL1/2/3 blockade collapse the niche?
+- [concept/tan-hypoxia-tumor-niche-luad] Is this niche present across LUSC, KRAS-mutant vs EGFR-mutant tumours, or restricted to specific genotypes?
+- [concept/tan-hypoxia-tumor-niche-luad] Causal direction of the positive-feedback loop between tumour hypoxia and TAN recruitment.
 - [concept/tertiary-lymphoid-structure] Causal role of CXCL13+ exhausted T cells in TLS induction (MIBI evidence in melanoma).
 - [concept/tertiary-lymphoid-structure] TLS-targeted therapeutics.
 - [concept/tissue-context-dependence-immune-signaling] Identify the source-cell + ligand pairs that maintain baseline JAK-STAT in each tissue.
@@ -480,6 +488,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
+- [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)

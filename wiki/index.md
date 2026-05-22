@@ -103,6 +103,12 @@ papers:
     importance: 4
     domain: immunometabolism
     priority: core
+  - slug: cellcharter-reveals-spatial-cell-niches-associated
+    title: "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity"
+    tags: [spatial-transcriptomics, spatial-proteomics, cellular-niches, tumor-microenvironment, hypoxia, tumor-associated-neutrophil, LUAD, clustering-methods]
+    importance: 4
+    domain: methods / oncology / immunology / spatial-omics
+    priority: core
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -570,6 +576,18 @@ concepts:
     title: "Obesity paradox in ICB: TAM PD-1 induction via mTORC1-glycolysis"
     tags: [obesity, tam, pd-1, mtorc1, glycolysis, icb-response]
     maturity: emerging
+  - slug: tan-hypoxia-tumor-niche-luad
+    title: "Tumor-associated neutrophil + hypoxia spatial niche in lung adenocarcinoma"
+    tags: [spatial-transcriptomics, tumor-microenvironment, hypoxia, lung-adenocarcinoma, neutrophil, prognostic-signature]
+    maturity: emerging
+  - slug: cluster-neighborhood-enrichment-spatial
+    title: "Cluster neighborhood enrichment (NE) and differential NE in spatial omics"
+    tags: [spatial-transcriptomics, spatial-statistics, tumor-microenvironment, methodology]
+    maturity: active
+  - slug: cluster-shape-analysis-spatial
+    title: "Cluster shape characterization in spatial omics (curl, elongation, linearity, purity)"
+    tags: [spatial-omics, morphology, methodology, tissue-architecture]
+    maturity: emerging
 
 topics:
 
@@ -746,6 +764,19 @@ people:
   - slug: jean-ehrland-ricci
     tags: [tumor-metabolism, immunometabolism, dlbcl, oxphos, asnase]
     affiliation: "C3M, Université Côte d'Azur / INSERM"
+
+  - slug: marco-varrone
+    tags: [computational-biology, spatial-omics, bioinformatics-tools]
+    affiliation: "Ciriello Lab, UNIL / SIB, Lausanne"
+  - slug: giovanni-ciriello
+    tags: [computational-biology, cancer-genomics, spatial-omics, tumor-heterogeneity]
+    affiliation: "UNIL / SIB, Lausanne"
+  - slug: daniele-tavernari
+    tags: [computational-biology, lung-cancer, LUAD, spatial-omics]
+    affiliation: "Ciriello Lab, UNIL / SIB, Lausanne"
+  - slug: logan-walsh
+    tags: [cancer-biology, lung-cancer, tumor-microenvironment, immuno-oncology]
+    affiliation: "McGill University, Montreal"
 
 ideas:
 
@@ -2451,6 +2482,106 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: cellcharter-outperforms-stagate-bayesspace-sedr-dr
+    title: "CellCharter outperforms STAGATE/BayesSpace/SEDR/DR-SC/SOTIP/UTAG on joint DLPFC clustering"
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: cellcharter-scales-millions-cells-lowest-memory
+    title: "CellCharter scales to millions of cells with the lowest memory among benchmarked spatial clustering tools"
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: fowlkes-mallows-stability-identifies-biologically-meaningful
+    title: "Fowlkes–Mallows stability identifies biologically meaningful spatial cluster counts"
+    status: supported
+    confidence: 0.8
+    domain: methods
+  - slug: joint-multimodal-rna-plus-atac-spatial
+    title: "Joint multimodal RNA + ATAC spatial clustering recapitulates brain anatomy better than single-modality"
+    status: supported
+    confidence: 0.75
+    domain: methods
+  - slug: batch-correction-essential-joint-multi-sample
+    title: "Batch correction is essential for joint multi-sample spatial clustering"
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: cluster-shape-descriptors-detect-loss-spleen
+    title: "Cluster shape descriptors detect loss of spleen architecture in systemic lupus"
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: mrl-lupus-spleen-shows-differential-follicle
+    title: "MRL lupus spleen shows differential B-follicle / marginal-zone / B-PALS interactions vs healthy"
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: mrl-spleens-develop-two-distinct-trabecular
+    title: "MRL spleens develop two distinct trabecular niches separable by CD31 / Ly6G expression"
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: hierarchical-stable-cluster-solutions-reflect-cancer
+    title: "Hierarchical stable cluster solutions reflect cancer-wide, individual-tumour, and intratumour cancer states in NSCLC"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: luad-tumor-cluster-c0-expresses-hypoxia
+    title: "LUAD tumour cluster C0 (CosMx) expresses a hypoxia + EMT + chemokine state"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: luad-tumor-cluster-c12-expresses-proliferative
+    title: "LUAD tumour cluster C12 (CosMx) expresses a proliferative state spatially segregated from the hypoxic state"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: hypoxia-signature-tumor-cells-anticorrelates-distance
+    title: "Hypoxia signature score in LUAD tumour cells anticorrelates with distance to TANs"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: merfish-luad-dataset-replicates-hypoxic-tumor
+    title: "MERFISH LUAD dataset replicates the hypoxic-tumour + neutrophil niche identified in CosMx"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: imc-luad-cohort-identifies-mpo-hif1a
+    title: "IMC LUAD cohort (416 cores) identifies MPO+/HIF1A+ tumour cluster C23 surrounding neutrophil cluster C7"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: response-hypoxia-signature-correlates-tan-nan
+    title: "Response-to-hypoxia signature correlates with TAN but not NAN signature in LUAD bulk cohorts"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: response-hypoxia-tan-signatures-associate-worse
+    title: "Response-to-hypoxia and TAN signatures associate with worse LUAD prognosis; NAN does not"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: authors-propose-tumor-hypoxia-neutrophil-emt
+    title: "Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD"
+    status: proposed
+    confidence: 0.55
+    domain: oncology
+  - slug: cell-type-admixing-versus-segregation-distinguishes
+    title: "Cell-type admixing vs segregation distinguishes patients with otherwise similar TME composition"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: analytical-cluster-neighborhood-enrichment-scales-beyond
+    title: "CellCharter's analytical cluster neighbourhood enrichment is more scalable than permutation-based tests"
+    status: supported
+    confidence: 0.75
+    domain: methods
+  - slug: tumor-enriched-clusters-patient-private-while
+    title: "Tumour-enriched spatial clusters are patient-private while TME-enriched clusters are shared across patients"
+    status: supported
+    confidence: 0.75
+    domain: oncology
 
 Summary:
 
@@ -3077,3 +3208,19 @@ foundations:
     title: "UK-5099 — Mitochondrial pyruvate carrier (MPC) inhibitor"
     status: mainstream
     domain: pharmacology
+  - slug: cellcharter-framework
+    title: "CellCharter — spatial niche identification framework"
+    status: mainstream
+    domain: methods / spatial-transcriptomics / spatial-proteomics
+  - slug: fowlkes-mallows-index
+    title: "Fowlkes–Mallows Index (FMI) — clustering similarity metric"
+    status: mainstream
+    domain: methods / clustering / statistics
+  - slug: ndrg1
+    title: "NDRG1 — N-myc downstream regulated gene 1"
+    status: mainstream
+    domain: molecular-biology / hypoxia-signaling / oncology
+  - slug: mpo-myeloperoxidase
+    title: "MPO — myeloperoxidase"
+    status: mainstream
+    domain: molecular-biology / immunology / oncology

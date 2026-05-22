@@ -32,4 +32,4 @@ CODEX (co-detection by indexing) is a multiplexed tissue-imaging technique that 
 
 ## Relevance to active research
 
-Has uncovered cellular neighbourhoods that stratify CRC progression risk and predict immunotherapy response; immediately translatable to multiplexed imaging of fixed native immune organoids.
+Has uncovered cellular neighbourhoods that stratify CRC progression risk and predict immunotherapy response; immediately translatable to multiplexed imaging of fixed native immune organoids. The Goltsev et al. 2018 mouse-spleen CODEX dataset (BALBc vs MRL lupus, 707k cells) is the proteomics benchmark on which [[papers/cellcharter-reveals-spatial-cell-niches-associated]] demonstrates ~4× faster runtime than STAGATE and characterises lupus-induced tissue remodelling via cluster shape descriptors.
