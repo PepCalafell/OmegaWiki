@@ -149,6 +149,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/physiology-diseases-tissue-resident-macrophages] Which TRM diseases are amenable to BMT/HSC-replacement and which are not? Review notes BMT helps "some but not all" LSD patients; the predictive logic is unclear.
 - [paper/physiology-diseases-tissue-resident-macrophages] For tumour immunology specifically: do early-stage Kupffer-cell-mediated tumour limitation and late-stage TAM-mediated tumour promotion involve the *same* lineage of cells switching state, or are they distinct populations?
 - [paper/physiology-diseases-tissue-resident-macrophages] How does the model interface with the Casanova-Acebes 2021 finding that lung TRMs *promote* (not limit) early tumours? The Lazarov review predates that paper's TRM-pro-tumour story being fully appreciated; future syntheses need to reconcile organ-specific opposite directions.
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Which mechanisms drive the conserved features of LE biology across diverse cancers?
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Which actionable targets at the LE are clinically tractable?
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Can effective anticancer drugs be selected by in-silico LE-state reversal prospectively?
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Does LE score add information over AJCC stage in multivariate Cox models?
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Does the TC → LE flow reverse during neoadjuvant therapy in vivo?
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Are ecm-myCAF-targeting therapies (anti-LRRC15 ADCs) effective at reversing LE biology?
+- [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] How well does the scPred classifier transfer to non-Visium ST platforms (CosMx, Stereo-seq, MERFISH)?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] How should SVP-specific algorithms model the binary, sparse, high-dimensional structure of spatial ATAC-seq?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Can SVG and SVP integration enable spatial gene-regulatory network reconstruction?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Do these results extend to spatial proteomics and spatial methylation?
@@ -266,6 +273,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-pair-synergy-antagonism-tissue] Pathway-level mapping of synergy (MAPK / NF-κB / JAK-STAT / IRF rewiring)
 - [concept/cytokine-pair-synergy-antagonism-tissue] Quantitative dose-response models for combinatorial effects
 - [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
+- [concept/ecm-mycaf-leading-edge-signaling-axis] Whether targeting ecm-myCAF (e.g. anti-LRRC15 ADCs) reverses LE state in vivo
+- [concept/ecm-mycaf-leading-edge-signaling-axis] Mapping ecm-myCAF heterogeneity at higher spatial resolution (CosMx, Stereo-seq)
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
@@ -335,6 +344,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/immune-checkpoint-blockade] Robust per-patient predictors of ICB response.
 - [concept/immune-checkpoint-blockade] Strategies to convert cold tumours to hot.
 - [concept/immune-checkpoint-blockade] Mechanistic drivers of acquired resistance.
+- [concept/in-silico-perturbation-le-state-reversal] Experimental validation of top hits (e.g. Alvocidib) in OSCC patient-derived models
+- [concept/in-silico-perturbation-le-state-reversal] Extending the pipeline to combination drugs
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
@@ -418,6 +429,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pairwise-cytokine-code-sepsis] Direct vs indirect cytokine pair effects on each cell type are not separated
 - [concept/pairwise-cytokine-code-sepsis] Human translation of the pairwise code is untested
 - [concept/pairwise-cytokine-code-sepsis] Higher-order (triplet, quartet) cytokine combinations are not yet sampled
+- [concept/pan-cancer-conserved-leading-edge-signature] Whether LE signature subtypes exist (e.g. ECM-dominant vs immune-cold variants)
+- [concept/pan-cancer-conserved-leading-edge-signature] Causal upstream drivers shared across cancers
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -434,6 +447,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
 - [concept/rare-immune-cell-types-produce-many] Whether the relation generalizes outside lymph nodes (tumours, infected tissue)
+- [concept/rna-velocity-spatial-tc-to-le-differentiation] Calibrating short-horizon velocity against multi-day lineage tracing
+- [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
 - [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
 - [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
@@ -444,6 +459,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatial-atac-svp-detection-gap] Analogous SVP-style methods for spatial proteomics, spatial methylation, and other spatial omics modalities.
 - [concept/spatial-domain-detection-from-svg] Joint SVG-selection-plus-clustering frameworks that learn the spatial domain partition and the feature set simultaneously.
 - [concept/spatial-domain-detection-from-svg] Spatial domain detection on spatial ATAC-seq where SVP signal is poor (see [[concepts/spatial-atac-svp-detection-gap]]).
+- [concept/spatially-regulated-cancer-cell-states] Lineage tracing of TC ↔ LE transitions in vivo
+- [concept/spatially-regulated-cancer-cell-states] Whether state transitions are reversible under therapy (the in-silico Dynamo work suggests yes)
 - [concept/spatially-variable-gene-detection] Specialised SVP detection for spatial ATAC-seq (current SVG methods fail; see [[concepts/spatial-atac-svp-detection-gap]]).
 - [concept/spatially-variable-gene-detection] SVG–SVP integration for spatial gene-regulatory networks.
 - [concept/spatially-variable-gene-detection] Rotation- and registration-invariant SVG scoring.
@@ -505,6 +522,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-associated-macrophage-immunosuppression] Single-cell-resolved markers and signatures across cancers (atlas-scale).
 - [concept/tumor-associated-macrophage-immunosuppression] Causal vs correlational role of TAM presence in outcomes.
 - [concept/tumor-associated-macrophage-immunosuppression] Therapeutic targeting strategies (TREM2 antibodies, CSF1R inhibitors, reprogramming agonists).
+- [concept/tumor-core-vs-leading-edge-spatial-architecture] Mechanistic upstream regulators that switch TC → LE in vivo
+- [concept/tumor-core-vs-leading-edge-spatial-architecture] Whether TC-like induction is therapeutically achievable
 - [concept/tumor-hypoxia-classification-chronic-acute-cyclic] A unified molecular signature that distinguishes chronic vs cyclic hypoxia from bulk transcriptomics.
 - [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Spatial-temporal imaging of H-R cycles in vivo at single-cell resolution.
 - [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Whether intermittent vs chronic hypoxia drive *quantitatively different* exosome cargos and TAM phenotypes (some evidence: PD-L1 upregulation specifically in TAMs from intermittently hypoxic NSCLC exosomes).
@@ -536,12 +555,14 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
+- [claim/anti-pd1-ctla4-alvocidib-le-outgoing-pattern] Anti-PD-1 / anti-CTLA-4 perturbations and Alvocidib (CDK inhibitor) recapitulate the effective-drug LE-outgoing pattern in OSCC ST (status: weakly_supported)
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
+- [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)

@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (408 total)
+## Claims (428 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (22 total)
+## Papers (23 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -43,15 +43,15 @@ _Auto-generated open questions. Do not edit._
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [4] CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity (methods / oncology / immunology / spatial-omics)
+- [4] Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response (oncology)
 - [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
-- [4] Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment (oncology)
-## Recent Relationships (921 total)
-  papers/pairwise-cytokine-code-explains-organism-wide --supports--> claims/spatial-transcriptomics-cytokine-cell-type-validation
-  papers/pairwise-cytokine-code-explains-organism-wide --supports--> claims/tnf-blockade-reverses-clp-tissue-transcriptome
-  papers/dictionary-immune-responses-cytokines-single-cell --complementary_to--> papers/pairwise-cytokine-code-explains-organism-wide
-  papers/benchmarking-atlas-level-data-integration-single --derived_from--> foundations/scvi-deep-generative-model
-  papers/benchmarking-atlas-level-data-integration-single --derived_from--> foundations/scanvi-semi-supervised
-  papers/benchmarking-atlas-level-data-integration-single --derived_from--> foundations/scanorama-integration
-  papers/benchmarking-atlas-level-data-integration-single --derived_from--> foundations/harmony-integration
-  papers/benchmarking-atlas-level-data-integration-single --derived_from--> foundations/bbknn-integration
-  papers/benchmarking-atlas-level-data-integration-single --der
+## Recent Relationships (961 total)
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/oscc-hpv-negative
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/10x-visium-spatial-transcriptomics
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/cellchat-cell-cell-communication
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/scenic-tf-regulon-inference
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/tcga-the-cancer-genome-atlas
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --supports--> claims/oscc-tc-le-spatial-architectures-conserved
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --supports--> claims/tc-keratinization-le-ecm-emt-degs
+  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --supports--> claims/oscc-st-12-samples-24876-spots
+  papers

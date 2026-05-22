@@ -30,3 +30,4 @@
 ## [2026-05-22] ingest | added papers/tumour-microenvironment-crosstalk-nsclc-progression-response | created: 21 concepts (11 new) + 21 claims + 8 foundations + 5 people | edges: 57 (28 paper-concept, 21 paper-claim, 21 paper-foundation, 7 paper-paper) | TIER_1 NSCLC TME review (Nature Rev Clin Oncol 2025, Rahal/Kadara)
 ## [2026-05-22] ingest | added papers/pairwise-cytokine-code-explains-organism-wide | updated: 7 foundations, 6 concepts, 18 claims, 3 people, index.md, edges.jsonl
 ## [2026-05-22] ingest | added papers/benchmarking-atlas-level-data-integration-single | updated: 18 claims, 4 concepts, 17 foundations (3 new methods + 14 existing/method/metric), 3 people, 22 graph edges
+## [2026-05-22] ingest | added papers/spatial-transcriptomics-reveals-distinct-conserved-tumor | updated: 6 concepts, 10 foundations, 20 claims, 3 people, +36 edges, index.md

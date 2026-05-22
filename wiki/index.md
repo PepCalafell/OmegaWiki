@@ -127,6 +127,12 @@ papers:
     importance: 5
     domain: methods
     priority: core
+  - slug: spatial-transcriptomics-reveals-distinct-conserved-tumor
+    title: "Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response"
+    tags: [spatial-transcriptomics, OSCC, leading-edge, tumor-core, pan-cancer, RNA-velocity, Dynamo, scPred, prognostic-signature]
+    importance: 4
+    domain: oncology
+    priority: context
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -730,6 +736,30 @@ concepts:
     title: "Label-free bio-conservation metrics for single-cell integration evaluation"
     tags: [benchmarking, data-integration, metrics, scRNA-seq]
     maturity: mainstream
+  - slug: tumor-core-vs-leading-edge-spatial-architecture
+    title: "Tumor core (TC) vs leading edge (LE) — spatially distinct transcriptional architectures of solid tumors"
+    tags: [spatial-transcriptomics, tumor-microenvironment, OSCC, pan-cancer, EMT, keratinization]
+    maturity: active
+  - slug: pan-cancer-conserved-leading-edge-signature
+    title: "Pan-cancer conserved leading-edge (LE) signature"
+    tags: [pan-cancer, leading-edge, prognosis, TCGA, spatial-transcriptomics, EMT]
+    maturity: active
+  - slug: spatially-regulated-cancer-cell-states
+    title: "Spatially regulated cancer cell states — TC and LE as plastic cell-state attractors"
+    tags: [cancer-stem-cells, EMT, plasticity, spatial-transcriptomics, OSCC]
+    maturity: active
+  - slug: ecm-mycaf-leading-edge-signaling-axis
+    title: "Ecm-myCAF — leading-edge signalling axis in solid tumors"
+    tags: [CAF, leading-edge, ligand-receptor, ECM, OSCC, pan-cancer]
+    maturity: active
+  - slug: rna-velocity-spatial-tc-to-le-differentiation
+    title: "RNA velocity-inferred TC→LE differentiation hierarchy in solid tumors"
+    tags: [RNA-velocity, spatial-transcriptomics, EMT, differentiation, OSCC]
+    maturity: emerging
+  - slug: in-silico-perturbation-le-state-reversal
+    title: "In-silico Dynamo perturbation predicts drug efficacy via LE-state reversal"
+    tags: [in-silico-screen, drug-response, RNA-velocity, OSCC, leading-edge]
+    maturity: emerging
 
 topics:
 
@@ -953,6 +983,15 @@ people:
   - slug: fabian-theis
     tags: [single-cell-genomics, deep-learning, machine-learning, Human-Cell-Atlas, scverse]
     affiliation: "Helmholtz Munich / TUM"
+  - slug: rohit-arora
+    tags: [spatial-transcriptomics, OSCC, head-and-neck-cancer]
+    affiliation: "University of Calgary"
+  - slug: christian-cao
+    tags: [spatial-transcriptomics, OSCC, RNA-velocity, drug-perturbation]
+    affiliation: "University of Toronto / University of Calgary"
+  - slug: pinaki-bose
+    tags: [spatial-transcriptomics, OSCC, head-and-neck-cancer, tumor-microenvironment]
+    affiliation: "University of Calgary"
 
 ideas:
 
@@ -3043,6 +3082,106 @@ claims:
     status: supported
     confidence: 0.85
     domain: single-cell-methods
+  - slug: oscc-tc-le-spatial-architectures-conserved
+    title: "OSCC tumours organise into spatially distinct, patient-conserved TC and LE transcriptional compartments"
+    status: supported
+    confidence: 0.85
+    domain: oncology/spatial-transcriptomics
+  - slug: tc-keratinization-le-ecm-emt-degs
+    title: "TC is enriched for keratinization programs; LE is enriched for ECM and EMT initiation"
+    status: supported
+    confidence: 0.85
+    domain: oncology/spatial-transcriptomics
+  - slug: oscc-st-12-samples-24876-spots
+    title: "12 OSCC ST samples yield 24,876 spots, of which 13,950 are malignant"
+    status: supported
+    confidence: 0.95
+    domain: methods/spatial-transcriptomics
+  - slug: tc-le-louvain-annotation-cldn4-lamc2-markers
+    title: "TC and LE annotations rest on Louvain clustering plus literature HNSCC markers"
+    status: supported
+    confidence: 0.8
+    domain: methods/spatial-transcriptomics
+  - slug: tc-le-scenic-tf-regulons
+    title: "SCENIC identifies distinct TC and LE TF regulons in OSCC"
+    status: supported
+    confidence: 0.75
+    domain: oncology/regulatory-genomics
+  - slug: le-cell-cycle-emt-angiogenesis-elevated
+    title: "LE spots show significantly higher cell cycle, EMT, and angiogenesis hallmark scores than TC"
+    status: supported
+    confidence: 0.85
+    domain: oncology/spatial-transcriptomics
+  - slug: ecsc-tc-mcsc-le-cd24-cd44-localization
+    title: "Mesenchymal-like CSCs (CD44+) localise to LE; epithelial-like CSCs (CD24+) localise to TC"
+    status: supported
+    confidence: 0.75
+    domain: oncology/cancer-stem-cells
+  - slug: tc-le-cellchat-distinct-signaling-pathways
+    title: "CellChat shows TC-exclusive and LE-enriched signalling pathways in OSCC"
+    status: supported
+    confidence: 0.75
+    domain: oncology/cell-cell-communication
+  - slug: ecm-mycaf-strong-le-signaling-interaction
+    title: "Ecm-myCAFs signal preferentially with LE cancer cells"
+    status: supported
+    confidence: 0.75
+    domain: oncology/tumor-microenvironment
+  - slug: le-neighbored-cd8-cafs-fibroblasts-macrophages
+    title: "LE spots are enriched for neighbouring CD8+ T cells, CAFs and macrophages"
+    status: supported
+    confidence: 0.8
+    domain: oncology/tumor-microenvironment
+  - slug: scpred-tc-le-classifier-high-roc
+    title: "scPred TC/LE classifier achieves high cross-validated ROC"
+    status: supported
+    confidence: 0.9
+    domain: methods/spatial-transcriptomics
+  - slug: le-program-conserved-30-st-17-cancers
+    title: "LE program is conserved across 30 ST samples in 17 cancers; TC programs are tissue-specific"
+    status: supported
+    confidence: 0.85
+    domain: oncology/pan-cancer
+  - slug: tcga-oscc-le-worse-tc-better-survival
+    title: "In TCGA OSCC, high LE predicts worse and high TC predicts better survival"
+    status: supported
+    confidence: 0.85
+    domain: oncology/prognosis
+  - slug: pan-cancer-tcga-le-worse-survival-20-cancers
+    title: "Across 20 TCGA pan-cancer cohorts, high LE predicts worse OS and DSS"
+    status: supported
+    confidence: 0.8
+    domain: oncology/prognosis
+  - slug: tc-low-clinicopath-correlates-le-independent
+    title: "Low TC score correlates with adverse clinicopathology; LE is independent of clinical covariates"
+    status: supported
+    confidence: 0.75
+    domain: oncology/clinical-pathology
+  - slug: scvelo-tc-to-le-differentiation-hierarchy
+    title: "scVelo RNA velocity reveals a reproducible TC→LE differentiation hierarchy"
+    status: supported
+    confidence: 0.75
+    domain: methods/single-cell
+  - slug: csta-ighg3-top-tc-le-velocity-drivers
+    title: "CSTA and IGHG3 are top dynamic-splicing driver genes for TC and LE states"
+    status: supported
+    confidence: 0.7
+    domain: oncology/RNA-velocity
+  - slug: dynamo-effective-drugs-induce-le-state-reversal
+    title: "High-AAC drugs induce LE→TC state reversal in Dynamo in-silico perturbation"
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology/drug-response
+  - slug: anti-pd1-ctla4-alvocidib-le-outgoing-pattern
+    title: "Anti-PD-1, anti-CTLA-4 and Alvocidib recapitulate the effective-drug LE-outgoing pattern"
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology/drug-response
+  - slug: ipa-tc-le-canonical-pathways
+    title: "IPA predicts LE-specific GP6/EIF2/HOTAIR and TC-specific MSP-RON, IL-33, p38 MAPK pathways"
+    status: supported
+    confidence: 0.7
+    domain: oncology/pathway-analysis
 
 Summary:
 
@@ -3809,3 +3948,43 @@ foundations:
     title: "Highly Variable Gene (HVG) selection in scRNA-seq"
     status: mainstream
     domain: methods / scRNA-seq-preprocessing
+  - slug: scvelo-rna-velocity
+    title: "scVelo — RNA velocity inference accounting for gene-specific dynamics"
+    status: mainstream
+    domain: methods / single-cell
+  - slug: dynamo-in-silico-perturbation
+    title: "Dynamo — vector-field reconstruction and in-silico genetic perturbation"
+    status: mainstream
+    domain: methods / single-cell
+  - slug: scpred-classifier
+    title: "scPred — probabilistic cell-type / spot classification on PC space"
+    status: mainstream
+    domain: methods / single-cell
+  - slug: numbat-cnv-inference
+    title: "Numbat — haplotype-aware CNV inference for single-cell and ST data"
+    status: mainstream
+    domain: methods / genomics
+  - slug: card-spatial-deconvolution
+    title: "CARD — Conditional autoregressive deconvolution for ST spots"
+    status: mainstream
+    domain: methods / spatial-transcriptomics
+  - slug: pharmacodb-drug-response
+    title: "PharmacoDB — harmonised drug-response database across cell lines"
+    status: mainstream
+    domain: methods / pharmacogenomics
+  - slug: dgidb-drug-gene-interactions
+    title: "DGIdb — Drug-Gene Interaction Database"
+    status: mainstream
+    domain: methods / pharmacogenomics
+  - slug: ingenuity-pathway-analysis
+    title: "Ingenuity Pathway Analysis (IPA) — curated pathway and upstream-regulator inference"
+    status: mainstream
+    domain: methods / bioinformatics
+  - slug: sctransform-normalization
+    title: "SCTransform — regularised negative-binomial normalisation for scRNA-seq"
+    status: mainstream
+    domain: methods / single-cell
+  - slug: oscc-hpv-negative
+    title: "HPV-negative oral squamous cell carcinoma (OSCC)"
+    status: mainstream
+    domain: oncology / head-and-neck
