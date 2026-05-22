@@ -95,7 +95,8 @@ title: ""
 aliases: []
 tags: []
 maturity: active         # stable | active | emerging | deprecated
-key_papers: []
+key_papers:              # YAML list, one bare slug per line — never [[wikilinks]], never inline [brackets]
+  - paper-slug-here
 first_introduced: ""
 date_updated: YYYY-MM-DD
 related_concepts: []
@@ -255,7 +256,8 @@ status: proposed          # proposed | weakly_supported | supported | challenged
 confidence: 0.5           # 0.0-1.0
 tags: []
 domain: ""
-source_papers: []
+source_papers:           # YAML list, one bare slug per line — never [[wikilinks]], never inline [brackets]
+  - paper-slug-here
 evidence:
   - source: ""
     type: supports        # supports | contradicts | tested_by | invalidates

@@ -177,7 +177,8 @@ status: proposed          # proposed | weakly_supported | supported | challenged
 confidence: 0.5           # 0.0-1.0
 tags: []
 domain: ""
-source_papers: []
+source_papers:           # YAML 列表，每行一个裸 slug — 不要 [[wikilinks]]，不要行内 [括号]
+  - paper-slug-here
 evidence:
   - source: ""
     type: supports        # supports | contradicts | tested_by | invalidates
