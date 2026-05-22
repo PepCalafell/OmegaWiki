@@ -383,3 +383,17 @@ es un fix incompleto. Verificar siempre la cadena completa: regla → template
 PENDIENTE DE VERIFICAR: el próximo ingest debe producir `source_papers` y
 `key_papers` en multilínea sin normalización manual. Si reincide, existe una
 tercera fuente no identificada.
+
+### 9.8 Mejora 7 reapareció en el paper #20 (2026-05-22)
+
+El paper benchmarking-atlas-level-data-integration generó 4 valores de enum
+inválidos: 3 conceptos con `maturity: mainstream` (no existe en el enum
+maturity) y 1 foundation con `status: emerging` (no existe en el enum status).
+Opus cruzó los vocabularios de los dos enums.
+
+A diferencia de casos previos, Opus NO se autocorrigió — los 4 errores
+llegaron hasta el lint como 🔴. El script verify_paper.sh los detectó y
+bloqueó el commit. Corregidos a mano (maturity→stable, status→mainstream).
+
+Mejora 7 sigue sin fix de raíz. Confirma que el bug puede escaparse hasta el
+final del pipeline; verify_paper.sh es ahora la red de seguridad efectiva.
