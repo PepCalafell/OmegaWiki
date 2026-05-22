@@ -109,6 +109,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How robust is the mMAC1 ↔ IL4I1 mapping to other tumor types (HCC, NSCLC, breast, melanoma) and to chronic non-malignant hypoxia (arthritis, ischemic tissues)?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the C2 hypomethylation persist after re-oxygenation, or is it reversible?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does mMAC1 / IL4I1 MAC enhance ICI response (PD-1/PD-L1 blockade) as the OS data and Park 2024 (CRC efferocytosis) collectively suggest?
+- [paper/pairwise-cytokine-code-explains-organism-wide] What fills the unexplained ~48% of LPS cellular effects beyond the three cytokine pairs?
+- [paper/pairwise-cytokine-code-explains-organism-wide] Are the direct cellular targets of each cytokine pair separable from indirect ones?
+- [paper/pairwise-cytokine-code-explains-organism-wide] What molecular pathway rewiring (MAPK / NF-κB / IRF / JAK-STAT) underlies the synergy and antagonism?
+- [paper/pairwise-cytokine-code-explains-organism-wide] Why is TNF the apex node — receptor ubiquity, kinetics or signalling crosstalk?
+- [paper/pairwise-cytokine-code-explains-organism-wide] Does the pairwise code generalise to non-sepsis cytokine storms in human disease?
+- [paper/pairwise-cytokine-code-explains-organism-wide] How transferable is the cell-type-abundance scoring method to atlases with different cell-type granularity?
+- [paper/pairwise-cytokine-code-explains-organism-wide] Could a "pairwise code" exist for chronic inflammatory diseases (RA, psoriasis, IBD) where anti-TNF works but other monotherapies do not?
+- [paper/pairwise-cytokine-code-explains-organism-wide] What does combining anti-TNF with cytokine knockout in human cytokine storm syndromes (CRS) look like, given that TNF half-life and kinetics in humans differ?
+- [paper/pairwise-cytokine-code-explains-organism-wide] How does the pairwise code intersect with the broader [[concepts/cytokine-cell-type-specific-response-pleiotropy]] insight from the Immune Dictionary (Cui & Hacohen 2024)?
+- [paper/pairwise-cytokine-code-explains-organism-wide] Is the lymphoid-nonlymphoid recovery asymmetry preserved across mouse strains and ages?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] What is the impact of anti-PD-1/PD-L1 immunotherapy on PD-L1+ TAM function and abundance in vivo?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] Are PD-L1+/− TAMs functionally equivalent in non-breast tumors (lung, HCC, urothelial)?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] Do PD-L1+/− TAM functional differences hold in primary vs metastatic disease?
@@ -240,6 +250,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-mediated-immune-cell-cell-interactome] Whether the lymph-node interactome generalizes to inflamed tissue / tumours
 - [concept/cytokine-mediated-immune-cell-cell-interactome] Spatial constraints (which interactions occur in which microniche)
 - [concept/cytokine-mediated-immune-cell-cell-interactome] Temporal dynamics of network reconfiguration during disease
+- [concept/cytokine-pair-synergy-antagonism-tissue] Pathway-level mapping of synergy (MAPK / NF-κB / JAK-STAT / IRF rewiring)
+- [concept/cytokine-pair-synergy-antagonism-tissue] Quantitative dose-response models for combinatorial effects
+- [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
@@ -331,6 +344,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
 - [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
+- [concept/lymphoid-nonlymphoid-recovery-asymmetry-sepsis] Cell-type identity of the persistent perturbation in each lymphoid tissue
+- [concept/lymphoid-nonlymphoid-recovery-asymmetry-sepsis] Whether antibiotic-treated CLP shows the same asymmetry as untreated CLP
+- [concept/lymphoid-nonlymphoid-recovery-asymmetry-sepsis] Whether IL-10/GDF15-like tissue-protective factors counteract the asymmetry
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] Whether boosting alternative degradative pathways (autophagy, proteasome) can compensate for hydrolase deficiency.
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] Why some LSDs respond well to BMT and others don't despite similar enzyme deficiency.
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] The role of microglia replacement (CSF1R-blockade-and-replacement strategies) in neuropathic LSDs.
@@ -383,6 +399,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
 - [concept/oxphos-vs-glycolytic-tumor-metabolic-heterogeneity] Routine non-invasive metabolic phenotyping in clinic.
 - [concept/oxphos-vs-glycolytic-tumor-metabolic-heterogeneity] Spatial mapping of metabolic phenotype within a single tumour.
+- [concept/pairwise-cytokine-code-sepsis] Half (≈48%) of LPS cellular effects remain unexplained by the three pairs — what other (non-)cytokine factors fill the gap?
+- [concept/pairwise-cytokine-code-sepsis] Direct vs indirect cytokine pair effects on each cell type are not separated
+- [concept/pairwise-cytokine-code-sepsis] Human translation of the pairwise code is untested
+- [concept/pairwise-cytokine-code-sepsis] Higher-order (triplet, quartet) cytokine combinations are not yet sampled
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -443,6 +463,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether stochastic or instructive specification dominates in the embryo.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether unique cocktails of cytokines and growth factors can substitute for LDF expression.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).
+- [concept/tnf-centered-cytokine-hierarchy] Why is TNF the apex? Receptor ubiquity, kinetics, or signalling crosstalk?
+- [concept/tnf-centered-cytokine-hierarchy] Why does anti-TNF fail in human sepsis when delivered after onset, despite the apex role?
+- [concept/tnf-centered-cytokine-hierarchy] Is the same TNF apex preserved in human cytokine storm syndromes other than sepsis?
 - [concept/tonic-baseline-jak-stat-homeostasis] Map cell-extrinsic ligands and source cells for baseline JAK-STAT in each tissue.
 - [concept/tonic-baseline-jak-stat-homeostasis] Determine whether baseline activity itself shapes responsiveness to cytokine stimulation (priming gain).
 - [concept/tonic-baseline-jak-stat-homeostasis] Test whether disease-associated JAK-STAT variants disrupt baseline more than induced signaling.

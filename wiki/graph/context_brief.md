@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (372 total)
+## Claims (391 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (20 total)
+## Papers (21 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -43,15 +43,15 @@ _Auto-generated open questions. Do not edit._
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [4] CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity (methods / oncology / immunology / spatial-omics)
-- [4] Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment (oncology)
 - [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
-## Recent Relationships (862 total)
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/stat3-tf
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/nf-kb-p65-rela
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/tgfb1-cytokine
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/vegf
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/metformin
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/kp-nsclc-mouse-model
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/spp1-secreted-phosphoprotein-1
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --derived_from--> foundations/cxcl13-chemokine
-  papers/tumour-microenvironment-crosstalk-nsclc-progression-response --deriv
+- [4] Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment (oncology)
+## Recent Relationships (899 total)
+  papers/pairwise-cytokine-code-explains-organism-wide --derived_from--> foundations/lps-toll-like-receptor-signaling
+  papers/pairwise-cytokine-code-explains-organism-wide --derived_from--> foundations/cecal-ligation-puncture-clp
+  papers/pairwise-cytokine-code-explains-organism-wide --derived_from--> foundations/limma-differential-expression
+  papers/pairwise-cytokine-code-explains-organism-wide --derived_from--> foundations/fasttopics-grade-of-membership
+  papers/pairwise-cytokine-code-explains-organism-wide --derived_from--> foundations/pme-seq-whole-tissue-rna-seq
+  papers/pairwise-cytokine-code-explains-organism-wide --supports--> claims/pairwise-cytokine-code-recapitulates-sepsis
+  papers/pairwise-cytokine-code-explains-organism-wide --supports--> claims/tnf-il18-most-impactful-cytokine-pair
+  papers/pairwise-cytokine-code-explains-organism-wide --supports--> claims/lymphoid-tissue-delayed-recovery-sepsis
+  papers/pairwise-cytokine-code-explains-organism-wide --supports--> claim

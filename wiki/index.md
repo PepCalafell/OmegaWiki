@@ -115,6 +115,12 @@ papers:
     importance: 4
     domain: oncology
     priority: core
+  - slug: pairwise-cytokine-code-explains-organism-wide
+    title: "A pairwise cytokine code explains the organism-wide response to sepsis"
+    tags: [sepsis, cytokines, TNF, IL-18, IFN-gamma, IL-1-beta, organism-wide, multi-tissue, topic-model, spatial-transcriptomics, immunology]
+    importance: 4
+    domain: immunology
+    priority: reference
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -678,10 +684,43 @@ concepts:
     title: "IL-4–driven bone-marrow myelopoiesis as immunosuppressive driver in NSCLC"
     tags: [il-4, myeloid-progenitor, immunosuppression, dupilumab, ici-combination, nsclc]
     maturity: emerging
+  - slug: pairwise-cytokine-code-sepsis
+    title: "Pairwise cytokine code of organism-wide sepsis response"
+    tags: [cytokines, sepsis, inflammation, organism-wide, cytokine-pair]
+    maturity: emerging
+  - slug: tnf-centered-cytokine-hierarchy
+    title: "TNF as the apex node of an organism-wide cytokine hierarchy"
+    tags: [TNF, cytokines, sepsis, inflammatory-disease, drug-target]
+    maturity: emerging
+  - slug: cytokine-pair-synergy-antagonism-tissue
+    title: "Synergistic and antagonistic gene regulation by cytokine pairs in tissues"
+    tags: [cytokines, gene-regulation, synergy, inflammation]
+    maturity: active
+  - slug: lymphoid-nonlymphoid-recovery-asymmetry-sepsis
+    title: "Lymphoid vs nonlymphoid tissue recovery asymmetry after endotoxemia"
+    tags: [sepsis, tissue-recovery, immunosuppression, lymphoid]
+    maturity: emerging
+  - slug: cell-type-abundance-from-bulk-tissue-rnaseq
+    title: "Cell-type abundance scoring from bulk tissue RNA-seq using specificity-ranked gene sets"
+    tags: [deconvolution, bulk-RNA-seq, cell-type, methods]
+    maturity: active
+  - slug: organism-wide-multi-tissue-perturbation-profiling
+    title: "Organism-wide multi-tissue perturbation profiling"
+    tags: [organism-wide, multi-tissue, perturbation, bulk-RNA-seq, sepsis]
+    maturity: active
 
 topics:
 
 people:
+  - slug: nicolas-chevrier
+    tags: [immunology, sepsis, organism-wide-profiling, cytokines]
+    affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
+  - slug: michihiro-takahama
+    tags: [immunology, sepsis, cytokines, first-author]
+    affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
+  - slug: matthew-stephens
+    tags: [statistics, statistical-genetics, topic-models, bayesian-methods]
+    affiliation: "Department of Human Genetics and Department of Statistics, University of Chicago"
   - slug: h-kay-chung
     tags: [immunology, cd8-t-cells, exhaustion, transcription-factors]
     affiliation: "Salk Institute / UNC Lineberger"
@@ -2793,6 +2832,101 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: oncology
+  - slug: pairwise-cytokine-code-recapitulates-sepsis
+    title: "Three TNF-anchored cytokine pairs recapitulate the organism-wide transcriptional response to bacterial sepsis"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: tnf-il18-most-impactful-cytokine-pair
+    title: "TNF+IL-18 is the most impactful cytokine pair (7,083 DEGs)"
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: lymphoid-tissue-delayed-recovery-sepsis
+    title: "Nonlymphoid tissues recover within 5 d of LPS, lymphoid tissues do not"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: lps-clp-tissue-transcriptome-overlap
+    title: "LPS and CLP sepsis produce 29.5%–68% overlapping tissue DEGs"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: four-cytokine-module-sufficient-sepsis
+    title: "Four-cytokine module (TNF/IL-18/IFN-γ/IL-1β) is sufficient to phenocopy sepsis at multiple levels"
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: anti-tnf-prevents-lethal-lps
+    title: "Anti-TNF or anti-IL-1β prophylaxis yields 100% survival in lethal LPS"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cytokine-pair-synergy-antagonism-gene-regulation
+    title: "Cytokine pairs produce synergistic / antagonistic non-additive gene regulation across tissues"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: shared-vs-pair-specific-cytokine-tissue-programs
+    title: "Cytokine pair programs are mostly shared in liver/kidney but pair-specific in heart/spleen/LNs"
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: organism-wide-neutrophil-accumulation-lps
+    title: "LPS drives whole-body neutrophil accumulation across 17 tissues"
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: tnf-il18-splenic-b-cell-depletion
+    title: "TNF+IL-18 is sufficient to deplete splenic MZ and follicular B cells"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: tnf-il1beta-erythroid-depletion
+    title: "TNF+IL-1β depletes bone-marrow erythroid lineage cells (sepsis anemia mechanism)"
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: cytokine-pair-endothelial-increase
+    title: "LPS and TNF-anchored cytokine pairs increase endothelial abundance in heart/kidney/liver"
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: hepatocyte-downregulation-sepsis
+    title: "LPS and cytokine pairs downregulate hepatocytes (spatial + TUNEL validated)"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cell-type-abundance-score-bulk-rnaseq-methodology
+    title: "Cell-type abundance scoring from bulk tissue RNA-seq recovers 195-cell-type shifts (7/7 spatial-validated)"
+    status: supported
+    confidence: 0.8
+    domain: methods
+  - slug: topic-modeling-sepsis-tissue-processes
+    title: "Grade-of-membership (k=16) topic modeling separates baseline tissue identity from sepsis-driven processes"
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: cytokine-pairs-explain-half-lps-cellular-effects
+    title: "TNF-anchored cytokine pairs explain ~52% of LPS-induced cell-type changes"
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: tnf-il18-sepsis-biomarker-coverage
+    title: "TNF+IL-18 regulates 45.7% (118/258) of curated sepsis biomarker genes"
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: spatial-transcriptomics-cytokine-cell-type-validation
+    title: "Whole-mouse spatial transcriptomics validates 7/7 cytokine-pair → cell-type predictions"
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: tnf-blockade-reverses-clp-tissue-transcriptome
+    title: "Anti-TNF + cytokine deletion counteracts 31.9%–63.3% of CLP-induced DEGs"
+    status: supported
+    confidence: 0.8
+    domain: immunology
 
 Summary:
 
@@ -3467,3 +3601,31 @@ foundations:
     title: "Dupilumab (anti-IL-4Rα monoclonal antibody)"
     status: mainstream
     domain: pharmacology
+  - slug: tnf-tumor-necrosis-factor
+    title: "TNF (Tumor Necrosis Factor)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: il-1-beta-cytokine
+    title: "IL-1β (Interleukin-1 beta)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: il-6-cytokine
+    title: "IL-6 (Interleukin-6)"
+    status: mainstream
+    domain: immunology / cytokine
+  - slug: cecal-ligation-puncture-clp
+    title: "Cecal Ligation and Puncture (CLP)"
+    status: mainstream
+    domain: immunology / sepsis model
+  - slug: limma-differential-expression
+    title: "limma — Linear Models for Microarray and RNA-seq"
+    status: mainstream
+    domain: bioinformatics / differential expression
+  - slug: fasttopics-grade-of-membership
+    title: "Grade-of-membership / topic modeling for RNA-seq (fastTopics)"
+    status: mainstream
+    domain: bioinformatics / unsupervised modeling
+  - slug: pme-seq-whole-tissue-rna-seq
+    title: "PME-seq — whole-tissue RNA-seq toolkit"
+    status: mainstream
+    domain: genomics / bulk transcriptomics

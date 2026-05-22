@@ -304,3 +304,4 @@ This is the most ambitious in vivo perturbational cytokine atlas to date and the
 - [[papers/cross-tissue-single-cell-landscape-human]] — complementary single-cell atlas of macrophage diversity.
 
 - [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here
+- [[papers/pairwise-cytokine-code-explains-organism-wide]] — complementary axis: pairwise (vs single) cytokine perturbation, in vivo organism-wide (vs ex vivo lymph node), bulk tissue (vs single-cell) resolution; both papers anchor the cytokine-perturbation literature for the wiki.
