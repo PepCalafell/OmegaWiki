@@ -354,3 +354,32 @@ estar inerte. Verificar siempre que el linter realmente evalua lo que dice.
 La causa raiz casi siempre esta en la documentacion de la skill, no en el
 modelo: alinear `cross-references.md` con los templates canonicos corta la
 fuente.
+
+### 9.7 Cierre — la causa raíz era el template, no la tabla de reglas
+
+El fix de 9.1 (`cross-references.md`) NO bastó: el paper #11
+(atlas-guided-discovery-transcription-factors-cell, ingestado 2026-05-22)
+reincidió en formato inline `source_papers: [slug]` pese a la doc corregida.
+
+Diagnóstico: `SKILL.md` L18 y L138 ordenan explícitamente "Open
+`runtime-page-templates.en.md` before drafting frontmatter". Opus copia el
+**template** como modelo concreto, por encima de la tabla de reglas abstracta
+de `cross-references.md`. El template mostraba `source_papers: []` y
+`key_papers: []` con corchetes inline — y Opus replicaba esa sintaxis.
+
+Esto explica la intermitencia: el paper Luo (#8) siguió la regla (bien), el
+paper Chung (#11) siguió el template (mal). Dos fuentes en conflicto.
+
+Fix definitivo (commit posterior a fdfc849): `runtime-page-templates.en.md`
+(`source_papers` L258, `key_papers` L98) y `.zh.md` (`source_papers`)
+corregidos a formato YAML multilínea con comentario explícito.
+
+LECCIÓN: cuando una skill ordena "copia este template", el template ES la
+fuente de verdad efectiva — más que cualquier tabla de reglas. Corregir
+documentación de reglas sin corregir los templates que la skill manda copiar
+es un fix incompleto. Verificar siempre la cadena completa: regla → template
+→ ejemplo.
+
+PENDIENTE DE VERIFICAR: el próximo ingest debe producir `source_papers` y
+`key_papers` en multilínea sin normalización manual. Si reincide, existe una
+tercera fuente no identificada.
