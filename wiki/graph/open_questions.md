@@ -18,6 +18,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/atlas-guided-discovery-transcription-factors-cell] Do TEXterm single-state TFs identified in viral models behave identically in TILs across diverse human cancers (especially hypoxic tumours)?
 - [paper/atlas-guided-discovery-transcription-factors-cell] How does ZSCAN20 KO interact with HIF1α/HIF2α-driven exhaustion programmes in hypoxic tumour microenvironments?
 - [paper/atlas-guided-discovery-transcription-factors-cell] Is the proteasome-catabolism community a tractable pharmacological target (bortezomib analogues) in TIL therapy?
+- [paper/benchmarking-atlas-level-data-integration-single] How should integration methods for scATAC-seq combine nonlinear dimensionality reduction (LSI, SCALE) with MNN-anchor matching?
+- [paper/benchmarking-atlas-level-data-integration-single] Can methods that retain batch effects (statistical models with batch as a covariate) outperform integration on aggregated, very-large datasets where integration is intractable?
+- [paper/benchmarking-atlas-level-data-integration-single] For confounded batch/biology axes (species, spatial location), is removal ever desirable, or should the field develop "batch-aware analysis" instead of "batch-removal"?
+- [paper/benchmarking-atlas-level-data-integration-single] The scIB pipeline excludes reference-mapping methods (Azimuth, scArches, scANVI in reference-projection mode) — how does the benchmark generalize when integration is reformulated as projection?
+- [paper/benchmarking-atlas-level-data-integration-single] Does the 40/60 weighting transfer to cytokine-perturbation and spatial-omics atlas-construction tasks (relevant for thesis project), where the bio-conservation target is gene-program preservation rather than cell-type cluster recovery?
+- [paper/benchmarking-atlas-level-data-integration-single] Among the consistent top-3 (scANVI / Scanorama / scVI), which best preserves continuous TAM-state trajectories in TME atlases — a question this benchmark does not specifically address?
+- [paper/benchmarking-atlas-level-data-integration-single] Has the field's choice of integration default moved (post-2022) given this benchmark's recommendation — are Scanorama and scVI now the de-facto atlas defaults?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Can FNA-derived ALI or microfluidic organoids generate sufficient biomass to recapitulate tumour architecture and immune populations from minimally invasive biopsies?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Can perturb-seq / CROP-seq be extended to non-reconstituted native immune organoids despite multicellularity?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Which combination immunotherapies will reliably convert "cold" tumours to "hot" in immune organoid platforms?
@@ -225,6 +232,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/ancestry-specific-tumor-hypoxia] Replication in pediatric cancers and rare tumor types
 - [concept/arginase-mdsc-arginine-depletion-tcell] Tissue-selective ARG inhibition that spares hepatic urea cycle.
 - [concept/asparagine-tcell-activation-lck-axis] Therapeutic window between Asn-depleting tumour effect and TIL impairment.
+- [concept/atlas-level-data-integration] Reference-mapping (scArches) as an alternative to from-scratch integration.
+- [concept/atlas-level-data-integration] Joint multimodal atlas integration.
+- [concept/atlas-level-data-integration] Cross-species atlas construction without species batch erasure of biology.
+- [concept/batch-removal-vs-bioconservation-tradeoff] Can a single method dominate the Pareto frontier on label-agnostic atlas tasks?
+- [concept/batch-removal-vs-bioconservation-tradeoff] How to handle confounded batch/biology axes without arbitrary editorial choices?
+- [concept/batch-removal-vs-bioconservation-tradeoff] Does reference-mapping (scArches, Azimuth) reformulation escape the tradeoff?
 - [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
 - [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
@@ -337,6 +350,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
+- [concept/label-free-bio-conservation-metrics] A label-free metric for rare-cell-state preservation independent of explicit annotations.
+- [concept/label-free-bio-conservation-metrics] Cross-modality label-free metrics (RNA + ATAC + protein).
 - [concept/lactate-acidification-tme-immunosuppression] Local pH-normalisation drug-delivery strategies.
 - [concept/lactate-acidification-tme-immunosuppression] Lactate signalling (lactylation) vs acidosis: which contributes more to immunosuppression?
 - [concept/lactate-driven-tam-m2-polarization] Identification of the dominant macrophage lactate-sensing receptor under hypoxia.
@@ -419,6 +434,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
 - [concept/rare-immune-cell-types-produce-many] Whether the relation generalizes outside lymph nodes (tumours, infected tissue)
+- [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
+- [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.

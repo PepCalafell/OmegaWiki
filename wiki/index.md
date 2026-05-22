@@ -121,6 +121,12 @@ papers:
     importance: 4
     domain: immunology
     priority: reference
+  - slug: benchmarking-atlas-level-data-integration-single
+    title: "Benchmarking atlas-level data integration in single-cell genomics"
+    tags: [benchmarking, data-integration, single-cell, scRNA-seq, scATAC-seq, batch-correction, methods, atlas, HCA]
+    importance: 5
+    domain: methods
+    priority: core
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -708,6 +714,22 @@ concepts:
     title: "Organism-wide multi-tissue perturbation profiling"
     tags: [organism-wide, multi-tissue, perturbation, bulk-RNA-seq, sepsis]
     maturity: active
+  - slug: batch-removal-vs-bioconservation-tradeoff
+    title: "Batch removal vs biological-variance conservation tradeoff in single-cell integration"
+    tags: [data-integration, benchmarking, scRNA-seq, tradeoff]
+    maturity: mainstream
+  - slug: atlas-level-data-integration
+    title: "Atlas-level data integration in single-cell genomics"
+    tags: [data-integration, atlas, scRNA-seq, HCA, benchmarking]
+    maturity: mainstream
+  - slug: scatac-feature-space-tradeoff
+    title: "scATAC-seq feature-space tradeoff: peaks vs windows vs gene activity"
+    tags: [scATAC-seq, feature-space, data-integration, chromatin-accessibility]
+    maturity: mainstream
+  - slug: label-free-bio-conservation-metrics
+    title: "Label-free bio-conservation metrics for single-cell integration evaluation"
+    tags: [benchmarking, data-integration, metrics, scRNA-seq]
+    maturity: mainstream
 
 topics:
 
@@ -922,6 +944,15 @@ people:
   - slug: humam-kadara
     tags: [nsclc, tumour-microenvironment, translational-pathology, lung-cancer-genomics]
     affiliation: "MD Anderson Cancer Center"
+  - slug: malte-luecken
+    tags: [single-cell-genomics, data-integration, benchmarking, Human-Cell-Atlas, methods]
+    affiliation: "Helmholtz Munich (Theis lab)"
+  - slug: maria-colome-tatche
+    tags: [epigenetics, single-cell-genomics, data-integration, computational-biology]
+    affiliation: "LMU Munich / Helmholtz Munich"
+  - slug: fabian-theis
+    tags: [single-cell-genomics, deep-learning, machine-learning, Human-Cell-Atlas, scverse]
+    affiliation: "Helmholtz Munich / TUM"
 
 ideas:
 
@@ -2927,6 +2958,91 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: scanvi-scanorama-scvi-top-rna-integration
+    title: "scANVI, Scanorama and scVI are the top scRNA-seq integration methods on atlas-scale real data"
+    status: supported
+    confidence: 0.9
+    domain: single-cell-methods
+  - slug: cell-label-integration-methods-win-with-labels
+    title: "Cell-label-using integration methods (scGen, scANVI) preserve single-batch cell-state differences others remove"
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
+  - slug: batch-removal-vs-bioconservation-tradeoff
+    title: "Consistent tradeoff between batch-effect removal and biological-variance conservation across scRNA-seq integration methods"
+    status: supported
+    confidence: 0.95
+    domain: single-cell-methods
+  - slug: hvg-selection-improves-integration
+    title: "HVG selection improves scRNA-seq integration performance across most metrics"
+    status: supported
+    confidence: 0.9
+    domain: single-cell-methods
+  - slug: scaling-shifts-integration-to-batch-removal
+    title: "Scaling input data shifts scRNA-seq integration toward batch removal at the cost of bio-conservation"
+    status: supported
+    confidence: 0.9
+    domain: single-cell-methods
+  - slug: liger-harmony-best-scatac-integration
+    title: "LIGER and Harmony are the only methods that consistently integrate scATAC-seq batches in peak/window feature spaces"
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
+  - slug: scatac-peaks-windows-beat-gene-activity
+    title: "scATAC-seq integration: peaks/windows feature spaces preserve more biology than gene activity"
+    status: supported
+    confidence: 0.9
+    domain: single-cell-methods
+  - slug: most-scatac-methods-worsen-data
+    title: "Most scATAC-seq integration outputs (73%) actively degrade data vs unintegrated baseline"
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
+  - slug: harmony-simple-tasks-only
+    title: "Harmony performs well on simple scRNA-seq integration tasks but ranks outside the top third on atlas-complexity tasks"
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
+  - slug: mnn-anchor-methods-strong-rna
+    title: "MNN-anchor integration methods (Scanorama, FastMNN) are consistently strong on complex scRNA-seq tasks"
+    status: supported
+    confidence: 0.8
+    domain: single-cell-methods
+  - slug: embedding-outputs-outperform-gene-corrected
+    title: "Embedding outputs of integration methods tend to outperform gene-corrected matrix outputs of the same method"
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
+  - slug: scvi-scales-trvae-scgen-fail
+    title: "scVI/scANVI scale to 1M cells; trVAE, scGen, Seurat v3, MNN fail at 100k+ cells on CPU"
+    status: supported
+    confidence: 0.9
+    domain: single-cell-methods
+  - slug: strongest-batch-effects-species-nuclei
+    title: "Strongest batch-effect contributors are inter-species, single-nucleus-vs-single-cell, and spatial location"
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
+  - slug: combat-bbknn-fastest-scvi-low-memory
+    title: "ComBat, BBKNN, SAUCIE fastest; scVI, scANVI, BBKNN most memory-efficient"
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
+  - slug: scib-pipeline-reproducible-benchmark-resource
+    title: "The scIB Python module and Snakemake pipeline establish a reproducible benchmark resource for scRNA-seq integration"
+    status: supported
+    confidence: 0.95
+    domain: single-cell-methods
+  - slug: label-free-metrics-capture-trajectories-cellcycle
+    title: "Label-free bio-conservation metrics distinguish methods that classical label-based metrics rank as equal"
+    status: supported
+    confidence: 0.8
+    domain: single-cell-methods
+  - slug: atlas-complexity-favors-deep-learning-integration
+    title: "Atlas-complexity integration tasks favor nonlinear deep-learning methods over classical linear methods"
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
 
 Summary:
 
@@ -3629,3 +3745,67 @@ foundations:
     title: "PME-seq — whole-tissue RNA-seq toolkit"
     status: mainstream
     domain: genomics / bulk transcriptomics
+  - slug: scvi-deep-generative-model
+    title: "scVI — single-cell variational inference"
+    status: mainstream
+    domain: methods / single-cell-integration / deep-learning
+  - slug: scanvi-semi-supervised
+    title: "scANVI — semi-supervised single-cell ANnotation using Variational Inference"
+    status: mainstream
+    domain: methods / single-cell-integration / deep-learning
+  - slug: harmony-integration
+    title: "Harmony — fast iterative integration via soft clustering"
+    status: mainstream
+    domain: methods / single-cell-integration
+  - slug: scanorama-integration
+    title: "Scanorama — heterogeneous scRNA-seq integration via panoramic stitching"
+    status: mainstream
+    domain: methods / single-cell-integration
+  - slug: bbknn-integration
+    title: "BBKNN — Batch-Balanced k-Nearest Neighbors graph integration"
+    status: mainstream
+    domain: methods / single-cell-integration
+  - slug: mnn-fastmnn-integration
+    title: "MNN and FastMNN — mutual-nearest-neighbor scRNA-seq integration"
+    status: mainstream
+    domain: methods / single-cell-integration
+  - slug: liger-nmf-integration
+    title: "LIGER — integrative non-negative matrix factorization for single-cell multi-omics"
+    status: mainstream
+    domain: methods / single-cell-integration / multi-omics
+  - slug: scgen-perturbation-integration
+    title: "scGen — generative VAE for perturbation modelling and label-aware integration"
+    status: mainstream
+    domain: methods / single-cell-integration / perturbation-modelling
+  - slug: combat-batch-correction
+    title: "ComBat — empirical Bayes batch effect correction"
+    status: mainstream
+    domain: methods / batch-correction
+  - slug: trvae-conditional-vae
+    title: "trVAE — conditional out-of-distribution VAE for unpaired single-cell data"
+    status: emerging
+    domain: methods / single-cell-integration / deep-learning
+  - slug: scib-benchmark-pipeline
+    title: "scIB — single-cell Integration Benchmark Python module and Snakemake pipeline"
+    status: mainstream
+    domain: methods / benchmarking / single-cell-integration
+  - slug: snakemake-workflow
+    title: "Snakemake — reproducible bioinformatics workflow engine"
+    status: mainstream
+    domain: methods / workflow-engine / bioinformatics-infrastructure
+  - slug: kbet-batch-test
+    title: "kBET — k-nearest-neighbor batch effect test"
+    status: mainstream
+    domain: methods / batch-effect-metric / single-cell
+  - slug: lisi-local-inverse-simpson
+    title: "LISI — Local Inverse Simpson's Index for single-cell batch/cell-type mixing"
+    status: mainstream
+    domain: methods / batch-effect-metric / single-cell
+  - slug: silhouette-asw-metric
+    title: "Average Silhouette Width (ASW) — clustering quality metric"
+    status: mainstream
+    domain: methods / clustering-metric / general
+  - slug: hvg-selection-scrna
+    title: "Highly Variable Gene (HVG) selection in scRNA-seq"
+    status: mainstream
+    domain: methods / scRNA-seq-preprocessing
