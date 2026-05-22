@@ -91,6 +91,12 @@ papers:
     importance: 5
     domain: immunology
     priority: core
+  - slug: jak-stat-signaling-maintains-homeostasis-cells
+    title: "JAK-STAT signaling maintains homeostasis in T cells and macrophages"
+    tags: [jak-stat, homeostasis, interferon, ISGF3, STAT1, STAT2, IRF9, TYK2, STAT5BN642H, chromatin-accessibility, spatial-transcriptomics, immunology, epigenetics]
+    importance: 5
+    domain: immunology
+    priority: core
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -489,6 +495,30 @@ concepts:
     title: "Tumour explant and organotypic slice culture"
     tags: [oncology, ex-vivo-models, immunotherapy]
     maturity: active
+  - slug: tonic-baseline-jak-stat-homeostasis
+    title: "Tonic / baseline JAK-STAT signaling in homeostatic immune cells"
+    tags: [immunology, jak-stat, interferon, homeostasis, ISG, epigenetics]
+    maturity: active
+  - slug: tissue-context-dependence-immune-signaling
+    title: "Tissue context dependence of baseline immune-cell signaling"
+    tags: [immunology, niche, macrophage-identity, jak-stat, ex-vivo, tissue-context]
+    maturity: active
+  - slug: isgf3-independent-irf9-function
+    title: "ISGF3-independent transcriptional functions of IRF9"
+    tags: [immunology, irf9, jak-stat, transcription-factor, isgf3, non-canonical-signaling]
+    maturity: active
+  - slug: stat5b-n642h-neomorphic-oncogenic-driver
+    title: "STAT5BN642H as a neomorphic oncogenic transcription factor"
+    tags: [oncology, transcription-factor, stat5, t-cell-leukemia, neomorphic-mutation, jak-stat]
+    maturity: active
+  - slug: stat1-isoform-specificity-alpha-beta
+    title: "STAT1 α / β isoform specificity"
+    tags: [immunology, stat1, transcription-factor, isoform, jak-stat]
+    maturity: active
+  - slug: kinase-independent-functions-tyk2
+    title: "Kinase-independent regulatory functions of TYK2"
+    tags: [immunology, tyk2, jak-stat, kinase, scaffold-function]
+    maturity: active
 
 topics:
 
@@ -646,6 +676,21 @@ people:
   - slug: elisa-t-zhang
     tags: [organoids, oncology, tumour-immune-microenvironment]
     affiliation: "Stanford University School of Medicine"
+  - slug: nikolaus-fortelny
+    tags: [computational-biology, immunology, jak-stat, epigenetics, gene-regulatory-networks]
+    affiliation: "PLUS Salzburg / CeMM, Vienna"
+  - slug: matthias-farlik
+    tags: [epigenomics, single-cell, dermatology, jak-stat, immunology]
+    affiliation: "Medical University of Vienna"
+  - slug: christoph-bock
+    tags: [epigenomics, single-cell, methods, immunology, jak-stat]
+    affiliation: "CeMM, Vienna"
+  - slug: thomas-decker
+    tags: [jak-stat, transcription, immunology, interferon]
+    affiliation: "Max Perutz Labs, University of Vienna"
+  - slug: mathias-mueller
+    tags: [jak-stat, tyk2, mouse-genetics, immunology, transgenic-models]
+    affiliation: "Vetmeduni Vienna"
 
 ideas:
 
@@ -2080,6 +2125,156 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / immuno-oncology
+  - slug: baseline-jak-stat-homeostasis-cd8-macrophage
+    title: "Tonic / baseline JAK-STAT signaling exists in unstimulated CD8+ T cells and macrophages of unperturbed mice"
+    tags: [jak-stat, homeostasis, immune-cells, baseline-signaling, spleen]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: jak-stat-multiomics-resource-12-mutants
+    title: "469 RNA-seq and 496 ATAC-seq high-quality profiles across 12 JAK-STAT mouse models"
+    tags: [resource, jak-stat, atac-seq, rna-seq, methodological]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: stat2-stat3-stat5-irf9-strongest-transcriptional-effects-homeostasis
+    title: "STAT2, STAT3, STAT5 and IRF9 KO produce the largest transcriptional effects on homeostatic immune cells"
+    tags: [jak-stat, stat2, stat3, stat5, irf9, homeostasis]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: core-isg-downregulation-isgf3-tyk2-ko-homeostasis
+    title: "Core ISGs are downregulated in ISGF3 member KOs and TYK2 KOs under homeostasis"
+    tags: [isg, isgf3, jak-stat, stat1, stat2, irf9, tyk2, homeostasis]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: stat3-stat5-cooperate-isgf3-macrophage-isg-regulation
+    title: "STAT3 and STAT5 cooperate with ISGF3 to regulate a subset of ISGs in macrophages under homeostasis"
+    tags: [stat3, stat5, isg, isgf3, macrophage]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: jak-stat-16-gene-regulatory-modules-homeostasis
+    title: "JAK-STAT-perturbed homeostatic immune cells partition into 16 gene-regulatory modules"
+    tags: [jak-stat, gene-modules, umap, gene-regulatory-landscape]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: module-p-isg-core-isgf3-tyk2-ko-downregulation
+    title: "Module P matches the ISG-core gene set and is downregulated in all ISGF3 member KOs and TYK2 KOs"
+    tags: [isg, module-p, isgf3, tyk2, jak-stat]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: irf9-isgf3-independent-target-regulation
+    title: "IRF9 regulates target genes independent of STAT1, STAT2 and the ISGF3 complex"
+    tags: [irf9, isgf3, non-canonical-signaling, jak-stat]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: irf9-stat3-stat5-partnership-macrophage-correlation
+    title: "IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes"
+    tags: [irf9, stat3, stat5, macrophage, non-canonical-isgf3]
+    status: weakly_supported
+    confidence: 0.55
+    domain: immunology
+  - slug: stat5bn642h-neomorphic-low-correlation-il2
+    title: "STAT5BN642H targets weakly correlate with WT STAT5 IL-2 response — neomorphic TF"
+    tags: [stat5, stat5bn642h, neomorphic, il-2, oncogenic, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: stat5bn642h-aurora-e2f4-foxm1-target-shift
+    title: "STAT5BN642H targets are enriched for AURORA kinase, cell-cycle, E2F4 and FOXM1 signatures"
+    tags: [stat5, stat5bn642h, aurora-kinase, cell-cycle, oncogenic-tf]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: stat1-alpha-beta-isoform-divergent-effects
+    title: "STAT1α and STAT1β isoforms produce distinct, partially opposing transcriptomes under homeostasis"
+    tags: [stat1, isoform, jak-stat, homeostasis]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: tyk2-kinase-independent-functions
+    title: "TYK2 has kinase-independent regulatory functions: Tyk2-KO and Tyk2-K923E diverge on a subset of IL-12 genes"
+    tags: [tyk2, kinase-independent, scaffold-function, jak-stat]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: spatial-transcriptomics-confirms-stat1-baseline-isg-spleen
+    title: "Visium spatial transcriptomics on perfusion-fixed spleens confirms STAT1-driven ISG expression in vivo"
+    tags: [spatial-transcriptomics, visium, stat1, isg, spleen]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: rnascope-validates-oas3-ifit3-stat1-dependence
+    title: "RNAscope single-molecule RNA-FISH validates STAT1 dependence of Oas3 and Ifit3"
+    tags: [rnascope, smfish, stat1, oas3, ifit3, spleen]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: jak-stat-three-epigenome-transcriptome-coupling-groups
+    title: "JAK-STAT mutants partition into three epigenome–transcriptome coupling groups in homeostasis"
+    tags: [atac-seq, rna-seq, jak-stat, epigenome, transcriptome-coupling]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: stat5-stat6-repressive-chromatin-macrophage-homeostasis
+    title: "STAT5 and STAT6 KOs increase chromatin accessibility in macrophages — repressive role under homeostasis"
+    tags: [stat5, stat6, atac-seq, macrophage, repressor]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: stat5bn642h-opens-effector-loci-tcell-hyperproliferation
+    title: "STAT5BN642H opens T-cell effector loci (Gzmk/Gzmb, Klrc1/Klre1, Mki67)"
+    tags: [stat5bn642h, atac-seq, effector-tcell, granzyme, t-cell-leukemia]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: tobias-footprinting-jak-stat-mutant-tf-activity-shifts
+    title: "TOBIAS footprinting reveals mutant-specific TF activity in JAK-STAT mutants"
+    tags: [tobias, atac-footprinting, tf-activity, jak-stat]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: ex-vivo-context-deprivation-collapses-baseline-jak-stat
+    title: "Ex vivo culture collapses JAK-STAT and IFN signatures, mimicking JAK-STAT KO phenotypes"
+    tags: [ex-vivo, tissue-context, jak-stat, ifn-signature]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ifn-beta-partially-rescues-context-deprivation-except-stat1beta
+    title: "IFN-β partially rescues context-deprivation transcriptional changes, except STAT1β-dependent genes"
+    tags: [ifn-beta, rescue, ex-vivo, stat1beta]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: macrophage-identity-tissue-context-dependent-irreversible-ex-vivo
+    title: "Macrophage cellular identity depends on tissue context — not rescued by M-CSF or IFN-β"
+    tags: [macrophage-identity, tissue-context, ex-vivo]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen
+    title: "CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate baseline-JAK-STAT triggers"
+    tags: [cellchat, receptor-ligand, spleen, tissue-context]
+    status: weakly_supported
+    confidence: 0.45
+    domain: immunology
+  - slug: stat1-ko-preserves-spleen-architecture
+    title: "Stat1-KO mice preserve overall spleen architecture and immune cell localization"
+    tags: [stat1, spleen, tissue-architecture, knockout-mouse]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: stat2-irf9-keystones-baseline-jak-stat-priming
+    title: "STAT2 and IRF9 are the keystones of baseline JAK-STAT priming"
+    tags: [stat2, irf9, jak-stat, ifn-beta, priming]
+    status: supported
+    confidence: 0.8
+    domain: immunology
 
 Summary:
 
@@ -2602,3 +2797,43 @@ foundations:
     title: "Cancer-associated fibroblast (CAF) — tumour-microenvironment stromal cell"
     status: mainstream
     domain: cell biology / oncology
+  - slug: stat1-tf
+    title: "STAT1 — signal transducer and activator of transcription 1"
+    status: mainstream
+    domain: immunology / transcription factor / JAK-STAT
+  - slug: stat2-tf
+    title: "STAT2 — signal transducer and activator of transcription 2"
+    status: mainstream
+    domain: immunology / transcription factor / JAK-STAT
+  - slug: stat3-tf
+    title: "STAT3 — signal transducer and activator of transcription 3"
+    status: mainstream
+    domain: immunology / transcription factor / JAK-STAT
+  - slug: stat5-tf
+    title: "STAT5 (STAT5A / STAT5B) — signal transducer and activator of transcription 5"
+    status: mainstream
+    domain: immunology / transcription factor / JAK-STAT
+  - slug: stat6-tf
+    title: "STAT6 — signal transducer and activator of transcription 6"
+    status: mainstream
+    domain: immunology / transcription factor / JAK-STAT
+  - slug: irf9-tf
+    title: "IRF9 — interferon regulatory factor 9"
+    status: mainstream
+    domain: immunology / transcription factor / JAK-STAT / ISGF3
+  - slug: tyk2-kinase
+    title: "TYK2 — Tyrosine kinase 2 (Janus kinase family)"
+    status: mainstream
+    domain: immunology / kinase / JAK family
+  - slug: isgf3-complex
+    title: "ISGF3 complex (STAT1-STAT2-IRF9)"
+    status: mainstream
+    domain: immunology / transcription complex / type I IFN
+  - slug: tobias-atac-footprinting
+    title: "TOBIAS — transcription factor footprinting on ATAC-seq"
+    status: mainstream
+    domain: methods / chromatin accessibility / TF footprinting
+  - slug: rnascope-single-molecule-fish
+    title: "RNAscope — single-molecule RNA fluorescence in situ hybridization"
+    status: mainstream
+    domain: methods / spatial transcriptomics / RNA-FISH

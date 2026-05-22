@@ -74,6 +74,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How does HIF2α-driven 5-FU resistance via macrophage DPD inform CRC combination strategy?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] What is the relationship between this review's HIF/TAM/TME framing and the genomic-instability framework of [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] (Suvac, Ashton, Bristow 2025)?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] For the user's thesis (skin / hypoxia / TAMs), which therapeutic class (HAP vs vascular normalization vs HIF inhibitor vs nano-O₂) maps best onto the skin-cancer hypoxic niche?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] What is the role of perturbed baseline JAK-STAT signaling in human disease (inborn errors of immunity, inflammatory disorders, cancer)?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] Which specific cell-extrinsic ligands and source cell types trigger baseline JAK-STAT in the spleen tissue context?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] What non-ISGF3 protein complexes does IRF9 form to regulate ISGF3-independent targets?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] Do other signaling pathways (e.g. NF-κB, MAPK) similarly maintain baseline activity under homeostasis?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] How does baseline JAK-STAT signaling intersect with hypoxia in the spleen and in tumour-infiltrating cells (relevant to thesis)?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] Can context-deprivation phenotypes be partially reversed by reconstituting CellChat-nominated receptor-ligand pairs in vitro (e.g. KLRB1 agonism)?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] Are the IRF9 non-ISGF3 partners cell-type-specific, and do they overlap with STAT3/STAT5 targets in human macrophages?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] Does single-cell ATAC + RNA on perfusion-fixed spleens reproduce the bulk-derived three-group epigenome/transcriptome coupling pattern?
+- [paper/jak-stat-signaling-maintains-homeostasis-cells] How does the neomorphic STAT5BN642H chromatin signature relate to TEXterm chromatin landscapes in chronic infection / tumour CD8 cells (cross-link to [[papers/atlas-guided-discovery-transcription-factors-cell]])?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Does the ancestry-specific hypoxia signal in BRCA reflect biology or socioeconomic confounding (selection bias in TCGA)?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Are the hypoxia-mutation co-occurrences causally linked, or co-selected by independent microenvironmental pressures?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Can the nimbosus signature drive treatment-decision prospective trials in localized PCa?
@@ -272,10 +281,15 @@ _Auto-generated open questions. Do not edit._
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
+- [concept/isgf3-independent-irf9-function] IP-MS / proximity-labeling to identify IRF9 partners under homeostasis.
+- [concept/isgf3-independent-irf9-function] Test whether STAT3 or STAT5 KO abolishes the IRF9-only target subset.
+- [concept/isgf3-independent-irf9-function] Determine if ISGF3-independent IRF9 has analogous roles in human macrophages and TILs.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] A complete map of which KDMs are O₂-substrate-limited at physiological tumor hypoxia (pO₂ < 10 mmHg) — KMs vary across the family.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Whether KDM oxygen sensing dominates or merely modulates the HIF transcriptional response in hypoxic cancer cells in vivo.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Therapeutic exploitation: KDM inhibitors as hypoxia-mimetic compounds, or KDM activators as anti-hypoxia compounds.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Cross-talk with the metabolic state: 2-OG and succinate are competing co-substrates / inhibitors of KDMs; oncometabolite states (SDH-deficient paragangliomas, IDH-mutant gliomas) overlap with KDM regulation.
+- [concept/kinase-independent-functions-tyk2] Identify TYK2-interacting receptor/signaling complexes that depend on TYK2 protein presence but not its catalytic activity.
+- [concept/kinase-independent-functions-tyk2] Predict which clinical phenotypes of TYK2 inhibition vs TYK2 loss-of-function variants will diverge.
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
@@ -356,6 +370,11 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatially-variable-gene-detection] Specialised SVP detection for spatial ATAC-seq (current SVG methods fail; see [[concepts/spatial-atac-svp-detection-gap]]).
 - [concept/spatially-variable-gene-detection] SVG–SVP integration for spatial gene-regulatory networks.
 - [concept/spatially-variable-gene-detection] Rotation- and registration-invariant SVG scoring.
+- [concept/stat1-isoform-specificity-alpha-beta] Identify isoform-specific chromatin binding sites and protein partners.
+- [concept/stat1-isoform-specificity-alpha-beta] Test STAT1β-specific roles in human immune cells, where the literature is even sparser.
+- [concept/stat5b-n642h-neomorphic-oncogenic-driver] Identify the protein-interaction partners that distinguish STAT5BN642H from STAT5-WT.
+- [concept/stat5b-n642h-neomorphic-oncogenic-driver] Test whether N642H-specific chromatin opening at effector loci is reversible by JAK inhibitors.
+- [concept/stat5b-n642h-neomorphic-oncogenic-driver] Cross-link neomorphic STAT5BN642H chromatin signature to TEXterm chromatin atlases.
 - [concept/succinate-sucnr1-tam-axis] A unified pharmacological model of SUCNR1 antagonism in TAM and tumor cell — does the same antagonist hit both?
 - [concept/succinate-sucnr1-tam-axis] Whether SUCNR1 signaling in TAM converges with the lactate-GPCR axis at common downstream nodes (HIF-1α, mTOR).
 - [concept/succinate-sucnr1-tam-axis] The role of cyclic / intermittent hypoxia in modulating tumor-cell succinate release: H-R cycles induce ROS bursts that may release succinate transiently.
@@ -368,6 +387,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Therapeutic value of NRP1 antagonism: blocks the Sema3A-mediated stop-signal but may also affect VEGF signaling; selectivity strategies needed.
 - [concept/tertiary-lymphoid-structure] Causal role of CXCL13+ exhausted T cells in TLS induction (MIBI evidence in melanoma).
 - [concept/tertiary-lymphoid-structure] TLS-targeted therapeutics.
+- [concept/tissue-context-dependence-immune-signaling] Identify the source-cell + ligand pairs that maintain baseline JAK-STAT in each tissue.
+- [concept/tissue-context-dependence-immune-signaling] Determine whether reconstituting a single CellChat-nominated pair can rescue context-deprivation phenotypes.
+- [concept/tissue-context-dependence-immune-signaling] Quantify how much of the literature's "macrophage transcriptome" reflects ex vivo context loss.
 - [concept/tissue-resident-macrophage-tumor-niche] Identification of the secreted factor(s) (VEGFA? PLAU? TGFβ1?) that mediate the EMT-niche signal
 - [concept/tissue-resident-macrophage-tumor-niche] Mechanism of temporal restriction: why does TRM dependence end at day 12-15?
 - [concept/tissue-resident-macrophage-tumor-niche] Generalisability across tumour types — is there a Kupffer-cell-driven HCC niche, microglia-driven glioma niche, etc.?
@@ -378,6 +400,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether stochastic or instructive specification dominates in the embryo.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether unique cocktails of cytokines and growth factors can substitute for LDF expression.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).
+- [concept/tonic-baseline-jak-stat-homeostasis] Map cell-extrinsic ligands and source cells for baseline JAK-STAT in each tissue.
+- [concept/tonic-baseline-jak-stat-homeostasis] Determine whether baseline activity itself shapes responsiveness to cytokine stimulation (priming gain).
+- [concept/tonic-baseline-jak-stat-homeostasis] Test whether disease-associated JAK-STAT variants disrupt baseline more than induced signaling.
 - [concept/trem2-microglia-dementia-axis] Whether TREM2 agonists in late-stage Alzheimer's will help (DAM may be exhausted) or harm (overdrive of inflammation).
 - [concept/trem2-microglia-dementia-axis] The interaction between TREM2-DAM and complement-pruning machinery in synapse loss.
 - [concept/trem2-microglia-dementia-axis] Why some TREM2 variants are protective (T96K, L211P) while others are risk-increasing (R47H, R62H).
@@ -428,10 +453,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
+- [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
+- [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)

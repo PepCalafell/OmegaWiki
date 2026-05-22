@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (286 total)
+## Claims (311 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,11 +29,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (16 total)
+## Papers (17 total)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
+- [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [4] Hypoxia signaling in human health and diseases: implications and prospects for therapeutics (molecular-biology / hypoxia-signaling / translational-medicine)
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
@@ -44,14 +45,12 @@ _Auto-generated open questions. Do not edit._
 - [5] Atlas-guided discovery of transcription factors for T cell programming (immunology)
 - [4] PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer (immuno-oncology / tumor immunology / single-cell genomics)
 - [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
-- [5] Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease (immunology / single-cell / oncology)
-## Recent Relationships (641 total)
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/prdm1-blimp1-tf
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/aiolos-tf
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/pagerank-algorithm
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/p14-tcr-transgenic
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/lcmv-clone13-chronic-infection-model
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/lcmv-armstrong-acute-infection-model
-  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/b16-gp33-melanoma-act-model
-  papers/atlas-guided-discovery-transcription-factors-cell --supports--> claims/taiji-cd8-atlas-9-states-121-samples
-  papers/atlas-guided-discovery-transcription-factors-cell --supports--> claims/cd8-tf-classif
+## Recent Relationships (688 total)
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/baseline-jak-stat-homeostasis-cd8-macrophage
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/jak-stat-multiomics-resource-12-mutants
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/stat2-stat3-stat5-irf9-strongest-transcriptional-effects-homeostasis
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/core-isg-downregulation-isgf3-tyk2-ko-homeostasis
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/stat3-stat5-cooperate-isgf3-macrophage-isg-regulation
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/jak-stat-16-gene-regulatory-modules-homeostasis
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/module-p-isg-core-isgf3-tyk2-ko-downregulation
+  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/irf9-isgf3-independent-target-r
