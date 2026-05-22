@@ -23,3 +23,4 @@
 ## [2026-05-21] ingest | added papers/systematic-benchmarking-computational-methods-identify-spatially | +1 paper, +7 claims, +4 concepts, +10 foundations, +2 people, +21 edges
 ## [2026-05-21] ingest | added papers/cancer-organoids-modelling-complexity-tumour-immune | updated: +9 concepts, +5 foundations, +24 claims, +3 people, +38 edges
 ## [2026-05-21] ingest | added papers/hypoxia-signaling-human-health-diseases-implications | concepts: hif-cross-talk-pi3k-mtor-nfkb-erk-er-stress, hif-bidirectional-regulation-programmed-cell-death, hif-dependent-glycolysis-immune-cell-differentiation, viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2 | claims: 20 atomic | people: zhen-luo, jianguo-wu, pin-wan | edges: 30+
+## [2026-05-22] ingest | added papers/atlas-guided-discovery-transcription-factors-cell (Nature 2025, importance=5) | created 6 concepts, 18 claims, 11 foundations, 4 people | +35 edges

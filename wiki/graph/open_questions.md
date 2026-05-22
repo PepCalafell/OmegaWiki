@@ -12,6 +12,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-evasion]] contexts?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Where does IL4I1 fit relative to IDO1/TDO2 in AHR-ligand generation in human tumours (cf. [[papers/cross-tissue-single-cell-landscape-human]] IL4I1⁺PD-L1⁺IDO1⁺ MoMac-VERSE cluster)?
+- [paper/atlas-guided-discovery-transcription-factors-cell] Which combinatorial TF KO + enforced-expression recipes yield the most durable anti-tumour T cells?
+- [paper/atlas-guided-discovery-transcription-factors-cell] How do TF recipes generalize to CAR-T and TIL platforms?
+- [paper/atlas-guided-discovery-transcription-factors-cell] Can the same atlas-guided strategy uncover state-selective TFs in CD4+ T cells, NK cells, or myeloid lineages?
+- [paper/atlas-guided-discovery-transcription-factors-cell] Do TEXterm single-state TFs identified in viral models behave identically in TILs across diverse human cancers (especially hypoxic tumours)?
+- [paper/atlas-guided-discovery-transcription-factors-cell] How does ZSCAN20 KO interact with HIF1α/HIF2α-driven exhaustion programmes in hypoxic tumour microenvironments?
+- [paper/atlas-guided-discovery-transcription-factors-cell] Is the proteasome-catabolism community a tractable pharmacological target (bortezomib analogues) in TIL therapy?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Can FNA-derived ALI or microfluidic organoids generate sufficient biomass to recapitulate tumour architecture and immune populations from minimally invasive biopsies?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Can perturb-seq / CROP-seq be extended to non-reconstituted native immune organoids despite multicellularity?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Which combination immunotherapies will reliably convert "cold" tumours to "hot" in immune organoid platforms?
@@ -177,6 +183,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
 - [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
+- [concept/cd8-t-cell-exhaustion-texterm] Which TEXterm-selective TFs are druggable in CAR-T or TIL therapy?
+- [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
 - [concept/chromothripsis-hypoxia-prostate] Whether anti-hypoxia therapy reduces chromothripsis incidence in vivo
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
@@ -365,6 +373,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tissue-resident-macrophage-tumor-niche] Generalisability across tumour types — is there a Kupffer-cell-driven HCC niche, microglia-driven glioma niche, etc.?
 - [concept/tissue-resident-macrophage-tumor-niche] How TRM niche functions interface with hypoxia-driven macrophage reprogramming
 - [concept/tissue-resident-macrophage-tumor-niche] Therapeutic targeting strategies that selectively impair the niche function without compromising surfactant clearance and homeostatic TRM functions
+- [concept/tissue-resident-memory-cd8-t-cell-trm] Can enforced KLF6 expression be combined with CAR-T to boost tumour-resident anti-tumour memory?
+- [concept/tissue-resident-memory-cd8-t-cell-trm] Do TRM-selective TFs differ between viral and tumour contexts?
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether stochastic or instructive specification dominates in the embryo.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether unique cocktails of cytokines and growth factors can substitute for LDF expression.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).

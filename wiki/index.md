@@ -85,8 +85,38 @@ papers:
     importance: 4
     domain: oncology
     priority: reference
+  - slug: atlas-guided-discovery-transcription-factors-cell
+    title: "Atlas-guided discovery of transcription factors for T cell programming"
+    tags: [cd8-t-cells, exhaustion, tissue-resident-memory, transcription-factor, taiji, perturb-seq, immunotherapy]
+    importance: 5
+    domain: immunology
+    priority: core
 
 concepts:
+  - slug: cd8-t-cell-exhaustion-texterm
+    title: "CD8+ T cell exhaustion and the TEXterm state"
+    tags: [immunology, cd8-t-cells, exhaustion, cancer-immunotherapy, chronic-infection]
+    maturity: active
+  - slug: tissue-resident-memory-cd8-t-cell-trm
+    title: "Tissue-resident memory CD8+ T cells (TRM)"
+    tags: [immunology, cd8-t-cells, memory, mucosal-immunity, anti-tumour-immunity]
+    maturity: active
+  - slug: taiji-tf-activity-pipeline
+    title: "Taiji TF activity pipeline"
+    tags: [methods, transcription-factor, gene-regulatory-network, multi-omics, immunology]
+    maturity: active
+  - slug: in-vivo-perturb-seq
+    title: "In vivo Perturb-seq"
+    tags: [methods, crispr, single-cell, functional-genomics, immunology]
+    maturity: active
+  - slug: single-state-vs-multi-state-tf-classification
+    title: "Single-state vs multi-state TF classification"
+    tags: [methods, transcription-factor, immunology, t-cell-engineering]
+    maturity: emerging
+  - slug: tf-community-analysis-grn
+    title: "TF community analysis of gene regulatory networks"
+    tags: [methods, gene-regulatory-network, transcription-factor, network-biology]
+    maturity: emerging
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
     title: "Adipose tissue-resident macrophage / PDGF-CC / lipid storage axis"
     tags: [macrophage, adipose-tissue, obesity, lipid-metabolism, PDGF, homeostasis, immunology]
@@ -463,6 +493,18 @@ concepts:
 topics:
 
 people:
+  - slug: h-kay-chung
+    tags: [immunology, cd8-t-cells, exhaustion, transcription-factors]
+    affiliation: "Salk Institute / UNC Lineberger"
+  - slug: susan-m-kaech
+    tags: [immunology, cd8-t-cells, memory-t-cells, exhaustion, tumour-immunology]
+    affiliation: "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute"
+  - slug: wei-wang-ucsd
+    tags: [computational-biology, gene-regulatory-network, transcription-factor, taiji-pipeline]
+    affiliation: "UC San Diego"
+  - slug: cong-liu
+    tags: [computational-biology, transcription-factor, multi-omics]
+    affiliation: "UC San Diego"
   - slug: alexandru-suvac
     tags: [hypoxia, DNA-repair, genomic-instability, cancer-genomics]
     affiliation: "Translational Oncogenomics Laboratory, CRUK Manchester Institute, University of Manchester"
@@ -610,6 +652,96 @@ ideas:
 experiments:
 
 claims:
+  - slug: taiji-cd8-atlas-9-states-121-samples
+    title: "Taiji TF-activity atlas integrates 121 RNA-seq and ATAC-seq samples across nine CD8+ T cell states"
+    tags: [methods, taiji, cd8-t-cells, multi-omics]
+    status: supported
+    confidence: 0.9
+  - slug: cd8-tf-classification-136-single-173-multi-state
+    title: "Atlas yields 136 single-state and 173 multi-state TF genes across nine CD8+ T cell states"
+    tags: [taiji, transcription-factor, cd8-t-cells]
+    status: supported
+    confidence: 0.85
+  - slug: texterm-vs-trm-34-and-20-single-state-tfs
+    title: "TEXterm and TRM each harbour distinct single-state TF rosters (34 vs 20) with 30 shared multi-state TFs"
+    tags: [taiji, exhaustion, trm, transcription-factor]
+    status: supported
+    confidence: 0.85
+  - slug: proteasome-pathway-hallmark-texterm
+    title: "Proteasome catabolism is a functional hallmark of TEXterm cells linked to dysfunction"
+    tags: [exhaustion, proteasome, catabolism, cd8-t-cells]
+    status: supported
+    confidence: 0.85
+  - slug: perturb-seq-19-tf-chronic-lcmv-17257-cells
+    title: "In vivo Perturb-seq screens 19 candidate TF genes in chronic LCMV across 17,257 P14 CD8+ T cells"
+    tags: [perturb-seq, crispr, taiji, methodological]
+    status: supported
+    confidence: 0.9
+  - slug: multi-state-tf-ko-90-percent-texterm-reduction
+    title: "KO of Hic1, Stat3, Prdm1 or Ikzf3 reduces TEXterm differentiation by ~90% in chronic LCMV"
+    tags: [perturb-seq, exhaustion, multi-state-tf, quantitative]
+    status: supported
+    confidence: 0.85
+  - slug: zscan20-jdp2-zfp324-ko-texterm-reduction
+    title: "Zfp324, Zscan20, and Jdp2 KO reduce TEXterm differentiation by 78%, 54%, and 43% respectively"
+    tags: [perturb-seq, zscan20, jdp2, zfp324, single-state-tf, quantitative]
+    status: supported
+    confidence: 0.85
+  - slug: zscan20-jdp2-ko-improves-cytokine-and-viral-load
+    title: "Zscan20 and Jdp2 KO P14 CD8+ T cells produce more IFNγ/TNF and reduce viral load in chronic LCMV"
+    tags: [perturb-seq, zscan20, jdp2, mechanistic, viral-control]
+    status: supported
+    confidence: 0.85
+  - slug: texterm-single-state-tf-ko-spares-trm
+    title: "KO of eight TEXterm single-state TF genes does not impair TRM cell formation in acute LCMV"
+    tags: [perturb-seq, trm, single-state-tf, selectivity, mechanistic]
+    status: supported
+    confidence: 0.85
+  - slug: hic1-gfi1-ko-reduces-both-trm-and-texterm
+    title: "Hic1 and Gfi1 KO reduce both TRM and TEXterm cell frequency, confirming multi-state TF status"
+    tags: [hic1, gfi1, multi-state-tf, mechanistic]
+    status: supported
+    confidence: 0.85
+  - slug: klf6-overexpression-15x-trm-enrichment
+    title: "KLF6 overexpression yields 15× small-intestinal enrichment and 42× more CD69+CD103+ TRM-like cells"
+    tags: [klf6, trm, gain-of-function, quantitative]
+    status: supported
+    confidence: 0.85
+  - slug: zscan20-ko-better-tumour-control-than-hic1
+    title: "Zscan20 KO improves B16-GP33 tumour control more than Hic1 KO in ACT"
+    tags: [zscan20, hic1, tumour-control, single-state-tf, pharmacological]
+    status: supported
+    confidence: 0.8
+  - slug: cross-species-conservation-19-of-34-texterm-tfs
+    title: "19/34 mouse TEXterm single-state TFs and 22/30 multi-state TFs are conserved in human pan-cancer CD8+ T cells"
+    tags: [scTaiji, cross-species, human-pan-cancer, transcription-factor, quantitative]
+    status: supported
+    confidence: 0.8
+  - slug: zscan20-jdp2-ko-human-cd8-functional-rescue
+    title: "ZSCAN20 and JDP2 KO in human CD8+ T cells reduce inhibitory receptors and boost polyfunctional cytokine output"
+    tags: [zscan20, jdp2, human-cd8, exhaustion, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: zscan20-jdp2-ko-synergizes-anti-pd1-b16
+    title: "Zscan20 or Jdp2 KO synergize with anti-PD1 to reduce B16-GP33 tumour burden and improve survival"
+    tags: [zscan20, jdp2, anti-pd1, icb-synergy, pharmacological]
+    status: supported
+    confidence: 0.8
+  - slug: tf-community-rewiring-trm-vs-texterm
+    title: "TF community analysis reveals state-specific pathway rewiring: TGFβ/adhesion in TRM vs proteasome/apoptosis in TEXterm"
+    tags: [tf-community, network-rewiring, trm, exhaustion, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: prdm1-stat3-ko-expands-texprog
+    title: "Loss of Prdm1 or Stat3 markedly expands TEXprog cells and TEXprog signature genes"
+    tags: [prdm1, stat3, texprog, perturb-seq, mechanistic]
+    status: supported
+    confidence: 0.85
+  - slug: texterm-trm-share-most-tf-genes-due-to-tissue-residency
+    title: "TEXterm and TRM share the most TF genes among the nine CD8+ T cell states"
+    tags: [taiji, exhaustion, trm, correlational]
+    status: supported
+    confidence: 0.75
   - slug: adipose-trm-pdgf-cc-controls-lipid-storage
     title: "White adipose tissue-resident macrophages produce diet-regulated PDGF-CC that promotes lipid storage in adipocytes; loss redirects energy to brown adipose dissipation"
     tags: [adipose-macrophage, PDGF-CC, lipid-storage, WAT, obesity, metabolism, macrophage]
@@ -1952,6 +2084,50 @@ claims:
 Summary:
 
 foundations:
+  - slug: zscan20-tf
+    title: "ZSCAN20"
+    status: mainstream
+    domain: immunology
+  - slug: jdp2-tf
+    title: "JDP2"
+    status: mainstream
+    domain: immunology
+  - slug: klf6-tf
+    title: "KLF6"
+    status: mainstream
+    domain: immunology
+  - slug: hic1-tf
+    title: "HIC1"
+    status: mainstream
+    domain: immunology
+  - slug: gfi1-tf
+    title: "GFI1"
+    status: mainstream
+    domain: immunology
+  - slug: prdm1-blimp1-tf
+    title: "PRDM1 / BLIMP1"
+    status: mainstream
+    domain: immunology
+  - slug: pagerank-algorithm
+    title: "PageRank algorithm"
+    status: mainstream
+    domain: methods
+  - slug: p14-tcr-transgenic
+    title: "P14 TCR transgenic CD8+ T cells"
+    status: mainstream
+    domain: immunology
+  - slug: lcmv-clone13-chronic-infection-model
+    title: "LCMV–Clone 13 chronic infection model"
+    status: mainstream
+    domain: immunology
+  - slug: lcmv-armstrong-acute-infection-model
+    title: "LCMV–Armstrong acute infection model"
+    status: mainstream
+    domain: immunology
+  - slug: b16-gp33-melanoma-act-model
+    title: "B16-GP33 melanoma adoptive cell transfer model"
+    status: mainstream
+    domain: immunology
   - slug: ahr-ido1-tryptophan-axis
     title: "AHR / IDO1 / IL4I1 tryptophan-degradation immunosuppression axis"
     status: mainstream

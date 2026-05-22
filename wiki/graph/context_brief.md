@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (268 total)
+## Claims (286 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (15 total)
+## Papers (16 total)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
@@ -41,17 +41,17 @@ _Auto-generated open questions. Do not edit._
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment (oncology)
 - [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
+- [5] Atlas-guided discovery of transcription factors for T cell programming (immunology)
 - [4] PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer (immuno-oncology / tumor immunology / single-cell genomics)
 - [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
 - [5] Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease (immunology / single-cell / oncology)
-- [3] Systematic benchmarking of computational methods to identify spatially variable genes (methods)
-## Recent Relationships (605 total)
-  papers/hypoxia-signaling-human-health-diseases-implications --derived_from--> foundations/px-478-hif1a-inhibitor
-  papers/hypoxia-signaling-human-health-diseases-implications --derived_from--> foundations/belzutifan-mk-6482
-  papers/hypoxia-signaling-human-health-diseases-implications --supports--> claims/hif3a-suppresses-hypoxia-response-genes-angiogenesis
-  papers/hypoxia-signaling-human-health-diseases-implications --supports--> claims/pi3k-mtor-stat3-upregulates-hif-alpha-mrna
-  papers/hypoxia-signaling-human-health-diseases-implications --supports--> claims/mitochondrial-ros-stabilize-hif-via-phd-inhibition
-  papers/hypoxia-signaling-human-health-diseases-implications --supports--> claims/tlr-nfkb-axis-promotes-hif-alpha-transcription
-  papers/hypoxia-signaling-human-health-diseases-implications --supports--> claims/erk-mapk-induces-hif1a-via-p300-cbp
-  papers/hypoxia-signaling-human-health-diseases-implications --supports--> claims/hif-er-stress-bidirectional-crosstalk-upr
-  pa
+## Recent Relationships (641 total)
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/prdm1-blimp1-tf
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/aiolos-tf
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/pagerank-algorithm
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/p14-tcr-transgenic
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/lcmv-clone13-chronic-infection-model
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/lcmv-armstrong-acute-infection-model
+  papers/atlas-guided-discovery-transcription-factors-cell --derived_from--> foundations/b16-gp33-melanoma-act-model
+  papers/atlas-guided-discovery-transcription-factors-cell --supports--> claims/taiji-cd8-atlas-9-states-121-samples
+  papers/atlas-guided-discovery-transcription-factors-cell --supports--> claims/cd8-tf-classif
