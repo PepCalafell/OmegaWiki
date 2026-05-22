@@ -24,6 +24,7 @@ key_papers:
   - cross-tissue-single-cell-landscape-human
   - hypoxia-driven-crosstalk-between-tumor-tumor
   - pd-l1-expressing-tumor-associated-macrophages
+  - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
   - dictionary-immune-responses-cytokines-single-cell
   - using-pan-cancer-atlas-investigate-tumour
 first_introduced: "Mills, Kincaid et al. 2000 *J Immunol* (M1/M2 framing); refined by Cui & Hacohen 2024 *Nature* Mac-a/b/c/d/e at scRNA-seq resolution"

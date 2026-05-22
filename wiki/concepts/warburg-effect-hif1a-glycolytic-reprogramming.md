@@ -23,6 +23,7 @@ maturity: stable
 key_papers:
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
   - hypoxia-signaling-human-health-diseases-implications
+  - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
 first_introduced: "Warburg 1924; HIF link Semenza 1990s"
 date_updated: 2026-05-13
 related_concepts:

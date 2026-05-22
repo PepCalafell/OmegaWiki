@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (311 total)
+## Claims (331 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,9 +29,10 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (17 total)
+## Papers (18 total)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
+- [4] Tumor-induced metabolic immunosuppression: Mechanisms and therapeutic targets (immunometabolism)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
@@ -44,13 +45,11 @@ _Auto-generated open questions. Do not edit._
 - [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
 - [5] Atlas-guided discovery of transcription factors for T cell programming (immunology)
 - [4] PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer (immuno-oncology / tumor immunology / single-cell genomics)
-- [5] Molecular landmarks of tumor hypoxia across cancer types (oncology / genomics / hypoxia)
-## Recent Relationships (688 total)
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/baseline-jak-stat-homeostasis-cd8-macrophage
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/jak-stat-multiomics-resource-12-mutants
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/stat2-stat3-stat5-irf9-strongest-transcriptional-effects-homeostasis
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/core-isg-downregulation-isgf3-tyk2-ko-homeostasis
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/stat3-stat5-cooperate-isgf3-macrophage-isg-regulation
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/jak-stat-16-gene-regulatory-modules-homeostasis
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/module-p-isg-core-isgf3-tyk2-ko-downregulation
-  papers/jak-stat-signaling-maintains-homeostasis-cells --supports--> claims/irf9-isgf3-independent-target-r
+## Recent Relationships (746 total)
+  papers/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic --supports--> claims/idh1-2-mutation-2hg-immune-exclusion-cgas-silencing-inhibitor-rescue
+  papers/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic --supports--> claims/tumor-glycolysis-induces-tcell-pd1-reducing-icb-efficacy
+  papers/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic --supports--> claims/obesity-mtorc1-tam-pd1-glycolysis-mechanism-obesity-paradox
+  papers/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic --supports--> claims/mpc-mct1-ldh-metformin-conditioning-improves-cart-memory-persistence
+  papers/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic --supports--> claims/genetic-modification-cart-prodh2-fh-a2ar-regnase-enhances-antitumor
+  papers/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic --supports--> claims/metabolic-inhibitor-clinical-translation-asnase-idh-only-approved
+  papers/tumor-induced-metabolic-immunosu

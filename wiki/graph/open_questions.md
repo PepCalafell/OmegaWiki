@@ -141,6 +141,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] How to develop clinically compatible methods to phenotype tumour metabolism non-invasively?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Can metabolic inhibitors be made tumour-selective via nanoparticle or antibody-coupled delivery?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Will biomarker-stratified IDO1 trials succeed where unselected trials failed?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Does CB-839 + nivolumab (NCT02771626) show clinical benefit?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Can immunocompetent spontaneous-tumour models replace cell-line xenografts for metabolic immunotherapy testing?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] How does the metabolic landscape under hypoxia (relevant to thesis) reshape immune metabolism? E.g., is the lactate-acidosis-Treg-sparing asymmetry amplified in hypoxic niches?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Are tumour metabolic phenotypes (OxPhos vs glycolytic) stable across spatial niches, or do they shift with hypoxia / nutrient gradients?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Cross-link to [[papers/jak-stat-signaling-maintains-homeostasis-cells]]: does tonic JAK-STAT signalling cross-talk with TME metabolic state — i.e., does baseline ISG signalling change under glucose / glutamine / methionine depletion in TILs?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Cross-link to [[papers/atlas-guided-discovery-transcription-factors-cell]]: do metabolic stresses (lactate, low Met, low Asn) shift TF programmes captured in the multi-state TF atlas?
+- [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Is there a unifying biomarker (e.g., extracellular pH + lactate + GAPDH IHC) that could stratify patients across multiple metabolic-immunotherapy combinations?
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether hypoxia "niches" with intratumoural genetic heterogeneity for specific mutations recapitulate the global hypoxia-CN association at sub-tumour scale.
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether the centrosome/mitotic effects of hypoxia are causal vs correlational.
 - [paper/tumour-hypoxia-driving-genomic-instability-tumour] Whether reversing hypoxia in situ sensitizes hypoxic tumours to ICB.
@@ -189,9 +199,13 @@ _Auto-generated open questions. Do not edit._
 - [concept/ancestry-specific-tumor-hypoxia] Validation in non-TCGA cohorts with prospective hypoxia measurement
 - [concept/ancestry-specific-tumor-hypoxia] Does ancestry-specific hypoxia mediate the higher evofosfamide response in Asian-descent MAESTRO subjects (post-hoc finding)
 - [concept/ancestry-specific-tumor-hypoxia] Replication in pediatric cancers and rare tumor types
+- [concept/arginase-mdsc-arginine-depletion-tcell] Tissue-selective ARG inhibition that spares hepatic urea cycle.
+- [concept/asparagine-tcell-activation-lck-axis] Therapeutic window between Asn-depleting tumour effect and TIL impairment.
 - [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
 - [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
+- [concept/car-t-metabolic-conditioning-persistence] Optimal conditioning cocktails.
+- [concept/car-t-metabolic-conditioning-persistence] Patient-specific TME-matched conditioning.
 - [concept/cd8-t-cell-exhaustion-texterm] Which TEXterm-selective TFs are druggable in CAR-T or TIL therapy?
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
@@ -215,6 +229,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
+- [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Predictive biomarker for response (beyond VHL mutation): is there a transcriptomic signature that identifies HIF-2α-dependent tumors better than VHL status alone?
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Dose-response and chronic toxicity: long-term Belzutifan safety in young VHL patients (lifelong therapy).
@@ -268,6 +283,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-pten-tert-telomere-axis] How the axis interacts with the broader nimbosus phenotype
 - [concept/hypoxia-radioresistance-oxygen-fixation] Whether nano-O₂-generating radiosensitizers (BFO/BWO, MnO₂, Au@Pt) translate to clinical benefit.
 - [concept/hypoxia-radioresistance-oxygen-fixation] Whether HIF / DNA-PK / NRF2 co-inhibition with radiation overcomes hypoxic radioresistance.
+- [concept/idh1-2-mutation-2hg-immune-exclusion] Optimal sequencing of mIDH inhibitors with ICB.
+- [concept/idh1-2-mutation-2hg-immune-exclusion] Translatable 2HG biomarkers.
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
 - [concept/il-18-polyfunctional-nk-cell-state] Translation to human NK cells
 - [concept/il-18-polyfunctional-nk-cell-state] Interaction with IL-18BP decoy axis
@@ -293,6 +310,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
+- [concept/lactate-acidification-tme-immunosuppression] Local pH-normalisation drug-delivery strategies.
+- [concept/lactate-acidification-tme-immunosuppression] Lactate signalling (lactylation) vs acidosis: which contributes more to immunosuppression?
 - [concept/lactate-driven-tam-m2-polarization] Identification of the dominant macrophage lactate-sensing receptor under hypoxia.
 - [concept/lactate-driven-tam-m2-polarization] Quantitative partitioning of HIF-1α stabilization in hypoxic TAMs: how much from low O₂ alone, how much from lactate, how much from other oncometabolites?
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
@@ -310,6 +329,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Whether monocyte-derived TAMs in tumours acquire long-term-resident properties or remain transient
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
+- [concept/methionine-competition-slc43a2-stat5-tcell] Tumour-selective SLC43A2 inhibitors.
+- [concept/methionine-competition-slc43a2-stat5-tcell] Biomarkers of SLC43A2-driven methionine competition.
 - [concept/microbiota-tryptophan-ahr-ligand-axis] Quantitative AHR-ligand fluxes at the mucosa
 - [concept/microbiota-tryptophan-ahr-ligand-axis] Engineering microbial strains that produce defined, dose-controlled AHR agonists
 - [concept/microglia-synaptic-pruning-complement] Whether activity-dependent C1Q deposition is upstream or downstream of synaptic weakness.
@@ -340,9 +361,14 @@ _Auto-generated open questions. Do not edit._
 - [concept/nimbosus-aggressive-prostate-phenotype] Are there tumor types beyond PCa where an analogous "constellation" exists?
 - [concept/nimbosus-aggressive-prostate-phenotype] Does the immune microenvironment modulate nimbosus emergence (cf. [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] hypoxic-MAC infiltration)?
 - [concept/nimbosus-aggressive-prostate-phenotype] Can a single molecular biomarker capture the full nimbosus state?
+- [concept/nutrient-competition-tumor-immune-cells-tme] Localised nutrient restoration (e.g. intratumoural methionine, glutamine, arginine-producing bacteria).
+- [concept/nutrient-competition-tumor-immune-cells-tme] Identifying the dominant scarcity axis per tumour entity.
+- [concept/obesity-paradox-tam-pd1-glycolysis] Whether targeted TAM-PD-1 modulation benefits lean patients.
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
 - [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
+- [concept/oxphos-vs-glycolytic-tumor-metabolic-heterogeneity] Routine non-invasive metabolic phenotyping in clinic.
+- [concept/oxphos-vs-glycolytic-tumor-metabolic-heterogeneity] Spatial mapping of metabolic phenotype within a single tumour.
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -417,6 +443,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/trm-induced-treg-licensing] Generalisability beyond NSCLC and B16-OVA melanoma
 - [concept/trm-induced-treg-licensing] Single-cell phenotyping of TRM-licensed vs MDM-induced Tregs in human tumours
 - [concept/trm-induced-treg-licensing] Therapeutic exploitation: blocking TRM-Treg licensing without depleting TRMs
+- [concept/tryptophan-ido1-kynurenine-immunosuppression] Biomarker-driven IDO1 trials.
+- [concept/tryptophan-ido1-kynurenine-immunosuppression] Combination with AhR antagonists.
 - [concept/tumor-associated-macrophage-immunosuppression] Single-cell-resolved markers and signatures across cancers (atlas-scale).
 - [concept/tumor-associated-macrophage-immunosuppression] Causal vs correlational role of TAM presence in outcomes.
 - [concept/tumor-associated-macrophage-immunosuppression] Therapeutic targeting strategies (TREM2 antibodies, CSF1R inhibitors, reprogramming agonists).

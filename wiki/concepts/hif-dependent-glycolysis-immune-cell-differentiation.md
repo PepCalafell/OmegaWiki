@@ -25,8 +25,9 @@ tags:
 maturity: stable
 key_papers:
   - hypoxia-signaling-human-health-diseases-implications
+  - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
 first_introduced: "Shi et al. 2011 (Th17/Treg); Palazon et al. 2017 (CD8+)"
-date_updated: 2026-05-21
+date_updated: 2026-05-22
 related_concepts:
   - warburg-effect-hif1a-glycolytic-reprogramming
   - hif-cross-talk-pi3k-mtor-nfkb-erk-er-stress

@@ -18,8 +18,9 @@ tags: [immunotherapy, oncology, checkpoint]
 maturity: stable
 key_papers:
   - cancer-organoids-modelling-complexity-tumour-immune
+  - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
 first_introduced: ""
-date_updated: 2026-05-21
+date_updated: 2026-05-22
 related_concepts: [tumour-immune-microenvironment, tumour-infiltrating-lymphocyte, hot-cold-tumour-immune-classification]
 ---
 

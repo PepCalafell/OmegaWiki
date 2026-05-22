@@ -97,6 +97,12 @@ papers:
     importance: 5
     domain: immunology
     priority: core
+  - slug: tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+    title: "Tumor-induced metabolic immunosuppression: Mechanisms and therapeutic targets"
+    tags: [tumor-metabolism, immunometabolism, tme, icb, car-t, oxphos, glycolysis, glutamine, methionine, asparagine, arginine, tryptophan, ido1, idh-mutation, lactate, mdsc, tam, t-cell-exhaustion, review]
+    importance: 4
+    domain: immunometabolism
+    priority: core
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -520,6 +526,51 @@ concepts:
     tags: [immunology, tyk2, jak-stat, kinase, scaffold-function]
     maturity: active
 
+  - slug: oxphos-vs-glycolytic-tumor-metabolic-heterogeneity
+    title: "OxPhos vs glycolytic tumour metabolic heterogeneity"
+    tags: [tumor-metabolism, oxphos, glycolysis, dlbcl, biomarker]
+    maturity: active
+  - slug: nutrient-competition-tumor-immune-cells-tme
+    title: "Nutrient competition between tumour and immune cells in the TME"
+    tags: [nutrient-competition, tme, immunometabolism]
+    maturity: active
+  - slug: lactate-acidification-tme-immunosuppression
+    title: "Lactate-driven TME acidification and effector/Treg asymmetric immunosuppression"
+    tags: [lactate, acidosis, mct1, treg, immunosuppression]
+    maturity: active
+  - slug: glutamine-asymmetric-metabolism-tumor-immune
+    title: "Asymmetric glutamine metabolism between tumour, T cells, and M1/M2 macrophages"
+    tags: [glutamine, gls1, slc1a5, m2-macrophage, mdsc]
+    maturity: active
+  - slug: methionine-competition-slc43a2-stat5-tcell
+    title: "Methionine competition via SLC43A2 lowers T-cell H3K79me2 and STAT5 signaling"
+    tags: [methionine, slc43a2, h3k79me2, stat5, t-cell]
+    maturity: emerging
+  - slug: asparagine-tcell-activation-lck-axis
+    title: "Asparagine-LCK axis in CD8 T-cell activation"
+    tags: [asparagine, lck, tcr-signaling, cd8-t-cell, asnase]
+    maturity: emerging
+  - slug: arginase-mdsc-arginine-depletion-tcell
+    title: "MDSC arginase-driven arginine depletion as T-cell immunosuppression"
+    tags: [arginine, arg1, mdsc, t-cell-suppression]
+    maturity: active
+  - slug: tryptophan-ido1-kynurenine-immunosuppression
+    title: "Tryptophan-IDO1/TDO-kynurenine axis of tumour immunosuppression"
+    tags: [tryptophan, ido1, tdo, kynurenine, immunosuppression]
+    maturity: active
+  - slug: idh1-2-mutation-2hg-immune-exclusion
+    title: "IDH1/IDH2 mutation, 2HG accumulation and immune exclusion"
+    tags: [idh1, idh2, 2hg, cgas, immune-exclusion]
+    maturity: stable
+  - slug: car-t-metabolic-conditioning-persistence
+    title: "Metabolic conditioning of CAR-T cells for memory formation and persistence"
+    tags: [car-t, metabolic-conditioning, memory-formation]
+    maturity: active
+  - slug: obesity-paradox-tam-pd1-glycolysis
+    title: "Obesity paradox in ICB: TAM PD-1 induction via mTORC1-glycolysis"
+    tags: [obesity, tam, pd-1, mtorc1, glycolysis, icb-response]
+    maturity: emerging
+
 topics:
 
 people:
@@ -691,6 +742,10 @@ people:
   - slug: mathias-mueller
     tags: [jak-stat, tyk2, mouse-genetics, immunology, transgenic-models]
     affiliation: "Vetmeduni Vienna"
+
+  - slug: jean-ehrland-ricci
+    tags: [tumor-metabolism, immunometabolism, dlbcl, oxphos, asnase]
+    affiliation: "C3M, Université Côte d'Azur / INSERM"
 
 ideas:
 
@@ -2276,6 +2331,127 @@ claims:
     confidence: 0.8
     domain: immunology
 
+  - slug: cancer-metabolic-heterogeneity-glycolytic-vs-oxphos-tumors
+    title: "Human tumours of the same entity exhibit heterogeneous reliance on glycolysis vs OxPhos"
+    tags: [tumor-metabolism, oxphos, glycolysis, dlbcl]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: gapdh-biomarker-glycolytic-vs-oxphos-dlbcl
+    title: "GAPDH expression discriminates glycolytic vs OxPhos DLBCL tumours and predicts therapy response"
+    tags: [gapdh, dlbcl, biomarker]
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: glucose-depletion-tme-impairs-tcell-ca-nfat1-signaling
+    title: "Glucose depletion in the TME impairs Ca2+-NFAT1 signaling and effector function of infiltrating T cells"
+    tags: [tme, glucose, tcell, nfat1]
+    status: supported
+    confidence: 0.85
+    domain: immunometabolism
+  - slug: glycolytic-signature-inverse-immune-infiltration-melanoma-nsclc
+    title: "Tumour glycolytic gene signature inversely correlates with immune infiltration in melanoma and NSCLC patients receiving ACT"
+    tags: [glycolysis, melanoma, nsclc, act]
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: tumor-lactate-acidifies-tme-spares-tregs-suppresses-effector
+    title: "Tumour-derived lactate acidifies the TME, suppresses effector T and NK cell function, while sparing FOXP3+ Tregs"
+    tags: [lactate, acidosis, treg, mct1]
+    status: supported
+    confidence: 0.9
+    domain: immunometabolism
+  - slug: slc4a4-inhibition-pdac-mitigates-acidosis-restores-immunity
+    title: "SLC4A4 (bicarbonate transporter) inhibition mitigates TME acidosis and improves antitumour immunity in PDAC"
+    tags: [pdac, slc4a4, acidosis]
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: tumor-slc1a5-glutamine-competition-ire1a-xbp1-myeloid-suppression
+    title: "Tumour SLC1A5 upregulation drives glutamine starvation of myeloid cells, triggering IRE1α-XBP1 ER stress and GPR109A-mediated immunosuppressive polarisation"
+    tags: [glutamine, slc1a5, myeloid, ire1a, xbp1]
+    status: supported
+    confidence: 0.8
+    domain: immunometabolism
+  - slug: gls1-inhibition-cb839-shifts-macrophage-mdsc-balance
+    title: "Glutaminase (GLS1) inhibition with CB-839 reshapes the immune compartment by lowering MDSC recruitment and promoting M1-like macrophage conversion"
+    tags: [gls1, cb-839, mdsc, m1-macrophage]
+    status: supported
+    confidence: 0.75
+    domain: immunometabolism
+  - slug: glutamine-driven-m2-polarization-akg-glul-axis
+    title: "Glutaminolysis-derived α-KG drives M2-like macrophage polarisation; GLUL ablation in macrophages shifts toward M1 via HIF-1α"
+    tags: [m2-macrophage, alpha-kg, glul, hif1a]
+    status: supported
+    confidence: 0.8
+    domain: immunometabolism
+  - slug: asparagine-restriction-suppresses-cd8-asn-lck-tcr-signaling
+    title: "Asparagine directly enhances CD8 T-cell activation by binding LCK; Asn restriction suppresses CD8 effector function"
+    tags: [asparagine, lck, tcr-signaling, cd8-t-cell]
+    status: supported
+    confidence: 0.8
+    domain: immunometabolism
+  - slug: asnase-approved-asns-silenced-malignancies-oxphos-dlbcl-extension
+    title: "L-asparaginase is clinically approved for ASNS-silenced ALL/NKTCL and may extend benefit to OxPhos-dependent DLBCL"
+    tags: [asnase, all, nktcl, dlbcl]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: slc43a2-methionine-competition-h3k79me2-stat5-tcell-impairment
+    title: "Tumour SLC43A2 outcompetes T cells for methionine, lowering H3K79me2 and impairing STAT5/IL-2 signaling"
+    tags: [methionine, slc43a2, h3k79me2, stat5]
+    status: supported
+    confidence: 0.85
+    domain: immunometabolism
+  - slug: ido1-tdo-immunosuppression-monotherapy-failure-epacadostat-phase3
+    title: "Tumour IDO1/TDO suppress antitumour immunity via kynurenine pathway, but IDO1 monotherapy and ICB combination (epacadostat phase 3) failed clinically"
+    tags: [ido1, tdo, kynurenine, epacadostat]
+    status: challenged
+    confidence: 0.7
+    domain: immunometabolism
+  - slug: arg-mdsc-arginine-depletion-tcell-suppression-arg-inhibition
+    title: "MDSC-expressed ARG1 depletes arginine in the TME and suppresses T cells; ARG inhibition restores antitumour immunity, while systemic ADI-PEG20 also depletes T-cell arginine"
+    tags: [arginine, arg1, mdsc, adi-peg20]
+    status: supported
+    confidence: 0.8
+    domain: immunometabolism
+  - slug: idh1-2-mutation-2hg-immune-exclusion-cgas-silencing-inhibitor-rescue
+    title: "IDH1/IDH2 mutations produce 2HG, silence cGAS via hypermethylation, exclude T cells from the TME; mIDH inhibitors restore antitumour immunity and are FDA-approved for IDH-mutant glioma, ICC and AML"
+    tags: [idh1, idh2, 2hg, cgas, vorasidenib]
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: tumor-glycolysis-induces-tcell-pd1-reducing-icb-efficacy
+    title: "Tumour-cell glycolysis induces PD-1 expression on T cells, reducing immune-checkpoint blockade efficacy"
+    tags: [glycolysis, pd-1, t-cell-exhaustion, icb]
+    status: supported
+    confidence: 0.75
+    domain: immunometabolism
+  - slug: obesity-mtorc1-tam-pd1-glycolysis-mechanism-obesity-paradox
+    title: "Obesity-induced chronic inflammation induces PD-1 on TAMs via mTORC1-glycolysis; anti-PD-1 enhances TAM glycolysis and antigen presentation, explaining the 'obesity paradox' of ICB response"
+    tags: [obesity, tam, pd-1, mtorc1, glycolysis]
+    status: supported
+    confidence: 0.8
+    domain: immunometabolism
+  - slug: mpc-mct1-ldh-metformin-conditioning-improves-cart-memory-persistence
+    title: "Ex-vivo metabolic conditioning of CAR-T cells (MPC inhibition with UK5099, MCT1 inhibition, LDH inhibition, metformin, glucose restriction, bicarbonate) promotes memory differentiation and persistence"
+    tags: [car-t, memory-formation, mpc, mct1, metformin]
+    status: supported
+    confidence: 0.8
+    domain: cell-therapy
+  - slug: genetic-modification-cart-prodh2-fh-a2ar-regnase-enhances-antitumor
+    title: "Genetic modification of CAR-T cells (Regnase-1 KO, PRODH2 OE, PGC1α OE, FH OE, A2AR KO, ARG1/ARG2/ASS/OTC modulation) enhances antitumour function and persistence"
+    tags: [car-t, gene-editing, regnase-1, prodh2]
+    status: supported
+    confidence: 0.7
+    domain: cell-therapy
+  - slug: metabolic-inhibitor-clinical-translation-asnase-idh-only-approved
+    title: "Despite extensive testing, only L-asparaginase and IDH inhibitors have been approved as metabolic-targeted oncology drugs"
+    tags: [metabolic-inhibitor, clinical-trial-failure, asnase, idh-inhibitor]
+    status: supported
+    confidence: 0.9
+    domain: oncology
+
 Summary:
 
 foundations:
@@ -2837,3 +3013,67 @@ foundations:
     title: "RNAscope — single-molecule RNA fluorescence in situ hybridization"
     status: mainstream
     domain: methods / spatial transcriptomics / RNA-FISH
+  - slug: gapdh
+    title: "GAPDH — Glyceraldehyde-3-phosphate dehydrogenase"
+    status: mainstream
+    domain: metabolism
+  - slug: ldh-lactate-dehydrogenase
+    title: "LDH — Lactate dehydrogenase"
+    status: mainstream
+    domain: metabolism
+  - slug: mct1-monocarboxylate-transporter-1
+    title: "MCT1 — Monocarboxylate transporter 1 (SLC16A1)"
+    status: mainstream
+    domain: metabolism
+  - slug: slc1a5-asct2-glutamine-transporter
+    title: "SLC1A5 — ASCT2 / glutamine transporter"
+    status: mainstream
+    domain: metabolism
+  - slug: slc43a2-lat4-methionine-transporter
+    title: "SLC43A2 — LAT4 / L-type amino acid transporter 4"
+    status: mainstream
+    domain: metabolism
+  - slug: l-asparaginase-asnase
+    title: "L-asparaginase (ASNase)"
+    status: mainstream
+    domain: oncology-therapeutics
+  - slug: cb-839-telaglenastat
+    title: "CB-839 (telaglenastat) — GLS1 inhibitor"
+    status: mainstream
+    domain: oncology-therapeutics
+  - slug: metformin
+    title: "Metformin"
+    status: mainstream
+    domain: pharmacology
+  - slug: ivosidenib-ag120
+    title: "Ivosidenib (AG-120) — mIDH1 inhibitor"
+    status: mainstream
+    domain: oncology-therapeutics
+  - slug: vorasidenib
+    title: "Vorasidenib — brain-penetrant mIDH1/mIDH2 inhibitor"
+    status: mainstream
+    domain: oncology-therapeutics
+  - slug: ido1-indoleamine-dioxygenase
+    title: "IDO1 — Indoleamine 2,3-dioxygenase 1"
+    status: mainstream
+    domain: immunometabolism
+  - slug: arg1-arginase-1
+    title: "ARG1 — Arginase 1"
+    status: mainstream
+    domain: immunometabolism
+  - slug: epacadostat
+    title: "Epacadostat — IDO1 inhibitor"
+    status: historical
+    domain: oncology-therapeutics
+  - slug: adi-peg20
+    title: "ADI-PEG20 — PEGylated arginine deiminase"
+    status: mainstream
+    domain: oncology-therapeutics
+  - slug: 2-hydroxyglutarate
+    title: "2-hydroxyglutarate (2HG) — oncometabolite"
+    status: mainstream
+    domain: metabolism
+  - slug: uk5099-mpc-inhibitor
+    title: "UK-5099 — Mitochondrial pyruvate carrier (MPC) inhibitor"
+    status: mainstream
+    domain: pharmacology
