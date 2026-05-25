@@ -133,6 +133,12 @@ papers:
     importance: 4
     domain: oncology
     priority: context
+  - slug: emerging-strategies-investigate-biology-early-cancer
+    title: "Emerging strategies to investigate the biology of early cancer"
+    tags: [early-cancer, precancer, lineage-tracing, organoid, autochthonous-mouse-model, single-cell-omics, spatial-omics, ai-cancer-detection, review]
+    importance: 4
+    domain: oncology
+    priority: context
 
 concepts:
   - slug: cd8-t-cell-exhaustion-texterm
@@ -760,6 +766,54 @@ concepts:
     title: "In-silico Dynamo perturbation predicts drug efficacy via LE-state reversal"
     tags: [in-silico-screen, drug-response, RNA-velocity, OSCC, leading-edge]
     maturity: emerging
+  - slug: precancerous-lesion-malignant-transformation
+    title: "Precancerous lesion and the malignant transformation cascade"
+    tags: [oncology, early-cancer, cancer-evolution]
+    maturity: stable
+  - slug: cancer-initiating-cell-cell-origin
+    title: "Cancer-initiating cell and cell of origin"
+    tags: [oncology, early-cancer, lineage-tracing]
+    maturity: stable
+  - slug: field-cancerization-clonal-expansion-normal-tissue
+    title: "Field cancerization and clonal expansion in normal tissue"
+    tags: [oncology, clonal-evolution, early-cancer]
+    maturity: stable
+  - slug: event-based-lineage-tracing-milestone-reporters
+    title: "Event-based lineage tracing with milestone reporters"
+    tags: [methods, lineage-tracing, early-cancer]
+    maturity: emerging
+  - slug: ecdna-precancer-malignant-progression
+    title: "ecDNA in precancer drives malignant progression"
+    tags: [oncology, genomics, early-cancer]
+    maturity: emerging
+  - slug: pre-cafs-cancer-associated-fibroblasts-premalignant
+    title: "Pre-CAFs — Fibroblast reprogramming at the premalignant stage"
+    tags: [oncology, microenvironment, early-cancer]
+    maturity: emerging
+  - slug: immune-surveillance-evasion-precancer-transition
+    title: "Immune surveillance to evasion transition during early cancer"
+    tags: [immunology, oncology, early-cancer]
+    maturity: active
+  - slug: carcinogenesis-tipping-point-irreversibility
+    title: "Tipping point along the carcinogenic trajectory"
+    tags: [oncology, early-cancer, theory]
+    maturity: emerging
+  - slug: organoid-cancer-initiation-3d-model
+    title: "Organoid-based modelling of cancer initiation"
+    tags: [methods, oncology, early-cancer]
+    maturity: active
+  - slug: autochthonous-mouse-models-early-cancer
+    title: "Autochthonous mouse models of early cancer"
+    tags: [methods, oncology, early-cancer]
+    maturity: stable
+  - slug: stem-like-cells-precancerous-lesions
+    title: "Stem-like cells in precancerous lesions"
+    tags: [oncology, stem-cells, early-cancer]
+    maturity: active
+  - slug: senescent-cells-promote-early-tumorigenesis
+    title: "Senescent cells promote early tumorigenesis"
+    tags: [oncology, senescence, microenvironment, early-cancer]
+    maturity: active
 
 topics:
 
@@ -992,6 +1046,15 @@ people:
   - slug: pinaki-bose
     tags: [spatial-transcriptomics, OSCC, head-and-neck-cancer, tumor-microenvironment]
     affiliation: "University of Calgary"
+  - slug: ran-zhou
+    tags: [early-cancer, lineage-tracing]
+    affiliation: "West China Hospital, Sichuan University"
+  - slug: xiwen-tang
+    tags: [early-cancer]
+    affiliation: "West China Hospital, Sichuan University"
+  - slug: yuan-wang
+    tags: [early-cancer, lineage-tracing, glioma, autochthonous-mouse-models]
+    affiliation: "West China Hospital, Sichuan University"
 
 ideas:
 
@@ -3182,6 +3245,116 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology/pathway-analysis
+  - slug: driver-mutations-necessary-sufficient-cancer
+    title: "Cancer driver mutations are necessary but not sufficient for cancer"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: tp53-mutation-burden-normal-oesophagus-reaches
+    title: "TP53 mutation burden in normal oesophagus reaches 5-10% by middle age and 15-30% by age 70"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: lifetime-oesophageal-cancer-risk-less-than
+    title: "Lifetime oesophageal cancer risk is <1% despite high normal-tissue TP53 burden"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: precancerous-lesions-contain-stem-like-cell
+    title: "Precancerous lesions contain stem-like cell populations across many cancer types"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: metabolic-reprogramming-occurs-already-precancerous-stage
+    title: "Metabolic reprogramming occurs already at the precancerous stage"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: copy-number-variations-accumulate-cancer-specifically
+    title: "CNV accumulation in precancer is cancer- and stage-specific"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: ecdna-barrett-oesophagus-predicts-eac-progression
+    title: "ecDNA in Barrett's oesophagus is strongly associated with progression to EAC"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: immune-surveillance-evasion-transition-precancer-hallmark
+    title: "A shift from immune surveillance to evasion underlies the onset of malignant transformation"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: pre-cafs-promote-malignant-progression-panin
+    title: "Pre-CAFs that promote malignant progression are present in PanIN and other precancerous lesions"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: microbiome-derived-cobalamin-succinyl-coa-early
+    title: "Microbiome-derived cobalamin and succinyl-CoA are elevated in HSIL as early biomarkers for anal cancer"
+    status: supported
+    confidence: 0.6
+    domain: oncology
+  - slug: ai-mri-four-times-more-efficient
+    title: "AI-supplemented MRI is four-fold more efficient than traditional breast density for early breast cancer detection"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: phylogicndt-reconstructs-cancer-mutational-history-without
+    title: "PhylogicNDT reconstructs cancer mutational history from advanced samples lacking precancer"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: kraslsl-g12d-pdx-cre-spontaneously-develops
+    title: "Pancreas-specific KrasLSL-G12D activation spontaneously develops PanINs in mice"
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: trp53-cdkn2a-loss-kras-drives-pdac
+    title: "Additional Trp53 or Cdkn2a loss with Kras increases PDAC penetrance to near 100%"
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: den-induced-oesophageal-scc-mutational-landscape
+    title: "DEN-induced oesophageal SCC mouse models develop a mutational landscape similar to aged humans"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: akaluc-akalumine-detects-10-1000-cells
+    title: "Akaluc + AkaLumine and NanoLuc + CFz detect 10-1000 cells in deep organs"
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: mutant-clones-outcompete-carcinogen-induced-precancerous
+    title: "Mutant clones in adjacent normal oesophagus can outcompete carcinogen-induced precancerous lesions"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: tff2-positive-pancreatic-progenitors-resistant-protective
+    title: "Tff2+ pancreatic transit-amplifying progenitors are resistant and protective against KRAS-driven carcinogenesis"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: senescent-macrophages-promote-early-lung-tumorigenesis
+    title: "Senescent macrophages promote early lung tumorigenesis by suppressing cytotoxic T cells"
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: most-driver-mutant-cells-early-lesions
+    title: "The majority of driver-mutant cells in early tissue lesions do not progress to cancer"
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: pancreatic-epithelial-cells-gain-unique-chromatin
+    title: "Pancreatic epithelial cells gain a unique chromatin state distinguishing transformation from regeneration upon inflammation"
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: tp53-mutant-human-gastric-organoids-show
+    title: "TP53-mutant human gastric organoids show clonal evolution and CNV accumulation over 2 years of culture"
+    status: supported
+    confidence: 0.75
+    domain: oncology
 
 Summary:
 
@@ -3988,3 +4161,63 @@ foundations:
     title: "HPV-negative oral squamous cell carcinoma (OSCC)"
     status: mainstream
     domain: oncology / head-and-neck
+  - slug: kras-oncogene
+    title: "KRAS oncogene"
+    status: mainstream
+    domain: oncology
+  - slug: apc-tumor-suppressor
+    title: "APC tumor suppressor"
+    status: mainstream
+    domain: oncology
+  - slug: gemm-genetically-engineered-mouse-model
+    title: "GEMM — Genetically engineered mouse model"
+    status: mainstream
+    domain: methods
+  - slug: organoid-3d-tissue-culture
+    title: "Organoid — 3D self-organized tissue culture"
+    status: mainstream
+    domain: methods
+  - slug: panin-pancreatic-intraepithelial-neoplasia
+    title: "PanIN — Pancreatic intraepithelial neoplasia"
+    status: mainstream
+    domain: oncology
+  - slug: ecdna-extrachromosomal-dna
+    title: "ecDNA — Extrachromosomal DNA"
+    status: mainstream
+    domain: genomics
+  - slug: akaluc-akalumine-bioluminescent-system
+    title: "Akaluc–AkaLumine bioluminescent system"
+    status: mainstream
+    domain: methods
+  - slug: cre-loxp-recombinase-system
+    title: "Cre–loxP recombinase system"
+    status: mainstream
+    domain: methods
+  - slug: 4nqo-carcinogen
+    title: "4NQO — 4-nitroquinoline 1-oxide carcinogen"
+    status: mainstream
+    domain: methods
+  - slug: den-diethylnitrosamine-carcinogen
+    title: "DEN — Diethylnitrosamine carcinogen"
+    status: mainstream
+    domain: methods
+  - slug: dmba-carcinogen
+    title: "DMBA — 7,12-dimethylbenz[a]anthracene carcinogen"
+    status: mainstream
+    domain: methods
+  - slug: infercnv-cnv-scrna
+    title: "inferCNV — Copy-number inference from scRNA-seq"
+    status: mainstream
+    domain: methods
+  - slug: red2onco-multicolour-reporter
+    title: "Red2Onco — Multicolour clone tracing of oncogenic clones"
+    status: mainstream
+    domain: methods
+  - slug: intravital-microscopy-multiphoton
+    title: "Intravital microscopy — Multiphoton imaging in vivo"
+    status: mainstream
+    domain: methods
+  - slug: barretts-oesophagus
+    title: "Barrett's oesophagus"
+    status: mainstream
+    domain: oncology

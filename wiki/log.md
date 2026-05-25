@@ -31,3 +31,4 @@
 ## [2026-05-22] ingest | added papers/pairwise-cytokine-code-explains-organism-wide | updated: 7 foundations, 6 concepts, 18 claims, 3 people, index.md, edges.jsonl
 ## [2026-05-22] ingest | added papers/benchmarking-atlas-level-data-integration-single | updated: 18 claims, 4 concepts, 17 foundations (3 new methods + 14 existing/method/metric), 3 people, 22 graph edges
 ## [2026-05-22] ingest | added papers/spatial-transcriptomics-reveals-distinct-conserved-tumor | updated: 6 concepts, 10 foundations, 20 claims, 3 people, +36 edges, index.md
+## [2026-05-25] ingest | added papers/emerging-strategies-investigate-biology-early-cancer | concepts: +12 | foundations: +15 | claims: +22 | people: +3 (yuan-wang, ran-zhou, xiwen-tang) | edges: +59

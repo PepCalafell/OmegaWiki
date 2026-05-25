@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (428 total)
+## Claims (450 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,11 +29,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (23 total)
+## Papers (24 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [4] Tumor-induced metabolic immunosuppression: Mechanisms and therapeutic targets (immunometabolism)
+- [4] Emerging strategies to investigate the biology of early cancer (oncology)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
@@ -44,14 +45,13 @@ _Auto-generated open questions. Do not edit._
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [4] CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity (methods / oncology / immunology / spatial-omics)
 - [4] Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response (oncology)
-- [5] Dictionary of immune responses to cytokines at single-cell resolution (immunology)
-## Recent Relationships (961 total)
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/oscc-hpv-negative
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/10x-visium-spatial-transcriptomics
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/cellchat-cell-cell-communication
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/scenic-tf-regulon-inference
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --derived_from--> foundations/tcga-the-cancer-genome-atlas
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --supports--> claims/oscc-tc-le-spatial-architectures-conserved
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --supports--> claims/tc-keratinization-le-ecm-emt-degs
-  papers/spatial-transcriptomics-reveals-distinct-conserved-tumor --supports--> claims/oscc-st-12-samples-24876-spots
-  papers
+## Recent Relationships (1019 total)
+  papers/emerging-strategies-investigate-biology-early-cancer --derived_from--> foundations/atac-seq
+  papers/emerging-strategies-investigate-biology-early-cancer --derived_from--> foundations/chip-seq
+  papers/emerging-strategies-investigate-biology-early-cancer --derived_from--> foundations/scrna-seq-10x-chromium
+  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/driver-mutations-necessary-sufficient-cancer
+  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/tp53-mutation-burden-normal-oesophagus-reaches
+  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/lifetime-oesophageal-cancer-risk-less-than
+  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/precancerous-lesions-contain-stem-like-cell
+  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/metabolic-reprogramming-occurs-already-precancerous-stage
+  papers/emerging-strategies-in

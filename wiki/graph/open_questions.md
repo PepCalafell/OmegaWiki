@@ -55,6 +55,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/dictionary-immune-responses-cytokines-single-cell] How does the Mac-a/b/c/d/e taxonomy map onto hypoxic TAM phenotypes (e.g., mmac1-hypoxic-inflammatory-macrophage)?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Is the IL-18 NK-f state operative in tumour-infiltrating NK cells?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Can the Immune Dictionary serve as a reference panel for human PBMC datasets despite species differences?
+- [paper/emerging-strategies-investigate-biology-early-cancer] When and how does a mutant cell reach the tipping point of irreversible commitment to cancer?
+- [paper/emerging-strategies-investigate-biology-early-cancer] Why does the same driver mutation produce vastly different outcomes across mice or patients?
+- [paper/emerging-strategies-investigate-biology-early-cancer] Can early-detection strategies validated in models translate to humans?
+- [paper/emerging-strategies-investigate-biology-early-cancer] How can AI black-box models be made interpretable enough for clinical validation?
+- [paper/emerging-strategies-investigate-biology-early-cancer] For solid tumours without clinically defined precursor lesions, what minimal molecular signature can mark "precancerous cells" in single-cell atlases?
+- [paper/emerging-strategies-investigate-biology-early-cancer] Is the immune surveillance-to-evasion switch reversible by current ICI or by pre-CAF/senescent-cell-targeted interception?
+- [paper/emerging-strategies-investigate-biology-early-cancer] Does ecDNA emergence have an analogue in cancers other than EAC?
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "How does Nrp-1, which is produced by cancer cells, promotes M2 macrophage polarization under hypoxic conditions?" (p.11)
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "The molecular mechanism of MYDGF action in tumor progression is still unclear" (p.11)
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "Mechanisms of these miRNAs [miR-1305, miR-21, miR-940] have not been thoroughly studied" (p.9)
@@ -250,6 +257,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
 - [concept/car-t-metabolic-conditioning-persistence] Optimal conditioning cocktails.
 - [concept/car-t-metabolic-conditioning-persistence] Patient-specific TME-matched conditioning.
+- [concept/carcinogenesis-tipping-point-irreversibility] Whether a single, universal tipping point exists or whether commitment is cancer- and lineage-specific
+- [concept/carcinogenesis-tipping-point-irreversibility] How to non-invasively detect the moment of commitment in living tissue
+- [concept/carcinogenesis-tipping-point-irreversibility] Whether commitment is truly irreversible or pharmacologically reversible
 - [concept/cd8-t-cell-exhaustion-texterm] Which TEXterm-selective TFs are druggable in CAR-T or TIL therapy?
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
@@ -273,6 +283,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-pair-synergy-antagonism-tissue] Pathway-level mapping of synergy (MAPK / NF-κB / JAK-STAT / IRF rewiring)
 - [concept/cytokine-pair-synergy-antagonism-tissue] Quantitative dose-response models for combinatorial effects
 - [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
+- [concept/ecdna-precancer-malignant-progression] Whether ecDNA also drives progression in non-EAC cancers with precursor lesions
+- [concept/ecdna-precancer-malignant-progression] Mechanism by which immunomodulatory ecDNA cargo (CIITA, SOCS1) shapes the early immune microenvironment
 - [concept/ecm-mycaf-leading-edge-signaling-axis] Whether targeting ecm-myCAF (e.g. anti-LRRC15 ADCs) reverses LE state in vivo
 - [concept/ecm-mycaf-leading-edge-signaling-axis] Mapping ecm-myCAF heterogeneity at higher spatial resolution (CosMx, Stereo-seq)
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
@@ -443,6 +455,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] The molecular pathway through which PD-L1+ TAMs chemoattract T cells (AREG-ICAM1, CD162-CD62L, ANXA1, MIF identified as candidate cell-cell interactions).
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether PD-L1 itself or another co-expressed marker is the functional driver (PD-L1 blocking antibody experiments suggest PD-L1 itself is incidental to the immunostimulatory function).
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
+- [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
+- [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
@@ -451,6 +465,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
 - [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
 - [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
+- [concept/senescent-cells-promote-early-tumorigenesis] Specificity of senolytic agents to tumour-promoting senescent populations
+- [concept/senescent-cells-promote-early-tumorigenesis] Whether epithelial senescence at the precancer stage is uniformly tumour-promoting
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
@@ -469,6 +485,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/stat5b-n642h-neomorphic-oncogenic-driver] Identify the protein-interaction partners that distinguish STAT5BN642H from STAT5-WT.
 - [concept/stat5b-n642h-neomorphic-oncogenic-driver] Test whether N642H-specific chromatin opening at effector loci is reversible by JAK inhibitors.
 - [concept/stat5b-n642h-neomorphic-oncogenic-driver] Cross-link neomorphic STAT5BN642H chromatin signature to TEXterm chromatin atlases.
+- [concept/stem-like-cells-precancerous-lesions] Distinguishing tissue stem cells from non-stem cells with acquired stem-like signatures functionally
+- [concept/stem-like-cells-precancerous-lesions] Whether stem-like state per se is targetable for cancer interception
 - [concept/succinate-sucnr1-tam-axis] A unified pharmacological model of SUCNR1 antagonism in TAM and tumor cell — does the same antagonist hit both?
 - [concept/succinate-sucnr1-tam-axis] Whether SUCNR1 signaling in TAM converges with the lactate-GPCR axis at common downstream nodes (HIF-1α, mTOR).
 - [concept/succinate-sucnr1-tam-axis] The role of cyclic / intermittent hypoxia in modulating tumor-cell succinate release: H-R cycles induce ROS bursts that may release succinate transiently.
