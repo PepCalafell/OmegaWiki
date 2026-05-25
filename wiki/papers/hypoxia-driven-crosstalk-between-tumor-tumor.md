@@ -210,7 +210,8 @@ data_availability: "Open access (CC BY 4.0). Review article — no primary data.
 
 # === Cross-references ===
 code_url: ""
-cited_by: []
+cited_by:
+  - development-hypoxia-responsive-macrophage-prognostic-model
 ---
 
 ## Problem
@@ -472,3 +473,4 @@ The review's biggest gap from my perspective is that it does not use single-cell
 
 - [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.
 - [[papers/hypoxia-signaling-human-health-diseases-implications]] — Luo et al. 2022 STTT comprehensive review of HIF cross-talk and disease landscape (added 2026-05-21).
+- [[papers/development-hypoxia-responsive-macrophage-prognostic-model]] — Ge et al. 2025 *PLoS One*. Operationalises the hypoxia-TAM biology framed in this review by identifying a hypoxia-responsive macrophage subcluster in PDAC scRNA-seq and deriving a 13-gene prognostic signature (added 2026-05-25).

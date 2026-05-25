@@ -315,3 +315,4 @@ The clinical-trial table (Table 2) is gold for understanding the failure mode of
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — hypoxic macrophage transcriptional reprogramming via NF-κB/TET2.
 - [[concepts/warburg-effect-hif1a-glycolytic-reprogramming]], [[concepts/hypoxia-activated-prodrugs-haps]], [[concepts/tumor-vasculature-normalization-hypoxia]], [[concepts/hypoxia-pet-imaging-tracers]], [[concepts/hypoxia-radioresistance-oxygen-fixation]] — new concept anchors introduced by this ingest.
 - [[foundations/hif2a]], [[foundations/evofosfamide-th-302]], [[foundations/carbonic-anhydrase-9-ca9]], [[foundations/fmiso-hypoxia-pet-tracer]] — new foundation pages introduced by this ingest.
+- [[papers/development-hypoxia-responsive-macrophage-prognostic-model]] — Ge 2025 *PLoS One*: PDAC scRNA-seq + bulk LASSO-Cox hypoxia-TAM prognostic model (added 2026-05-25).

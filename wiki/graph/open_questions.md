@@ -47,6 +47,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Whether IL4I1_Mac is induced by chronic IFN signalling in non-tumour autoimmune contexts (lupus, RA flares, severe COVID-19), and whether the same mechanistic loop applies.
 - [paper/cross-tissue-single-cell-landscape-human] Quantitative comparison of the murine TREM2 TAM vs human TREM2_Mac transcriptional programme: is the cross-species "TREM2 TAM" a single conserved state or a convergence of distinct programmes?
 - [paper/cross-tissue-single-cell-landscape-human] Relationship of IL4I1_Mac to Calafell 2024 mMAC1 hypoxic state: is mMAC1 a hypoxic/in-vitro proxy of IL4I1_Mac, an upstream precursor, or a distinct differentiation path that converges on similar surface markers?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] What protein-level expression patterns underlie the 13-gene transcriptional model?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] Is the regulatory mechanism in pancreatic cancer experimentally validated?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] How broadly does KRTCAP2 act as a therapeutic target across cancer types?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] Does macrophage cluster 1 reproduce in independent PDAC scRNA-seq atlases (Peng 2019, Chan-Seng-Yue 2020)?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] How does the 13-gene signature compare quantitatively (AUC, C-index) to Buffa-72, Winter-99 and prior PDAC hypoxia signatures on the same TCGA-PAAD cohort?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] Is the hypoxia-driven chemoresistance (gemcitabine, oxaliplatin, 5-FU, paclitaxel) measured ex vivo in PDAC PDOs from high-hypoxia patients?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] Which OST-pathway perturbation (e.g. NGI-1, KRTCAP2 knockdown) phenocopies the KRTCAP2-high → Treg/CD8 phenotype?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] Does the M0 macrophage enrichment in CIBERSORT/LM22 correspond to macrophage cluster 1 in scRNA-seq?
+- [paper/development-hypoxia-responsive-macrophage-prognostic-model] Are hypoxic-niche-anchored TAMs (cluster 1) also the dominant PD-L1+ TAM source in PDAC, linking to the [[concepts/hypoxia-pd-l1-tam-immune-evasion]] axis?
 - [paper/dictionary-immune-responses-cytokines-single-cell] How do cytokine combinations interact (synergy, antagonism, dominance)?
 - [paper/dictionary-immune-responses-cytokines-single-cell] What is the temporal evolution of cytokine-driven polarization states?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Does the lymph-node dictionary translate to other tissues and to humans?
@@ -359,6 +368,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-pten-tert-telomere-axis] How the axis interacts with the broader nimbosus phenotype
 - [concept/hypoxia-radioresistance-oxygen-fixation] Whether nano-O₂-generating radiosensitizers (BFO/BWO, MnO₂, Au@Pt) translate to clinical benefit.
 - [concept/hypoxia-radioresistance-oxygen-fixation] Whether HIF / DNA-PK / NRF2 co-inhibition with radiation overcomes hypoxic radioresistance.
+- [concept/hypoxia-responsive-macrophage-subset-pdac] Spatial localisation: do hypoxia-responsive TAMs co-occupy tumour hypoxic niches (CA9+, FMISO-PET-positive regions)?
+- [concept/hypoxia-responsive-macrophage-subset-pdac] Functional perturbation: does HIF1α / HIF2α deletion in macrophages abolish the hypoxia-responsive cluster?
+- [concept/hypoxia-responsive-macrophage-subset-pdac] Mapping to MoMac-VERSE / Coulton 23-cluster atlas: which canonical TAM state is the hypoxia-responsive cluster?
 - [concept/idh1-2-mutation-2hg-immune-exclusion] Optimal sequencing of mIDH inhibitors with ICB.
 - [concept/idh1-2-mutation-2hg-immune-exclusion] Translatable 2HG biomarkers.
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
@@ -387,6 +399,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Cross-talk with the metabolic state: 2-OG and succinate are competing co-substrates / inhibitors of KDMs; oncometabolite states (SDH-deficient paragangliomas, IDH-mutant gliomas) overlap with KDM regulation.
 - [concept/kinase-independent-functions-tyk2] Identify TYK2-interacting receptor/signaling complexes that depend on TYK2 protein presence but not its catalytic activity.
 - [concept/kinase-independent-functions-tyk2] Predict which clinical phenotypes of TYK2 inhibition vs TYK2 loss-of-function variants will diverge.
+- [concept/krtcap2-pan-cancer-biomarker] Causal: does KRTCAP2 knockdown reduce tumour growth and increase CD8+ infiltration in immune-competent models?
+- [concept/krtcap2-pan-cancer-biomarker] Mechanism: is the Treg / CD8 phenotype mediated by N-glycosylation of a specific surface ligand (PD-L1, MHC-I, sialylated mucin)?
+- [concept/krtcap2-pan-cancer-biomarker] Therapeutic: does NGI-1 or other OST inhibitors phenocopy KRTCAP2 loss?
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
@@ -485,6 +500,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
 - [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
 - [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
+- [concept/scrna-derived-lasso-cox-prognostic-signature] Calibration benchmarks across multiple cell-type-anchored signatures for the same disease.
+- [concept/scrna-derived-lasso-cox-prognostic-signature] Whether deconvolution (CIBERSORTx, Tamborero) + per-cell-type expression infers the same signatures as direct scRNA-DEG, at a fraction of the data cost.
 - [concept/senescent-cells-promote-early-tumorigenesis] Specificity of senolytic agents to tumour-promoting senescent populations
 - [concept/senescent-cells-promote-early-tumorigenesis] Whether epithelial senescence at the precancer stage is uniformly tumour-promoting
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.

@@ -27,6 +27,7 @@ key_papers:
   - pd-l1-expressing-tumor-associated-macrophages
   - tumour-hypoxia-driving-genomic-instability-tumour
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+  - development-hypoxia-responsive-macrophage-prognostic-model
 first_introduced: "Noman 2014 J Exp Med (HIF-1α-PD-L1 in MDSCs); extended to TAM in HGSOC by Hartley 2018; intermittent-hypoxia-OSA mechanism by Almendros 2019; Bai 2022 reviews; Suvac, Ashton & Bristow 2025 Nat Rev Cancer review"
 date_updated: 2026-05-13
 related_concepts:

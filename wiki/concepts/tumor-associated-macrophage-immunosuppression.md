@@ -22,6 +22,7 @@ key_papers:
   - pd-l1-expressing-tumor-associated-macrophages
   - using-pan-cancer-atlas-investigate-tumour
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+  - development-hypoxia-responsive-macrophage-prognostic-model
 first_introduced: "(field-standard concept; refined here)"
 date_updated: 2026-05-13
 related_concepts:

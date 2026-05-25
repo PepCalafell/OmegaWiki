@@ -408,3 +408,4 @@ This is the foundational pancancer hypoxia paper in the genomics era — the *pr
 
 - [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] — Suvac, Ashton & Bristow 2025 *Nat Rev Cancer* review consolidating the hypoxia → genomic-instability → clonal-evolution → immune-evasion framework.
 - [[papers/hypoxia-signaling-human-health-diseases-implications]] — Luo et al. 2022 STTT comprehensive review of HIF cross-talk and disease landscape (added 2026-05-21).
+- [[papers/development-hypoxia-responsive-macrophage-prognostic-model]] — Ge 2025 *PLoS One*: PDAC-specific instance of hypoxia-driven prognostic biology (added 2026-05-25).

@@ -145,6 +145,12 @@ papers:
     importance: 4
     domain: oncology
     priority: reference
+  - slug: development-hypoxia-responsive-macrophage-prognostic-model
+    title: "Development of a hypoxia-responsive macrophage prognostic model using single-cell and bulk RNA sequencing in pancreatic cancer"
+    tags: [hypoxia, PDAC, pancreatic-cancer, tumor-associated-macrophage, prognostic-model, LASSO-Cox, scRNA-seq, TCGA-PAAD, KRTCAP2, chemoresistance, pan-cancer]
+    importance: 3
+    domain: oncology
+    priority: reference
 
 concepts:
   - slug: pan-cancer-proteome-atlas-tpcpa
@@ -848,6 +854,18 @@ concepts:
     title: "Senescent cells promote early tumorigenesis"
     tags: [oncology, senescence, microenvironment, early-cancer]
     maturity: active
+  - slug: hypoxia-responsive-macrophage-subset-pdac
+    title: "Hypoxia-responsive macrophage subset (cluster 1) in PDAC scRNA-seq"
+    tags: [hypoxia, macrophage, PDAC, scRNA-seq, tumor-associated-macrophage, hypoxia-signature]
+    maturity: emerging
+  - slug: scrna-derived-lasso-cox-prognostic-signature
+    title: "scRNA-derived LASSO-Cox prognostic signature pipeline"
+    tags: [prognostic-model, LASSO-Cox, scRNA-seq, bulk-RNA-seq, gene-signature, survival-analysis, methodology]
+    maturity: mainstream
+  - slug: krtcap2-pan-cancer-biomarker
+    title: "KRTCAP2 — pan-cancer prognostic biomarker and N-glycosylation modulator"
+    tags: [KRTCAP2, pan-cancer, biomarker, N-glycosylation, immune-exclusion, prognosis]
+    maturity: emerging
 
 topics:
 
@@ -861,6 +879,12 @@ people:
   - slug: connie-r-jimenez
     tags: [proteomics, dia-ms, oncology, biomarkers, colorectal-cancer]
     affiliation: "Amsterdam UMC, OncoProteomics Laboratory"
+  - slug: heming-ge
+    tags: [pancreatic-cancer, hypoxia, tumor-associated-macrophage, prognostic-model, scRNA-seq, bioinformatics]
+    affiliation: "University Medical Center Hamburg-Eppendorf"
+  - slug: cenap-gungor
+    tags: [pancreatic-cancer, surgical-oncology, tumor-microenvironment, PDAC, hypoxia]
+    affiliation: "University Medical Center Hamburg-Eppendorf"
   - slug: nicolas-chevrier
     tags: [immunology, sepsis, organism-wide-profiling, cytokines]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
@@ -3513,6 +3537,46 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: macrophages-highest-hypoxia-score-pdac-immune-cells
+    title: "Macrophages have the highest per-cell hypoxia signature scores among PDAC immune cells (GSE155698)"
+    status: supported
+    confidence: 0.75
+    domain: oncology-hypoxia
+  - slug: 13-gene-hypoxia-prognostic-model-pdac
+    title: "13-gene hypoxia-responsive macrophage signature constructed via LASSO-Cox on TCGA-PAAD"
+    status: supported
+    confidence: 0.7
+    domain: oncology-hypoxia
+  - slug: hypoxia-model-tcga-paad-os-auc
+    title: "13-gene hypoxia model: TCGA-PAAD OS AUC 0.774/0.727/0.711 (1/2/3yr), exceeding clinicopath features"
+    status: supported
+    confidence: 0.7
+    domain: oncology-hypoxia
+  - slug: high-hypoxia-score-correlates-tmb-pdac
+    title: "High hypoxia score correlates with higher TMB in TCGA-PAAD (r=0.28, p<0.001)"
+    status: supported
+    confidence: 0.7
+    domain: oncology-hypoxia
+  - slug: krtcap2-pan-cancer-poor-prognosis-immune-exclusion
+    title: "KRTCAP2 associated with poor pan-cancer prognosis and immune exclusion across TCGA"
+    status: supported
+    confidence: 0.65
+    domain: oncology
+  - slug: high-hypoxia-score-chemotherapy-resistance-pdac
+    title: "High hypoxia score predicts reduced sensitivity to gemcitabine/oxaliplatin/cisplatin/5-FU/paclitaxel in PDAC (oncoPredict)"
+    status: supported
+    confidence: 0.7
+    domain: oncology-hypoxia
+  - slug: high-hypoxia-immunosuppressive-microenvironment-pdac
+    title: "High hypoxia in TCGA-PAAD: lower ESTIMATE/naïve B cells, higher M0 macrophages"
+    status: supported
+    confidence: 0.7
+    domain: oncology-hypoxia
+  - slug: high-hypoxia-cell-cycle-dna-replication-enrichment-pdac
+    title: "High hypoxia group in TCGA-PAAD enriched for cell-cycle, DNA replication, E2F, G2M pathways (GSEA)"
+    status: supported
+    confidence: 0.65
+    domain: oncology-hypoxia
 
 Summary:
 
@@ -4427,3 +4491,55 @@ foundations:
     title: "Barrett's oesophagus"
     status: mainstream
     domain: oncology
+  - slug: krtcap2-gene
+    title: "KRTCAP2 — Keratinocyte-Associated Protein 2 (OST accessory subunit)"
+    status: mainstream
+    domain: molecular-biology
+  - slug: plau-urokinase
+    title: "PLAU (uPA, urokinase-type plasminogen activator)"
+    status: mainstream
+    domain: molecular-biology
+  - slug: gse155698-steele-pdac-scrnaseq
+    title: "GSE155698 — Steele et al. 2020 PDAC scRNA-seq dataset"
+    status: mainstream
+    domain: datasets
+  - slug: tcga-paad-pancreatic-cohort
+    title: "TCGA-PAAD — TCGA Pancreatic Adenocarcinoma cohort"
+    status: mainstream
+    domain: datasets
+  - slug: icgc-paca-pdac-cohorts
+    title: "ICGC PACA-CA and PACA-AU — PDAC validation cohorts"
+    status: mainstream
+    domain: datasets
+  - slug: msigdb-hallmark-hypoxia
+    title: "MSigDB Hallmark Hypoxia — 200-gene canonical hypoxia signature"
+    status: mainstream
+    domain: datasets
+  - slug: lasso-cox-glmnet
+    title: "LASSO-Cox regression (glmnet)"
+    status: mainstream
+    domain: methods
+  - slug: oncopredict-drug-sensitivity
+    title: "oncoPredict — in-silico bulk-RNA drug sensitivity prediction"
+    status: mainstream
+    domain: methods
+  - slug: maftools-mutation-analysis
+    title: "maftools — Bioconductor toolkit for somatic mutation analysis"
+    status: mainstream
+    domain: methods
+  - slug: gistic2-copy-number
+    title: "GISTIC 2.0 — Genomic Identification of Significant Targets in Cancer"
+    status: mainstream
+    domain: methods
+  - slug: aucell-gene-set-activity
+    title: "AUCell — per-cell gene set activity scoring"
+    status: mainstream
+    domain: methods
+  - slug: addmodulescore-seurat
+    title: "AddModuleScore (Seurat) — per-cell gene-set average expression score"
+    status: mainstream
+    domain: methods
+  - slug: clusterprofiler-gsea
+    title: "clusterProfiler — R package for functional enrichment / GSEA"
+    status: mainstream
+    domain: methods

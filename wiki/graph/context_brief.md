@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (473 total)
+## Claims (481 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -14,10 +14,10 @@ _Auto-generated compressed context. Do not edit._
 - [supported] TREM2⁺ tumor-associated macrophages associate with poor cancer prognosis (conf: 0.7)
 - [supported] TREM2⁺ TAMs accumulate across all six human cancer types in the MoMac-VERSE (conf: 0.85)
 - [supported] Cluster 12_MBMMac is enriched in melanoma brain metastases vs primary GBM and uniquely upregulates LRMDA, suggesting TAM-melanocyte crosstalk at the brain metastatic niche (conf: 0.85)
+- [supported] A 13-gene hypoxia-responsive macrophage signature (LYZ, SCN1B, PLAU, INSIG2, DSC2, MICAL1, U2AF1, KRTCAP2, DDX60L, SATB1, SAMD9, LTC4S, IGLL5) trained by LASSO-Cox on TCGA-PAAD (conf: 0.7)
 - [supported] 18_ECMMac proportion anticorrelates with MANA score (q=0.078) and 8_IFNGMac correlates with MANA score (q=0.060) in lung cancer (conf: 0.75)
 - [supported] 18_ECMMac proportion differs significantly between primary CRC, CRC liver metastases, and primary LIHC (Propeller q=8.7e-7) (conf: 0.9)
-- [supported] 18_ECMMac-associated ICI resistance is not explained by general T-cell exclusion in CPI1000+ (T-cell signature is higher in high-ECM samples) (conf: 0.85)
-- [supported] Cluster 18_ECMMac is a previously-undescribed TAM subset characterized by COL1A1/COL1A2/COL3A1 production, likely on a TAM→fibroblast differentiation p
+- [supported] 18_ECMMac-associated ICI resistance is not explained by general T-cell exclusion in CPI1000+ (T-cell signature is hig
 ## Open Gaps
 _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How to design SAHRMs that engage tolerogenic AHR functions without off-target dioxin-like effects
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (25 total)
+## Papers (26 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -45,13 +45,13 @@ _Auto-generated open questions. Do not edit._
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [4] CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity (methods / oncology / immunology / spatial-omics)
-## Recent Relationships (1064 total)
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --derived_from--> foundations/cibersortx-deconvolution
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --derived_from--> foundations/hsp90-aip-chaperone-complex
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/tpcpa-9670-proteins-999-samples-22-cancers
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/tpcpa-cancer-type-clustering-batch-independent
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/wgcna-13-modules-pan-cancer-proteome
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/gfpt1-gfpt2-hub-colon-module5-hexosamine
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/hsp90-pink1-lrpprc-hub-module6-stress-mitophagy
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/estimate-immune-score-cold-hot-tumors-tpcpa
-  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/pan
+## Recent Relationships (1099 total)
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/lasso-cox-glmnet
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/oncopredict-drug-sensitivity
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/maftools-mutation-analysis
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/gistic2-copy-number
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/aucell-gene-set-activity
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/addmodulescore-seurat
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/clusterprofiler-gsea
+  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/krtcap2-gene
+  papers/development-hypoxia-responsive-ma
