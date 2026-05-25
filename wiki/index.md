@@ -139,8 +139,42 @@ papers:
     importance: 4
     domain: oncology
     priority: context
+  - slug: pan-cancer-proteome-atlas-mass-spectrometry
+    title: "The pan-cancer proteome atlas, a mass spectrometry-based landscape for discovering tumor biology, biomarkers, and therapeutic targets"
+    tags: [pan-cancer, proteomics, dia-ms, tpcpa, biomarkers, drug-targets, cms, immune-subtypes, cup-classifier, protac, wgcna]
+    importance: 4
+    domain: oncology
+    priority: reference
 
 concepts:
+  - slug: pan-cancer-proteome-atlas-tpcpa
+    title: "The Pan-Cancer Proteome Atlas (TPCPA)"
+    tags: [pan-cancer, proteomics, dia-ms, atlas, reference-dataset]
+    maturity: emerging
+  - slug: dia-ms-pan-cancer-proteomics-approach
+    title: "Single-shot DIA-MS as a pan-cancer proteomics approach"
+    tags: [proteomics, dia-ms, methods, pan-cancer, single-shot]
+    maturity: active
+  - slug: proteomic-cms-markers-colorectal-cancer
+    title: "Proteome-defined CMS markers for colorectal cancer"
+    tags: [crc, cms, biomarkers, proteomics, subtyping]
+    maturity: emerging
+  - slug: immune-consensus-cluster-crc-prognostic
+    title: "Immune consensus cluster (immune CC) for CRC prognosis"
+    tags: [crc, immune-subtypes, prognosis, proteomics, treg, cd8]
+    maturity: emerging
+  - slug: wgcna-protein-coexpression-cancer-hubs
+    title: "Protein co-expression modules and hub-protein drug targets in pan-cancer proteome"
+    tags: [wgcna, co-expression, hub-protein, drug-target, proteomics]
+    maturity: active
+  - slug: cup-cancer-type-classifier-proteome
+    title: "Proteome-based cancer-type classifier for cancers of unknown primary"
+    tags: [cup, classifier, machine-learning, dia-ms, metastasis]
+    maturity: emerging
+  - slug: e3-ligase-protac-tumor-selectivity
+    title: "Tumor-type-enriched E3 ubiquitin ligases for PROTAC selectivity"
+    tags: [protac, e3-ligase, ubiquitin-proteasome, drug-design, selectivity]
+    maturity: emerging
   - slug: cd8-t-cell-exhaustion-texterm
     title: "CD8+ T cell exhaustion and the TEXterm state"
     tags: [immunology, cd8-t-cells, exhaustion, cancer-immunotherapy, chronic-infection]
@@ -818,6 +852,15 @@ concepts:
 topics:
 
 people:
+  - slug: jaco-c-knol
+    tags: [proteomics, dia-ms, pan-cancer, cancer-biomarkers]
+    affiliation: "Amsterdam UMC, OncoProteomics Laboratory"
+  - slug: tiannan-guo
+    tags: [proteomics, dia-ms, mass-spectrometry, pan-cancer, clinical-proteomics]
+    affiliation: "Westlake University, Hangzhou"
+  - slug: connie-r-jimenez
+    tags: [proteomics, dia-ms, oncology, biomarkers, colorectal-cancer]
+    affiliation: "Amsterdam UMC, OncoProteomics Laboratory"
   - slug: nicolas-chevrier
     tags: [immunology, sepsis, organism-wide-profiling, cytokines]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
@@ -1061,6 +1104,121 @@ ideas:
 experiments:
 
 claims:
+  - slug: tpcpa-9670-proteins-999-samples-22-cancers
+    title: "TPCPA quantifies 9,670 proteins across 999 primary tumors representing 22 cancer types"
+    tags: [tpcpa, dia-ms, pan-cancer, proteomics]
+    status: supported
+    confidence: 0.95
+  - slug: tpcpa-cancer-type-clustering-batch-independent
+    title: "Unsupervised TPCPA clustering separates samples by cancer type rather than by acquisition batch or laboratory"
+    tags: [tpcpa, batch-effects, umap, hierarchical-clustering, dia-ms]
+    status: supported
+    confidence: 0.9
+  - slug: wgcna-13-modules-pan-cancer-proteome
+    title: "WGCNA on TPCPA yields 13 protein co-expression modules with tissue-correlated and pan-cancer biology"
+    tags: [wgcna, co-expression, hub-proteins, drug-targets, tpcpa]
+    status: supported
+    confidence: 0.85
+  - slug: gfpt1-gfpt2-hub-colon-module5-hexosamine
+    title: "GFPT1 and GFPT2 are hub proteins of colon cancer module 5, linking N/O-glycosylation to β-catenin biology"
+    tags: [gfpt1, gfpt2, hexosamine, beta-catenin, colon-cancer, wgcna]
+    status: supported
+    confidence: 0.7
+  - slug: hsp90-pink1-lrpprc-hub-module6-stress-mitophagy
+    title: "HSP90AA1, HSP90AB1, PMPCB, LRPPRC and PINK1 are hub proteins of module 6"
+    tags: [hsp90, pink1, lrpprc, mitophagy, wgcna, stress-response]
+    status: supported
+    confidence: 0.7
+  - slug: estimate-immune-score-cold-hot-tumors-tpcpa
+    title: "ESTIMATE immune scores from bulk proteome separate immune-hot from immune-cold tumors"
+    tags: [estimate, immune-infiltration, hot-cold-tumor, proteome]
+    status: supported
+    confidence: 0.85
+  - slug: pancreatic-cancer-highest-stromal-score
+    title: "Pancreatic cancer has the highest ESTIMATE stromal score among solid cancers in TPCPA"
+    tags: [pancreatic-cancer, stroma, estimate, tme]
+    status: supported
+    confidence: 0.85
+  - slug: cibersort-epic-fail-bulk-proteome-tamborero-preferred
+    title: "EPIC and CIBERSORT deconvolution perform poorly on bulk proteome; Tamborero ssGSEA preferred"
+    tags: [deconvolution, cibersort, epic, tamborero, proteome, immune-infiltration]
+    status: supported
+    confidence: 0.75
+  - slug: herc5-rnf5-tumor-enriched-e3-ligases
+    title: "HERC5 is highly expressed in esophageal cancer and RNF5 in liver cancer, nominating tumor-selective E3 ligases for PROTAC design"
+    tags: [e3-ligase, protac, herc5, rnf5, esophageal-cancer, liver-cancer]
+    status: supported
+    confidence: 0.8
+  - slug: blood-vs-solid-pan-cancer-de-recapitulates-biology
+    title: "Blood-vs-solid pan-cancer DE on TPCPA recovers expected immune and adhesion biology"
+    tags: [pan-cancer, differential-expression, blood-cancer, solid-cancer]
+    status: supported
+    confidence: 0.85
+  - slug: bcl7a-ikzf1-dock2-pax5-blood-cancer-markers
+    title: "BCL7A, IKZF1, SEPTIN6, DOCK2, PTPRC, PAX5 and PASK rank among top blood-cancer-enriched proteins in TPCPA"
+    tags: [blood-cancer, biomarker, bcl7a, ikzf1, dock2, pax5]
+    status: supported
+    confidence: 0.85
+  - slug: sdc1-top-solid-cancer-marker-adc-target
+    title: "SDC1 (Syndecan-1) is a top solid-cancer-unique marker in TPCPA and a known indatuximab ravtansine ADC target"
+    tags: [sdc1, syndecan-1, solid-cancer, biomarker, adc, indatuximab-ravtansine]
+    status: supported
+    confidence: 0.85
+  - slug: tpcpa-classifier-75-features-cptac-validation
+    title: "TPCPA 75-feature cancer-type classifier achieves AUC 0.998 on CPTAC renal and AUC 0.992 on independent breast DIA-MS data"
+    tags: [cup-classifier, dia-ms, cptac, breast-cancer, kidney-cancer, machine-learning]
+    status: supported
+    confidence: 0.85
+  - slug: tpcpa-classifier-metastatic-ovarian-crc-validation
+    title: "TPCPA cancer-type classifier reaches AUC 1.0 on metastatic ovarian and AUC 0.98 on metastatic CRC samples"
+    tags: [cup-classifier, metastatic-cancer, dia-ms, ovarian-cancer, colorectal-cancer]
+    status: supported
+    confidence: 0.75
+  - slug: crc-cms1-mtorc1-enrichment-new
+    title: "CRC CMS1 shows new proteome-level MTORC1 pathway enrichment"
+    tags: [crc, cms1, mtorc1, hallmark, proteome]
+    status: supported
+    confidence: 0.7
+  - slug: crc-cms3-peroxisome-secretion-enrichment
+    title: "CRC CMS3 shows new proteome-level peroxisome and protein-secretion enrichment"
+    tags: [crc, cms3, peroxisome, secretion, metabolism, hallmark]
+    status: supported
+    confidence: 0.7
+  - slug: crc-cms4-ros-p53-hypoxia-hallmarks
+    title: "CRC CMS4 shows proteome-level ROS, p53, UV-response and hypoxia hallmark enrichment"
+    tags: [crc, cms4, hypoxia, ros, p53, hallmark, mesenchymal]
+    status: supported
+    confidence: 0.75
+  - slug: crc-cms2-mitochondrial-respiration-enrichment
+    title: "CRC CMS2 shows proteome-level mitochondrial respiration and translation enrichment not detected at RNA level"
+    tags: [crc, cms2, mitochondria, oxphos, translation, proteome]
+    status: supported
+    confidence: 0.75
+  - slug: crc-immune-cc1-cc2-cd8-treg-distinction
+    title: "Proteome-based immune CC1 vs CC2 in CRC differ by activated CD8+ T, T helper and regulatory T-cell infiltration"
+    tags: [crc, immune-cc, cd8-t-cell, treg, t-helper, proteome]
+    status: supported
+    confidence: 0.85
+  - slug: immune-cc-predicts-rfs-better-than-cms-crc
+    title: "Proteome immune consensus cluster predicts RFS in stage-2 CRC more significantly than CMS"
+    tags: [crc, immune-cc, rfs, prognosis, cms, stage-2]
+    status: supported
+    confidence: 0.8
+  - slug: crc-cms4-worst-rfs-low-cd8-high-treg
+    title: "CRC CMS4 has the worst RFS and an immune phenotype with low CD8/Th and high Treg/macrophages/eosinophils"
+    tags: [crc, cms4, treg, cd8, macrophage, prognosis, inflamed-phenotype]
+    status: supported
+    confidence: 0.85
+  - slug: cms-protein-markers-validate-rna-external
+    title: "Most CMS-subtype-enriched proteins from TPCPA validate at RNA level on external CRC cohorts"
+    tags: [crc, cms, validation, proteomics, transcriptomics]
+    status: supported
+    confidence: 0.8
+  - slug: tpcpa-5000-6000-proteins-per-sample
+    title: "Single-shot DIA-MS in TPCPA quantifies 5,000–6,000 proteins per sample with ~4-orders-of-magnitude dynamic range"
+    tags: [dia-ms, proteome-depth, dynamic-range, throughput]
+    status: supported
+    confidence: 0.9
   - slug: taiji-cd8-atlas-9-states-121-samples
     title: "Taiji TF-activity atlas integrates 121 RNA-seq and ATAC-seq samples across nine CD8+ T cell states"
     tags: [methods, taiji, cd8-t-cells, multi-omics]
@@ -3359,6 +3517,54 @@ claims:
 Summary:
 
 foundations:
+  - slug: dia-ms-data-independent-acquisition
+    title: "DIA-MS — Data-Independent Acquisition Mass Spectrometry"
+    status: mainstream
+    domain: proteomics
+  - slug: wgcna-weighted-gene-coexpression
+    title: "WGCNA — Weighted Gene Co-expression Network Analysis"
+    status: mainstream
+    domain: methods
+  - slug: estimate-stromal-immune-score
+    title: "ESTIMATE — Stromal and Immune Score Algorithm"
+    status: mainstream
+    domain: methods
+  - slug: ssgsea-single-sample-gsea
+    title: "ssGSEA — Single-Sample Gene Set Enrichment Analysis"
+    status: mainstream
+    domain: methods
+  - slug: tamborero-immune-signatures
+    title: "Tamborero immune-cell signatures"
+    status: mainstream
+    domain: methods
+  - slug: cms-classifier-crc
+    title: "Consensus Molecular Subtypes (CMS) classifier for colorectal cancer"
+    status: mainstream
+    domain: methods
+  - slug: cptac-clinical-proteomic-tumor-atlas
+    title: "CPTAC — Clinical Proteomic Tumor Analysis Consortium"
+    status: mainstream
+    domain: oncology
+  - slug: gfpt1-gfat1-glutamine-fructose-aminotransferase
+    title: "GFPT1 / GFAT1 — Glutamine-fructose-6-phosphate aminotransferase 1"
+    status: mainstream
+    domain: cell biology
+  - slug: ctnnb1-beta-catenin
+    title: "CTNNB1 / β-catenin"
+    status: mainstream
+    domain: cell biology
+  - slug: herc5-e3-ligase
+    title: "HERC5 — HECT and RLD domain containing E3 ubiquitin ligase 5"
+    status: mainstream
+    domain: cell biology
+  - slug: rnf5-e3-ligase
+    title: "RNF5 — Ring Finger Protein 5 E3 ubiquitin ligase"
+    status: mainstream
+    domain: cell biology
+  - slug: sdc1-syndecan-1
+    title: "SDC1 / Syndecan-1 (CD138)"
+    status: mainstream
+    domain: cell biology
   - slug: zscan20-tf
     title: "ZSCAN20"
     status: mainstream

@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (450 total)
+## Claims (473 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (24 total)
+## Papers (25 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -40,18 +40,18 @@ _Auto-generated open questions. Do not edit._
 - [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [4] Hypoxia signaling in human health and diseases: implications and prospects for therapeutics (molecular-biology / hypoxia-signaling / translational-medicine)
+- [4] The pan-cancer proteome atlas, a mass spectrometry-based landscape for discovering tumor biology, biomarkers, and therapeutic targets (oncology)
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [4] CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity (methods / oncology / immunology / spatial-omics)
-- [4] Spatial transcriptomics reveals distinct and conserved tumor core and edge architectures that predict survival and targeted therapy response (oncology)
-## Recent Relationships (1019 total)
-  papers/emerging-strategies-investigate-biology-early-cancer --derived_from--> foundations/atac-seq
-  papers/emerging-strategies-investigate-biology-early-cancer --derived_from--> foundations/chip-seq
-  papers/emerging-strategies-investigate-biology-early-cancer --derived_from--> foundations/scrna-seq-10x-chromium
-  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/driver-mutations-necessary-sufficient-cancer
-  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/tp53-mutation-burden-normal-oesophagus-reaches
-  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/lifetime-oesophageal-cancer-risk-less-than
-  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/precancerous-lesions-contain-stem-like-cell
-  papers/emerging-strategies-investigate-biology-early-cancer --supports--> claims/metabolic-reprogramming-occurs-already-precancerous-stage
-  papers/emerging-strategies-in
+## Recent Relationships (1064 total)
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --derived_from--> foundations/cibersortx-deconvolution
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --derived_from--> foundations/hsp90-aip-chaperone-complex
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/tpcpa-9670-proteins-999-samples-22-cancers
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/tpcpa-cancer-type-clustering-batch-independent
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/wgcna-13-modules-pan-cancer-proteome
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/gfpt1-gfpt2-hub-colon-module5-hexosamine
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/hsp90-pink1-lrpprc-hub-module6-stress-mitophagy
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/estimate-immune-score-cold-hot-tumors-tpcpa
+  papers/pan-cancer-proteome-atlas-mass-spectrometry --supports--> claims/pan

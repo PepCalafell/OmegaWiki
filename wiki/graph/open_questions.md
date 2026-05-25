@@ -133,6 +133,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/pairwise-cytokine-code-explains-organism-wide] What does combining anti-TNF with cytokine knockout in human cytokine storm syndromes (CRS) look like, given that TNF half-life and kinetics in humans differ?
 - [paper/pairwise-cytokine-code-explains-organism-wide] How does the pairwise code intersect with the broader [[concepts/cytokine-cell-type-specific-response-pleiotropy]] insight from the Immune Dictionary (Cui & Hacohen 2024)?
 - [paper/pairwise-cytokine-code-explains-organism-wide] Is the lymphoid-nonlymphoid recovery asymmetry preserved across mouse strains and ages?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Will inclusion of PTMs, metabolites and spatial layers extend mechanistic understanding of pan-cancer biology?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Does immune CC robustly predict CRC patient survival beyond AMC / EMC?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Are module hub proteins functionally tractable as cross-cancer drug targets?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Can a HERC5- or RNF5-recruiting PROTAC achieve tumour-selective degradation of a canonical oncoprotein in esophageal or liver cancer models?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Does GFPT1 inhibition phenocopy β-catenin inhibition in colon cancer organoids?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] How robust is the 75-feature classifier to non-DIA (TMT or DDA) input?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Which of the 79 RNA-discordant CMS proteins are post-transcriptionally regulated vs derived from infiltrating cell populations?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Does CMS4 hypoxia signature predict response to hypoxia-activated prodrugs (evofosfamide, tarloxotinib)?
+- [paper/pan-cancer-proteome-atlas-mass-spectrometry] Does immune CC retain prognostic power after multivariable adjustment for stage / MSI / KRAS / BRAF?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] What is the impact of anti-PD-1/PD-L1 immunotherapy on PD-L1+ TAM function and abundance in vivo?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] Are PD-L1+/− TAMs functionally equivalent in non-breast tumors (lung, HCC, urothelial)?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] Do PD-L1+/− TAM functional differences hold in primary vs metastatic disease?
@@ -271,6 +280,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
 - [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
 - [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
+- [concept/cup-cancer-type-classifier-proteome] Cross-platform generalisation (TMT, DDA).
+- [concept/cup-cancer-type-classifier-proteome] Clinical-grade validation with prospective CUP cohorts.
 - [concept/cytokine-cell-type-specific-response-pleiotropy] Combinatorial cytokine perturbation atlases (>2 cytokines simultaneously)
 - [concept/cytokine-cell-type-specific-response-pleiotropy] Dose-response and temporal dynamics of cell-type-specific programmes
 - [concept/cytokine-cell-type-specific-response-pleiotropy] Human translation of the mouse Immune Dictionary
@@ -283,6 +294,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-pair-synergy-antagonism-tissue] Pathway-level mapping of synergy (MAPK / NF-κB / JAK-STAT / IRF rewiring)
 - [concept/cytokine-pair-synergy-antagonism-tissue] Quantitative dose-response models for combinatorial effects
 - [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
+- [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
+- [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
+- [concept/e3-ligase-protac-tumor-selectivity] Demonstrate tumour-selective degradation in vivo using a HERC5- or RNF5-recruiting PROTAC.
+- [concept/e3-ligase-protac-tumor-selectivity] Chemoproteomics-driven discovery of small-molecule ligands for novel E3s.
 - [concept/ecdna-precancer-malignant-progression] Whether ecDNA also drives progression in non-EAC cancers with precursor lesions
 - [concept/ecdna-precancer-malignant-progression] Mechanism by which immunomodulatory ecDNA cargo (CIITA, SOCS1) shapes the early immune microenvironment
 - [concept/ecm-mycaf-leading-edge-signaling-axis] Whether targeting ecm-myCAF (e.g. anti-LRRC15 ADCs) reverses LE state in vivo
@@ -356,6 +371,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/immune-checkpoint-blockade] Robust per-patient predictors of ICB response.
 - [concept/immune-checkpoint-blockade] Strategies to convert cold tumours to hot.
 - [concept/immune-checkpoint-blockade] Mechanistic drivers of acquired resistance.
+- [concept/immune-consensus-cluster-crc-prognostic] Translation to deployable IHC or targeted-MS panel.
+- [concept/immune-consensus-cluster-crc-prognostic] Mechanistic link between Treg/macrophage skew and recurrence.
 - [concept/in-silico-perturbation-le-state-reversal] Experimental validation of top hits (e.g. Alvocidib) in OSCC patient-derived models
 - [concept/in-silico-perturbation-le-state-reversal] Extending the pipeline to combination drugs
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
@@ -443,6 +460,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pairwise-cytokine-code-sepsis] Higher-order (triplet, quartet) cytokine combinations are not yet sampled
 - [concept/pan-cancer-conserved-leading-edge-signature] Whether LE signature subtypes exist (e.g. ECM-dominant vs immune-cold variants)
 - [concept/pan-cancer-conserved-leading-edge-signature] Causal upstream drivers shared across cancers
+- [concept/pan-cancer-proteome-atlas-tpcpa] Extension to metastatic and post-treatment tumours.
+- [concept/pan-cancer-proteome-atlas-tpcpa] Integration with single-cell / spatial proteomics.
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -457,6 +476,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
+- [concept/proteomic-cms-markers-colorectal-cancer] An IHC- or DIA-based CMS classifier deployable in routine pathology.
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
@@ -573,6 +593,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
+- [concept/wgcna-protein-coexpression-cancer-hubs] Wet-lab validation of hub-protein dependency across cancer types.
+- [concept/wgcna-protein-coexpression-cancer-hubs] Integration with single-cell co-expression networks.
 - [claim/anti-pd1-ctla4-alvocidib-le-outgoing-pattern] Anti-PD-1 / anti-CTLA-4 perturbations and Alvocidib (CDK inhibitor) recapitulate the effective-drug LE-outgoing pattern in OSCC ST (status: weakly_supported)
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
