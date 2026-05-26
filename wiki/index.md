@@ -121,6 +121,12 @@ papers:
     importance: 4
     domain: oncology
     priority: core
+  - slug: multimodal-spatial-omics-reveal-co-evolution
+    title: "Multimodal spatial-omics reveal co-evolution of alveolar progenitors and proinflammatory niches in progression of lung precursor lesions"
+    tags: [lung-cancer, luad, precursor-lesions, aah, ais, mia, spatial-transcriptomics, xenium, visium, snrna-seq, kac, rpii, alveolar-progenitor, il1b, il1r1, proinflammatory-niche, tam, canakinumab, precancer-interception, clonal-evolution, kras]
+    importance: 5
+    domain: oncology
+    priority: core
   - slug: pairwise-cytokine-code-explains-organism-wide
     title: "A pairwise cytokine code explains the organism-wide response to sepsis"
     tags: [sepsis, cytokines, TNF, IL-18, IFN-gamma, IL-1-beta, organism-wide, multi-tissue, topic-model, spatial-transcriptomics, immunology]
@@ -171,6 +177,26 @@ papers:
     priority: core
 
 concepts:
+  - slug: kac-krt8-alveolar-intermediate-cells-luad-progenitors
+    title: "KAC / RPII — KRT8-high alveolar intermediate cells as LUAD progenitors"
+    tags: [lung, luad, alveolar, precursor, cell-of-origin, inflammation]
+    maturity: emerging
+  - slug: epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor
+    title: "Epithelial-proinflammatory niche (IL1B-high macrophage / IL1R1-high KAC) in LUAD precursors"
+    tags: [lung, luad, precursor, tme, macrophage, inflammation, niche, spatial]
+    maturity: emerging
+  - slug: spatial-clonal-evolution-patterns-luad-precursor
+    title: "Spatial clonal evolution patterns from lung precursor to invasive LUAD"
+    tags: [lung, luad, precursor, clonal-evolution, phylogeny, spatial-genomics]
+    maturity: emerging
+  - slug: nmf-meta-programs-luad-epithelial-stage
+    title: "NMF meta-programs of LUAD epithelial cell states (MP1–MP11)"
+    tags: [lung, luad, nmf, meta-program, cell-state, epithelial]
+    maturity: emerging
+  - slug: il1b-precancer-interception-luad
+    title: "IL-1β blockade as precancer interception strategy for LUAD"
+    tags: [luad, precancer, immunoprevention, canakinumab, immune-checkpoint, therapy]
+    maturity: emerging
   - slug: curated-cancer-cell-atlas-3ca
     title: "Curated Cancer Cell Atlas (3CA)"
     tags: [scrna-seq, pan-cancer, atlas, resource, oncology, tirosh]
@@ -1221,7 +1247,16 @@ people:
     tags: [thoracic-oncology, nsclc, neoadjuvant-immunotherapy]
     affiliation: "MD Anderson Cancer Center"
   - slug: humam-kadara
-    tags: [nsclc, tumour-microenvironment, translational-pathology, lung-cancer-genomics]
+    tags: [nsclc, tumour-microenvironment, translational-pathology, lung-cancer-genomics, precancer-biology, spatial-transcriptomics]
+    affiliation: "MD Anderson Cancer Center"
+  - slug: linghua-wang
+    tags: [genomic-medicine, spatial-transcriptomics, lung-cancer, data-science-oncology]
+    affiliation: "MD Anderson Cancer Center"
+  - slug: fuduan-peng
+    tags: [spatial-transcriptomics, lung-cancer, computational-biology]
+    affiliation: "MD Anderson Cancer Center"
+  - slug: ansam-sinjab
+    tags: [lung-cancer, translational-pathology, precancer-biology]
     affiliation: "MD Anderson Cancer Center"
   - slug: malte-luecken
     tags: [single-cell-genomics, data-integration, benchmarking, Human-Cell-Atlas, methods]
@@ -1262,6 +1297,90 @@ ideas:
 experiments:
 
 claims:
+  - slug: kac-rpii-earliest-luad-precursor-cells
+    title: "KRT8-high alveolar intermediate cells (KACs / RPII) are the earliest precursor cells in LUAD evolution"
+    tags: [lung, luad, precursor, kac, cell-of-origin]
+    status: supported
+  - slug: kac-mp-landscape-resembles-precursor-lesions
+    title: "KAC meta-program landscape (low MP2-AT2, high MP6-tumor/KAC) resembles precursor lesions, not normal alveolar cells"
+    tags: [luad, nmf, meta-program, kac, precursor]
+    status: supported
+  - slug: epithelial-proinflammatory-niche-prevalent-precursor-not-luad
+    title: "Epithelial-proinflammatory (IL1B-IL1R1) niches are prevalent in lung precursor lesions but less frequent in invasive LUAD"
+    tags: [luad, precursor, niche, inflammation, macrophage, stage-specific]
+    status: supported
+  - slug: il1b-il1r1-top-ligand-receptor-precursor
+    title: "IL1B-IL1R1 is among the top ligand-receptor pairs enriched between myeloid and epithelial cells in lung precursor lesions"
+    tags: [luad, precursor, cell-cell-interaction, il1b, il1r1]
+    status: supported
+  - slug: il1r1-expression-restricted-kac-precursor-absent-at1-at2
+    title: "IL1R1 is highly and specifically expressed in KACs and precursor cells, but absent in normal AT1/AT2 alveolar cells"
+    tags: [lung, alveolar, il1r1, kac, precursor]
+    status: supported
+  - slug: il1b-high-macrophage-subclusters-enriched-near-kac-aah
+    title: "IL1B-high macrophage subclusters (Xenium C15, TMA C4) are enriched in neighborhoods of KACs and AAH cells"
+    tags: [luad, macrophage, il1b, precursor, niche, spatial-neighborhood]
+    status: supported
+  - slug: nfkb-rela-relb-nfkb1-elevated-kacs-precursor
+    title: "NF-κB subunit genes (RELA, RELB, NFKB1) and NF-κB / interferon signatures are elevated in KACs and precursor lesions"
+    tags: [luad, precursor, nfkb, rela, relb, interferon]
+    status: supported
+  - slug: kras-mutant-precursor-il1b-il1r1-enrichment
+    title: "KRAS-mutant precursor lesions show 100% enrichment of IL1B-IL1R1 LR interactions, absent in KRAS WT precursors"
+    tags: [luad, kras, precursor, il1b, il1r1, genotype-niche]
+    status: supported
+  - slug: three-spatial-clonal-evolution-patterns-luad-precursor
+    title: "Lung precursor-to-LUAD evolution follows three distinct spatial clonal patterns (1a, 1b, 2)"
+    tags: [luad, clonal-evolution, spatial-genomics, cna, phylogeny]
+    status: supported
+  - slug: rpii-clones-shared-precursor-luad-share-kac-score
+    title: "RPII regions harbor clones shared between normal tissue, precursor lesions, and paired LUADs, all with elevated KAC score"
+    tags: [luad, rpii, kac, clonal-architecture, field-effect]
+    status: supported
+  - slug: mouse-kac-il1r1-nfkb-conserved-with-human
+    title: "Mouse KACs in NNK-Gprc5a−/− lungs express highest Il1r1, Rela, Relb, Nfkb1 — cross-species conservation"
+    tags: [mouse-model, kac, il1r1, nfkb, conservation, cross-species]
+    status: supported
+  - slug: recombinant-il1b-and-im-coculture-increase-krt8-organoid-growth
+    title: "Recombinant IL-1β and interstitial-macrophage co-culture increase AT2-derived KRT8+ organoid number and size"
+    tags: [luad, organoid, il1b, kac, mechanism, in-vitro]
+    status: supported
+  - slug: il1r1-knockout-reduces-kras-luad-and-krt8-lamp3-cells
+    title: "Genetic Il1r1 knockout in CC-LR (Kras G12D) mice significantly reduces Kras-mutant lung tumors and LAMP3+/KRT8+ cells"
+    tags: [luad, il1r1, kras, mouse-model, genetic-validation]
+    status: supported
+  - slug: anti-il1b-reduces-lung-adenoma-luad-volume-vs-anti-pd1
+    title: "Anti-IL-1β is more efficacious than anti-PD-1 monotherapy in reducing lung adenoma/adenocarcinoma volume at 3 and 7 months post-NNK"
+    tags: [luad, anti-il1b, anti-pd1, mouse-model, precancer-interception]
+    status: supported
+  - slug: anti-il1b-anti-pd1-combination-superior-precancerous-interception
+    title: "Combined anti-IL-1β + anti-PD-1 in precancerous phase achieves the greatest reduction in tumor volume, KAC fraction, and inflammatory cytokines"
+    tags: [luad, anti-il1b, anti-pd1, combination, precancer]
+    status: supported
+  - slug: anti-il1b-no-effect-syngeneic-established-luad
+    title: "Anti-IL-1β fails to reduce growth of established mouse LUAD cells in a syngeneic transplant model"
+    tags: [luad, anti-il1b, syngeneic-model, stage-specific, negative-result]
+    status: supported
+  - slug: anti-il1b-reduces-pro-tumor-cytokines-balf
+    title: "Anti-IL-1β reduces BALF concentrations of CCL3, IL33, IL17A at 7 months post-NNK"
+    tags: [luad, cytokine, balf, anti-il1b, pharmacodynamic]
+    status: supported
+  - slug: icaf-inflammatory-caf-most-abundant-precursor-lesions
+    title: "Inflammatory CAFs (iCAFs) are most abundant in AAH/AIS precursor lesions and less abundant in normal lung and invasive LUAD"
+    tags: [luad, caf, icaf, precursor, stroma, niche]
+    status: supported
+  - slug: kac-pathway-enrichment-tnfa-nfkb-top-vs-other-epithelial
+    title: "KACs show top enrichment of TNFα-via-NF-κB and proinflammatory pathways vs other epithelial subsets"
+    tags: [luad, kac, pathway-enrichment, tnfa, nfkb]
+    status: supported
+  - slug: mp-trajectory-mp2-at2-mp5-at1-decrease-mp6-tumor-increase
+    title: "MP2-AT2 and MP5-AT1 decrease progressively while MP6-tumor/KAC increases progressively across normal → AAH → AIS → MIA → LUAD"
+    tags: [luad, nmf, meta-program, trajectory, quantitative]
+    status: supported
+  - slug: spatial-multiomics-cohort-486k-spots-5m-cells
+    title: "Peng et al. 2026 cohort: 486,519 Visium spots, 5.4M Xenium cells, 401,635 snRNA-seq nuclei across 56+36 lesions from 25+19 patients"
+    tags: [lung, luad, methodology, cohort-size, spatial-omics, quantitative]
+    status: supported
   - slug: ficz-tcdd-converge-on-cyp1a1-dynamics-when-dose-matched
     title: "FICZ and TCDD produce identical AHR transcriptional dynamics when dose and timing are matched for equivalent CYP1A1 induction — dose/duration, not ligand identity, drives divergence"
     tags: [AHR, FICZ, TCDD, ligand-specificity, CYP1A1, dose-response]
@@ -3995,6 +4114,33 @@ claims:
 Summary:
 
 foundations:
+  - slug: xenium-in-situ-spatial-transcriptomics
+    title: "Xenium In Situ — single-cell spatial transcriptomics (10x Genomics)"
+    tags: [xenium, spatial-transcriptomics, single-cell, in-situ, 10x, methods]
+  - slug: istar-spatial-resolution-enhancement
+    title: "iStar — spatial transcriptomics super-resolution"
+    tags: [istar, super-resolution, visium, histology-guided, methods]
+  - slug: snrna-seq-single-nucleus
+    title: "snRNA-seq — single-nucleus RNA sequencing"
+    tags: [snrna-seq, single-nucleus, 10x, methods]
+  - slug: cytotrace-differentiation
+    title: "CytoTRACE — single-cell differentiation state predictor"
+    tags: [cytotrace, differentiation, stemness, scrna-seq, methods]
+  - slug: gprc5a-knockout-luad-mouse-model
+    title: "Gprc5a−/− mouse — lung adenocarcinoma carcinogenesis model"
+    tags: [gprc5a, mouse-model, luad, carcinogenesis]
+  - slug: nnk-tobacco-carcinogen
+    title: "NNK — nicotine-derived nitrosamine ketone (tobacco carcinogen)"
+    tags: [nnk, tobacco, carcinogen, lung-cancer]
+  - slug: canakinumab-anti-il1b
+    title: "Canakinumab — anti-IL-1β monoclonal antibody"
+    tags: [canakinumab, anti-il1b, monoclonal-antibody, cantos, canopy, immunoprevention]
+  - slug: il1r1-receptor
+    title: "IL1R1 — Interleukin-1 receptor type 1"
+    tags: [il1r1, interleukin-1-receptor, cd121a, signaling]
+  - slug: spatialinfercnv-spatial-cna
+    title: "SpatialInferCNV — spatial copy number alteration inference"
+    tags: [spatialinfercnv, cna, visium, phylogeny, methods]
   - slug: aryl-hydrocarbon-receptor
     title: "AHR (aryl hydrocarbon receptor)"
     tags: [AHR, bHLH-PAS, transcription-factor, xenobiotic-sensor, ligand-activated]

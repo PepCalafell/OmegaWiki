@@ -147,6 +147,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] TCGA bulk mRNA confounds tumor-cell hypoxia with stromal hypoxia. To what extent are pancancer hypoxia scores driven by malignant epithelium vs hypoxic stromal/myeloid compartments?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] The paper proposes TP53 mutation as a *consequence* of hypoxia (selection); but mutual confounding by clonal hematopoiesis or germline modifiers is not ruled out.
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Whether hypoxia-induced miR-133a-3p downregulation affects BIN1/PGM5 protein levels in vivo (not only correlationally) is open.
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Are epithelial-proinflammatory niches a fork between resolution of lung injury and tumor initiation, or specific to oncogenesis?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Why are KRAS mutations absent from pattern 1a but enriched in pattern 1b?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Can lineage tracing prove causality of niche → KAC → LUAD progression in vivo?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Does the IL1B-IL1R1 axis underlie the COPD-LUAD risk link?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Is the KAC state reversible by inflammation resolution agents (resolvins, anti-IL-1R agonist) prior to mutation acquisition?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Could IL1R1 IF on CT-guided needle biopsies of indeterminate lung nodules stratify progression risk in real time?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] How do these epithelial-proinflammatory niches relate to the hypoxia-immunosuppressive niches identified in invasive NSCLC ([[papers/tumour-microenvironment-crosstalk-nsclc-progression-response]])? Are they sequential — early IL-1β niche → late hypoxic/SPP1⁺ niche?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Does the precancer interception logic generalize to other organs' precursors (PanIN, BE, breast DCIS, colon adenoma)?
+- [paper/multimodal-spatial-omics-reveal-co-evolution] Are pattern-2 (clonal-disjoint) precursors mechanistically driven by independent founder clones in a shared field, and does the niche pre-date all of them?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How is the temporal sequence of HIF1α / p65 binding and DNA demethylation orchestrated mechanistically? (paired time-resolved methylome+transcriptome required)
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Which TET isoform is responsible for C2 demethylation? Is TET2 specifically recruited by p65?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does GM-CSF or tissue-resident lineage reproduce the C2 hypomethylation under hypoxia?
@@ -357,6 +366,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
+- [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Are these niches reversible by inflammation resolution agents (e.g., resolvins) rather than blockade?
+- [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Which precursor lesions carry an active niche versus a resolved one, and can imaging (IL1R1 IF) stratify them?
+- [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Predictive biomarker for response (beyond VHL mutation): is there a transcriptomic signature that identifies HIF-2α-dependent tumors better than VHL status alone?
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
@@ -419,6 +431,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
 - [concept/il-18-polyfunctional-nk-cell-state] Translation to human NK cells
 - [concept/il-18-polyfunctional-nk-cell-state] Interaction with IL-18BP decoy axis
+- [concept/il1b-precancer-interception-luad] What is the optimal interception biomarker? IL1R1 IF on screening biopsies? Spatial niche signature on resected nodules?
+- [concept/il1b-precancer-interception-luad] Risk-benefit of chronic IL-1β blockade in high-risk asymptomatic cohorts.
+- [concept/il1b-precancer-interception-luad] Does combination with anti-PD-1 raise unacceptable autoimmunity risk in non-cancer prevention populations?
 - [concept/il4i1-tumor-associated-macrophage] Whether targeting IL4I1 (pharmacological inhibitor available) suffices to reverse the immunosuppressive phenotype in vivo
 - [concept/il4i1-tumor-associated-macrophage] Compensatory induction of IL4I1 after PD-1/PD-L1 blockade
 - [concept/il4i1-tumor-associated-macrophage] Tumour-type-specific dependencies on IL4I1 vs IDO1 vs both
@@ -436,6 +451,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/isgf3-independent-irf9-function] IP-MS / proximity-labeling to identify IRF9 partners under homeostasis.
 - [concept/isgf3-independent-irf9-function] Test whether STAT3 or STAT5 KO abolishes the IRF9-only target subset.
 - [concept/isgf3-independent-irf9-function] Determine if ISGF3-independent IRF9 has analogous roles in human macrophages and TILs.
+- [concept/kac-krt8-alveolar-intermediate-cells-luad-progenitors] Are epithelial-proinflammatory niches a fork between resolution of lung injury and tumor initiation? (Discussion p.334)
+- [concept/kac-krt8-alveolar-intermediate-cells-luad-progenitors] Is the KAC state reversible upstream of mutational acquisition?
+- [concept/kac-krt8-alveolar-intermediate-cells-luad-progenitors] What identifies KAC-niche-bearing precursors that will progress versus regress clinically?
 - [concept/kdm-direct-oxygen-sensing-hif-independent] A complete map of which KDMs are O₂-substrate-limited at physiological tumor hypoxia (pO₂ < 10 mmHg) — KMs vary across the family.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Whether KDM oxygen sensing dominates or merely modulates the HIF transcriptional response in hypoxic cancer cells in vivo.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Therapeutic exploitation: KDM inhibitors as hypoxia-mimetic compounds, or KDM activators as anti-hypoxia compounds.
@@ -553,6 +571,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatial-atac-svp-detection-gap] Native SVP-detection algorithms designed for binary/Bernoulli sparse spatial signals.
 - [concept/spatial-atac-svp-detection-gap] Joint SVG–SVP integration for spatially aware gene-regulatory networks (a future-directions item in Li et al. 2025).
 - [concept/spatial-atac-svp-detection-gap] Analogous SVP-style methods for spatial proteomics, spatial methylation, and other spatial omics modalities.
+- [concept/spatial-clonal-evolution-patterns-luad-precursor] Why are KRAS mutations selectively absent from pattern 1a but enriched in pattern 1b?
+- [concept/spatial-clonal-evolution-patterns-luad-precursor] Can pre-resection biopsy stratify patients to a pattern, informing surveillance versus surgery?
+- [concept/spatial-clonal-evolution-patterns-luad-precursor] How do epithelial-proinflammatory niches map onto each pattern's clonal topology?
 - [concept/spatial-domain-detection-from-svg] Joint SVG-selection-plus-clustering frameworks that learn the spatial domain partition and the feature set simultaneously.
 - [concept/spatial-domain-detection-from-svg] Spatial domain detection on spatial ATAC-seq where SVP signal is poor (see [[concepts/spatial-atac-svp-detection-gap]]).
 - [concept/spatially-regulated-cancer-cell-states] Lineage tracing of TC ↔ LE transitions in vivo
