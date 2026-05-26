@@ -193,8 +193,38 @@ papers:
     importance: 5
     domain: single-cell methods / hematology / proteomics
     priority: core
+  - slug: multiple-overlapping-binding-sites-determine-transcription
+    title: "Multiple overlapping binding sites determine transcription factor occupancy"
+    tags: [transcription-factor, DNA-binding, low-affinity-TFBS, overlapping-binding-sites, paralog-competition, noncoding-variants, regulatory-genomics, method-development]
+    importance: 4
+    domain: regulatory-genomics
+    priority: high
 
 concepts:
+  - slug: padit-seq
+    title: "PADIT-seq (Protein Affinity to DNA by In vitro Transcription and sequencing)"
+    tags: [transcription-factor, in-vitro-binding, high-throughput, low-affinity, synthetic-biology, RNA-seq-reporter]
+    maturity: emerging
+  - slug: overlapping-binding-sites-model
+    title: "Overlapping binding sites model of TF occupancy"
+    tags: [transcription-factor, DNA-binding, low-affinity, additivity, paralogue-competition, noncoding-variants]
+    maturity: emerging
+  - slug: low-affinity-tf-binding-site
+    title: "Low-affinity TF binding site"
+    tags: [transcription-factor, DNA-binding, low-affinity, cis-regulation, developmental-enhancer]
+    maturity: established
+  - slug: tfbs-weavability
+    title: "TFBS weavability (k-mer connectivity property of TF binding sites)"
+    tags: [transcription-factor, DNA-binding, graph-theory, binding-site-architecture]
+    maturity: emerging
+  - slug: tf-paralogue-competition
+    title: "TF paralogue competition for shared binding sites"
+    tags: [transcription-factor, paralog, DNA-binding, evolution, flanking-nucleotides]
+    maturity: established
+  - slug: noncoding-variant-tf-binding-effect
+    title: "Noncoding variant effects on TF binding (multi-site additive model)"
+    tags: [GWAS, noncoding-variant, transcription-factor, variant-effect-prediction, regulatory-genomics]
+    maturity: emerging
   - slug: kac-krt8-alveolar-intermediate-cells-luad-progenitors
     title: "KAC / RPII — KRT8-high alveolar intermediate cells as LUAD progenitors"
     tags: [lung, luad, alveolar, precursor, cell-of-origin, inflammation]
@@ -1069,6 +1099,12 @@ concepts:
 topics:
 
 people:
+  - slug: shubham-khetan
+    tags: [transcription-factor, DNA-binding, PADIT-seq, regulatory-genomics, noncoding-variants]
+  - slug: martha-l-bulyk
+    tags: [transcription-factor, DNA-binding, protein-binding-microarray, regulatory-genomics, noncoding-variants]
+  - slug: brent-s-carroll
+    tags: [transcription-factor, DNA-binding, PADIT-seq]
   - slug: christiane-opitz
     tags: [AHR, tryptophan-metabolism, kynurenine, IL4I1, tumour-immunometabolism, glioblastoma, DKFZ]
   - slug: saskia-trump
@@ -1387,6 +1423,74 @@ ideas:
 experiments:
 
 claims:
+  - slug: padit-seq-detects-lower-affinity-tfbs-undetected-by-upbm-htselex
+    title: "PADIT-seq detects hundreds of lower-affinity TFBSs that uPBM and HT-SELEX miss"
+    tags: [PADIT-seq, low-affinity, TFBS, uPBM, HT-SELEX, methodological]
+    status: supported
+  - slug: padit-seq-correlates-with-mitomi-kd-pearson-094
+    title: "PADIT-seq EGR1 activities correlate with MITOMI Kd at Pearson r=0.94"
+    tags: [PADIT-seq, MITOMI, EGR1, affinity, quantitative]
+    status: supported
+  - slug: upbm-escore-aurocs-above-097-for-padit-seq-active-kmers
+    title: "uPBM E-scores predict PADIT-seq active k-mers with AUROC > 0.97 across all six TFs"
+    tags: [uPBM, PADIT-seq, AUROC, benchmark, methodological]
+    status: supported
+  - slug: chip-seq-peaks-enriched-for-consecutive-overlapping-active-kmers
+    title: "ChIP-seq/ChIP-nexus peaks of all six TFs are enriched for multiple consecutive overlapping active k-mers"
+    tags: [ChIP-seq, ChIP-nexus, overlapping-binding-sites, TF-occupancy, correlational]
+    status: supported
+  - slug: sum-of-overlapping-padit-activity-correlates-with-chipseq-signal
+    title: "Sum of overlapping PADIT-seq activities correlates with ChIP-seq/ChIP-nexus read counts (Pearson 0.29-0.50)"
+    tags: [PADIT-seq, ChIP-seq, quantitative, occupancy, correlational]
+    status: supported
+  - slug: chip-nexus-footprint-grows-1bp-per-overlapping-site
+    title: "ChIP-nexus footprint grows 1 bp per additional overlapping binding site (Cbf1: 28→29→30 bp; Pho4: 27→28 bp)"
+    tags: [ChIP-nexus, footprint, overlapping-binding-sites, mechanistic, Pho4, Cbf1]
+    status: supported
+  - slug: htselex-cycle-progression-enriches-overlapping-active-kmers
+    title: "HT-SELEX cycle progression preferentially enriches sequences with more consecutive overlapping active k-mers"
+    tags: [HT-SELEX, overlapping-binding-sites, additive, affinity, methodological]
+    status: supported
+  - slug: upbm-signal-linear-with-number-of-consecutive-active-kmers
+    title: "uPBM signal intensity is linear in the number of consecutive overlapping active k-mers (all six TFs)"
+    tags: [uPBM, overlapping-binding-sites, additive, quantitative, benchmark]
+    status: supported
+  - slug: pho4-cbf1-paralog-competition-explained-by-overlapping-sites-r-0948
+    title: "Differential numbers of overlapping Pho4 vs Cbf1 active 8-mers predict BET-seq ΔΔΔG at Pearson r=0.948 (r²=0.898)"
+    tags: [Pho4, Cbf1, paralog-competition, BET-seq, overlapping-binding-sites, quantitative]
+    status: supported
+  - slug: in-vivo-pho4-cbf1-binding-resilience-tracks-overlapping-site-counts
+    title: "In vivo Pho4 ChIP-seq dominance over Cbf1 increases with Pho4-specific overlapping active 8-mers (and vice versa)"
+    tags: [Pho4, Cbf1, ChIP-seq, paralog-competition, in-vivo, correlational]
+    status: supported
+  - slug: padit-seq-outperforms-motifbreakr-and-snpselex-for-variant-effects
+    title: "PADIT-seq outperforms MotifBreakR and SNP-SELEX at predicting variant effects on TF binding (AUROC 0.943/0.962 vs 0.790/0.872)"
+    tags: [PADIT-seq, MotifBreakR, SNP-SELEX, variant-effect-prediction, benchmark]
+    status: supported
+  - slug: variant-effect-magnitude-scales-with-number-of-altered-overlapping-kmers
+    title: "Magnitude of allelic TF binding effect scales with the number of overlapping active k-mers altered by the variant"
+    tags: [noncoding-variant, overlapping-binding-sites, SNP-SELEX, EGR1, HOXD13, quantitative]
+    status: supported
+  - slug: rs606231230-pathogenic-preaxial-polydactyly-creates-overlapping-hoxd13-sites
+    title: "Pathogenic SNP rs606231230 (preaxial polydactyly) creates multiple overlapping HOXD13 binding sites in a limb enhancer"
+    tags: [HOXD13, noncoding-variant, polydactyly, enhancer, limb-development, disease]
+    status: supported
+  - slug: allele-specific-chipseq-91-percent-concordance-with-padit-seq
+    title: "PADIT-seq identifies the preferred allele in allele-specific ChIP-seq at 91% concordance"
+    tags: [allele-specific-ChIP-seq, PADIT-seq, variant-effect, in-vivo, quantitative]
+    status: supported
+  - slug: mpra-confirms-padit-seq-variant-effects-on-expression
+    title: "MPRA data for EGR1 confirm that PADIT-seq-predicted binding-altering variants also alter expression"
+    tags: [MPRA, EGR1, variant-effect, gene-expression, validation]
+    status: supported
+  - slug: tfbs-weavability-is-general-property-of-eukaryotic-tfs
+    title: "199/200 surveyed eukaryotic TFs have densely-connected (k-1)-overlap binding-site graphs (weavability is general)"
+    tags: [TFBS-weavability, UniPROBE, uPBM, binding-site-architecture, general-principle]
+    status: supported
+  - slug: conserved-overlapping-active-kmer-regions-evolutionarily-conserved
+    title: "Genomic regions with multiple consecutive overlapping active k-mers are significantly more evolutionarily conserved than flanking sequence"
+    tags: [evolution, conservation, phastCons, overlapping-binding-sites, functional]
+    status: supported
   - slug: kac-rpii-earliest-luad-precursor-cells
     title: "KRT8-high alveolar intermediate cells (KACs / RPII) are the earliest precursor cells in LUAD evolution"
     tags: [lung, luad, precursor, kac, cell-of-origin]
@@ -4519,6 +4623,39 @@ Summary:
     status: supported
 
 foundations:
+  - slug: hoxd13-tf
+    title: "HOXD13 (homeodomain transcription factor)"
+    tags: [HOXD13, homeodomain, limb-development, transcription-factor]
+  - slug: egr1-tf
+    title: "EGR1 (early growth response 1 / C2H2 zinc-finger TF)"
+    tags: [EGR1, zinc-finger, immediate-early-gene, transcription-factor]
+  - slug: nkx2-5-tf
+    title: "NKX2.5 (cardiac homeodomain TF)"
+    tags: [NKX2.5, cardiac, homeodomain, transcription-factor]
+  - slug: tbx5-tf
+    title: "TBX5 (T-box cardiac/limb TF)"
+    tags: [TBX5, T-box, cardiac, Holt-Oram, transcription-factor]
+  - slug: pho4-tf
+    title: "Pho4 (S. cerevisiae bHLH phosphate-response TF)"
+    tags: [Pho4, bHLH, yeast, phosphate, transcription-factor]
+  - slug: cbf1-tf
+    title: "Cbf1 (S. cerevisiae bHLH centromere-binding factor)"
+    tags: [Cbf1, bHLH, yeast, centromere, transcription-factor]
+  - slug: chip-nexus
+    title: "ChIP-nexus (ChIP with nucleotide-resolution exonuclease and barcoded ligation)"
+    tags: [ChIP-nexus, ChIP-exo, footprinting, methods, TF-binding]
+  - slug: ht-selex
+    title: "HT-SELEX (high-throughput systematic evolution of ligands by exponential enrichment)"
+    tags: [HT-SELEX, in-vitro, TF-binding, methods]
+  - slug: upbm-protein-binding-microarray
+    title: "uPBM (universal protein-binding microarray)"
+    tags: [uPBM, protein-binding-microarray, Bulyk, TF-binding, methods]
+  - slug: snp-selex
+    title: "SNP-SELEX (high-throughput allelic TF binding affinity by SELEX)"
+    tags: [SNP-SELEX, variant-effect, TF-binding, methods]
+  - slug: motifbreakr
+    title: "MotifBreakR (PWM-based variant-effect predictor for TF binding)"
+    tags: [MotifBreakR, PWM, variant-effect, methods]
   - slug: xenium-in-situ-spatial-transcriptomics
     title: "Xenium In Situ — single-cell spatial transcriptomics (10x Genomics)"
     tags: [xenium, spatial-transcriptomics, single-cell, in-situ, 10x, methods]

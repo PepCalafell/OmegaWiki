@@ -173,6 +173,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/multimodal-spatial-omics-reveal-co-evolution] How do these epithelial-proinflammatory niches relate to the hypoxia-immunosuppressive niches identified in invasive NSCLC ([[papers/tumour-microenvironment-crosstalk-nsclc-progression-response]])? Are they sequential — early IL-1β niche → late hypoxic/SPP1⁺ niche?
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Does the precancer interception logic generalize to other organs' precursors (PanIN, BE, breast DCIS, colon adenoma)?
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Are pattern-2 (clonal-disjoint) precursors mechanistically driven by independent founder clones in a shared field, and does the niche pre-date all of them?
+- [paper/multiple-overlapping-binding-sites-determine-transcription] Does OBS extend to prokaryotic TFs?
+- [paper/multiple-overlapping-binding-sites-determine-transcription] Can OBS be cast in absolute thermodynamic (partition-function) form?
+- [paper/multiple-overlapping-binding-sites-determine-transcription] Have flanking sequences at paralog-shared sites evolved under selection to encode differential overlapping-site counts?
+- [paper/multiple-overlapping-binding-sites-determine-transcription] Can PADIT-seq affinity tables be combined with ATAC-seq + cofactor presence to predict in vivo TF occupancy de novo?
+- [paper/multiple-overlapping-binding-sites-determine-transcription] Does TFBS weavability correlate with TF dosage robustness or cofactor dependence?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How is the temporal sequence of HIF1α / p65 binding and DNA demethylation orchestrated mechanistically? (paired time-resolved methylome+transcriptome required)
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Which TET isoform is responsible for C2 demethylation? Is TET2 specifically recruited by p65?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does GM-CSF or tissue-resident lineage reproduce the C2 hypomethylation under hypoxia?
@@ -522,6 +527,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
 - [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
+- [concept/low-affinity-tf-binding-site] Universal definition of "low-affinity but functional" across TF families
+- [concept/low-affinity-tf-binding-site] In vivo cofactor / chromatin contributions to low-affinity binding
+- [concept/low-affinity-tf-binding-site] Evolutionary turnover of low-affinity sites
 - [concept/lymphoid-nonlymphoid-recovery-asymmetry-sepsis] Cell-type identity of the persistent perturbation in each lymphoid tissue
 - [concept/lymphoid-nonlymphoid-recovery-asymmetry-sepsis] Whether antibiotic-treated CLP shows the same asymmetry as untreated CLP
 - [concept/lymphoid-nonlymphoid-recovery-asymmetry-sepsis] Whether IL-10/GDF15-like tissue-protective factors counteract the asymmetry
@@ -572,14 +580,25 @@ _Auto-generated open questions. Do not edit._
 - [concept/nimbosus-aggressive-prostate-phenotype] Are there tumor types beyond PCa where an analogous "constellation" exists?
 - [concept/nimbosus-aggressive-prostate-phenotype] Does the immune microenvironment modulate nimbosus emergence (cf. [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] hypoxic-MAC infiltration)?
 - [concept/nimbosus-aggressive-prostate-phenotype] Can a single molecular biomarker capture the full nimbosus state?
+- [concept/noncoding-variant-tf-binding-effect] Building a TF-wide PADIT-seq atlas for variant interpretation
+- [concept/noncoding-variant-tf-binding-effect] Integrating OBS variant scoring with MPRA expression data at scale
+- [concept/noncoding-variant-tf-binding-effect] Quantifying cumulative effects of multiple linked variants on the same enhancer
 - [concept/nutrient-competition-tumor-immune-cells-tme] Localised nutrient restoration (e.g. intratumoural methionine, glutamine, arginine-producing bacteria).
 - [concept/nutrient-competition-tumor-immune-cells-tme] Identifying the dominant scarcity axis per tumour entity.
 - [concept/obesity-paradox-tam-pd1-glycolysis] Whether targeted TAM-PD-1 modulation benefits lean patients.
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
 - [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
+- [concept/overlapping-binding-sites-model] Quantitative formulation in thermodynamic / partition-function form
+- [concept/overlapping-binding-sites-model] Whether weavability and overlapping-site additivity extends to prokaryotic TFs
+- [concept/overlapping-binding-sites-model] Evolution: did flanking sequences evolve to tune paralog specificity by tuning number of overlapping sites?
+- [concept/overlapping-binding-sites-model] Coupling with chromatin accessibility / cofactor interactions to improve in vivo prediction
 - [concept/oxphos-vs-glycolytic-tumor-metabolic-heterogeneity] Routine non-invasive metabolic phenotyping in clinic.
 - [concept/oxphos-vs-glycolytic-tumor-metabolic-heterogeneity] Spatial mapping of metabolic phenotype within a single tumour.
+- [concept/padit-seq] Generalisation to all major DBD families (the paper benchmarks 4 human + 2 yeast TFs)
+- [concept/padit-seq] Adapting the assay for very weak/transient TFs (pioneer factors, cofactor-dependent TFs)
+- [concept/padit-seq] Combining PADIT-seq affinity tables with cellular ATAC-seq to predict in vivo occupancy de novo
+- [concept/padit-seq] Coupling PADIT-seq with cell-state-specific cofactor pools
 - [concept/pairwise-cytokine-code-sepsis] Half (≈48%) of LPS cellular effects remain unexplained by the three pairs — what other (non-)cytokine factors fill the gap?
 - [concept/pairwise-cytokine-code-sepsis] Direct vs indirect cytokine pair effects on each cell type are not separated
 - [concept/pairwise-cytokine-code-sepsis] Human translation of the pairwise code is untested
@@ -665,6 +684,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/tan-hypoxia-tumor-niche-luad] Causal direction of the positive-feedback loop between tumour hypoxia and TAN recruitment.
 - [concept/tertiary-lymphoid-structure] Causal role of CXCL13+ exhausted T cells in TLS induction (MIBI evidence in melanoma).
 - [concept/tertiary-lymphoid-structure] TLS-targeted therapeutics.
+- [concept/tf-paralogue-competition] Whether flanking sequences at paralog-shared sites have evolved under selection to encode differential overlapping-site counts
+- [concept/tf-paralogue-competition] Extension to >2 paralog systems
+- [concept/tf-paralogue-competition] Generalising to bZIP, MADS-box, and other shared-core TF families
+- [concept/tfbs-weavability] Why does weavability arise — selection, biophysics of the DBD, or both?
+- [concept/tfbs-weavability] Does weavability predict TF dosage robustness or cofactor independence?
+- [concept/tfbs-weavability] Is weavability altered in TFs with paralog-divergent specificity?
 - [concept/tissue-context-dependence-immune-signaling] Identify the source-cell + ligand pairs that maintain baseline JAK-STAT in each tissue.
 - [concept/tissue-context-dependence-immune-signaling] Determine whether reconstituting a single CellChat-nominated pair can rescue context-deprivation phenotypes.
 - [concept/tissue-context-dependence-immune-signaling] Quantify how much of the literature's "macrophage transcriptome" reflects ex vivo context loss.
