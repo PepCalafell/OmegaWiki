@@ -71,8 +71,22 @@ else
 fi
 echo ""
 
-# --- 4. Estado del wiki ---
-echo "--- 4. Estado del wiki ---"
+# --- 4. Check de duplicados (conceptos + claims intra-paper) ---
+echo "--- 4. Duplicados (conceptos + claims intra-paper) ---"
+if [ -f tools/check_duplicates.py ]; then
+  DUP_OUT=$("$PY" tools/check_duplicates.py --wiki-dir wiki/ --threshold equilibrado 2>&1)
+  echo "$DUP_OUT" | sed 's/^/  /'
+  # 🟡 informativo: NO toca FAIL, no bloquea el commit.
+  # Es una decisión consciente: un duplicado a veces no lo es, y la
+  # fusión la decides tú. Pero revísalo en esta misma sesión, con el
+  # paper fresco — al final del vault ya no recordarás el contexto.
+else
+  echo "  [warn] tools/check_duplicates.py no encontrado — salto"
+fi
+echo ""
+
+# --- 5. Estado del wiki ---
+echo "--- 5. Estado del wiki ---"
 echo "  papers:  $(ls wiki/papers/*.md 2>/dev/null | wc -l)"
 echo "  claims:  $(ls wiki/claims/*.md 2>/dev/null | wc -l)"
 echo "  concepts:$(ls wiki/concepts/*.md 2>/dev/null | wc -l)"
