@@ -151,8 +151,42 @@ papers:
     importance: 3
     domain: oncology
     priority: reference
+  - slug: curated-cancer-cell-atlas-provides-comprehensive
+    title: "The Curated Cancer Cell Atlas provides a comprehensive characterization of tumors at single-cell resolution"
+    tags: [scrna-seq, pan-cancer, atlas, metaprograms, cell-cycle, intratumor-heterogeneity, nmf, snrna-seq, tumor-microenvironment, 3CA, Tirosh]
+    importance: 5
+    domain: oncology
+    priority: core
 
 concepts:
+  - slug: curated-cancer-cell-atlas-3ca
+    title: "Curated Cancer Cell Atlas (3CA)"
+    tags: [scrna-seq, pan-cancer, atlas, resource, oncology, tirosh]
+    maturity: active
+  - slug: recurrent-malignant-metaprograms-nmf
+    title: "Recurrent malignant metaprograms (NMF-derived)"
+    tags: [scrna-seq, nmf, ith, metaprograms, malignant-cells, pan-cancer]
+    maturity: stable
+  - slug: cell-cycle-phase-bias-malignant
+    title: "Cell-cycle phase bias (G1/S vs G2/M) in malignant cells"
+    tags: [cell-cycle, proliferation, scrna-seq, pan-cancer, tp53, rb1]
+    maturity: emerging
+  - slug: cancer-type-specificity-tme-vs-malignant
+    title: "Cancer-type specificity of malignant vs TME cell expression"
+    tags: [pan-cancer, tme, malignant, pseudobulk, batch-control, scrna-seq]
+    maturity: emerging
+  - slug: cancer-type-specific-malignant-markers
+    title: "Cancer-type-specific malignant marker genes"
+    tags: [scrna-seq, biomarkers, malignant, pan-cancer, marker-genes, oncology]
+    maturity: active
+  - slug: crc-stemness-metaprogram
+    title: "CRC stemness metaprogram (LGR5/PROM1/ASCL2)"
+    tags: [crc, colorectal-cancer, stemness, metaprogram, lgr5, intestinal-stem-cell, scrna-seq]
+    maturity: emerging
+  - slug: snrna-vs-scrna-metaprogram-differences
+    title: "snRNA-seq vs scRNA-seq metaprogram differences"
+    tags: [snrna-seq, scrna-seq, metaprograms, frozen-tissue, technical-comparison]
+    maturity: emerging
   - slug: pan-cancer-proteome-atlas-tpcpa
     title: "The Pan-Cancer Proteome Atlas (TPCPA)"
     tags: [pan-cancer, proteomics, dia-ms, atlas, reference-dataset]
@@ -870,6 +904,15 @@ concepts:
 topics:
 
 people:
+  - slug: itay-tirosh
+    tags: [scrna-seq, pan-cancer, intratumor-heterogeneity, metaprograms, oncology]
+    affiliation: "Weizmann Institute of Science, Rehovot, Israel"
+  - slug: michael-tyler
+    tags: [scrna-seq, pan-cancer, metaprograms, oncology]
+    affiliation: "Weizmann Institute of Science; Georg-Speyer-Haus"
+  - slug: sidharth-v-puram
+    tags: [hnscc, head-and-neck-cancer, scrna-seq, partial-emt, oncology]
+    affiliation: "Washington University in St. Louis"
   - slug: jaco-c-knol
     tags: [proteomics, dia-ms, pan-cancer, cancer-biomarkers]
     affiliation: "Amsterdam UMC, OncoProteomics Laboratory"
@@ -1128,6 +1171,96 @@ ideas:
 experiments:
 
 claims:
+  - slug: cca3-124-datasets-2836-samples-56m-cells
+    title: "3CA v2 contains 124 datasets, 2,836 samples and 5,658,705 cells across >40 cancer types"
+    tags: [scrna-seq, atlas, pan-cancer, 3ca, resource]
+    status: supported
+    confidence: 0.95
+  - slug: cca3-67-malignant-metaprograms-updated
+    title: "3CA v2 defines 67 recurrent malignant metaprograms (vs 41 previously)"
+    tags: [metaprograms, nmf, malignant, scrna-seq, pan-cancer]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-all-41-prior-malignant-mps-recovered
+    title: "All 41 prior malignant metaprograms (3CA v1) are recovered in 3CA v2"
+    tags: [metaprograms, reproducibility, malignant, nmf, scrna-seq]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-new-mps-cholesterol-complement-nrf2-crc-stemness
+    title: "3CA v2 discovers new MPs: cholesterol homeostasis, complement and coagulation, NRF2 targets, and CRC stemness"
+    tags: [metaprograms, crc, stemness, cholesterol, nrf2, complement, malignant]
+    status: supported
+    confidence: 0.85
+  - slug: cca3-snrna-specific-cell-cycle-and-cilia-mps
+    title: "snRNA-seq samples disproportionately contribute to a distinct cell-cycle MP and a second cilia MP"
+    tags: [snrna-seq, scrna-seq, metaprograms, cell-cycle, cilia, technical-variation]
+    status: supported
+    confidence: 0.85
+  - slug: cca3-pan-cancer-mast-cell-markers-strongest
+    title: "Mast cells have the strongest pan-cancer cell-type markers (TPSB2/AB1, CPA3, MS4A2)"
+    tags: [marker-genes, mast-cells, sensitivity, specificity, scrna-seq, pan-cancer]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-cancer-type-specific-malignant-markers
+    title: "Cancer-type-specific malignant markers include known (PMEL, KLK3, ESR1, CDKN2A) and novel (APOA2, ANKRD30A) genes"
+    tags: [marker-genes, malignant, pan-cancer, biomarkers, scrna-seq]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-malignant-and-epithelial-highest-cancer-type-specificity
+    title: "Malignant cells have by far the highest cancer-type specificity, followed by non-malignant epithelial cells"
+    tags: [pan-cancer, pseudobulk, malignant, epithelial, scrna-seq]
+    status: supported
+    confidence: 0.95
+  - slug: cca3-tme-immune-stromal-pan-cancer-conserved
+    title: "TME immune and stromal cell types are pan-cancer conserved in average expression"
+    tags: [tme, pan-cancer, immune-cells, stromal, scrna-seq, pseudobulk]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-malignant-most-proliferative-15-percent
+    title: "Malignant cells are the most proliferative cell type pan-cancer (>15% cycling on average)"
+    tags: [cell-cycle, proliferation, malignant, scrna-seq, pan-cancer]
+    status: supported
+    confidence: 0.95
+  - slug: cca3-cell-cycle-positively-correlated-across-cell-types
+    title: "Proliferation rates positively correlate across cell types within the same tumour"
+    tags: [cell-cycle, tme, proliferation, scrna-seq, pan-cancer]
+    status: supported
+    confidence: 0.85
+  - slug: cca3-fibroblast-endothelial-proliferation-tightly-coupled
+    title: "Fibroblast and endothelial proliferation are most tightly coupled across tumours (P = 1.3e-24)"
+    tags: [cell-cycle, fibroblast, endothelial, tme, angiogenesis, scrna-seq]
+    status: supported
+    confidence: 0.95
+  - slug: cca3-hpv-pos-hnscc-most-proliferative
+    title: "HPV+ HNSCC is the most proliferative cancer type (>45% cycling malignant cells)"
+    tags: [hnscc, hpv, proliferation, cell-cycle, head-and-neck-cancer]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-ccrcc-lowest-malignant-proliferation
+    title: "ccRCC has the lowest malignant proliferation (~5% cycling cells) pan-cancer"
+    tags: [ccrcc, kidney-cancer, proliferation, cell-cycle, scrna-seq]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-tp53-mutation-associated-g2m-bias
+    title: "TP53 mutations are the genomic alteration most consistently associated with G2/M phase bias across cancer types"
+    tags: [tp53, cell-cycle, phase-bias, tcga, mechanistic, driver-mutation]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-rb1-mutation-associated-g1s-bias
+    title: "RB1 mutations are most consistently associated with G1/S phase bias across cancer types"
+    tags: [rb1, cell-cycle, phase-bias, tcga, mechanistic, driver-mutation]
+    status: supported
+    confidence: 0.85
+  - slug: cca3-hpv-pos-vs-neg-hnscc-opposite-phase-bias
+    title: "HPV+ and HPV− HNSCC exhibit opposite cell-cycle phase bias despite both being highly proliferative"
+    tags: [hnscc, hpv, phase-bias, cell-cycle, rb1, head-and-neck-cancer]
+    status: supported
+    confidence: 0.9
+  - slug: cca3-no-data-integration-preserves-biological-signal
+    title: "Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia"
+    tags: [batch-correction, integration, scrna-seq, atlas, methods, opinion]
+    status: weakly_supported
+    confidence: 0.55
   - slug: tpcpa-9670-proteins-999-samples-22-cancers
     title: "TPCPA quantifies 9,670 proteins across 999 primary tumors representing 22 cancer types"
     tags: [tpcpa, dia-ms, pan-cancer, proteomics]
@@ -3581,6 +3714,22 @@ claims:
 Summary:
 
 foundations:
+  - slug: nmf-non-negative-matrix-factorization
+    title: "Non-negative matrix factorization (NMF)"
+    status: mainstream
+    domain: methods
+  - slug: rb1-tumor-suppressor
+    title: "RB1 (retinoblastoma 1) tumor suppressor"
+    status: mainstream
+    domain: oncology
+  - slug: hpv-oncoprotein-e6-e7
+    title: "HPV oncoproteins E6/E7"
+    status: mainstream
+    domain: oncology
+  - slug: tisch-tumor-immune-cell-atlas
+    title: "TISCH — Tumor Immune Single-cell Hub"
+    status: mainstream
+    domain: methods
   - slug: dia-ms-data-independent-acquisition
     title: "DIA-MS — Data-Independent Acquisition Mass Spectrometry"
     status: mainstream

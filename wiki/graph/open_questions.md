@@ -47,6 +47,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/cross-tissue-single-cell-landscape-human] Whether IL4I1_Mac is induced by chronic IFN signalling in non-tumour autoimmune contexts (lupus, RA flares, severe COVID-19), and whether the same mechanistic loop applies.
 - [paper/cross-tissue-single-cell-landscape-human] Quantitative comparison of the murine TREM2 TAM vs human TREM2_Mac transcriptional programme: is the cross-species "TREM2 TAM" a single conserved state or a convergence of distinct programmes?
 - [paper/cross-tissue-single-cell-landscape-human] Relationship of IL4I1_Mac to Calafell 2024 mMAC1 hypoxic state: is mMAC1 a hypoxic/in-vitro proxy of IL4I1_Mac, an upstream precursor, or a distinct differentiation path that converges on similar surface markers?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] Can robust integration methods be developed that preserve biological signal in cancer scRNA-seq?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] How will rare sample types (post-treatment, metastasis, circulating tumour cells) reshape the MP landscape?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] Will further expansion identify additional ITH hallmarks beyond the current set?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] Do the new MPs (cholesterol homeostasis, NRF2 targets, complement/coagulation) overlap with the [[concepts/cluster-c2-hypoxia-hypomethylation-signature|hypoxia signature]] in malignant cells across cancer types?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] Can the MP-by-cancer-type matrix be used to define a "transcriptional taxonomy" of tumours that competes with mutation-based subtypes?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] Is the fibroblast–endothelial proliferation coupling driven by VEGF/angiogenic crosstalk, and is it modulated by tumour hypoxia?
+- [paper/curated-cancer-cell-atlas-provides-comprehensive] Does phase bias predict response to CDK4/6 inhibitors or platinum chemotherapy in HPV+ vs HPV− HNSCC?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] What protein-level expression patterns underlie the 13-gene transcriptional model?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] Is the regulatory mechanism in pancreatic cancer experimentally validated?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] How broadly does KRTCAP2 act as a therapeutic target across cancer types?
@@ -280,6 +287,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/carcinogenesis-tipping-point-irreversibility] Whether commitment is truly irreversible or pharmacologically reversible
 - [concept/cd8-t-cell-exhaustion-texterm] Which TEXterm-selective TFs are druggable in CAR-T or TIL therapy?
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
+- [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
+- [concept/cell-cycle-phase-bias-malignant] Are TME cell-cycle phases correlated with malignant phase bias?
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
 - [concept/chromothripsis-hypoxia-prostate] Whether anti-hypoxia therapy reduces chromothripsis incidence in vivo
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
@@ -616,6 +625,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
+- [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)

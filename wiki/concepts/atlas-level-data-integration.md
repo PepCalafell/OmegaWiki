@@ -23,8 +23,9 @@ tags:
 maturity: stable
 key_papers:
   - "[[papers/benchmarking-atlas-level-data-integration-single]]"
+  - "[[papers/curated-cancer-cell-atlas-provides-comprehensive]]"
 first_introduced: "Human Cell Atlas white paper (Regev et al. 2017); operationalised by Luecken et al. 2022 scIB benchmark"
-date_updated: 2026-05-22
+date_updated: 2026-05-26
 related_concepts:
   - "[[concepts/batch-removal-vs-bioconservation-tradeoff]]"
   - "[[concepts/scrna-atlas-as-reference-projection]]"

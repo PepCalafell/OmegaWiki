@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (481 total)
+## Claims (499 total)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (26 total)
+## Papers (27 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -45,13 +45,13 @@ _Auto-generated open questions. Do not edit._
 - [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
 - [4] CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity (methods / oncology / immunology / spatial-omics)
-## Recent Relationships (1099 total)
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/lasso-cox-glmnet
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/oncopredict-drug-sensitivity
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/maftools-mutation-analysis
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/gistic2-copy-number
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/aucell-gene-set-activity
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/addmodulescore-seurat
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/clusterprofiler-gsea
-  papers/development-hypoxia-responsive-macrophage-prognostic-model --derived_from--> foundations/krtcap2-gene
-  papers/development-hypoxia-responsive-ma
+## Recent Relationships (1133 total)
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/nmf-non-negative-matrix-factorization
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/tp53-tumor-suppressor
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/rb1-tumor-suppressor
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/hpv-oncoprotein-e6-e7
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/tisch-tumor-immune-cell-atlas
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/tcga-the-cancer-genome-atlas
+  papers/curated-cancer-cell-atlas-provides-comprehensive --derived_from--> foundations/infercnv-cnv-scrna
+  papers/curated-cancer-cell-atlas-provides-comprehensive --supports--> claims/cca3-124-datasets-2836-samples-56m-cells
+  papers/curated-cancer-cell-atlas-provides-comprehensive --supports--> claims/cca3

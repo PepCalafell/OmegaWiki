@@ -19,8 +19,9 @@ tags:
 maturity: stable
 key_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
+  - curated-cancer-cell-atlas-provides-comprehensive
 first_introduced: "Vaupel 2002 review; Bhandari 2019 (pancancer quantification)"
-date_updated: 2026-05-06
+date_updated: 2026-05-26
 related_concepts: []
 ---
 
