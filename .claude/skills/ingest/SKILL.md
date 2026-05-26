@@ -2,6 +2,9 @@
 description: Ingest a paper into the wiki — creates pages (papers + concepts + people + claims) and builds all cross-references and graph edges. Trigger whenever the user says "ingest", "add this paper", drops a `.pdf` / `.tex` / arXiv URL, or asks to fold a paper into the knowledge base.
 argument-hint: <local-path-or-arXiv-URL> [--discover]
 ---
+<!-- FUENTE DE VERDAD. Este archivo NO se regenera desde i18n/.
+     Ver nota en setup.sh, Step 3b. Editar aqui directamente. -->
+
 
 # /ingest
 
