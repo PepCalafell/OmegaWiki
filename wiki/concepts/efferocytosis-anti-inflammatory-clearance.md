@@ -21,6 +21,7 @@ maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
   - metabolism-tissue-macrophages-homeostasis-pathology
+  - macrophages-use-apoptotic-cell-derived-methionine
 first_introduced: "deCathelineau & Henson 2003 (term efferocytosis); reviewed in Lazarov & Geissmann 2023"
 date_updated: 2026-05-06
 related_concepts:
@@ -81,6 +82,7 @@ vs SIRPα-CD47 axis: SIRPα-CD47 protects *living, healthy* cells from any phago
 ## Key papers
 
 - [[papers/physiology-diseases-tissue-resident-macrophages]] — Lazarov & Geissmann 2023 *Nature* — review section "Phagocytosis and nutrient recycling" covers TIM4/TAM/bridging-ligand efferocytosis machinery and the anti-inflammatory output programme
+- [[papers/macrophages-use-apoptotic-cell-derived-methionine]] — Ampomah 2022 *Nat Metab* — mechanism of efferocytosis-driven COX2/PGE2/TGFβ1 resolution via AC-methionine → SAM → DNMT3A → Dusp4 promoter methylation → sustained ERK
 
 ## My understanding
 

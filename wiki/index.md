@@ -181,6 +181,12 @@ papers:
     importance: 4
     domain: oncology
     priority: high
+  - slug: macrophages-use-apoptotic-cell-derived-methionine
+    title: "Macrophages use apoptotic cell-derived methionine and DNMT3A during efferocytosis to promote tissue resolution"
+    tags: [efferocytosis, macrophage, DNMT3A, methionine, SAM, DNA-methylation, DUSP4, COX2, PGE2, TGFβ1, ERK, CD36, CREB1, resolution, atherosclerosis, isotope-tracing, MeDIP]
+    importance: 4
+    domain: immunology / epigenetics / cardiovascular
+    priority: reference
 
 concepts:
   - slug: kac-krt8-alveolar-intermediate-cells-luad-progenitors
@@ -1025,6 +1031,14 @@ concepts:
     title: "Pan-cancer tumor ecosystem five-subtype classification (DLP / NIHS / DHP / AILS / AIHS)"
     tags: [pan-cancer, ecotype, tcga, bulk, stromal, immune, prognosis, tme]
     maturity: emerging
+  - slug: dnmt3a-dusp4-efferocytosis-resolution-pathway
+    title: "DNMT3A–DUSP4 efferocytosis-resolution pathway"
+    tags: [macrophage, efferocytosis, DNA-methylation, DNMT3A, Dusp4, COX2, PGE2, TGFβ1, resolution, atherosclerosis]
+    maturity: emerging
+  - slug: ac-derived-methionine-sam-macrophage-epigenetics
+    title: "Apoptotic-cell-derived methionine fuels macrophage SAM and DNA methylation"
+    tags: [macrophage, efferocytosis, methionine, SAM, DNA-methylation, one-carbon-metabolism, epigenetics, metabolic-signaling]
+    maturity: emerging
 
 topics:
 
@@ -1322,6 +1336,12 @@ people:
   - slug: chenfei-wang
     tags: [computational-oncology, single-cell-genomics, pan-cancer, tme, maestro, tabulatime]
     affiliation: "Tongji University"
+  - slug: patrick-b-ampomah
+    tags: [efferocytosis, macrophage, resolution, atherosclerosis, DNMT3A, epigenetics]
+    affiliation: "Columbia University / Novartis"
+  - slug: ira-tabas
+    tags: [efferocytosis, macrophage, resolution, atherosclerosis, inflammation, lipid-metabolism, DNMT3A]
+    affiliation: "Columbia University Irving Medical Center"
 
 ideas:
 
@@ -4264,6 +4284,99 @@ claims:
 
 Summary:
 
+  - slug: efferocytosis-phagolysosomal-degradation-required-ptgs2-tgfb1
+    title: "Phagolysosomal AC degradation, not engulfment alone, is required for efferocytosis-induced Ptgs2/Tgfb1 upregulation in macrophages"
+    tags: [efferocytosis, phagolysosome, Ptgs2, Tgfb1, bafilomycin, Rubicon, macrophage]
+    status: supported
+  - slug: cox2-pge2-intermediate-tgfb1-efferocytosis
+    title: "AC-induced PGE2 via COX2 is the obligate intermediate that induces TGF-β1 in efferocytosing macrophages"
+    tags: [efferocytosis, COX2, PGE2, TGFβ1, macrophage]
+    status: supported
+  - slug: ep2-ep4-receptors-mediate-pge2-tgfb1
+    title: "PGE2 receptors EP2 and EP4 mediate the AC-induced Tgfb1 induction in macrophages"
+    tags: [PGE2, EP2, EP4, TGFβ1, macrophage]
+    status: supported
+  - slug: ac-methionine-mat2a-sam-required-ptgs2-tgfb1
+    title: "AC-derived methionine is converted to SAM via MAT2A to provide the substrate for efferocytosis-induced Ptgs2/Tgfb1 induction"
+    tags: [methionine, MAT2A, SAM, Ptgs2, Tgfb1, macrophage]
+    status: supported
+  - slug: 13c-methionine-from-acs-traced-to-sam-in-macrophages
+    title: "13C5,15N-methionine from labelled apoptotic cells is metabolically traced into 13C5,15N-SAM in efferocytosing macrophages"
+    tags: [isotope-tracing, methionine, SAM, LC-MS/MS, efferocytosis]
+    status: supported
+  - slug: dnmt3a-required-efferocytosis-ptgs2-tgfb1
+    title: "DNMT3A is required for efferocytosis-induced Ptgs2/Tgfb1 induction in macrophages"
+    tags: [DNMT3A, efferocytosis, Ptgs2, Tgfb1, macrophage]
+    status: supported
+  - slug: ac-methionine-methyl-groups-traced-to-macrophage-dna
+    title: "Methyl groups from AC-derived methionine are incorporated into macrophage DNA as 13C-methylcytosine"
+    tags: [isotope-tracing, methionine, methylcytosine, DNA-methylation, efferocytosis]
+    status: supported
+  - slug: pge2-tgfb1-induction-dnmt3a-creb1-dependent
+    title: "PGE2-induced Tgfb1 transcription requires DNMT3A via the p-CREB1 axis downstream of EP2/EP4"
+    tags: [PGE2, DNMT3A, CREB1, Tgfb1, macrophage]
+    status: supported
+  - slug: erk-activation-required-efferocytosis-cox2-tgfb1
+    title: "Sustained ERK1/2 activation is required for efferocytosis-induced Ptgs2/COX2 and Tgfb1 in macrophages"
+    tags: [ERK, COX2, Tgfb1, efferocytosis, macrophage]
+    status: supported
+  - slug: cd36-principal-ac-receptor-driving-erk-cox2-tgfb1
+    title: "CD36 is the principal AC receptor driving ERK1/2 activation and downstream COX2/TGFβ1"
+    tags: [CD36, MerTK, ERK, COX2, TGFβ1, efferocytosis, macrophage]
+    status: supported
+  - slug: dusp4-not-dusp1-mediates-erk-negative-feedback-efferocytosis
+    title: "DUSP4, not DUSP1, is the ERK-dampening phosphatase whose repression is required for sustained ERK and downstream COX2/TGFβ1"
+    tags: [DUSP4, ERK, negative-feedback, efferocytosis, macrophage]
+    status: supported
+  - slug: dusp4-upregulated-in-dnmt3a-deficient-ac-stimulated-macrophages
+    title: "DUSP4 is upregulated in DNMT3A-deficient AC-stimulated macrophages"
+    tags: [DUSP4, DNMT3A, efferocytosis, macrophage]
+    status: supported
+  - slug: dusp4-promoter-methylated-ac-stimulated-wt-not-dnmt3a-ko
+    title: "The CpG-rich Dusp4 promoter is methylated by DNMT3A in AC-stimulated WT macrophages"
+    tags: [DUSP4, MeDIP, DNA-methylation, DNMT3A, efferocytosis]
+    status: supported
+  - slug: global-5mc-increase-efferocytosis-mat2a-dnmt3a-dependent
+    title: "AC-induced macrophage global 5-methylcytosine percentage is partially MAT2A- and DNMT3A-dependent"
+    tags: [5mC, DNMT3A, MAT2A, efferocytosis]
+    status: supported
+  - slug: h-dnmt3a-ko-reduces-thymic-cox2-pge2-tgfb1-dusp4-up
+    title: "Haematopoietic DNMT3A deletion reduces thymic-macrophage p-ERK, COX2, PGE2, and TGF-β1 and elevates DUSP4 after DEX-induced thymocyte apoptosis"
+    tags: [DNMT3A, dexamethasone, thymus, in-vivo, efferocytosis]
+    status: supported
+  - slug: h-dnmt3a-ko-impairs-thymic-efferocytosis-and-resolution
+    title: "Haematopoietic DNMT3A deletion impairs continual thymic efferocytosis and increases necrosis after DEX"
+    tags: [DNMT3A, dexamethasone, thymus, efferocytosis, necrosis, in-vivo]
+    status: supported
+  - slug: h-dnmt3a-ko-impairs-zymosan-peritonitis-resolution
+    title: "Haematopoietic DNMT3A deletion impairs Zymosan A peritonitis resolution"
+    tags: [DNMT3A, Zymosan, peritonitis, in-vivo, macrophage]
+    status: supported
+  - slug: exogenous-tgfb1-rescues-dnmt3a-ko-zymosan-resolution
+    title: "i.p. TGF-β1 rescues efferocytosis and PMN resolution in H-DNMT3A-KO mice with Zymosan A peritonitis"
+    tags: [TGFβ1, DNMT3A, Zymosan, peritonitis, rescue, in-vivo]
+    status: supported
+  - slug: h-dnmt3a-ko-reduces-lesional-macrophage-p-erk-cox2-tgfb1-atherosclerosis
+    title: "Haematopoietic DNMT3A deletion in atherosclerotic Ldlr-/- mice reduces lesional-macrophage p-ERK, COX2, and TGF-β1"
+    tags: [DNMT3A, atherosclerosis, Ldlr, COX2, TGFβ1, plaque, in-vivo]
+    status: supported
+  - slug: h-dnmt3a-ko-fibrous-cap-thinning-impaired-lesional-efferocytosis
+    title: "Haematopoietic DNMT3A deletion causes fibrous cap thinning and impaired lesional efferocytosis in atherosclerotic Ldlr-/- mice"
+    tags: [DNMT3A, atherosclerosis, fibrous-cap, efferocytosis, plaque-stability, in-vivo]
+    status: supported
+  - slug: conditioned-media-from-control-not-dnmt3a-ko-macs-enhances-efferocytosis-via-tgfb1
+    title: "Conditioned media from AC-exposed control macrophages enhances recipient-macrophage efferocytosis in an anti-TGF-β1-blockable manner"
+    tags: [TGFβ1, DNMT3A, efferocytosis, paracrine, BMDM]
+    status: supported
+  - slug: exogenous-tgfb1-enhances-efferocytosis-via-tgfbri-smad
+    title: "Exogenous TGF-β1 enhances macrophage efferocytosis via TGFβRI-SMAD signaling"
+    tags: [TGFβ1, TGFβRI, SMAD, efferocytosis, macrophage]
+    status: supported
+  - slug: ac-induced-ptgs2-tgfb1-independent-of-extracellular-methionine
+    title: "AC-induced Ptgs2/Tgfb1 do not require extracellular methionine — AC-derived methionine is sufficient"
+    tags: [methionine, efferocytosis, Ptgs2, Tgfb1, BMDM]
+    status: supported
+
 foundations:
   - slug: xenium-in-situ-spatial-transcriptomics
     title: "Xenium In Situ — single-cell spatial transcriptomics (10x Genomics)"
@@ -5357,3 +5470,55 @@ foundations:
     title: "LGALS9 (Galectin-9) — β-galactoside-binding lectin in immune regulation"
     status: mainstream
     domain: immunology / cancer immunology
+  - slug: dnmt3a-de-novo-dna-methyltransferase
+    title: "DNMT3A — de novo DNA methyltransferase 3A"
+    status: mainstream
+    domain: epigenetics / chromatin
+  - slug: ptgs2-cox2
+    title: "PTGS2 / COX2 — prostaglandin-endoperoxide synthase 2 (cyclooxygenase 2)"
+    status: mainstream
+    domain: enzymology / inflammation
+  - slug: pge2-prostaglandin-e2
+    title: "PGE2 — Prostaglandin E2"
+    status: mainstream
+    domain: lipid mediator / signalling
+  - slug: mat2a-methionine-adenosyltransferase
+    title: "MAT2A — methionine adenosyltransferase 2A"
+    status: mainstream
+    domain: metabolism / one-carbon biology
+  - slug: s-adenosylmethionine-sam
+    title: "SAM — S-adenosylmethionine"
+    status: mainstream
+    domain: metabolism / one-carbon biology
+  - slug: dusp4-dual-specificity-phosphatase-4
+    title: "DUSP4 — dual-specificity phosphatase 4"
+    status: mainstream
+    domain: signalling / phosphatase
+  - slug: cd36-scavenger-receptor
+    title: "CD36 — scavenger receptor / fatty acid translocase"
+    status: mainstream
+    domain: cell surface / lipid biology / phagocytosis
+  - slug: creb1-transcription-factor
+    title: "CREB1 — cAMP response element binding protein 1"
+    status: mainstream
+    domain: transcription / signalling
+  - slug: mapk1-3-erk1-2-kinases
+    title: "ERK1/2 — MAPK1 / MAPK3 (extracellular signal-regulated kinases)"
+    status: mainstream
+    domain: kinase / signalling
+  - slug: pf-9366-mat2a-inhibitor
+    title: "PF-9366 — MAT2A allosteric inhibitor"
+    status: mainstream
+    domain: pharmacology / small molecule
+  - slug: u0126-mek-erk-inhibitor
+    title: "U0126 — MEK1/2 inhibitor"
+    status: mainstream
+    domain: pharmacology / small molecule
+  - slug: bafilomycin-a1-vacuolar-atpase
+    title: "Bafilomycin A1 — vacuolar H⁺-ATPase inhibitor"
+    status: mainstream
+    domain: pharmacology / small molecule
+  - slug: medip-methylated-dna-immunoprecipitation
+    title: "MeDIP — methylated DNA immunoprecipitation"
+    status: mainstream
+    domain: method / epigenomics

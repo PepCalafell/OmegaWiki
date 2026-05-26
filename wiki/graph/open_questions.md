@@ -127,6 +127,17 @@ _Auto-generated open questions. Do not edit._
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Are the IRF9 non-ISGF3 partners cell-type-specific, and do they overlap with STAT3/STAT5 targets in human macrophages?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Does single-cell ATAC + RNA on perfusion-fixed spleens reproduce the bulk-derived three-group epigenome/transcriptome coupling pattern?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] How does the neomorphic STAT5BN642H chromatin signature relate to TEXterm chromatin landscapes in chronic infection / tumour CD8 cells (cross-link to [[papers/atlas-guided-discovery-transcription-factors-cell]])?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] What other gene promoters are DNMT3A-methylated during efferocytosis (genome-wide map needed)?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Does AC-methionine specifically route to the Dusp4 promoter or genome-wide?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Does prolonged ERK activation in DNMT3A-deficient cells affect other gene programs beyond Ptgs2?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Are histone methyltransferases also fed by AC-methionine?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Is DNMT3A enzymatic activity itself stimulated by efferocytosis (beyond substrate provision)?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Does CHIP-associated DNMT3A R882H phenocopy homozygous KO?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether the pathway operates in tissue-resident macrophages (Kupffer, microglia, RPE) or only MoDM.
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether dietary methionine restriction in atherosclerotic mice phenocopies haematopoietic DNMT3A loss.
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether the iMAC1 paradox from hypoxic-macrophage work (NF-κB-targets *down* in unstimulated hypoxic MACs) has any parallel here — i.e., does hypoxia + AC exposure interact with the DNMT3A-Dusp4 axis?
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether dCas9-TET2 targeted demethylation of the Dusp4 promoter would phenocopy DNMT3A KO at the Dusp4 locus.
+- [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether the pathway is preserved or rewired in tumour-associated macrophages eating apoptotic tumour cells.
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] The actual *flux* (not just transcriptomic signature) of lipid and cholesterol handling in KCs and RPMs and its homeostatic relevance (p.389).
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] Whether observed metabolic shifts in M1/M2 polarization are causes or consequences of polarization (p.387 — discussed for FAO inhibitors in M2).
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] Why clinical metabolic interventions in IPF (NAC, metformin) fail despite preclinical macrophage signal — i.e. translational gap (p.393).
@@ -273,6 +284,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/using-pan-cancer-atlas-investigate-tumour] How does 18_ECMMac coordinate with cancer-associated fibroblasts (CAFs) — competition, complementarity, or co-differentiation?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Are the 8_IFNGMac and 18_ECMMac axes orthogonal predictors that can be combined into a multivariate ICI-response classifier?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Do hypoxia-driven TAM states (relevant to the user's thesis) preferentially seed 18_ECMMac or other ECM-modifying clusters?
+- [concept/ac-derived-methionine-sam-macrophage-epigenetics] Chromatin-resolved tracing: do AC-derived methyl groups deposit preferentially at specific loci (e.g., Dusp4) or genome-wide?
+- [concept/ac-derived-methionine-sam-macrophage-epigenetics] Quantitative dissection of methionine source (AC vs media vs recycling)
+- [concept/ac-derived-methionine-sam-macrophage-epigenetics] Whether other phagocytic targets (pathogens, debris) likewise contribute methionine to phagocyte epigenetic programs
+- [concept/ac-derived-methionine-sam-macrophage-epigenetics] Generalisation to other professional phagocytes (DCs, tingible-body B-cell-clearing macrophages, RPE cells)
+- [concept/ac-derived-methionine-sam-macrophage-epigenetics] Cross-talk with histone methylation and small-molecule methylation
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
@@ -371,6 +387,11 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
+- [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Site-specific methyl-mark tracking at the Dusp4 promoter (e.g., 13C5-methionine + targeted bisulfite + LC-MS)
+- [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] The molecular mechanism of DNMT3A dependence in the PGE2-EP2/4 → p-CREB1 step
+- [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Whether AC-derived methionine routes preferentially to nuclear SAM pools near DNMT3A vs cytoplasmic pools
+- [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Therapeutic targeting: can SAM supplementation, MAT2A activators, or selective DNMT3A enhancers rescue resolution in CHIP-DNMT3A or advanced atherosclerosis?
+- [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Whether the pathway is preserved or rewired in tumour-associated macrophages
 - [concept/e3-ligase-protac-tumor-selectivity] Demonstrate tumour-selective degradation in vivo using a HERC5- or RNF5-recruiting PROTAC.
 - [concept/e3-ligase-protac-tumor-selectivity] Chemoproteomics-driven discovery of small-molecule ligands for novel E3s.
 - [concept/ecdna-precancer-malignant-progression] Whether ecDNA also drives progression in non-EAC cancers with precursor lesions
@@ -713,6 +734,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
+- [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
