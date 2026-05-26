@@ -197,6 +197,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How robust is the mMAC1 ↔ IL4I1 mapping to other tumor types (HCC, NSCLC, breast, melanoma) and to chronic non-malignant hypoxia (arthritis, ischemic tissues)?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the C2 hypomethylation persist after re-oxygenation, or is it reversible?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does mMAC1 / IL4I1 MAC enhance ICI response (PD-1/PD-L1 blockade) as the OS data and Park 2024 (CRC efferocytosis) collectively suggest?
+- [paper/novae-graph-based-foundation-model-spatial] How to extend the foundation model to NGS-based platforms (Visium) and to genuine multimodal pretraining?
+- [paper/novae-graph-based-foundation-model-spatial] Can mixture-of-experts unify spot and single-cell resolutions?
+- [paper/novae-graph-based-foundation-model-spatial] How to update the input graph for complex tissue structures (axons, sparse epithelium)?
+- [paper/novae-graph-based-foundation-model-spatial] Calibration of FIDE/JSD across tissue density extremes.
+- [paper/novae-graph-based-foundation-model-spatial] Out-of-distribution generalisation to unseen tissues / panels / proteomics modalities.
+- [paper/novae-graph-based-foundation-model-spatial] Whether prototypes can be safely shared across modalities (transcriptomics + proteomics + H&E).
+- [paper/novae-graph-based-foundation-model-spatial] Therapeutic relevance of D497 reduction and D492 TLS niche in larger HNSCC cohorts.
 - [paper/pairwise-cytokine-code-explains-organism-wide] What fills the unexplained ~48% of LPS cellular effects beyond the three cytokine pairs?
 - [paper/pairwise-cytokine-code-explains-organism-wide] Are the direct cellular targets of each cytokine pair separable from indirect ones?
 - [paper/pairwise-cytokine-code-explains-organism-wide] What molecular pathway rewiring (MAPK / NF-κB / IRF / JAK-STAT) underlies the synergy and antagonism?

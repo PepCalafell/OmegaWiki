@@ -21,6 +21,7 @@ maturity: active
 key_papers:
   - "[[papers/systematic-benchmarking-computational-methods-identify-spatially]]"
   - "[[papers/cellcharter-reveals-spatial-cell-niches-associated]]"
+  - "[[papers/novae-graph-based-foundation-model-spatial]]"
 first_introduced: "Maynard et al. 2021 Nat Neurosci (DLPFC reference); BayesSpace, Banksy"
 date_updated: 2026-05-22
 related_concepts:

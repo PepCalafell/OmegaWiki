@@ -205,6 +205,12 @@ papers:
     importance: 4
     domain: immunology / immunometabolism / lipid biology
     priority: reference
+  - slug: novae-graph-based-foundation-model-spatial
+    title: "Novae: a graph-based foundation model for spatial transcriptomics data"
+    tags: [spatial-transcriptomics, foundation-model, graph-neural-network, self-supervised-learning, batch-effect-correction, multimodal, methods]
+    importance: 4
+    domain: methods / spatial-transcriptomics / oncology
+    priority: secondary
 
 concepts:
   - slug: scfa-hdac-gpr-immune-regulation
@@ -1137,6 +1143,34 @@ concepts:
     title: "Human HSPC differentiation hierarchy (multi-omics view)"
     tags: [hematopoiesis, HSPC, stem-cells, bone-marrow, differentiation, single-cell]
     maturity: active
+  - slug: graph-based-foundation-model-spatial-transcriptomics
+    title: "Graph-based foundation model for spatial transcriptomics"
+    tags: [spatial-transcriptomics, foundation-model, graph-neural-network, pretrained-model]
+    maturity: emerging
+  - slug: zero-shot-spatial-domain-inference
+    title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
+    tags: [spatial-transcriptomics, zero-shot, transfer-learning]
+    maturity: emerging
+  - slug: native-batch-effect-correction-via-prototypes
+    title: "Native batch-effect correction via shared prototypes / optimal transport"
+    tags: [spatial-transcriptomics, batch-correction, optimal-transport]
+    maturity: emerging
+  - slug: nested-hierarchical-spatial-domains
+    title: "Nested hierarchical spatial domains"
+    tags: [spatial-transcriptomics, hierarchical-clustering]
+    maturity: emerging
+  - slug: subgraph-local-microenvironment-encoding
+    title: "Subgraph-based local microenvironment encoding for spatial GNNs"
+    tags: [spatial-transcriptomics, graph-neural-networks, infrastructure]
+    maturity: emerging
+  - slug: multimodal-he-spatial-transcriptomics-fusion
+    title: "Multimodal H&E + spatial transcriptomics fusion for spatial domain inference"
+    tags: [spatial-omics, multimodal, histopathology]
+    maturity: emerging
+  - slug: fide-jsd-spatial-domain-metrics
+    title: "FIDE and JSD metrics for spatial-domain continuity and cross-slide homogeneity"
+    tags: [spatial-transcriptomics, benchmarking, metrics]
+    maturity: emerging
 
 topics:
 
@@ -1467,6 +1501,15 @@ people:
   - slug: bo-porse
     tags: [hematopoiesis, HSPC, molecular-hematology, leukemia, single-cell-genomics]
     affiliation: "University of Copenhagen / Rigshospitalet"
+  - slug: quentin-blampey
+    tags: [spatial-transcriptomics, graph-neural-networks, foundation-models, software-engineering]
+    affiliation: "CentraleSupélec / Gustave Roussy"
+  - slug: paul-henry-cournede
+    tags: [mathematics, statistical-learning, precision-medicine, spatial-omics, PI]
+    affiliation: "CentraleSupélec / Université Paris-Saclay"
+  - slug: fabrice-andre
+    tags: [medical-oncology, breast-cancer, precision-medicine, PI]
+    affiliation: "Gustave Roussy / Université Paris-Saclay"
 
 ideas:
 
@@ -4748,6 +4791,86 @@ Summary:
     title: "FAO/CPT1-AMPK supports memory CD8 but CPT1 blockade drives macrophage atherosclerosis"
     tags: [fao, cpt1, ampk, memory, atherosclerosis]
     status: supported
+  - slug: novae-trained-30m-cells-18-tissues-foundation-model
+    title: "Novae is a graph-based foundation model trained on ~30M cells / 18 tissues / 3 imaging spatial-transcriptomics platforms"
+    tags: [spatial-transcriptomics, foundation-model, methodological]
+    status: supported
+  - slug: novae-zero-shot-cross-panel-cross-tissue-inference
+    title: "Novae performs zero-shot spatial-domain inference across new tissues, panels, and platforms"
+    tags: [spatial-transcriptomics, zero-shot, methodological]
+    status: supported
+  - slug: novae-native-batch-correction-via-relaxed-ot-prototypes
+    title: "Novae natively corrects batch effects via shared prototypes and relaxed OT"
+    tags: [spatial-transcriptomics, batch-correction, methodological]
+    status: supported
+  - slug: novae-nested-hierarchical-spatial-domains-no-reclustering
+    title: "Novae produces nested hierarchical spatial domains without re-clustering"
+    tags: [spatial-transcriptomics, hierarchical-clustering, methodological]
+    status: supported
+  - slug: novae-outperforms-stagate-graphst-spaceflow-sedr-breast
+    title: "Novae outperforms STAGATE/GraphST/SpaceFlow/SEDR/Scanpy on multi-panel breast benchmark"
+    tags: [spatial-transcriptomics, benchmark, methodological, breast-cancer]
+    status: supported
+  - slug: novae-outperforms-stagate-graphst-spaceflow-sedr-colon
+    title: "Novae outperforms STAGATE/GraphST/SpaceFlow/SEDR/Scanpy on multi-panel colon benchmark"
+    tags: [spatial-transcriptomics, benchmark, methodological, colon]
+    status: supported
+  - slug: novae-best-ari-fide-synthetic-dataset
+    title: "Novae achieves the highest ARI and FIDE on a synthetic 5-slide / 7-domain benchmark"
+    tags: [spatial-transcriptomics, benchmark, synthetic-data]
+    status: supported
+  - slug: novae-runtime-orders-magnitude-faster-large-datasets
+    title: "Novae is orders of magnitude faster than competitors on million-cell datasets"
+    tags: [spatial-transcriptomics, runtime, methodological]
+    status: supported
+  - slug: novae-lazy-loading-gpu-vram-bounded-not-dataset-size
+    title: "Novae's lazy subgraph loading bounds GPU VRAM independent of dataset size"
+    tags: [spatial-transcriptomics, infrastructure, methodological]
+    status: supported
+  - slug: novae-robust-to-segmentation-baysor-vs-10x
+    title: "Novae spatial domains are robust to segmentation method (10x default vs Baysor)"
+    tags: [spatial-transcriptomics, robustness, segmentation]
+    status: supported
+  - slug: novae-robust-to-node-shuffle-edge-length-perturbation
+    title: "Novae outputs are robust to node-shuffle / edge-length input-graph perturbations"
+    tags: [spatial-transcriptomics, robustness, perturbation]
+    status: supported
+  - slug: novae-relaxed-ot-avoids-over-and-under-correction
+    title: "Novae's relaxed-OT batch correction avoids over- and under-correction"
+    tags: [spatial-transcriptomics, batch-correction, robustness]
+    status: supported
+  - slug: novae-recovers-similar-spatial-domains-tonsil-lymph-node
+    title: "Novae recovers similar spatial-domain distributions across lymphoid tissues and cross-tumour cancer-related domains"
+    tags: [spatial-transcriptomics, cross-tissue, lymphoid]
+    status: supported
+  - slug: novae-multimodal-conch-he-fusion-best-fide-lung
+    title: "Novae + CONCH H&E fusion achieves highest FIDE on human-lung Xenium 5k slide"
+    tags: [spatial-transcriptomics, multimodal, histopathology, lung-cancer]
+    status: supported
+  - slug: novae-d492-tls-tcm-plasma-b-cells-mgc-hnscc
+    title: "In CosMx HNSCC, Novae domain D492 colocalises TCM CD4+ T, plasma B and macrophages, overlapping TLS"
+    tags: [spatial-proteomics, HNSCC, TLS, MGC]
+    status: supported
+  - slug: novae-d497-foxp3-treg-stromal-niche-reduced-mgc
+    title: "FOXP3+ Treg stromal Novae domain D497 reduced in MGC+ HNSCC (P=0.0028)"
+    tags: [spatial-proteomics, HNSCC, regulatory-T-cell, quantitative]
+    status: supported
+  - slug: novae-d500-d501-germinal-center-rewiring-reactive-lymph-node
+    title: "Reactive lymph node shows reorganisation of germinal-center domain D500 connectivity and D500/D501 proportion inversion"
+    tags: [spatial-transcriptomics, lymph-node, germinal-center, PAGA]
+    status: supported
+  - slug: novae-d494-d481-aging-pathway-enriched-tgcrnd8-alzheimer
+    title: "Brain-aging pathway enriched in Novae spatial domains D494 (Neurod6) and D481 in TgCRND8 Alzheimer-like mice"
+    tags: [spatial-transcriptomics, Alzheimer, mouse-brain, aging]
+    status: supported
+  - slug: novae-svg-detection-mouse-brain-neurod6-trbc2-slc17a7
+    title: "Novae-grouped SVG analysis identifies Neurod6, Slc17a7, Trbc2 as top SVGs in 2.5-month control mouse brain"
+    tags: [spatial-transcriptomics, mouse-brain, SVG, methodological]
+    status: supported
+  - slug: novae-degradation-benchmark-performance-drop-at-60-percent-cells-lost
+    title: "Novae performance drops sharply at ~60% slide degradation"
+    tags: [spatial-transcriptomics, robustness, quantitative]
+    status: supported
 
 foundations:
   - slug: scfa-short-chain-fatty-acid
@@ -6012,3 +6135,75 @@ foundations:
     title: "TALDO1 — transaldolase 1 (pentose phosphate pathway)"
     status: mainstream
     domain: metabolism / hematopoiesis
+  - slug: swav-self-supervised-framework
+    title: "SwAV — Swapping Assignments between Views (self-supervised learning)"
+    status: mainstream
+    domain: methods / self-supervised-learning
+  - slug: graph-attention-network-gatv2
+    title: "Graph Attention Network / GATv2 — attention-based graph neural network"
+    status: mainstream
+    domain: methods / graph-neural-networks
+  - slug: optimal-transport-sinkhorn
+    title: "Optimal transport (Sinkhorn-Knopp) — entropic-regularized OT for representation learning"
+    status: mainstream
+    domain: methods / optimization
+  - slug: scanpy
+    title: "Scanpy — single-cell analysis in Python"
+    status: mainstream
+    domain: methods / single-cell
+  - slug: leiden-clustering
+    title: "Leiden clustering — community detection on kNN graphs"
+    status: mainstream
+    domain: methods / clustering
+  - slug: mclust-r
+    title: "mclust — Gaussian mixture model clustering in R"
+    status: mainstream
+    domain: methods / clustering / statistics
+  - slug: merscope-vizgen
+    title: "MERSCOPE — Vizgen MERFISH-based commercial spatial transcriptomics platform"
+    status: mainstream
+    domain: technologies / spatial-transcriptomics
+  - slug: stagate-graph-attention-autoencoder
+    title: "STAGATE — adaptive graph attention autoencoder for spatial domains"
+    status: mainstream
+    domain: methods / spatial-transcriptomics
+  - slug: graphst-spatial
+    title: "GraphST — spatially informed clustering, integration & deconvolution"
+    status: mainstream
+    domain: methods / spatial-transcriptomics
+  - slug: spaceflow-spatial
+    title: "SpaceFlow — spatiotemporal patterns from spatial transcriptomics"
+    status: mainstream
+    domain: methods / spatial-transcriptomics
+  - slug: sedr-spatial
+    title: "SEDR — spatially embedded deep representation"
+    status: mainstream
+    domain: methods / spatial-transcriptomics
+  - slug: nichecompass-spatial
+    title: "NicheCompass — quantitative characterization of cell niches"
+    status: emerging
+    domain: methods / spatial-transcriptomics
+  - slug: baysor-segmentation
+    title: "Baysor — transcript-based cell segmentation for imaging spatial transcriptomics"
+    status: mainstream
+    domain: methods / cell-segmentation
+  - slug: conch-pathology-foundation-model
+    title: "CONCH — pathology vision-language foundation model"
+    status: mainstream
+    domain: methods / digital-pathology
+  - slug: paga-trajectory
+    title: "PAGA — partition-based graph abstraction for trajectory inference"
+    status: mainstream
+    domain: methods / trajectory-inference
+  - slug: sopa-pipeline
+    title: "Sopa — technology-invariant pipeline for image-based spatial omics"
+    status: emerging
+    domain: methods / spatial-omics
+  - slug: spatialdata-framework
+    title: "SpatialData — open framework for spatial omics data"
+    status: mainstream
+    domain: methods / spatial-omics
+  - slug: huggingface-hub
+    title: "Hugging Face Hub — open model and dataset hosting platform"
+    status: mainstream
+    domain: infrastructure / model-hosting

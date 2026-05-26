@@ -4,7 +4,7 @@ affiliation: "Gustave Roussy Cancer Campus, Villejuif, France; INSERM U1015"
 role: individual
 group: "Ginhoux Lab"
 institution: "Gustave Roussy / INSERM U1015"
-papers_in_vault: 2
+papers_in_vault: 3
 relevance_tier: emerging
 manual_override:
 tags:
@@ -13,9 +13,10 @@ tags:
   - mononuclear-phagocyte
   - immunology
   - tumor-microenvironment
+  - spatial-transcriptomics
 homepage: ""
 scholar: ""
-date_updated: 2026-05-06
+date_updated: 2026-05-26
 ---
 
 ## Research areas
@@ -28,6 +29,7 @@ date_updated: 2026-05-06
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — co-first author (Mulder, Patel, Kong et al., *Immunity* 2021)
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — co-author (Sci Adv 2024); contributed MoMac-VERSE expertise to in vivo signature mapping
+- [[papers/novae-graph-based-foundation-model-spatial]] — co-author (Nature Methods 2025); contributed CosMx head and neck cancer proteomics dataset analysis
 
 ## Recent work
 

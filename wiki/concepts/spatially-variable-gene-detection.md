@@ -21,6 +21,7 @@ tags:
 maturity: active
 key_papers:
   - "[[papers/systematic-benchmarking-computational-methods-identify-spatially]]"
+  - "[[papers/novae-graph-based-foundation-model-spatial]]"
 first_introduced: "Svensson, Teichmann, Stegle 2018 (SpatialDE); Sun, Zhu, Zhou 2020 (SPARK); Edsgärd 2018 (trendsceek)"
 date_updated: 2026-05-21
 related_concepts:

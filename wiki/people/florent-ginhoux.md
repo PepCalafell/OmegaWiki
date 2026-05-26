@@ -4,7 +4,7 @@ affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; A
 role: pi
 group: "Ginhoux Lab"
 institution: "Gustave Roussy / A*STAR Singapore"
-papers_in_vault: 2
+papers_in_vault: 3
 relevance_tier: emerging
 manual_override:
 tags:
@@ -14,9 +14,10 @@ tags:
   - tumor-microenvironment
   - PI
   - mononuclear-phagocyte
+  - spatial-transcriptomics
 homepage: ""
 scholar: ""
-date_updated: 2026-05-06
+date_updated: 2026-05-26
 ---
 
 ## Research areas
@@ -30,6 +31,7 @@ date_updated: 2026-05-06
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — co-corresponding senior author (Mulder, Patel, Kong et al., *Immunity* 2021); the MoMac-VERSE foundational paper.
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — co-author (Sci Adv 2024); MoMac-VERSE (cited reference 10) is the in vivo atlas used here for signature mapping.
+- [[papers/novae-graph-based-foundation-model-spatial]] — co-author (Nature Methods 2025); Ginhoux lab contributed the head and neck cancer CosMx proteomics dataset (multinucleated giant cell stratification).
 
 ## Recent work
 

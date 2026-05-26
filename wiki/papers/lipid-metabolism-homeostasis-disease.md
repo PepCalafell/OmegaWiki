@@ -312,7 +312,7 @@ Narrative review. No new wet-lab data. The authors curate primary literature spa
 
 ## My take
 
-- For [[wiki/projects/thesis]], this review is a "lipid backbone" reference: it gives a cell-type-resolved map from SCFA→HDAC/GPR all the way to FAO/CPT1, which is exactly the framework needed to connect efferocytosis-fuelled FAO ([[concepts/efferocytosis-metabolic-rewiring-fao]]) and PPARγ-driven alveolar macrophages ([[concepts/alveolar-macrophage-lipid-catabolism-pparg]]) with the broader immunometabolic landscape.
+- For the thesis project, this review is a "lipid backbone" reference: it gives a cell-type-resolved map from SCFA→HDAC/GPR all the way to FAO/CPT1, which is exactly the framework needed to connect efferocytosis-fuelled FAO ([[concepts/efferocytosis-metabolic-rewiring-fao]]) and PPARγ-driven alveolar macrophages ([[concepts/alveolar-macrophage-lipid-catabolism-pparg]]) with the broader immunometabolic landscape.
 - The mevalonate/GGPP→STAT5→Treg branch is particularly underweighted in cancer-immunology discussions and is worth pulling into discussions of metformin/statin combination immunotherapy ([[concepts/metformin-ici-synergy-treg-teff]]).
 - The cholesterol → CD8 ER-stress exhaustion axis is a clean, testable claim that connects to TREM2 lipid-laden TAM biology ([[concepts/trem2-tam-hypoxic-niche-immune-suppression]]) and may suggest combination strategies.
 - The "+/-" table is convenient but should not be used as a citation — go to the underlying primary papers, especially for any quantitative claim.
