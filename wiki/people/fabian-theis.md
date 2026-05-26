@@ -11,10 +11,10 @@ tags:
   - Human-Cell-Atlas
   - scverse
   - methods
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
-date_updated: 2026-05-22
+date_updated: 2026-05-26
 ---
 
 ## Background
@@ -32,6 +32,7 @@ Fabian J. Theis is director of the Institute of Computational Biology at Helmhol
 ## Key papers in vault
 
 - [[papers/benchmarking-atlas-level-data-integration-single]] (2022, senior author).
+- [[papers/mapping-early-human-blood-cell-differentiation]] (2025, co-corresponding author, *Science*).
 
 ## External links
 

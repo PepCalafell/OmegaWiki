@@ -138,6 +138,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether the iMAC1 paradox from hypoxic-macrophage work (NF-κB-targets *down* in unstimulated hypoxic MACs) has any parallel here — i.e., does hypoxia + AC exposure interact with the DNMT3A-Dusp4 axis?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether dCas9-TET2 targeted demethylation of the Dusp4 promoter would phenocopy DNMT3A KO at the Dusp4 locus.
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Whether the pathway is preserved or rewired in tumour-associated macrophages eating apoptotic tumour cells.
+- [paper/mapping-early-human-blood-cell-differentiation] Can scp-MS be scaled to in vivo systems with rarer cell types and to disease states?
+- [paper/mapping-early-human-blood-cell-differentiation] Can simultaneous inference of multiple trajectories be made tractable in scProtVelo?
+- [paper/mapping-early-human-blood-cell-differentiation] Which post-transcriptional mechanisms beyond complex-mediated stabilization (e.g., B2M↔MHC-I) explain the broader mRNA-protein discordance during quiescence?
+- [paper/mapping-early-human-blood-cell-differentiation] Does the SOD1-KO granulocytic block reflect a redox-specific requirement, or is it a general HSPC stress phenotype? The SOD1/SOD2 contrast (SOD2 KO replicates much of the phenotype but without proliferation arrest) is suggestive but unresolved.
+- [paper/mapping-early-human-blood-cell-differentiation] How sensitive are scProtVelo's translation-rate inferences to mis-specified pseudotime priors?
+- [paper/mapping-early-human-blood-cell-differentiation] Would the same conclusions hold under sparser TMT channels (e.g., 8-plex) or shotgun-DIA workflows that bypass isobaric labeling entirely?
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] The actual *flux* (not just transcriptomic signature) of lipid and cholesterol handling in KCs and RPMs and its homeostatic relevance (p.389).
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] Whether observed metabolic shifts in M1/M2 polarization are causes or consequences of polarization (p.387 — discussed for FAO inhibitors in M2).
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] Why clinical metabolic interventions in IPF (NAC, metformin) fail despite preclinical macrophage signal — i.e. translational gap (p.393).
@@ -419,6 +425,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/hspc-differentiation-multiomics] Better LT-HSC markers across human populations.
+- [concept/hspc-differentiation-multiomics] Linking the multi-omics hierarchy to functional readouts (LTC-IC, xenografts) gene-by-gene rather than population-by-population.
+- [concept/hspc-differentiation-multiomics] Disease state perturbations (MDS, AML) projected onto this multi-omics reference.
 - [concept/hypoxia-activated-prodrugs-haps] Whether combining HAPs with anti-angiogenic vascular *normalization* (which raises pO₂) cancels HAP activation — a paradoxical antagonism.
 - [concept/hypoxia-activated-prodrugs-haps] Whether biomarker-stratified trials (hypoxia-high only) would rescue HAP efficacy.
 - [concept/hypoxia-activated-prodrugs-haps] HAPs + ICB synergy as a way to convert ICB-cold hypoxic tumors to responders.
@@ -486,6 +495,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/isgf3-independent-irf9-function] IP-MS / proximity-labeling to identify IRF9 partners under homeostasis.
 - [concept/isgf3-independent-irf9-function] Test whether STAT3 or STAT5 KO abolishes the IRF9-only target subset.
 - [concept/isgf3-independent-irf9-function] Determine if ISGF3-independent IRF9 has analogous roles in human macrophages and TILs.
+- [concept/joint-multimodal-latent-space] Paired single-cell mRNA + untargeted protein measurements to ground-truth unpaired integrations.
+- [concept/joint-multimodal-latent-space] Better metrics for joint-space quality beyond silhouette.
+- [concept/joint-multimodal-latent-space] Handling more than two modalities (mRNA + protein + chromatin + spatial) jointly.
 - [concept/kac-krt8-alveolar-intermediate-cells-luad-progenitors] Are epithelial-proinflammatory niches a fork between resolution of lung injury and tumor initiation? (Discussion p.334)
 - [concept/kac-krt8-alveolar-intermediate-cells-luad-progenitors] Is the KAC state reversible upstream of mutational acquisition?
 - [concept/kac-krt8-alveolar-intermediate-cells-luad-progenitors] What identifies KAC-niche-bearing precursors that will progress versus regress clinically?
@@ -550,6 +562,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/monocyte-macrophage-maturation-pd-l1-induction] Whether GM-CSF-differentiated MoDMs (e.g., DC-like) show the same maturation-driven PD-L1 induction.
 - [concept/mononuclear-phagocyte-system] Cross-tissue, cross-disease, cross-species MPS reference at higher resolution
 - [concept/mononuclear-phagocyte-system] Lineage-tracing-validated taxonomy that combines ontogeny and state
+- [concept/mrna-protein-discordance] Mechanism-by-mechanism dissection of *why* specific proteins are discordant (translation rate, degradation, stabilization).
+- [concept/mrna-protein-discordance] Paired single-cell mRNA + untargeted protein measurements (vs current unpaired integrations).
+- [concept/mrna-protein-discordance] Translating bulk-derived translation-rate priors into single-cell models.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
@@ -599,10 +614,16 @@ _Auto-generated open questions. Do not edit._
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
 - [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
 - [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
+- [concept/scprotvelo-translation-dynamics] Joint inference of multiple co-existing trajectories.
+- [concept/scprotvelo-translation-dynamics] Generalization to non-paired multimodal data (currently relies on the GLUE-integrated joint latent space).
+- [concept/scprotvelo-translation-dynamics] Validation against ground-truth pulse-SILAC translation rates.
 - [concept/scrna-derived-lasso-cox-prognostic-signature] Calibration benchmarks across multiple cell-type-anchored signatures for the same disease.
 - [concept/scrna-derived-lasso-cox-prognostic-signature] Whether deconvolution (CIBERSORTx, Tamborero) + per-cell-type expression infers the same signatures as direct scRNA-DEG, at a fraction of the data cost.
 - [concept/senescent-cells-promote-early-tumorigenesis] Specificity of senolytic agents to tumour-promoting senescent populations
 - [concept/senescent-cells-promote-early-tumorigenesis] Whether epithelial senescence at the precancer stage is uniformly tumour-promoting
+- [concept/single-cell-proteomics-mass-spec] Reducing missingness without sacrificing throughput.
+- [concept/single-cell-proteomics-mass-spec] Standardized batch correction across labs and instruments.
+- [concept/single-cell-proteomics-mass-spec] Bridging scp-MS depth to ChIP-MS / IP-MS-style functional readouts in the same single cells.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
@@ -728,6 +749,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
+- [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)

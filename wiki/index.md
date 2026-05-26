@@ -187,6 +187,12 @@ papers:
     importance: 4
     domain: immunology / epigenetics / cardiovascular
     priority: reference
+  - slug: mapping-early-human-blood-cell-differentiation
+    title: "Mapping early human blood cell differentiation using single-cell proteomics and transcriptomics"
+    tags: [single-cell-proteomics, scp-MS, SCoPE-MS, scRNA-seq, CITE-seq, multi-omics, hematopoiesis, HSPC, HSC, translation-dynamics, RNA-velocity, trajectory-inference, mass-spectrometry, TMT, mRNA-protein-discordance]
+    importance: 5
+    domain: single-cell methods / hematology / proteomics
+    priority: core
 
 concepts:
   - slug: kac-krt8-alveolar-intermediate-cells-luad-progenitors
@@ -1039,6 +1045,26 @@ concepts:
     title: "Apoptotic-cell-derived methionine fuels macrophage SAM and DNA methylation"
     tags: [macrophage, efferocytosis, methionine, SAM, DNA-methylation, one-carbon-metabolism, epigenetics, metabolic-signaling]
     maturity: emerging
+  - slug: single-cell-proteomics-mass-spec
+    title: "Single-cell proteomics by mass spectrometry (scp-MS)"
+    tags: [proteomics, single-cell, mass-spectrometry, methods]
+    maturity: emerging
+  - slug: scprotvelo-translation-dynamics
+    title: "scProtVelo — single-cell protein velocity and translation dynamics"
+    tags: [trajectory-inference, multi-omics, translation, single-cell, methods]
+    maturity: emerging
+  - slug: mrna-protein-discordance
+    title: "mRNA-protein discordance in single cells"
+    tags: [multi-omics, proteomics, translation, post-transcriptional-regulation, single-cell]
+    maturity: active
+  - slug: joint-multimodal-latent-space
+    title: "Joint multimodal latent space for unpaired single-cell integration"
+    tags: [multi-omics, integration, representation-learning, single-cell, methods]
+    maturity: active
+  - slug: hspc-differentiation-multiomics
+    title: "Human HSPC differentiation hierarchy (multi-omics view)"
+    tags: [hematopoiesis, HSPC, stem-cells, bone-marrow, differentiation, single-cell]
+    maturity: active
 
 topics:
 
@@ -1342,6 +1368,19 @@ people:
   - slug: ira-tabas
     tags: [efferocytosis, macrophage, resolution, atherosclerosis, inflammation, lipid-metabolism, DNMT3A]
     affiliation: "Columbia University Irving Medical Center"
+
+  - slug: benjamin-furtwangler
+    tags: [single-cell-proteomics, mass-spectrometry, scp-MS, SCeptre, hematopoiesis, methods]
+    affiliation: "University of Copenhagen / DTU"
+  - slug: nil-uresin
+    tags: [single-cell-proteomics, hematopoiesis, HSPC, scp-MS]
+    affiliation: "University of Copenhagen"
+  - slug: erwin-schoof
+    tags: [single-cell-proteomics, mass-spectrometry, scp-MS, SCoPE-MS, methods, hematopoiesis]
+    affiliation: "Technical University of Denmark (DTU)"
+  - slug: bo-porse
+    tags: [hematopoiesis, HSPC, molecular-hematology, leukemia, single-cell-genomics]
+    affiliation: "University of Copenhagen / Rigshospitalet"
 
 ideas:
 
@@ -4281,6 +4320,108 @@ claims:
     status: supported
     confidence: 0.75
     domain: computational single-cell methodology
+  - slug: scp-ms-2500-hspcs-2900-proteins
+    title: "scp-MS quantifies >2900 proteins across 2500+ CD34+ human BM HSPCs with ~68% per-cell missing values"
+    tags: [scp-MS, HSPC, mass-spectrometry, single-cell-proteomics, quantitative]
+    status: supported
+    confidence: 0.95
+    domain: single-cell proteomics / hematology
+  - slug: sceptre-removes-scp-ms-batch-effects
+    title: "SCeptre processing of scp-MS removes donor, plate, and TMT-channel batch effects"
+    tags: [SCeptre, batch-correction, scp-MS, methodological]
+    status: supported
+    confidence: 0.9
+    domain: single-cell proteomics / methods
+  - slug: scp-ms-umap-recapitulates-hspc-hierarchy
+    title: "scp-MS UMAP recapitulates the human HSPC differentiation hierarchy"
+    tags: [scp-MS, HSPC, hierarchy, UMAP, correlational]
+    status: supported
+    confidence: 0.9
+    domain: single-cell proteomics / hematology
+  - slug: cd71-bah1-true-meps
+    title: "CD71+ BAH-1+ gating delineates true MEPs from GMP-clustered false-MEPs"
+    tags: [MEP, FACS, CD71, BAH-1, marker]
+    status: supported
+    confidence: 0.9
+    domain: hematology / cell sorting
+  - slug: cd123-prg2-clc-mark-baeoma
+    title: "CD123 + PRG2 + CLC mark BaEoMa progenitors"
+    tags: [BaEoMa, CD123, PRG2, CLC, marker]
+    status: supported
+    confidence: 0.9
+    domain: hematology / cell sorting
+  - slug: endomucin-alternative-lt-hsc-marker
+    title: "Endomucin proposed as alternative LT-HSC marker (CD90/CD49f underperform in scp-MS)"
+    tags: [LT-HSC, marker, Endomucin, methodological]
+    status: weakly_supported
+    confidence: 0.6
+    domain: hematology / cell sorting
+  - slug: glue-integrates-scpms-citeseq-joint-latent
+    title: "GLUE integrates scp-MS and CITE-seq into a joint latent space (silhouette 0.03)"
+    tags: [GLUE, multi-omics, integration, methodological]
+    status: supported
+    confidence: 0.85
+    domain: single-cell methods / integration
+  - slug: joint-latent-cellrank-outperforms-single-modality
+    title: "cellRank on joint latent space outperforms single-modality for CLP/pre-pDC/MDP/pre-mDC assignment"
+    tags: [cellRank, multi-omics, lineage-assignment, quantitative]
+    status: supported
+    confidence: 0.9
+    domain: single-cell methods / trajectory inference
+  - slug: hsc-quiescence-protein-signature-h1f0-atf3-klf2
+    title: "HSC quiescence protein signature: H1F0, ATF3, KLF2; exit driven by CDK6, SOX4, APEX1"
+    tags: [HSC, quiescence, H1F0, ATF3, KLF2, mechanistic]
+    status: supported
+    confidence: 0.85
+    domain: hematopoiesis / chromatin
+  - slug: hsc-differentiation-glycolysis-to-oxphos
+    title: "HSC differentiation drives glycolysis → OXPHOS switch with ATP synthase upregulation"
+    tags: [HSC, metabolism, glycolysis, OXPHOS, mechanistic]
+    status: supported
+    confidence: 0.9
+    domain: hematopoiesis / metabolism
+  - slug: mrna-protein-vector-correlation-below-025
+    title: "Overall mRNA-protein correlation vector <0.25 across HSPC differentiation"
+    tags: [mRNA-protein-discordance, correlation, quantitative]
+    status: supported
+    confidence: 0.9
+    domain: single-cell proteomics / translation regulation
+  - slug: sod1-taldo1-h1f0-ko-reduces-ltc-ic
+    title: "CRISPR KO of SOD1, TALDO1, or H1F0 reduces LTC-IC frequency in human CD34+ BM cells"
+    tags: [CRISPR, SOD1, TALDO1, H1F0, LTC-IC, pharmacological]
+    status: supported
+    confidence: 0.95
+    domain: hematopoiesis / functional genomics
+  - slug: sod1-ko-blocks-granulocytic-differentiation
+    title: "SOD1-deficient HSPCs nearly fail to form colonies; block in granulocytic differentiation"
+    tags: [SOD1, CRISPR, granulocyte, oxidative-stress, pharmacological]
+    status: supported
+    confidence: 0.9
+    domain: hematopoiesis / redox biology
+  - slug: b2m-protein-covaries-with-mhc-i-complex
+    title: "B2M protein covaries with HLA-A/B (MHC-I) without mRNA covariation — complex-mediated stabilization"
+    tags: [B2M, MHC-I, post-transcriptional, mechanistic]
+    status: supported
+    confidence: 0.85
+    domain: cell biology / antigen presentation
+  - slug: scprotvelo-40pct-improvement-over-linear
+    title: "scProtVelo explains ~50% of protein variance vs ~36% for linear model (40% relative improvement)"
+    tags: [scProtVelo, translation-dynamics, quantitative]
+    status: supported
+    confidence: 0.9
+    domain: methods / multi-omics
+  - slug: scprotvelo-fixes-erythroid-backflow
+    title: "scProtVelo recovers correct erythroid directionality where scVelo produces Late→Early backflow"
+    tags: [scProtVelo, scVelo, erythroid, methodological]
+    status: supported
+    confidence: 0.85
+    domain: methods / trajectory inference
+  - slug: chromatin-regulators-decrease-on-protein-during-hsc-differentiation
+    title: "HMGA1, HP1BP3, macroH2A1 decrease during HSC differentiation — visible on protein but not mRNA"
+    tags: [HSC, chromatin, HMGA1, HP1BP3, macroH2A1, mechanistic]
+    status: supported
+    confidence: 0.85
+    domain: hematopoiesis / chromatin biology
 
 Summary:
 
@@ -5522,3 +5663,39 @@ foundations:
     title: "MeDIP — methylated DNA immunoprecipitation"
     status: mainstream
     domain: method / epigenomics
+  - slug: sceptre-scp-ms-processing
+    title: "SCeptre — Scanpy-style processing pipeline for scp-MS"
+    status: mainstream
+    domain: methods / single-cell proteomics
+  - slug: tmtpro-isobaric-multiplexing
+    title: "TMTpro isobaric multiplexing for single-cell proteomics"
+    status: mainstream
+    domain: methods / mass spectrometry
+  - slug: reticle-realtime-search-acquisition
+    title: "RETICLE — real-time search-assisted MS acquisition for scp-MS"
+    status: mainstream
+    domain: methods / mass spectrometry
+  - slug: glue-multiomics-integration
+    title: "GLUE — graph-linked unified embedding for unpaired multi-omics integration"
+    status: mainstream
+    domain: methods / single-cell-integration
+  - slug: totalvi-cite-seq-modeling
+    title: "totalVI — paired probabilistic modeling for CITE-seq"
+    status: mainstream
+    domain: methods / single-cell-integration
+  - slug: cellrank-fate-mapping
+    title: "cellRank — Markov-chain trajectory and fate-mapping for single-cell data"
+    status: mainstream
+    domain: methods / trajectory-inference
+  - slug: h1f0-linker-histone
+    title: "H1F0 (H1.0) — replication-independent linker histone, quiescence marker"
+    status: mainstream
+    domain: chromatin biology / hematopoiesis
+  - slug: sod1-superoxide-dismutase
+    title: "SOD1 — Cu/Zn superoxide dismutase 1"
+    status: mainstream
+    domain: redox biology / hematopoiesis
+  - slug: taldo1-transaldolase
+    title: "TALDO1 — transaldolase 1 (pentose phosphate pathway)"
+    status: mainstream
+    domain: metabolism / hematopoiesis

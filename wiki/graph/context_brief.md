@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (601 total)
+## Claims (618 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (32 total)
+## Papers (33 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,12 +47,14 @@ _Auto-generated open questions. Do not edit._
 - [4] Hypoxia signaling in human health and diseases: implications and prospects for therapeutics (molecular-biology / hypoxia-signaling / translational-medicine)
 - [4] The pan-cancer proteome atlas, a mass spectrometry-based landscape for discovering tumor biology, biomarkers, and therapeutic targets (oncology)
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
-## Recent Relationships (1389 total)
-  papers/macrophages-use-apoptotic-cell-derived-methionine --derived_from--> foundations/bafilomycin-a1-vacuolar-atpase
-  papers/macrophages-use-apoptotic-cell-derived-methionine --derived_from--> foundations/medip-methylated-dna-immunoprecipitation
-  papers/macrophages-use-apoptotic-cell-derived-methionine --supports--> claims/efferocytosis-phagolysosomal-degradation-required-ptgs2-tgfb1
-  papers/macrophages-use-apoptotic-cell-derived-methionine --supports--> claims/cox2-pge2-intermediate-tgfb1-efferocytosis
-  papers/macrophages-use-apoptotic-cell-derived-methionine --supports--> claims/ep2-ep4-receptors-mediate-pge2-tgfb1
-  papers/macrophages-use-apoptotic-cell-derived-methionine --supports--> claims/ac-methionine-mat2a-sam-required-ptgs2-tgfb1
-  papers/macrophages-use-apoptotic-cell-derived-methionine --supports--> claims/13c-methionine-from-acs-traced-to-sam-in-macrophages
-  papers/macrophages-use-apoptotic-cell-derived-methionine --supports--> claims/dnmt3a-required-efferocytosis-
+## Recent Relationships (1422 total)
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/glue-multiomics-integration
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/totalvi-cite-seq-modeling
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/cellrank-fate-mapping
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/h1f0-linker-histone
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/sod1-superoxide-dismutase
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/taldo1-transaldolase
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/scvelo-rna-velocity
+  papers/mapping-early-human-blood-cell-differentiation --derived_from--> foundations/scrna-seq-10x-chromium
+  papers/mapping-early-human-blood-cell-differentiation --supports--> claims/scp-ms-2500-hspcs-2900-proteins
+  papers/mapping-
