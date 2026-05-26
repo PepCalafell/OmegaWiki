@@ -9,7 +9,6 @@ aliases:
   - foundation model for spatial omics
   - pretrained spatial transcriptomics model
   - panel-invariant spatial foundation model
-  - zero-shot spatial transcriptomics
   - large-scale pretrained spatial GNN
   - cross-tissue spatial transcriptomics model
   - cross-technology spatial foundation model

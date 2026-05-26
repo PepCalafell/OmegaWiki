@@ -11,7 +11,6 @@ aliases:
   - core-edge tumor compartments
   - leading edge OSCC
   - tumour core gene signature
-  - invasive front signature
   - TC LE compartments
 tags: [spatial-transcriptomics, tumor-microenvironment, OSCC, pan-cancer, EMT, keratinization]
 maturity: active
