@@ -20,6 +20,7 @@ tags:
 maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: "deCathelineau & Henson 2003 (term efferocytosis); reviewed in Lazarov & Geissmann 2023"
 date_updated: 2026-05-06
 related_concepts:

@@ -26,6 +26,7 @@ maturity: stable
 key_papers:
   - hypoxia-signaling-human-health-diseases-implications
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: "Shi et al. 2011 (Th17/Treg); Palazon et al. 2017 (CD8+)"
 date_updated: 2026-05-22
 related_concepts:

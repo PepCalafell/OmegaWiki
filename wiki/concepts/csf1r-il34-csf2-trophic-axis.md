@@ -20,6 +20,7 @@ tags:
 maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: "Stanley & Heard 1977 (CSF1); Lin 2008 (IL-34); Burgess 1977 (GM-CSF/CSF2); consolidated in Lazarov & Geissmann 2023"
 date_updated: 2026-05-06
 related_concepts:

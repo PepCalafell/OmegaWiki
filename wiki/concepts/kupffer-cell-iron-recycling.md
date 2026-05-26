@@ -20,6 +20,7 @@ tags:
 maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: "Knutson 2003 (ferroportin in macrophage iron export); Kohyama 2009 Nature (SPI-C in red pulp); reviewed in Lazarov & Geissmann 2023"
 date_updated: 2026-05-06
 related_concepts:

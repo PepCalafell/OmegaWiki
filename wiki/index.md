@@ -157,6 +157,12 @@ papers:
     importance: 5
     domain: oncology
     priority: core
+  - slug: metabolism-tissue-macrophages-homeostasis-pathology
+    title: "Metabolism of tissue macrophages in homeostasis and pathology"
+    tags: [macrophage, immunometabolism, tissue-resident-macrophage, alveolar-macrophage, kupffer-cell, red-pulp-macrophage, microglia, osteoclast, peritoneal-macrophage, efferocytosis, itaconate, hif1a, pparg, lxr, spi-c, nrf2, iron-metabolism, lipid-metabolism, fibrosis, regeneration, review]
+    importance: 4
+    domain: immunology / immunometabolism / cell biology
+    priority: core
 
 concepts:
   - slug: curated-cancer-cell-atlas-3ca
@@ -900,6 +906,46 @@ concepts:
     title: "KRTCAP2 — pan-cancer prognostic biomarker and N-glycosylation modulator"
     tags: [KRTCAP2, pan-cancer, biomarker, N-glycosylation, immune-exclusion, prognosis]
     maturity: emerging
+  - slug: tissue-specific-metabolic-programming-macrophages
+    title: "Tissue-specific metabolic programming of macrophages"
+    tags: [macrophage, immunometabolism, tissue-resident-macrophage, bioenergetics]
+    maturity: active
+  - slug: m1-macrophage-tca-breaks-itaconate-succinate
+    title: "M1 macrophage TCA-cycle breaks — citrate, itaconate, and succinate accumulation"
+    tags: [macrophage, immunometabolism, itaconate, succinate, hif1a, tca-cycle]
+    maturity: stable
+  - slug: alveolar-macrophage-lipid-catabolism-pparg
+    title: "Alveolar macrophage PPARγ-driven lipid catabolism and surfactant clearance"
+    tags: [alveolar-macrophage, lung, lipid-metabolism, cholesterol, pparg, surfactant]
+    maturity: stable
+  - slug: spi-c-nrf2-iron-axis-rpm-kupffer
+    title: "SPI-C / NRF2 / BACH1 iron-recycling axis in RPM and Kupffer macrophages"
+    tags: [macrophage, iron-metabolism, heme, red-pulp-macrophage, kupffer-cell, erythrophagocytosis]
+    maturity: stable
+  - slug: lxr-marginal-zone-macrophage-clearance
+    title: "LXRα/β-dependent function of marginal zone and metallophilic macrophages"
+    tags: [macrophage, spleen, marginal-zone-macrophage, lxr, phagocytosis]
+    maturity: emerging
+  - slug: lpm-gata6-rxr-cebp-lipid-identity
+    title: "Large peritoneal macrophage GATA6 / RXR / C/EBPβ lipid-handling identity"
+    tags: [macrophage, peritoneal-macrophage, lipid-metabolism, gata6, rxr]
+    maturity: active
+  - slug: osteoclast-bone-resorption-glycolytic-switch
+    title: "Osteoclast OXPHOS→glycolysis metabolic switch upon bone resorption"
+    tags: [osteoclast, bone-resorption, glycolysis, oxphos, hif1a, glutamine]
+    maturity: active
+  - slug: microglia-metabolic-plasticity-bioenergetics
+    title: "Microglia metabolic plasticity — OXPHOS baseline and glucose↔glutamine fuel switching"
+    tags: [microglia, cns, bioenergetics, glutamine, mtor, aging]
+    maturity: active
+  - slug: efferocytosis-metabolic-rewiring-fao
+    title: "Efferocytosis-driven metabolic rewiring — UCP2, DRP1, FAO-fuelled anti-inflammatory output"
+    tags: [efferocytosis, macrophage, fao, mitochondrial, regeneration, inflammation-resolution]
+    maturity: active
+  - slug: hif-independent-m2-transition-tissue-regeneration
+    title: "HIF-independent macrophage M2 transition during tissue regeneration"
+    tags: [macrophage, regeneration, hif1a, ampk, resolvins, inflammation-resolution]
+    maturity: active
 
 topics:
 
@@ -1165,6 +1211,12 @@ people:
   - slug: yuan-wang
     tags: [early-cancer, lineage-tracing, glioma, autochthonous-mouse-models]
     affiliation: "West China Hospital, Sichuan University"
+  - slug: stefanie-k-wculek
+    tags: [macrophage, immunometabolism, dendritic-cell, tumor-immunology]
+    affiliation: "Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid"
+  - slug: david-sancho
+    tags: [macrophage, dendritic-cell, innate-immunity, immunometabolism, tumor-immunology, PI]
+    affiliation: "Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid"
 
 ideas:
 
@@ -3710,10 +3762,166 @@ claims:
     status: supported
     confidence: 0.65
     domain: oncology-hypoxia
+  - slug: m1-macrophages-introduce-two-tca-breaks-citrate-itaconate-succinate
+    title: "M1 macrophages introduce two TCA-cycle breaks generating citrate, itaconate, and succinate accumulation"
+    tags: [macrophage, immunometabolism, itaconate, succinate, tca-cycle, m1-polarization]
+    status: supported
+    confidence: 0.9
+    domain: immunology / immunometabolism
+  - slug: itaconate-inhibits-sdh-limits-inflammation-fibrosis
+    title: "Itaconate (IRG1 product) inhibits SDH, limits M1 inflammation, and is antifibrotic in lung"
+    tags: [itaconate, irg1, sdh, macrophage, fibrosis]
+    status: supported
+    confidence: 0.85
+    domain: immunometabolism / pulmonary
+  - slug: alveolar-macrophages-depend-on-pparg-lipid-catabolism-identity
+    title: "Alveolar macrophage identity depends on PPARγ-driven lipid catabolism induced by GM-CSF/TGFβ"
+    tags: [alveolar-macrophage, pparg, lipid-metabolism, surfactant, gm-csf, tgfb]
+    status: supported
+    confidence: 0.95
+    domain: pulmonary immunology / immunometabolism
+  - slug: spi-c-nrf2-induce-iron-recycling-program-rpm-kupffer
+    title: "SPI-C and NRF2 induce HO-1, ferroportin, ferritin in RPM and Kupffer for iron recycling"
+    tags: [macrophage, iron-metabolism, spi-c, nrf2, ho-1, kupffer-cell, red-pulp-macrophage]
+    status: supported
+    confidence: 0.9
+    domain: iron metabolism / macrophage biology
+  - slug: lxr-controls-marginal-zone-macrophage-development-microbial-clearance
+    title: "LXRα/β control marginal-zone macrophage development and microbial clearance"
+    tags: [lxra, marginal-zone-macrophage, spleen, phagocytosis]
+    status: supported
+    confidence: 0.85
+    domain: splenic immunology / nuclear receptor
+  - slug: kupffer-glycolytic-switch-on-activation-suppresses-il10-tolerance
+    title: "Kupffer cells upregulate PDK-glycolysis upon immunogenic activation, suppressing IL-10 tolerogenic function"
+    tags: [kupffer-cell, glycolysis, pdk, il-10, tolerogenic]
+    status: supported
+    confidence: 0.8
+    domain: hepatic immunology / immunometabolism
+  - slug: lpm-gata6-rxr-cebpb-required-for-lpm-identity
+    title: "LPM differentiation/survival/lipid handling require GATA6, RXRα/β, and C/EBPβ"
+    tags: [large-peritoneal-macrophage, gata6, rxr, c-ebp-beta, lipid-metabolism]
+    status: supported
+    confidence: 0.85
+    domain: peritoneal immunology
+  - slug: lpm-mitochondria-recruited-to-phagosomes-respiratory-burst
+    title: "LPMs recruit mitochondria to phagosomes for glutaminolysis-driven antimicrobial respiratory burst"
+    tags: [large-peritoneal-macrophage, mitochondria, phagosome, respiratory-burst, glutamine, etc]
+    status: supported
+    confidence: 0.8
+    domain: peritoneal immunology / immunometabolism
+  - slug: oxldl-cd36-shifts-peritoneal-macrophages-to-glycolysis-nfkb-inflammation
+    title: "oxLDL via CD36 shifts peritoneal macrophages to glycolysis with NF-κB inflammation"
+    tags: [macrophage, oxldl, cd36, glycolysis, nf-kb, atherosclerosis]
+    status: supported
+    confidence: 0.8
+    domain: immunometabolism / atherosclerosis
+  - slug: microglia-switch-glucose-to-glutamine-mtor-dependent-aglycemia
+    title: "Microglia switch from glucose to glutamine as OXPHOS substrate under aglycemia (mTOR-dependent)"
+    tags: [microglia, glutamine, mtor, aglycemia, bioenergetics]
+    status: supported
+    confidence: 0.8
+    domain: neuroimmunology / immunometabolism
+  - slug: aging-microglia-pge2-ep2-axis-glycogen-sequestration-impairs-bioenergetics
+    title: "Aging microglia PGE2/EP2 sequesters glucose into glycogen, lowering bioenergetics and worsening neuroinflammation"
+    tags: [microglia, aging, pge2, ep2, glycogen, neuroinflammation]
+    status: supported
+    confidence: 0.8
+    domain: neuroimmunology / immunometabolism
+  - slug: osteoclastogenesis-requires-oxphos-complex-i-glutaminolysis-c-myc
+    title: "Osteoclastogenesis requires OXPHOS complex I fuelled by glutaminolysis via SLC1A5 and c-Myc"
+    tags: [osteoclast, oxphos, complex-i, glutamine, slc1a5, c-myc, pgc1-beta]
+    status: supported
+    confidence: 0.85
+    domain: bone biology / immunometabolism
+  - slug: osteoclasts-switch-to-hif1a-glycolysis-on-bone-exposure-for-resorption
+    title: "Active osteoclasts switch to HIF-1α-driven glycolysis upon bone exposure for resorption"
+    tags: [osteoclast, glycolysis, hif1a, bone-resorption, lactate]
+    status: supported
+    confidence: 0.85
+    domain: bone biology / immunometabolism
+  - slug: efferocytosis-requires-ucp2-drp1-mitochondrial-rewiring
+    title: "Continuous efferocytosis requires UCP2-driven ΔΨm lowering and DRP1-driven mitochondrial fission"
+    tags: [efferocytosis, ucp2, drp1, mitochondrial-fission]
+    status: supported
+    confidence: 0.85
+    domain: innate immunity / immunometabolism
+  - slug: efferocytosis-induces-fao-and-pparg-ppard-anti-inflammatory-program
+    title: "Catabolism of apoptotic cells fuels FAO and induces PPARδ/PPARγ-driven anti-inflammatory programs"
+    tags: [efferocytosis, fao, pparg, ppar-delta, anti-inflammatory]
+    status: supported
+    confidence: 0.85
+    domain: innate immunity / immunometabolism
+  - slug: m2-macrophage-transition-hif-independent-in-muscle-regeneration
+    title: "Macrophage M2 transition during muscle regeneration is HIF-independent"
+    tags: [macrophage, muscle-regeneration, hif1a, hif2a, m2-polarization]
+    status: supported
+    confidence: 0.8
+    domain: regenerative immunology / hypoxia biology
+  - slug: macrophage-ampk-required-for-anti-inflammatory-phenotype-tissue-regeneration
+    title: "AMPKα1 in macrophages is required for anti-inflammatory phenotype and muscle regeneration"
+    tags: [macrophage, ampk, oxphos, regeneration, muscle-injury]
+    status: supported
+    confidence: 0.85
+    domain: regenerative immunology / immunometabolism
+  - slug: macrophages-secrete-glutamine-to-support-satellite-cell-muscle-regeneration
+    title: "Macrophages synthesize and secrete glutamine to support satellite-cell muscle regeneration"
+    tags: [macrophage, glutamine, satellite-cell, muscle-regeneration]
+    status: supported
+    confidence: 0.8
+    domain: regenerative immunology
+  - slug: idiopathic-pulmonary-fibrosis-alveolar-macrophages-shift-fao-mcu-mtros-pgc1a
+    title: "In IPF, alveolar macrophages shift to FAO via MCU/mtROS/PGC-1α; blockade reverses to glycolysis and protects from fibrosis"
+    tags: [alveolar-macrophage, idiopathic-pulmonary-fibrosis, fao, mcu, mtros, pgc1a]
+    status: supported
+    confidence: 0.8
+    domain: pulmonary disease / immunometabolism
 
 Summary:
 
 foundations:
+  - slug: pparg-tf
+    title: "PPARγ (peroxisome proliferator-activated receptor gamma)"
+    tags: [transcription-factor, nuclear-receptor, lipid-metabolism, macrophage-identity]
+  - slug: lxra-tf
+    title: "LXRα (liver X receptor alpha)"
+    tags: [transcription-factor, nuclear-receptor, cholesterol-metabolism, macrophage-identity]
+  - slug: gata6-tf
+    title: "GATA6 (transcription factor)"
+    tags: [transcription-factor, macrophage-identity, peritoneal-macrophage, tissue-resident-macrophage]
+  - slug: spi-c-tf
+    title: "SPI-C (Spi-C transcription factor)"
+    tags: [transcription-factor, macrophage-identity, iron-metabolism, red-pulp-macrophage, kupffer-cell]
+  - slug: nrf2-nfe2l2
+    title: "NRF2 (NFE2L2, nuclear factor erythroid 2-related factor 2)"
+    tags: [transcription-factor, oxidative-stress, iron-metabolism, immunometabolism]
+  - slug: ho-1-hmox1
+    title: "HO-1 / HMOX1 (heme oxygenase 1)"
+    tags: [enzyme, iron-metabolism, antioxidant, macrophage]
+  - slug: bach1-tf
+    title: "BACH1 (BTB and CNC homology 1 transcription factor)"
+    tags: [transcription-factor, heme-sensor, iron-metabolism, macrophage]
+  - slug: c-ebp-beta
+    title: "C/EBPβ (CCAAT/enhancer-binding protein beta)"
+    tags: [transcription-factor, lipid-metabolism, inflammation, macrophage-identity]
+  - slug: itaconate-metabolite
+    title: "Itaconate (cis-itaconic acid)"
+    tags: [immunometabolism, tca-cycle, sdh-inhibitor, anti-inflammatory, macrophage]
+  - slug: irg1-acod1
+    title: "IRG1 / ACOD1 (immune-responsive gene 1 / aconitate decarboxylase 1)"
+    tags: [enzyme, immunometabolism, macrophage, tca-cycle, itaconate]
+  - slug: mtor-kinase
+    title: "mTOR (mechanistic target of rapamycin)"
+    tags: [kinase, nutrient-sensing, immunometabolism, autophagy]
+  - slug: ampk-prkaa
+    title: "AMPK (AMP-activated protein kinase)"
+    tags: [kinase, energy-sensing, immunometabolism, macrophage]
+  - slug: ucp2-mitochondrial-uncoupler
+    title: "UCP2 (mitochondrial uncoupling protein 2)"
+    tags: [mitochondrial, efferocytosis, macrophage, bioenergetics]
+  - slug: drp1-dnm1l
+    title: "DRP1 / DNM1L (dynamin-related protein 1)"
+    tags: [mitochondrial, fission, efferocytosis, macrophage]
   - slug: nmf-non-negative-matrix-factorization
     title: "Non-negative matrix factorization (NMF)"
     status: mainstream

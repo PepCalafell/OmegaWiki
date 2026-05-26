@@ -24,6 +24,7 @@ tags:
 maturity: active
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: "Mass 2016 Science; Lavin 2014 Cell; Gosselin 2014 Cell; conceptually crystallized in Lazarov & Geissmann 2023 Nature"
 date_updated: 2026-05-06
 related_concepts:

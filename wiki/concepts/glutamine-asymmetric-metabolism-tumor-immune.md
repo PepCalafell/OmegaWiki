@@ -16,6 +16,7 @@ tags: [glutamine, gls1, slc1a5, m2-macrophage, mdsc, immunometabolism]
 maturity: active
 key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: ""
 date_updated: 2026-05-22
 related_concepts: [nutrient-competition-tumor-immune-cells-tme, m1-m2-polarization-paradigm]

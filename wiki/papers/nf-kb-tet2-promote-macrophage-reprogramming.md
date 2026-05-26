@@ -374,3 +374,4 @@ Caveats worth keeping in mind: TET2 recruitment is inferred not shown; M-CSF/PB-
 - [[foundations/tcga-the-cancer-genome-atlas]] — survival cohort
 - [[foundations/px-478-hif1a-inhibitor]] — HIF1α inhibitor used
 - [[foundations/lps-toll-like-receptor-signaling]] — activation signal
+- [[papers/metabolism-tissue-macrophages-homeostasis-pathology]] — Wculek et al. 2022 *Cell Mol Immunol* — tissue-by-tissue macrophage immunometabolism synthesis; itaconate/IRG1 axis intersects 4-OI / TET2 reprogramming mechanism (added 2026-05-26).

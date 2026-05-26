@@ -23,6 +23,7 @@ tags:
 maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
+  - metabolism-tissue-macrophages-homeostasis-pathology
 first_introduced: "Boyle 2003 Nature (osteoclast differentiation); Jacome-Galarza 2019 Nature (developmental origin of osteoclasts); reviewed in Lazarov & Geissmann 2023"
 date_updated: 2026-05-06
 related_concepts:

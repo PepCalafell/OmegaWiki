@@ -377,3 +377,4 @@ Reading note for me: the *ancillary cell* framing is the single most useful conc
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — Casanova-Acebes 2021 — TRM as pro-tumour niche, partly inverts the TRM-anti-tumour Kupffer story
 
 - [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here
+- [[papers/metabolism-tissue-macrophages-homeostasis-pathology]] — Wculek et al. 2022 *Cell Mol Immunol* — sibling TRM review focused on tissue-by-tissue immunometabolism; together with this paper forms the two-pillar TRM foundation (added 2026-05-26).
