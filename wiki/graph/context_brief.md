@@ -2,7 +2,12 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (518 total)
+## Claims (537 total)
+- [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
+- [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
+- [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
+- [supported] Inactive AHR resides in a cytosolic complex with HSP90, AIP, p23 and c-Src (conf: 0.95)
+- [supported] AHR signalling is dampened by multiple negative feedbacks: AHRR, TIPARP, HIF-1α competition, miRNA/lncRNA (conf: 0.9)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
@@ -14,10 +19,7 @@ _Auto-generated compressed context. Do not edit._
 - [supported] TREM2⁺ tumor-associated macrophages associate with poor cancer prognosis (conf: 0.7)
 - [supported] TREM2⁺ TAMs accumulate across all six human cancer types in the MoMac-VERSE (conf: 0.85)
 - [supported] Cluster 12_MBMMac is enriched in melanoma brain metastases vs primary GBM and uniquely upregulates LRMDA, suggesting TAM-melanocyte crosstalk at the brain metastatic niche (conf: 0.85)
-- [supported] A 13-gene hypoxia-responsive macrophage signature (LYZ, SCN1B, PLAU, INSIG2, DSC2, MICAL1, U2AF1, KRTCAP2, DDX60L, SATB1, SAMD9, LTC4S, IGLL5) trained by LASSO-Cox on TCGA-PAAD (conf: 0.7)
-- [supported] 18_ECMMac proportion anticorrelates with MANA score (q=0.078) and 8_IFNGMac correlates with MANA score (q=0.060) in lung cancer (conf: 0.75)
-- [supported] 18_ECMMac proportion differs significantly between primary CRC, CRC liver metastases, and primary LIHC (Propeller q=8.7e-7) (conf: 0.9)
-- [supported] 18_ECMMac-associated ICI resistance is not explained by general T-cell exclusion in CPI1000+ (T-cell signature is hig
+- [supported
 ## Open Gaps
 _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How to design SAHRMs that engage tolerogenic AHR functions without off-target dioxin-like effects
@@ -29,8 +31,9 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (28 total)
+## Papers (29 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
+- [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [4] Metabolism of tissue macrophages in homeostasis and pathology (immunology / immunometabolism / cell biology)
@@ -43,15 +46,13 @@ _Auto-generated open questions. Do not edit._
 - [4] Hypoxia signaling in human health and diseases: implications and prospects for therapeutics (molecular-biology / hypoxia-signaling / translational-medicine)
 - [4] The pan-cancer proteome atlas, a mass spectrometry-based landscape for discovering tumor biology, biomarkers, and therapeutic targets (oncology)
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
-- [5] Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells (immunology / oncology / cell biology)
 - [4] The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation (immunology)
-## Recent Relationships (1194 total)
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --derived_from--> foundations/drp1-dnm1l
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --derived_from--> foundations/hif1a
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --derived_from--> foundations/hif2a
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --derived_from--> foundations/4-octyl-itaconate-tet2-inhibitor
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --derived_from--> foundations/nf-kb-p65-rela
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --derived_from--> foundations/slc1a5-asct2-glutamine-transporter
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --supports--> claims/m1-macrophages-introduce-two-tca-breaks-citrate-itaconate-succinate
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --supports--> claims/itaconate-inhibits-sdh-limits-inflammation-fibrosis
-  papers/metabolism-tissue-macrophages-homeostasis-pathology --s
+## Recent Relationships (1262 total)
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/ahr-cytosolic-complex-hsp90-aip-p23
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/ahr-arnt-xre-tngcgtg-binding
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/ficz-tcdd-converge-on-cyp1a1-dynamics-when-dose-matched
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/vemurafenib-ahr-secondary-pocket-blocks-arnt
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/ahr-pxr-promiscuous-ligand-overlap
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/ahr-cancer-cells-overexpress-ido1-tdo2-make-kyn
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/ahr-pas-b-cryo-em-primary-secondary-pocket
+  papers/complex-biology-aryl-hydrocarbon-receptor-activation --supports--> claims/trp-deprivation-induces-ahr-via-nrf2-egfr-mt

@@ -37,6 +37,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Therapeutic targetability of the TAN-hypoxia niche (HIF1α inhibition with PX-478 / belzutifan, CXCR1/2 antagonism).
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Whether the hierarchical n=3/8/20 stable solutions generalise to other tumour cohorts.
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Robustness of analytical-NE false-positive rate vs permutation-NE.
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Which kinases (beyond PKC and tyrosine kinases) directly phosphorylate AHR, and at which residues? Most of the high-throughput PTM sites have no assigned upstream enzyme (Fig. 3).
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Does ARNT2 antagonise AHR in tissues where it is dominantly expressed (CNS, kidney, retinal epithelium)?
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Why do AHRR and CYP1A1 promoter methylation respond in *opposite* directions to maternal smoking exposure if both are downstream of the same AHR axis?
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] What is the carbamylation/PAD2 program activated by AHR-KLF6-CPS1 doing in cancer (rather than autoimmunity)?
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Is the secondary AHR ligand-binding pocket pharmacologically targetable for ligand-specific outcomes?
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Can a single quantitative score integrate the eleven layers of context specificity to predict AHR phenotype in a new cell type or tumour? The review does not propose one; this is a tractable bioinformatics problem.
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Are there *single-cell* signatures of layered AHR context specificity (ligand profile × ARNT/ARNT2/iso ratio × AHRR expression × HIF crosstalk) that could be derived from existing scRNA-seq atlases? Relevant for [[concepts/ahr-tam-immunosuppression-tumour]].
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] How does cellular hypoxia (HIF1α/HIF2α-ARNT competition) interact with ligand-degrading enzyme expression to determine net AHR activity in the tumour microenvironment? The crosstalk is mentioned but not synthesised.
+- [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Could pocket-selective AHR ligands (suggested by the vemurafenib example) form a class of "biased AHR agonists" analogous to biased GPCR agonists?
 - [paper/cross-tissue-single-cell-landscape-human] What are the precise ligand-receptor pathways by which IL4I1_Macs dampen antitumour T-cell responses, and how do they vary across tumour types? "The precise pathways involved are still unclear and deserve further investigation to fully decipher the T cell/TAM relationship" (p.1897, citing Gordon et al. 2017).
 - [paper/cross-tissue-single-cell-landscape-human] Are the monocyte-derived TAMs (TREM2, IL4I1, proliferating, C1Qhi) the appropriate therapeutic targets, given that they are monocyte-derived and therefore replenishable? Targeting recruitment vs differentiation are distinct strategies.
 - [paper/cross-tissue-single-cell-landscape-human] Is the M1/M2 Mills et al. 2000 paradigm refinable into a state + ontogeny taxonomy that captures the full diversity revealed by MoMac-VERSE?
@@ -250,18 +259,33 @@ _Auto-generated open questions. Do not edit._
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
+- [concept/ahr-arnt-paralogs-and-isoforms] Cryo-EM of AHR-ARNT2 heterodimer on XRE — does ARNT2 sterically block productive XRE engagement?
+- [concept/ahr-arnt-paralogs-and-isoforms] Are there iso-specific small molecules or splicing modifiers?
 - [concept/ahr-astrocyte-microglia-cns-inflammation] AHR-targeted CNS-penetrant agonists (e.g., laquinimod-like compounds) for progressive MS
 - [concept/ahr-astrocyte-microglia-cns-inflammation] Whether AHR agonism in microglia can reverse chronic neurodegenerative inflammation
 - [concept/ahr-barrier-tissue-il22-antimicrobial] Optimum kinetics of AHR-IL-22 stimulation for barrier repair without tumour-promotion
 - [concept/ahr-barrier-tissue-il22-antimicrobial] Cell-type-specific IL-22 outputs from AHR agonists in human tissues
 - [concept/ahr-canonical-signalling-pathway] Quantitative kinetics of AHR–ARNT vs HIF-1α–ARNT competition in hypoxic tumours
 - [concept/ahr-canonical-signalling-pathway] High-resolution structures of full-length AHR in the cytosolic vs nuclear states
+- [concept/ahr-context-specificity-pleiotropy] A quantitative scoring system that integrates the layers into a predicted AHR phenotype.
+- [concept/ahr-context-specificity-pleiotropy] Single-cell atlases that resolve all layers simultaneously.
+- [concept/ahr-context-specificity-pleiotropy] Pocket-selective AHR ligands as a tool to test the model.
 - [concept/ahr-cyp1a1-negative-feedback-clearance] Tissue-specific CYP1A1 dynamics in patients receiving AHR therapy
 - [concept/ahr-cyp1a1-negative-feedback-clearance] Whether CYP1A1 inhibitors safely boost AHR-agonist efficacy
+- [concept/ahr-epigenetic-regulation-of-target-genes] Reconciling opposite-direction smoking-related methylation at AHRR (hypo) vs CYP1A1 (hyper).
+- [concept/ahr-epigenetic-regulation-of-target-genes] Pan-cancer integrative atlas of AHR-pathway methylation, expression, and AHR activity.
+- [concept/ahr-epigenetic-regulation-of-target-genes] Mechanism of HK2-driven AHR promoter demethylation.
+- [concept/ahr-hif-arnt-competition] Spatial transcriptomics integrating hypoxia signatures with AHR-target expression to test the competition model in human tumours.
+- [concept/ahr-hif-arnt-competition] ARNT over-expression as a rescue strategy in hypoxic tumours where AHR-driven anti-cancer functions might be desirable.
 - [concept/ahr-ligand-pharmacology-sahrm] Reliable biomarkers for ligand-biased AHR signalling in patients
 - [concept/ahr-ligand-pharmacology-sahrm] Predicting tissue-specific outcomes from pocket-interaction profiles
 - [concept/ahr-non-canonical-signalling] Physiological relevance of ligand-independent activation under shear/oxidative stress
 - [concept/ahr-non-canonical-signalling] Whether SAHRMs can selectively engage non-canonical over canonical branches
+- [concept/ahr-non-genomic-cytoplasmic-effects] Are there pocket-selective ligands that activate non-genomic outputs without XRE transcription?
+- [concept/ahr-non-genomic-cytoplasmic-effects] Mechanistic basis for ligand-specific PTM outputs (BaP vs FICZ).
+- [concept/ahr-posttranslational-modifications-landscape] Systematic mapping of AHR PTMs across primary human tissues (vs cell lines).
+- [concept/ahr-posttranslational-modifications-landscape] A "PTM-code" that converts PTM combinations into a predicted AHR transcriptional output.
+- [concept/ahr-posttranslational-modifications-landscape] Tractable pharmacology: are there PKC-isoform-selective inhibitors that act as cell-type-restricted AHR modulators?
 - [concept/ahr-tam-immunosuppression-tumour] Whether AHR antagonism synergises with IDO1/IL4I1 inhibitors or PD-1 blockade
 - [concept/ahr-tam-immunosuppression-tumour] Spatial mapping of Trp-Kyn-AHR gradients within tumour micro-environments
 - [concept/ahr-tapinarof-psoriasis-clinical] Whether tapinarof's "remittive" effect generalises to other AHR agonists
@@ -631,6 +655,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Wet-lab validation of hub-protein dependency across cancer types.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Integration with single-cell co-expression networks.
+- [claim/ahr-klf6-cps1-h1k34-homocitrullination-pad2] AHR ligand activation recruits an AHR-KLF6 complex to non-canonical XREs (NC-XREs); KLF6 recruits CPS1, driving homocitrullination of histone H1K34 and induction of peptidyl-arginine-deiminase 2 (PAD2) — a histone-carbamylation arm of AHR signalling (status: weakly_supported)
+- [claim/ahr-pxr-promiscuous-ligand-overlap] AHR and the nuclear receptor PXR share substantial agonist overlap, implying that AHR ligands frequently co-activate PXR and that response heterogeneity reflects parallel receptor activation (status: weakly_supported)
 - [claim/anti-pd1-ctla4-alvocidib-le-outgoing-pattern] Anti-PD-1 / anti-CTLA-4 perturbations and Alvocidib (CDK inhibitor) recapitulate the effective-drug LE-outgoing pattern in OSCC ST (status: weakly_supported)
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)

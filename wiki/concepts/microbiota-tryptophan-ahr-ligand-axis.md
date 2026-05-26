@@ -22,6 +22,7 @@ tags:
 maturity: active
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: "Zelante et al. 2013 (Cell, Lactobacillus indole-AHR-IL22); Lamas et al. 2016 (CARD9-AHR)"
 date_updated: 2026-05-13
 related_concepts: []

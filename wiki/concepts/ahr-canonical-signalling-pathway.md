@@ -21,6 +21,7 @@ tags:
 maturity: stable
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: "Whitlock 1986–1999 (AHR canonical mechanism); reviewed Quintana 2025"
 date_updated: 2026-05-13
 related_concepts: []

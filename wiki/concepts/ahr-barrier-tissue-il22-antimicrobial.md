@@ -22,6 +22,7 @@ tags:
 maturity: stable
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: "Veldhoen et al. 2009 (Nature, AHR Th17 IL-22); Kiss et al. 2011 (AHR ILC3 IL-22)"
 date_updated: 2026-05-13
 related_concepts: []

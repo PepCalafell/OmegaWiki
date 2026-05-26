@@ -12,14 +12,19 @@ tags:
 domain: "molecular biology"
 source_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 evidence:
   - source: aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
     type: supports
     strength: moderate
     detail: "Ohtake et al. 2007 (Nature) defined the AHR-CUL4B E3 activity; reviewed as a non-canonical pathway competing with AHR transcription factor activity when ARNT is limiting."
+  - source: complex-biology-aryl-hydrocarbon-receptor-activation
+    type: supports
+    strength: strong
+    detail: "Opitz et al. 2023 review enumerates specific substrates degraded by ligand-dependent AHR-CUL4B activity: ESR1, androgen receptor (AR), and PPARG (refs 110, 127-128). Re-frames CUL4B E3 activity as a defining non-genomic mode of AHR — independent of ARNT/XRE transcription."
 conditions: "Ligand-bound AHR, in vitro and in cellulo; some controversies on physiological substrates"
 date_proposed: 2026-05-13
-date_updated: 2026-05-13
+date_updated: 2026-05-26
 ---
 
 ## Statement

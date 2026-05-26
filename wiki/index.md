@@ -73,6 +73,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: complex-biology-aryl-hydrocarbon-receptor-activation
+    title: "The complex biology of aryl hydrocarbon receptor activation in cancer and beyond"
+    tags: [AHR, aryl-hydrocarbon-receptor, context-specificity, ARNT, AHRR, posttranslational-modifications, epigenetic-regulation, DNA-methylation, non-genomic-AHR, tryptophan-metabolism, kynurenine, IL4I1, TIPARP, HIF1A, HIF2A, SRC, vemurafenib, BRAFi-resistance, melanoma, ARNT2, HK2, TET2, CUL4B, UCHL3, review]
+    importance: 4
+    domain: oncology
+    priority: core
   - slug: systematic-benchmarking-computational-methods-identify-spatially
     title: "Systematic benchmarking of computational methods to identify spatially variable genes"
     tags: [spatial-transcriptomics, SVG, benchmarking, methods, simulation, Visium, MERFISH, spatial-ATAC-seq, computational-biology]
@@ -947,9 +953,42 @@ concepts:
     tags: [macrophage, regeneration, hif1a, ampk, resolvins, inflammation-resolution]
     maturity: active
 
+  - slug: ahr-context-specificity-pleiotropy
+    title: "AHR context specificity — eleven layers explain divergent / opposite phenotypes of the same receptor"
+    tags: [AHR, context-specificity, layered-regulation, tumour-suppression, tumour-promotion, immune-modulation]
+    maturity: emerging
+  - slug: ahr-posttranslational-modifications-landscape
+    title: "AHR posttranslational modifications landscape — phosphorylation, SUMOylation, ubiquitination, ADP-ribosylation, acetylation across AHR/ARNT/AHRR"
+    tags: [AHR, posttranslational-modifications, phosphorylation, SUMOylation, ubiquitination, ADP-ribosylation, acetylation, context-specificity]
+    maturity: emerging
+  - slug: ahr-epigenetic-regulation-of-target-genes
+    title: "Epigenetic regulation of AHR and its target genes — DNA methylation, histone modifications, microRNAs as a major axis of AHR context specificity"
+    tags: [AHR, epigenetics, DNA-methylation, histone-modifications, microRNA, AHRR, CYP1A1, TET2, HK2, smoking, cancer-epigenetics]
+    maturity: active
+  - slug: ahr-arnt-paralogs-and-isoforms
+    title: "ARNT paralogs and isoforms as a layer of AHR context specificity — ARNT2 antagonism, ARNT iso1/iso3 splicing in lymphoid malignancies"
+    tags: [AHR, ARNT, ARNT2, splicing, lymphoid-malignancies, RBFOX2, bHLH-PAS]
+    maturity: emerging
+  - slug: ahr-non-genomic-cytoplasmic-effects
+    title: "AHR non-genomic effects — cytoplasmic SRC interaction, STAT1 sequestration, CUL4B-E3 ligase activity, and calcium signalling, independent of XRE transcription"
+    tags: [AHR, non-genomic, SRC, STAT1, CUL4B, calcium, BRAFi-resistance, melanoma, ESR1, androgen-receptor, PPARG]
+    maturity: active
+  - slug: ahr-hif-arnt-competition
+    title: "AHR-HIF crosstalk through shared ARNT — hypoxia-driven competition that titrates AHR transcriptional activity"
+    tags: [AHR, HIF1A, HIF2A, ARNT, hypoxia, tumor-microenvironment, bHLH-PAS, transcription-factor-competition]
+    maturity: stable
+
 topics:
 
 people:
+  - slug: christiane-opitz
+    tags: [AHR, tryptophan-metabolism, kynurenine, IL4I1, tumour-immunometabolism, glioblastoma, DKFZ]
+  - slug: saskia-trump
+    tags: [AHR, molecular-epidemiology, DNA-methylation, smoking, environmental-exposure, BIH, Charite]
+  - slug: mirja-prentzell
+    tags: [AHR, tryptophan-metabolism, DKFZ, Heidelberg]
+  - slug: pauline-holfelder
+    tags: [AHR, tryptophan-metabolism, DKFZ, Heidelberg]
   - slug: itay-tirosh
     tags: [scrna-seq, pan-cancer, intratumor-heterogeneity, metaprograms, oncology]
     affiliation: "Weizmann Institute of Science, Rehovot, Israel"
@@ -1223,6 +1262,82 @@ ideas:
 experiments:
 
 claims:
+  - slug: ficz-tcdd-converge-on-cyp1a1-dynamics-when-dose-matched
+    title: "FICZ and TCDD produce identical AHR transcriptional dynamics when dose and timing are matched for equivalent CYP1A1 induction — dose/duration, not ligand identity, drives divergence"
+    tags: [AHR, FICZ, TCDD, ligand-specificity, CYP1A1, dose-response]
+    status: supported
+  - slug: vemurafenib-ahr-secondary-pocket-blocks-arnt
+    title: "Vemurafenib binds AHR at a distinct pocket, drives nuclear translocation but blocks AHR-ARNT heterodimerisation"
+    tags: [AHR, vemurafenib, BRAF, ligand-pocket, non-canonical, melanoma]
+    status: supported
+  - slug: ahr-pxr-promiscuous-ligand-overlap
+    title: "AHR and the nuclear receptor PXR share substantial agonist overlap"
+    tags: [AHR, PXR, ligand-promiscuity, nuclear-receptor-crosstalk]
+    status: weakly_supported
+  - slug: ahr-pas-b-cryo-em-primary-secondary-pocket
+    title: "Cryo-EM structures of AHR-HSP90-AIP/PTGES3 complexes reveal a PAS-B ligand-binding pocket with primary and secondary sites"
+    tags: [AHR, PAS-B, cryo-EM, ligand-binding-pocket, indirubin, structural-biology]
+    status: supported
+  - slug: trp-deprivation-induces-ahr-via-nrf2-egfr-mtor
+    title: "Tryptophan deprivation induces AHR expression via NRF2 (HEK293) and EGFR-RAS-mTORC1-p38/MAPK (glioblastoma)"
+    tags: [AHR, tryptophan-deprivation, NRF2, EGFR, mTORC1, p38-MAPK, glioblastoma, amino-acid-sensing]
+    status: supported
+  - slug: arnt2-paralog-blunts-canonical-ahr-activation
+    title: "The ARNT paralog ARNT2 dimerises with AHR but inhibits canonical CYP1A1 induction"
+    tags: [AHR, ARNT2, ARNT-paralog, CYP1A1, tissue-specificity, kidney, CNS]
+    status: supported
+  - slug: arnt-isoform-ratio-determines-lymphoid-ahr-response
+    title: "ARNT isoform 1 vs isoform 3 ratio (regulated by RBFOX2) determines AHR responsiveness in lymphoid malignancies"
+    tags: [AHR, ARNT, ARNT-isoform, RBFOX2, lymphoid-malignancies, splicing]
+    status: supported
+  - slug: uchl3-deubiquitinates-stabilises-ahr-nsclc-stemness
+    title: "UCHL3 binds, deubiquitylates, and stabilises AHR, promoting cancer stem-like properties in NSCLC"
+    tags: [AHR, UCHL3, deubiquitinase, cancer-stem-cells, NSCLC, protein-stability]
+    status: supported
+  - slug: ahrr-tissue-restricted-to-barrier-immune-cells
+    title: "AHRR expression in naïve mice is restricted to immune cells of cutaneous and intestinal barriers"
+    tags: [AHRR, barrier-tissue, intestine, skin, innate-lymphoid-cells, intraepithelial-lymphocytes]
+    status: supported
+  - slug: ahrr-hypomethylation-smoking-lung-cancer-risk
+    title: "AHRR DNA hypomethylation marks smoking exposure and associates with reduced lung function and increased lung cancer risk; AHRR is hypermethylated in multiple other malignancies"
+    tags: [AHRR, DNA-methylation, smoking, lung-cancer, cg05575921, epigenetic-biomarker]
+    status: supported
+  - slug: hif1a-hif2a-compete-with-ahr-for-arnt
+    title: "HIF1α and HIF2α bind ARNT and compete with ligand-bound AHR, reducing AHR-XRE transcriptional activity under hypoxia"
+    tags: [AHR, HIF1A, HIF2A, ARNT, hypoxia, transcription-factor-competition, tumor-microenvironment]
+    status: supported
+  - slug: ahr-src-axis-drives-brafi-resistance-melanoma
+    title: "Cytoplasmic AHR-SRC interaction triggers SRC/EGFR/FAK; the AHR-SRC axis mediates BRAFi resistance in melanoma"
+    tags: [AHR, SRC, BRAF, vemurafenib, BRAFi-resistance, melanoma, androgen-receptor, prostate-cancer]
+    status: supported
+  - slug: ahr-pkc-phosphorylation-context-dependent-translocation
+    title: "AHR PKC phosphorylation at the same residue (S36) gives opposite phenotypes in different cells"
+    tags: [AHR, phosphorylation, PKC, PKC-theta, nuclear-translocation, cell-type-specificity]
+    status: supported
+  - slug: sumoylation-ahr-stabilises-but-represses-transcription
+    title: "SUMOylation of AHR at K63/K510 stabilises protein but represses transcription; AHRR SUMOylation enhances repressor activity"
+    tags: [AHR, AHRR, SUMOylation, SUMO-1, ubiquitination, posttranslational-modifications]
+    status: supported
+  - slug: ahr-promoter-hypermethylation-silences-ahr-all
+    title: "AHR promoter hypermethylation silences AHR in 33% of ALL patients and in multiple cancer cell lines"
+    tags: [AHR, DNA-methylation, SP1, acute-lymphoblastic-leukemia, epigenetic-silencing]
+    status: supported
+  - slug: hk2-ahr-target-promotes-ahr-promoter-demethylation
+    title: "HK2 is an AHR target gene that drives AHR promoter demethylation, creating a positive-feedback loop"
+    tags: [AHR, HK2, hexokinase-2, DNA-methylation, positive-feedback, cancer-metabolism, prognosis]
+    status: supported
+  - slug: ahr-tcdd-hypermethylates-tumor-suppressor-promoters
+    title: "TCDD/AHR drives promoter hypermethylation of p16(INK4a), p53, and BRCA1"
+    tags: [AHR, TCDD, DNA-methylation, tumor-suppressors, p16, BRCA1, MCF-7]
+    status: supported
+  - slug: ahr-tet2-nt5e-cd73-adenosine-treg-sle
+    title: "AHR induces TET2 to demethylate NT5E/CD73 promoter and elevate adenosine in Tregs/B cells; downregulated in SLE"
+    tags: [AHR, TET2, NT5E, CD73, adenosine, regulatory-T-cell, systemic-lupus-erythematosus, kynurenine]
+    status: supported
+  - slug: ahr-klf6-cps1-h1k34-homocitrullination-pad2
+    title: "AHR-KLF6 binds NC-XREs and recruits CPS1 to drive H1K34 homocitrullination and PAD2 induction"
+    tags: [AHR, KLF6, CPS1, PAD2, H1K34, homocitrullination, citrullination, non-canonical-XRE]
+    status: weakly_supported
   - slug: cca3-124-datasets-2836-samples-56m-cells
     title: "3CA v2 contains 124 datasets, 2,836 samples and 5,658,705 cells across >40 cancer types"
     tags: [scrna-seq, atlas, pan-cancer, 3ca, resource]
@@ -3880,6 +3995,39 @@ claims:
 Summary:
 
 foundations:
+  - slug: aryl-hydrocarbon-receptor
+    title: "AHR (aryl hydrocarbon receptor)"
+    tags: [AHR, bHLH-PAS, transcription-factor, xenobiotic-sensor, ligand-activated]
+  - slug: arnt2-paralog
+    title: "ARNT2 (aryl hydrocarbon receptor nuclear translocator 2)"
+    tags: [ARNT2, bHLH-PAS, AHR-paralog, kidney, CNS, retinal-epithelium]
+  - slug: tdo2-tryptophan-dioxygenase
+    title: "TDO2 (tryptophan 2,3-dioxygenase)"
+    tags: [TDO2, tryptophan-catabolism, kynurenine-pathway, liver, hepatocellular-carcinoma, glioblastoma]
+  - slug: il4i1-l-amino-acid-oxidase
+    title: "IL4I1 (interleukin-4-induced-1)"
+    tags: [IL4I1, L-amino-acid-oxidase, AHR-ligand-source, metabolic-immune-checkpoint, indole-3-pyruvic-acid, kynurenic-acid]
+  - slug: uchl3-deubiquitinase
+    title: "UCHL3 (ubiquitin carboxyl-terminal hydrolase L3)"
+    tags: [UCHL3, deubiquitinase, AHR-stabilising-DUB, cancer-stem-cells, NSCLC]
+  - slug: cul4b-e3-ligase
+    title: "CUL4B (Cullin 4B) — substrate-adaptor scaffold of the AHR-CUL4B E3 ubiquitin ligase"
+    tags: [CUL4B, Cullin, E3-ligase, AHR-non-genomic, ESR1, AR, PPARG]
+  - slug: src-kinase
+    title: "SRC (proto-oncogene, non-receptor tyrosine kinase)"
+    tags: [SRC, tyrosine-kinase, SFK, AHR-SRC-axis, BRAFi-resistance, melanoma]
+  - slug: vemurafenib
+    title: "Vemurafenib (PLX4032) — BRAF V600E inhibitor with off-target AHR binding"
+    tags: [vemurafenib, BRAF-V600E-inhibitor, melanoma, AHR-secondary-pocket-ligand, biased-AHR-agonist]
+  - slug: braf-kinase
+    title: "BRAF (B-Raf proto-oncogene, serine/threonine kinase)"
+    tags: [BRAF, V600E, kinase, melanoma, MAPK-pathway]
+  - slug: hk2-hexokinase-2
+    title: "HK2 (hexokinase 2)"
+    tags: [HK2, hexokinase, Warburg-effect, glycolysis, AHR-target-gene]
+  - slug: pxr-pregnane-x-receptor
+    title: "PXR (pregnane X receptor, NR1I2)"
+    tags: [PXR, NR1I2, nuclear-receptor, xenobiotic-sensor, CYP3A4, AHR-ligand-overlap]
   - slug: pparg-tf
     title: "PPARγ (peroxisome proliferator-activated receptor gamma)"
     tags: [transcription-factor, nuclear-receptor, lipid-metabolism, macrophage-identity]

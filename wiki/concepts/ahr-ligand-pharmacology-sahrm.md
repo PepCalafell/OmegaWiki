@@ -20,6 +20,7 @@ tags:
 maturity: emerging
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: "Safe et al. 2013 (SAHRM concept); Quintana 2025 review"
 date_updated: 2026-05-13
 related_concepts: []

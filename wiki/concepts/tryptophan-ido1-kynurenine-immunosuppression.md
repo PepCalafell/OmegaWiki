@@ -16,6 +16,7 @@ tags: [tryptophan, ido1, tdo, kynurenine, immunosuppression, ahr, melanoma]
 maturity: active
 key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: ""
 date_updated: 2026-05-22
 related_concepts: [ahr-tam-immunosuppression-tumour, nutrient-competition-tumor-immune-cells-tme]

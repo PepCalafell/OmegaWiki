@@ -12,14 +12,19 @@ tags:
 domain: "molecular biology"
 source_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 evidence:
   - source: aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
     type: supports
     strength: strong
     detail: "Biochemical, co-IP, and recent cryo-EM data (AHR–HSP90–XAP2–indirubin) confirm complex composition: HSP90 dimer + p23 + AIP/XAP2 + c-Src; AIP maintains cytoplasmic localisation by blocking importin-β."
+  - source: complex-biology-aryl-hydrocarbon-receptor-activation
+    type: supports
+    strength: strong
+    detail: "Opitz et al. 2023 review reiterates the canonical cytosolic complex (HSP90 dimer + AIP/XAP2/ARA9 + PTGES3/p23 + SRC tyrosine kinase) and frames ligand-driven NLS exposure as the trigger for nuclear translocation."
 conditions: "Mammalian cells, ligand-free state"
 date_proposed: 2026-05-13
-date_updated: 2026-05-13
+date_updated: 2026-05-26
 ---
 
 ## Statement

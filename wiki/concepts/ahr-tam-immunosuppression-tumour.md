@@ -24,6 +24,7 @@ key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: "Opitz et al. 2011 (Kyn-AHR in glioma); Takenaka et al. 2019 (TAM AHR-KLF4-CD39)"
 date_updated: 2026-05-13
 related_concepts: []

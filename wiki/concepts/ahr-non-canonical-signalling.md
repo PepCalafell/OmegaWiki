@@ -22,6 +22,7 @@ tags:
 maturity: active
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - complex-biology-aryl-hydrocarbon-receptor-activation
 first_introduced: "Tian et al. 1999 (AHR-NF-κB crosstalk); Ohtake et al. 2007 (AHR-CUL4B E3 ligase)"
 date_updated: 2026-05-13
 related_concepts: []
