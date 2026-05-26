@@ -157,19 +157,28 @@ else
 fi
 
 # ── Step 3b: Activate language files ───────────────────────────────
-echo ""
-info "Activating language: $LANG_CODE"
-cp "$I18N_DIR/CLAUDE.md" CLAUDE.md
-for src in "$I18N_DIR/skills"/*/SKILL.md; do
-    skill_dir=$(dirname "$src")
-    name=$(basename "$skill_dir")
-    mkdir -p ".claude/skills/$name"
-    cp -R "$skill_dir"/. ".claude/skills/$name/"
-done
-mkdir -p ".claude/skills/shared-references"
-cp "$I18N_DIR/shared-references"/*.md ".claude/skills/shared-references/"
-echo "$LANG_CODE" > .claude/.current-lang
-ok "Language files activated ($LANG_CODE)"
+# DESACTIVADO 2026-05-26 — Pep.
+# Este bloque copiaba i18n/en/ ENCIMA de .claude/skills/. En este repo,
+# .claude/skills/ingest/ es la FUENTE DE VERDAD: contiene la adaptacion
+# biomedica (tiers de claims, foundations de metodos, frontmatter de
+# tejido/condicion/especie). i18n/en/ quedo congelado en el original
+# generico de upstream. Ejecutar este cp -R DESTRUIRIA la adaptacion.
+# El resto de setup.sh (venv, deps, .env) sigue siendo seguro y util.
+# Si algun dia se quiere reactivar i18n/, primero portar .claude/ -> i18n/en/.
+#
+# echo ""
+# info "Activating language: $LANG_CODE"
+# cp "$I18N_DIR/CLAUDE.md" CLAUDE.md
+# for src in "$I18N_DIR/skills"/*/SKILL.md; do
+#     skill_dir=$(dirname "$src")
+#     name=$(basename "$skill_dir")
+#     mkdir -p ".claude/skills/$name"
+#     cp -R "$skill_dir"/. ".claude/skills/$name/"
+# done
+# mkdir -p ".claude/skills/shared-references"
+# cp "$I18N_DIR/shared-references"/*.md ".claude/skills/shared-references/"
+# echo "$LANG_CODE" > .claude/.current-lang
+ok "Language activation SKIPPED (.claude/ es la fuente — ver nota arriba)"
 
 # ── Step 4: Verify installation ─────────────────────────────────────────
 
