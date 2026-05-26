@@ -15,6 +15,7 @@ tags: [oncology, microenvironment, early-cancer]
 maturity: emerging
 key_papers:
   - emerging-strategies-investigate-biology-early-cancer
+  - spatiotemporal-analyses-pan-cancer-single-cell
 first_introduced: ""
 date_updated: 2026-05-25
 related_concepts:

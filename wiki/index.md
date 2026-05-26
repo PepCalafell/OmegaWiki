@@ -175,6 +175,12 @@ papers:
     importance: 4
     domain: immunology / immunometabolism / cell biology
     priority: core
+  - slug: spatiotemporal-analyses-pan-cancer-single-cell
+    title: "Spatiotemporal analyses of the pan-cancer single-cell landscape reveal widespread profibrotic ecotypes associated with tumor immunity"
+    tags: [pan-cancer, tme, scrna-seq, spatial-transcriptomics, caf, tam, cthrc1, slpi, profibrotic-ecotype, tumor-ecosystem, metacell, tabulatime, ecm-remodeling, immune-exclusion, nichenet]
+    importance: 4
+    domain: oncology
+    priority: high
 
 concepts:
   - slug: kac-krt8-alveolar-intermediate-cells-luad-progenitors
@@ -1003,6 +1009,22 @@ concepts:
     title: "AHR-HIF crosstalk through shared ARNT — hypoxia-driven competition that titrates AHR transcriptional activity"
     tags: [AHR, HIF1A, HIF2A, ARNT, hypoxia, tumor-microenvironment, bHLH-PAS, transcription-factor-competition]
     maturity: stable
+  - slug: cthrc1-efibro-ecm-remodeling-pan-cancer-caf
+    title: "CTHRC1+ ECM-remodeling fibroblast (eFibro_CTHRC1) — pan-cancer leading-edge CAF"
+    tags: [pan-cancer, caf, stromal, ecm, leading-edge, spatial, immune-exclusion, tme]
+    maturity: emerging
+  - slug: slpi-macrophage-profibrotic-tam
+    title: "SLPI+ profibrotic macrophage (Macro_SLPI) — pan-cancer ECM-remodeling TAM"
+    tags: [pan-cancer, tam, macrophage, profibrotic, ecm, tme, immunosuppression, myeloid]
+    maturity: emerging
+  - slug: cthrc1-slpi-profibrotic-spatial-ecotype
+    title: "CTHRC1+ CAF / SLPI+ TAM profibrotic spatial ecotype"
+    tags: [pan-cancer, spatial, niche, ecotype, caf, tam, profibrotic, ecm, immune-exclusion, tme]
+    maturity: emerging
+  - slug: pan-cancer-tumor-ecosystem-five-subtypes
+    title: "Pan-cancer tumor ecosystem five-subtype classification (DLP / NIHS / DHP / AILS / AIHS)"
+    tags: [pan-cancer, ecotype, tcga, bulk, stromal, immune, prognosis, tme]
+    maturity: emerging
 
 topics:
 
@@ -1291,6 +1313,15 @@ people:
   - slug: david-sancho
     tags: [macrophage, dendritic-cell, innate-immunity, immunometabolism, tumor-immunology, PI]
     affiliation: "Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid"
+  - slug: ya-han
+    tags: [single-cell-genomics, pan-cancer, tme, computational-oncology]
+    affiliation: "Tongji University"
+  - slug: qiu-wu
+    tags: [pan-cancer, single-cell-genomics, tme, computational-oncology]
+    affiliation: "Tongji University"
+  - slug: chenfei-wang
+    tags: [computational-oncology, single-cell-genomics, pan-cancer, tme, maestro, tabulatime]
+    affiliation: "Tongji University"
 
 ideas:
 
@@ -4110,6 +4141,126 @@ claims:
     status: supported
     confidence: 0.8
     domain: pulmonary disease / immunometabolism
+  - slug: tabulatime-largest-pan-cancer-scrna-resource
+    title: "TabulaTIME integrates the largest pan-cancer tumor scRNA-seq dataset to date (4.5M cells, 36 cancer types, 746 donors)"
+    tags: [pan-cancer, scrna-seq, tabulatime, resource]
+    status: supported
+    confidence: 0.95
+    domain: computational oncology
+  - slug: metacell-cca-integration-outperforms-single-cell-batch-correction
+    title: "MetaCell + CCA reduces batch effects more than single-cell-level CCA while preserving cell-type biology"
+    tags: [methodological, scrna-seq, integration, metacell, batch-effect]
+    status: supported
+    confidence: 0.85
+    domain: single-cell methodology
+  - slug: tabulatime-defines-56-tme-subtypes-six-lineages
+    title: "TabulaTIME resolves 56 TME cell subtypes across 6 major lineages"
+    tags: [pan-cancer, cell-atlas, tme, scrna-seq]
+    status: supported
+    confidence: 0.9
+    domain: computational oncology
+  - slug: cd8tem-gzmk-enriched-precancerous
+    title: "CD8Tem_GZMK effector memory CD8+ T cells enriched in precancerous samples"
+    tags: [cd8-t-cell, precancerous, cytotoxic-lymphocyte, tme]
+    status: supported
+    confidence: 0.85
+    domain: cancer immunology
+  - slug: m1-m2-signatures-fail-distinguish-tme-macrophages
+    title: "M1/M2 signatures do not distinguish TME macrophage subtypes"
+    tags: [macrophage, tam, m1-m2, methodological, tme]
+    status: supported
+    confidence: 0.9
+    domain: cancer immunology
+  - slug: macro-slpi-profibrotic-tam-high-emt-focal-adhesion
+    title: "Macro_SLPI is a profibrotic TAM with highest EMT + focal-adhesion meta-program scores"
+    tags: [tam, macrophage, profibrotic, slpi, emt, ecm]
+    status: supported
+    confidence: 0.85
+    domain: cancer immunology
+  - slug: macro-slpi-distinct-developmental-branch-from-c1qc-thbs1
+    title: "Macro_SLPI follows a distinct developmental branch from Macro_C1QC and Macro_THBS1 despite shared monocyte origin"
+    tags: [macrophage, tam, trajectory, pseudotime]
+    status: supported
+    confidence: 0.7
+    domain: cancer immunology
+  - slug: macro-slpi-high-signature-worse-survival-esca-skcm
+    title: "High Macro_SLPI signature predicts worse survival in TCGA ESCA and SKCM"
+    tags: [tam, profibrotic, slpi, survival, tcga, prognosis]
+    status: supported
+    confidence: 0.9
+    domain: clinical oncology
+  - slug: efibro-cthrc1-pan-cancer-tumor-enriched-fap-lrrc15-postn
+    title: "eFibro_CTHRC1 cells co-express FAP, LRRC15, POSTN across pan-cancer types"
+    tags: [caf, cthrc1, fap, lrrc15, postn, pan-cancer, stromal]
+    status: supported
+    confidence: 0.9
+    domain: tumor stroma biology
+  - slug: efibro-cthrc1-emt-ecm-glycosaminoglycan-enriched
+    title: "eFibro_CTHRC1 enriched for EMT, ECM receptor interaction, glycosaminoglycan biosynthesis"
+    tags: [caf, cthrc1, emt, ecm, glycosaminoglycan, metabolism]
+    status: supported
+    confidence: 0.85
+    domain: tumor stroma biology
+  - slug: efibro-cthrc1-high-signature-worse-survival-kirc-blca
+    title: "High eFibro_CTHRC1 signature predicts worse survival in TCGA KIRC and BLCA"
+    tags: [caf, cthrc1, survival, prognosis, tcga]
+    status: supported
+    confidence: 0.9
+    domain: clinical oncology
+  - slug: efibro-cthrc1-leading-edge-localization-78pct-st-slides
+    title: "eFibro_CTHRC1 localizes at tumor leading edge in 78% (32/41) of ST slides"
+    tags: [caf, cthrc1, spatial-transcriptomics, leading-edge, immune-exclusion]
+    status: supported
+    confidence: 0.9
+    domain: tumor stroma spatial biology
+  - slug: itga6-malignant-cells-induces-cthrc1-caf-via-tgfb
+    title: "ITGA6 in malignant cells correlates with CTHRC1+ CAF induction — mechanotransduction-TGFβ hypothesis"
+    tags: [itga6, mechanotransduction, tgfb, caf, cthrc1]
+    status: hypothesis
+    confidence: 0.6
+    domain: tumor stroma biology
+  - slug: efibro-cthrc1-immune-exclusion-lgals9-cd44-cd8
+    title: "eFibro_CTHRC1 excludes CD8+ T cells via LGALS9–CD44 / LGALS9–CD45 interactions"
+    tags: [caf, cthrc1, immune-exclusion, lgals9, cd44, cd45, cd8-t-cell]
+    status: supported
+    confidence: 0.8
+    domain: cancer immunology
+  - slug: cthrc1-slpi-colocalize-profibrotic-ecotype
+    title: "eFibro_CTHRC1 and Macro_SLPI colocalize forming a profibrotic spatial ecotype"
+    tags: [ecotype, spatial, caf, tam, cthrc1, slpi, profibrotic]
+    status: supported
+    confidence: 0.85
+    domain: tumor stroma spatial biology
+  - slug: tgfb1-il1b-shared-upstream-cthrc1-slpi-ecotype
+    title: "TGFβ1 and IL-1β are inferred shared upstream ligands for both eFibro_CTHRC1 and Macro_SLPI"
+    tags: [tgfb1, il1b, ecotype, cthrc1, slpi, nichenet]
+    status: supported
+    confidence: 0.7
+    domain: cell signaling / tumor stroma
+  - slug: capendo-rgcc-tumor-enriched-vegfa-angpt1-regulated
+    title: "capEndo_RGCC angiogenic capillary endothelial subtype is tumor-enriched; regulated by VEGFA, ANGPT1, FGF2, TGFB1"
+    tags: [endothelial, angiogenesis, rgcc, vegfa, angpt1, nichenet]
+    status: supported
+    confidence: 0.7
+    domain: tumor vasculature
+  - slug: pan-cancer-five-tumor-ecosystem-subtypes-tcga
+    title: "Five tumor ecosystem subtypes (DLP / NIHS / DHP / AILS / AIHS) classify 8,743 TCGA tumors"
+    tags: [tcga, pan-cancer, ecotype, bulk, subtype]
+    status: supported
+    confidence: 0.8
+    domain: clinical oncology
+  - slug: tumor-ecosystem-subtype-prognostic-skcm-brca
+    title: "Tumor ecosystem subtype stratifies overall survival in SKCM and BRCA"
+    tags: [prognosis, tcga, skcm, brca, ecotype, survival]
+    status: supported
+    confidence: 0.85
+    domain: clinical oncology
+  - slug: tabulatime-transfer-learning-outperforms-single-cancer-reference
+    title: "TabulaTIME pretrained transfer-learning model outperforms single-cancer references for cell-type annotation"
+    tags: [methodological, transfer-learning, scrna-seq, tabulatime]
+    status: supported
+    confidence: 0.75
+    domain: computational single-cell methodology
 
 Summary:
 
@@ -5194,3 +5345,15 @@ foundations:
     title: "clusterProfiler — R package for functional enrichment / GSEA"
     status: mainstream
     domain: methods
+  - slug: tabulatime-pan-cancer-resource
+    title: "TabulaTIME — pan-cancer single-cell TME reference (4.5M cells, 36 cancer types)"
+    status: mainstream
+    domain: computational genomics / oncology resources
+  - slug: metacell-aggregation
+    title: "MetaCell aggregation — single-cell coarse-graining for large-scale integration"
+    status: mainstream
+    domain: single-cell computational method
+  - slug: lgals9-galectin-9
+    title: "LGALS9 (Galectin-9) — β-galactoside-binding lectin in immune regulation"
+    status: mainstream
+    domain: immunology / cancer immunology

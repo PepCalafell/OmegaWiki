@@ -15,6 +15,7 @@ tags: [CAF, leading-edge, ligand-receptor, ECM, OSCC, pan-cancer]
 maturity: active
 key_papers:
   - spatial-transcriptomics-reveals-distinct-conserved-tumor
+  - spatiotemporal-analyses-pan-cancer-single-cell
 first_introduced: "Galbo 2022 / Kieffer 2020 (CAF taxonomy); spatial axis formalised by Arora & Cao 2023"
 date_updated: 2026-05-22
 related_concepts: []

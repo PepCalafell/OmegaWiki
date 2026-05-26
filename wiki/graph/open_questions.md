@@ -216,6 +216,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Does the TC → LE flow reverse during neoadjuvant therapy in vivo?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Are ecm-myCAF-targeting therapies (anti-LRRC15 ADCs) effective at reversing LE biology?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] How well does the scPred classifier transfer to non-Visium ST platforms (CosMx, Stereo-seq, MERFISH)?
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] Can the profibrotic ecotype be selectively targeted to restore immune infiltration without disrupting beneficial wound-healing?
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] Which TGFβ-axis components (SMAD2/3 vs NF-κB) are dominant in the CTHRC1+/SLPI+ ecotype across cancer types?
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] Will combining anti-LGALS9 or anti-TGFβ with checkpoint blockade rescue DHP/NIHS patients specifically?
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] How does the CTHRC1+ CAF / SLPI+ TAM ecotype relate to the **early IL1B-IL1R1 proinflammatory niche** described in lung precursor lesions ([[papers/multimodal-spatial-omics-reveal-co-evolution]])? Is the early IL-1β niche a temporal precursor to the late TGFβ1/IL-1β profibrotic ecotype?
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] Is CTHRC1+ CAF leading-edge enrichment a hypoxia-driven phenotype? Direct comparison to [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] and [[papers/tumour-microenvironment-crosstalk-nsclc-progression-response]] would clarify whether ECM-remodeling fibroblasts are downstream of tumor-edge hypoxia.
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] Does the Macro_SLPI signature overlap with the COL11A1+/SPP1+ NSCLC axis ([[concepts/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc]])? SLPI+ TAM and SPP1+ TAM may be sister profibrotic states.
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] How does AhR-active tryptophan metabolism (multiple wiki papers on AhR-TAM) interact with the CTHRC1+/SLPI+ ecotype? Both converge on immunosuppression and could be combinable interception targets.
+- [paper/spatiotemporal-analyses-pan-cancer-single-cell] Could the TabulaTIME pretrained model be fine-tuned for hypoxia-specific TAM/CAF inference across the user's hypoxia corpus?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] How should SVP-specific algorithms model the binary, sparse, high-dimensional structure of spatial ATAC-seq?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Can SVG and SVP integration enable spatial gene-regulatory network reconstruction?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Do these results extend to spatial proteomics and spatial methylation?
@@ -341,6 +349,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
 - [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
 - [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
+- [concept/cthrc1-efibro-ecm-remodeling-pan-cancer-caf] Is CTHRC1+ CAF leading-edge enrichment hypoxia-driven? Cross-reference with [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] needed.
+- [concept/cthrc1-efibro-ecm-remodeling-pan-cancer-caf] How early does the CTHRC1+ phenotype emerge — is it absent in IL1B-IL1R1 precursor niches ([[concepts/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor]])?
+- [concept/cthrc1-efibro-ecm-remodeling-pan-cancer-caf] Are LGALS9–CD44 and LGALS9–HAVCR2 interactions therapeutically tractable in this subtype?
+- [concept/cthrc1-slpi-profibrotic-spatial-ecotype] Is the ecotype hypoxia-driven? Cross-reference to [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] and hypoxia-TAM concepts in the wiki is warranted.
+- [concept/cthrc1-slpi-profibrotic-spatial-ecotype] Are CTHRC1+ CAFs upstream of SLPI+ TAM recruitment, or vice versa, or do both originate independently from the shared TGFβ1/IL-1β niche?
+- [concept/cthrc1-slpi-profibrotic-spatial-ecotype] Could LGALS9–CD44/HAVCR2 blockade synergize with TGFβ1 blockade to maximally restore T-cell infiltration?
 - [concept/cup-cancer-type-classifier-proteome] Cross-platform generalisation (TMT, DDA).
 - [concept/cup-cancer-type-classifier-proteome] Clinical-grade validation with prospective CUP cohorts.
 - [concept/cytokine-cell-type-specific-response-pleiotropy] Combinatorial cytokine perturbation atlases (>2 cytokines simultaneously)
@@ -538,6 +552,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/pan-cancer-conserved-leading-edge-signature] Causal upstream drivers shared across cancers
 - [concept/pan-cancer-proteome-atlas-tpcpa] Extension to metastatic and post-treatment tumours.
 - [concept/pan-cancer-proteome-atlas-tpcpa] Integration with single-cell / spatial proteomics.
+- [concept/pan-cancer-tumor-ecosystem-five-subtypes] How robust is the classification across non-TCGA cohorts and in independent ICB-treated cohorts?
+- [concept/pan-cancer-tumor-ecosystem-five-subtypes] Does AIHS truly predict ICB response in trial data?
+- [concept/pan-cancer-tumor-ecosystem-five-subtypes] Can the five-subtype framework be refined per cancer type (e.g., subdivide DHP in BRCA HR+ vs TNBC)?
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -568,6 +585,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
+- [concept/slpi-macrophage-profibrotic-tam] Is the SLPI+ state reversible by anti-TGFβ or anti-IL-1β intervention?
+- [concept/slpi-macrophage-profibrotic-tam] How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tam-hypoxic-niche-immune-suppression]])? Are they competing or sequential states?
+- [concept/slpi-macrophage-profibrotic-tam] Does AhR-mediated tryptophan metabolism intersect the Macro_SLPI program?
 - [concept/spatial-atac-svp-detection-gap] Native SVP-detection algorithms designed for binary/Bernoulli sparse spatial signals.
 - [concept/spatial-atac-svp-detection-gap] Joint SVG–SVP integration for spatially aware gene-regulatory networks (a future-directions item in Li et al. 2025).
 - [concept/spatial-atac-svp-detection-gap] Analogous SVP-style methods for spatial proteomics, spatial methylation, and other spatial omics modalities.

@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (558 total)
+## Claims (578 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (30 total)
+## Papers (31 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -41,19 +41,18 @@ _Auto-generated open questions. Do not edit._
 - [4] Tumor-induced metabolic immunosuppression: Mechanisms and therapeutic targets (immunometabolism)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
-- [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
 - [5] Multimodal spatial-omics reveal co-evolution of alveolar progenitors and proinflammatory niches in progression of lung precursor lesions (oncology)
+- [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [4] Hypoxia signaling in human health and diseases: implications and prospects for therapeutics (molecular-biology / hypoxia-signaling / translational-medicine)
 - [4] The pan-cancer proteome atlas, a mass spectrometry-based landscape for discovering tumor biology, biomarkers, and therapeutic targets (oncology)
 - [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
-## Recent Relationships (1309 total)
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/kac-rpii-earliest-luad-precursor-cells
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/kac-mp-landscape-resembles-precursor-lesions
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/epithelial-proinflammatory-niche-prevalent-precursor-not-luad
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/il1b-il1r1-top-ligand-receptor-precursor
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/il1r1-expression-restricted-kac-precursor-absent-at1-at2
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/il1b-high-macrophage-subclusters-enriched-near-kac-aah
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/nfkb-rela-relb-nfkb1-elevated-kacs-precursor
-  papers/multimodal-spatial-omics-reveal-co-evolution --supports--> claims/kras-mutant-precursor-il1b-il1r1-enrichment
-  papers/mul
+## Recent Relationships (1348 total)
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/metacell-cca-integration-outperforms-single-cell-batch-correction
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/tabulatime-defines-56-tme-subtypes-six-lineages
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/cd8tem-gzmk-enriched-precancerous
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/m1-m2-signatures-fail-distinguish-tme-macrophages
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/macro-slpi-profibrotic-tam-high-emt-focal-adhesion
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/macro-slpi-distinct-developmental-branch-from-c1qc-thbs1
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/macro-slpi-high-signature-worse-survival-esca-skcm
+  papers/spatiotemporal-analyses-pan-cancer-single-cell --supports--> claims/efibro-cthrc1-pan-cancer-tu

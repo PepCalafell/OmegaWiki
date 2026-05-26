@@ -23,6 +23,7 @@ maturity: stable
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - spatiotemporal-analyses-pan-cancer-single-cell
 first_introduced: "Coulton, Murai, Qian, Thakkar, Lewis & Litchfield 2024 *Nat Commun*"
 date_updated: 2026-05-13
 related_concepts:
