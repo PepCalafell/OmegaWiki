@@ -680,7 +680,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
 - [concept/slpi-macrophage-profibrotic-tam] Is the SLPI+ state reversible by anti-TGFβ or anti-IL-1β intervention?
-- [concept/slpi-macrophage-profibrotic-tam] How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tam-hypoxic-niche-immune-suppression]])? Are they competing or sequential states?
+- [concept/slpi-macrophage-profibrotic-tam] How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tumor-associated-macrophage]])? Are they competing or sequential states?
 - [concept/slpi-macrophage-profibrotic-tam] Does AhR-mediated tryptophan metabolism intersect the Macro_SLPI program?
 - [concept/spatial-atac-svp-detection-gap] Native SVP-detection algorithms designed for binary/Bernoulli sparse spatial signals.
 - [concept/spatial-atac-svp-detection-gap] Joint SVG–SVP integration for spatially aware gene-regulatory networks (a future-directions item in Li et al. 2025).

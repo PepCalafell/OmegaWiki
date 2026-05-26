@@ -59,5 +59,5 @@ Macro_SLPI is the macrophage analog of CTHRC1+ CAFs — a TAM whose dominant fun
 ## Open problems
 
 - Is the SLPI+ state reversible by anti-TGFβ or anti-IL-1β intervention?
-- How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tam-hypoxic-niche-immune-suppression]])? Are they competing or sequential states?
+- How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tumor-associated-macrophage]])? Are they competing or sequential states?
 - Does AhR-mediated tryptophan metabolism intersect the Macro_SLPI program?

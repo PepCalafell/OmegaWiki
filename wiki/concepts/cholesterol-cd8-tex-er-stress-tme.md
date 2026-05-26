@@ -24,7 +24,7 @@ first_introduced: ""
 date_updated: 2026-05-26
 related_concepts:
   - cd8-t-cell-exhaustion-texterm
-  - trem2-tam-hypoxic-niche-immune-suppression
+  - trem2-tumor-associated-macrophage
 ---
 
 ## Definition
@@ -64,4 +64,4 @@ When modelling exhaustion in lipid-laden tumours (NSCLC, HCC, melanoma with lipi
 
 ## My understanding
 
-A clean lipid-immunometabolism handle on cancer immunotherapy. Pair with [[concepts/trem2-tam-hypoxic-niche-immune-suppression]] for hypotheses on TAM→CD8 lipid handoff in solid tumours.
+A clean lipid-immunometabolism handle on cancer immunotherapy. Pair with [[concepts/trem2-tumor-associated-macrophage]] for hypotheses on TAM→CD8 lipid handoff in solid tumours.
