@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (635 total)
+## Claims (654 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (34 total)
+## Papers (35 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -40,20 +40,21 @@ _Auto-generated open questions. Do not edit._
 - [4] Emerging strategies to investigate the biology of early cancer (oncology)
 - [4] Tumor-induced metabolic immunosuppression: Mechanisms and therapeutic targets (immunometabolism)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
+- [4] Lipid metabolism in homeostasis and disease (immunology / immunometabolism / lipid biology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [5] Multimodal spatial-omics reveal co-evolution of alveolar progenitors and proinflammatory niches in progression of lung precursor lesions (oncology)
 - [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
 - [4] Hypoxia signaling in human health and diseases: implications and prospects for therapeutics (molecular-biology / hypoxia-signaling / translational-medicine)
 - [4] The pan-cancer proteome atlas, a mass spectrometry-based landscape for discovering tumor biology, biomarkers, and therapeutic targets (oncology)
-- [4] Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response (immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers)
-## Recent Relationships (1456 total)
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/tbx5-tf
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/pho4-tf
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/cbf1-tf
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/chip-nexus
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/ht-selex
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/upbm-protein-binding-microarray
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/snp-selex
-  papers/multiple-overlapping-binding-sites-determine-transcription --derived_from--> foundations/motifbreakr
-  papers/multiple-overlapping-binding-sites-determine-transcription --supports--> claims/padit-seq-detects-lower-affin
+## Recent Relationships (1510 total)
+  papers/lipid-metabolism-homeostasis-disease --derived_from--> foundations/foxp3-tf
+  papers/lipid-metabolism-homeostasis-disease --derived_from--> foundations/rorgt-tf
+  papers/lipid-metabolism-homeostasis-disease --derived_from--> foundations/mtor-kinase
+  papers/lipid-metabolism-homeostasis-disease --derived_from--> foundations/ampk-prkaa
+  papers/lipid-metabolism-homeostasis-disease --derived_from--> foundations/nf-kb-p65-rela
+  papers/lipid-metabolism-homeostasis-disease --derived_from--> foundations/lxra-tf
+  papers/lipid-metabolism-homeostasis-disease --supports--> claims/scfa-butyrate-hdac-drives-m1-to-m2-via-nfkb-p65-acetylation
+  papers/lipid-metabolism-homeostasis-disease --supports--> claims/scfa-hdac-inhibition-drives-th17-th1-via-mtor-acetylation
+  papers/lipid-metabolism-homeostasis-disease --supports--> claims/acetate-induces-breg-il10-via-acetyl-coa-tca
+  papers/lipid-metabolism-homeostasis-disease --supports--> claims/n3-pufa-dha-suppresses-cd4-activation-via-mhcii-c

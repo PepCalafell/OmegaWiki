@@ -16,6 +16,7 @@ tags: [car-t, metabolic-conditioning, memory-formation, mpc, mct1, ldh, metformi
 maturity: active
 key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - lipid-metabolism-homeostasis-disease
 first_introduced: ""
 date_updated: 2026-05-22
 related_concepts: [car-t-cell-therapy]

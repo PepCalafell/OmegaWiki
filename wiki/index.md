@@ -199,8 +199,50 @@ papers:
     importance: 4
     domain: regulatory-genomics
     priority: high
+  - slug: lipid-metabolism-homeostasis-disease
+    title: "Lipid metabolism in homeostasis and disease"
+    tags: [lipid-metabolism, immunometabolism, fatty-acids, cholesterol, bile-acids, sphingolipids, phospholipids, lipid-rafts, scfa, macrophage, t-cell, b-cell, neutrophil, dc, mast-cell, cancer, autoimmunity, cardiovascular-disease, aging, review]
+    importance: 4
+    domain: immunology / immunometabolism / lipid biology
+    priority: reference
 
 concepts:
+  - slug: scfa-hdac-gpr-immune-regulation
+    title: "SCFA-HDAC-GPR axis regulates immune cell polarization and humoral responses"
+    tags: [scfa, hdac, gpr, microbiota, macrophage, treg, th17, breg]
+    maturity: active
+  - slug: s1p-s1pr-immune-trafficking
+    title: "Sphingosine-1-phosphate / S1PR axis governs immune cell trafficking and macrophage polarization"
+    tags: [sphingolipid, s1p, s1pr, macrophage, t-cell, neutrophil, mast-cell, trafficking]
+    maturity: active
+  - slug: bile-acid-treg-th17-rebalancing
+    title: "Bile acid derivatives rebalance Treg/Th17 and macrophage polarization"
+    tags: [bile-acid, treg, th17, macrophage, microbiota, foxp3, rorgt, tgr5, fxr]
+    maturity: active
+  - slug: lipid-rafts-bcr-tcr-signaling
+    title: "Lipid rafts organize BCR and TCR proximal signaling"
+    tags: [lipid-raft, bcr, tcr, b-cell, t-cell, membrane-microdomain, sphingolipid, cholesterol]
+    maturity: active
+  - slug: mevalonate-pathway-immune-function
+    title: "Mevalonate pathway sustains B-cell, Breg, and Treg function via cholesterol and GGPP"
+    tags: [mevalonate, hmg-coa-reductase, statin, ggpp, b-cell, breg, treg, cholesterol]
+    maturity: active
+  - slug: n3-pufa-immunomodulation
+    title: "n-3 long-chain PUFAs (DHA, EPA) modulate T-cell, mast-cell, and neutrophil function"
+    tags: [pufa, n-3-pufa, dha, epa, t-cell, mast-cell, neutrophil, allergy, diet]
+    maturity: active
+  - slug: cholesterol-cd8-tex-er-stress-tme
+    title: "Cholesterol-driven ER stress promotes CD8⁺ T-cell exhaustion in the tumour microenvironment"
+    tags: [cholesterol, cd8-exhaustion, er-stress, tme, immunometabolism]
+    maturity: active
+  - slug: de-novo-lipogenesis-effector-immune-cells
+    title: "De novo lipogenesis (ACLY-ACC-FASN-SCD) fuels effector B, T, and DC programs"
+    tags: [lipogenesis, acly, acc, fasn, scd, srebp1, b-cell, cd8-t-cell, dc, treg]
+    maturity: active
+  - slug: fao-memory-cd8-trm-treg-program
+    title: "Fatty-acid oxidation supports memory CD8, TRM, and Treg programs via CPT1 and AMPK"
+    tags: [fao, cpt1, ampk, cd8-memory, trm, treg, memory, immunometabolism]
+    maturity: active
   - slug: padit-seq
     title: "PADIT-seq (Protein Affinity to DNA by In vitro Transcription and sequencing)"
     tags: [transcription-factor, in-vitro-binding, high-throughput, low-affinity, synthetic-biology, RNA-seq-reporter]
@@ -1099,6 +1141,14 @@ concepts:
 topics:
 
 people:
+  - slug: ting-li
+    tags: [immunometabolism, lipid-metabolism, chinese-medicine-pharmacology, macau]
+  - slug: zhenghao-li
+    tags: [immunometabolism, lipid-metabolism, macau]
+  - slug: wende-deng
+    tags: [immunometabolism, lipid-metabolism, pharmacology, macau]
+  - slug: lanxuan-yang
+    tags: [immunometabolism, lipid-metabolism, macau]
   - slug: shubham-khetan
     tags: [transcription-factor, DNA-binding, PADIT-seq, regulatory-genomics, noncoding-variants]
   - slug: martha-l-bulyk
@@ -4622,7 +4672,133 @@ Summary:
     tags: [methionine, efferocytosis, Ptgs2, Tgfb1, BMDM]
     status: supported
 
+  - slug: scfa-butyrate-hdac-drives-m1-to-m2-via-nfkb-p65-acetylation
+    title: "SCFAs (butyrate, propionate) drive M2 macrophage polarization via HDAC inhibition / NF-κB p65 acetylation"
+    tags: [scfa, butyrate, hdac, macrophage, m2-polarization]
+    status: supported
+  - slug: scfa-hdac-inhibition-drives-th17-th1-via-mtor-acetylation
+    title: "SCFA-driven HDAC inhibition licenses Th17/Th1 generation through mTOR-p70S6K-rS6 acetylation"
+    tags: [scfa, hdac, th17, th1, mtor]
+    status: supported
+  - slug: acetate-induces-breg-il10-via-acetyl-coa-tca
+    title: "Acetate induces IL-10⁺ Breg via acetyl-CoA / TCA / protein acetylation"
+    tags: [scfa, acetate, breg, il-10]
+    status: weakly_supported
+  - slug: n3-pufa-dha-suppresses-cd4-activation-via-mhcii-costim
+    title: "n-3 PUFA DHA suppresses CD4 activation via MHC-II / costimulation downregulation"
+    tags: [pufa, dha, cd4, mhc-ii]
+    status: supported
+  - slug: oleic-acid-boosts-treg-via-fao-oxphos-foxp3-stat5
+    title: "Oleic acid boosts human Treg via FAO/OXPHOS/Foxp3/STAT5"
+    tags: [mufa, oleic-acid, treg, fao]
+    status: supported
+  - slug: palmitic-acid-as-tlr-agonist-drives-m1-cytokines
+    title: "Palmitic acid acts as TLR agonist driving M1 TNF-α/IL-1β/IL-6"
+    tags: [palmitic-acid, tlr, macrophage]
+    status: supported
+  - slug: cholesterol-crystals-trigger-nlrp3-il1b-via-c5ar1-ros
+    title: "Cholesterol crystals drive NLRP3 / IL-1β via C5aR1 mitochondrial ROS"
+    tags: [cholesterol, nlrp3, il-1b, c5ar1]
+    status: supported
+  - slug: cholesterol-induces-cd8-er-stress-exhaustion-in-tme
+    title: "Cholesterol drives ER stress and CD8 T-cell exhaustion in tumour microenvironment"
+    tags: [cholesterol, cd8-exhaustion, er-stress, tme]
+    status: supported
+  - slug: oxysterol-ebi2-gpr183-drives-cd4-tfh-localization
+    title: "Oxysterol 7α,25-OHC via EBI2/GPR183 localizes CD4 to B–T zone for Tfh"
+    tags: [oxysterol, ebi2, gpr183, tfh]
+    status: supported
+  - slug: dca-polarizes-m1-via-m2-muscarinic-tlr2-transactivation
+    title: "DCA polarizes macrophages to M1 via M2 muscarinic / TLR2 transactivation"
+    tags: [dca, bile-acid, macrophage, m1, tlr2]
+    status: supported
+  - slug: isoallolca-3oxolca-rebalance-treg-th17-via-foxp3-rorgt
+    title: "IsoalloLCA induces Treg via NR4A1-Foxp3; 3-oxoLCA antagonizes RORγt to block Th17"
+    tags: [bile-acid, isoallolca, 3-oxolca, treg, th17]
+    status: supported
+  - slug: s1pr-activation-switches-m1-to-m2-and-alleviates-atherosclerosis
+    title: "S1PR activation (S1PR2-required) switches macrophages M1→M2 and alleviates atherosclerosis"
+    tags: [s1p, s1pr2, macrophage, atherosclerosis]
+    status: supported
+  - slug: s1p-s1pr1-drives-th17-intestine-to-kidney-via-ccl20-ccr6
+    title: "S1P-S1PR1 drives Th17 intestine→kidney via CCL20/CCR6"
+    tags: [s1p, s1pr1, th17, nephritis]
+    status: supported
+  - slug: lipid-rafts-license-bcr-proximal-signaling-via-lyn-syk-blnk
+    title: "Lipid rafts license BCR proximal signaling via Lyn-SYK-BLNK-BTK-PLC-γ2"
+    tags: [lipid-raft, bcr, b-cell]
+    status: supported
+  - slug: glycosphingolipid-loss-in-rafts-impairs-tcr-th17
+    title: "Glycosphingolipid / α2,6-sialylation loss in rafts impairs TCR and Th17"
+    tags: [lipid-raft, tcr, th17, ulcerative-colitis]
+    status: supported
+  - slug: acly-supports-b-cell-proliferation-and-plasma-program
+    title: "ACLY supports B-cell proliferation and Blimp-1/CD138 plasma program; SCD-oleic acid required for GC formation"
+    tags: [acly, b-cell, plasma-cell, scd, gc]
+    status: supported
+  - slug: mevalonate-ggpp-supports-breg-il10-and-treg-stat5
+    title: "Mevalonate / GGPP supports Breg IL-10 and Treg STAT5; statins block both"
+    tags: [mevalonate, ggpp, statin, breg, treg]
+    status: supported
+  - slug: acly-fasn-control-cd8-effector-memory-and-treg-trade-offs
+    title: "ACLY/FASN trade-off: CD8 effector IFN-γ vs memory survival vs Treg suppression"
+    tags: [acly, fasn, cd8, memory, treg]
+    status: supported
+  - slug: fao-cpt1-supports-memory-cd8-and-controls-macrophage-atherosclerosis
+    title: "FAO/CPT1-AMPK supports memory CD8 but CPT1 blockade drives macrophage atherosclerosis"
+    tags: [fao, cpt1, ampk, memory, atherosclerosis]
+    status: supported
+
 foundations:
+  - slug: scfa-short-chain-fatty-acid
+    title: "Short-chain fatty acids (SCFAs) — acetate, propionate, butyrate"
+    status: mainstream
+    domain: microbiota metabolism / immunometabolism
+  - slug: hdac-histone-deacetylase
+    title: "HDAC — histone deacetylase family"
+    status: mainstream
+    domain: epigenetics / chromatin
+  - slug: s1p-sphingosine-1-phosphate
+    title: "S1P — sphingosine-1-phosphate"
+    status: mainstream
+    domain: sphingolipid signaling / immunology
+  - slug: s1pr1-receptor
+    title: "S1PR1 — sphingosine-1-phosphate receptor 1"
+    status: mainstream
+    domain: GPCR signaling / immunology
+  - slug: hmg-coa-reductase
+    title: "HMG-CoA reductase (HMGCR)"
+    status: mainstream
+    domain: lipid metabolism / cholesterol biosynthesis
+  - slug: acly-atp-citrate-lyase
+    title: "ACLY — ATP-citrate lyase"
+    status: mainstream
+    domain: lipid metabolism / immunometabolism
+  - slug: fasn-fatty-acid-synthase
+    title: "FASN — fatty acid synthase"
+    status: mainstream
+    domain: lipid metabolism / immunometabolism
+  - slug: cpt1-carnitine-palmitoyltransferase-1
+    title: "CPT1 — carnitine palmitoyltransferase 1"
+    status: mainstream
+    domain: lipid metabolism / mitochondrial biology
+  - slug: nlrp3-inflammasome
+    title: "NLRP3 inflammasome"
+    status: mainstream
+    domain: innate immunity / inflammation
+  - slug: lithocholic-acid-lca
+    title: "Lithocholic acid (LCA) and derivatives (3-oxoLCA, isoLCA, isoalloLCA)"
+    status: mainstream
+    domain: bile acid metabolism / immunometabolism
+  - slug: isoallolca-bile-acid
+    title: "IsoalloLCA — Treg-inducing bile-acid derivative"
+    status: mainstream
+    domain: bile acid metabolism / immunometabolism
+  - slug: dha-omega3-pufa
+    title: "n-3 long-chain PUFAs (DHA, EPA)"
+    status: mainstream
+    domain: lipid biochemistry / nutrition
+
   - slug: hoxd13-tf
     title: "HOXD13 (homeodomain transcription factor)"
     tags: [HOXD13, homeodomain, limb-development, transcription-factor]

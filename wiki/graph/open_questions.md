@@ -127,6 +127,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Are the IRF9 non-ISGF3 partners cell-type-specific, and do they overlap with STAT3/STAT5 targets in human macrophages?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Does single-cell ATAC + RNA on perfusion-fixed spleens reproduce the bulk-derived three-group epigenome/transcriptome coupling pattern?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] How does the neomorphic STAT5BN642H chromatin signature relate to TEXterm chromatin landscapes in chronic infection / tumour CD8 cells (cross-link to [[papers/atlas-guided-discovery-transcription-factors-cell]])?
+- [paper/lipid-metabolism-homeostasis-disease] Whether and how SCFAs drive peripheral CD4 → Foxp3⁺ Treg conversion vs merely sustaining Treg function.
+- [paper/lipid-metabolism-homeostasis-disease] Whether n-3:n-6 ratio rather than absolute n-3 intake is the operative dietary lever for immune modulation.
+- [paper/lipid-metabolism-homeostasis-disease] What functional roles lipid rafts play in immune-cell-based disease therapies (called out as understudied).
+- [paper/lipid-metabolism-homeostasis-disease] How does the cholesterol → ER-stress → CD8 exhaustion axis interact with the TREM2-LAM (lipid-associated TAM) program in solid tumours? Combined targeting potential.
+- [paper/lipid-metabolism-homeostasis-disease] Are isoalloLCA / 3-oxoLCA findings reproducible in humans at physiological gut concentrations, or do they require engineered consortia for clinical effect?
+- [paper/lipid-metabolism-homeostasis-disease] The dual M1-M2 modulatory pattern of SCFAs (acetate suppresses M2 in asthma but propionate/butyrate suppress M1) — is this concentration- or receptor-isoform-dependent (GPR43 vs HDAC)?
+- [paper/lipid-metabolism-homeostasis-disease] How do FASN-loss CD8 anti-tumor benefits (raised MHC-I) reconcile with loss of memory CD8 survival? Is there a dose window for clinical FASN inhibition?
+- [paper/lipid-metabolism-homeostasis-disease] Lipid raft α2,6-sialylation could be targeted in ulcerative colitis — is there a parallel sialylation handle in psoriasis / atopic dermatitis where Th17 is similarly central?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] What other gene promoters are DNMT3A-methylated during efferocytosis (genome-wide map needed)?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Does AC-methionine specifically route to the Dusp4 promoter or genome-wide?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Does prolonged ERK activation in DNMT3A-deficient cells affect other gene programs beyond Ptgs2?
@@ -355,6 +363,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/batch-removal-vs-bioconservation-tradeoff] Can a single method dominate the Pareto frontier on label-agnostic atlas tasks?
 - [concept/batch-removal-vs-bioconservation-tradeoff] How to handle confounded batch/biology axes without arbitrary editorial choices?
 - [concept/batch-removal-vs-bioconservation-tradeoff] Does reference-mapping (scArches, Azimuth) reformulation escape the tradeoff?
+- [concept/bile-acid-treg-th17-rebalancing] Reproducibility of isoalloLCA Treg induction at physiological human gut concentrations.
+- [concept/bile-acid-treg-th17-rebalancing] Pharmacological agonists of TGR5 / antagonists of RORγt selective for immune over metabolic compartments.
 - [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
 - [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
@@ -367,6 +377,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
 - [concept/cell-cycle-phase-bias-malignant] Are TME cell-cycle phases correlated with malignant phase bias?
+- [concept/cholesterol-cd8-tex-er-stress-tme] Whether statin or ACAT inhibitor combinations with ICB rescue CD8 function clinically.
+- [concept/cholesterol-cd8-tex-er-stress-tme] Interaction with TREM2-LAM lipid handoff.
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
 - [concept/chromothripsis-hypoxia-prostate] Whether anti-hypoxia therapy reduces chromothripsis incidence in vivo
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
@@ -396,6 +408,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-pair-synergy-antagonism-tissue] Pathway-level mapping of synergy (MAPK / NF-κB / JAK-STAT / IRF rewiring)
 - [concept/cytokine-pair-synergy-antagonism-tissue] Quantitative dose-response models for combinatorial effects
 - [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
+- [concept/de-novo-lipogenesis-effector-immune-cells] Therapeutic dose-window of FASN inhibition: tumour benefit vs memory CD8 loss vs Treg suppression.
+- [concept/de-novo-lipogenesis-effector-immune-cells] SCD-MUFA selectivity for GC B cells in vaccine adjuvancy.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Site-specific methyl-mark tracking at the Dusp4 promoter (e.g., 13C5-methionine + targeted bisulfite + LC-MS)
@@ -415,6 +429,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Are these niches reversible by inflammation resolution agents (e.g., resolvins) rather than blockade?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Which precursor lesions carry an active niche versus a resolved one, and can imaging (IL1R1 IF) stratify them?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
+- [concept/fao-memory-cd8-trm-treg-program] CPT1A vs CPT1B isoform-specific immune effects.
+- [concept/fao-memory-cd8-trm-treg-program] Whether AMPK agonists (metformin) act via FAO or independent pathways for ICI synergy.
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Predictive biomarker for response (beyond VHL mutation): is there a transcriptomic signature that identifies HIF-2α-dependent tumors better than VHL status alone?
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
@@ -527,6 +543,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
 - [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
+- [concept/lipid-rafts-bcr-tcr-signaling] Whether α2,6-sialylation control is a viable handle for psoriasis / atopic dermatitis where Th17 is central.
+- [concept/lipid-rafts-bcr-tcr-signaling] Drug-discovery tractability of "raft modulators" (cholesterol-depleting agents lack specificity).
 - [concept/low-affinity-tf-binding-site] Universal definition of "low-affinity but functional" across TF families
 - [concept/low-affinity-tf-binding-site] In vivo cofactor / chromatin contributions to low-affinity binding
 - [concept/low-affinity-tf-binding-site] Evolutionary turnover of low-affinity sites
@@ -547,6 +565,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
 - [concept/methionine-competition-slc43a2-stat5-tcell] Tumour-selective SLC43A2 inhibitors.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Biomarkers of SLC43A2-driven methionine competition.
+- [concept/mevalonate-pathway-immune-function] Whether targeted GGPP-synthesis modulation (rather than blanket HMG-CoA-reductase inhibition) can selectively tune Treg vs Th1.
+- [concept/mevalonate-pathway-immune-function] Statin combination with checkpoint blockade — outcomes likely depend on Treg vs Th1 balance.
 - [concept/microbiota-tryptophan-ahr-ligand-axis] Quantitative AHR-ligand fluxes at the mucosa
 - [concept/microbiota-tryptophan-ahr-ligand-axis] Engineering microbial strains that produce defined, dose-controlled AHR agonists
 - [concept/microglia-synaptic-pruning-complement] Whether activity-dependent C1Q deposition is upstream or downstream of synaptic weakness.
@@ -573,6 +593,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/mrna-protein-discordance] Mechanism-by-mechanism dissection of *why* specific proteins are discordant (translation rate, degradation, stabilization).
 - [concept/mrna-protein-discordance] Paired single-cell mRNA + untargeted protein measurements (vs current unpaired integrations).
 - [concept/mrna-protein-discordance] Translating bulk-derived translation-rate priors into single-cell models.
+- [concept/n3-pufa-immunomodulation] Whether n-3:n-6 ratio biomarkers can predict ICI response.
+- [concept/n3-pufa-immunomodulation] SPM (resolvin/protectin) pharmacology in chronic inflammation.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
@@ -631,8 +653,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/rare-immune-cell-types-produce-many] Whether the relation generalizes outside lymph nodes (tumours, infected tissue)
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Calibrating short-horizon velocity against multi-day lineage tracing
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
+- [concept/s1p-s1pr-immune-trafficking] Whether S1P-S1PR2 macrophage tuning is exploitable for tumour-associated macrophage repolarization.
+- [concept/s1p-s1pr-immune-trafficking] Tissue-by-tissue S1P concentration mapping.
 - [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
 - [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
+- [concept/scfa-hdac-gpr-immune-regulation] Disentangle GPR43 vs HDAC contributions cell-type by cell-type.
+- [concept/scfa-hdac-gpr-immune-regulation] Translate the SCFA-Breg/IgA axis into mucosal vaccine adjuvants.
 - [concept/scprotvelo-translation-dynamics] Joint inference of multiple co-existing trajectories.
 - [concept/scprotvelo-translation-dynamics] Generalization to non-paired multimodal data (currently relies on the GLUE-integrated joint latent space).
 - [concept/scprotvelo-translation-dynamics] Validation against ground-truth pulse-SILAC translation rates.
@@ -763,6 +789,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Wet-lab validation of hub-protein dependency across cancer types.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Integration with single-cell co-expression networks.
+- [claim/acetate-induces-breg-il10-via-acetyl-coa-tca] Acetate induces IL-10⁺ Breg differentiation via conversion to acetyl-CoA, TCA-cycle fuelling, and protein acetylation (status: weakly_supported)
 - [claim/ahr-klf6-cps1-h1k34-homocitrullination-pad2] AHR ligand activation recruits an AHR-KLF6 complex to non-canonical XREs (NC-XREs); KLF6 recruits CPS1, driving homocitrullination of histone H1K34 and induction of peptidyl-arginine-deiminase 2 (PAD2) — a histone-carbamylation arm of AHR signalling (status: weakly_supported)
 - [claim/ahr-pxr-promiscuous-ligand-overlap] AHR and the nuclear receptor PXR share substantial agonist overlap, implying that AHR ligands frequently co-activate PXR and that response heterogeneity reflects parallel receptor activation (status: weakly_supported)
 - [claim/anti-pd1-ctla4-alvocidib-le-outgoing-pattern] Anti-PD-1 / anti-CTLA-4 perturbations and Alvocidib (CDK inhibitor) recapitulate the effective-drug LE-outgoing pattern in OSCC ST (status: weakly_supported)

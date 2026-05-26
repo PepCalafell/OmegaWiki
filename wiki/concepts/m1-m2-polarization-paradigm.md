@@ -29,6 +29,7 @@ key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - development-hypoxia-responsive-macrophage-prognostic-model
   - metabolism-tissue-macrophages-homeostasis-pathology
+  - lipid-metabolism-homeostasis-disease
 first_introduced: "Mills, Kincaid et al. 2000 *J Immunol* (M1/M2 framing); refined by Cui & Hacohen 2024 *Nature* Mac-a/b/c/d/e at scRNA-seq resolution"
 date_updated: 2026-05-13
 related_concepts:

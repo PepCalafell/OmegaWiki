@@ -20,6 +20,7 @@ tags:
 maturity: active
 key_papers:
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - lipid-metabolism-homeostasis-disease
 first_introduced: 2020
 date_updated: 2026-05-22
 related_concepts:

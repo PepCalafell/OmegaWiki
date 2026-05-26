@@ -17,6 +17,7 @@ maturity: active
 key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
   - physiology-diseases-tissue-resident-macrophages
+  - lipid-metabolism-homeostasis-disease
 related_concepts:
   - efferocytosis-anti-inflammatory-clearance
   - tissue-specific-metabolic-programming-macrophages
