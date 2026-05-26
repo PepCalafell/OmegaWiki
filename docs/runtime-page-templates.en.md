@@ -172,9 +172,11 @@ Body sections: `## Overview` / `## Core areas` / `## Evolution` / `## Current fr
 
 ```yaml
 ---
+# CAMPOS DE FOUNDATION: EXACTAMENTE estos 8, ninguno más.
+# NUNCA añadir 'type', 'category' ni otros campos inventados.
 title: ""
 slug: ""
-domain: ""
+domain: ""               # OBLIGATORIO — no dejar vacío
 status: mainstream       # OBLIGATORIO exactamente uno de: mainstream|historical — NINGÚN otro valor
 aliases: []
 first_introduced: ""

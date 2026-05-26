@@ -397,3 +397,26 @@ bloqueó el commit. Corregidos a mano (maturity→stable, status→mainstream).
 
 Mejora 7 sigue sin fix de raíz. Confirma que el bug puede escaparse hasta el
 final del pipeline; verify_paper.sh es ahora la red de seguridad efectiva.
+
+### 9.9 Bug de esquema en foundations — confirmado Mejora 7 (2026-05-26)
+
+El ingest del review Wculek 2022 generó 14 foundations con esquema
+inventado: campos `type: foundation` y `category: gene`, SIN los
+obligatorios `domain` y `status`. 28 errores missing-field en lint.
+
+Diagnóstico: NO es un bug del template. El template de foundations
+(runtime-page-templates.en.md L175-183) es correcto y completo — solo
+muestra los 8 campos canónicos, nunca menciona type ni category. Opus
+inventó esos campos por su cuenta.
+
+Es Mejora 7 puro: intermitencia del modelo. 14 de 261 foundations
+afectadas, todas del mismo ingest. Un paper grande (muchas foundations)
+amplifica la probabilidad de que la intermitencia se manifieste.
+
+Mitigación aplicada: añadido al template de foundations un comentario
+imperativo "CAMPOS DE FOUNDATION: EXACTAMENTE estos 8 — NUNCA type ni
+category". Reduce la frecuencia, NO la elimina. La red de seguridad
+real es verify_paper.sh, que cazó los 28 errores.
+
+Las 14 foundations afectadas fueron normalizadas a mano (commits
+e81a7fa parcial + 27596ba).
