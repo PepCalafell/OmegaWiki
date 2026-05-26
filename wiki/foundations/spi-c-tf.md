@@ -3,7 +3,6 @@ title: "SPI-C (Spi-C transcription factor)"
 slug: spi-c-tf
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - SPI-C
   - Spi-C
@@ -12,7 +11,6 @@ aliases:
   - red pulp macrophage LDF
   - erythroid island macrophage TF
   - SPI-C/BACH1 axis
-category: gene
 tags:
   - transcription-factor
   - macrophage-identity

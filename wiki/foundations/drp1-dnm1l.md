@@ -3,7 +3,6 @@ title: "DRP1 / DNM1L (dynamin-related protein 1)"
 slug: drp1-dnm1l
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - DRP1
   - DNM1L
@@ -12,7 +11,6 @@ aliases:
   - mitochondrial fission GTPase
   - DRP1 efferocytosis
   - mitochondrial fission
-category: gene
 tags:
   - mitochondrial
   - fission

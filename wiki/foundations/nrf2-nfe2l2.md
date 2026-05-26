@@ -3,7 +3,6 @@ title: "NRF2 (NFE2L2, nuclear factor erythroid 2-related factor 2)"
 slug: nrf2-nfe2l2
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - NRF2
   - NFE2L2
@@ -13,7 +12,6 @@ aliases:
   - ARE master regulator
   - NRF2 macrophage
   - itaconate-NRF2 axis
-category: gene
 tags:
   - transcription-factor
   - oxidative-stress

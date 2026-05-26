@@ -3,7 +3,6 @@ title: "IRG1 / ACOD1 (immune-responsive gene 1 / aconitate decarboxylase 1)"
 slug: irg1-acod1
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - IRG1
   - ACOD1
@@ -13,7 +12,6 @@ aliases:
   - itaconate synthase
   - IRG1/ACOD1
   - M1 macrophage IRG1
-category: gene
 tags:
   - enzyme
   - immunometabolism

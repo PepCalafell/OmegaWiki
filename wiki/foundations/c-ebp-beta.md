@@ -3,7 +3,6 @@ title: "C/EBPβ (CCAAT/enhancer-binding protein beta)"
 slug: c-ebp-beta
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - C/EBPβ
   - CEBPB
@@ -13,7 +12,6 @@ aliases:
   - LAP/LIP
   - adipocyte differentiation TF
   - macrophage C/EBPβ
-category: gene
 tags:
   - transcription-factor
   - lipid-metabolism

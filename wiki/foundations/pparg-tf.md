@@ -3,7 +3,6 @@ title: "PPARγ (peroxisome proliferator-activated receptor gamma)"
 slug: pparg-tf
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - PPARγ
   - PPARG
@@ -13,7 +12,6 @@ aliases:
   - lipid metabolism master regulator
   - alveolar macrophage LDF
   - adipogenesis master TF
-category: gene
 tags:
   - transcription-factor
   - nuclear-receptor

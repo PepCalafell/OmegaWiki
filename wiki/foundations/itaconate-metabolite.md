@@ -3,7 +3,6 @@ title: "Itaconate (cis-itaconic acid)"
 slug: itaconate-metabolite
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - itaconate
   - itaconic acid
@@ -12,7 +11,6 @@ aliases:
   - SDH-inhibitor metabolite
   - itaconate immunometabolite
   - IRG1 product
-category: metabolite
 tags:
   - immunometabolism
   - tca-cycle

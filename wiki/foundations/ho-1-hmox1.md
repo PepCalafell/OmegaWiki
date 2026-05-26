@@ -3,7 +3,6 @@ title: "HO-1 / HMOX1 (heme oxygenase 1)"
 slug: ho-1-hmox1
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - HO-1
   - HMOX1
@@ -13,7 +12,6 @@ aliases:
   - HO1
   - NRF2-target HMOX1
   - macrophage iron recycling enzyme
-category: gene
 tags:
   - enzyme
   - iron-metabolism

@@ -3,7 +3,6 @@ title: "BACH1 (BTB and CNC homology 1 transcription factor)"
 slug: bach1-tf
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - BACH1
   - BTB and CNC homology 1
@@ -11,7 +10,6 @@ aliases:
   - BACH1/SPI-C switch
   - heme-sequestered repressor
   - BACH1-NRF2 antagonism
-category: gene
 tags:
   - transcription-factor
   - heme-sensor

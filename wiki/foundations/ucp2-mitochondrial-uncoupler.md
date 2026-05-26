@@ -3,7 +3,6 @@ title: "UCP2 (mitochondrial uncoupling protein 2)"
 slug: ucp2-mitochondrial-uncoupler
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - UCP2
   - mitochondrial uncoupling protein 2
@@ -11,7 +10,6 @@ aliases:
   - inner-mitochondrial-membrane uncoupler
   - UCP2 efferocytosis
   - ΔΨm modulator
-category: gene
 tags:
   - mitochondrial
   - efferocytosis

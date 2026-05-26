@@ -3,7 +3,6 @@ title: "AMPK (AMP-activated protein kinase)"
 slug: ampk-prkaa
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - AMPK
   - AMP-activated protein kinase
@@ -13,7 +12,6 @@ aliases:
   - AMPKα2
   - 5′-AMP-activated protein kinase
   - energy-sensor kinase
-category: gene
 tags:
   - kinase
   - energy-sensing

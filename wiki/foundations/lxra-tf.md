@@ -3,7 +3,6 @@ title: "LXRα (liver X receptor alpha)"
 slug: lxra-tf
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - LXRα
   - LXR alpha
@@ -13,7 +12,6 @@ aliases:
   - cholesterol sensor LXR
   - LXRα/β
   - LXR
-category: gene
 tags:
   - transcription-factor
   - nuclear-receptor

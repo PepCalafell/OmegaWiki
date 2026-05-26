@@ -3,7 +3,6 @@ title: "mTOR (mechanistic target of rapamycin)"
 slug: mtor-kinase
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - mTOR
   - mTORC1
@@ -13,7 +12,6 @@ aliases:
   - FRAP1
   - mTOR kinase
   - mTOR signaling
-category: gene
 tags:
   - kinase
   - nutrient-sensing

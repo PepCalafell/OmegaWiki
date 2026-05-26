@@ -3,7 +3,6 @@ title: "GATA6 (transcription factor)"
 slug: gata6-tf
 domain: immunology
 status: mainstream
-type: foundation
 aliases:
   - GATA6
   - GATA-6
@@ -11,7 +10,6 @@ aliases:
   - GATA6 LPM
   - peritoneal macrophage transcription factor
   - retinoic-acid–GATA6 axis
-category: gene
 tags:
   - transcription-factor
   - macrophage-identity
