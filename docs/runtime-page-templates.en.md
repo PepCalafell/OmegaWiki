@@ -94,7 +94,7 @@ The `## Open questions` section is split into two subsections:
 title: ""
 aliases: []
 tags: []
-maturity: active         # stable | active | emerging | deprecated
+maturity: active         # OBLIGATORIO exactamente uno de: stable|active|emerging|deprecated — NINGÚN otro valor
 key_papers:              # YAML list, one bare slug per line — never [[wikilinks]], never inline [brackets]
   - paper-slug-here
 first_introduced: ""
@@ -175,7 +175,7 @@ Body sections: `## Overview` / `## Core areas` / `## Evolution` / `## Current fr
 title: ""
 slug: ""
 domain: ""
-status: mainstream       # mainstream | historical
+status: mainstream       # OBLIGATORIO exactamente uno de: mainstream|historical — NINGÚN otro valor
 aliases: []
 first_introduced: ""
 date_updated: YYYY-MM-DD
