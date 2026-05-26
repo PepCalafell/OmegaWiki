@@ -175,11 +175,21 @@ A. CLAIM EXHAUSTIVITY. For biomedical papers, extract atomic claims exhaustively
    - quantitative (specific numbers, p-values, fold changes, NES, r values)
    Each claim entry on the paper page MUST include: short text, page number, exact quote, confidence level, type, and links to related concepts/claims.
 
-B. CONCEPT ALIASES MUST BE BROAD. When generating `aliases` for a new concept:
-   - Include both paper-specific terminology AND generalizable terminology used by other papers in the field.
-   - Aim for 6-12 aliases minimum.
-   - Include synonyms, abbreviations, common phrasings other authors might use, and tissue-context variants.
-   - Question to ask while writing aliases: "How would 5 different papers in this field refer to this concept?"
+B. CONCEPT ALIASES MUST BE STRICT SYNONYMS. When generating `aliases` for a new concept:
+   - An alias is ANOTHER NAME for the SAME concept: an exact synonym, an
+     abbreviation, an acronym, or a spelling/casing variant. Nothing else.
+   - EXCLUSIVITY TEST (apply to every candidate alias): "If a wikilink used
+     this alias, could it plausibly point to a DIFFERENT concept in the wiki?"
+     If yes, it is NOT an alias — it is a thematic descriptor. Drop it.
+   - Do NOT add broad field terminology, tissue-context variants, or phrasings
+     that other papers use for RELATED-BUT-DISTINCT concepts. In a narrow
+     domain (e.g. macrophages/hypoxia/tumor) such terms collide: the same
+     broad alias ends up on several neighbouring concepts, and
+     `find-similar-concept` then reports them as duplicates of each other.
+   - NO minimum count. Use as many strict synonyms as genuinely exist — that
+     may be five, one, or none. An empty `aliases` list is acceptable.
+   - Recall in dedup is handled by `find-similar-concept`'s token-level
+     matching; it does NOT need padded aliases to find related concepts.
 
 C. FOUNDATIONS FOR METHODS. In addition to biological entities (HIF1α, p65, IRF1, etc.), create foundation pages for COMMON METHODS that recur across papers in the corpus:
    - Single-cell methods: Seurat, Scanpy, Harmony, scVI, BBKNN, Cell Ranger, etc.
@@ -192,7 +202,7 @@ D. CLAIMS, CONCEPTS, FOUNDATIONS NO LONGER CAPPED AT 1-3. The previous conservat
 
 E. PAGE-WRITING VALIDATION (mandatory before saving any concept or paper page):
 
-Before writing a concept page to disk, verify the `aliases` field has 6+ entries. If empty or fewer than 6 entries, STOP and re-fill before proceeding. An empty `aliases:` list is a HARD FAIL — concepts without aliases break cross-paper deduplication.
+Before writing a concept page to disk, verify each entry in the `aliases` field is a strict synonym per section B (passes the exclusivity test). Remove any thematic descriptor that could point to a different concept. An `aliases` list with zero entries is acceptable — do not pad it to hit a count.
 
 Before writing a paper page to disk, verify the biomedical frontmatter is filled when applicable:
 - For ANY biomedical paper (immunology, genomics, oncology, single-cell, etc.), the following fields MUST be filled with actual values from the paper, not left empty:
@@ -305,7 +315,7 @@ Append the markdown output to the report under a heading like "Related papers yo
 - Source priority: `.tex` > `.pdf` > vision API fallback. Never ingest from a PDF when a usable `.tex` is available.
 - Ingest is EXHAUSTIVE for biomedical papers (domain-adapted policy, see Step 4 guidance):
   - Claims: 15-30 atomic claims for TIER_1, 5-10 for TIER_2, 3-5 for TIER_3 (typed: mechanistic / correlational / methodological / pharmacological / quantitative).
-  - Concepts: create all that are central to the paper. No hard cap. Merge via `find-similar-concept` when an existing concept overlaps; create new only when no acceptable match exists. Aliases must be broad (6-12 entries including generalizable terminology).
+  - Concepts: create all that are central to the paper. No hard cap. Merge via `find-similar-concept` when an existing concept overlaps; create new only when no acceptable match exists. Aliases must be strict synonyms only (see Step 4 guidance B); no minimum count, an empty list is acceptable.
   - Foundations: create for both biological entities AND common methods (DoRothEA, HOMER, ChIP-seq, etc.) referenced centrally. No cap.
   - Dedup tool calls remain mandatory before creating any new entity. Rationale and matching rules: `references/dedup-policy.md`.
 - `/ingest` runs a shape check on its own output (required keys, enum ranges, YAML parses) and stops there. Backlink symmetry, dangling nodes, and full semantic audits belong to `/check`. Do not re-implement them here.
