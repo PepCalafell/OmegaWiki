@@ -25,8 +25,9 @@ key_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
   - tissue-resident-macrophages-provide-pro-tumorigenic
   - using-pan-cancer-atlas-investigate-tumour
+  - trem2-macrophages-associated-enhanced-response-pd
 first_introduced: "Multiple (Katzenelenbogen 2020 *Cell*; Sharma 2020 *Cell*; Molgora 2020 *Cell*); consolidated by Mulder et al. 2021 as MoMac-VERSE cluster #3; identified as monocyte-derived 'group II' MDM signature in NSCLC by Casanova-Acebes 2021"
-date_updated: 2026-05-06
+date_updated: 2026-05-26
 related_concepts:
   - momac-verse-mnp-verse-atlas
   - tumor-associated-macrophage-immunosuppression
@@ -56,6 +57,7 @@ If "the M2 TAM" had a single best representative in the era of scRNA-seq, it wou
 - Mouse Trem2 TAM (Katzenelenbogen, Molgora) — cross-species correlate
 - LAM (lipid-associated macrophage) — adipose-tissue obesity-driven correlate, shares TREM2/APOE/SPP1 signature
 - DAM (disease-associated microglia) — neurodegenerative-disease correlate, shares TREM2-driven program
+- Hepatic TREM2 mac (Hamon 2025) — HCC-specific functional reversal: protective rather than immunosuppressive; tissue-specific layer of MT1G/MT1H/CALR on the conserved core; see [[concepts/hepatic-trem2-protective-tam-program]]
 
 ## Comparison
 
@@ -84,6 +86,7 @@ When characterising lipid-handling or efferocytic TAM populations in any cancer 
 - [[papers/cross-tissue-single-cell-landscape-human]] — defined MoMac-VERSE cluster #3, demonstrated pan-cancer accumulation, fate-mapped to monocyte origin
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — used TREM2 TAM signature as the contrastive immunosuppressive baseline against the hypoxic mMAC1 / IL4I1 axis
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — identifies TREM2/SPP1/APOE/GPNMB as the canonical monocyte-derived "group II" MDM signature in mouse and human NSCLC, ontogenically distinct from PPARG⁺/MARCO⁺ alveolar TRMs (group I); cross-species conservation reinforces the TREM2 TAM pan-cancer module
+- [[papers/trem2-macrophages-associated-enhanced-response-pd]] — flips the immunosuppression paradigm in HCC: TREM2 macs associate with PD-1-blockade response and improved OS (IMbrave150); defines 48-gene conserved core + 209 liver-specific overlay including MT1G/H and CALR; introduces sTREM2 as a blood biomarker
 
 ## My understanding
 

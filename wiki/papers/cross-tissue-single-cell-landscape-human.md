@@ -253,6 +253,7 @@ code_url: "https://gustaveroussy.github.io/FG-Lab/"
 cited_by:
   - nf-kb-tet2-promote-macrophage-reprogramming
   - pd-l1-expressing-tumor-associated-macrophages
+  - trem2-macrophages-associated-enhanced-response-pd
 ---
 
 ## Problem

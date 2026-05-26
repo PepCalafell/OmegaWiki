@@ -275,6 +275,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Through what receptors / cytokines / metabolites do TREM2 macs physically modulate PD-1hi T cells?
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Does pre-treatment TREM2-mac infiltration determine response prospectively?
+- [paper/trem2-macrophages-associated-enhanced-response-pd] What hepatic-specific signals (homeostatic, ferroptotic, NASH-related, chronic inflammation) program the protective TREM2-mac state?
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Does TREM2 blockade harm anti-tumor immunity in HCC (opposite of NSCLC)?
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Do TREM2 macs causally drive the formation/stabilisation of CXCL13/TCF1/mregDC immune aggregates?
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Whether the CALR-high hepatic-TREM2 program is induced by tumor-cell-derived apoptotic debris or by intrinsic hepatic cues (hepatocyte-derived ligands).
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Whether the metallothionein program reflects iron / oxidative-stress conditioning unique to liver TME, or a more general damage-response.
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Whether sTREM2 in serum is shed predominantly by intratumoral macs or systemically (Kupffer, microglia, bone marrow) — limits biomarker specificity.
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Whether TREM2-mac protective programs co-occur with the mMAC1/IL4I1 hypoxic-inflammatory program defined elsewhere (relevant to HypoxiaVERSE / thesis bridging).
+- [paper/trem2-macrophages-associated-enhanced-response-pd] Whether the FOLR2-mac/non-responder enrichment in HCC reflects an onco-fetal niche replay (Li et al.) or a distinct immune-exclusion mechanism.
 - [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] How to develop clinically compatible methods to phenotype tumour metabolism non-invasively?
 - [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Can metabolic inhibitors be made tumour-selective via nanoparticle or antibody-coupled delivery?
 - [paper/tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic] Will biomarker-stratified IDO1 trials succeed where unselected trials failed?
@@ -438,7 +448,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
 - [concept/fao-memory-cd8-trm-treg-program] CPT1A vs CPT1B isoform-specific immune effects.
 - [concept/fao-memory-cd8-trm-treg-program] Whether AMPK agonists (metformin) act via FAO or independent pathways for ICI synergy.
+- [concept/folr2-tissue-resident-macrophage] Whether HCC FOLR2 macs are causally pro-tumorigenic or just enriched alongside other niche components (CAFs, endothelial subsets).
+- [concept/folr2-tissue-resident-macrophage] Mechanism of the tissue-context-dependent functional flip.
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
+- [concept/hepatic-trem2-protective-tam-program] Which subset of the 209 liver-specific genes is causally responsible for the protective phenotype?
+- [concept/hepatic-trem2-protective-tam-program] Does the program persist outside HCC (e.g., hepatic metastases of non-liver primaries)?
+- [concept/hepatic-trem2-protective-tam-program] Is the program reversible by chronic-inflammation context (NASH, fibrosis)?
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Predictive biomarker for response (beyond VHL mutation): is there a transcriptomic signature that identifies HIF-2α-dependent tumors better than VHL status alone?
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Dose-response and chronic toxicity: long-term Belzutifan safety in young VHL patients (lifelong therapy).
@@ -682,6 +697,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/slpi-macrophage-profibrotic-tam] Is the SLPI+ state reversible by anti-TGFβ or anti-IL-1β intervention?
 - [concept/slpi-macrophage-profibrotic-tam] How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tumor-associated-macrophage]])? Are they competing or sequential states?
 - [concept/slpi-macrophage-profibrotic-tam] Does AhR-mediated tryptophan metabolism intersect the Macro_SLPI program?
+- [concept/soluble-trem2-icb-response-biomarker] Does treatment-induced ΔsTREM2 add predictive value beyond baseline?
+- [concept/soluble-trem2-icb-response-biomarker] Does sTREM2 generalise to HCC patients receiving non-PD-1 ICB regimens?
+- [concept/soluble-trem2-icb-response-biomarker] How does sTREM2 cross-tissue context (HCC vs NSCLC) interact with the tissue-specific TREM2-mac function?
 - [concept/spatial-atac-svp-detection-gap] Native SVP-detection algorithms designed for binary/Bernoulli sparse spatial signals.
 - [concept/spatial-atac-svp-detection-gap] Joint SVG–SVP integration for spatially aware gene-regulatory networks (a future-directions item in Li et al. 2025).
 - [concept/spatial-atac-svp-detection-gap] Analogous SVP-style methods for spatial proteomics, spatial methylation, and other spatial omics modalities.
@@ -736,12 +754,16 @@ _Auto-generated open questions. Do not edit._
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether stochastic or instructive specification dominates in the embryo.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] Whether unique cocktails of cytokines and growth factors can substitute for LDF expression.
 - [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).
+- [concept/tissue-specific-tam-function-context-dependence] Which tissue-derived signals (hepatocyte vs alveolar epithelium vs mammary epithelium) program the overlay?
+- [concept/tissue-specific-tam-function-context-dependence] Can the overlay be reprogrammed therapeutically to flip the functional output?
 - [concept/tnf-centered-cytokine-hierarchy] Why is TNF the apex? Receptor ubiquity, kinetics, or signalling crosstalk?
 - [concept/tnf-centered-cytokine-hierarchy] Why does anti-TNF fail in human sepsis when delivered after onset, despite the apex role?
 - [concept/tnf-centered-cytokine-hierarchy] Is the same TNF apex preserved in human cytokine storm syndromes other than sepsis?
 - [concept/tonic-baseline-jak-stat-homeostasis] Map cell-extrinsic ligands and source cells for baseline JAK-STAT in each tissue.
 - [concept/tonic-baseline-jak-stat-homeostasis] Determine whether baseline activity itself shapes responsiveness to cytokine stimulation (priming gain).
 - [concept/tonic-baseline-jak-stat-homeostasis] Test whether disease-associated JAK-STAT variants disrupt baseline more than induced signaling.
+- [concept/trem2-mac-pd1-immune-niche-quartet] Does perturbing any quartet member (e.g., anti-TREM2 antibody) destabilise the niche and reduce ICB response in HCC?
+- [concept/trem2-mac-pd1-immune-niche-quartet] Are the quartet contacts simultaneously formed or sequentially recruited?
 - [concept/trem2-microglia-dementia-axis] Whether TREM2 agonists in late-stage Alzheimer's will help (DAM may be exhausted) or harm (overdrive of inflammation).
 - [concept/trem2-microglia-dementia-axis] The interaction between TREM2-DAM and complement-pruning machinery in synapse loss.
 - [concept/trem2-microglia-dementia-axis] Why some TREM2 variants are protective (T96K, L211P) while others are risk-increasing (R47H, R62H).

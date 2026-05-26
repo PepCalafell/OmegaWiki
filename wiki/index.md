@@ -217,6 +217,12 @@ papers:
     importance: 4
     domain: immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers
     priority: high
+  - slug: trem2-macrophages-associated-enhanced-response-pd
+    title: "TREM2 macrophages are associated with enhanced response to PD-1 blockade in human hepatocellular carcinoma"
+    tags: [TREM2, tumor-associated-macrophage, hepatocellular-carcinoma, PD-1-blockade, immune-checkpoint-blockade, neoadjuvant, cemiplimab, FOLR2-macrophage, soluble-TREM2, biomarker, IMbrave150, POPLAR, MERFISH, PIC-seq, mregDC, tissue-specific-TAM, scRNA-seq, spatial-transcriptomics]
+    importance: 4
+    domain: tumor immunology / hepatocellular carcinoma / single-cell genomics
+    priority: useful
 
 concepts:
   - slug: ac-derived-methionine-sam-macrophage-epigenetics
@@ -1217,6 +1223,26 @@ concepts:
     title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
     domain: methods / spatial-transcriptomics / transfer-learning
     maturity: emerging
+  - slug: folr2-tissue-resident-macrophage
+    title: "FOLR2⁺ tissue-resident-like macrophage (FOLR2 mac)"
+    tags: [macrophage, tumor-microenvironment, FOLR2, tissue-resident-like, mo-mac, onco-fetal]
+    maturity: active
+  - slug: soluble-trem2-icb-response-biomarker
+    title: "Soluble TREM2 (sTREM2) as a serum biomarker for ICB response"
+    tags: [sTREM2, serum-biomarker, immune-checkpoint-blockade, predictive-biomarker, HCC, ELISA]
+    maturity: emerging
+  - slug: hepatic-trem2-protective-tam-program
+    title: "Hepatic TREM2 protective TAM program"
+    tags: [TREM2, HCC, tissue-specific, protective-TAM, liver, metallothionein, calreticulin, immune-checkpoint-blockade]
+    maturity: emerging
+  - slug: trem2-mac-pd1-immune-niche-quartet
+    title: "TREM2-mac / CXCL13+ Th / TCF1+ PD-1hi CD8 / mregDC immune-aggregate quartet"
+    tags: [TREM2, CXCL13, TCF1, mregDC, immune-aggregate, PD-1-blockade, spatial-niche, tertiary-lymphoid-structure]
+    maturity: emerging
+  - slug: tissue-specific-tam-function-context-dependence
+    title: "Tissue-specific TAM function — context-dependent paradigm"
+    tags: [TAM, tissue-specific, macrophage, tumor-microenvironment, paradigm, functional-reversal]
+    maturity: emerging
 
 topics:
 
@@ -1578,6 +1604,15 @@ people:
   - slug: zhou-chen
     tags: [oncology, hypoxia, tumor-microenvironment, cancer-therapy, review-author]
     affiliation: "The First Clinical Medical College & The First Hospital of Lanzhou University, Lanzhou, Gansu, China"
+  - slug: pauline-hamon
+    tags: [tumor-immunology, macrophage, hepatocellular-carcinoma, spatial-transcriptomics, MERFISH, PIC-seq, immune-checkpoint-blockade]
+    affiliation: "Marc and Jennifer Lipschultz Precision Immunology Institute / Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai"
+  - slug: thomas-u-marron
+    tags: [clinical-oncology, immune-checkpoint-blockade, neoadjuvant, hepatocellular-carcinoma, early-phase-trials, hematology-oncology]
+    affiliation: "Marc and Jennifer Lipschultz Precision Immunology Institute / Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai"
+  - slug: ido-amit
+    tags: [systems-immunology, single-cell-genomics, PIC-seq, macrophage, tumor-immunology, microglia, dendritic-cell]
+    affiliation: "Department of Systems Immunology, Weizmann Institute of Science"
 
 ideas:
 
@@ -5628,6 +5663,121 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: trem2-macs-enriched-hcc-pd1-responders
+    tags: [TREM2, HCC, PD-1-blockade, neoadjuvant, cemiplimab, responder-vs-non-responder]
+    status: supported
+    confidence: 0.85
+    domain: tumor immunology / hepatocellular carcinoma
+  - slug: strem2-serum-elevated-pd1-responders-hcc
+    tags: [sTREM2, serum-biomarker, HCC, PD-1-blockade, ELISA, predictive-biomarker]
+    status: supported
+    confidence: 0.8
+    domain: translational immuno-oncology
+  - slug: trem2-program-stratifies-imbrave150-overall-survival
+    tags: [TREM2-program, IMbrave150, overall-survival, atezolizumab, bevacizumab, HCC, bulk-RNA-seq, prognostic]
+    status: supported
+    confidence: 0.8
+    domain: translational immuno-oncology
+  - slug: trem2-program-fails-stratify-poplar-nsclc-atezo
+    tags: [TREM2-program, POPLAR, NSCLC, atezolizumab, tissue-specific, bulk-RNA-seq]
+    status: supported
+    confidence: 0.75
+    domain: translational immuno-oncology
+  - slug: four-momac-states-hcc-tme-folr2-trem2-fcn1-fcgr2b
+    tags: [HCC, mo-mac, macrophage-heterogeneity, FOLR2, TREM2, FCN1, CXCL9, FCGR2B, Kupffer-cell, scRNA-seq]
+    status: supported
+    confidence: 0.85
+    domain: tumor immunology / single-cell genomics
+  - slug: kupffer-cells-depleted-hcc-tumor-vs-adjacent
+    tags: [Kupffer-cell, tissue-resident-macrophage, HCC, tumor-vs-adjacent, MARCO, TIMD4, LYVE1, scRNA-seq]
+    status: supported
+    confidence: 0.85
+    domain: tumor immunology / hepatology
+  - slug: folr2-trem2-macs-enriched-hcc-tumor-vs-adjacent
+    tags: [FOLR2, TREM2, HCC, tumor-vs-adjacent, mo-mac]
+    status: supported
+    confidence: 0.85
+    domain: tumor immunology
+  - slug: trem2-macs-uniquely-enriched-mnp-tcell-pics
+    tags: [PIC-seq, TREM2, HCC, MNP-T-cell-interactions, physical-contact]
+    status: supported
+    confidence: 0.85
+    domain: tumor immunology / single-cell genomics
+  - slug: trem2-macs-spatial-proximity-tregs-nk-tumor-nodules
+    tags: [MERFISH, TREM2, Treg, NK-cell, spatial-transcriptomics, HCC]
+    status: supported
+    confidence: 0.8
+    domain: spatial transcriptomics / tumor immunology
+  - slug: trem2-macs-proximal-pd1hi-cd8-tcf1-cxcl13-aggregates
+    tags: [MERFISH, TREM2, PD1hi, TCF1, CXCL13, LAG3, immune-aggregate, HCC]
+    status: supported
+    confidence: 0.85
+    domain: spatial transcriptomics / tumor immunology
+  - slug: trem2-macs-proximal-mregdcs-immune-aggregates
+    tags: [mregDC, TREM2, immune-aggregate, HCC, quartet, MERFISH]
+    status: supported
+    confidence: 0.8
+    domain: spatial transcriptomics / tumor immunology
+  - slug: pd1hi-cd8-contact-trem2-upregulate-activation-cytotoxicity
+    tags: [TREM2, PD1hi-CD8, cytotoxicity, EOMES, GZMK, KLRK1, spatial-conditional-DE, MERFISH]
+    status: supported
+    confidence: 0.8
+    domain: spatial transcriptomics / tumor immunology
+  - slug: pd1hi-cd8-distal-trem2-upregulate-exhaustion-markers
+    tags: [TREM2, PD1hi-CD8, exhaustion, HAVCR2, TOX, TIGIT, spatial-conditional-DE, MERFISH]
+    status: supported
+    confidence: 0.8
+    domain: spatial transcriptomics / tumor immunology
+  - slug: trem2-macs-contact-pd1hi-cd8-upregulate-mhcii-costim
+    tags: [TREM2, MHC-II, HLA-DQ, HLA-DR, CD86, IFNGR1, antigen-presentation, costimulation, MERFISH]
+    status: supported
+    confidence: 0.8
+    domain: spatial transcriptomics / tumor immunology
+  - slug: trem2-program-48-conserved-genes-hcc-nsclc-core
+    tags: [TREM2-program, HCC, NSCLC, conserved-program, cross-tissue]
+    status: supported
+    confidence: 0.85
+    domain: tumor immunology / comparative genomics
+  - slug: trem2-program-tissue-specific-209-liver-89-lung-genes
+    tags: [TREM2-program, tissue-specific, HCC, NSCLC, liver-specific, lung-specific]
+    status: supported
+    confidence: 0.8
+    domain: tumor immunology / comparative genomics
+  - slug: hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection
+    tags: [TREM2, metallothionein, MT1G, MT1H, ferroptosis, oxidative-stress, liver, HCC]
+    status: tentatively_supported
+    confidence: 0.65
+    domain: tumor immunology / mac metabolism
+  - slug: hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic
+    tags: [TREM2, CALR, calreticulin, CD47, pro-phagocytic, efferocytosis, liver, HCC]
+    status: tentatively_supported
+    confidence: 0.65
+    domain: tumor immunology / mac biology
+  - slug: validation-cohort-trem2-enriched-cemiplimab-sbrt-hcc-responders
+    tags: [validation-cohort, cemiplimab, SBRT, HCC, TREM2, neoadjuvant, replication]
+    status: supported
+    confidence: 0.8
+    domain: translational immuno-oncology
+  - slug: pd1-responders-lower-hcc-recurrence-rate-cross-cohort
+    tags: [HCC, recurrence-free-survival, neoadjuvant, PD-1-blockade, cemiplimab, clinical-outcome]
+    status: supported
+    confidence: 0.75
+    domain: clinical oncology / HCC
+  - slug: trem2-mac-function-tissue-dependent-hcc-vs-nsclc
+    tags: [TREM2, tissue-specific, HCC, NSCLC, functional-reversal, paradigm]
+    status: supported
+    confidence: 0.8
+    domain: tumor immunology
+  - slug: spp1-ccl2-il4i1-monocyte-subset-enriched-hcc-responders
+    tags: [tissue-infiltrating-monocyte, SPP1, CCL2, FN1, IL4I1, NLRP3, IL1B, HCC, PD-1-blockade, responder]
+    status: supported
+    confidence: 0.75
+    domain: tumor immunology
+  - slug: folr2-macs-enriched-hcc-non-responders-paradox
+    tags: [FOLR2, HCC, non-responder, PD-1-blockade, onco-fetal-niche, tissue-specific]
+    status: tentatively_supported
+    confidence: 0.65
+    domain: tumor immunology
 
 Summary:
 
@@ -7042,3 +7192,43 @@ foundations:
     title: "ZSCAN20"
     status: mainstream
     domain: immunology
+  - slug: pic-seq-physically-interacting-cells
+    title: "PIC-seq — physically-interacting cell sequencing"
+    status: mainstream
+    domain: single-cell genomics / methods
+  - slug: cellpose-cell-segmentation
+    title: "Cellpose — deep-learning cell segmentation"
+    status: mainstream
+    domain: image analysis / spatial transcriptomics
+  - slug: imbrave150-trial
+    title: "IMbrave150 — phase III atezolizumab + bevacizumab in unresectable HCC"
+    status: mainstream
+    domain: clinical trials / hepatocellular carcinoma
+  - slug: cemiplimab
+    title: "Cemiplimab — anti-PD-1 monoclonal antibody"
+    status: mainstream
+    domain: drugs / immune-checkpoint inhibitors
+  - slug: pd-1-receptor-pdcd1
+    title: "PD-1 (PDCD1) — programmed cell death protein 1, T-cell co-inhibitory receptor"
+    status: mainstream
+    domain: immunology / immune checkpoints
+  - slug: hepatocellular-carcinoma-hcc
+    title: "Hepatocellular carcinoma (HCC) — primary liver cancer"
+    status: mainstream
+    domain: oncology / hepatology
+  - slug: folr2-receptor
+    title: "FOLR2 — folate receptor β / FRβ"
+    status: mainstream
+    domain: immunology / cell-biology
+  - slug: gpnmb-protein
+    title: "GPNMB — glycoprotein non-metastatic melanoma protein B (osteoactivin)"
+    status: mainstream
+    domain: immunology / cell-biology
+  - slug: calreticulin-calr
+    title: "Calreticulin (CALR) — ER chaperone and surface pro-phagocytic 'eat-me' signal"
+    status: mainstream
+    domain: cell-biology / immunology
+  - slug: sbrt-stereotactic-body-radiotherapy
+    title: "SBRT — stereotactic body radiotherapy"
+    status: mainstream
+    domain: radiation oncology / clinical methods
