@@ -23,8 +23,9 @@ maturity: emerging
 key_papers:
   - complex-biology-aryl-hydrocarbon-receptor-activation
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - role-ahr-host-pathogen-interactions
 first_introduced: "2023 (Opitz et al. Biochem Pharmacol review systematises the framework)"
-date_updated: 2026-05-26
+date_updated: 2026-05-27
 related_concepts:
   - ahr-canonical-signalling-pathway
   - ahr-non-canonical-signalling

@@ -271,6 +271,7 @@ A useful synthesis that goes substantially beyond [[papers/aryl-hydrocarbon-rece
 ## Related
 
 - [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — Polonio/Quintana 2025 NRDD AHR therapeutic review; complementary therapeutic-immune-modulation framing
+- [[papers/role-ahr-host-pathogen-interactions]] — Barreira-Silva/Moura-Alves 2025 NRI review on AHR in host–pathogen interactions (infection focus)
 - [[concepts/ahr-canonical-signalling-pathway]] — canonical AHR-ARNT-XRE pathway
 - [[concepts/ahr-non-canonical-signalling]] — non-canonical AHR signalling
 - [[concepts/ahr-context-specificity-pleiotropy]] — eleven-layer context-specificity framework (this paper)

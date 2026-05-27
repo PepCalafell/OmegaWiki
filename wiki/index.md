@@ -223,6 +223,12 @@ papers:
     importance: 4
     domain: tumor immunology / hepatocellular carcinoma / single-cell genomics
     priority: useful
+  - slug: role-ahr-host-pathogen-interactions
+    title: "The role of the AHR in host–pathogen interactions"
+    tags: [AHR, aryl-hydrocarbon-receptor, host-pathogen, pattern-recognition-receptor, infection, microbiota, tryptophan-metabolism, quorum-sensing, Pseudomonas-aeruginosa, Mycobacterium-tuberculosis, Candida-albicans, Plasmodium, influenza-virus, SARS-CoV-2, HIV, review]
+    importance: 4
+    domain: immunology
+    priority: context
 
 concepts:
   - slug: ac-derived-methionine-sam-macrophage-epigenetics
@@ -1243,6 +1249,30 @@ concepts:
     title: "Tissue-specific TAM function — context-dependent paradigm"
     tags: [TAM, tissue-specific, macrophage, tumor-microenvironment, paradigm, functional-reversal]
     maturity: emerging
+  - slug: ahr-host-pathogen-pattern-recognition-receptor
+    title: "AHR as a non-classical pattern recognition receptor in host–pathogen interactions"
+    tags: [AHR, PRR, pattern-recognition-receptor, host-pathogen, infection-immunology]
+    maturity: emerging
+  - slug: ahr-pseudomonas-quorum-sensing-bidirectional-modulation
+    title: "AHR bidirectional modulation by Pseudomonas aeruginosa quorum-sensing molecules"
+    tags: [AHR, Pseudomonas-aeruginosa, quorum-sensing, pyocyanin, HHQ, 3-oxo-C12-HSL, bidirectional-modulation, density-sensing]
+    maturity: emerging
+  - slug: ahr-respiratory-virus-mucus-airway-axis
+    title: "AHR-IDO-KYN-mucin axis in respiratory virus pathology (SARS-CoV-2, influenza)"
+    tags: [AHR, SARS-CoV-2, influenza-virus, mucin, IDO1, kynurenine, CH-223191, host-directed-antiviral]
+    maturity: emerging
+  - slug: ahr-hiv-tat-ltr-latency-modulation
+    title: "AHR binding of the HIV-1 5'LTR and Tat protein modulates viral transcription and latency"
+    tags: [AHR, HIV, LTR, Tat, latency, cART, kynurenine, HIC1]
+    maturity: emerging
+  - slug: ahr-malaria-endothelial-protection
+    title: "AHR signalling in endothelial cells protects against Plasmodium malaria pathology"
+    tags: [AHR, Plasmodium, malaria, endothelial-cells, TEK-Cre, cerebral-malaria, bilirubin]
+    maturity: emerging
+  - slug: ahr-fungal-infection-il22-ido1-axis
+    title: "AHR in fungal infection — tissue-divergent IDO1, IL-22 and SRC/EGFR programmes"
+    tags: [AHR, Candida-albicans, Paracoccidioides-brasiliensis, Aspergillus-fumigatus, Malassezia, IDO1, IL-22, SRC, EGFR]
+    maturity: emerging
 
 topics:
 
@@ -1613,6 +1643,15 @@ people:
   - slug: ido-amit
     tags: [systems-immunology, single-cell-genomics, PIC-seq, macrophage, tumor-immunology, microglia, dendritic-cell]
     affiliation: "Department of Systems Immunology, Weizmann Institute of Science"
+  - slug: pedro-moura-alves
+    tags: [AHR, host-pathogen, pattern-recognition-receptor, tuberculosis, Pseudomonas, host-directed-therapy]
+    affiliation: "IBMC / i3S, Universidade do Porto"
+  - slug: stefan-h-e-kaufmann
+    tags: [tuberculosis, infection-immunology, vaccine, AHR, host-directed-therapy]
+    affiliation: "Max Planck Institute for Infection Biology / Charité Berlin"
+  - slug: palmira-barreira-silva
+    tags: [AHR, host-pathogen, infection-immunology, pattern-recognition-receptor]
+    affiliation: "IBMC / i3S, Universidade do Porto"
 
 ideas:
 
@@ -5780,6 +5819,120 @@ claims:
     domain: tumor immunology
 
 Summary:
+  - slug: ahr-classified-as-pattern-recognition-receptor-2014
+    title: "AHR is a pattern recognition receptor sensing microorganism-derived molecules"
+    tags: [AHR,PRR,pattern-recognition-receptor,host-pathogen,immunology]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-homologues-c-elegans-senses-pseudomonas-phenazines
+    title: "C. elegans AHR-1 senses Pseudomonas phenazines and contributes to host defence — AHR-PRR is conserved beyond vertebrates"
+    tags: [AHR,C-elegans,evolution,Pseudomonas-aeruginosa,phenazines,host-defence]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: bilirubin-biliverdin-haem-derived-ahr-ligands
+    title: "Bilirubin and biliverdin are host-derived AHR agonists produced by haem catabolism"
+    tags: [AHR,bilirubin,biliverdin,haem,endogenous-ligand]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: microbiota-tryptophan-indole-derivatives-activate-ahr
+    title: "Gut microbiota metabolises dietary tryptophan into AHR-activating indole derivatives that sustain mucosal AHR signalling"
+    tags: [AHR,microbiota,tryptophan,indole,IL-22,Lactobacillus,mucosal-immunity]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: pseudomonas-qs-molecules-bidirectionally-modulate-ahr
+    title: "P. aeruginosa quorum-sensing molecules bidirectionally modulate AHR: HHQ/3-oxo-C12-HSL inhibit; pyocyanin/1-hydroxyphenazine activate"
+    tags: [AHR,Pseudomonas-aeruginosa,quorum-sensing,pyocyanin,HHQ,3-oxo-C12-HSL,bidirectional]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-infection-outcome-pseudomonas-depends-growth-phase
+    title: "AHR-mediated infection outcome in P. aeruginosa depends on bacterial growth phase: WT mice resist late-phase bacteria but tolerate early-phase bacteria more than Ahr-KO"
+    tags: [AHR,Pseudomonas-aeruginosa,growth-phase,QS,infection-outcome,mouse]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ahr-ko-susceptible-mtb-phthiocol-ahr-ligand
+    title: "Ahr-KO mice are more susceptible to Mycobacterium tuberculosis infection and Mtb produces the AHR-activating pigment phthiocol"
+    tags: [AHR,Mycobacterium-tuberculosis,phthiocol,TB,host-defence,knockout]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-rorgt-ilc-il22-clears-citrobacter
+    title: "AHR signalling in RORγt+ ILC3s is essential and sufficient for IL-22-mediated clearance of Citrobacter rodentium"
+    tags: [AHR,RORgt,ILC3,IL-22,Citrobacter,barrier-defence]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: ahr-restrains-listeria-via-macrophage-ros
+    title: "AHR signalling restrains L. monocytogenes by inducing ROS in peritoneal macrophages, preventing macrophage cell death and inflammation"
+    tags: [AHR,Listeria-monocytogenes,ROS,macrophage,cell-death,resistance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd8-memory-formation-requires-ahr-listeria
+    title: "CD8+ effector T cells require AHR activity (via IL-2/STAT5/Thp1-5/HTP) to enter quiescence and form memory after L. monocytogenes infection"
+    tags: [AHR,CD8-T-cell,memory,STAT5,IL-2,Listeria-monocytogenes]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: ahr-ido1-axis-controls-paracoccidioidomycosis
+    title: "The IDO1–AHR axis is required to control the severity of pulmonary paracoccidioidomycosis"
+    tags: [AHR,IDO1,Paracoccidioides-brasiliensis,fungal-infection,lung]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ahr-required-candida-egfr-endocytosis-oropharyngeal
+    title: "AHR is required for Candida albicans-induced SRC-EGFR-driven epithelial endocytosis in oropharyngeal candidiasis"
+    tags: [AHR,Candida-albicans,SRC,EGFR,oropharyngeal-candidiasis,fungal-invasion]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: ahr-endothelial-cells-resistance-plasmodium-chabaudi
+    title: "AHR signalling in endothelial cells is critical for resistance to Plasmodium chabaudi: TEK-conditional Ahr-KO phenocopies whole-body Ahr-KO"
+    tags: [AHR,Plasmodium-chabaudi,malaria,endothelial-cells,TEK,resistance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ahrd-low-affinity-allele-balances-tcruzi-inflammation
+    title: "Mice with the low-affinity Ahrd allele balance inflammation in T. cruzi infection — AHR signal magnitude (not on/off) determines outcome"
+    tags: [AHR,Ahrd-allele,T-cruzi,Chagas,signal-magnitude,partial-agonism,SAHRM]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: tcdd-ahr-enhances-influenza-mortality-ligand-specific
+    title: "TCDD activation of AHR enhances influenza virus titres and mortality, but FICZ, ITE and PCB126 produce different outcomes — ligand-specific AHR effects in the same infection"
+    tags: [AHR,TCDD,FICZ,influenza-virus,ligand-specific,neutrophilia,iNOS]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ahr-mucin-induction-sars-cov-2-lung-pathology
+    title: "SARS-CoV-2 induces mucin overproduction via an IFN-β/γ → IDO → KYN → AHR axis; CH-223191 inhibition ameliorates lung pathology"
+    tags: [AHR,SARS-CoV-2,COVID-19,mucin,IDO1,kynurenine,CH-223191,host-directed-therapy]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ahr-binds-hiv-ltr-tat-promotes-transcription
+    title: "AHR binds the HIV-1 5'LTR and the viral Tat protein to activate viral transcription; AHR-KD impairs HIV infectivity"
+    tags: [AHR,HIV,LTR,Tat,latency-reactivation,kynurenine,FICZ]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: ebna3-ahr-binding-enhances-transcription-ebv-b-cells
+    title: "Epstein–Barr virus EBNA-3 binds AHR and enhances TCDD-induced AHR transcriptional activity in EBV-infected B cells"
+    tags: [AHR,EBV,EBNA-3,TCDD,B-cell,growth-arrest]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: tapinarof-fda-approved-ik-175-bay-2416964-clinical
+    title: "AHR-targeting therapeutics are clinically validated: tapinarof FDA-approved for psoriasis; AHR antagonists IK-175 and BAY-2416964 in solid-tumour trials"
+    tags: [AHR,tapinarof,IK-175,BAY-2416964,FDA-approval,clinical-trial,psoriasis,host-directed-therapy]
+    status: supported
+    confidence: 0.95
+    domain: immunology
 
 foundations:
   - slug: 10x-visium-spatial-transcriptomics
@@ -7232,3 +7385,47 @@ foundations:
     title: "SBRT — stereotactic body radiotherapy"
     status: mainstream
     domain: radiation oncology / clinical methods
+  - slug: pseudomonas-aeruginosa-pathogen
+    title: "Pseudomonas aeruginosa (opportunistic Gram-negative pathogen)"
+    status: mainstream
+    domain: microbiology / Gram-negative bacterial pathogen
+  - slug: mycobacterium-tuberculosis-pathogen
+    title: "Mycobacterium tuberculosis (TB pathogen)"
+    status: mainstream
+    domain: microbiology / Mycobacterium / tuberculosis
+  - slug: candida-albicans-fungus
+    title: "Candida albicans (opportunistic fungal pathogen)"
+    status: mainstream
+    domain: mycology / opportunistic fungal pathogen
+  - slug: plasmodium-malaria-parasite
+    title: "Plasmodium spp. (malaria parasites)"
+    status: mainstream
+    domain: parasitology / apicomplexan / malaria
+  - slug: influenza-virus
+    title: "Influenza virus (FluV)"
+    status: mainstream
+    domain: virology / orthomyxovirus / respiratory virus
+  - slug: sars-cov-2-coronavirus
+    title: "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)"
+    status: mainstream
+    domain: virology / coronavirus / COVID-19
+  - slug: hiv-virus
+    title: "Human immunodeficiency virus (HIV)"
+    status: mainstream
+    domain: virology / retrovirus / AIDS
+  - slug: phthiocol-mtb-naphthoquinone
+    title: "Phthiocol (M. tuberculosis naphthoquinone AHR agonist)"
+    status: emerging
+    domain: microbial chemistry / AHR ligand / Mycobacterium tuberculosis
+  - slug: pyocyanin-pseudomonas-phenazine
+    title: "Pyocyanin (PYO, P. aeruginosa phenazine AHR agonist)"
+    status: emerging
+    domain: microbial chemistry / AHR ligand / Pseudomonas aeruginosa
+  - slug: indole-3-aldehyde-i3ald
+    title: "Indole-3-aldehyde (I3Ald, microbiota-derived AHR agonist)"
+    status: mainstream
+    domain: microbial chemistry / AHR ligand / tryptophan metabolite
+  - slug: tapinarof-ahr-agonist
+    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
+    status: mainstream
+    domain: pharmacology / AHR agonist / dermatology drug

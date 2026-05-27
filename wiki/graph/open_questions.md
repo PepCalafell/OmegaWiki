@@ -246,6 +246,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/physiology-diseases-tissue-resident-macrophages] Which TRM diseases are amenable to BMT/HSC-replacement and which are not? Review notes BMT helps "some but not all" LSD patients; the predictive logic is unclear.
 - [paper/physiology-diseases-tissue-resident-macrophages] For tumour immunology specifically: do early-stage Kupffer-cell-mediated tumour limitation and late-stage TAM-mediated tumour promotion involve the *same* lineage of cells switching state, or are they distinct populations?
 - [paper/physiology-diseases-tissue-resident-macrophages] How does the model interface with the Casanova-Acebes 2021 finding that lung TRMs *promote* (not limit) early tumours? The Lazarov review predates that paper's TRM-pro-tumour story being fully appreciated; future syntheses need to reconcile organ-specific opposite directions.
+- [paper/role-ahr-host-pathogen-interactions] What microbe-derived AHR ligands remain unidentified — particularly from parasites, where none has yet been described?
+- [paper/role-ahr-host-pathogen-interactions] Can AHR-targeting host-directed therapies (agonist or antagonist) achieve clinical efficacy in TB, COVID-19, or Zika?
+- [paper/role-ahr-host-pathogen-interactions] How do bacterial growth-phase QS signals integrate with host AHR to time immune responses?
+- [paper/role-ahr-host-pathogen-interactions] Why does AHR confer resistance in some C57BL/6 infection models and susceptibility in BALB/c models (L. major case)?
+- [paper/role-ahr-host-pathogen-interactions] How does AHR ligand affinity (Ahrd vs Ahrb alleles) translate into immune-response titration in humans?
+- [paper/role-ahr-host-pathogen-interactions] Does the AHR-PRR concept overlap or compete with TLR/NLR-mediated antimicrobial defence in the same cell? Are there integrated AHR-TLR signalling nodes?
+- [paper/role-ahr-host-pathogen-interactions] The AHR-IDO-KYN-mucin axis in SARS-CoV-2 (claim c16) overlaps with the AHR-TIPARP-TBK1-IFN evasion concept ([[concepts/ahr-tiparp-antiviral-type-i-ifn-evasion]]) — are these distinct branches or one integrated AHR-anti-IFN programme?
+- [paper/role-ahr-host-pathogen-interactions] For TIER_1 pathogens in immunology, how would the AHR-PRR framework integrate with the [[concepts/pattern-recognition-receptors-macrophage]] canonical PRR signalling? Are AHR-PRR responses additive, synergistic, or antagonistic to TLR responses in macrophages co-stimulated with phthiocol + LPS?
+- [paper/role-ahr-host-pathogen-interactions] Does the AHR-Th17/Treg/Tr1 logic catalogued in [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] map cleanly to bacterial-clearance contexts (e.g., S. agalactiae)?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Which mechanisms drive the conserved features of LE biology across diverse cancers?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Which actionable targets at the LE are clinically tractable?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Can effective anticancer drugs be selected by in-silico LE-state reversal prospectively?
@@ -344,10 +353,22 @@ _Auto-generated open questions. Do not edit._
 - [concept/ahr-epigenetic-regulation-of-target-genes] Reconciling opposite-direction smoking-related methylation at AHRR (hypo) vs CYP1A1 (hyper).
 - [concept/ahr-epigenetic-regulation-of-target-genes] Pan-cancer integrative atlas of AHR-pathway methylation, expression, and AHR activity.
 - [concept/ahr-epigenetic-regulation-of-target-genes] Mechanism of HK2-driven AHR promoter demethylation.
+- [concept/ahr-fungal-infection-il22-ido1-axis] Why does AHR drive opposing outcomes in oral vs vaginal candidiasis?
+- [concept/ahr-fungal-infection-il22-ido1-axis] Can AHR-IDO1 modulation augment antifungal therapy in immunocompromised patients?
+- [concept/ahr-fungal-infection-il22-ido1-axis] Are Malassezia AHR ligands relevant to seborrheic dermatitis pathogenesis?
 - [concept/ahr-hif-arnt-competition] Spatial transcriptomics integrating hypoxia signatures with AHR-target expression to test the competition model in human tumours.
 - [concept/ahr-hif-arnt-competition] ARNT over-expression as a rescue strategy in hypoxic tumours where AHR-driven anti-cancer functions might be desirable.
+- [concept/ahr-hiv-tat-ltr-latency-modulation] Whether AHR antagonism added to cART suppresses residual viral transcription and shrinks the reservoir
+- [concept/ahr-hiv-tat-ltr-latency-modulation] Why macrophage AHR blocks HIV but T-cell AHR promotes HIV — what structural / co-factor difference?
+- [concept/ahr-hiv-tat-ltr-latency-modulation] Whether human AHR allele variation correlates with HIV reservoir size in cohort studies
+- [concept/ahr-host-pathogen-pattern-recognition-receptor] Whether AHR-PRR signalling is additive or synergistic with TLR/NLR in cells co-stimulated by, e.g., phthiocol + LPS
+- [concept/ahr-host-pathogen-pattern-recognition-receptor] Identification of pathogen-derived AHR ligands from parasites (none described yet) and most viruses
+- [concept/ahr-host-pathogen-pattern-recognition-receptor] Whether human AHR polymorphisms (rs2066853, V570I) phenocopy mouse Ahrd-threshold biology in infection susceptibility
 - [concept/ahr-ligand-pharmacology-sahrm] Reliable biomarkers for ligand-biased AHR signalling in patients
 - [concept/ahr-ligand-pharmacology-sahrm] Predicting tissue-specific outcomes from pocket-interaction profiles
+- [concept/ahr-malaria-endothelial-protection] Whether endothelial-targeted AHR agonists ameliorate severe cerebral malaria
+- [concept/ahr-malaria-endothelial-protection] Whether bilirubin / biliverdin engagement of endothelial AHR is conserved across pathologies involving haemolysis (sickle cell, sepsis)
+- [concept/ahr-malaria-endothelial-protection] Mechanistic identification of the AHR endothelial transcriptional programme that confers malaria resistance
 - [concept/ahr-non-canonical-signalling] Physiological relevance of ligand-independent activation under shear/oxidative stress
 - [concept/ahr-non-canonical-signalling] Whether SAHRMs can selectively engage non-canonical over canonical branches
 - [concept/ahr-non-genomic-cytoplasmic-effects] Are there pocket-selective ligands that activate non-genomic outputs without XRE transcription?
@@ -355,6 +376,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/ahr-posttranslational-modifications-landscape] Systematic mapping of AHR PTMs across primary human tissues (vs cell lines).
 - [concept/ahr-posttranslational-modifications-landscape] A "PTM-code" that converts PTM combinations into a predicted AHR transcriptional output.
 - [concept/ahr-posttranslational-modifications-landscape] Tractable pharmacology: are there PKC-isoform-selective inhibitors that act as cell-type-restricted AHR modulators?
+- [concept/ahr-pseudomonas-quorum-sensing-bidirectional-modulation] Whether other Gram-negative pathogens with QS systems (Vibrio, Burkholderia) use a similar AHR-bidirectional strategy
+- [concept/ahr-pseudomonas-quorum-sensing-bidirectional-modulation] Structural basis for agonist vs antagonist binding in the AHR PAS-B pocket
+- [concept/ahr-pseudomonas-quorum-sensing-bidirectional-modulation] Whether AHR-QS dialogue is exploitable as a therapeutic checkpoint in CF lung disease
+- [concept/ahr-respiratory-virus-mucus-airway-axis] Whether CH-223191 / IK-175 / BAY-2416964 reduce ARDS pathology in clinical COVID-19
+- [concept/ahr-respiratory-virus-mucus-airway-axis] Whether the AHR-mucin axis is similarly active in RSV, parainfluenza, or chronic bronchitis
+- [concept/ahr-respiratory-virus-mucus-airway-axis] How to spatially restrict AHR antagonism to alveolar epithelium without blocking endothelial-protective AHR
 - [concept/ahr-tam-immunosuppression-tumour] Whether AHR antagonism synergises with IDO1/IL4I1 inhibitors or PD-1 blockade
 - [concept/ahr-tam-immunosuppression-tumour] Spatial mapping of Trp-Kyn-AHR gradients within tumour micro-environments
 - [concept/ahr-tapinarof-psoriasis-clinical] Whether tapinarof's "remittive" effect generalises to other AHR agonists
@@ -831,7 +858,10 @@ _Auto-generated open questions. Do not edit._
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)
+- [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
+- [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
+- [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)

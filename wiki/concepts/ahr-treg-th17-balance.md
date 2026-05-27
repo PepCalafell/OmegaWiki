@@ -23,8 +23,9 @@ maturity: stable
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
   - complex-biology-aryl-hydrocarbon-receptor-activation
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Quintana et al. 2008 (Nature); Veldhoen et al. 2008 (Nature)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts: []
 ---
 

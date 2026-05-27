@@ -22,8 +22,9 @@ tags:
 maturity: active
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Yamada et al. 2016 (AHR-TIPARP-TBK1); Giovannoni et al. 2020 (ZIKV-AHR); Giovannoni et al. 2021 (SARS-CoV-2-AHR)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts: []
 ---
 

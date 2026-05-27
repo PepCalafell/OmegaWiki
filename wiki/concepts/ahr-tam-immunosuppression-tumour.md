@@ -25,8 +25,9 @@ key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
   - tumour-microenvironment-crosstalk-nsclc-progression-response
   - complex-biology-aryl-hydrocarbon-receptor-activation
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Opitz et al. 2011 (Kyn-AHR in glioma); Takenaka et al. 2019 (TAM AHR-KLF4-CD39)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts: []
 ---
 

@@ -306,6 +306,7 @@ A comprehensive, authoritative reference for the AHR-immune-drug-discovery field
 
 ## Related
 
+- [[papers/role-ahr-host-pathogen-interactions]] — companion 2025 NRI review on AHR in host–pathogen interactions (infection focus)
 - [[ahr-ido1-tryptophan-axis]] (foundation) — the tryptophan-AHR metabolic immune checkpoint
 - [[papers/cross-tissue-single-cell-landscape-human]] — IL4I1⁺PD-L1⁺IDO1⁺ MoMac-VERSE cluster as cellular substrate of Trp-AHR axis
 - [[papers/pd-l1-expressing-tumor-associated-macrophages]] — PD-L1 / IDO axis in human TAMs

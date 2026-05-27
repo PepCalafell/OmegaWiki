@@ -21,8 +21,9 @@ maturity: stable
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
   - complex-biology-aryl-hydrocarbon-receptor-activation
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Schiering et al. 2017 (Nature, CYP1A1 ligand clearance and barrier immunity)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts: []
 ---
 

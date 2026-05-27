@@ -22,8 +22,9 @@ tags:
 maturity: stable
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Smith et al. 2017 (mechanism); Lebwohl 2021 (PSOARING-1/2)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts: []
 ---
 

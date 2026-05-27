@@ -21,8 +21,9 @@ tags:
 maturity: active
 key_papers:
   - aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Hauben et al. 2008; Quintana et al. 2010 (ITE → tolerogenic DCs)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts: []
 ---
 

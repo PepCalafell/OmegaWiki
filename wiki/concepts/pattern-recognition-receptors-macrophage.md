@@ -23,8 +23,9 @@ tags:
 maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
+  - role-ahr-host-pathogen-interactions
 first_introduced: "Janeway 1989 (PRR concept); Medzhitov & Janeway 1997; reviewed in Lazarov & Geissmann 2023"
-date_updated: 2026-05-06
+date_updated: 2026-05-27
 related_concepts:
   - efferocytosis-anti-inflammatory-clearance
   - macrophage-ontogeny-resident-vs-monocyte-derived
