@@ -290,6 +290,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/spatiotemporal-analyses-pan-cancer-single-cell] Does the Macro_SLPI signature overlap with the COL11A1+/SPP1+ NSCLC axis ([[concepts/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc]])? SLPI+ TAM and SPP1+ TAM may be sister profibrotic states.
 - [paper/spatiotemporal-analyses-pan-cancer-single-cell] How does AhR-active tryptophan metabolism (multiple wiki papers on AhR-TAM) interact with the CTHRC1+/SLPI+ ecotype? Both converge on immunosuppression and could be combinable interception targets.
 - [paper/spatiotemporal-analyses-pan-cancer-single-cell] Could the TabulaTIME pretrained model be fine-tuned for hypoxia-specific TAM/CAF inference across the user's hypoxia corpus?
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether Adrb2 modulates eosinophil function the same way in primary cells from AD patients.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Which sympathetic subtype controls bone-marrow eosinopoiesis.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether stress management interventions reduce dermal eosinophilia clinically.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether IL-5/IL-5Rα blockade plus stress-axis modulation outperforms either alone.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether psoriasis, chronic urticaria, or other neurally-rich skin conditions share the Pdyn+ sympathetic-eosinophil axis.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether CCL11 release from Pdyn+ neurons is activity-coupled (vesicular) or transcription-coupled (constitutive ramp).
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] The relationship between hair-follicle stem-cell stress signalling and Pdyn+ neuron firing.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether the same axis drives stress-aggravated alopecia areata or pruritus in dermatologic-immune comorbidities.
+- [paper/sympathetic-eosinophil-axis-orchestrates-psychological-stress] Whether AHR modulators ([[foundations/atopic-dermatitis]] / [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]]) intersect with the sympathetic-eosinophil arm — both target AD but via distinct cellular routes.
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] How should SVP-specific algorithms model the binary, sparse, high-dimensional structure of spatial ATAC-seq?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Can SVG and SVP integration enable spatial gene-regulatory network reconstruction?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Do these results extend to spatial proteomics and spatial methylation?

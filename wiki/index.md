@@ -241,6 +241,12 @@ papers:
     importance: 4
     domain: spatial omics / epigenetics / developmental biology / methods
     priority: useful
+  - slug: sympathetic-eosinophil-axis-orchestrates-psychological-stress
+    title: "A sympathetic-eosinophil axis orchestrates psychological stress to exacerbate skin inflammation"
+    tags: [atopic-dermatitis, psychological-stress, sympathetic-nervous-system, eosinophil, Pdyn, CCL11, CCR3, Adrb2, neuroimmunology, optogenetics, chemogenetics, sNuc-seq, MC903, RHS]
+    importance: 5
+    domain: neuroimmunology / dermatology / sympathetic nervous system
+    priority: useful
 
 concepts:
   - slug: ac-derived-methionine-sam-macrophage-epigenetics
@@ -1285,6 +1291,26 @@ concepts:
     title: "AHR in fungal infection — tissue-divergent IDO1, IL-22 and SRC/EGFR programmes"
     tags: [AHR, Candida-albicans, Paracoccidioides-brasiliensis, Aspergillus-fumigatus, Malassezia, IDO1, IL-22, SRC, EGFR]
     maturity: emerging
+  - slug: sympathetic-eosinophil-axis-skin-inflammation
+    title: "Sympathetic–eosinophil axis in stress-exacerbated skin inflammation"
+    tags: [neuroimmunology, sympathetic-nervous-system, eosinophil, atopic-dermatitis, psychological-stress, CCL11, CCR3, Adrb2]
+    maturity: emerging
+  - slug: pdyn-sympathetic-neurons-hairy-skin-innervation
+    title: "Pdyn⁺ noradrenergic sympathetic neurons selectively innervating hairy skin"
+    tags: [sympathetic-nervous-system, prodynorphin, hairy-skin, stellate-ganglion, intersectional-genetics]
+    maturity: emerging
+  - slug: ccl11-ccr3-eosinophil-chemotaxis-skin
+    title: "CCL11–CCR3 chemoattraction of eosinophils to inflamed skin"
+    tags: [chemokine, CCL11, CCR3, eosinophil, atopic-dermatitis, chemotaxis]
+    maturity: stable
+  - slug: adrb2-eosinophil-context-dependent-degranulation
+    title: "Adrb2-driven, context-dependent eosinophil degranulation"
+    tags: [Adrb2, eosinophil, adrenergic-signaling, degranulation, β-arrestin-2, Gs-cAMP]
+    maturity: emerging
+  - slug: stress-paradigm-specific-sympathetic-circuit
+    title: "Stress-paradigm-specific recruitment of sympathetic subtypes"
+    tags: [psychological-stress, sympathetic-nervous-system, circuit-specificity, noradrenaline]
+    maturity: emerging
 
 topics:
   - slug: tam-therapy-three-pillars
@@ -1711,6 +1737,26 @@ experiments:
   - slug: matthew-d-park
     name: "Matthew D. Park"
     role: individual
+    relevance_tier: emerging
+  - slug: shenbin-liu
+    name: "Shenbin Liu"
+    role: pi
+    relevance_tier: emerging
+  - slug: jiahe-tian
+    name: "Jiahe Tian"
+    role: individual
+    relevance_tier: emerging
+  - slug: yudian-cao
+    name: "Yudian Cao"
+    role: individual
+    relevance_tier: emerging
+  - slug: yilei-li
+    name: "Yilei Li"
+    role: individual
+    relevance_tier: emerging
+  - slug: yanqing-wang
+    name: "Yanqing Wang"
+    role: pi
     relevance_tier: emerging
 
 claims:
@@ -6049,6 +6095,63 @@ Summary:
   - slug: arg1-ido-amino-acid-tcell-suppression
     source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
     status: supported
+  - slug: stress-eosinophilia-correlation-ad-severity-human
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: rhs-stress-exacerbates-ad-mouse-mc903
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: eosinophil-depletion-protects-stress-exacerbated-dermatitis
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: chemogenetic-eosinophil-activation-triggers-acute-itch
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: sympathectomy-blocks-stress-induced-dermatitis-not-baseline
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: adrenalectomy-worsens-stress-dermatitis-hpa-not-driver
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: pdyn-and-npy-sympathetic-neurons-activated-by-stress
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: pdyn-sympathetic-neurons-innervate-hairy-skin-specifically
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: pdyn-neuron-ablation-protects-stress-exacerbated-dermatitis
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: npy-neurons-vasoconstriction-not-dermatitis
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: pdyn-acute-silencing-hm4di-blocks-stress-exacerbation
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: optogenetic-pdyn-activation-mimics-stress-induced-skin-inflammation
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: anti-ccr3-blocks-optogenetic-pdyn-dermatitis-exacerbation
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: pdyn-neurons-release-ccl11-recruit-eosinophils-via-ccr3
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: sb297006-ccr3-antagonist-alleviates-rhs-skin-inflammation
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: adrb2-most-expressed-adrenergic-receptor-eosinophils-ad
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: adrb2-agonist-degranulates-eosinophils-dose-dependent
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: eosinophil-specific-adrb2-knockout-protects-stress-dermatitis
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
+  - slug: oprk1-knockout-eosinophils-not-required-stress-ad
+    source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
+    status: supported
 
 foundations:
   - slug: 10x-visium-spatial-transcriptomics
@@ -7575,3 +7678,73 @@ foundations:
     tags: [immunology, phagocytosis-checkpoint, macrophage]
     domain: immunology
     status: mainstream
+  - slug: prodynorphin-pdyn-neuropeptide
+    title: "Prodynorphin (Pdyn) — opioid neuropeptide precursor & noradrenergic sympathetic subtype marker"
+    tags: [neuroscience, sympathetic-nervous-system, neuropeptide, Pdyn]
+    domain: neuroscience / sympathetic nervous system / neuropeptide
+    status: mainstream
+  - slug: ccl11-eotaxin-1
+    title: "CCL11 (Eotaxin-1) — eosinophil chemoattractant chemokine"
+    tags: [chemokine, eosinophil, allergic-inflammation, CCL11]
+    domain: chemokine / eosinophil biology / allergic inflammation
+    status: mainstream
+  - slug: ccr3-chemokine-receptor
+    title: "CCR3 — eosinophil chemokine receptor"
+    tags: [chemokine-receptor, eosinophil, CCR3]
+    domain: chemokine receptor / eosinophil biology
+    status: mainstream
+  - slug: adrb2-beta2-adrenergic-receptor
+    title: "Adrb2 — β2 adrenergic receptor"
+    tags: [GPCR, adrenergic, immunology, Adrb2]
+    domain: GPCR / adrenergic signaling / immunology
+    status: mainstream
+  - slug: eosinophil-peroxidase-epx
+    title: "Eosinophil peroxidase (Epx) — eosinophil granule protein & Cre-driver locus"
+    tags: [eosinophil, granule-protein, Cre-driver, Epx]
+    domain: eosinophil biology / granule protein / genetics
+    status: mainstream
+  - slug: il-31-cytokine
+    title: "IL-31 — itch-inducing Th2 cytokine"
+    tags: [cytokine, atopic-dermatitis, pruritus, IL-31]
+    domain: cytokine / atopic dermatitis / pruritus
+    status: mainstream
+  - slug: mc903-calcipotriol-ad-model
+    title: "MC903 (calcipotriol) — murine atopic dermatitis model"
+    tags: [mouse-model, atopic-dermatitis, vitamin-D, TSLP]
+    domain: mouse model / atopic dermatitis
+    status: mainstream
+  - slug: catch-channelrhodopsin-optogenetics
+    title: "CatCh — calcium-translocating channelrhodopsin (optogenetics)"
+    tags: [optogenetics, channelrhodopsin, ChR2]
+    domain: optogenetics
+    status: mainstream
+  - slug: hm3dq-hm4di-dreadd-chemogenetics
+    title: "hM3Dq / hM4Di — DREADD chemogenetic actuators"
+    tags: [chemogenetics, DREADD, GPCR-engineering]
+    domain: chemogenetics
+    status: mainstream
+  - slug: 6-hydroxydopamine-chemical-sympathectomy
+    title: "6-Hydroxydopamine (6-OHDA) — chemical sympathectomy"
+    tags: [neuropharmacology, sympathectomy, catecholamine-toxin]
+    domain: neuropharmacology
+    status: mainstream
+  - slug: siglec-f-eosinophil-marker
+    title: "Siglec-F — murine eosinophil identification marker"
+    tags: [flow-cytometry, eosinophil-marker, Siglec-F]
+    domain: flow cytometry / eosinophil biology
+    status: mainstream
+  - slug: pseudorabies-virus-retrograde-tracing
+    title: "Pseudorabies virus (PRV-Bartha) — transsynaptic retrograde tracing"
+    tags: [viral-tracing, neuroscience, PRV]
+    domain: viral tract tracing / neuroscience
+    status: mainstream
+  - slug: sb297006-ccr3-antagonist
+    title: "SB297006 — selective CCR3 antagonist"
+    tags: [pharmacology, CCR3-antagonist, eosinophil]
+    domain: pharmacology
+    status: mainstream
+  - slug: repeated-high-platform-stress-rhs
+    title: "Repeated high-platform stress (RHS) — murine psychological stress paradigm"
+    tags: [behavioral-paradigm, psychological-stress, mouse]
+    domain: behavioral paradigm
+    status: emerging
