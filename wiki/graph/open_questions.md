@@ -33,6 +33,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/benchmarking-atlas-level-data-integration-single] Does the 40/60 weighting transfer to cytokine-perturbation and spatial-omics atlas-construction tasks (relevant for thesis project), where the bio-conservation target is gene-program preservation rather than cell-type cluster recovery?
 - [paper/benchmarking-atlas-level-data-integration-single] Among the consistent top-3 (scANVI / Scanorama / scVI), which best preserves continuous TAM-state trajectories in TME atlases — a question this benchmark does not specifically address?
 - [paper/benchmarking-atlas-level-data-integration-single] Has the field's choice of integration default moved (post-2022) given this benchmark's recommendation — are Scanorama and scVI now the de-facto atlas defaults?
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] Is CAC a single condition or a spectrum of subtypes each with distinct mediators? (p.1545)
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] Do specific cancer types or treatments require bespoke CAC interventions? (p.1547-1549)
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] Does WAT browning meaningfully contribute to human CAC REE elevation, or is it a minor/artefactual finding? (p.1552)
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] What is the relative contribution of UPS vs autophagy vs apoptosis vs anabolic resistance to net muscle loss across CAC stages? (p.1552)
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] Are NSCLC tumour-uptake patterns (high glucose oxidation, lactate fueling TCA) a CAUSE of host hypermetabolism or just a correlate? (p.1551)
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] Why does sex dimorphism manifest in muscle loss but not always in adipose loss?
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] The interaction between immunotherapy (checkpoint inhibitors) and CAC is mentioned but underexplored — is ICI-induced cachexia mechanistically distinct from chemotherapy-induced cachexia?
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] Are the body-composition subtypes (adipose-only vs adipose+SKM) genetically/transcriptomically stratifiable in ways that predict response to ghrelin-receptor agonism (anamorelin) vs anti-IL-6/IL-6R vs anti-GDF-15 therapies?
+- [paper/cancer-associated-cachexia-bridging-clinical-findings] How do the CT-based subtypes map onto the multi-tissue metabolic signatures identified in [[papers/multi-omics-profiling-cachexia-targeted-tissues]] (one-carbon metabolism, IL-6/NNMT axis)?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Can FNA-derived ALI or microfluidic organoids generate sufficient biomass to recapitulate tumour architecture and immune populations from minimally invasive biopsies?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Can perturb-seq / CROP-seq be extended to non-reconstituted native immune organoids despite multicellularity?
 - [paper/cancer-organoids-modelling-complexity-tumour-immune] Which combination immunotherapies will reliably convert "cold" tumours to "hot" in immune organoid platforms?
@@ -429,6 +438,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Whether other phagocytic targets (pathogens, debris) likewise contribute methionine to phagocyte epigenetic programs
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Generalisation to other professional phagocytes (DCs, tingible-body B-cell-clearing macrophages, RPE cells)
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Cross-talk with histone methylation and small-molecule methylation
+- [concept/adipose-lipolysis-cancer-cachexia] Are β-AR antagonists (e.g., specific β3 antagonists) viable for human CAC, or do they trade adipose preservation against host energy demand?
+- [concept/adipose-lipolysis-cancer-cachexia] Does WAT browning contribute MEANINGFULLY to human CAC REE, or is it a minor/artefactual contributor (current consensus: probably the latter)?
+- [concept/adipose-lipolysis-cancer-cachexia] How does adipose lipolysis interact with the one-carbon metabolism axis (NNMT in adipose) described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
@@ -509,6 +521,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Does the Myc-compensation also operate in vivo (e.g. in HIF-1α-deficient infiltrating macrophages in tumors)?
 - [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Is the proliferative shift mechanistically linked to the c-Myc/ribosomal biogenesis observation in tumor-associated macrophages?
 - [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Could PHD-inhibitor therapies (which stabilise rather than ablate HIF-1α) trigger the opposite — Myc suppression and impaired macrophage proliferation in inflammation?
+- [concept/cac-clinical-phenotyping-body-composition] Which endpoint set should be prioritized for which mechanism-of-action?
+- [concept/cac-clinical-phenotyping-body-composition] How should clinically meaningful change be defined (minimum clinically important difference) per endpoint?
+- [concept/cac-clinical-phenotyping-body-composition] Can digital phenotyping replace clinic-based functional tests?
+- [concept/cac-clinical-subtypes-body-composition] Do body-composition subtypes correspond to molecular subtypes defined by [[papers/multi-omics-profiling-cachexia-targeted-tissues]] (one-carbon/IL-6 axis)?
+- [concept/cac-clinical-subtypes-body-composition] Are subtypes stable over time within a patient, or do they progress (e.g., adipose-only → combined)?
+- [concept/cac-clinical-subtypes-body-composition] Do subtypes predict differential response to anti-IL-6, anti-GDF-15, ghrelin-receptor agonism, or anabolic-resistance-targeted nutrition?
 - [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
 - [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
@@ -521,6 +539,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
 - [concept/cell-cycle-phase-bias-malignant] Are TME cell-cycle phases correlated with malignant phase bias?
+- [concept/central-melanocortin-system-cancer-anorexia] Which peripheral signal(s) (GDF-15 vs IL-6 vs leptin) dominates the central anorexia phenotype across cancer types?
+- [concept/central-melanocortin-system-cancer-anorexia] Does CNS structural change (Simoes et al.) reflect neuroinflammation, neurodegeneration, or both?
+- [concept/central-melanocortin-system-cancer-anorexia] Can hypothalamic fMRI be used as a pharmacodynamic biomarker in early-phase trials of central-acting anti-CAC drugs?
 - [concept/centrifugal-cellular-diversity-gradient-skin] Is the centrifugal gradient genetically programmed or environmentally maintained (UV, mechanical stress)?
 - [concept/centrifugal-cellular-diversity-gradient-skin] Does the gradient shift with age?
 - [concept/cgas-sting-pathway-canonical-noncanonical-outputs] What dictates the relative weighting of IRF3 vs NF-κB vs autophagy outputs in a given cell?
@@ -535,11 +556,18 @@ _Auto-generated open questions. Do not edit._
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
+- [concept/cori-cycle-tumor-host-metabolism] Can targeting hepatic gluconeogenesis (metformin? specific GP inhibitors?) reduce host REE without harming tumour control?
+- [concept/cori-cycle-tumor-host-metabolism] Are lactate-shuttle inhibitors (MCT1/MCT4 antagonists) viable CAC therapeutics?
+- [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Does anti-TNF therapy revert PERIVASC I expansion specifically?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Can PERIVASC I score be used as a transversal disease-activity biomarker?
 - [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
 - [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
 - [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
+- [concept/ct-l3-body-composition-phenotyping] Multiethnic, multinational reference values are missing.
+- [concept/ct-l3-body-composition-phenotyping] Precision testing for least significant change is rarely reported.
+- [concept/ct-l3-body-composition-phenotyping] Mapping L3-derived subtypes onto whole-body multi-tissue molecular signatures.
+- [concept/ct-l3-body-composition-phenotyping] Integrating CT-derived body composition into routine oncology decision-making (e.g., chemotherapy dose adjustment) — currently aspirational.
 - [concept/cthrc1-efibro-ecm-remodeling-pan-cancer-caf] Is CTHRC1+ CAF leading-edge enrichment hypoxia-driven? Cross-reference with [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] needed.
 - [concept/cthrc1-efibro-ecm-remodeling-pan-cancer-caf] How early does the CTHRC1+ phenotype emerge — is it absent in IL1B-IL1R1 precursor niches ([[concepts/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor]])?
 - [concept/cthrc1-efibro-ecm-remodeling-pan-cancer-caf] Are LGALS9–CD44 and LGALS9–HAVCR2 interactions therapeutically tractable in this subtype?
@@ -783,6 +811,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] Does glutamine anaplerosis blockade (CB-839 / telaglenastat) rescue muscle mass in cachexia models?
 - [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] How does the methionine-cycle activation mechanistically couple to PC/PDH flux acceleration (allosteric effects of SAM/SAH on glycolytic enzymes? methylation of metabolic-gene promoters?)?
 - [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] Pre-cachexia detection by 13C-glucose breath test or muscle-MRS in patients — translational potential.
+- [concept/muscle-wasting-ups-autophagy-cac] What is the relative contribution of UPS vs autophagy vs apoptosis vs anabolic resistance to net muscle loss across CAC stages and subtypes?
+- [concept/muscle-wasting-ups-autophagy-cac] Can anabolic resistance be overcome by combining feeding + exercise + drug (e.g., anabolic steroids, SARMs, anti-myostatin)?
+- [concept/muscle-wasting-ups-autophagy-cac] Do molecular subtypes (e.g., one-carbon-metabolism activation per [[papers/multi-omics-profiling-cachexia-targeted-tissues]]) stratify which mechanism dominates in a given patient?
 - [concept/myeloid-targeted-immunocytokine-mite] Optimal cytokine cargo (IL-2 superkine vs IL-15 vs tailored IL-2 variants)
 - [concept/myeloid-targeted-immunocytokine-mite] Adaptive resistance: do tumors downregulate MMP14 under selective pressure?
 - [concept/myeloid-targeted-immunocytokine-mite] Combination with radiotherapy / chemotherapy / other immunotherapies
@@ -994,6 +1025,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/trans-acting-immunocytokine] Optimal cytokine for each cellular niche (IL-2 / IL-15 / IL-12 / IL-18)
 - [concept/trans-acting-immunocytokine] Whether other TAM-restricted antigens (MARCO, VISTA) could substitute for TREM2
 - [concept/trans-acting-immunocytokine] Quantifying the diffusion radius of trans cytokine activity in vivo
+- [concept/treatment-induced-cachexia] Should chemotherapy dosing be reformulated by LBM rather than BSA?
+- [concept/treatment-induced-cachexia] Can pretreatment body composition be a TRIAL STRATIFICATION variable in cachexia interventions, or for adjusting the chemotherapy regimen itself?
+- [concept/treatment-induced-cachexia] What is the mechanism of immunotherapy-induced cachexia, and does it differ from chemotherapy-induced cachexia?
 - [concept/trem2-mac-pd1-immune-niche-quartet] Does perturbing any quartet member (e.g., anti-TREM2 antibody) destabilise the niche and reduce ICB response in HCC?
 - [concept/trem2-mac-pd1-immune-niche-quartet] Are the quartet contacts simultaneously formed or sequentially recruited?
 - [concept/trem2-microglia-dementia-axis] Whether TREM2 agonists in late-stage Alzheimer's will help (DAM may be exhausted) or harm (overdrive of inflammation).
@@ -1064,6 +1098,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
+- [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
 - [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
@@ -1077,6 +1112,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
@@ -1095,12 +1131,16 @@ _Auto-generated open questions. Do not edit._
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
+- [claim/pet-ml-model-detects-cac-nsclc-81-accuracy] PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy (status: weakly_supported)
 - [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
+- [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
+- [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
+- [claim/ups-markers-conflicting-evidence-cac] MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity (status: weakly_supported)
 - [claim/wnt2-fzd2-cardiomyocyte-pharyngeal-mesoderm-ligand-receptor] Wnt2 (cardiomyocyte) — Fzd2 (pharyngeal mesoderm) emerges as a predicted ligand-receptor pair underlying cardiomyocyte–pharyngeal-mesoderm covariation in E8.5 embryo, consistent with known WNT-dependence of SHF progenitor proliferation (status: weakly_supported)
 - [claim/wnt3-fzd7-paneth-stem-niche-progenitor-source] Wnt3 (Paneth) — Fzd7 (stem/TA) is the predicted ligand-receptor pair mediating the stem-cell niche, with Wnt3 trajectory downregulating during Paneth maturation — implicating nascent Paneth progenitors, not mature Paneth cells, as the dominant Wnt-source (status: weakly_supported)

@@ -291,6 +291,13 @@ papers:
     importance: 4
     domain: metabolism / oncology / cachexia
     priority: reference
+
+  - slug: cancer-associated-cachexia-bridging-clinical-findings
+    title: "Cancer-Associated Cachexia: Bridging Clinical Findings with Mechanistic Insights in Human Studies"
+    tags: [cancer-cachexia, human-studies, clinical-phenotyping, body-composition, CT-L3-imaging, sarcopenia, TRACERx, central-melanocortin-system, cancer-anorexia, cori-cycle, hypermetabolism, PTHrP, GDF-15, WAT-browning, UCP1, lipolysis, HSL, ATGL, ubiquitin-proteasome-MURF1-Atrogin1, muscle-protein-synthesis, FAACT, PG-SGA, chemotherapy-induced-cachexia, PET-isotope-tracing, review]
+    importance: 4
+    domain: oncology / metabolism / cachexia / clinical review
+    priority: context
 concepts:
   - slug: 6d-tam-translational-framework
     title: "6D TAM translational framework"
@@ -1576,6 +1583,38 @@ concepts:
     title: "Coordinated multi-tissue host response in cancer cachexia — multi-omics integration framing"
     tags: [multi-omics, metabolomics, transcriptomics, isotope-tracing, cachexia, multi-tissue, integration]
     maturity: emerging
+  - slug: cac-clinical-subtypes-body-composition
+    title: "Clinical CAC subtypes defined by body-composition loss patterns"
+    tags: [cancer-cachexia, body-composition-subtype, TRACERx, PDAC, NSCLC]
+    maturity: emerging
+  - slug: ct-l3-body-composition-phenotyping
+    title: "CT-L3 body-composition phenotyping in cancer cachexia"
+    tags: [CT-imaging, body-composition, SAT, VAT, SKM, AI-segmentation]
+    maturity: stable
+  - slug: central-melanocortin-system-cancer-anorexia
+    title: "Central melanocortin system in cancer-associated anorexia"
+    tags: [hypothalamus, POMC, AgRP, MC4R, anorexia, GDF-15, ghrelin]
+    maturity: emerging
+  - slug: cori-cycle-tumor-host-metabolism
+    title: "Cori cycle and tumour-driven host metabolic rewiring"
+    tags: [Cori-cycle, lactate, hepatic-gluconeogenesis, hypermetabolism, isotope-tracing]
+    maturity: active
+  - slug: adipose-lipolysis-cancer-cachexia
+    title: "Adipose-tissue lipolysis in cancer cachexia"
+    tags: [lipolysis, HSL, ATGL, catecholamines, natriuretic-peptides, WAT-browning]
+    maturity: active
+  - slug: muscle-wasting-ups-autophagy-cac
+    title: "Muscle wasting in CAC: UPS, autophagy, and anabolic resistance"
+    tags: [MURF1, Atrogin-1, ubiquitin-proteasome, autophagy, anabolic-resistance, postprandial-blunted-synthesis]
+    maturity: active
+  - slug: treatment-induced-cachexia
+    title: "Treatment-induced and treatment-modulated cachexia"
+    tags: [chemotherapy, immunotherapy, FOLFIRINOX, GEM-NAB, LBM-dosing, treatment-toxicity]
+    maturity: active
+  - slug: cac-clinical-phenotyping-body-composition
+    title: "Clinical phenotyping of CAC: PROs, functional assessments, and body composition"
+    tags: [FAACT, PG-SGA, HGS, 6MWT, ECOG, clinical-trial-endpoints]
+    maturity: stable
 topics:
 
 people:
@@ -2048,6 +2087,18 @@ ideas:
   - slug: nathan-e-lewis
     affiliation: "UC San Diego (Pediatrics, Bioengineering); University of Georgia (CCRC, BMB) (PI)"
     tags: [PI, systems-biology, metabolism, GEMs, CellFie, glycomics, CHO-biomanufacturing]
+  - slug: kexin-koh
+    affiliation: "Cancer Metastasis Laboratory, UCL Cancer Institute; CRUK Lung Cancer Centre of Excellence, London, UK"
+    tags: [cancer-cachexia, clinical-oncology, lung-cancer, body-composition]
+  - slug: mariam-jamal-hanjani
+    affiliation: "Cancer Metastasis Laboratory, UCL Cancer Institute; UCLH (PI)"
+    tags: [PI, cancer-evolution, NSCLC, cancer-cachexia, TRACERx, PEACE]
+  - slug: tobias-janowitz
+    affiliation: "Cold Spring Harbor Laboratory; Northwell Health (PI)"
+    tags: [PI, cancer-cachexia, tumor-host-physiology, integrated-oncology, translational-oncology]
+  - slug: eileen-p-white
+    affiliation: "Rutgers Cancer Institute; Ludwig Princeton Branch (PI)"
+    tags: [PI, autophagy, cancer-metabolism, cancer-cachexia, tumor-host-metabolism]
 experiments:
 
 claims:
@@ -7322,6 +7373,48 @@ claims:
     title: "Glucose→lactate conversion is spatially organized in EEC (Moran's I ≈ 0.379) with highest activity in malignant-cell regions"
   - slug: endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps
     title: "Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation"
+  - slug: cac-prevalence-varies-by-cancer-type
+    title: "CAC prevalence varies dramatically by cancer type (15-30% blood/breast/prostate vs 40-80% lung/gastric/pancreatic)"
+  - slug: cac-subtypes-by-body-composition-pancreatic
+    title: "Pancreatic CAC has at least two body-composition subtypes (adipose-only, adipose+SKM), both worse survival"
+  - slug: tracerx-nsclc-cac-thresholds
+    title: "TRACERx-NSCLC defines CAC thresholds and links isolated SKM-loss to distinct tumour gene expression"
+  - slug: longitudinal-trajectories-cac-liver-cancer
+    title: "Latent longitudinal trajectories of SKM/adipose loss (Jin et al. liver cancer) define CAC"
+  - slug: body-composition-loss-precedes-pancreatic-cancer-diagnosis
+    title: "Body-composition loss precedes clinical pancreatic-cancer diagnosis (pre-CAC phase)"
+  - slug: sex-dimorphism-skm-loss-cac
+    title: "Skeletal-muscle loss in CAC shows sex dimorphism — males more consistently affected"
+  - slug: hgs-predicts-cac-survival
+    title: "Reduced handgrip strength predicts poor survival in CAC across European/Chinese/Indian populations"
+  - slug: folfirinox-vs-gemnab-differential-loss
+    title: "FOLFIRINOX → greater SKM loss in males; GEM/NAB → greater adipose loss in both sexes (advanced PDAC)"
+  - slug: pretreatment-weight-loss-poor-tumour-response
+    title: "Pretreatment weight loss → poor tumour response and severe dose-limiting toxicity in breast and GI cancers"
+  - slug: hypothalamic-fmri-distinguishes-cac-anorexia
+    title: "Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia"
+  - slug: pthrp-detection-nsclc-lower-lbm-higher-ree
+    title: "NSCLC patients with detectable PTHrP have lower LBM and higher REE"
+  - slug: cori-cycle-tumor-host-futile-cycle
+    title: "Cori cycle is rewired by tumour as energetically expensive futile cycle contributing to host hypermetabolism"
+  - slug: lactate-fuels-nsclc-tca
+    title: "Lactate is utilized by NSCLC tumours to fuel the TCA cycle (not just Cori-cycle waste)"
+  - slug: nsclc-tumour-higher-glucose-oxidation-than-adjacent
+    title: "NSCLC tumours exhibit higher glucose oxidation than adjacent normal tissue (in vivo isotope tracing)"
+  - slug: pet-ml-model-detects-cac-nsclc-81-accuracy
+    title: "PET/CT-based ML model identifies CAC at diagnosis in NSCLC with 81% accuracy"
+  - slug: cac-sat-adipocyte-size-reduced
+    title: "In GI-CAC, abdominal-SAT adipocytes are smaller (not fewer) than in weight-stable patients — lipolysis signature"
+  - slug: catecholamine-lipolysis-stronger-in-cac
+    title: "Lipolytic effect of catecholamines + natriuretic peptides on HSL is stronger in CAC patients"
+  - slug: wat-browning-human-cac-evidence-conflicting
+    title: "WAT browning evidence in human CAC is conflicting; large-cohort BAT prevalence is LOWER in CAC"
+  - slug: ups-markers-conflicting-evidence-cac
+    title: "MURF1/Atrogin-1 expression in CAC muscle is elevated in some cohorts, unchanged in others — definition heterogeneity"
+  - slug: muscle-protein-synthesis-lower-than-breakdown-cac
+    title: "GI-CAC: myofibrillar protein synthesis higher than controls but lower than breakdown — net catabolism"
+  - slug: postprandial-protein-synthesis-blunted-cac
+    title: "Postprandial muscle protein synthesis is blunted in CRC/PDAC-CAC — anabolic resistance"
 Summary:
 
 foundations:
@@ -9187,3 +9280,39 @@ foundations:
     title: "Metabolic task (CellFie / scCellFie)"
     status: mainstream
     domain: systems biology / metabolism
+  - slug: gdf-15-growth-differentiation-factor-15
+    title: "GDF-15 (growth differentiation factor 15)"
+    status: mainstream
+    domain: cytokine biology / appetite regulation / cachexia
+  - slug: murf1-trim63
+    title: "MURF1 / TRIM63 (muscle RING finger 1)"
+    status: mainstream
+    domain: muscle biology / ubiquitin-proteasome
+  - slug: atrogin1-fbxo32
+    title: "Atrogin-1 / FBXO32"
+    status: mainstream
+    domain: muscle biology / ubiquitin-proteasome
+  - slug: pthrp-parathyroid-hormone-related-protein
+    title: "PTHrP (parathyroid hormone-related protein)"
+    status: mainstream
+    domain: tumour-secreted factor / endocrine / cachexia
+  - slug: ucp1
+    title: "UCP1 (uncoupling protein 1)"
+    status: mainstream
+    domain: mitochondrial biology / adipose / thermogenesis
+  - slug: hsl-hormone-sensitive-lipase
+    title: "HSL (hormone-sensitive lipase / LIPE)"
+    status: mainstream
+    domain: adipose biology / lipid metabolism
+  - slug: atgl-adipose-triglyceride-lipase
+    title: "ATGL (adipose triglyceride lipase / PNPLA2)"
+    status: mainstream
+    domain: adipose biology / lipid metabolism
+  - slug: tracerx-nsclc-cohort
+    title: "TRACERx — TRAcking Cancer Evolution through therapy (Rx)"
+    status: mainstream
+    domain: clinical cohort / cancer evolution / NSCLC
+  - slug: fmri-functional-mri-method
+    title: "fMRI (functional magnetic resonance imaging)"
+    status: mainstream
+    domain: neuroimaging / method

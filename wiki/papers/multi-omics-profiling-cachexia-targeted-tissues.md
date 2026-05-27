@@ -390,6 +390,7 @@ For the wiki: this paper is the entry point for the cachexia domain. It anchors 
 
 ## Related
 
+- [[papers/cancer-associated-cachexia-bridging-clinical-findings]] — Koh et al. 2025 *Cancer Discovery* — companion human-clinical-evidence review of CAC providing the body-composition phenotyping vocabulary, treatment-interaction context, and CNS-anorexia evidence that complement this multi-omics mouse-and-human resource.
 - [[papers/macrophages-use-apoptotic-cell-derived-methionine]] — Methionine-cycle / MAT2A / DNMT3A epigenetic biology in macrophages — complementary tissue context for cancer cachexia methionine axis.
 - [[concepts/one-carbon-metabolism-cachexia-tissue-overarching]]
 - [[concepts/il6-driven-cachexia-one-carbon-reprogramming]]
