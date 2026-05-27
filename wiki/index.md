@@ -7,6 +7,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: atlas-scale-metabolic-activities-inferred-single
+    title: "Atlas-scale metabolic activities inferred from single-cell and spatial transcriptomics"
+    tags: [scCellFie, metabolic-task-inference, single-cell-metabolism, spatial-metabolism, endometrium, endometriosis, endometrial-carcinoma, kynurenine-AHR, mevalonate-pathway, GPR-rules, genome-scale-metabolic-model, CELLxGENE, Visium, metabolite-CCC, estrogen-biosynthesis]
+    importance: 3
+    domain: "methods / metabolism / endometrial biology / oncology"
+    priority: reference
   - slug: atlas-guided-discovery-transcription-factors-cell
     title: "Atlas-guided discovery of transcription factors for T cell programming"
     tags: [cd8-t-cells, exhaustion, tissue-resident-memory, transcription-factor, taiji, perturb-seq, immunotherapy]
@@ -599,6 +605,10 @@ concepts:
     title: "Efferocytosis — apoptotic cell clearance with anti-inflammatory output"
     tags: [macrophage, phagocytosis, apoptotic-clearance, tissue-homeostasis, immunology]
     maturity: stable
+  - slug: endometrial-metabolic-reprogramming-cycle-disease
+    title: "Endometrial metabolic reprogramming across cycle, endometriosis, and endometrial carcinoma"
+    tags: [endometrium, menstrual-cycle, endometriosis, endometrial-carcinoma, kynurenine, mevalonate, estrogen-signaling, metabolic-reprogramming]
+    maturity: emerging
   - slug: efferocytosis-metabolic-rewiring-fao
     title: "Efferocytosis-driven metabolic rewiring — UCP2, DRP1, and FAO-fuelled anti-inflammatory output"
     tags: [efferocytosis, macrophage, fao, mitochondrial, regeneration, inflammation-resolution]
@@ -1246,6 +1256,10 @@ concepts:
   - slug: stress-paradigm-specific-sympathetic-circuit
     title: "Stress-paradigm-specific recruitment of sympathetic subtypes"
     tags: [psychological-stress, sympathetic-nervous-system, circuit-specificity, noradrenaline]
+    maturity: emerging
+  - slug: sccellfie-metabolic-task-inference
+    title: "scCellFie — single-cell & spatial metabolic-task inference"
+    tags: [single-cell, spatial-transcriptomics, metabolism, metabolic-task, GPR-rules, cell-cell-communication, endometrium]
     maturity: emerging
   - slug: subgraph-local-microenvironment-encoding
     title: "Subgraph-based local microenvironment encoding for spatial GNNs"
@@ -2025,6 +2039,15 @@ ideas:
   - slug: stephan-herzig
     affiliation: "Institute for Diabetes and Cancer, Helmholtz Munich; TU Munich (PI)"
     tags: [PI, metabolic-disease, cancer-cachexia]
+  - slug: erick-armingol
+    affiliation: "Wellcome Sanger Institute, Cambridge, UK (Vento-Tormo group)"
+    tags: [single-cell, metabolism, cell-cell-communication, tensor-factorization, endometrium]
+  - slug: roser-vento-tormo
+    affiliation: "Wellcome Sanger Institute / Cambridge Stem Cell Institute (PI)"
+    tags: [PI, single-cell, human-cell-atlas, reproductive-biology, endometrium, decidua]
+  - slug: nathan-e-lewis
+    affiliation: "UC San Diego (Pediatrics, Bioengineering); University of Georgia (CCRC, BMB) (PI)"
+    tags: [PI, systems-biology, metabolism, GEMs, CellFie, glycomics, CHO-biomanufacturing]
 experiments:
 
 claims:
@@ -7283,6 +7306,22 @@ claims:
     title: "One-carbon-metabolism signature conserved across six mouse cachexia models and humanised SW480 model"
   - slug: patients-sarcopenia-show-elevated-nnmt-one-carbon-genes-liver-muscle
     title: "Cancer patients with sarcopenia show elevated NNMT and one-carbon signature gene expression in liver and skeletal muscle"
+  - slug: sccellfie-scales-metabolic-task-inference-to-single-cell-and-spatial
+    title: "scCellFie infers metabolic-task activities from single-cell and spatial transcriptomics at atlas scale via GPR-rule aggregation over GEMs"
+  - slug: cellxgene-atlas-recovers-organ-and-cell-type-specific-metabolic-functions
+    title: "An atlas of metabolic-task activities across ~30M CELLxGENE cells recovers known organ- and cell-type-specific metabolic functions"
+  - slug: mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells
+    title: "MVA pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma"
+  - slug: kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec
+    title: "Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and elevated in malignant regions of endometrial carcinoma"
+  - slug: um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis
+    title: "uM1 macrophages in endometriosis eutopic endometrium show elevated myo-inositol-trisphosphate conversion and methylglyoxal production"
+  - slug: local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment
+    title: "Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization"
+  - slug: glucose-to-lactate-spatially-organized-malignant-regions-endometrial-carcinoma
+    title: "Glucose→lactate conversion is spatially organized in EEC (Moran's I ≈ 0.379) with highest activity in malignant-cell regions"
+  - slug: endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps
+    title: "Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation"
 Summary:
 
 foundations:
@@ -9136,4 +9175,15 @@ foundations:
   - slug: kegg-pathway-database
     title: "KEGG — Kyoto Encyclopedia of Genes and Genomes pathway database"
     status: mainstream
-    domain: bioinformatics / pathway analysis
+    domain: bioinformatics / pathway analysis  - slug: genome-scale-metabolic-model
+    title: "Genome-scale metabolic model (GEM)"
+    status: mainstream
+    domain: systems biology / metabolism
+  - slug: czi-cellxgene-atlas
+    title: "CZI CELLxGENE — harmonized human/mouse single-cell atlas"
+    status: mainstream
+    domain: single-cell genomics / atlases
+  - slug: metabolic-task-cellfie
+    title: "Metabolic task (CellFie / scCellFie)"
+    status: mainstream
+    domain: systems biology / metabolism
