@@ -211,6 +211,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] How robust is the mMAC1 ↔ IL4I1 mapping to other tumor types (HCC, NSCLC, breast, melanoma) and to chronic non-malignant hypoxia (arthritis, ischemic tissues)?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does the C2 hypomethylation persist after re-oxygenation, or is it reversible?
 - [paper/nf-kb-tet2-promote-macrophage-reprogramming] Does mMAC1 / IL4I1 MAC enhance ICI response (PD-1/PD-L1 blockade) as the OS data and Park 2024 (CRC efferocytosis) collectively suggest?
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Whether predicted covariations can be experimentally validated as direct signaling vs biomechanical/metabolic crosstalk.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] How well NiCo generalizes to full-transcriptome spatial imaging without scRNA-seq reference.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Whether NiCo can be extended to time-resolved spatial transcriptomics to capture directionality.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] In vivo causal validation of the Tgfb1–Dcn loop (e.g. HSC-specific Dcn KO or KC-specific Tgfb1 KO with stellate-activation readout).
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Whether the Tgfb1–Dcn loop modulates MASH/NASH progression — a falsifiable prediction.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Lineage-tracing of Wnt3-bright nascent Paneth progenitors to test the "sibling-loop niche" model.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Sensitivity of NiCo's factor decomposition to K and to NMF initialization.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Whether NiCo applied to TME imaging-based spatial transcriptomics recovers macrophage–cancer-cell or macrophage–stromal-cell niche covariation patterns relevant to hypoxia biology.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Extension to multi-slice 3D spatial data with proper cell-cell-pair handling across z-stacks.
+- [paper/nico-identifies-extrinsic-drivers-cell-state] Whether iNMF vs ordinary-NMF mode selection can be automated rather than user-specified.
 - [paper/novae-graph-based-foundation-model-spatial] How to extend the foundation model to NGS-based platforms (Visium) and to genuine multimodal pretraining?
 - [paper/novae-graph-based-foundation-model-spatial] Can mixture-of-experts unify spot and single-cell resolutions?
 - [paper/novae-graph-based-foundation-model-spatial] How to update the input graph for complex tissue structures (axons, sparse epithelium)?
@@ -600,6 +610,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
+- [concept/intrinsic-vs-extrinsic-cell-state-determinants] Quantitative apportionment of intrinsic vs extrinsic variance per gene per cell type in vivo.
+- [concept/intrinsic-vs-extrinsic-cell-state-determinants] Time-resolved spatial data needed to disentangle persistence of niche-induced state changes.
 - [concept/isgf3-independent-irf9-function] IP-MS / proximity-labeling to identify IRF9 partners under homeostasis.
 - [concept/isgf3-independent-irf9-function] Test whether STAT3 or STAT5 KO abolishes the IRF9-only target subset.
 - [concept/isgf3-independent-irf9-function] Determine if ISGF3-independent IRF9 has analogous roles in human macrophages and TILs.
@@ -621,6 +633,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/kupffer-cell-iron-recycling] Whether BMDM-derived ferroportin-expressing iron-recyclers persist long enough to acquire Kupffer-like programmes.
 - [concept/kupffer-cell-iron-recycling] Cross-talk between Kupffer iron handling and lipid-droplet biology in MASH/NAFLD livers.
 - [concept/kupffer-cell-iron-recycling] Tumour-context iron recycling — whether liver tumours sequester or scavenge iron via Kupffer subversion.
+- [concept/kupffer-stellate-tgfb-decorin-feedback] Threshold modeling of the Tgfb1–Dcn buffer: at what Tgfβ flux does the loop break?
+- [concept/kupffer-stellate-tgfb-decorin-feedback] Whether the same Tgfb1–Dcn loop modulates MASH/NASH progression in vivo.
+- [concept/kupffer-stellate-tgfb-decorin-feedback] Whether analogous Tgfβ–proteoglycan buffers operate in other macrophage–fibroblast pairs (alveolar Mac ↔ lung fibroblast; microglia ↔ brain pericyte).
 - [concept/label-free-bio-conservation-metrics] A label-free metric for rare-cell-state preservation independent of explicit annotations.
 - [concept/label-free-bio-conservation-metrics] Cross-modality label-free metrics (RNA + ATAC + protein).
 - [concept/lactate-acidification-tme-immunosuppression] Local pH-normalisation drug-delivery strategies.
@@ -687,6 +702,11 @@ _Auto-generated open questions. Do not edit._
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
+- [concept/niche-composition-predicts-cell-type-identity] Integration with cell-state covariation: should the niche-prediction model condition on cell state to detect *state-dependent* niche preferences?
+- [concept/niche-composition-predicts-cell-type-identity] Statistical correction for tissue-domain confounding.
+- [concept/niche-covariation-analysis] Sign-and-strength-aware niche-effect detection beyond regression on linear latent factors.
+- [concept/niche-covariation-analysis] Causal experimental validation pipelines that go from predicted covariation → perturbation → in vivo readout.
+- [concept/niche-covariation-analysis] Generalization to time-resolved spatial data to disentangle directionality.
 - [concept/nimbosus-aggressive-prostate-phenotype] Does treating hypoxia (e.g., evofosfamide) prevent nimbosus emergence?
 - [concept/nimbosus-aggressive-prostate-phenotype] Are there tumor types beyond PCa where an analogous "constellation" exists?
 - [concept/nimbosus-aggressive-prostate-phenotype] Does the immune microenvironment modulate nimbosus emergence (cf. [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] hypoxic-MAC infiltration)?
@@ -726,6 +746,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] How robust is the classification across non-TCGA cohorts and in independent ICB-treated cohorts?
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] Does AIHS truly predict ICB response in trial data?
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] Can the five-subtype framework be refined per cancer type (e.g., subdivide DHP in BRCA HR+ vs TNBC)?
+- [concept/paneth-progenitor-wnt3-stem-niche] Direct live-imaging of Wnt3 transfer from nascent Paneth progenitors to sister stem cells.
+- [concept/paneth-progenitor-wnt3-stem-niche] Whether the same logic operates in colon "deep-crypt secretory cells" — Wnt-like-progenitor feedback to colon stem cells.
 - [concept/partially-methylated-domains-mitotic-clock] Quantitative model linking single-pixel PMD methylation to absolute division count.
 - [concept/partially-methylated-domains-mitotic-clock] Joint PMD + transcription readout to disentangle proliferation rate from differentiation state.
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
@@ -905,6 +927,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
+- [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
@@ -926,6 +949,9 @@ _Auto-generated open questions. Do not edit._
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
+- [claim/nico-applicable-slide-seqv2-cerebellum-purkinje-bergmann] NiCo applied to Slide-seqV2 mouse cerebellum (10 µm pixels) recovers the canonical Purkinje neuron–Bergmann glial cell interaction and detects covarying calcium-signaling secretory programs from Bergmann glia to Purkinje neurons, demonstrating generalizability to sequencing-based spatial transcriptomics when per-pixel cell-type assignments are available (status: weakly_supported)
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
+- [claim/wnt2-fzd2-cardiomyocyte-pharyngeal-mesoderm-ligand-receptor] Wnt2 (cardiomyocyte) — Fzd2 (pharyngeal mesoderm) emerges as a predicted ligand-receptor pair underlying cardiomyocyte–pharyngeal-mesoderm covariation in E8.5 embryo, consistent with known WNT-dependence of SHF progenitor proliferation (status: weakly_supported)
+- [claim/wnt3-fzd7-paneth-stem-niche-progenitor-source] Wnt3 (Paneth) — Fzd7 (stem/TA) is the predicted ligand-receptor pair mediating the stem-cell niche, with Wnt3 trajectory downregulating during Paneth maturation — implicating nascent Paneth progenitors, not mature Paneth cells, as the dominant Wnt-source (status: weakly_supported)
