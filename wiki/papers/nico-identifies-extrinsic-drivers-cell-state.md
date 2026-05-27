@@ -386,3 +386,5 @@ Thesis-relevant lens: for hypoxia / TME work, NiCo is the cleanest available too
 - [[papers/cellcharter-reveals-spatial-cell-niches-associated]] — peer spatial-niche framework.
 - [[papers/spatial-joint-profiling-dna-methylome-transcriptome]] — peer spatial-multi-omics methods paper.
 - [[papers/novae-graph-based-foundation-model-spatial]] — graph-based spatial-foundation peer.
+
+- [[papers/single-cell-spatial-transcriptomic-analysis-human]] — Restrepo et al. (*Nat Genet* 2026): MERFISH+Visium organ-wide human skin atlas with ten multicellular neighborhoods

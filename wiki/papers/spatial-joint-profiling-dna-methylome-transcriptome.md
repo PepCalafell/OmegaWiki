@@ -347,3 +347,5 @@ The biggest limitation is the inability to distinguish 5mC from 5hmC, which matt
 - [[concepts/partially-methylated-domains-mitotic-clock]] — PMD mitotic-history concept.
 - [[concepts/non-cpg-methylation-postnatal-brain]] — mCH/mCA brain concept.
 - [[concepts/methylation-positive-coupling-gene-expression]] — positive VMR–expression coupling.
+
+- [[papers/single-cell-spatial-transcriptomic-analysis-human]] — Restrepo et al. (*Nat Genet* 2026): MERFISH+Visium organ-wide human skin atlas with ten multicellular neighborhoods

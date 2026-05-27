@@ -266,3 +266,5 @@ CellCharter is a strong methodological contribution that gives a scalable, techn
 - [[papers/systematic-benchmarking-computational-methods-identify-spatially]]
 - [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]]
 - [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]]
+
+- [[papers/single-cell-spatial-transcriptomic-analysis-human]] — Restrepo et al. (*Nat Genet* 2026): MERFISH+Visium organ-wide human skin atlas with ten multicellular neighborhoods

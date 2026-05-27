@@ -266,6 +266,13 @@ papers:
     domain: immunology
     priority: core
 
+  - slug: single-cell-spatial-transcriptomic-analysis-human
+    title: "Single-cell spatial transcriptomic analysis of human skin anatomy"
+    tags: [skin, MERFISH, spatial-transcriptomics, atlas, perivascular, CCL19, TNF, SALT, multicellular-neighborhood, aging, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC]
+    importance: 4
+    domain: cell biology / dermatology / immunology
+    priority: core
+
 concepts:
   - slug: 6d-tam-translational-framework
     title: "6D TAM translational framework"
@@ -1434,6 +1441,35 @@ concepts:
     tags: [TREM2, MMP14, tumor-associated-macrophage, tumor-microenvironment, protease, biomarker]
     maturity: emerging
 
+  - slug: organ-wide-merfish-skin-atlas
+    title: "Organ-wide MERFISH+scRNA-seq+Visium integrated atlas of normal adult human skin"
+    tags: [skin, atlas, MERFISH, spatial-transcriptomics, Visium, scRNA-seq, resource]
+    maturity: emerging
+  - slug: skin-multicellular-spatial-neighborhoods
+    title: "Ten multicellular spatial neighborhoods as architectural units of human skin"
+    tags: [skin, spatial-transcriptomics, MERFISH, tissue-architecture, multicellular-neighborhood]
+    maturity: emerging
+  - slug: perivascular-immune-stromal-niche-skin-salt
+    title: "Perivascular immune-stromal niche (PERIVASC I) — physical correlate of SALT in human skin"
+    tags: [skin, spatial-transcriptomics, perivascular, stromal-immune, SALT, multicellular-neighborhood]
+    maturity: emerging
+  - slug: tnf-ccl19-perivascular-fibroblast-axis
+    title: "TNF-CCL19 perivascular-fibroblast axis sustaining skin immune-stromal crosstalk"
+    tags: [skin, TNF, CCL19, fibroblast, immune-stromal, homeostasis]
+    maturity: emerging
+  - slug: centrifugal-cellular-diversity-gradient-skin
+    title: "Centrifugal cellular diversity and density gradient across the human body plan"
+    tags: [skin, body-plan, cellular-diversity, spatial-transcriptomics]
+    maturity: emerging
+  - slug: age-stroma-to-perivasc-fibroblast-shift
+    title: "Age-associated STROMA-PERIVASC II shift and Retic Fib I depletion in skin"
+    tags: [skin, aging, fibroblast, perivascular, collagen]
+    maturity: emerging
+  - slug: cross-disease-perivasc-immune-remodeling-skin
+    title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
+    tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, BCC, SCC, TLS]
+    maturity: emerging
+
 topics:
 
 people:
@@ -1865,6 +1901,19 @@ people:
     affiliation: "Department of Systems Immunology, Weizmann Institute of Science"
 
 ideas:
+
+  - slug: paula-restrepo
+    tags: [skin, spatial-transcriptomics, MERFISH, single-cell-genomics, dermatology]
+    affiliation: "Department of Dermatology and Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+  - slug: andrew-l-ji
+    tags: [skin, dermatology, spatial-transcriptomics, single-cell, squamous-cell-carcinoma]
+    affiliation: "Department of Dermatology, Tisch Cancer Institute, Department of Oncological Sciences, Department of Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+  - slug: sai-ma
+    tags: [genomics, single-cell-multi-omics, spatial-transcriptomics]
+    affiliation: "Department of Genetics and Genomic Sciences, Institute of Genomic Health, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+  - slug: dan-hasson
+    tags: [bioinformatics, chromatin, genomics-core, single-cell]
+    affiliation: "Department of Oncological Sciences, Tisch Cancer Institute, BiNGS Shared Resource Facility, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
 
 experiments:
 
@@ -6832,6 +6881,127 @@ claims:
     confidence: 0.55
     domain: immunology / oncology
 
+  - slug: skin-atlas-12m-cells-15-sites-merfish
+    title: "MERFISH atlas of ~1.2 million cells from 114 samples across 15 anatomic sites in 22 adult donors defines normal human skin spatially"
+    tags: [skin,MERFISH,atlas,quantitative]
+    status: supported
+  - slug: integrated-scrnaseq-skin-reference-286k-cells
+    title: "An integrated scRNA-seq reference of ~286k cells from 14 public studies anchors the MERFISH skin atlas annotation"
+    tags: [skin,scRNA-seq,integration,methodological]
+    status: supported
+  - slug: skin-45-cell-types-resolved-spatially
+    title: "45 cell types are resolved spatially in adult human skin including 8 fibroblast subpopulations and 2 perivascular subsets"
+    tags: [skin,cell-types,fibroblast,perivascular,correlational]
+    status: supported
+  - slug: spn-kc-ii-scalp-sole-infundibular-like
+    title: "Spn KC II keratinocyte subset is enriched in scalp and sole with an infundibular-like S100A8/SOX9/GJB2/GJB6 signature"
+    tags: [skin,keratinocyte,scalp,sole,correlational]
+    status: supported
+  - slug: ccl19-perivasc-fib-i-near-vasculature-skin
+    title: "CCL19+ Perivasc Fib I fibroblasts localise to perivascular space near skin vasculature"
+    tags: [skin,CCL19,perivascular,fibroblast,mechanistic]
+    status: supported
+  - slug: centrifugal-diversity-density-skin
+    title: "Cellular diversity and density follow a centrifugal gradient from trunk to extremities across human skin"
+    tags: [skin,body-plan,diversity,density,correlational]
+    status: supported
+  - slug: anatomic-site-categories-similar-composition
+    title: "Anatomic sites within flexural, extensor, trunk and scalp categories share similar compositional patterns while face and sole are unique"
+    tags: [skin,anatomy,compositional,correlational]
+    status: supported
+  - slug: innate-immune-extremity-enrichment-skin
+    title: "Innate immune cells (monocytes, macrophages, DCs) are enriched in skin of extremities versus trunk"
+    tags: [skin,innate-immunity,macrophage,dendritic-cell,correlational]
+    status: supported
+  - slug: tcell-antecubital-fossa-enrichment-skin
+    title: "T-cell subsets are distinctly enriched in antecubital fossa (and to a lesser extent popliteal fossa), diverging from neighbouring extensor sites"
+    tags: [skin,T-cells,flexural,correlational]
+    status: supported
+  - slug: ten-multicellular-neighborhoods-skin
+    title: "Ten multicellular spatial neighborhoods (N0-N9) define the cellular architecture of human skin"
+    tags: [skin,spatial-neighborhood,MERFISH,methodological]
+    status: supported
+  - slug: perivasc-i-highest-diversity-immune-enriched
+    title: "PERIVASC I has the highest cellular diversity among skin neighborhoods and is immune-cell-enriched"
+    tags: [skin,PERIVASC-I,diversity,immune-enrichment,correlational]
+    status: supported
+  - slug: age-stroma-decreases-abdomen-skin
+    title: "STROMA neighborhood proportion declines with age in abdominal skin (Spearman = -0.70, P = 0.0083, n=13 donors)"
+    tags: [skin,aging,STROMA,abdomen,quantitative]
+    status: supported
+  - slug: age-perivasc-ii-increases-abdomen-skin
+    title: "PERIVASC II neighborhood proportion increases with age in abdominal skin (Spearman = 0.70, P = 0.0076)"
+    tags: [skin,aging,PERIVASC-II,abdomen,quantitative]
+    status: supported
+  - slug: retic-fib-i-declines-age-abdomen
+    title: "Retic Fib I numerical abundance declines with age in abdominal skin, paralleled by expansion of HEC, VEC, pericytes and smooth muscle"
+    tags: [skin,aging,fibroblast,Retic-Fib-I,correlational]
+    status: supported
+  - slug: tnf-sustains-ccl19-perivasc-fibroblast
+    title: "TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I"
+    tags: [skin,TNF,CCL19,perivascular-fibroblast,mechanistic,immune-stromal]
+    status: weakly_supported
+  - slug: perivasc-i-stromal-immune-lr-pairs
+    title: "Top stromal-to-immune ligand-receptor pairs in PERIVASC I are CXCL12-CXCR4, MDK-CD74, MIF-CD74 and PTN-NCL"
+    tags: [skin,PERIVASC-I,CellChat,ligand-receptor,methodological]
+    status: supported
+  - slug: perivasc-i-immune-stromal-lr-pairs
+    title: "Top immune-to-stromal ligand-receptor pairs in PERIVASC I include PPIA-BSG, NAMPT-ITGA5+ITGB1 and TNF-TNFRSF1A"
+    tags: [skin,PERIVASC-I,CellChat,ligand-receptor,TNF,methodological]
+    status: supported
+  - slug: visium-skin-5-diseases-143k-spots
+    title: "Visium ST integration spans 143k spots from 81 samples / 63 donors across normal skin and 5 skin diseases (AD, SCC, HS, BCC, PP)"
+    tags: [skin,Visium,atopic-dermatitis,psoriasis,hidradenitis-suppurativa,SCC,BCC,methodological]
+    status: supported
+  - slug: perivasc-i-expansion-inflammatory-skin-disease
+    title: "PERIVASC I expands in inflammatory and neoplastic skin disease (AD, psoriasis, HS, BCC, SCC) versus healthy skin"
+    tags: [skin,PERIVASC-I,atopic-dermatitis,psoriasis,hidradenitis-suppurativa,SCC,BCC,correlational]
+    status: supported
+  - slug: ccl19-fibroblasts-disease-map-perivasc-i
+    title: "Pro-inflammatory CCL19+ fibroblasts described in inflammatory skin disease map primarily to the PERIVASC I neighborhood"
+    tags: [skin,CCL19,fibroblast,PERIVASC-I,correlational]
+    status: supported
+  - slug: disease-enriched-spot-substates-skin
+    title: "Disease-enriched Visium spot sub-states (TLS, TLS-like, KC stress, HS tunnel, BCC tumor) emerge adjacent to the homeostatic ten-neighborhood scheme"
+    tags: [skin,Visium,TLS,KC-stress,hidradenitis-suppurativa,BCC,correlational]
+    status: supported
+  - slug: papil-fib-correlates-epidermal-thickness
+    title: "Papillary fibroblast (Papil Fib) abundance correlates positively with epidermal thickness across skin sites (Spearman = 0.26, P = 0.012)"
+    tags: [skin,papillary-fibroblast,epidermis-thickness,quantitative]
+    status: supported
+  - slug: perivasc-i-physical-correlate-salt
+    title: "PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework"
+    tags: [skin,PERIVASC-I,SALT,mechanistic,conceptual]
+    status: weakly_supported
+  - slug: site-dominates-variance-cell-abundance-skin
+    title: "Anatomic site is the dominant source of variance in skin cell-type abundance across donors, sex and technical factors"
+    tags: [skin,variance-partitioning,anatomy,methodological]
+    status: supported
+  - slug: perivasc-i-most-interactive-cell-types
+    title: "Within PERIVASC I, the most interactive cell types per CellChat are VECs, CD4+ and CD8+ cytotoxic T cells, and Perivasc Fib I/II"
+    tags: [skin,PERIVASC-I,CellChat,T-cell,VEC,methodological]
+    status: supported
+  - slug: perivasc-i-pathway-volume-leadership
+    title: "PERIVASC I exhibits the highest L-R interaction volume and greatest number of unique pathways among skin neighborhoods (MIF, MK, CXCL/CCL, TNF dominant)"
+    tags: [skin,PERIVASC-I,CellChat,MIF,midkine,TNF,methodological]
+    status: supported
+  - slug: site-specific-lr-mhc-cd4-cd8-antecubital
+    title: "Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint"
+    tags: [skin,antecubital-fossa,MHC,CD4,CD8,correlational]
+    status: weakly_supported
+  - slug: disease-perivasc-i-chemokine-cytokine-ecm-remodel
+    title: "Disease-associated PERIVASC I shows expansion plus transcriptional remodeling with increased chemokines, cytokines and ECM-remodeling genes"
+    tags: [skin,disease-remodeling,cytokine,ECM,MMP,correlational]
+    status: supported
+  - slug: perivasc-fib-i-immune-recruitment-ccl19-cxcl12
+    title: "Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs"
+    tags: [skin,Perivasc-Fib-I,CCL19,CCR7,CXCL12,CXCR4,FRC-like,mechanistic]
+    status: weakly_supported
+  - slug: retic-fib-ii-sole-dermis-localization
+    title: "Retic Fib II (ANGPTL7+/PRG4+/COMP+) is diffusely localised throughout sole dermis, distinct from superficial papillary fibroblasts"
+    tags: [skin,Retic-Fib-II,sole,dermis,correlational]
+    status: supported
+
 Summary:
 
 foundations:
@@ -8541,3 +8711,23 @@ foundations:
     title: "CITE-seq — cellular indexing of transcriptomes and epitopes by sequencing"
     status: mainstream
     domain: single-cell-genomics / methods
+  - slug: ccl19-chemokine
+    title: "CCL19 (C-C motif chemokine ligand 19)"
+    status: mainstream
+    domain: immunology / chemokine
+  - slug: cxcl12-chemokine
+    title: "CXCL12 (Stromal cell-derived factor 1)"
+    status: mainstream
+    domain: immunology / chemokine
+  - slug: crumblr-cell-composition
+    title: "crumblr — fast mixed-model testing of cell-composition shifts"
+    status: mainstream
+    domain: methods / single-cell statistics
+  - slug: hidradenitis-suppurativa-disease
+    title: "Hidradenitis suppurativa (HS)"
+    status: mainstream
+    domain: dermatology / chronic inflammatory disease
+  - slug: skin-associated-lymphoid-tissue-salt
+    title: "Skin-associated lymphoid tissue (SALT)"
+    status: historical
+    domain: immunology / skin biology

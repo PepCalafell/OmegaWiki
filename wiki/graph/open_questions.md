@@ -289,6 +289,15 @@ _Auto-generated open questions. Do not edit._
 - [paper/role-ahr-host-pathogen-interactions] The AHR-IDO-KYN-mucin axis in SARS-CoV-2 (claim c16) overlaps with the AHR-TIPARP-TBK1-IFN evasion concept ([[concepts/ahr-tiparp-antiviral-type-i-ifn-evasion]]) — are these distinct branches or one integrated AHR-anti-IFN programme?
 - [paper/role-ahr-host-pathogen-interactions] For TIER_1 pathogens in immunology, how would the AHR-PRR framework integrate with the [[concepts/pattern-recognition-receptors-macrophage]] canonical PRR signalling? Are AHR-PRR responses additive, synergistic, or antagonistic to TLR responses in macrophages co-stimulated with phthiocol + LPS?
 - [paper/role-ahr-host-pathogen-interactions] Does the AHR-Th17/Treg/Tr1 logic catalogued in [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] map cleanly to bacterial-clearance contexts (e.g., S. agalactiae)?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Do site-specific inflammatory setpoints (e.g. antecubital MHC II/CD4 elevation) drive site-specific disease predilection?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Which fibroblast subset mediates volar-fibroblast-driven epidermal thickening?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Can anti-TNF therapy reshape CCL19+ perivascular fibroblast biology?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Can the ten-neighborhood blueprint guide ex vivo skin organoid construction?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Is PERIVASC I expansion reversible by current biologics (anti-TNF, anti-IL-17, JAK inhibitors) across skin diseases?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Does PERIVASC I score serve as a transversal disease-activity biomarker for trials?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] How does the centrifugal diversity gradient interact with UV exposure history and ageing?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Are the ten neighborhoods conserved in mouse skin and across species, enabling animal-model translation?
+- [paper/single-cell-spatial-transcriptomic-analysis-human] Does Retic Fib I loss precede or follow basement-membrane changes with age?
 - [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether 5mC and 5hmC can be distinguished at spatial resolution using emerging methylation chemistry.
 - [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether spatial-DMT can be combined with chromatin conformation / accessibility / histone marks / metabolome / protein in a single pixel.
 - [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether long-read EM-seq integration can extend coverage and resolve haplotype-specific methylation in tissue.
@@ -392,6 +401,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Pharmacological exploitability — can PDGF-CC blockade safely mimic exercise/cold-induced thermogenesis without disrupting tissue homeostasis?
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Cross-talk with leptin / adiponectin axes.
 - [concept/adipose-macrophage-pdgf-cc-lipid-storage] Role in MASH / NASH where ectopic liver lipid is the disease substrate.
+- [concept/age-stroma-to-perivasc-fibroblast-shift] Is Retic Fib I numerical loss reversible (cell-therapy, dermal injection)?
+- [concept/age-stroma-to-perivasc-fibroblast-shift] Does Retic Fib I loss drive or follow basement-membrane / DEJ changes with age?
 - [concept/ahr-arnt-paralogs-and-isoforms] Cryo-EM of AHR-ARNT2 heterodimer on XRE — does ARNT2 sterically block productive XRE engagement?
 - [concept/ahr-arnt-paralogs-and-isoforms] Are there iso-specific small molecules or splicing modifiers?
 - [concept/ahr-astrocyte-microglia-cns-inflammation] AHR-targeted CNS-penetrant agonists (e.g., laquinimod-like compounds) for progressive MS
@@ -479,6 +490,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
 - [concept/cell-cycle-phase-bias-malignant] Are TME cell-cycle phases correlated with malignant phase bias?
+- [concept/centrifugal-cellular-diversity-gradient-skin] Is the centrifugal gradient genetically programmed or environmentally maintained (UV, mechanical stress)?
+- [concept/centrifugal-cellular-diversity-gradient-skin] Does the gradient shift with age?
 - [concept/cholesterol-cd8-tex-er-stress-tme] Whether statin or ACAT inhibitor combinations with ICB rescue CD8 function clinically.
 - [concept/cholesterol-cd8-tex-er-stress-tme] Interaction with TREM2-LAM lipid handoff.
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
@@ -487,6 +500,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
+- [concept/cross-disease-perivasc-immune-remodeling-skin] Does anti-TNF therapy revert PERIVASC I expansion specifically?
+- [concept/cross-disease-perivasc-immune-remodeling-skin] Can PERIVASC I score be used as a transversal disease-activity biomarker?
 - [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
 - [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
 - [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
@@ -742,6 +757,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] Does ontogeny-divergent HIF-1α function generalize to other tissue-resident macrophage populations (microglia, Kupffer, peritoneal, TAMs)?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] What chromatin-state difference rewires TR-AMs to be HIF-1α-independent at baseline?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] In tumor-associated macrophages of mixed ontogeny (some resident, some recruited), can HIF-targeting strategies be made ontogeny-selective?
+- [concept/organ-wide-merfish-skin-atlas] Inclusion of paediatric / pigmented / non-Western skin cohorts.
+- [concept/organ-wide-merfish-skin-atlas] Linking gene-level transcriptomic data with proteomic / epigenomic atlas layers.
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
 - [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.
@@ -782,6 +799,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] The molecular pathway through which PD-L1+ TAMs chemoattract T cells (AREG-ICAM1, CD162-CD62L, ANXA1, MIF identified as candidate cell-cell interactions).
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether PD-L1 itself or another co-expressed marker is the functional driver (PD-L1 blocking antibody experiments suggest PD-L1 itself is incidental to the immunostimulatory function).
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
+- [concept/perivascular-immune-stromal-niche-skin-salt] Is PERIVASC I sufficient to maintain skin-resident memory T cells longitudinally?
+- [concept/perivascular-immune-stromal-niche-skin-salt] Does PERIVASC I expansion precede or follow inflammatory infiltration in skin disease?
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
 - [concept/proteomic-cms-markers-colorectal-cancer] An IHC- or DIA-based CMS classifier deployable in routine pathology.
@@ -810,6 +829,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/sirpa-cd47-don-t-eat-me-axis] Why magrolimab failed in AML/MDS despite strong preclinical signal.
 - [concept/sirpa-cd47-don-t-eat-me-axis] The role of ADCP (antibody-dependent cellular phagocytosis) augmentation as the primary mechanism of anti-CD47 antibodies.
 - [concept/sirpa-cd47-don-t-eat-me-axis] Whether anti-SIRPα (rather than anti-CD47) circumvents the on-target anaemia.
+- [concept/skin-multicellular-spatial-neighborhoods] Are the ten neighborhoods conserved across species (mouse skin) and across ethnicities at scale?
+- [concept/skin-multicellular-spatial-neighborhoods] How do neighborhoods reorganize during wound healing time-courses?
 - [concept/slpi-macrophage-profibrotic-tam] Is the SLPI+ state reversible by anti-TGFβ or anti-IL-1β intervention?
 - [concept/slpi-macrophage-profibrotic-tam] How does Macro_SLPI relate to TREM2+ hypoxic-niche TAMs ([[concepts/trem2-tumor-associated-macrophage]])? Are they competing or sequential states?
 - [concept/slpi-macrophage-profibrotic-tam] Does AhR-mediated tryptophan metabolism intersect the Macro_SLPI program?
@@ -878,6 +899,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).
 - [concept/tissue-specific-tam-function-context-dependence] Which tissue-derived signals (hepatocyte vs alveolar epithelium vs mammary epithelium) program the overlay?
 - [concept/tissue-specific-tam-function-context-dependence] Can the overlay be reprogrammed therapeutically to flip the functional output?
+- [concept/tnf-ccl19-perivascular-fibroblast-axis] Do anti-TNF biologics reduce CCL19+ fibroblast abundance in vivo?
+- [concept/tnf-ccl19-perivascular-fibroblast-axis] Is TNFR1 or TNFR2 the relevant receptor on perivascular fibroblasts?
 - [concept/tnf-centered-cytokine-hierarchy] Why is TNF the apex? Receptor ubiquity, kinetics, or signalling crosstalk?
 - [concept/tnf-centered-cytokine-hierarchy] Why does anti-TNF fail in human sepsis when delivered after onset, despite the apex role?
 - [concept/tnf-centered-cytokine-hierarchy] Is the same TNF apex preserved in human cytokine storm syndromes other than sepsis?
@@ -978,7 +1001,11 @@ _Auto-generated open questions. Do not edit._
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
 - [claim/nico-applicable-slide-seqv2-cerebellum-purkinje-bergmann] NiCo applied to Slide-seqV2 mouse cerebellum (10 µm pixels) recovers the canonical Purkinje neuron–Bergmann glial cell interaction and detects covarying calcium-signaling secretory programs from Bergmann glia to Purkinje neurons, demonstrating generalizability to sequencing-based spatial transcriptomics when per-pixel cell-type assignments are available (status: weakly_supported)
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
+- [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
+- [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
+- [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
+- [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
 - [claim/wnt2-fzd2-cardiomyocyte-pharyngeal-mesoderm-ligand-receptor] Wnt2 (cardiomyocyte) — Fzd2 (pharyngeal mesoderm) emerges as a predicted ligand-receptor pair underlying cardiomyocyte–pharyngeal-mesoderm covariation in E8.5 embryo, consistent with known WNT-dependence of SHF progenitor proliferation (status: weakly_supported)
 - [claim/wnt3-fzd7-paneth-stem-niche-progenitor-source] Wnt3 (Paneth) — Fzd7 (stem/TA) is the predicted ligand-receptor pair mediating the stem-cell niche, with Wnt3 trajectory downregulating during Paneth maturation — implicating nascent Paneth progenitors, not mature Paneth cells, as the dominant Wnt-source (status: weakly_supported)
