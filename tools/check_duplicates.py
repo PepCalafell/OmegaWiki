@@ -269,6 +269,8 @@ def check_concepts(wiki_dir, threshold):
                 findings.append({
                     "kind": "concepto",
                     "a": a["slug"], "b": b["slug"],
+                    "a_aliases": len(a["aliases"]),
+                    "b_aliases": len(b["aliases"]),
                     "reasons": reasons,
                 })
     return findings
@@ -387,8 +389,12 @@ def main():
           f"{len(claim_findings)} claims):")
     for f in all_findings:
         print(f"     🟡 [{f['kind']}]")
-        print(f"        A: {f['a']}")
-        print(f"        B: {f['b']}")
+        if "a_aliases" in f:
+            print(f"        A: {f['a']}  ({f['a_aliases']} aliases)")
+            print(f"        B: {f['b']}  ({f['b_aliases']} aliases)")
+        else:
+            print(f"        A: {f['a']}")
+            print(f"        B: {f['b']}")
         for r in f["reasons"]:
             print(f"        · {r}")
     print()
