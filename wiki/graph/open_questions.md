@@ -141,6 +141,16 @@ _Auto-generated open questions. Do not edit._
 - [paper/lipid-metabolism-homeostasis-disease] The dual M1-M2 modulatory pattern of SCFAs (acetate suppresses M2 in asthma but propionate/butyrate suppress M1) — is this concentration- or receptor-isoform-dependent (GPR43 vs HDAC)?
 - [paper/lipid-metabolism-homeostasis-disease] How do FASN-loss CD8 anti-tumor benefits (raised MHC-I) reconcile with loss of memory CD8 survival? Is there a dose window for clinical FASN inhibition?
 - [paper/lipid-metabolism-homeostasis-disease] Lipid raft α2,6-sialylation could be targeted in ulcerative colitis — is there a parallel sialylation handle in psoriasis / atopic dermatitis where Th17 is similarly central?
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Long-term safety of protease-activated IL-2 in primates and chronic dosing
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Activity of MiTEs across tumor types beyond RCC, MC38, MCA205
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Combination with radiotherapy / chemotherapy / other immunotherapies
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] ADA formation under masked IL-2 strategies
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Rational tuning of cytokine cargo (IL-15, tailored IL-2 variants)
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Does CAF MMP14 cause off-target MiTE activation in stromal-rich tumors (PDAC, lung NSCLC)?
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Is the hypoxia-associated TAM state co-induced by MiTE-144 functionally similar to canonical "hypoxic-suppressive" TAMs (cf. [[hypoxia-pd-l1-tam-immune-evasion]])? Resolving this matters for the user's thesis (hypoxia-macrophage axis).
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] How does MiTE-144 interact with [[trem2-mac-pd1-immune-niche-quartet]] HCC niche — does it disrupt or reinforce?
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Could MiTE-class molecules be adapted to other TAM-restricted enzymes (cathepsin B/L, ADAM proteases)?
+- [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] What is the in vivo cytokine "diffusion radius" of trans-released IL-2 SK in tumor tissue — required for predicting collateral activation?
 - [paper/macrophages-targets-next-generation-cancer-immunotherapy] Which cytokines/cues are *non-redundant* drivers of pro-tumor vs antitumor TAM programs in different tumors?
 - [paper/macrophages-targets-next-generation-cancer-immunotherapy] What are the molecular and cellular niches of SPP1⁺, TREM2⁺, and CXCL9⁺ TAMs outside of hypoxic/necrotic regions?
 - [paper/macrophages-targets-next-generation-cancer-immunotherapy] How does TAM composition evolve during multimodal therapy (chemotherapy, checkpoint blockade, kinase inhibitors)?
@@ -685,6 +695,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether GM-CSF-derived or tissue-resident MACs reproduce the C2 hypomethylation under hypoxia.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] TET-isoform specificity (TET2 vs TET1/3) at C2 loci.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether the mMAC1 → T-cell crosstalk is causally responsible for the BLCA/OC survival benefit.
+- [concept/mmp14-protease-activated-il2-prodrug] Whether tumors evolve resistance by downregulating MMP14
+- [concept/mmp14-protease-activated-il2-prodrug] Optimal masking design (IL-2Rβ extracellular vs anti-IL-2 scFv vs engineered peptide)
+- [concept/mmp14-protease-activated-il2-prodrug] Half-life optimisation while preserving tumor selectivity
+- [concept/mmp14-trem2-tam-marker-pair] Whether MMP14-TREM2 co-expression is functionally coupled or independently regulated
+- [concept/mmp14-trem2-tam-marker-pair] Stability across tumor types and treatment courses
+- [concept/mmp14-trem2-tam-marker-pair] Single-cell prevalence: what fraction of TAMs co-express both vs only one?
 - [concept/momac-verse-mnp-verse-atlas] Updating the atlas with newer datasets (single-cell multi-omics, spatial)
 - [concept/momac-verse-mnp-verse-atlas] Standardising tumour-core / periphery annotations across cancers
 - [concept/momac-verse-mnp-verse-atlas] Bridging MoMac-VERSE clusters to murine populations across more tissues than liver
@@ -697,6 +713,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/mrna-protein-discordance] Mechanism-by-mechanism dissection of *why* specific proteins are discordant (translation rate, degradation, stabilization).
 - [concept/mrna-protein-discordance] Paired single-cell mRNA + untargeted protein measurements (vs current unpaired integrations).
 - [concept/mrna-protein-discordance] Translating bulk-derived translation-rate priors into single-cell models.
+- [concept/myeloid-targeted-immunocytokine-mite] Optimal cytokine cargo (IL-2 superkine vs IL-15 vs tailored IL-2 variants)
+- [concept/myeloid-targeted-immunocytokine-mite] Adaptive resistance: do tumors downregulate MMP14 under selective pressure?
+- [concept/myeloid-targeted-immunocytokine-mite] Combination with radiotherapy / chemotherapy / other immunotherapies
+- [concept/myeloid-targeted-immunocytokine-mite] ADA formation rates with masked IL-2 in human trials
 - [concept/n3-pufa-immunomodulation] Whether n-3:n-6 ratio biomarkers can predict ICI response.
 - [concept/n3-pufa-immunomodulation] SPM (resolvin/protectin) pharmacology in chronic inflammation.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
@@ -829,6 +849,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Does intermittent hypoxia (OSA setting) drive a distinct chemokine signature with implications for sleep-apnea cancer comorbidity?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Which MoMac-VERSE / Casanova-Acebes TAM cluster is the canonical "hypoxic-niche-recruited" subset, and is recruitment cluster-specific or receptor-promiscuous?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Therapeutic value of NRP1 antagonism: blocks the Sema3A-mediated stop-signal but may also affect VEGF signaling; selectivity strategies needed.
+- [concept/tam-t-cell-spatial-proximity-tme] Whether TAM-T proximity is causal for T-cell exhaustion or a consequence
+- [concept/tam-t-cell-spatial-proximity-tme] How TAM subsets (TREM2⁺ vs TREM2⁻, hypoxia vs IFN-response) differentially shape T-cell state
+- [concept/tam-t-cell-spatial-proximity-tme] Single-cell resolution of T-cell subtype dependence on TAM proximity
 - [concept/tan-hypoxia-tumor-niche-luad] Therapeutic targetability — does HIF1α inhibition (PX-478, belzutifan) or CXCL1/2/3 blockade collapse the niche?
 - [concept/tan-hypoxia-tumor-niche-luad] Is this niche present across LUSC, KRAS-mutant vs EGFR-mutant tumours, or restricted to specific genotypes?
 - [concept/tan-hypoxia-tumor-niche-luad] Causal direction of the positive-feedback loop between tumour hypoxia and TAN recruitment.
@@ -861,6 +884,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/tonic-baseline-jak-stat-homeostasis] Map cell-extrinsic ligands and source cells for baseline JAK-STAT in each tissue.
 - [concept/tonic-baseline-jak-stat-homeostasis] Determine whether baseline activity itself shapes responsiveness to cytokine stimulation (priming gain).
 - [concept/tonic-baseline-jak-stat-homeostasis] Test whether disease-associated JAK-STAT variants disrupt baseline more than induced signaling.
+- [concept/trans-acting-immunocytokine] Optimal cytokine for each cellular niche (IL-2 / IL-15 / IL-12 / IL-18)
+- [concept/trans-acting-immunocytokine] Whether other TAM-restricted antigens (MARCO, VISTA) could substitute for TREM2
+- [concept/trans-acting-immunocytokine] Quantifying the diffusion radius of trans cytokine activity in vivo
 - [concept/trem2-mac-pd1-immune-niche-quartet] Does perturbing any quartet member (e.g., anti-TREM2 antibody) destabilise the niche and reduce ICB response in HCC?
 - [concept/trem2-mac-pd1-immune-niche-quartet] Are the quartet contacts simultaneously formed or sequentially recruited?
 - [concept/trem2-microglia-dementia-axis] Whether TREM2 agonists in late-stage Alzheimer's will help (DAM may be exhausted) or harm (overdrive of inflammation).
@@ -947,6 +973,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
+- [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
 - [claim/nico-applicable-slide-seqv2-cerebellum-purkinje-bergmann] NiCo applied to Slide-seqV2 mouse cerebellum (10 µm pixels) recovers the canonical Purkinje neuron–Bergmann glial cell interaction and detects covarying calcium-signaling secretory programs from Bergmann glia to Purkinje neurons, demonstrating generalizability to sequencing-based spatial transcriptomics when per-pixel cell-type assignments are available (status: weakly_supported)

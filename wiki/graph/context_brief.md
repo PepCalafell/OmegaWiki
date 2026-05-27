@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (802 total)
+## Claims (827 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (43 total)
+## Papers (44 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -43,18 +43,16 @@ _Auto-generated open questions. Do not edit._
 - [4] Lipid metabolism in homeostasis and disease (immunology / immunometabolism / lipid biology)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
+- [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
 - [4] TREM2 macrophages are associated with enhanced response to PD-1 blockade in human hepatocellular carcinoma (tumor immunology / hepatocellular carcinoma / single-cell genomics)
 - [5] Multimodal spatial-omics reveal co-evolution of alveolar progenitors and proinflammatory niches in progression of lung precursor lesions (oncology)
 - [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
-- [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
-## Recent Relationships (1831 total)
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/lgr5-intestinal-stem-cells
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/wnt3-ligand
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/fzd7-receptor
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/dcn-decorin
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/tgfb1-cytokine
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/nmf-non-negative-matrix-factorization
-  papers/nico-identifies-extrinsic-drivers-cell-state --derived_from--> foundations/liger-nmf-integration
-  papers/nico-identifies-extrinsic-drivers-cell-state --supports--> claims/nico-three-module-pipeline-spatial-scrna
-  papers/nico-identifies-extrinsic-drivers-cell-state --supports--> claims/nico-outperforms-tangram-uniport-annotation-benchmark
-  papers/nico-identifies-ex
+## Recent Relationships (1888 total)
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/trem2-enriched-in-tumors-vs-healthy-tcga
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/anti-trem2-monotherapy-reprograms-tams-limited-efficacy
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/anti-trem2-il-2sk-ick-induces-lethal-systemic-toxicity
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/mmp14-tam-specific-protease-immune-cells
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/mmp14-trem2-coexpression-tumor-tissue-specific
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/sgrsenirta-linker-mmp14-selective-cleavage
+  papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk --supports--> claims/cleaved-mites-270-fold-higher-il2rb-affinity-vs-wt-il2
+  papers/macrophage-targeted-immunocytokine-leverages-myeloi

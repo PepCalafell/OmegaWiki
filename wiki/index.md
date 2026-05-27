@@ -259,6 +259,12 @@ papers:
     importance: 4
     domain: immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers
     priority: high
+  - slug: macrophage-targeted-immunocytokine-leverages-myeloid-nk
+    title: "Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy"
+    tags: [TREM2, immunocytokine, MiTE, IL-2, IL-2-superkine, MMP14, tumor-associated-macrophage, protease-activated-prodrug, cancer-immunotherapy, PD-1, CTLA-4, patient-derived-tumor-fragment, RCC, scRNA-seq, CITE-seq, MERFISH, NK-cell, CD8-T-cell]
+    importance: 4
+    domain: immunology
+    priority: core
 
 concepts:
   - slug: 6d-tam-translational-framework
@@ -1407,6 +1413,26 @@ concepts:
     title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
     domain: methods / spatial-transcriptomics / transfer-learning
     maturity: emerging
+  - slug: myeloid-targeted-immunocytokine-mite
+    title: "Myeloid-targeted immunocytokine (MiTE) — dual TAM/lymphocyte trans-acting prodrug class"
+    tags: [immunocytokine, TREM2, IL-2, tumor-associated-macrophage, prodrug, protease-activation, cancer-immunotherapy, bispecific]
+    maturity: emerging
+  - slug: mmp14-protease-activated-il2-prodrug
+    title: "MMP14-protease-activated IL-2 prodrug (TAM-restricted cytokine unmasking)"
+    tags: [prodrug, protease-activation, IL-2, MMP14, tumor-microenvironment, cancer-immunotherapy]
+    maturity: emerging
+  - slug: trans-acting-immunocytokine
+    title: "Trans-acting immunocytokine — dual-compartment cytokine targeting"
+    tags: [immunocytokine, cytokine-engineering, bispecific, tumor-microenvironment, cancer-immunotherapy]
+    maturity: emerging
+  - slug: tam-t-cell-spatial-proximity-tme
+    title: "TAM–T cell spatial proximity in the TME (predominant immune cell-pair across cancers)"
+    tags: [tumor-associated-macrophage, T-cell, spatial-transcriptomics, MERFISH, tumor-microenvironment, ligand-receptor]
+    maturity: emerging
+  - slug: mmp14-trem2-tam-marker-pair
+    title: "MMP14–TREM2 co-expression as TAM-specific marker pair"
+    tags: [TREM2, MMP14, tumor-associated-macrophage, tumor-microenvironment, protease, biomarker]
+    maturity: emerging
 
 topics:
 
@@ -1831,6 +1857,12 @@ people:
   - slug: zhou-chen
     tags: [oncology, hypoxia, tumor-microenvironment, cancer-therapy, review-author]
     affiliation: "The First Clinical Medical College & The First Hospital of Lanzhou University, Lanzhou, Gansu, China"
+  - slug: assaf-weiner
+    tags: [systems-immunology, single-cell-genomics, tumor-immunology, immunocytokine, immunai]
+    affiliation: "Department of Systems Immunology, Weizmann Institute of Science / Immunai"
+  - slug: michelle-von-locquenghien
+    tags: [tumor-immunology, immunocytokine, TREM2, single-cell-genomics]
+    affiliation: "Department of Systems Immunology, Weizmann Institute of Science"
 
 ideas:
 
@@ -6649,6 +6681,156 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: tams-predominant-spatial-proximity-t-cells-pan-cancer
+    title: "TAMs are the predominant immune population in close spatial proximity to T cells across human cancers"
+    tags: [TAM, T-cell, spatial-proximity, MERFISH, pan-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: tam-t-cell-ligand-receptor-network-enriched-tme
+    title: "TAM-T cell ligand-receptor interactions are the densest immune crosstalk axis enriched in the TME"
+    tags: [TAM, T-cell, ligand-receptor, MultiNicheNet, TME, immunosuppression]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: trem2-enriched-in-tumors-vs-healthy-tcga
+    title: "TREM2 is significantly enriched in tumors vs healthy tissue across 14 TCGA cancer types"
+    tags: [TREM2, TCGA, pan-cancer, biomarker]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: anti-trem2-monotherapy-reprograms-tams-limited-efficacy
+    title: "Anti-TREM2 monotherapy molecularly reprograms TAMs but provides only minor tumor-control efficacy"
+    tags: [TREM2, monotherapy, TAM, cancer-immunotherapy, treatment-resistance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: anti-trem2-il-2sk-ick-induces-lethal-systemic-toxicity
+    title: "Unmasked αTREM2-IL-2 superkine immunocytokine induces lethal systemic cytokine toxicity and hepatotoxicity"
+    tags: [IL-2, immunocytokine, toxicity, cytokine-storm, hepatotoxicity]
+    status: supported
+    confidence: 0.9
+    domain: immunology / pharmacology
+  - slug: mmp14-tam-specific-protease-immune-cells
+    title: "MMP14 is TAM-specifically expressed among tumor immune cells, with minimal expression in other leukocytes"
+    tags: [MMP14, TAM, protease, scRNA-seq, biomarker]
+    status: supported
+    confidence: 0.85
+    domain: immunology / cell-biology
+  - slug: mmp14-trem2-coexpression-tumor-tissue-specific
+    title: "MMP14 and TREM2 are strongly co-expressed in tumor TAMs and co-localized in tumor tissue but not in adjacent-healthy tissue"
+    tags: [MMP14, TREM2, TAM, co-expression, immunofluorescence]
+    status: supported
+    confidence: 0.8
+    domain: immunology / oncology
+  - slug: sgrsenirta-linker-mmp14-selective-cleavage
+    title: "The SGRSENIRTA linker is selectively cleaved by MMP14 versus MMP3/7/10/11"
+    tags: [MMP14, protease, linker, drug-design]
+    status: supported
+    confidence: 0.8
+    domain: protein-engineering
+  - slug: cleaved-mites-270-fold-higher-il2rb-affinity-vs-wt-il2
+    title: "Cleaved MiTE constructs bind IL-2Rβ with ~270-fold higher affinity than wild-type IL-2"
+    tags: [IL-2, IL-2Rβ, superkine, binding-affinity, MiTE]
+    status: supported
+    confidence: 0.85
+    domain: protein-engineering
+  - slug: masked-mites-3log-il2-bioactivity-reduction
+    title: "Intact masked MiTEs show ~3-log reduction in IL-2 bioactivity; MMP14 cleavage fully restores activity"
+    tags: [IL-2, MiTE, bioactivity, masking, MMP14]
+    status: supported
+    confidence: 0.85
+    domain: protein-engineering / pharmacology
+  - slug: mite144-no-systemic-toxicity-repeated-iv-dosing
+    title: "MiTE-144 shows no detectable systemic toxicity under repeated 200 μg i.v. dosing"
+    tags: [MiTE, safety, toxicity, hepatotoxicity, cytokine]
+    status: supported
+    confidence: 0.85
+    domain: pharmacology
+  - slug: mite144-preferential-tumor-accumulation-extended-half-life
+    title: "MiTE-144 has preferential tumor accumulation and extended plasma half-life vs unmasked αTREM2-IL-2SK"
+    tags: [MiTE, pharmacokinetics, biodistribution, tumor-targeting]
+    status: supported
+    confidence: 0.75
+    domain: pharmacology
+  - slug: mite144-superior-tumor-control-vs-ici-monotherapies-mc38
+    title: "MiTE-144 outperforms αTREM2, αPD-1, and αCTLA-4 monotherapies (and αTREM2+ICI combinations) in MC38 tumor control"
+    tags: [MiTE, MC38, efficacy, immune-checkpoint-inhibitor, anti-PD-1, anti-CTLA-4]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immunotherapy
+  - slug: mite144-ctla4-combo-eradicates-mc38-6-of-7-mice
+    title: "MiTE-144 + anti-CTLA-4 combination eradicates MC38 tumors in 6/7 mice"
+    tags: [MiTE, anti-CTLA-4, combination-therapy, MC38, complete-response]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immunotherapy
+  - slug: mite144-reprograms-tams-toward-inflammatory-hypoxia-states
+    title: "MiTE-144 reprograms TAMs from suppressive (TREM2/Mmp14, IFN-response) toward inflammatory monocyte-like and hypoxia-associated states"
+    tags: [MiTE, TAM, transcriptional-reprogramming, hypoxia, monocyte-like, Arg1, Nos2, Hmox1, S100a8]
+    status: supported
+    confidence: 0.75
+    domain: immunology / oncology
+  - slug: mite144-induces-mhc-i-and-cdc1-programs-in-dcs
+    title: "MiTE-144 induces MHC class I antigen-presentation and cDC1 developmental programs in tumor DCs"
+    tags: [MiTE, dendritic-cell, cDC1, MHC-I, antigen-presentation, cross-presentation]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: mite144-activates-nk-cytotoxic-proliferation-reduces-exhaustion
+    title: "MiTE-144 activates NK cell cytotoxicity and proliferation while downregulating exhaustion markers"
+    tags: [MiTE, NK-cell, cytotoxicity, exhaustion, perforin, granzyme, MC38]
+    status: supported
+    confidence: 0.85
+    domain: immunology / oncology
+  - slug: mite144-cd8-cytotoxic-proliferation-stemness-reduces-exhaustion
+    title: "MiTE-144 upregulates CD8 T cell cytotoxic, proliferative, and stem-like programs while downregulating exhaustion (Tox)"
+    tags: [MiTE, CD8-T-cell, cytotoxicity, stemness, Tcf7, Tox, exhaustion]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: mite144-treg-expansion-blocked-by-ctla4-combo
+    title: "MiTE-144 slightly expands Tregs in TME/tdLNs; combination with anti-CTLA-4 abrogates this Treg expansion"
+    tags: [MiTE, Treg, CTLA-4, IL-2-superkine, combination-therapy]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: mite144-disrupts-conserved-suppressive-tam-t-cell-lr-axes
+    title: "MiTE-144 disrupts multiple conserved suppressive TAM–T cell ligand-receptor axes (mouse and human)"
+    tags: [MiTE, TAM, T-cell, ligand-receptor, CTLA-4, PD-1, TGFB, immune-suppression]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: mite144-rcc-pdtf-expands-effector-not-treg
+    title: "Ex vivo MiTE-144 on RCC PDTFs selectively expands CD8 cycling/memory T and intermediate-NK cells without expanding Tregs or hypoxic TAMs"
+    tags: [MiTE, PDTF, RCC, ex-vivo, CITE-seq, translational, Treg]
+    status: supported
+    confidence: 0.75
+    domain: immunology / translational-oncology
+  - slug: mite144-conserved-cytotoxic-program-human-t-and-nk
+    title: "MiTE-144 induces a conserved cytotoxic program in human T and NK cells"
+    tags: [MiTE, human, T-cell, NK-cell, PRF1, GZMA, GZMB, exhaustion, RCC]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: mite144-cross-species-conserved-immunostimulation-mouse-human
+    title: "MiTE-144 elicits cross-species conserved immunostimulatory transcriptional response between mouse and human tumors"
+    tags: [MiTE, cross-species, mouse, human, transcriptional-conservation, translational]
+    status: supported
+    confidence: 0.7
+    domain: immunology / translational-oncology
+  - slug: il2-superkine-h9-il2rb-bias-effector-over-treg
+    title: "IL-2 superkine 'H9 SK' is engineered to bias IL-2Rβ binding, preferentially expanding effector T cells over Tregs"
+    tags: [IL-2, superkine, IL-2Rβ, Treg, effector-T-cell, protein-engineering]
+    status: supported
+    confidence: 0.7
+    domain: protein-engineering
+  - slug: mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia
+    title: "Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies"
+    tags: [MiTE, TAM, hypoxia, M1-M2, polarization, monocyte-like]
+    status: weakly_supported
+    confidence: 0.55
+    domain: immunology / oncology
 
 Summary:
 
@@ -8323,3 +8505,39 @@ foundations:
     title: "ZSCAN20"
     status: mainstream
     domain: immunology
+  - slug: il-2-cytokine
+    title: "IL-2 — interleukin-2 cytokine"
+    status: mainstream
+    domain: immunology
+  - slug: mmp14-matrix-metalloproteinase
+    title: "MMP14 — matrix metalloproteinase 14 (MT1-MMP)"
+    status: mainstream
+    domain: cell-biology / oncology
+  - slug: ctla-4-checkpoint
+    title: "CTLA-4 — cytotoxic T-lymphocyte-associated protein 4"
+    status: mainstream
+    domain: immunology
+  - slug: mc38-syngeneic-tumor-model
+    title: "MC38 — murine colorectal carcinoma syngeneic tumor model"
+    status: mainstream
+    domain: oncology / immunology
+  - slug: mrvi-multi-resolution-variational-inference
+    title: "MrVI — multi-resolution variational inference for treatment effects in scRNA-seq"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: hotspot-gene-module-analysis
+    title: "Hotspot — gene module analysis on scRNA-seq latent embeddings"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: multinichenetr-cell-cell-comm
+    title: "MultiNicheNetR — multi-sample ligand-receptor cell-cell communication inference"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: resolvi-spatial-transcript-correction
+    title: "ResolVI — deep-learning correction of transcript misassignment in subcellular spatial transcriptomics"
+    status: mainstream
+    domain: computational-biology / methods / spatial-omics
+  - slug: cite-seq-citeseq
+    title: "CITE-seq — cellular indexing of transcriptomes and epitopes by sequencing"
+    status: mainstream
+    domain: single-cell-genomics / methods

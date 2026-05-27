@@ -4,7 +4,7 @@ affiliation: "Department of Systems Immunology, Weizmann Institute of Science, R
 role: pi
 group: "Amit Lab"
 institution: "Weizmann Institute of Science"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override: "user_decision_2026-05-26_pic-seq-pioneer-systems-immunology"
 tags:
@@ -17,7 +17,7 @@ tags:
   - dendritic-cell
 homepage: "https://www.weizmann.ac.il/immunology/AmitLab/"
 scholar: ""
-date_updated: 2026-05-26
+date_updated: 2026-05-27
 ---
 
 ## Research areas
@@ -30,6 +30,7 @@ date_updated: 2026-05-26
 ## Key papers in vault
 
 - [[papers/trem2-macrophages-associated-enhanced-response-pd]] — co-senior author providing PIC-seq methodology and TAM/T-cell-interaction expertise
+- [[papers/macrophage-targeted-immunocytokine-leverages-myeloid-nk]] — senior/corresponding author; MiTE myeloid-targeted immunocytokine class (Cell 2025)
 
 ## Recent work
 

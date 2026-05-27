@@ -15,6 +15,7 @@ tags: [oncology, ex-vivo-models, immunotherapy]
 maturity: active
 key_papers:
   - cancer-organoids-modelling-complexity-tumour-immune
+  - macrophage-targeted-immunocytokine-leverages-myeloid-nk
 first_introduced: ""
 date_updated: 2026-05-21
 related_concepts: [air-liquid-interface-tumour-organoid, patient-derived-organotypic-tumour-spheroid, immune-checkpoint-blockade]
