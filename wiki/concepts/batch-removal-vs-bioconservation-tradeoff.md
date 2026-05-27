@@ -18,7 +18,7 @@ tags:
   - benchmarking
   - scRNA-seq
   - tradeoff
-maturity: mainstream
+maturity: stable
 key_papers:
   - "[[papers/benchmarking-atlas-level-data-integration-single]]"
   - "[[papers/novae-graph-based-foundation-model-spatial]]"
