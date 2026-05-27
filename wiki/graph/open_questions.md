@@ -340,6 +340,17 @@ _Auto-generated open questions. Do not edit._
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Does SPARK-X's dominance hold on emerging high-resolution platforms (Visium HD, Slide-Tags) not represented in the 50 reference datasets?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Could ensemble methods (e.g., SPARK-X + Moran's I + SpatialDE2 union) outperform any single method in practice given complementary pattern-specific behaviour ([c08])?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] For thesis-relevant TME work using Visium / Xenium, does the Moran's I → SpatialDE2 → nnSVG recommendation hold on macrophage-niche spatial data, or does TAM-rich tissue introduce SVG-pattern types where SPARK-X is preferable?
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether systemically administered STING agonists (CRD3874-SI, GSK3745417, TAK-676) can succeed where intratumoral failed
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether STING agonists can be combined with adoptive T-cell therapies given T-cell-intrinsic cytotoxicity, or whether engineered STING-resistant T cells are required
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether STING-pathway-targeting therapies require predictive biomarker enrichment (cGAS/STING IHC) to show efficacy
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] How human TAM, T cell, and EC STING biology differs from mouse models in the contexts most relevant to therapy
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether the CIN-STING-NF-κB-IL-6 axis can be reverted to canonical IRF3-IFN by dose/schedule modulation
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether ENPP1 and TREX1 inhibitors will translate to humans
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether CAR-NK + STING agonism becomes the dominant adoptive-cell platform for STING-targeted therapy
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] How tumor hypoxia interacts with STING-IFN signaling — hypoxic regions favor SYNB1891-style activation but may also drive non-canonical NF-κB output (relevance to this wiki's hypoxia-TAM line)
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether STING-induced CXCL9 in CAFs and ECs converges on the same CXCL9⁺ TAM ICI biomarker axis described in [[papers/macrophages-targets-next-generation-cancer-immunotherapy]] and [[papers/trem2-macrophages-associated-enhanced-response-pd]]
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether epigenetic STING silencing in TAMs (vs only tumor cells) would alter the read of cGAS/STING IHC as a biomarker
+- [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether MerTK blockade combined with cGAMP delivery represents an exploitable phagocytosis-checkpoint × STING combination, given the broader TAM efferocytosis program (Zhou 2020)
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Which specific factor(s) secreted by TRMs are necessary and sufficient for the EMT/invasiveness programme in adjacent tumour cells?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Why is the niche function restricted to early lesions — what changes in TRMs (or in tumours) by day 12-15 that abolishes the dependence?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Is TRM-driven EMT generalisable to other early epithelial cancers beyond NSCLC?
@@ -492,11 +503,15 @@ _Auto-generated open questions. Do not edit._
 - [concept/cell-cycle-phase-bias-malignant] Are TME cell-cycle phases correlated with malignant phase bias?
 - [concept/centrifugal-cellular-diversity-gradient-skin] Is the centrifugal gradient genetically programmed or environmentally maintained (UV, mechanical stress)?
 - [concept/centrifugal-cellular-diversity-gradient-skin] Does the gradient shift with age?
+- [concept/cgas-sting-pathway-canonical-noncanonical-outputs] What dictates the relative weighting of IRF3 vs NF-κB vs autophagy outputs in a given cell?
+- [concept/cgas-sting-pathway-canonical-noncanonical-outputs] Can therapeutic agents bias the output toward canonical IRF3 while sparing the pro-tumor NF-κB arm?
 - [concept/cholesterol-cd8-tex-er-stress-tme] Whether statin or ACAT inhibitor combinations with ICB rescue CD8 function clinically.
 - [concept/cholesterol-cd8-tex-er-stress-tme] Interaction with TREM2-LAM lipid handoff.
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
 - [concept/chromothripsis-hypoxia-prostate] Whether anti-hypoxia therapy reduces chromothripsis incidence in vivo
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
+- [concept/chronic-sting-noncanonical-nfkb-cin] Whether biasing STING output toward canonical IRF3 (e.g., via dose, schedule, or co-treatment) can convert pro-tumor chronic activation into antitumor acute activation
+- [concept/chronic-sting-noncanonical-nfkb-cin] IL-6/IL-6R blockade (tocilizumab, siltuximab) as a STING-pathway-directed combination strategy
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
@@ -543,6 +558,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
+- [concept/epigenetic-cgas-sting-silencing-immune-evasion] Predictive cutoffs for cGAS/STING protein staining as a biomarker
+- [concept/epigenetic-cgas-sting-silencing-immune-evasion] Whether epigenetic derepression alone is sufficient or always needs a co-stimulus (STING agonist, radiation, MPS1 inhibitor)
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Are these niches reversible by inflammation resolution agents (e.g., resolvins) rather than blockade?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Which precursor lesions carry an active niche versus a resolved one, and can imaging (IL1R1 IF) stratify them?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
@@ -860,6 +877,27 @@ _Auto-generated open questions. Do not edit._
 - [concept/stat5b-n642h-neomorphic-oncogenic-driver] Cross-link neomorphic STAT5BN642H chromatin signature to TEXterm chromatin atlases.
 - [concept/stem-like-cells-precancerous-lesions] Distinguishing tissue stem cells from non-stem cells with acquired stem-like signatures functionally
 - [concept/stem-like-cells-precancerous-lesions] Whether stem-like state per se is targetable for cancer interception
+- [concept/sting-agonist-adc-targeted-delivery] TAK-500 clinical futility suggests CCR2-targeted myeloid STING activation may not be sufficient — what's the right myeloid subset?
+- [concept/sting-agonist-adc-targeted-delivery] Selecting tumor surface antigens (HER2 vs others) whose expression correlates with intact downstream STING machinery
+- [concept/sting-agonist-adc-targeted-delivery] Whether ADC payload release at the cell surface vs internalized release affects the canonical-vs-non-canonical STING bias
+- [concept/sting-agonist-clinical-translation-gap] Whether systemic agonists (CRD3874-SI, GSK3745417, TAK-676) can succeed where intratumoral failed
+- [concept/sting-agonist-clinical-translation-gap] Whether ADC-targeted (XMT-2056 HER2-STING) or indirect (ENPP1, TREX1 inhibitors) approaches close the gap
+- [concept/sting-agonist-clinical-translation-gap] Predictive biomarkers (cGAS/STING IHC, MTAP, STK11, MYC, IDH1) for trial enrichment
+- [concept/sting-biomarkers-precision-immunotherapy] IHC scoring thresholds and reproducibility for cGAS/STING staining
+- [concept/sting-biomarkers-precision-immunotherapy] Composite biomarker panels (genomic + protein + ISG signature) vs single markers
+- [concept/sting-biomarkers-precision-immunotherapy] Validation in retrospective cohorts of completed Phase 1/2 STING-agonist trials
+- [concept/sting-endothelial-vascular-normalization-trafficking] Whether antigen-presenting cells (APCs) or ECs are the dominant IFNβ source in human tumors — likely context-dependent
+- [concept/sting-endothelial-vascular-normalization-trafficking] EC-selective STING-agonist delivery vehicles
+- [concept/sting-endothelial-vascular-normalization-trafficking] Whether STING-driven vascular normalization improves drug penetration of chemotherapy and ADCs
+- [concept/sting-nk-cell-tumor-clearance] CAR-NK persistence, memory, and manufacturing scale-up
+- [concept/sting-nk-cell-tumor-clearance] Whether STING-IFN-induced MHC-I upregulation on tumor cells partially inhibits NK activity, requiring NK engineering to override "missing self" reversion
+- [concept/sting-tcell-intrinsic-cytotoxicity-paradox] Whether IRF3 vs NF-κB dominates T-cell killing — selective targeting could decouple cytotoxicity from useful immune activation
+- [concept/sting-tcell-intrinsic-cytotoxicity-paradox] Engineering of STING-knockout or STING-attenuated CAR-T cells
+- [concept/sting-tcell-intrinsic-cytotoxicity-paradox] Why NK cells are resistant: low intrinsic STING + blunted IRF3 response
+- [concept/sting-tls-formation-dc-dependent] Whether human TLS formation under STING agonism replicates murine findings
+- [concept/sting-tls-formation-dc-dependent] TLS maturation stage as a biomarker — links to [[concepts/tls-maturation-stage-nsclc-ici-response]]
+- [concept/sting-tme-context-cell-type-dependent] How to deliver STING agonists selectively to DCs, ECs, or NK cells while sparing T cells
+- [concept/sting-tme-context-cell-type-dependent] How to dose temporally so that acute TME activation precedes adoptive T cell therapy without bystander T-cell death
 - [concept/succinate-sucnr1-tam-axis] A unified pharmacological model of SUCNR1 antagonism in TAM and tumor cell — does the same antagonist hit both?
 - [concept/succinate-sucnr1-tam-axis] Whether SUCNR1 signaling in TAM converges with the lactate-GPCR axis at common downstream nodes (HIF-1α, mTOR).
 - [concept/succinate-sucnr1-tam-axis] The role of cyclic / intermittent hypoxia in modulating tumor-cell succinate release: H-R cycles induce ROS bursts that may release succinate transiently.
@@ -918,6 +956,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/trem2-tumor-associated-macrophage] Whether targeting TREM2 unmasks compensatory immunosuppressive programmes (e.g. IL4I1)
 - [concept/trem2-tumor-associated-macrophage] Spatial relationship of TREM2 TAM with tumour necrotic core vs invasive front
 - [concept/trem2-tumor-associated-macrophage] Tumour-type-specific functional roles vs pan-cancer commonalities
+- [concept/trex1-innate-immune-checkpoint] Risk of inducing selective pressure for epigenetic cGAS/STING silencing as a resistance mechanism
+- [concept/trex1-innate-immune-checkpoint] Dose/schedule optimization to balance antitumor effect against systemic interferonopathy (Aicardi-Goutières-like phenotype)
 - [concept/trm-bmdm-tissue-repair-fibrosis-dichotomy] Quantitative thresholds for TRM-vs-BMDM contribution at which repair tips into fibrosis.
 - [concept/trm-bmdm-tissue-repair-fibrosis-dichotomy] Whether BMDMs that persist in tissue can be re-educated into TRM-like restorative cells.
 - [concept/trm-bmdm-tissue-repair-fibrosis-dichotomy] Why anti-CCR2 therapy underperforms in human fibrotic disease compared to mouse models.
@@ -933,6 +973,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumor-associated-macrophage-immunosuppression] Therapeutic targeting strategies (TREM2 antibodies, CSF1R inhibitors, reprogramming agonists).
 - [concept/tumor-core-vs-leading-edge-spatial-architecture] Mechanistic upstream regulators that switch TC → LE in vivo
 - [concept/tumor-core-vs-leading-edge-spatial-architecture] Whether TC-like induction is therapeutically achievable
+- [concept/tumor-derived-cgamp-immunotransmitter] Quantification of extracellular cGAMP concentrations in human tumors
+- [concept/tumor-derived-cgamp-immunotransmitter] Which importer (SLC19A1, SLC46A2, LRRC8) dominates in which TME cell type and how to bias activation toward antitumor recipients (DCs, NK) and away from T cells
 - [concept/tumor-hypoxia-classification-chronic-acute-cyclic] A unified molecular signature that distinguishes chronic vs cyclic hypoxia from bulk transcriptomics.
 - [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Spatial-temporal imaging of H-R cycles in vivo at single-cell resolution.
 - [concept/tumor-hypoxia-classification-chronic-acute-cyclic] Whether intermittent vs chronic hypoxia drive *quantitatively different* exosome cargos and TAM phenotypes (some evidence: PD-L1 upregulation specifically in TAMs from intermittently hypoxic NSCLC exosomes).

@@ -272,6 +272,12 @@ papers:
     importance: 4
     domain: cell biology / dermatology / immunology
     priority: core
+  - slug: targeting-sting-generate-therapeutic-anti-tumor
+    title: "Targeting STING to generate therapeutic anti-tumor immunity"
+    tags: [cgas-sting, sting-agonist, tumor-microenvironment, immunotherapy, type-i-interferon, trex1, enpp1, innate-immune-checkpoint, review]
+    importance: 4
+    domain: immunology
+    priority: context
 
 concepts:
   - slug: 6d-tam-translational-framework
@@ -1469,6 +1475,58 @@ concepts:
     title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
     tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, BCC, SCC, TLS]
     maturity: emerging
+  - slug: cgas-sting-pathway-canonical-noncanonical-outputs
+    title: "cGAS-STING pathway: canonical and non-canonical outputs"
+    tags: [cgas-sting, type-i-ifn, nf-kb, innate-immunity]
+    maturity: stable
+  - slug: sting-tme-context-cell-type-dependent
+    title: "STING TME outcomes are context- and cell-type-dependent"
+    tags: [cgas-sting, tumor-microenvironment, cell-type-specificity]
+    maturity: stable
+  - slug: epigenetic-cgas-sting-silencing-immune-evasion
+    title: "Epigenetic cGAS/STING silencing as tumor immune evasion"
+    tags: [epigenetics, cgas-sting, ezh2, dnmt, immune-evasion]
+    maturity: stable
+  - slug: chronic-sting-noncanonical-nfkb-cin
+    title: "Chronic STING → non-canonical NF-κB → IL-6/STAT3 in CIN-high tumors"
+    tags: [chromosomal-instability, cgas-sting, nf-kb, il-6, stat3]
+    maturity: stable
+  - slug: trex1-innate-immune-checkpoint
+    title: "TREX1 as an innate immune checkpoint restraining STING-IFN"
+    tags: [cgas-sting, trex1, innate-immune-checkpoint]
+    maturity: emerging
+  - slug: sting-tcell-intrinsic-cytotoxicity-paradox
+    title: "STING T cell-intrinsic cytotoxicity paradox"
+    tags: [cgas-sting, t-cell, apoptosis]
+    maturity: stable
+  - slug: sting-nk-cell-tumor-clearance
+    title: "STING-driven NK cell tumor clearance"
+    tags: [cgas-sting, nk-cell, car-nk]
+    maturity: emerging
+  - slug: sting-endothelial-vascular-normalization-trafficking
+    title: "STING in endothelial cells: vascular normalization and T/NK trafficking"
+    tags: [cgas-sting, endothelial-cell, vascular-normalization]
+    maturity: emerging
+  - slug: sting-tls-formation-dc-dependent
+    title: "STING-driven tertiary lymphoid structure formation"
+    tags: [cgas-sting, tertiary-lymphoid-structure, dendritic-cell]
+    maturity: emerging
+  - slug: sting-agonist-clinical-translation-gap
+    title: "STING agonist clinical translation gap"
+    tags: [cgas-sting, clinical-trial, drug-development]
+    maturity: stable
+  - slug: sting-agonist-adc-targeted-delivery
+    title: "STING-agonist antibody-drug conjugates and cell-targeted delivery"
+    tags: [cgas-sting, antibody-drug-conjugate, targeted-delivery]
+    maturity: emerging
+  - slug: sting-biomarkers-precision-immunotherapy
+    title: "Predictive biomarkers for STING-pathway-directed precision immunotherapy"
+    tags: [cgas-sting, biomarker, precision-immunotherapy]
+    maturity: emerging
+  - slug: tumor-derived-cgamp-immunotransmitter
+    title: "Tumor-derived cGAMP as an immunotransmitter in the TME"
+    tags: [cgamp, cgas-sting, paracrine]
+    maturity: stable
 
 topics:
 
@@ -1899,6 +1957,12 @@ people:
   - slug: michelle-von-locquenghien
     tags: [tumor-immunology, immunocytokine, TREM2, single-cell-genomics]
     affiliation: "Department of Systems Immunology, Weizmann Institute of Science"
+  - slug: caroline-fahey
+    tags: [cgas-sting, tumor-immunology, innate-immunity]
+    affiliation: "Dana-Farber Cancer Institute / Harvard University"
+  - slug: david-barbie
+    tags: [cgas-sting, lung-cancer, kras-lkb1, precision-immunotherapy]
+    affiliation: "Dana-Farber Cancer Institute / Parker Institute for Cancer Immunotherapy"
 
 ideas:
 
@@ -7001,6 +7065,131 @@ claims:
     title: "Retic Fib II (ANGPTL7+/PRG4+/COMP+) is diffusely localised throughout sole dermis, distinct from superficial papillary fibroblasts"
     tags: [skin,Retic-Fib-II,sole,dermis,correlational]
     status: supported
+  - slug: sting-tme-outcomes-context-cell-type-dependent
+    title: "STING activation outcomes in the TME are highly context- and cell-type-dependent"
+    tags: [cgas-sting, tumor-microenvironment]
+    status: supported
+    confidence: 0.8
+  - slug: sting-agonist-clinical-translational-gap
+    title: "STING agonists show a major translational gap between preclinical mouse and human clinical efficacy"
+    tags: [cgas-sting, clinical-trial]
+    status: supported
+    confidence: 0.8
+  - slug: dmxaa-activates-only-murine-sting
+    title: "DMXAA fully activates only murine STING and was the prototypical translational failure"
+    tags: [cgas-sting, dmxaa]
+    status: supported
+    confidence: 0.8
+  - slug: epigenetic-sting-silencing-many-cancers
+    title: "Tumor cells most commonly silence cGAS/STING epigenetically rather than by mutation"
+    tags: [cgas-sting, epigenetics]
+    status: supported
+    confidence: 0.8
+  - slug: cin-chronic-sting-nfkb-il6-drives-metastasis
+    title: "In CIN-high tumors, chronic cGAS-STING engages non-canonical NF-κB and IL-6/STAT3 to drive metastasis"
+    tags: [cin, cgas-sting, metastasis]
+    status: supported
+    confidence: 0.8
+  - slug: trex1-adaptive-innate-immune-checkpoint
+    title: "TREX1 functions as an adaptive negative-feedback innate immune checkpoint restraining STING-IFN"
+    tags: [trex1, cgas-sting, innate-checkpoint]
+    status: supported
+    confidence: 0.8
+  - slug: enpp1-degrades-cgamp-drives-breast-cancer
+    title: "ENPP1 degrades extracellular cGAMP and promotes breast cancer growth/metastasis"
+    tags: [enpp1, cgamp, breast-cancer]
+    status: supported
+    confidence: 0.8
+  - slug: sting-tcell-intrinsic-cytotoxicity
+    title: "T cell-intrinsic STING signaling is cytotoxic and impairs T cell proliferation, memory, and effector function"
+    tags: [cgas-sting, t-cell]
+    status: supported
+    confidence: 0.8
+  - slug: nk-cells-resistant-to-sting-cytotoxicity
+    title: "Human NK cells are resistant to STING-induced cytotoxicity due to low intrinsic STING expression"
+    tags: [cgas-sting, nk-cell]
+    status: supported
+    confidence: 0.8
+  - slug: sting-ec-vascular-normalization-icam-vcam
+    title: "EC STING activation drives tumor vascular normalization and upregulates T/NK adhesion molecules (ICAM/VCAM/SELL)"
+    tags: [cgas-sting, endothelial-cell, vascular-normalization]
+    status: supported
+    confidence: 0.8
+  - slug: sting-cd11c-dc-tls-formation
+    title: "Host STING activation, particularly in CD11c+ DCs, is required for tumor TLS formation"
+    tags: [cgas-sting, tls, dendritic-cell]
+    status: supported
+    confidence: 0.8
+  - slug: caf-sting-cxcr3-chemokines-tcell-recruitment
+    title: "CAF STING activation produces CXCR3 chemokines (CXCL9/10/11) that recruit cytotoxic T cells"
+    tags: [caf, cgas-sting, cxcl9, cxcl10]
+    status: supported
+    confidence: 0.8
+  - slug: tumor-cell-sting-suppresses-glycolysis-hk2
+    title: "Tumor cell STING is a cell-intrinsic suppressor of aerobic glycolysis via HK2"
+    tags: [cgas-sting, metabolism, hk2]
+    status: supported
+    confidence: 0.8
+  - slug: mps1-pulsed-inhibition-derepresses-sting-with-decitabine
+    title: "Pulsed MPS1 inhibition induces micronuclei + STING activation and synergizes with decitabine in KRAS-LKB1 lung cancer"
+    tags: [mps1, cgas-sting, kras-lkb1]
+    status: supported
+    confidence: 0.8
+  - slug: mtap-deletion-destabilizes-irf3-sting-resistance
+    title: "MTAP deficiency confers STING-agonist resistance by destabilizing IRF3 and co-deletion of 9p IFN genes"
+    tags: [mtap, irf3, cgas-sting]
+    status: supported
+    confidence: 0.8
+  - slug: idh1-inhibition-restores-cgas-promoter-demethylation
+    title: "Mutant IDH1 inhibition restores dsDNA sensing by demethylating the cGAS promoter in low-grade glioma"
+    tags: [idh1, cgas, glioma]
+    status: supported
+    confidence: 0.8
+  - slug: sting-agonist-adc-her2-reduced-systemic-toxicity
+    title: "STING-agonist ADCs (XMT-2056 HER2; TAK-500 CCR2) reduce systemic cytokine release vs free agonist"
+    tags: [cgas-sting, adc, her2]
+    status: supported
+    confidence: 0.8
+  - slug: tumor-cgamp-immunotransmitter-paracrine-tme
+    title: "Tumor-derived cGAMP acts as an extracellular immunotransmitter, imported by TME cells via SLC19A1/SLC46A2/LRRC8"
+    tags: [cgamp, immunotransmitter]
+    status: supported
+    confidence: 0.8
+  - slug: radiation-curative-effect-requires-sting-pathway
+    title: "The curative effect of ionizing radiation requires an intact STING/cGAS pathway"
+    tags: [radiation, cgas-sting]
+    status: supported
+    confidence: 0.8
+  - slug: ezh2-dnmt-inhibition-restores-mhci-antigen-presentation
+    title: "EZH2 and DNMT inhibition reinvigorate STING and restore MHC-I antigen presentation in melanoma, TNBC, SCLC"
+    tags: [ezh2, dnmt, mhc-i]
+    status: supported
+    confidence: 0.8
+  - slug: mut-p53-binds-tbk1-prevents-sting-irf3-trimer
+    title: "Mutant p53 binds TBK1 and prevents STING-TBK1-IRF3 trimer formation"
+    tags: [tp53, tbk1, sting]
+    status: supported
+    confidence: 0.8
+  - slug: tnbc-cgas-sting-il6-stat3-tocilizumab-synergy
+    title: "In CIN-high TNBC, cGAS-STING-IL-6-STAT3 drives survival; tocilizumab + STING activation selectively impairs growth"
+    tags: [tnbc, il6, stat3, cgas-sting]
+    status: supported
+    confidence: 0.8
+  - slug: mertk-blockade-enhances-macrophage-cgamp-sting
+    title: "MerTK blockade on TAMs enhances P2X7R-dependent STING activation by tumor-derived cGAMP"
+    tags: [mertk, tam, cgas-sting]
+    status: supported
+    confidence: 0.8
+  - slug: met-cd73-adenosine-suppresses-sting-egfr-lung
+    title: "MET-amplified EGFR-TKI-resistant lung cancer co-induces CD73 alongside STING, suppressing signaling via adenosine"
+    tags: [met, cd73, cgas-sting, egfr]
+    status: supported
+    confidence: 0.8
+  - slug: staggered-sting-agonist-cart-preserves-tcell-function
+    title: "Staggered intratumoral STING agonist before CAR-T preserves T cell function and improves antitumor control"
+    tags: [cgas-sting, car-t, dosing]
+    status: supported
+    confidence: 0.8
 
 Summary:
 
@@ -8731,3 +8920,56 @@ foundations:
     title: "Skin-associated lymphoid tissue (SALT)"
     status: historical
     domain: immunology / skin biology
+
+  - slug: cgas-cyclic-gmp-amp-synthase
+    title: "cGAS — cyclic GMP-AMP synthase"
+    status: mainstream
+    domain: immunology / innate immunity
+  - slug: sting-stimulator-of-interferon-genes
+    title: "STING — stimulator of interferon genes"
+    status: mainstream
+    domain: immunology / innate immunity
+  - slug: cgamp-cyclic-dinucleotide
+    title: "2′3′-cGAMP — cyclic GMP-AMP second messenger"
+    status: mainstream
+    domain: immunology / signaling
+  - slug: tbk1-tank-binding-kinase-1
+    title: "TBK1 — TANK-binding kinase 1"
+    status: mainstream
+    domain: immunology / kinase
+  - slug: irf3-interferon-regulatory-factor-3
+    title: "IRF3 — interferon regulatory factor 3"
+    status: mainstream
+    domain: immunology / transcription factor
+  - slug: trex1-exonuclease
+    title: "TREX1 — three-prime repair exonuclease 1"
+    status: mainstream
+    domain: immunology / DNA metabolism
+  - slug: enpp1-cgamp-hydrolase
+    title: "ENPP1 — ectonucleotide pyrophosphatase/phosphodiesterase 1"
+    status: mainstream
+    domain: immunology / extracellular enzymology
+  - slug: ezh2-histone-methyltransferase
+    title: "EZH2 — enhancer of zeste homolog 2"
+    status: mainstream
+    domain: epigenetics / chromatin
+  - slug: dmxaa-vadimezan
+    title: "DMXAA / vadimezan — murine-specific STING agonist"
+    status: historical
+    domain: pharmacology / STING agonist
+  - slug: adu-s100-sting-agonist
+    title: "ADU-S100 (MIW815) — phosphorothioate cyclic dinucleotide STING agonist"
+    status: historical
+    domain: pharmacology / STING agonist
+  - slug: diabzi-amidobenzimidazole
+    title: "diABZI — diamidobenzimidazole non-CDN STING agonist"
+    status: mainstream
+    domain: pharmacology / STING agonist
+  - slug: mps1-mitotic-checkpoint-kinase
+    title: "MPS1 — mitotic checkpoint serine/threonine kinase (TTK)"
+    status: mainstream
+    domain: cell biology / mitosis
+  - slug: stk11-lkb1-tumor-suppressor
+    title: "STK11 / LKB1 — serine/threonine kinase tumor suppressor"
+    status: mainstream
+    domain: oncology / tumor suppressor

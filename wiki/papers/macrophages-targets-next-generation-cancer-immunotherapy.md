@@ -256,3 +256,4 @@ A comprehensive, current map of the TAM-targeting therapeutic landscape that con
 - [[papers/trem2-macrophages-associated-enhanced-response-pd]] — TREM2-PD1 context-dependence in HCC
 - [[papers/pd-l1-expressing-tumor-associated-macrophages]] — TAM-expressed PD-L1
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — TAM reprogramming via NF-κB/TET2
+- [[papers/targeting-sting-generate-therapeutic-anti-tumor]] — adjacent 2026 Cancer Cell review covering STING-pathway-directed immunotherapy with overlapping innate-checkpoint and CAR-T/NK framing
