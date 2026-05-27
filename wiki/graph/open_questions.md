@@ -142,7 +142,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/macrophages-targets-next-generation-cancer-immunotherapy] How do human TAMs differ from mouse TAMs in the contexts most relevant to therapy?
 - [paper/macrophages-targets-next-generation-cancer-immunotherapy] Whether the CXCL9⁺ TAM enrichment seen with IL-12-armored CAR T cells in mouse models will translate to humans is the key open question — Hamon et al. 2025 (in this wiki) provides correlative human evidence for the TREM2 side of this story in HCC.
 - [paper/macrophages-targets-next-generation-cancer-immunotherapy] Whether innate-immune-checkpoint blockade (LILRB2/B4, CLEVER-1) is sufficient on its own, or always needs a T-cell-checkpoint partner.
-- [paper/macrophages-targets-next-generation-cancer-immunotherapy] How tumor hypoxia [[topics/]] interacts with the succinate↔itaconate set point — direct mechanistic relevance to the thesis's hypoxia-TAM line.
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] How tumor hypoxia interacts with the succinate↔itaconate set point — direct mechanistic relevance to the thesis's hypoxia-TAM line.
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] What other gene promoters are DNMT3A-methylated during efferocytosis (genome-wide map needed)?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Does AC-methionine specifically route to the Dusp4 promoter or genome-wide?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Does prolonged ERK activation in DNMT3A-deficient cells affect other gene programs beyond Ptgs2?
@@ -263,6 +263,18 @@ _Auto-generated open questions. Do not edit._
 - [paper/role-ahr-host-pathogen-interactions] The AHR-IDO-KYN-mucin axis in SARS-CoV-2 (claim c16) overlaps with the AHR-TIPARP-TBK1-IFN evasion concept ([[concepts/ahr-tiparp-antiviral-type-i-ifn-evasion]]) — are these distinct branches or one integrated AHR-anti-IFN programme?
 - [paper/role-ahr-host-pathogen-interactions] For TIER_1 pathogens in immunology, how would the AHR-PRR framework integrate with the [[concepts/pattern-recognition-receptors-macrophage]] canonical PRR signalling? Are AHR-PRR responses additive, synergistic, or antagonistic to TLR responses in macrophages co-stimulated with phthiocol + LPS?
 - [paper/role-ahr-host-pathogen-interactions] Does the AHR-Th17/Treg/Tr1 logic catalogued in [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] map cleanly to bacterial-clearance contexts (e.g., S. agalactiae)?
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether 5mC and 5hmC can be distinguished at spatial resolution using emerging methylation chemistry.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether spatial-DMT can be combined with chromatin conformation / accessibility / histone marks / metabolome / protein in a single pixel.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether long-read EM-seq integration can extend coverage and resolve haplotype-specific methylation in tissue.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether FFPE samples can be made spatial-DMT-compatible.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Whether spatial computational deconvolution can recover single-cell methylomes from multi-cellular pixels.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Inter-laboratory reproducibility of spatial-DMT — the paper's r ≈ 0.98 / 0.97 numbers are intra-lab.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Quantitative model linking PMD methylation to absolute mitotic count, validated against orthogonal proliferation markers (Ki67, EdU).
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Genome-wide rule predicting which genes show positive vs negative VMR–expression coupling from sequence + chromatin features.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Direct EBF1–TET2 functional test in mouse embryo by EBF1 KO or TET2 KO with spatial-DMT readout.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] D0 vs D4 fate tracing — do these populations later diverge transcriptionally?
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] Methylation distance to nearest VMR matters: the paper aggregates "neighbouring VMRs" without a sensitivity analysis on neighbourhood definition.
+- [paper/spatial-joint-profiling-dna-methylome-transcriptome] How spatial-DMT performs in tumours, particularly where PMD hypomethylation is heavy — is the PMD mitotic-clock interpretable in cancer tissue, or does global PMD hypomethylation dominate the signal?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Which mechanisms drive the conserved features of LE biology across diverse cancers?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Which actionable targets at the LE are clinically tractable?
 - [paper/spatial-transcriptomics-reveals-distinct-conserved-tumor] Can effective anticancer drugs be selected by in-silico LE-state reversal prospectively?
@@ -622,6 +634,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
 - [concept/methionine-competition-slc43a2-stat5-tcell] Tumour-selective SLC43A2 inhibitors.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Biomarkers of SLC43A2-driven methionine competition.
+- [concept/methylation-positive-coupling-gene-expression] Genome-wide rules for predicting which VMR–gene pairs will couple positively vs negatively from sequence + chromatin features.
+- [concept/methylation-positive-coupling-gene-expression] TF-resolved attribution: which positive couplings are driven by which methylation-preferring TFs?
 - [concept/mevalonate-pathway-immune-function] Whether targeted GGPP-synthesis modulation (rather than blanket HMG-CoA-reductase inhibition) can selectively tune Treg vs Th1.
 - [concept/mevalonate-pathway-immune-function] Statin combination with checkpoint blockade — outcomes likely depend on Treg vs Th1 balance.
 - [concept/microbiota-tryptophan-ahr-ligand-axis] Quantitative AHR-ligand fluxes at the mucosa
@@ -659,6 +673,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/nimbosus-aggressive-prostate-phenotype] Are there tumor types beyond PCa where an analogous "constellation" exists?
 - [concept/nimbosus-aggressive-prostate-phenotype] Does the immune microenvironment modulate nimbosus emergence (cf. [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] hypoxic-MAC infiltration)?
 - [concept/nimbosus-aggressive-prostate-phenotype] Can a single molecular biomarker capture the full nimbosus state?
+- [concept/non-cpg-methylation-postnatal-brain] Per-pixel / per-cell mCA mapping at spatial resolution beyond cortical regions.
+- [concept/non-cpg-methylation-postnatal-brain] Decoupling mCA-driven from mCG-driven gene silencing at MeCP2-target loci.
 - [concept/noncoding-variant-tf-binding-effect] Building a TF-wide PADIT-seq atlas for variant interpretation
 - [concept/noncoding-variant-tf-binding-effect] Integrating OBS variant scoring with MPRA expression data at scale
 - [concept/noncoding-variant-tf-binding-effect] Quantifying cumulative effects of multiple linked variants on the same enhancer
@@ -689,6 +705,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] How robust is the classification across non-TCGA cohorts and in independent ICB-treated cohorts?
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] Does AIHS truly predict ICB response in trial data?
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] Can the five-subtype framework be refined per cancer type (e.g., subdivide DHP in BRCA HR+ vs TNBC)?
+- [concept/partially-methylated-domains-mitotic-clock] Quantitative model linking single-pixel PMD methylation to absolute division count.
+- [concept/partially-methylated-domains-mitotic-clock] Joint PMD + transcription readout to disentangle proliferation rate from differentiation state.
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -741,6 +759,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatial-clonal-evolution-patterns-luad-precursor] Why are KRAS mutations selectively absent from pattern 1a but enriched in pattern 1b?
 - [concept/spatial-clonal-evolution-patterns-luad-precursor] Can pre-resection biopsy stratify patients to a pattern, informing surveillance versus surgery?
 - [concept/spatial-clonal-evolution-patterns-luad-precursor] How do epithelial-proinflammatory niches map onto each pattern's clonal topology?
+- [concept/spatial-dmt-method] Distinguishing 5mC vs 5hmC at spatial resolution.
+- [concept/spatial-dmt-method] Combining spatial-DMT with chromatin accessibility / conformation / histone marks in the same pixel.
+- [concept/spatial-dmt-method] Computational deconvolution to recover single-cell methylomes from multi-cellular pixels.
 - [concept/spatial-domain-detection-from-svg] Joint SVG-selection-plus-clustering frameworks that learn the spatial domain partition and the feature set simultaneously.
 - [concept/spatial-domain-detection-from-svg] Spatial domain detection on spatial ATAC-seq where SVP signal is poor (see [[concepts/spatial-atac-svp-detection-gap]]).
 - [concept/spatially-regulated-cancer-cell-states] Lineage tracing of TC ↔ LE transitions in vivo
@@ -845,6 +866,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumour-immune-microenvironment] Spatial-transcriptomic mapping of TLS formation across tumour types.
 - [concept/tumour-infiltrating-lymphocyte] Identifying clonotypes most predictive of clinical benefit.
 - [concept/tumour-infiltrating-lymphocyte] Spatial determinants of TIL function (TLS proximity, hypoxic niches).
+- [concept/variably-methylated-regions-vmr] Statistical model for VMR significance (rather than top-N heuristic).
+- [concept/variably-methylated-regions-vmr] Joint VMR / variable-accessibility / variable-gene region calling in spatial multi-omics data.
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF inhibitors synergize with antivirals to clear HBV cccDNA
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF stabilization is a biomarker of severe COVID-19
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Mechanism of ORF3a-mitochondrial ROS coupling

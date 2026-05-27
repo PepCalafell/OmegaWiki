@@ -235,6 +235,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: spatial-joint-profiling-dna-methylome-transcriptome
+    title: "Spatial joint profiling of DNA methylome and transcriptome in tissues"
+    tags: [spatial-omics, spatial-multi-omics, DNA-methylation, methylome, transcriptome, spatial-DMT, EM-seq, DBiT-seq, WNN, mouse-embryo, postnatal-brain, mCH, mCA, VMR, PMD, oligodendrogenesis, epigenetic-priming, methods-development]
+    importance: 4
+    domain: spatial omics / epigenetics / developmental biology / methods
+    priority: useful
 
 concepts:
   - slug: ac-derived-methionine-sam-macrophage-epigenetics
