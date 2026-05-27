@@ -16,8 +16,9 @@ tags:
 maturity: active
 key_papers:
   - trem2-macrophages-associated-enhanced-response-pd
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Sharma et al. 2020 (Cell); Li et al. 2024 (onco-fetal niche); refined across pan-cancer TAM atlases"
-date_updated: 2026-05-26
+date_updated: 2026-05-27
 related_concepts:
   - trem2-tumor-associated-macrophage
   - macrophage-ontogeny-resident-vs-monocyte-derived

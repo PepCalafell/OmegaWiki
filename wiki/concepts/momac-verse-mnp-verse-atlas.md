@@ -25,8 +25,9 @@ key_papers:
   - cross-tissue-single-cell-landscape-human
   - nf-kb-tet2-promote-macrophage-reprogramming
   - using-pan-cancer-atlas-investigate-tumour
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Mulder et al. 2021 *Immunity*"
-date_updated: 2026-05-06
+date_updated: 2026-05-27
 related_concepts:
   - mononuclear-phagocyte-system
   - trem2-tumor-associated-macrophage

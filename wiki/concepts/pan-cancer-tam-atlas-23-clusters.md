@@ -24,8 +24,9 @@ key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - tumour-microenvironment-crosstalk-nsclc-progression-response
   - spatiotemporal-analyses-pan-cancer-single-cell
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Coulton, Murai, Qian, Thakkar, Lewis & Litchfield 2024 *Nat Commun*"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts:
   - momac-verse-mnp-verse-atlas
   - m1-m2-polarization-paradigm

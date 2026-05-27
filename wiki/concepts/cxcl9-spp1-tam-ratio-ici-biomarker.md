@@ -18,8 +18,9 @@ tags:
 maturity: active
 key_papers:
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: 2023
-date_updated: 2026-05-22
+date_updated: 2026-05-27
 related_concepts:
   - ifng-mac-cxcl9-tam-ici-responder
   - ecm-mac-collagen-producing-tam

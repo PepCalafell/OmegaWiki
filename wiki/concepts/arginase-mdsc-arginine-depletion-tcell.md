@@ -16,8 +16,9 @@ tags: [arginine, arg1, mdsc, t-cell-suppression, adi-peg20, immunometabolism]
 maturity: active
 key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: ""
-date_updated: 2026-05-22
+date_updated: 2026-05-27
 related_concepts: [nutrient-competition-tumor-immune-cells-tme]
 ---
 

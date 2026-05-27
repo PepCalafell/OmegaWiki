@@ -4,7 +4,7 @@ affiliation: "Precision Immunology Institute & Department of Genetics and Genomi
 role: pi
 group: "Brown Lab"
 institution: "Icahn School of Medicine at Mount Sinai"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -17,7 +17,7 @@ tags:
   - genomics
 homepage: ""
 scholar: ""
-date_updated: 2026-05-06
+date_updated: 2026-05-27
 ---
 
 ## Research areas
@@ -30,6 +30,7 @@ date_updated: 2026-05-06
 ## Key papers in vault
 
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — co-author (Casanova-Acebes et al., *Nature* 2021); contributed genetic engineering / viral vector expertise
+- [[papers/macrophages-targets-next-generation-cancer-immunotherapy]] — co-corresponding senior author (Sun, Park, Merad, Brown 2026 Cancer Cell review); contributes IL-12-armored anti-TAM CAR T work
 
 ## Recent work
 

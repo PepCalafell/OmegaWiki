@@ -97,6 +97,12 @@ papers:
     importance: 4
     domain: immunology / immunometabolism / lipid biology
     priority: reference
+  - slug: macrophages-targets-next-generation-cancer-immunotherapy
+    title: "Macrophages: Targets for next-generation cancer immunotherapy"
+    tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, review, innate-checkpoint, car-m, mce, bioengineering, TREM2, SPP1, CXCL9, CSF1R, CD47]
+    importance: 5
+    domain: immunology
+    priority: core
   - slug: macrophages-use-apoptotic-cell-derived-methionine
     title: "Macrophages use apoptotic cell-derived methionine and DNMT3A during efferocytosis to promote tissue resolution"
     tags: [efferocytosis, macrophage, DNMT3A, methionine, SAM, DNA-methylation, DUSP4, COX2, PGE2, TGFβ1, ERK, CD36, CREB1, resolution, atherosclerosis, bone-marrow-transplant, isotope-tracing, MeDIP]
@@ -1275,6 +1281,42 @@ concepts:
     maturity: emerging
 
 topics:
+  - slug: tam-therapy-three-pillars
+    title: "TAM-targeted therapy: three pillars"
+    tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, tam-therapy, framework]
+    maturity: active
+  - slug: chimeric-antigen-receptor-macrophage
+    title: "Chimeric antigen receptor macrophage (CAR-M)"
+    tags: [macrophage, car-therapy, genetic-engineering, cancer-immunotherapy]
+    maturity: emerging
+  - slug: myeloid-cell-engager-mce
+    title: "Myeloid cell engager (MCE)"
+    tags: [macrophage, bispecific-antibody, cancer-immunotherapy, phagocytosis]
+    maturity: emerging
+  - slug: masked-antibody-tme-conditional
+    title: "Masked antibody (TME-conditional activation)"
+    tags: [antibody-engineering, bioengineering, tumor-microenvironment, cancer-immunotherapy]
+    maturity: emerging
+  - slug: innate-immune-checkpoint-blockade
+    title: "Innate immune checkpoint blockade"
+    tags: [macrophage, immune-checkpoint, cancer-immunotherapy, innate-immunity]
+    maturity: active
+  - slug: succinate-itaconate-metabolic-set-point
+    title: "Succinate ↔ itaconate metabolic set-point in TAMs"
+    tags: [macrophage, immunometabolism, tca-cycle, tumor-associated-macrophage]
+    maturity: active
+  - slug: 6d-tam-translational-framework
+    title: "6D TAM translational framework"
+    tags: [macrophage, tumor-associated-macrophage, framework, translational-oncology]
+    maturity: emerging
+  - slug: tumor-imprinted-myelopoiesis
+    title: "Tumor-imprinted myelopoiesis"
+    tags: [hematopoiesis, macrophage, myeloid-progenitor, tumor-microenvironment, bone-marrow]
+    maturity: active
+  - slug: il12-armored-anti-tam-car-t
+    title: "IL-12-armored anti-TAM CAR T cells"
+    tags: [car-t, macrophage, cancer-immunotherapy, cytokine-armored]
+    maturity: emerging
 
 people:
   - slug: alexander-coulton
@@ -1656,6 +1698,14 @@ people:
 ideas:
 
 experiments:
+  - slug: xiaoqi-sun
+    name: "Xiaoqi Sun"
+    role: individual
+    relevance_tier: emerging
+  - slug: matthew-d-park
+    name: "Matthew D. Park"
+    role: individual
+    relevance_tier: emerging
 
 claims:
   - slug: 12-mbmmac-melanoma-brain-met-lrmda
@@ -5933,6 +5983,66 @@ Summary:
     status: supported
     confidence: 0.95
     domain: immunology
+  - slug: tam-converge-three-conserved-states-pan-cancer
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: spp1-tam-poor-prognosis-necrosis
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: trem2-tam-worse-os-skin-lung-sarcoma
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: trem2-tam-hcc-better-pd1-response
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: tumor-systemic-myelopoiesis-imprinting
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: tam-therapy-three-categories-framework
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: csf1r-blockade-limited-clinical-efficacy
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: anti-ccl2-rebound-clinical-failure
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: cd47-first-gen-failure-eat-me-redundancy
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: adcp-induces-proangiogenic-tam-program
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: ps-tam-receptors-anti-inflammatory-bias
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: mce-syk-immunogenic-phagocytosis
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: prr-agonists-tam-activation-clinical-limited
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: trem2-antagonism-clinical-no-efficacy
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: ido1-inhibition-phase3-melanoma-failure
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: succinate-itaconate-tam-set-point
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: il12-armored-anti-tam-cart-cxcl9-enrichment
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: 6d-tam-atlas-rational-design
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: cd47-hdac-combo-glioblastoma-phagocytosis
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
+  - slug: arg1-ido-amino-acid-tcell-suppression
+    source_papers: [macrophages-targets-next-generation-cancer-immunotherapy]
+    status: supported
 
 foundations:
   - slug: 10x-visium-spatial-transcriptomics
@@ -7429,3 +7539,33 @@ foundations:
     title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
     status: mainstream
     domain: pharmacology / AHR agonist / dermatology drug
+  - slug: lilrb2-receptor
+    title: "LILRB2"
+    tags: [immunology, innate-checkpoint, myeloid, receptor]
+    domain: immunology
+    status: mainstream
+  - slug: lilrb4-receptor
+    title: "LILRB4"
+    tags: [immunology, innate-checkpoint, myeloid, AML, receptor]
+    domain: immunology
+    status: mainstream
+  - slug: marco-scavenger-receptor
+    title: "MARCO scavenger receptor"
+    tags: [immunology, macrophage, scavenger-receptor]
+    domain: immunology
+    status: mainstream
+  - slug: clever-1-stab1-receptor
+    title: "CLEVER-1 / STAB1"
+    tags: [immunology, macrophage, scavenger-receptor, innate-checkpoint]
+    domain: immunology
+    status: mainstream
+  - slug: cd40-co-stimulatory-receptor
+    title: "CD40"
+    tags: [immunology, costimulation, TNFR, macrophage]
+    domain: immunology
+    status: mainstream
+  - slug: cd47-don-t-eat-me-receptor
+    title: "CD47"
+    tags: [immunology, phagocytosis-checkpoint, macrophage]
+    domain: immunology
+    status: mainstream

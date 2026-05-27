@@ -17,8 +17,9 @@ tags:
 maturity: emerging
 key_papers:
   - trem2-macrophages-associated-enhanced-response-pd
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Hamon et al. 2025 (bioRxiv preprint)"
-date_updated: 2026-05-26
+date_updated: 2026-05-27
 related_concepts:
   - trem2-tumor-associated-macrophage
   - tissue-specific-tam-function-context-dependence

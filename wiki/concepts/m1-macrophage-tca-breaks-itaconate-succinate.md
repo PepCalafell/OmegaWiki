@@ -17,6 +17,7 @@ domain: "immunology / immunometabolism"
 maturity: stable
 key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
+  - macrophages-targets-next-generation-cancer-immunotherapy
 related_concepts:
   - m1-m2-polarization-paradigm
   - hif-dependent-glycolysis-immune-cell-differentiation

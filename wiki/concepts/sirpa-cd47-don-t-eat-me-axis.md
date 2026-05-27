@@ -23,8 +23,9 @@ maturity: active
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
   - hypoxia-driven-crosstalk-between-tumor-tumor
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Oldenborg 2000 Science (CD47 don't-eat-me); Jaiswal 2009 Cell (CD47 in cancer); reviewed in Lazarov & Geissmann 2023; hypoxic colon-cancer paradox in Bai 2022"
-date_updated: 2026-05-08
+date_updated: 2026-05-27
 related_concepts:
   - efferocytosis-anti-inflammatory-clearance
   - tumor-associated-macrophage-immunosuppression

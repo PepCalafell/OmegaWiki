@@ -135,6 +135,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/lipid-metabolism-homeostasis-disease] The dual M1-M2 modulatory pattern of SCFAs (acetate suppresses M2 in asthma but propionate/butyrate suppress M1) — is this concentration- or receptor-isoform-dependent (GPR43 vs HDAC)?
 - [paper/lipid-metabolism-homeostasis-disease] How do FASN-loss CD8 anti-tumor benefits (raised MHC-I) reconcile with loss of memory CD8 survival? Is there a dose window for clinical FASN inhibition?
 - [paper/lipid-metabolism-homeostasis-disease] Lipid raft α2,6-sialylation could be targeted in ulcerative colitis — is there a parallel sialylation handle in psoriasis / atopic dermatitis where Th17 is similarly central?
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] Which cytokines/cues are *non-redundant* drivers of pro-tumor vs antitumor TAM programs in different tumors?
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] What are the molecular and cellular niches of SPP1⁺, TREM2⁺, and CXCL9⁺ TAMs outside of hypoxic/necrotic regions?
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] How does TAM composition evolve during multimodal therapy (chemotherapy, checkpoint blockade, kinase inhibitors)?
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] Can the succinate↔itaconate balance be measured non-invasively as a biomarker?
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] How do human TAMs differ from mouse TAMs in the contexts most relevant to therapy?
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] Whether the CXCL9⁺ TAM enrichment seen with IL-12-armored CAR T cells in mouse models will translate to humans is the key open question — Hamon et al. 2025 (in this wiki) provides correlative human evidence for the TREM2 side of this story in HCC.
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] Whether innate-immune-checkpoint blockade (LILRB2/B4, CLEVER-1) is sufficient on its own, or always needs a T-cell-checkpoint partner.
+- [paper/macrophages-targets-next-generation-cancer-immunotherapy] How tumor hypoxia [[topics/]] interacts with the succinate↔itaconate set point — direct mechanistic relevance to the thesis's hypoxia-TAM line.
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] What other gene promoters are DNMT3A-methylated during efferocytosis (genome-wide map needed)?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Does AC-methionine specifically route to the Dusp4 promoter or genome-wide?
 - [paper/macrophages-use-apoptotic-cell-derived-methionine] Does prolonged ERK activation in DNMT3A-deficient cells affect other gene programs beyond Ptgs2?
@@ -845,6 +853,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Wet-lab validation of hub-protein dependency across cancer types.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Integration with single-cell co-expression networks.
+- [claim/6d-tam-atlas-rational-design] A 6D TAM atlas (causal drivers / spatial niches / temporal dynamics / signaling state / metabolism / ontogeny) is required for rational TAM-targeted therapy design (status: proposed)
 - [claim/acetate-induces-breg-il10-via-acetyl-coa-tca] Acetate induces IL-10⁺ Breg differentiation via conversion to acetyl-CoA, TCA-cycle fuelling, and protein acetylation (status: weakly_supported)
 - [claim/ahr-klf6-cps1-h1k34-homocitrullination-pad2] AHR ligand activation recruits an AHR-KLF6 complex to non-canonical XREs (NC-XREs); KLF6 recruits CPS1, driving homocitrullination of histone H1K34 and induction of peptidyl-arginine-deiminase 2 (PAD2) — a histone-carbamylation arm of AHR signalling (status: weakly_supported)
 - [claim/ahr-pxr-promiscuous-ligand-overlap] AHR and the nuclear receptor PXR share substantial agonist overlap, implying that AHR ligands frequently co-activate PXR and that response heterogeneity reflects parallel receptor activation (status: weakly_supported)

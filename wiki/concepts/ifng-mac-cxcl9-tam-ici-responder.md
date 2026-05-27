@@ -25,8 +25,9 @@ maturity: emerging
 key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Coulton et al. 2024 *Nature Communications* (cluster definition + ICI-response association)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts:
   - pan-cancer-tam-atlas-23-clusters
   - pd-l1-immunostimulatory-tam-phenotype

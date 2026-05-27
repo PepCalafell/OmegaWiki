@@ -23,8 +23,9 @@ key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
   - development-hypoxia-responsive-macrophage-prognostic-model
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "(field-standard concept; refined here)"
-date_updated: 2026-05-13
+date_updated: 2026-05-27
 related_concepts:
   - mmac1-hypoxic-inflammatory-macrophage
   - momac-verse-mnp-verse-atlas

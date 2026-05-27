@@ -24,6 +24,7 @@ maturity: stable
 key_papers:
   - physiology-diseases-tissue-resident-macrophages
   - role-ahr-host-pathogen-interactions
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Janeway 1989 (PRR concept); Medzhitov & Janeway 1997; reviewed in Lazarov & Geissmann 2023"
 date_updated: 2026-05-27
 related_concepts:

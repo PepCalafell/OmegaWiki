@@ -17,8 +17,9 @@ maturity: stable
 key_papers:
   - cancer-organoids-modelling-complexity-tumour-immune
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: ""
-date_updated: 2026-05-22
+date_updated: 2026-05-27
 related_concepts: [tumour-infiltrating-lymphocyte, immune-checkpoint-blockade, tumour-immune-microenvironment]
 ---
 

@@ -33,8 +33,9 @@ key_papers:
   - physiology-diseases-tissue-resident-macrophages
   - using-pan-cancer-atlas-investigate-tumour
   - metabolism-tissue-macrophages-homeostasis-pathology
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Ginhoux 2010, Hashimoto 2013, Mass 2016, Liu (Ms4a3) 2019; applied to NSCLC TRM vs MDM in Casanova-Acebes 2021; canonical 2023 review by Lazarov & Geissmann"
-date_updated: 2026-05-06
+date_updated: 2026-05-27
 related_concepts:
   - mononuclear-phagocyte-system
   - momac-verse-mnp-verse-atlas

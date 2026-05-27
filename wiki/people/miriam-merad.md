@@ -4,7 +4,7 @@ affiliation: "Icahn School of Medicine at Mount Sinai, New York, NY, USA"
 role: pi
 group: "Merad Lab"
 institution: "Icahn School of Medicine at Mount Sinai"
-papers_in_vault: 2
+papers_in_vault: 3
 relevance_tier: emerging
 manual_override: "user_decision_2026-05-06_high-impact-immunologist"
 tags:
@@ -18,7 +18,7 @@ tags:
   - tissue-resident-macrophage
 homepage: "https://icahn.mssm.edu/profiles/miriam-merad"
 scholar: ""
-date_updated: 2026-05-26
+date_updated: 2026-05-27
 ---
 
 ## Research areas
@@ -32,6 +32,7 @@ date_updated: 2026-05-26
 
 - [[papers/tissue-resident-macrophages-provide-pro-tumorigenic]] — co-corresponding senior supervising author (Casanova-Acebes et al., *Nature* 2021); the Merad lab provided the immunology / TAM / scRNA-seq foundation, lineage-tracing and CD169-DTR system, and Treg axis biology
 - [[papers/trem2-macrophages-associated-enhanced-response-pd]] — co-corresponding senior supervising author (Hamon et al., bioRxiv 2025); identifies hepatic TREM2 macs as protective in HCC PD-1 blockade — paradigm reversal vs the lab's prior NSCLC TREM2 finding
+- [[papers/macrophages-targets-next-generation-cancer-immunotherapy]] — co-corresponding senior author (Sun, Park, Merad, Brown 2026 Cancer Cell review); three-pillar TAM-therapy framework and 6D atlas proposal
 
 ## Recent work
 

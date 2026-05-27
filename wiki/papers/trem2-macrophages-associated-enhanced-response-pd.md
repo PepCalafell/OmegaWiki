@@ -395,6 +395,7 @@ Caveats: cohorts are small; mechanism is correlational; the quartet is observed 
 - [[concepts/sirpa-cd47-don-t-eat-me-axis]] — counterpart to CALR pro-phagocytic axis
 - [[foundations/trem2-receptor]] — central receptor
 - [[foundations/merfish-imaging-spatial]] — spatial transcriptomics method
+- [[claims/trem2-tam-hcc-better-pd1-response]] — multi-source claim; this paper is a corroborating source
 - [[foundations/pic-seq-physically-interacting-cells]] — physical-contact sequencing method
 - [[foundations/cellpose-cell-segmentation]] — segmentation pipeline
 - [[foundations/imbrave150-trial]] — phase III HCC ICB cohort

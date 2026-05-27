@@ -26,8 +26,9 @@ key_papers:
   - tissue-resident-macrophages-provide-pro-tumorigenic
   - using-pan-cancer-atlas-investigate-tumour
   - trem2-macrophages-associated-enhanced-response-pd
+  - macrophages-targets-next-generation-cancer-immunotherapy
 first_introduced: "Multiple (Katzenelenbogen 2020 *Cell*; Sharma 2020 *Cell*; Molgora 2020 *Cell*); consolidated by Mulder et al. 2021 as MoMac-VERSE cluster #3; identified as monocyte-derived 'group II' MDM signature in NSCLC by Casanova-Acebes 2021"
-date_updated: 2026-05-26
+date_updated: 2026-05-27
 related_concepts:
   - momac-verse-mnp-verse-atlas
   - tumor-associated-macrophage-immunosuppression
