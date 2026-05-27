@@ -196,6 +196,18 @@ _Auto-generated open questions. Do not edit._
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] TCGA bulk mRNA confounds tumor-cell hypoxia with stromal hypoxia. To what extent are pancancer hypoxia scores driven by malignant epithelium vs hypoxic stromal/myeloid compartments?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] The paper proposes TP53 mutation as a *consequence* of hypoxia (selection); but mutual confounding by clonal hematopoiesis or germline modifiers is not ruled out.
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Whether hypoxia-induced miR-133a-3p downregulation affects BIN1/PGM5 protein levels in vivo (not only correlationally) is open.
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Is one-carbon activation a cause or consequence of wasting in vivo?
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Does dietary methionine restriction or systemic MAT inhibition rescue cachexia phenotypes in tumour-bearing mice?
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] What is the precise transcription-factor route from IL6 to Nnmt/Mat1a/Mat2a/Kmt2a induction?
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] What is the contribution of DNA vs RNA vs histone vs small-molecule methylation in the cachectic remodelling?
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Are MNAM (liver) and methyllysines (muscle, adipose) functional drivers of organ-specific dysfunction or passive end-products?
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Can one-carbon metabolites serve as early biomarkers for pre-cachexia identification in patients?
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Whether the tissue-overarching one-carbon signature has a tissue-resident-macrophage / TAM contribution (NNMT/sarcosine biology is documented in macrophages — [[papers/macrophages-use-apoptotic-cell-derived-methionine]]).
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Whether IL6 → STAT3 → NNMT is the molecular axis (NNMT is a known STAT3 target in some contexts).
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Whether the pre-cachexia muscle glucose hypermetabolism overlaps biologically with hypoxia-driven metabolic rewiring (PC/PDH balance) documented in tumour or stromal compartments.
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Whether methionine restriction could be combined with chemotherapy that *itself* targets one-carbon (methotrexate, 5-FU) — sequencing/dosing question.
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Whether single-cell RNA-seq or spatial transcriptomics on cachectic muscle would refine the cell-type contribution (slow vs fast fibres, FAPs, satellite cells, resident macrophages).
+- [paper/multi-omics-profiling-cachexia-targeted-tissues] Whether the MNAM-rich cachectic liver state phenocopies any other liver pathology (NAFLD, hepatic regeneration) that could inform repurposing.
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Are epithelial-proinflammatory niches a fork between resolution of lung injury and tumor initiation, or specific to oncogenesis?
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Why are KRAS mutations absent from pattern 1a but enriched in pattern 1b?
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Can lineage tracing prove causality of niche → KAC → LUAD progression in vivo?
@@ -565,6 +577,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
 - [concept/fao-memory-cd8-trm-treg-program] CPT1A vs CPT1B isoform-specific immune effects.
 - [concept/fao-memory-cd8-trm-treg-program] Whether AMPK agonists (metformin) act via FAO or independent pathways for ICI synergy.
+- [concept/fidas-5-methionine-blockade-rescues-cachexia] Does systemic FIDAS-5 (or another MAT inhibitor) preserve muscle mass and survival in C26 / PDAC mice in vivo?
+- [concept/fidas-5-methionine-blockade-rescues-cachexia] Does combining FIDAS-5 with anti-IL6R (tocilizumab) outperform either alone?
+- [concept/fidas-5-methionine-blockade-rescues-cachexia] Are MTAP-deleted cachexia-associated tumours selectively sensitive to MAT2A inhibition (synthetic-lethality literature suggests yes)?
+- [concept/fidas-5-methionine-blockade-rescues-cachexia] Toxicity profile of sustained systemic MAT inhibition in lean tissue (intestine, immune cells).
 - [concept/folr2-tissue-resident-macrophage] Whether HCC FOLR2 macs are causally pro-tumorigenic or just enriched alongside other niche components (CAFs, endothelial subsets).
 - [concept/folr2-tissue-resident-macrophage] Mechanism of the tissue-context-dependent functional flip.
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
@@ -642,6 +658,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/il4i1-tumor-associated-macrophage] Compensatory induction of IL4I1 after PD-1/PD-L1 blockade
 - [concept/il4i1-tumor-associated-macrophage] Tumour-type-specific dependencies on IL4I1 vs IDO1 vs both
 - [concept/il4i1-tumor-associated-macrophage] Whether the ISG_Mo → IL4I1_Mac trajectory is reversible or terminally differentiated
+- [concept/il6-driven-cachexia-one-carbon-reprogramming] What is the molecular route from IL6R engagement to Nnmt transcription (STAT3 binding at the Nnmt promoter in liver hepatocytes)?
+- [concept/il6-driven-cachexia-one-carbon-reprogramming] Does anti-IL6R therapy in patients (tocilizumab, siltuximab) reduce NNMT/MNAM/sarcosine biomarkers proportionally to weight loss rescue?
+- [concept/il6-driven-cachexia-one-carbon-reprogramming] Is the metabolic arm IL6-specific or does any chronic-inflammation cytokine (IL1B, TNF) phenocopy?
 - [concept/immune-checkpoint-blockade] Robust per-patient predictors of ICB response.
 - [concept/immune-checkpoint-blockade] Strategies to convert cold tumours to hot.
 - [concept/immune-checkpoint-blockade] Mechanistic drivers of acquired resistance.
@@ -709,6 +728,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
 - [concept/methionine-competition-slc43a2-stat5-tcell] Tumour-selective SLC43A2 inhibitors.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Biomarkers of SLC43A2-driven methionine competition.
+- [concept/methionine-cycle-myotube-atrophy-hypermetabolism] Which downstream methylation reactions in myotubes mediate the atrophy phenotype (DNA / RNA / histone / specific protein methylation)?
+- [concept/methionine-cycle-myotube-atrophy-hypermetabolism] Is the glucose hypermetabolism phenotype a direct PC/PDH allosteric effect of methionine-cycle intermediates (e.g., SAM-dependent histone marks regulating glycolytic gene expression) or downstream of mitochondrial-dysfunction stress?
+- [concept/methionine-cycle-myotube-atrophy-hypermetabolism] Does dietary methionine restriction in tumour-bearing mice phenocopy FIDAS-5 in vitro at the muscle level?
+- [concept/methionine-cycle-myotube-atrophy-hypermetabolism] Does the methionine ↔ glucose-hyperconsumption coupling generalise to human myotubes?
 - [concept/methylation-positive-coupling-gene-expression] Genome-wide rules for predicting which VMR–gene pairs will couple positively vs negatively from sequence + chromatin features.
 - [concept/methylation-positive-coupling-gene-expression] TF-resolved attribution: which positive couplings are driven by which methylation-preferring TFs?
 - [concept/mevalonate-pathway-immune-function] Whether targeted GGPP-synthesis modulation (rather than blanket HMG-CoA-reductase inhibition) can selectively tune Treg vs Th1.
@@ -745,6 +768,13 @@ _Auto-generated open questions. Do not edit._
 - [concept/mrna-protein-discordance] Mechanism-by-mechanism dissection of *why* specific proteins are discordant (translation rate, degradation, stabilization).
 - [concept/mrna-protein-discordance] Paired single-cell mRNA + untargeted protein measurements (vs current unpaired integrations).
 - [concept/mrna-protein-discordance] Translating bulk-derived translation-rate priors into single-cell models.
+- [concept/multi-omics-coordinated-host-tissue-response-cachexia] Whether a single-cell version of this design would reveal cell-type-specific drivers within muscle, liver and adipose.
+- [concept/multi-omics-coordinated-host-tissue-response-cachexia] Whether longitudinal patient sampling could reproduce the pseudo-time signature.
+- [concept/multi-omics-coordinated-host-tissue-response-cachexia] Whether the WebApp (https://m3cav.metabolomics.fgu.cas.cz/) becomes a community standard for cachexia metabolomics queries.
+- [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] Is PC the right pharmacological handle for blocking cachectic-muscle energy leak (PC inhibition could compromise gluconeogenesis systemically)?
+- [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] Does glutamine anaplerosis blockade (CB-839 / telaglenastat) rescue muscle mass in cachexia models?
+- [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] How does the methionine-cycle activation mechanistically couple to PC/PDH flux acceleration (allosteric effects of SAM/SAH on glycolytic enzymes? methylation of metabolic-gene promoters?)?
+- [concept/muscle-glucose-hypermetabolism-cachexia-tca-rewiring] Pre-cachexia detection by 13C-glucose breath test or muscle-MRS in patients — translational potential.
 - [concept/myeloid-targeted-immunocytokine-mite] Optimal cytokine cargo (IL-2 superkine vs IL-15 vs tailored IL-2 variants)
 - [concept/myeloid-targeted-immunocytokine-mite] Adaptive resistance: do tumors downregulate MMP14 under selective pressure?
 - [concept/myeloid-targeted-immunocytokine-mite] Combination with radiotherapy / chemotherapy / other immunotherapies
@@ -763,6 +793,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/nimbosus-aggressive-prostate-phenotype] Are there tumor types beyond PCa where an analogous "constellation" exists?
 - [concept/nimbosus-aggressive-prostate-phenotype] Does the immune microenvironment modulate nimbosus emergence (cf. [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] hypoxic-MAC infiltration)?
 - [concept/nimbosus-aggressive-prostate-phenotype] Can a single molecular biomarker capture the full nimbosus state?
+- [concept/nnmt-mnam-liver-cachexia-axis] Does liver-specific Nnmt KO rescue cachexia phenotypes in tumour-bearing mice?
+- [concept/nnmt-mnam-liver-cachexia-axis] Is plasma/urinary MNAM a quantitative biomarker for cachexia severity in patients?
+- [concept/nnmt-mnam-liver-cachexia-axis] Does NNMT inhibition combine additively with IL6 blockade to improve cachexia outcomes?
+- [concept/nnmt-mnam-liver-cachexia-axis] What is the impact of NNMT-driven NAD+ salvage diversion on hepatic mitochondrial function in cachexia?
 - [concept/non-cpg-methylation-postnatal-brain] Per-pixel / per-cell mCA mapping at spatial resolution beyond cortical regions.
 - [concept/non-cpg-methylation-postnatal-brain] Decoupling mCA-driven from mCG-driven gene silencing at MeCP2-target loci.
 - [concept/noncoding-variant-tf-binding-effect] Building a TF-wide PADIT-seq atlas for variant interpretation
@@ -771,6 +805,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/nutrient-competition-tumor-immune-cells-tme] Localised nutrient restoration (e.g. intratumoural methionine, glutamine, arginine-producing bacteria).
 - [concept/nutrient-competition-tumor-immune-cells-tme] Identifying the dominant scarcity axis per tumour entity.
 - [concept/obesity-paradox-tam-pd1-glycolysis] Whether targeted TAM-PD-1 modulation benefits lean patients.
+- [concept/one-carbon-metabolism-cachexia-tissue-overarching] Which downstream methylation marks (DNA / RNA / histone / small-molecule) are causally required for cachexia wasting?
+- [concept/one-carbon-metabolism-cachexia-tissue-overarching] Is the IL6 → one-carbon axis recapitulated in human patients longitudinally (pre-cachexia → cachexia)?
+- [concept/one-carbon-metabolism-cachexia-tissue-overarching] Does the one-carbon signature interact with hypoxia-driven metabolic rewiring in tumour-bearing host tissues?
+- [concept/one-carbon-metabolism-cachexia-tissue-overarching] Can methylated products (MNAM, sarcosine, methyllysines) serve as routine clinical biomarkers for pre-cachexia detection?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] Does ontogeny-divergent HIF-1α function generalize to other tissue-resident macrophage populations (microglia, Kupffer, peritoneal, TAMs)?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] What chromatin-state difference rewires TR-AMs to be HIF-1α-independent at baseline?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] In tumor-associated macrophages of mixed ontogeny (some resident, some recruited), can HIF-targeting strategies be made ontogeny-selective?
@@ -1045,6 +1083,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
+- [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
+- [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)

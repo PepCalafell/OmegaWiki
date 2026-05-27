@@ -50,3 +50,5 @@ SAM is the cellular currency for methylation. Tracing SAM origin reveals where m
 ## Relevance to active research
 
 Central to [[papers/macrophages-use-apoptotic-cell-derived-methionine]] (Ampomah 2022 *Nat Metab*): isotope-labelled (13C5,15N) methionine in apoptotic Jurkat cells is traced into 13C5,15N-SAM and into 13C-methylcytosine on macrophage DNA — direct evidence that AC-derived methionine fuels macrophage DNA methylation via SAM.
+
+Also relevant in [[papers/multi-omics-profiling-cachexia-targeted-tissues]] (Morigny 2026 *Nat Metab*): SAH/SAM ratios trend upward in cachectic plasma, adipose tissue and tumour — consistent with sustained methyl-flux through SAM-dependent methyltransferases (NNMT, GNMT, KMT2A/B, SAT1-coupled polyamine synthesis) across multiple host tissues in cancer cachexia.

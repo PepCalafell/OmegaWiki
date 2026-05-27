@@ -28,3 +28,5 @@ IL-6 is the canonical biomarker of systemic inflammation and a cornerstone of cy
 ## Relevance to active research
 
 Tocilizumab (anti-IL-6R) and siltuximab (anti-IL-6) have defined indications in CRS and inflammatory disease but show narrower efficacy than TNF blockade across organ systems.
+
+In cancer cachexia, IL-6 is the dominant upstream regulator of the tissue-overarching one-carbon-metabolism reprogramming identified by [[papers/multi-omics-profiling-cachexia-targeted-tissues]]: tumour-cell IL6 KO (C26-IL6-KO) or systemic IL6 neutralisation rescues cachexia weight loss without reducing tumour size, and abolishes Nnmt induction (-89% by KO, -77% by antibody) plus one-carbon metabolite elevation (MNAM, thymidine in liver; di/tri-methyllysine in GC muscle). Recombinant IL6 reproduces atrophy + hypermetabolism in C2C12 myotubes, rescued by FIDAS-5 (MAT inhibitor).

@@ -50,3 +50,5 @@ If DNMT3A is the writer of DNA methylation, MAT2A is the supplier of its ink. Ce
 ## Relevance to active research
 
 Central to [[papers/macrophages-use-apoptotic-cell-derived-methionine]] (Ampomah 2022 *Nat Metab*): MAT2A inhibition with PF-9366 or siMat2a blocks AC-induced Ptgs2/Tgfb1 and TGF-β1 secretion; exogenous SAM rescues this block independent of MAT2A activity. Methionine cycle recycling provides only a minor contribution in this context.
+
+Also relevant in [[papers/multi-omics-profiling-cachexia-targeted-tissues]] (Morigny 2026 *Nat Metab*): Mat2a is muscle-dominant in the cachectic one-carbon enzyme signature (alongside Kmt2a/b methyltransferases). FIDAS-5 (a MAT inhibitor structurally related to PF-9366) rescues L-methionine- and IL6-induced atrophy and glucose hypermetabolism in C2C12 myotubes.

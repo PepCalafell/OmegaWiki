@@ -279,6 +279,12 @@ papers:
     domain: immunology
     priority: context
 
+  - slug: multi-omics-profiling-cachexia-targeted-tissues
+    title: "Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer"
+    tags: [cancer-cachexia, one-carbon-metabolism, methionine-cycle, NNMT, MNAM, sarcosine, IL6, muscle-atrophy, glucose-hypermetabolism, 13C-glucose-tracing, multi-omics, metabolomics, transcriptomics, C26-mouse-model, PDAC-cachexia, FIDAS-5, sarcopenia, methyltransferases]
+    importance: 4
+    domain: metabolism / oncology / cachexia
+    priority: reference
 concepts:
   - slug: 6d-tam-translational-framework
     title: "6D TAM translational framework"
@@ -1528,6 +1534,34 @@ concepts:
     tags: [cgamp, cgas-sting, paracrine]
     maturity: stable
 
+  - slug: one-carbon-metabolism-cachexia-tissue-overarching
+    title: "One-carbon metabolism as a tissue-overarching pathway in cancer cachexia"
+    tags: [one-carbon-metabolism, cachexia, methionine-cycle, folate-cycle, multi-tissue, methylation]
+    maturity: emerging
+  - slug: il6-driven-cachexia-one-carbon-reprogramming
+    title: "IL6-driven one-carbon metabolism reprogramming in cancer cachexia"
+    tags: [IL6, cachexia, one-carbon-metabolism, NNMT, inflammation, upstream-regulator]
+    maturity: emerging
+  - slug: methionine-cycle-myotube-atrophy-hypermetabolism
+    title: "Methionine-cycle drives myotube atrophy and glucose hypermetabolism (in vitro causality)"
+    tags: [methionine, myotube, atrophy, hypermetabolism, C2C12, FIDAS-5, cachexia]
+    maturity: emerging
+  - slug: muscle-glucose-hypermetabolism-cachexia-tca-rewiring
+    title: "Muscle glucose hypermetabolism in cachexia — PC/PDH-driven TCA flux acceleration"
+    tags: [muscle, cachexia, 13C-glucose, pyruvate-carboxylase, PDH, TCA-cycle, INCA-flux, anaplerosis, glutamine]
+    maturity: emerging
+  - slug: nnmt-mnam-liver-cachexia-axis
+    title: "NNMT-MNAM axis in cachectic liver"
+    tags: [NNMT, MNAM, liver, cachexia, nicotinamide-methylation, methylation-detoxification]
+    maturity: emerging
+  - slug: fidas-5-methionine-blockade-rescues-cachexia
+    title: "FIDAS-5 methionine-cycle blockade rescues cachexia features in C2C12 myotubes"
+    tags: [FIDAS-5, MAT-inhibitor, methionine-cycle, cachexia, therapeutic, C2C12]
+    maturity: emerging
+  - slug: multi-omics-coordinated-host-tissue-response-cachexia
+    title: "Coordinated multi-tissue host response in cancer cachexia — multi-omics integration framing"
+    tags: [multi-omics, metabolomics, transcriptomics, isotope-tracing, cachexia, multi-tissue, integration]
+    maturity: emerging
 topics:
 
 people:
@@ -1979,6 +2013,18 @@ ideas:
     tags: [bioinformatics, chromatin, genomics-core, single-cell]
     affiliation: "Department of Oncological Sciences, Tisch Cancer Institute, BiNGS Shared Resource Facility, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
 
+  - slug: pauline-morigny
+    affiliation: "Helmholtz Center Munich; Heidelberg University; DZD"
+    tags: [cachexia, metabolomics, one-carbon-metabolism]
+  - slug: maria-rohm
+    affiliation: "Institute for Diabetes and Cancer, Helmholtz Munich (PI)"
+    tags: [cachexia, PI, cancer-metabolism, adipose-biology]
+  - slug: ondrej-kuda
+    affiliation: "Institute of Physiology of the Czech Academy of Sciences, Prague (PI)"
+    tags: [PI, bioactive-lipids, metabolomics, LIMeX-pipeline]
+  - slug: stephan-herzig
+    affiliation: "Institute for Diabetes and Cancer, Helmholtz Munich; TU Munich (PI)"
+    tags: [PI, metabolic-disease, cancer-cachexia]
 experiments:
 
 claims:
@@ -7191,6 +7237,52 @@ claims:
     status: supported
     confidence: 0.8
 
+  - slug: c26-cachectic-mice-distinct-metabolome-clustering-tissues
+    title: "C26-cachectic mice show distinct, cachexia-specific metabolome clustering in plasma, liver and adipose; muscle/heart are more variable"
+  - slug: non-cax-tumour-no-host-metabolome-perturbation
+    title: "Non-cachexia-inducing NC26 tumours do not perturb host-tissue metabolomes"
+  - slug: pseudo-time-cluster1-methylated-aa-coordinated-cachexia
+    title: "Pseudo-time VSClust analysis identifies a dominant late-increase cluster enriched in methylated amino acids coordinated across host tissues in cachexia"
+  - slug: kegg-one-carbon-pyrimidine-arginine-upregulated-cachexia
+    title: "KEGG pathway analysis identifies one-carbon pool by folate, pyrimidine synthesis and arginine biosynthesis as commonly upregulated in cachexia"
+  - slug: one-carbon-products-elevated-across-tissues-cachexia
+    title: "Products of one-carbon metabolism elevated across plasma, liver, eWAT, iWAT, heart, GC muscle, soleus and tumour of cachectic mice"
+  - slug: sah-sam-thf-5mthf-ratios-trend-up-cachexia
+    title: "SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic tissues — consistent with one-carbon flux activation"
+  - slug: tissue-specific-methylated-product-signature-cachexia
+    title: "Methylated-product signature is tissue-specific in cachexia: MNAM dominates liver; sarcosine and methyllysine dominate adipose and muscle"
+  - slug: cachexia-transcriptome-remodelling-dominates-tumour-effect
+    title: "Cachexia explains 89-100% of gene-expression variance vs tumour ≤11%; 340 genes commonly altered across cachexia target tissues"
+  - slug: one-carbon-enzyme-expression-broadly-elevated-cachexia
+    title: "One-carbon enzymes coordinately upregulated across cachexia target tissues with isoform-specific patterns"
+  - slug: ipa-lps-il6-tgfb1-upstream-cachexia-reprogramming
+    title: "IPA combined-omics upstream-regulator analysis nominates LPS/inflammation, IL6 and TGFB1 as drivers of cachexia metabolic reprogramming"
+  - slug: il6-inhibition-rescues-cachexia-and-blocks-nnmt-induction
+    title: "IL6 inhibition rescues cachexia weight loss without reducing tumour size and suppresses NNMT induction"
+  - slug: il6-ko-abolishes-one-carbon-metabolite-elevation-cax
+    title: "Tumour-cell IL6 KO abolishes elevation of one-carbon metabolites in C26 cachexia"
+  - slug: l-methionine-induces-dose-dependent-myotube-atrophy-c2c12
+    title: "L-methionine induces dose-dependent myotube atrophy in C2C12 cells"
+  - slug: l-methionine-drives-glucose-hyperconsumption-myotube
+    title: "L-methionine treatment of C2C12 myotubes increases glucose consumption and TCA isotopologue label"
+  - slug: fidas5-induces-myotube-hypertrophy-reduces-glucose-uptake
+    title: "FIDAS-5 (MAT inhibitor) induces C2C12 myotube hypertrophy and reduces glucose consumption — opposite of L-methionine"
+  - slug: fidas5-rescues-il6-induced-atrophy-and-hypermetabolism-c2c12
+    title: "FIDAS-5 rescues IL6-induced one-carbon induction, myotube atrophy and elevated glucose consumption in C2C12 cells"
+  - slug: methionine-atrophy-link-cell-type-specific-not-adipocyte
+    title: "Methionine → atrophy/hypermetabolism link is cell-type-specific: 3T3-L1 adipocytes do not respond"
+  - slug: 13c6-glucose-labels-tca-elevated-cachectic-muscle-heart
+    title: "13C6-glucose tracing shows elevated TCA isotopologues in GC muscle, soleus and heart of cachectic C26 mice"
+  - slug: pyruvate-carboxylase-active-cachectic-muscle-anaplerotic
+    title: "M+3 labelling and [1-13C]-pyruvate tracing show pyruvate carboxylase is active in cachectic muscle"
+  - slug: inca-flux-pc-pdh-2ogdh-elevated-cachectic-muscle
+    title: "INCA metabolic-flux modelling shows increased PC, PDH and 2-OGDH fluxes plus glutamine anaplerosis in cachectic GC muscle"
+  - slug: pre-cachectic-muscle-tca-flux-trends-early
+    title: "Pre-cachectic mice already show trends towards increased TCA flux — muscle glucose hypermetabolism is an early event"
+  - slug: one-carbon-conserved-six-mouse-cachexia-models-and-humanised
+    title: "One-carbon-metabolism signature conserved across six mouse cachexia models and humanised SW480 model"
+  - slug: patients-sarcopenia-show-elevated-nnmt-one-carbon-genes-liver-muscle
+    title: "Cancer patients with sarcopenia show elevated NNMT and one-carbon signature gene expression in liver and skeletal muscle"
 Summary:
 
 foundations:
@@ -8973,3 +9065,75 @@ foundations:
     title: "STK11 / LKB1 — serine/threonine kinase tumor suppressor"
     status: mainstream
     domain: oncology / tumor suppressor
+  - slug: cancer-cachexia
+    title: "Cancer cachexia"
+    status: mainstream
+    domain: oncology / metabolic disease
+  - slug: nnmt-nicotinamide-n-methyltransferase
+    title: "NNMT — nicotinamide N-methyltransferase"
+    status: mainstream
+    domain: metabolism / methylation
+  - slug: mat1a-methionine-adenosyltransferase-1a
+    title: "MAT1A — methionine adenosyltransferase 1A (hepatic SAM synthase)"
+    status: mainstream
+    domain: metabolism / one-carbon biology
+  - slug: gnmt-glycine-n-methyltransferase
+    title: "GNMT — glycine N-methyltransferase"
+    status: mainstream
+    domain: metabolism / methylation
+  - slug: sat1-spermidine-spermine-acetyltransferase
+    title: "SAT1 — spermidine/spermine N1-acetyltransferase"
+    status: mainstream
+    domain: metabolism / polyamine biology
+  - slug: sarcosine-metabolite
+    title: "Sarcosine (N-methylglycine)"
+    status: mainstream
+    domain: metabolism / one-carbon biology
+  - slug: mnam-1-methylnicotinamide
+    title: "MNAM (1-methylnicotinamide)"
+    status: mainstream
+    domain: metabolism / methylation
+  - slug: fidas-5-mat-inhibitor
+    title: "FIDAS-5 — methionine adenosyltransferase (MAT) inhibitor"
+    status: mainstream
+    domain: chemical biology / one-carbon biology
+  - slug: c26-colon-carcinoma-cachexia-model
+    title: "C26 colon carcinoma mouse model of cancer cachexia"
+    status: mainstream
+    domain: oncology / cachexia models
+  - slug: panc02-pdac-cachexia-model
+    title: "Panc02 PDAC mouse model of cancer cachexia"
+    status: mainstream
+    domain: oncology / cachexia models
+  - slug: sw480-humanised-cachexia-model
+    title: "SW480 humanised cachexia mouse model"
+    status: mainstream
+    domain: oncology / cachexia models
+  - slug: c2c12-myotube-model
+    title: "C2C12 myotube model"
+    status: mainstream
+    domain: cell biology / muscle biology
+  - slug: 13c6-glucose-tracer
+    title: "[13C6]-glucose tracer"
+    status: mainstream
+    domain: mass spectrometry / metabolic flux
+  - slug: inca-isotopomer-network-analysis
+    title: "INCA — Isotopomer Network Compartmental Analysis"
+    status: mainstream
+    domain: metabolic flux analysis
+  - slug: pyruvate-carboxylase-pc
+    title: "Pyruvate carboxylase (PC)"
+    status: mainstream
+    domain: metabolism / TCA anaplerosis
+  - slug: sarcopenia-clinical-syndrome
+    title: "Sarcopenia (clinical syndrome)"
+    status: mainstream
+    domain: clinical medicine / muscle biology
+  - slug: vsclust-clustering
+    title: "VSClust — variance-sensitive clustering of omics data"
+    status: mainstream
+    domain: bioinformatics / clustering
+  - slug: kegg-pathway-database
+    title: "KEGG — Kyoto Encyclopedia of Genes and Genomes pathway database"
+    status: mainstream
+    domain: bioinformatics / pathway analysis

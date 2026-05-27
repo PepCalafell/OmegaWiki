@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (882 total)
+## Claims (905 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (46 total)
+## Papers (47 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -45,15 +45,15 @@ _Auto-generated open questions. Do not edit._
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
+- [4] Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer (metabolism / oncology / cachexia)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
-- [4] TREM2 macrophages are associated with enhanced response to PD-1 blockade in human hepatocellular carcinoma (tumor immunology / hepatocellular carcinoma / single-cell genomics)
-## Recent Relationships (2004 total)
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/sting-agonist-clinical-translational-gap
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/dmxaa-activates-only-murine-sting
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/epigenetic-sting-silencing-many-cancers
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/cin-chronic-sting-nfkb-il6-drives-metastasis
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/trex1-adaptive-innate-immune-checkpoint
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/enpp1-degrades-cgamp-drives-breast-cancer
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/sting-tcell-intrinsic-cytotoxicity
-  papers/targeting-sting-generate-therapeutic-anti-tumor --supports--> claims/nk-cells-resistant-to-sting-cytotoxicity
-  papers/targeting-sting-generate-therapeutic-anti-tumor -
+## Recent Relationships (2057 total)
+  papers/multi-omics-profiling-cachexia-targeted-tissues --derived_from--> foundations/ingenuity-pathway-analysis
+  papers/multi-omics-profiling-cachexia-targeted-tissues --derived_from--> foundations/il-6-cytokine
+  papers/multi-omics-profiling-cachexia-targeted-tissues --supports--> claims/c26-cachectic-mice-distinct-metabolome-clustering-tissues
+  papers/multi-omics-profiling-cachexia-targeted-tissues --supports--> claims/non-cax-tumour-no-host-metabolome-perturbation
+  papers/multi-omics-profiling-cachexia-targeted-tissues --supports--> claims/pseudo-time-cluster1-methylated-aa-coordinated-cachexia
+  papers/multi-omics-profiling-cachexia-targeted-tissues --supports--> claims/kegg-one-carbon-pyrimidine-arginine-upregulated-cachexia
+  papers/multi-omics-profiling-cachexia-targeted-tissues --supports--> claims/one-carbon-products-elevated-across-tissues-cachexia
+  papers/multi-omics-profiling-cachexia-targeted-tissues --supports--> claims/sah-sam-thf-5mthf-ratios-trend-up-cachexia
+  p

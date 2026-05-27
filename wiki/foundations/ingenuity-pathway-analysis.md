@@ -39,3 +39,5 @@ Statistical enrichment on top of an expert-curated graph beats GO/KEGG for clini
 
 ## Relevance to active research
 [[papers/spatial-transcriptomics-reveals-distinct-conserved-tumor]] uses IPA to predict TC- and LE-specific canonical pathways (e.g. GP6, EIF2, HOTAIR in LE; MSP-RON, IL-33, p38 MAPK in TC) and upstream regulators (EHF, BCL3, SORL1, EGFR).
+
+[[papers/multi-omics-profiling-cachexia-targeted-tissues]] uses IPA combined-omics analysis to integrate transcriptomics + metabolomics across five cachexia target tissues and to nominate LPS/inflammation, IL6 and TGFB1 as the top upstream regulators of cachexia metabolic reprogramming — the analytical step that bridged from the empirical multi-tissue one-carbon signature to the testable IL6 perturbation experiments.
