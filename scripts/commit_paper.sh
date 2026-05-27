@@ -11,8 +11,23 @@ set -u
 cd "$(dirname "$0")/.." || { echo "ERROR: no se pudo ir a la raíz del repo"; exit 1; }
 
 # --- 1. Verificación previa (salvaguarda) ---
+# Deducir el paper recién ingestado: el .md nuevo (?? o A) en wiki/papers/.
+# Si hay exactamente uno, se le pasa el slug a verify_paper.sh para que
+# valide ESE paper (y no "el más reciente por fecha", que puede ser otro
+# si el ingest tocó papers viejos por edges). Si hay 0 o >1, no se adivina:
+# verify_paper.sh cae a su modo fecha (y avisa por sí mismo).
+mapfile -t NEW_PAPERS < <(git status --porcelain wiki/papers/ \
+  | grep -E '^(\?\?|A ) ' | grep -E '\.md$' | sed -E 's/^.{3}//')
+VERIFY_SLUG=""
+if [ "${#NEW_PAPERS[@]}" -eq 1 ]; then
+  VERIFY_SLUG=$(basename "${NEW_PAPERS[0]}" .md)
+  echo ">>> Paper detectado para verificar: $VERIFY_SLUG"
+elif [ "${#NEW_PAPERS[@]}" -gt 1 ]; then
+  echo ">>> AVISO: ${#NEW_PAPERS[@]} papers nuevos detectados — no se puede"
+  echo "    deducir cuál verificar. verify_paper.sh usará el modo fecha."
+fi
 echo ">>> Corriendo verificación previa..."
-if ! ./scripts/verify_paper.sh; then
+if ! ./scripts/verify_paper.sh $VERIFY_SLUG; then
   echo ""
   echo "ABORTADO: la verificación falló. Arregla los problemas y reintenta."
   exit 1

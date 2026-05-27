@@ -16,13 +16,30 @@ echo "========================================================"
 echo " VERIFICACIÓN POST-INGEST"
 echo "========================================================"
 
-# --- Paper más reciente ---
-NEW_PAPER=$(ls -t wiki/papers/*.md 2>/dev/null | head -1)
-if [ -z "$NEW_PAPER" ]; then
-  echo "ERROR: no se encontró ningún paper en wiki/papers/"
-  exit 1
+# --- Paper a verificar ---
+# Si se pasa un slug como $1, se verifica ESE paper (modo fiable).
+# Sin argumento, se cae al paper más reciente por fecha (modo mtime),
+# que NO siempre es el recién ingestado si el ingest tocó papers viejos
+# por edges. En ese caso se avisa explícitamente.
+if [ $# -ge 1 ]; then
+  NEW_PAPER="wiki/papers/${1}.md"
+  if [ ! -f "$NEW_PAPER" ]; then
+    echo "ERROR: no existe el paper 'wiki/papers/${1}.md'"
+    echo "       Comprueba el slug (sin la extensión .md)."
+    exit 1
+  fi
+  echo "Paper a verificar: $(basename "$NEW_PAPER")  [slug explícito]"
+else
+  NEW_PAPER=$(ls -t wiki/papers/*.md 2>/dev/null | head -1)
+  if [ -z "$NEW_PAPER" ]; then
+    echo "ERROR: no se encontró ningún paper en wiki/papers/"
+    exit 1
+  fi
+  echo "Paper a verificar: $(basename "$NEW_PAPER")"
+  echo "  [AVISO] modo fecha — sin slug explícito. Si el ingest tocó"
+  echo "  papers viejos por edges, este puede NO ser el recién ingestado."
+  echo "  Para verificar uno concreto: ./scripts/verify_paper.sh <slug>"
 fi
-echo "Paper más reciente: $(basename "$NEW_PAPER")"
 echo ""
 
 # --- 1. Validator Step 4E ---
