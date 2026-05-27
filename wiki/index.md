@@ -247,6 +247,12 @@ papers:
     importance: 5
     domain: neuroimmunology / dermatology / sympathetic nervous system
     priority: useful
+  - slug: hif-regulates-mitochondrial-function-bone-marrow
+    title: "HIF-1 regulates mitochondrial function in bone marrow-derived macrophages but not in tissue-resident alveolar macrophages"
+    tags: [HIF1A, BMDM, alveolar-macrophage, macrophage-ontogeny, immunometabolism, glycolysis, OXPHOS, c-Myc, DoRothEA, FG-4592, roxadustat, LysM-CreERT2, itaconate, succinate, TCA-cycle, LPS]
+    importance: 3
+    domain: immunology / immunometabolism / hypoxia-signaling / macrophage-biology
+    priority: useful
 
 concepts:
   - slug: ac-derived-methionine-sam-macrophage-epigenetics
@@ -1349,6 +1355,14 @@ topics:
     title: "IL-12-armored anti-TAM CAR T cells"
     tags: [car-t, macrophage, cancer-immunotherapy, cytokine-armored]
     maturity: emerging
+  - slug: ontogeny-divergent-hif1a-macrophage-metabolism
+    title: "Ontogeny-divergent HIF-1α function in macrophage metabolism and inflammation"
+    tags: [HIF1A, macrophage-ontogeny, BMDM, alveolar-macrophage, immunometabolism, tissue-residency, glycolysis, oxidative-phosphorylation]
+    maturity: active
+  - slug: c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm
+    title: "c-Myc compensatory mitochondrial/ribosomal axis in HIF-1α-deficient BMDMs"
+    tags: [MYC, HIF1A, BMDM, OXPHOS, ribosomal-biogenesis, cell-proliferation, transcription-factor-antagonism, immunometabolism]
+    maturity: emerging
 
 people:
   - slug: alexander-coulton
@@ -1756,6 +1770,18 @@ experiments:
     relevance_tier: emerging
   - slug: yanqing-wang
     name: "Yanqing Wang"
+    role: pi
+    relevance_tier: emerging
+  - slug: parker-s-woods
+    name: "Parker S. Woods"
+    role: individual
+    relevance_tier: emerging
+  - slug: gokhan-m-mutlu
+    name: "Gökhan M. Mutlu"
+    role: pi
+    relevance_tier: emerging
+  - slug: robert-b-hamanaka
+    name: "Robert B. Hamanaka"
     role: pi
     relevance_tier: emerging
 
@@ -6152,6 +6178,36 @@ Summary:
   - slug: oprk1-knockout-eosinophils-not-required-stress-ad
     source_papers: [sympathetic-eosinophil-axis-orchestrates-psychological-stress]
     status: supported
+  - slug: hif1a-deletion-asymmetric-transcriptome-bmdm-vs-tram
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: tram-hif1a-required-fg4592-glycolytic-shift
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: bmdm-hif1a-required-baseline-glycolysis
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: bmdm-hif1a-loss-enhances-mitochondrial-oxphos
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: bmdm-lps-glycolytic-flux-hif1a-independent
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: bmdm-hif1a-loss-reduces-cytokine-secretion
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: bmdm-hif1a-loss-derepresses-myc-regulon-dorothea
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: myc-sirna-reverses-mitochondrial-elevation-hif1a-ko-bmdm
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: tram-hif1a-not-stabilized-by-lps-only-by-hypoxia
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
+  - slug: bmdm-hif1a-loss-elevates-tca-itaconate-succinate-citrate
+    source_papers: [hif-regulates-mitochondrial-function-bone-marrow]
+    status: supported
 
 foundations:
   - slug: 10x-visium-spatial-transcriptomics
@@ -7748,3 +7804,23 @@ foundations:
     tags: [behavioral-paradigm, psychological-stress, mouse]
     domain: behavioral paradigm
     status: emerging
+  - slug: fg-4592-roxadustat
+    title: "FG-4592 / Roxadustat (PHD inhibitor, HIF stabilizer)"
+    tags: [pharmacology, PHD-inhibitor, HIF-stabilizer, roxadustat, hypoxia-mimetic]
+    domain: pharmacology / hypoxia-signaling
+    status: mainstream
+  - slug: seahorse-extracellular-flux-analyzer
+    title: "Seahorse extracellular flux analyzer (XF24 / XFe96)"
+    tags: [methods, bioenergetics, immunometabolism, ECAR, OCR]
+    domain: methods / immunometabolism / bioenergetics
+    status: mainstream
+  - slug: bone-marrow-derived-macrophage-bmdm
+    title: "Bone marrow-derived macrophage (BMDM)"
+    tags: [macrophage, in-vitro-system, M-CSF, mouse]
+    domain: immunology / macrophage-biology
+    status: mainstream
+  - slug: tissue-resident-alveolar-macrophage
+    title: "Tissue-resident alveolar macrophage (TR-AM)"
+    tags: [macrophage, tissue-residency, lung, GM-CSF, SiglecF]
+    domain: immunology / lung-biology / macrophage-biology
+    status: mainstream

@@ -25,6 +25,7 @@ key_papers:
   - hypoxia-signaling-human-health-diseases-implications
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
   - metabolism-tissue-macrophages-homeostasis-pathology
+  - hif-regulates-mitochondrial-function-bone-marrow
 first_introduced: "Warburg 1924; HIF link Semenza 1990s"
 date_updated: 2026-05-13
 related_concepts:

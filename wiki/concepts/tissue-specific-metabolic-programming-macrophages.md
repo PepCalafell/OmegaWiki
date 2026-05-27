@@ -17,6 +17,7 @@ maturity: active
 key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
   - physiology-diseases-tissue-resident-macrophages
+  - hif-regulates-mitochondrial-function-bone-marrow
 related_concepts:
   - tissue-specific-lineage-determining-factors-macrophage
   - macrophage-ontogeny-resident-vs-monocyte-derived

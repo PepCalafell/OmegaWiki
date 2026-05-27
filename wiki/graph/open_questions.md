@@ -87,6 +87,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/emerging-strategies-investigate-biology-early-cancer] For solid tumours without clinically defined precursor lesions, what minimal molecular signature can mark "precancerous cells" in single-cell atlases?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Is the immune surveillance-to-evasion switch reversible by current ICI or by pre-CAF/senescent-cell-targeted interception?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Does ecDNA emergence have an analogue in cancers other than EAC?
+- [paper/hif-regulates-mitochondrial-function-bone-marrow] Does HIF-1α-Myc antagonism explain mitochondrial-OXPHOS / cytokine phenotypes in other macrophage ontogenies?
+- [paper/hif-regulates-mitochondrial-function-bone-marrow] Does in-vivo FG-4592 / roxadustat administration in ARDS models recapitulate the ontogeny-divergent effect?
+- [paper/hif-regulates-mitochondrial-function-bone-marrow] Why does culture with GM-CSF apparently confer HIF-1α inducibility on TR-AMs (Zhu et al.) — is it proliferation-coupled HIF biology?
+- [paper/hif-regulates-mitochondrial-function-bone-marrow] Whether ontogeny-divergent HIF-1α function extends to tumor-associated macrophages of mixed ontogeny — directly relevant to the hypoxia/macrophage thesis.
+- [paper/hif-regulates-mitochondrial-function-bone-marrow] Whether scRNA-seq "HIF activity scores" used in pan-cancer macrophage atlases need to be re-interpreted per macrophage cluster's ontogenic origin.
+- [paper/hif-regulates-mitochondrial-function-bone-marrow] Whether the c-Myc compensatory axis is exploitable therapeutically (e.g. combined HIF-1α + Myc inhibition to fully suppress recruited-macrophage pro-inflammation in ARDS).
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "How does Nrp-1, which is produced by cancer cells, promotes M2 macrophage polarization under hypoxic conditions?" (p.11)
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "The molecular mechanism of MYDGF action in tumor progression is still unclear" (p.11)
 - [paper/hypoxia-driven-crosstalk-between-tumor-tumor] "Mechanisms of these miRNAs [miR-1305, miR-21, miR-940] have not been thoroughly studied" (p.9)
@@ -438,6 +444,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/batch-removal-vs-bioconservation-tradeoff] Does reference-mapping (scArches, Azimuth) reformulation escape the tradeoff?
 - [concept/bile-acid-treg-th17-rebalancing] Reproducibility of isoalloLCA Treg induction at physiological human gut concentrations.
 - [concept/bile-acid-treg-th17-rebalancing] Pharmacological agonists of TGR5 / antagonists of RORγt selective for immune over metabolic compartments.
+- [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Does the Myc-compensation also operate in vivo (e.g. in HIF-1α-deficient infiltrating macrophages in tumors)?
+- [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Is the proliferative shift mechanistically linked to the c-Myc/ribosomal biogenesis observation in tumor-associated macrophages?
+- [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Could PHD-inhibitor therapies (which stabilise rather than ablate HIF-1α) trigger the opposite — Myc suppression and impaired macrophage proliferation in inflammation?
 - [concept/car-t-cell-therapy] Improving CAR-T persistence and trafficking in solid tumours.
 - [concept/car-t-cell-therapy] Combinations that sensitize tumour cells (e.g. type I IFN signalling in breast cancer organoids).
 - [concept/car-t-cell-therapy] Overcoming hypoxic/metabolic suppression of CAR-T function.
@@ -690,6 +699,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/nutrient-competition-tumor-immune-cells-tme] Localised nutrient restoration (e.g. intratumoural methionine, glutamine, arginine-producing bacteria).
 - [concept/nutrient-competition-tumor-immune-cells-tme] Identifying the dominant scarcity axis per tumour entity.
 - [concept/obesity-paradox-tam-pd1-glycolysis] Whether targeted TAM-PD-1 modulation benefits lean patients.
+- [concept/ontogeny-divergent-hif1a-macrophage-metabolism] Does ontogeny-divergent HIF-1α function generalize to other tissue-resident macrophage populations (microglia, Kupffer, peritoneal, TAMs)?
+- [concept/ontogeny-divergent-hif1a-macrophage-metabolism] What chromatin-state difference rewires TR-AMs to be HIF-1α-independent at baseline?
+- [concept/ontogeny-divergent-hif1a-macrophage-metabolism] In tumor-associated macrophages of mixed ontogeny (some resident, some recruited), can HIF-targeting strategies be made ontogeny-selective?
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
 - [concept/osteoclast-multinucleated-macrophage-bone] The role of osteoclasts as immune cells (recent reports of osteoclast-derived antigen presentation in inflammation).
 - [concept/osteoclast-multinucleated-macrophage-bone] Cross-talk between adipose macrophages and osteoclasts in bone marrow adipose tissue.

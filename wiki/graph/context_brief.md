@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (774 total)
+## Claims (784 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (41 total)
+## Papers (42 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,12 +47,12 @@ _Auto-generated open questions. Do not edit._
 - [5] Multimodal spatial-omics reveal co-evolution of alveolar progenitors and proinflammatory niches in progression of lung precursor lesions (oncology)
 - [5] JAK-STAT signaling maintains homeostasis in T cells and macrophages (immunology)
 - [5] Physiology and diseases of tissue-resident macrophages (immunology / developmental biology / cell biology)
-## Recent Relationships (1762 total)
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --derived_from--> foundations/siglec-f-eosinophil-marker
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --derived_from--> foundations/pseudorabies-virus-retrograde-tracing
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --derived_from--> foundations/sb297006-ccr3-antagonist
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --derived_from--> foundations/repeated-high-platform-stress-rhs
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --derived_from--> foundations/snrna-seq-single-nucleus
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --derived_from--> foundations/cre-loxp-recombinase-system
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --supports--> claims/stress-eosinophilia-correlation-ad-severity-human
-  papers/sympathetic-eosinophil-axis-orchestrates-psychological-stress --su
+## Recent Relationships (1788 total)
+  papers/hif-regulates-mitochondrial-function-bone-marrow --introduces_concept--> concepts/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm
+  papers/hif-regulates-mitochondrial-function-bone-marrow --extends_concept--> concepts/hif-dependent-glycolysis-immune-cell-differentiation
+  papers/hif-regulates-mitochondrial-function-bone-marrow --uses_concept--> concepts/macrophage-ontogeny-resident-vs-monocyte-derived
+  papers/hif-regulates-mitochondrial-function-bone-marrow --uses_concept--> concepts/warburg-effect-hif1a-glycolytic-reprogramming
+  papers/hif-regulates-mitochondrial-function-bone-marrow --uses_concept--> concepts/tissue-specific-metabolic-programming-macrophages
+  papers/hif-regulates-mitochondrial-function-bone-marrow --uses_concept--> concepts/m1-macrophage-tca-breaks-itaconate-succinate
+  papers/hif-regulates-mitochondrial-function-bone-marrow --derived_from--> foundations/hif1a
+  papers/hif-regulates-mitochondrial-function-bone-marrow --derived_from--> foundations
