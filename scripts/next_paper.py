@@ -21,6 +21,7 @@ NOISE_PREFIXES = ("preview_", "comment_", "biorxiv ", "brief_comm_")
 # substring-del-filename -> slug real en wiki
 KNOWN_ALIASES = {
     "calafell_2024_nfkb_tet2": "nf-kb-tet2-promote-macrophage-reprogramming",
+    "sympathetic-eosinophil axis orchestrates": "sympathetic-eosinophil-axis-orchestrates-psychological-stress",
 }
 
 
