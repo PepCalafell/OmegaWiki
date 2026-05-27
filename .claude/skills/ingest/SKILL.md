@@ -254,7 +254,7 @@ Skip this whole step in INIT MODE — the parent `/init` handles it at fan-in.
 ```
 
 - For each reference whose arXiv ID or title resolves to an existing `wiki/papers/{slug}.md`, add a bibliographic `cites` row to `graph/citations.jsonl`.
-- Add a semantic paper-to-paper edge in `graph/edges.jsonl` only when the source text gives a clear cue. Edge-type selection is in `references/cross-references.md`. If no semantic relation cleanly fits, keep only the `cites` row.
+- Add a semantic paper-to-paper edge in `graph/edges.jsonl` only when BOTH hold: (a) the source text gives a clear cue, AND (b) the target paper already exists as a `wiki/papers/{slug}.md` file. Check the file exists before writing the edge — this is a single file-existence check, not a graph audit. NEVER create a paper-to-paper edge (or its `[[papers/{slug}]]` wikilink in the Related section) toward a paper that is only cited but not itself ingested. Edge-type selection is in `references/cross-references.md`. If no semantic relation cleanly fits, or the target paper is not in the wiki, keep only the `cites` row.
 - For each citation already in the wiki, append the citer's slug to this paper's `cited_by`.
 - Surface unmatched high-citation references in the final report so the user can decide whether to follow up with another `/ingest`.
 
