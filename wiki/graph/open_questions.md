@@ -203,6 +203,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] How does the SPI-C/NRF2/HO-1 iron-recycling program in RPMs/KCs interact with **hypoxia-driven changes** in iron handling (e.g. HIF stabilization by iron via IRP1, IDO/ferroptosis links)? The review hints at but does not detail this.
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] For my own thesis context: **how does the in-vivo tissue-resident metabolic program of TAMs compare with the IPF-AM "FAO-locked" state**? Both involve macrophages in chronic, lipid-rich, hypoxic microenvironments; mechanistic parallels could be exploited.
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] The clinical implication of itaconate/IRG1 depletion in IPF AMs maps onto the user's wiki: 4-OI (cell-permeable itaconate) is a TET2 inhibitor — does its antifibrotic action in IPF involve TET2-mediated macrophage reprogramming, connecting to the [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] axis?
+- [paper/mitochondrial-vhl-rewires-cell-metabolism-hypoxia] Whether mitochondrial VHL matters in other hypoxia-related pathologies (myocardial ischemia, COPD).
+- [paper/mitochondrial-vhl-rewires-cell-metabolism-hypoxia] Whether VHL regulates additional mitochondrial enzymes (TCA cycle, OXPHOS).
+- [paper/mitochondrial-vhl-rewires-cell-metabolism-hypoxia] Whether the findings translate to renal cancer patients without dedicated clinical design.
+- [paper/mitochondrial-vhl-rewires-cell-metabolism-hypoxia] What governs the R167Q (type 2B) exception that does not gain mitochondrial function?
+- [paper/mitochondrial-vhl-rewires-cell-metabolism-hypoxia] Is the competitive ubiquitination-vs-import switch a general regulatory principle for substrate-empty E3 ligases?
+- [paper/mitochondrial-vhl-rewires-cell-metabolism-hypoxia] Could mutation-subtype-stratified metabolic targeting (SRC/BCAT/GDH inhibitors) be a precision strategy in missense-VHL ccRCC?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Does the ancestry-specific hypoxia signal in BRCA reflect biology or socioeconomic confounding (selection bias in TCGA)?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Are the hypoxia-mutation co-occurrences causally linked, or co-selected by independent microenvironmental pressures?
 - [paper/molecular-landmarks-tumor-hypoxia-across-cancer] Can the nimbosus signature drive treatment-decision prospective trials in localized PCa?
@@ -682,6 +688,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-responsive-macrophage-subset-pdac] Spatial localisation: do hypoxia-responsive TAMs co-occupy tumour hypoxic niches (CA9+, FMISO-PET-positive regions)?
 - [concept/hypoxia-responsive-macrophage-subset-pdac] Functional perturbation: does HIF1α / HIF2α deletion in macrophages abolish the hypoxia-responsive cluster?
 - [concept/hypoxia-responsive-macrophage-subset-pdac] Mapping to MoMac-VERSE / Coulton 23-cluster atlas: which canonical TAM state is the hypoxia-responsive cluster?
+- [concept/hypoxic-vhl-self-ubiquitination-hif1a-shielding] Quantitative partition between degraded vs imported VHL across O₂ levels and cell types.
+- [concept/hypoxic-vhl-self-ubiquitination-hif1a-shielding] Whether other substrate-empty E3 ligases use analogous shielding.
 - [concept/idh1-2-mutation-2hg-immune-exclusion] Optimal sequencing of mIDH inhibitors with ICB.
 - [concept/idh1-2-mutation-2hg-immune-exclusion] Translatable 2HG biomarkers.
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
@@ -742,6 +750,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
 - [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
+- [concept/leucine-allosteric-gdh-glutaminolysis-activation] Quantitative split of glutamine carbon between lipids and nucleotides under this regime.
+- [concept/leucine-allosteric-gdh-glutaminolysis-activation] Whether the leucine→GDH axis is druggable for hypoxia-related disease.
 - [concept/lipid-rafts-bcr-tcr-signaling] Whether α2,6-sialylation control is a viable handle for psoriasis / atopic dermatitis where Th17 is central.
 - [concept/lipid-rafts-bcr-tcr-signaling] Drug-discovery tractability of "raft modulators" (cholesterol-depleting agents lack specificity).
 - [concept/low-affinity-tf-binding-site] Universal definition of "low-affinity but functional" across TF families
@@ -783,6 +793,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/mir-210-hypoxia-induced-microrna] Whether miR-210-mediated mitochondrial repression *causes* the Warburg shift or amplifies a HIF1A-driven program is debated.
 - [concept/mir-210-hypoxia-induced-microrna] Therapeutic targeting of miR-210 (anti-miR strategies) has been explored preclinically with mixed results.
 - [concept/mir-210-hypoxia-induced-microrna] Single-cell resolution of miR-210 in tumor vs stromal compartments remains underexplored.
+- [concept/mitochondrial-vhl-noncanonical-hypoxia-function] Relevance in other hypoxic pathologies (myocardial ischemia, COPD).
+- [concept/mitochondrial-vhl-noncanonical-hypoxia-function] Structural basis of competitive import (VBC assembly vs TOM22 binding).
+- [concept/mitochondrial-vhl-noncanonical-hypoxia-function] Translatability to renal cancer patients.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether GM-CSF-derived or tissue-resident MACs reproduce the C2 hypomethylation under hypoxia.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] TET-isoform specificity (TET2 vs TET1/3) at C2 loci.
 - [concept/mmac1-hypoxic-inflammatory-macrophage] Whether the mMAC1 → T-cell crosstalk is causally responsible for the BLCA/OC survival benefit.
@@ -897,6 +910,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/perivascular-immune-stromal-niche-skin-salt] Does PERIVASC I expansion precede or follow inflammatory infiltration in skin disease?
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
+- [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Broader catalogue of PRMT5 metabolic-enzyme substrates.
+- [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Therapeutic exploitation of the methionine–leucine crosstalk in hypoxic disease.
 - [concept/proteomic-cms-markers-colorectal-cancer] An IHC- or DIA-based CMS classifier deployable in routine pathology.
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
@@ -947,6 +962,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatially-variable-gene-detection] Specialised SVP detection for spatial ATAC-seq (current SVG methods fail; see [[concepts/spatial-atac-svp-detection-gap]]).
 - [concept/spatially-variable-gene-detection] SVG–SVP integration for spatial gene-regulatory networks.
 - [concept/spatially-variable-gene-detection] Rotation- and registration-invariant SVG scoring.
+- [concept/src-vhl-y185-phosphorylation-mitochondrial-axis] Full set of hypoxia-responsive VHL PTMs.
+- [concept/src-vhl-y185-phosphorylation-mitochondrial-axis] Whether targeting SRC-pVHL is selective enough for therapy.
 - [concept/stat1-isoform-specificity-alpha-beta] Identify isoform-specific chromatin binding sites and protein partners.
 - [concept/stat1-isoform-specificity-alpha-beta] Test STAT1β-specific roles in human immune cells, where the literature is even sparser.
 - [concept/stat5b-n642h-neomorphic-oncogenic-driver] Identify the protein-interaction partners that distinguish STAT5BN642H from STAT5-WT.
@@ -1080,8 +1097,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumour-immune-microenvironment] Spatial-transcriptomic mapping of TLS formation across tumour types.
 - [concept/tumour-infiltrating-lymphocyte] Identifying clonotypes most predictive of clinical benefit.
 - [concept/tumour-infiltrating-lymphocyte] Spatial determinants of TIL function (TLS proximity, hypoxic niches).
+- [concept/type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc] Whether mutation-subtype-stratified metabolic targeting (SRC/BCAT/GDH) benefits ccRCC patients.
+- [concept/type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc] Mechanistic basis of the R167Q exception.
 - [concept/variably-methylated-regions-vmr] Statistical model for VMR significance (rather than top-N heuristic).
 - [concept/variably-methylated-regions-vmr] Joint VMR / variable-accessibility / variable-gene region calling in spatial multi-omics data.
+- [concept/vhl-mccc2-leucine-catabolism-inhibition] Whether VHL similarly regulates other carboxylases/mitochondrial enzymes.
+- [concept/vhl-mccc2-leucine-catabolism-inhibition] Quantitative contribution of MCCC inhibition vs other hypoxic metabolic changes.
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF inhibitors synergize with antivirals to clear HBV cccDNA
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF stabilization is a biomarker of severe COVID-19
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Mechanism of ORF3a-mitochondrial ROS coupling
@@ -1137,9 +1158,11 @@ _Auto-generated open questions. Do not edit._
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
+- [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
+- [claim/type-2b-vhl-missense-mutants-enhance] Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
 - [claim/ups-markers-conflicting-evidence-cac] MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity (status: weakly_supported)
 - [claim/wnt2-fzd2-cardiomyocyte-pharyngeal-mesoderm-ligand-receptor] Wnt2 (cardiomyocyte) — Fzd2 (pharyngeal mesoderm) emerges as a predicted ligand-receptor pair underlying cardiomyocyte–pharyngeal-mesoderm covariation in E8.5 embryo, consistent with known WNT-dependence of SHF progenitor proliferation (status: weakly_supported)

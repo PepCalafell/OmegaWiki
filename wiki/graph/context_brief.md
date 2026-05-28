@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (934 total)
+## Claims (952 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (49 total)
+## Papers (50 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,13 +47,14 @@ _Auto-generated open questions. Do not edit._
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
-## Recent Relationships (2121 total)
-  papers/cancer-associated-cachexia-bridging-clinical-findings --derived_from--> foundations/fmri-functional-mri-method
-  papers/cancer-associated-cachexia-bridging-clinical-findings --derived_from--> foundations/tnf-tumor-necrosis-factor
-  papers/cancer-associated-cachexia-bridging-clinical-findings --derived_from--> foundations/il-6-cytokine
-  papers/cancer-associated-cachexia-bridging-clinical-findings --supports--> claims/cac-prevalence-varies-by-cancer-type
-  papers/cancer-associated-cachexia-bridging-clinical-findings --supports--> claims/cac-subtypes-by-body-composition-pancreatic
-  papers/cancer-associated-cachexia-bridging-clinical-findings --supports--> claims/tracerx-nsclc-cac-thresholds
-  papers/cancer-associated-cachexia-bridging-clinical-findings --supports--> claims/longitudinal-trajectories-cac-liver-cancer
-  papers/cancer-associated-cachexia-bridging-clinical-findings --supports--> claims/body-composition-loss-precedes-pancreatic-cancer-diagnosis
-  papers/cancer-associ
+## Recent Relationships (2163 total)
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/ecf506-src-inhibitor
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/hif1a
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/hif2a
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/src-kinase
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/mtor-kinase
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/slc1a5-asct2-glutamine-transporter
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --derived_from--> foundations/tcga-the-cancer-genome-atlas
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --supports--> claims/chronic-hypoxia-degrades-cytosolic-vhl-while
+  papers/mitochondrial-vhl-rewires-cell-metabolism-hypoxia --supports--> claims/hypoxic-vhl-self-ubiquitinated-k171-k196
+  papers/mi

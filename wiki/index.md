@@ -298,6 +298,13 @@ papers:
     importance: 4
     domain: oncology / metabolism / cachexia / clinical review
     priority: context
+
+  - slug: mitochondrial-vhl-rewires-cell-metabolism-hypoxia
+    title: "Mitochondrial VHL rewires cell metabolism in hypoxia"
+    tags: [hypoxia, VHL, mitochondria, non-canonical-signaling, leucine, BCAA-metabolism, MCCC2, glutaminolysis, GDH, GLUD1, SRC, PRMT5, arginine-methylation, tyrosine-phosphorylation, mitochondrial-protein-import, TOM22, reductive-carboxylation, ccRCC, renal-ischemia-reperfusion, 13C-tracing, VHL-mutation-subtype]
+    importance: 4
+    domain: metabolism / cell biology / hypoxia / oncology
+    priority: context
 concepts:
   - slug: 6d-tam-translational-framework
     title: "6D TAM translational framework"
@@ -1615,6 +1622,34 @@ concepts:
     title: "Clinical phenotyping of CAC: PROs, functional assessments, and body composition"
     tags: [FAACT, PG-SGA, HGS, 6MWT, ECOG, clinical-trial-endpoints]
     maturity: stable
+  - slug: mitochondrial-vhl-noncanonical-hypoxia-function
+    title: "Mitochondrial VHL: a non-canonical role for VHL in hypoxic metabolism"
+    tags: [hypoxia, VHL, mitochondria, metabolism, non-canonical-signaling]
+    maturity: emerging
+  - slug: vhl-mccc2-leucine-catabolism-inhibition
+    title: "VHL–MCCC2 binding inhibits leucine catabolism under hypoxia"
+    tags: [hypoxia, VHL, MCCC2, leucine, BCAA-metabolism]
+    maturity: emerging
+  - slug: leucine-allosteric-gdh-glutaminolysis-activation
+    title: "Leucine accumulation allosterically activates GDH to drive glutaminolysis in hypoxia"
+    tags: [hypoxia, leucine, GDH, glutaminolysis, lipogenesis, nucleotide-synthesis]
+    maturity: emerging
+  - slug: src-vhl-y185-phosphorylation-mitochondrial-axis
+    title: "SRC-mediated VHL Y185 phosphorylation enables the mitochondrial VHL–MCCC2 interaction"
+    tags: [hypoxia, SRC, VHL, phosphorylation, post-translational-modification]
+    maturity: emerging
+  - slug: prmt5-mccc2-arginine-methylation-oxygen-switch
+    title: "PRMT5-mediated MCCC2 R292 methylation is an oxygen-responsive block on the VHL–MCCC2 interaction"
+    tags: [hypoxia, PRMT5, MCCC2, arginine-methylation, post-translational-modification]
+    maturity: emerging
+  - slug: hypoxic-vhl-self-ubiquitination-hif1a-shielding
+    title: "Hypoxic VHL self-ubiquitination and the HIF1A shielding model"
+    tags: [hypoxia, VHL, ubiquitination, HIF1A, protein-stability]
+    maturity: emerging
+  - slug: type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc
+    title: "Type 2B VHL missense mutations confer mitochondrial gain-of-function in ccRCC"
+    tags: [VHL, ccRCC, kidney-cancer, hypoxia, clinical-correlation]
+    maturity: emerging
 topics:
 
 people:
@@ -2099,6 +2134,15 @@ ideas:
   - slug: eileen-p-white
     affiliation: "Rutgers Cancer Institute; Ludwig Princeton Branch (PI)"
     tags: [PI, autophagy, cancer-metabolism, cancer-cachexia, tumor-host-metabolism]
+  - slug: bo-li
+    affiliation: "School of Basic Medical Sciences, Southern Medical University, Guangzhou, China (PI / lead contact)"
+    tags: [PI, hypoxia, VHL, metabolism, mitochondria, oncology]
+  - slug: xingqiao-wen
+    affiliation: "Department of Urology, Guangdong Provincial People's Hospital, Southern Medical University, Guangzhou, China (PI)"
+    tags: [PI, urology, hypoxia, VHL, kidney, ccRCC, ischemia]
+  - slug: guobang-li
+    affiliation: "Department of Urology, Guangdong Cardiovascular Institute, Guangdong Provincial People's Hospital, Guangzhou, China"
+    tags: [hypoxia, VHL, metabolism, urology]
 experiments:
 
 claims:
@@ -7415,6 +7459,96 @@ claims:
     title: "GI-CAC: myofibrillar protein synthesis higher than controls but lower than breakdown — net catabolism"
   - slug: postprandial-protein-synthesis-blunted-cac
     title: "Postprandial muscle protein synthesis is blunted in CRC/PDAC-CAC — anabolic resistance"
+  - slug: chronic-hypoxia-degrades-cytosolic-vhl-while
+    title: "Under chronic hypoxia most cytosolic VHL is degraded while a residual VHL pool translocates to the mitochondria"
+    tags: [hypoxia, VHL, mitochondria, protein-translocation, mechanistic]
+    status: supported
+    confidence: 0.85
+  - slug: hypoxic-vhl-self-ubiquitinated-k171-k196
+    title: "Hypoxic VHL is self-ubiquitinated at K171/K196 by its own complex when HIF1A no longer shields it"
+    tags: [hypoxia, VHL, ubiquitination, HIF1A, shielding, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: vhl-enters-mitochondria-tom22-recognition-alpha
+    title: "VHL is imported into mitochondria via TOM22 recognition of positively charged alpha-domain helices under hypoxia"
+    tags: [hypoxia, VHL, TOM22, mitochondrial-import, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: mitochondrial-vhl-binds-mccc2-disrupts-mccc
+    title: "Mitochondrial VHL binds MCCC2 and disrupts the MCCC complex to inhibit leucine catabolism under hypoxia"
+    tags: [hypoxia, VHL, MCCC2, leucine, BCAA, mechanistic]
+    status: supported
+    confidence: 0.85
+  - slug: mccc2-depletion-phenocopies-vhl-growth-promotion
+    title: "MCCC2 depletion phenocopies VHL-mediated growth promotion in hypoxia but not normoxia"
+    tags: [hypoxia, VHL, MCCC2, cell-growth, phenocopy, methodological]
+    status: supported
+    confidence: 0.85
+  - slug: mitochondrial-vhl-reduces-leucine-derived-citrate
+    title: "Mitochondrial VHL reduces leucine-derived citrate and acetyl-CoA in hypoxia (13C tracing)"
+    tags: [hypoxia, VHL, leucine, 13C-tracing, acetyl-CoA, quantitative]
+    status: supported
+    confidence: 0.8
+  - slug: mitochondrial-vhl-stimulates-glutaminolysis-lipids-nucleotides
+    title: "Mitochondrial VHL stimulates glutaminolysis to generate lipids and nucleotides supporting hypoxic growth"
+    tags: [hypoxia, VHL, glutaminolysis, lipogenesis, nucleotides, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: glutamine-essential-vhl-promoted-hypoxic-growth
+    title: "Glutamine is essential for VHL-promoted hypoxic growth, and citrate plus nucleosides rescue VHL-deficient cells"
+    tags: [hypoxia, VHL, glutamine, rescue, nucleosides, methodological]
+    status: supported
+    confidence: 0.8
+  - slug: leucine-accumulation-downstream-catabolites-drives-hypoxic
+    title: "Leucine accumulation, not downstream catabolites, drives the hypoxic VHL metabolic phenotype"
+    tags: [hypoxia, leucine, BCAT, alpha-KIC, methodological]
+    status: supported
+    confidence: 0.8
+  - slug: leucine-isoleucine-valine-allosterically-activates-gdh
+    title: "Leucine, but not isoleucine or valine, allosterically activates GDH in a dose-dependent manner"
+    tags: [leucine, GDH, GLUD1, allostery, quantitative]
+    status: supported
+    confidence: 0.85
+  - slug: leucine-insensitive-gdh-r204m-abolishes-vhl
+    title: "Leucine-insensitive GDH R204M abolishes VHL-promoted reductive glutaminolysis and hypoxic growth"
+    tags: [hypoxia, GDH, R204M, glutaminolysis, leucine, methodological]
+    status: supported
+    confidence: 0.85
+  - slug: leucine-repletion-fails-activate-mtor-hypoxia
+    title: "Leucine repletion fails to activate mTOR under hypoxia, isolating GDH as the relevant leucine effector"
+    tags: [hypoxia, leucine, mTOR, GDH, mechanistic]
+    status: supported
+    confidence: 0.75
+  - slug: src-phosphorylates-vhl-y185-only-under
+    title: "SRC phosphorylates VHL Y185 only under hypoxia, enabling the VHL–MCCC2 interaction"
+    tags: [hypoxia, SRC, VHL, Y185, phosphorylation, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: src-hypoxia-induced-hif-hif-through
+    title: "SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements"
+    tags: [hypoxia, SRC, HIF1, HIF2, HRE, mechanistic]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: prmt5-dimethylates-mccc2-r292-under-normoxia
+    title: "PRMT5 symmetrically dimethylates MCCC2 R292 under normoxia to block the VHL–MCCC2 interaction"
+    tags: [hypoxia, PRMT5, MCCC2, R292, arginine-methylation, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: src-phosphorylates-prmt5-y283-inhibit-mccc2
+    title: "SRC phosphorylates PRMT5 Y283 to inhibit MCCC2 R292 dimethylation under hypoxia"
+    tags: [hypoxia, SRC, PRMT5, Y283, MCCC2, methylation, mechanistic]
+    status: supported
+    confidence: 0.75
+  - slug: vhly151f-knock-mice-show-worsened-renal
+    title: "VhlY151F knock-in mice show worsened renal ischemia-reperfusion injury, rescued by BCAT inhibition and dietary leucine"
+    tags: [hypoxia, VHL, ischemia-reperfusion, kidney, in-vivo, mouse, mechanistic]
+    status: supported
+    confidence: 0.8
+  - slug: type-2b-vhl-missense-mutants-enhance
+    title: "Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression"
+    tags: [VHL, ccRCC, kidney-cancer, mutation-subtype, TCGA, correlational, clinical]
+    status: weakly_supported
+    confidence: 0.7
 Summary:
 
 foundations:
@@ -9316,3 +9450,39 @@ foundations:
     title: "fMRI (functional magnetic resonance imaging)"
     status: mainstream
     domain: neuroimaging / method
+  - slug: mccc2-3-methylcrotonyl-coa-carboxylase
+    title: "MCCC2 — 3-methylcrotonyl-CoA carboxylase subunit 2"
+    status: mainstream
+    domain: molecular biology / amino acid metabolism / mitochondria
+  - slug: glud1-glutamate-dehydrogenase
+    title: "GDH / GLUD1 — glutamate dehydrogenase"
+    status: mainstream
+    domain: molecular biology / amino acid metabolism / mitochondria
+  - slug: prmt5-arginine-methyltransferase
+    title: "PRMT5 — protein arginine methyltransferase 5"
+    status: mainstream
+    domain: molecular biology / post-translational modification / epigenetics
+  - slug: tom22-mitochondrial-import-receptor
+    title: "TOM22 / TOM complex — translocase of the outer mitochondrial membrane"
+    status: mainstream
+    domain: cell biology / mitochondrial protein import
+  - slug: bcat-branched-chain-aminotransferase
+    title: "BCAT — branched-chain aminotransferase"
+    status: mainstream
+    domain: molecular biology / amino acid metabolism
+  - slug: leucine-bcaa
+    title: "Leucine (branched-chain amino acid)"
+    status: mainstream
+    domain: biochemistry / amino acid metabolism / nutrient signaling
+  - slug: r162-gdh-inhibitor
+    title: "R162 — glutamate dehydrogenase (GDH) inhibitor"
+    status: mainstream
+    domain: pharmacology / metabolism tool compound
+  - slug: bcat-in-2-inhibitor
+    title: "BCAT-IN-2 — branched-chain aminotransferase (BCAT) inhibitor"
+    status: mainstream
+    domain: pharmacology / metabolism tool compound
+  - slug: ecf506-src-inhibitor
+    title: "eCF506 — selective SRC kinase inhibitor"
+    status: mainstream
+    domain: pharmacology / kinase inhibitor
