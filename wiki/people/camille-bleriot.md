@@ -4,7 +4,7 @@ affiliation: "Gustave Roussy / INSERM U1015, Villejuif, France"
 role: individual
 group: "Ginhoux Lab"
 institution: "Gustave Roussy / INSERM U1015"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -15,7 +15,7 @@ tags:
   - ontogeny
 homepage: ""
 scholar: ""
-date_updated: 2026-05-06
+date_updated: 2026-05-28
 ---
 
 ## Research areas
@@ -27,6 +27,7 @@ date_updated: 2026-05-06
 ## Key papers in vault
 
 - [[papers/cross-tissue-single-cell-landscape-human]] — co-corresponding senior author (Mulder, Patel, Kong et al., *Immunity* 2021)
+- [[papers/transition-monocyte-tissue-resident-macrophage-requires]] — co-author (Carrizo et al., *Nature* 2026); tissue-resident macrophage ontogeny expertise.
 
 ## Recent work
 

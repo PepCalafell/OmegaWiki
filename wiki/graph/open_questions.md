@@ -400,6 +400,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [paper/transition-monocyte-tissue-resident-macrophage-requires] Which mRNA motifs confer hypusine dependency beyond polyproline?
+- [paper/transition-monocyte-tissue-resident-macrophage-requires] How do polyamine levels in a cell influence hypusine and translation across biological contexts?
+- [paper/transition-monocyte-tissue-resident-macrophage-requires] Are proteins other than eIF5A modified by the polyamine–hypusine axis?
+- [paper/transition-monocyte-tissue-resident-macrophage-requires] Can pharmacological DHPS/eIF5A modulation be used to reshape resident-macrophage pools therapeutically (e.g. in fibrosis, ageing, tumour TAMs)?
+- [paper/transition-monocyte-tissue-resident-macrophage-requires] Does the same translational block operate in tumour-associated macrophages, given the wiki's heavy TAM focus?
 - [paper/trem2-macrophages-associated-enhanced-response-pd] Through what receptors / cytokines / metabolites do TREM2 macs physically modulate PD-1hi T cells?
 - [paper/trem2-macrophages-associated-enhanced-response-pd] Does pre-treatment TREM2-mac infiltration determine response prospectively?
 - [paper/trem2-macrophages-associated-enhanced-response-pd] What hepatic-specific signals (homeostatic, ferroptotic, NASH-related, chronic inflammation) program the protective TREM2-mac state?
@@ -618,6 +623,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/efferocytosis-anti-inflammatory-clearance] Quantitative thresholds — how much defective efferocytosis triggers autoimmunity?
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
+- [concept/eif5a-selective-translation-cell-adhesion-mrnas] A predictive model of hypusine-dependent transcripts from sequence alone.
 - [concept/epigenetic-cgas-sting-silencing-immune-evasion] Predictive cutoffs for cGAS/STING protein staining as a biomarker
 - [concept/epigenetic-cgas-sting-silencing-immune-evasion] Whether epigenetic derepression alone is sufficient or always needs a co-stimulus (STING agonist, radiation, MPS1 inhibitor)
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Are these niches reversible by inflammation resolution agents (e.g., resolvins) rather than blockade?
@@ -914,6 +920,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
 - [concept/perivascular-immune-stromal-niche-skin-salt] Is PERIVASC I sufficient to maintain skin-resident memory T cells longitudinally?
 - [concept/perivascular-immune-stromal-niche-skin-salt] Does PERIVASC I expansion precede or follow inflammatory infiltration in skin disease?
+- [concept/polyamine-hypusine-axis-macrophage-residency] How tissue polyamine availability tunes the axis in health, age and disease.
+- [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
 - [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Broader catalogue of PRMT5 metabolic-enzyme substrates.
@@ -1132,6 +1140,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
+- [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps] Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation (status: weakly_supported)
 - [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)

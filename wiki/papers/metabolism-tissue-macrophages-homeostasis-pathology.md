@@ -396,3 +396,4 @@ Reading note: the **"metabolism-as-identity"** framing is the conceptual gift he
 - [[papers/physiology-diseases-tissue-resident-macrophages]] — Lazarov 2023, sibling TRM review (ontogeny + function); together with this paper forms the two-pillar TRM foundation
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — Calafell 2024, NF-κB / TET2 macrophage reprogramming intersects the itaconate / immunometabolism / epigenetics loop discussed here
 - [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — TAM hypoxic metabolic axis, complementary to in-vivo TRM metabolism
+- [[papers/transition-monocyte-tissue-resident-macrophage-requires]] — Carrizo et al. 2026 *Nature* — complementary immunometabolic mechanism: the polyamine–hypusine–eIF5A axis controls RTM tissue residency (added 2026-05-28)

@@ -277,6 +277,12 @@ papers:
     importance: 5
     domain: immunology / oncology / cell biology
     priority: context
+  - slug: transition-monocyte-tissue-resident-macrophage-requires
+    title: "The transition from monocyte to tissue-resident macrophage requires DHPS"
+    tags: [macrophage, tissue-resident-macrophage, immunometabolism, polyamine, hypusine, eIF5A, translation, monocyte]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: trem2-macrophages-associated-enhanced-response-pd
     title: "TREM2 macrophages are associated with enhanced response to PD-1 blockade in human hepatocellular carcinoma"
     tags: [TREM2, tumor-associated-macrophage, hepatocellular-carcinoma, PD-1-blockade, immune-checkpoint-blockade, neoadjuvant, cemiplimab, FOLR2-macrophage, soluble-TREM2, biomarker, IMbrave150, POPLAR, MERFISH, PIC-seq, mregDC, tissue-specific-TAM, scRNA-seq, spatial-transcriptomics]
@@ -683,6 +689,10 @@ concepts:
     title: "EGFR-mutant LUAD immune-excluded stromal-rich TME"
     tags: [egfr, luad, immune-exclusion, low-tmb, tki-resistance, ici-resistance]
     maturity: active
+  - slug: eif5a-selective-translation-cell-adhesion-mrnas
+    title: "Hypusine-eIF5A-dependent selective translation of cell-adhesion and signalling mRNAs"
+    tags: [translation, eIF5A, cell-adhesion, macrophage, ribosome-stalling]
+    maturity: emerging
   - slug: endometrial-metabolic-reprogramming-cycle-disease
     title: "Endometrial metabolic reprogramming across cycle, endometriosis, and endometrial carcinoma"
     tags: [endometrium, menstrual-cycle, endometriosis, endometrial-carcinoma, kynurenine, mevalonate, estrogen-signaling, metabolic-reprogramming]
@@ -1265,6 +1275,10 @@ concepts:
     title: "Perivascular immune–stromal niche (PERIVASC I) — physical correlate of SALT in human skin"
     tags: [skin, spatial-transcriptomics, perivascular, stromal-immune, SALT, multicellular-neighborhood]
     maturity: emerging
+  - slug: polyamine-hypusine-axis-macrophage-residency
+    title: "Polyamine–hypusine–eIF5A axis as a cell-intrinsic regulator of macrophage tissue residency"
+    tags: [macrophage, immunometabolism, polyamine, hypusine, tissue-residency, translation]
+    maturity: emerging
   - slug: pre-cafs-cancer-associated-fibroblasts-premalignant
     title: "Pre-CAFs — Fibroblast reprogramming at the premalignant stage"
     tags: [oncology, microenvironment, early-cancer]
@@ -1770,12 +1784,18 @@ people:
   - slug: dan-hasson
     tags: [bioinformatics, chromatin, genomics-core, single-cell]
     affiliation: "Department of Oncological Sciences, Tisch Cancer Institute, Bioinformatics for Next Generation Sequencing (BiNGS) Shared Resource Facility, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+  - slug: daniel-j-puleston
+    tags: [immunometabolism, polyamine, hypusine, eIF5A, macrophage, T-cell, PI]
+    affiliation: "Precision Immunology Institute and Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
   - slug: daniele-tavernari
     tags: [computational-biology, lung-cancer, LUAD, spatial-omics]
     affiliation: "Department of Computational Biology, University of Lausanne; Swiss Cancer Center Léman; Swiss Institute of Bioinformatics; SIB"
   - slug: david-barbie
     tags: [cgas-sting, lung-cancer, kras-lkb1, tumor-immunology, precision-immunotherapy]
     affiliation: "Dana-Farber Cancer Institute / Parker Institute for Cancer Immunotherapy"
+  - slug: david-e-sanin
+    tags: [macrophage, immunometabolism, bioinformatics, single-cell]
+    affiliation: "Bloomberg-Kimmel Institute for Cancer Immunotherapy, Johns Hopkins University; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
   - slug: david-h-sherr
     tags: [AHR, environmental-immunology, breast-cancer, tryptophan-metabolism]
     affiliation: "Boston University School of Public Health"
@@ -1788,6 +1808,9 @@ people:
   - slug: dominic-grun
     tags: [single-cell-genomics, spatial-transcriptomics, computational-biology, niche-analysis, stem-cell-biology, lineage-inference]
     affiliation: "Würzburg Institute of Systems Immunology, Julius-Maximilians-Universität Würzburg, Germany; CAIDAS Center for AI and Data Science, Würzburg, Germany"
+  - slug: edward-j-pearce
+    tags: [immunometabolism, macrophage, dendritic-cell, helminth-immunity, PI]
+    affiliation: "Department of Molecular Microbiology and Immunology, Bloomberg School of Public Health, Johns Hopkins University; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
   - slug: eileen-p-white
     tags: [autophagy, cancer-metabolism, cancer-cachexia, tumor-host-metabolism]
     affiliation: "Rutgers Cancer Institute; Ludwig Princeton Branch, Ludwig Institute for Cancer Research, Princeton University"
@@ -1797,6 +1820,9 @@ people:
   - slug: erick-armingol
     tags: [single-cell, metabolism, cell-cell-communication, tensor-factorization, endometrium]
     affiliation: "Wellcome Sanger Institute, Cambridge, UK"
+  - slug: erika-l-pearce
+    tags: [immunometabolism, macrophage, T-cell, polyamine, hypusine, PI]
+    affiliation: "Bloomberg-Kimmel Institute for Cancer Immunotherapy, Johns Hopkins University; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
   - slug: ernest-fraenkel
     tags: [systems-biology, network-modelling, computational-biology, multi-omics-integration, PI]
     affiliation: "Department of Biological Engineering, Massachusetts Institute of Technology; Broad Institute of MIT and Harvard"
@@ -1833,6 +1859,9 @@ people:
   - slug: guobang-li
     tags: [hypoxia, VHL, metabolism, urology]
     affiliation: "Southern Medical University / Guangdong Provincial People's Hospital, Guangzhou, China"
+  - slug: gustavo-e-carrizo
+    tags: [immunometabolism, macrophage, hypusine, tissue-residence]
+    affiliation: "Bloomberg-Kimmel Institute for Cancer Immunotherapy, Johns Hopkins University School of Medicine, Baltimore"
   - slug: h-kay-chung
     tags: [immunology, cd8-t-cells, exhaustion, transcription-factors]
     affiliation: "Salk Institute / NOMIS Center for Immunobiology and Microbial Pathogenesis; UNC Lineberger Comprehensive Cancer Center"
@@ -2892,6 +2921,12 @@ claims:
     status: weakly_supported
     confidence: 0.7
     domain: oncology / cachexia / early detection
+  - slug: bulk-rnaseq-adhesion-signalling-downregulated-dhps
+    title: "Bulk RNA-seq across three tissues shows cell adhesion, signalling and migration genes are the most downregulated in DHPS-deficient macrophages"
+    tags: [DHPS, bulk-RNA-seq, cell-adhesion, migration, multi-tissue]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: c2-cluster-cpg-demethylation-specific-hypoxic
     title: "Cluster C2 (403 CpGs) shows hypoxia-specific NF-κB-motif-enriched DNA demethylation in LPS-activated macrophages"
     tags: [cluster-C2, DNA-demethylation, NF-kB, hypoxia, macrophage, IL6, TNF]
@@ -3462,6 +3497,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: csf1r-initial-program-hypusine-tissue-occupancy-model
+    title: "Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy"
+    tags: [DHPS, CSF1R, model, tissue-occupancy, hypusine]
+    status: proposed
+    confidence: 0.7
+    domain: immunology
   - slug: csf1r-loss-causes-leukoencephalopathy
     title: "Bi-allelic CSF1R loss-of-function causes paediatric-onset leukoencephalopathy with congenital absence of microglia; hypomorphic / heterozygous variants cause adult-onset ALSP"
     tags: [CSF1R, leukoencephalopathy, ALSP, microglia, neurodegeneration, Mendelian-disease, macrophage]
@@ -3618,6 +3659,96 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: dhps-alveolar-proteinosis-lung-inflammation
+    title: "Loss of functional alveolar macrophages in DHPS-deficient mice causes alveolar proteinosis and lung immune infiltration"
+    tags: [DHPS, alveolar-macrophage, proteinosis, lung-inflammation, homeostasis]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: dhps-block-immature-transitional-state-tissue-independent
+    title: "DHPS-deficient macrophages are blocked at an immature transitional state with a tissue-independent signature"
+    tags: [DHPS, transitional-state, tissue-agnostic, signature-mapping]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: dhps-deletion-global-rtm-defect-across-tissues
+    title: "Myeloid DHPS deletion causes a global defect in resident macrophages across peritoneum, lung, liver, heart, brain, spleen and kidney"
+    tags: [DHPS, tissue-resident-macrophage, multi-tissue, flow-cytometry]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: dhps-dispensable-initial-macrophage-development
+    title: "DHPS is dispensable for initial macrophage development but required for acquisition of mature tissue residency"
+    tags: [DHPS, macrophage-development, tissue-residency, CSF1R]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-fails-reestablish-rtm-post-clodronate
+    title: "After clodronate depletion, DHPS-deficient monocytes enter niches but fail to re-establish mature RTMs"
+    tags: [DHPS, clodronate, alveolar-macrophage, niche-replenishment]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-loss-drives-futile-monocyte-influx
+    title: "Loss of mature RTMs in DHPS-deficient tissues drives persistent but futile monocytic influx"
+    tags: [DHPS, monocyte, tissue-residency, turnover]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-macrophages-altered-morphology-tissue-interaction
+    title: "DHPS-deficient macrophages show altered morphology and reduced tissue interaction in situ"
+    tags: [DHPS, morphology, imaging, tissue-interaction, sphericity]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: dhps-macrophages-defective-efferocytosis
+    title: "DHPS-deficient macrophages are defective in efferocytosis of apoptotic cells and stressed RBCs"
+    tags: [DHPS, efferocytosis, apoptotic-cell-clearance, homeostasis]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-macrophages-reduced-adhesion-edta
+    title: "DHPS-deficient macrophages are functionally less adherent, detaching far faster than controls"
+    tags: [DHPS, cell-adhesion, functional-assay, EDTA]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-macrophages-reduced-proliferation-increased-death
+    title: "DHPS-deficient macrophages show decreased proliferation (Ki-67) and increased death (active caspase-3)"
+    tags: [DHPS, proliferation, apoptosis, Ki-67, caspase-3]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-monocytes-fail-repopulate-chimera
+    title: "In competitive bone-marrow chimeras, DHPS-deficient monocytes fail to repopulate RTM pools"
+    tags: [DHPS, bone-marrow-chimera, competition, RTM-repopulation]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-proteomics-decreased-adhesion-increased-inflammation
+    title: "Proteomics of DHPS-deficient macrophages shows decreased cell adhesion, integrin signalling and metabolism, with increased inflammation"
+    tags: [DHPS, proteomics, cell-adhesion, integrin, inflammation]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: dhps-required-liver-homeostasis-post-depletion
+    title: "Myeloid DHPS is required to restore liver tissue homeostasis after macrophage depletion"
+    tags: [DHPS, liver, Kupffer-cell, homeostasis, clodronate]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: dhps-required-mature-rtm-persistence
+    title: "Inducible DHPS deletion in mature RTMs causes their loss, showing DHPS is required for maintenance not only differentiation"
+    tags: [DHPS, inducible-deletion, RTM-maintenance, CX3CR1-CreER]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: dhps-required-rtm-differentiation-maintenance
+    title: "DHPS is required for the differentiation and maintenance of tissue-resident macrophages across tissues"
+    tags: [DHPS, eIF5A, hypusine, tissue-resident-macrophage, immunometabolism]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: disease-enriched-spot-substates-skin
     title: "Disease-enriched Visium spot sub-states (TLS, TLS-like, KC stress, HS tunnel, BCC tumor) emerge adjacent to the homeostatic ten-neighborhood scheme"
     tags: [skin, Visium, TLS, KC-stress, hidradenitis-suppurativa, BCC, correlational]
@@ -5004,6 +5135,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: muscle biology / one-carbon metabolism
+  - slug: l1cam-ecadherin-downregulated-dhps
+    title: "L1CAM and E-cadherin are downregulated at transcript and protein level in DHPS-deficient macrophages"
+    tags: [DHPS, L1CAM, E-cadherin, Cdh1, cell-adhesion]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: label-free-metrics-capture-trajectories-cellcycle
     title: "Three new label-free bio-conservation metrics (cell-cycle, HVG, trajectory conservation) distinguish methods that classical label-based metrics rank as equal"
     tags: [benchmarking, data-integration, metrics, label-free]
@@ -6174,6 +6311,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: dermatology / cell biology
+  - slug: parabiosis-dhps-niches-monocyte-replenished
+    title: "Parabiosis shows DHPS-deficient RTM niches are replenished by circulating WT monocytes, indicating lost local self-maintenance"
+    tags: [DHPS, parabiosis, self-renewal, monocyte-contribution]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: patients-sarcopenia-show-elevated-nnmt-one-carbon-genes-liver-muscle
     title: "Cancer patients with sarcopenia show increased NNMT and elevated one-carbon signature gene expression in liver and skeletal muscle compared with non-sarcopenic cancer patients"
     tags: [patients, sarcopenia, NNMT, one-carbon, translation, biomarker]
@@ -6570,6 +6713,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: neuroimmunology / dermatology / mouse-model
+  - slug: ribotag-13-transcripts-reduced-dhps
+    title: "RiboTag identifies 13 transcripts significantly reduced on ribosomes in DHPS-deficient macrophages, enriched for adhesion/signalling/apoptosis genes"
+    tags: [DHPS, RiboTag, translatome, eIF5A, ribosome-profiling]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: rnascope-validates-oas3-ifit3-stat1-dependence
     title: "RNAscope single-molecule RNA-FISH validates STAT1 dependence of Oas3 and Ifit3 in WT vs Stat1-KO mouse spleen at sub-cellular resolution"
     tags: [rnascope, smfish, stat1, oas3, ifit3, isg, spleen, in-vivo-validation]
@@ -6708,6 +6857,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: methods / trajectory inference
+  - slug: scrna-dhps-reduced-timd4-expanded-immature
+    title: "scRNA-seq shows reduced mature Timd4+ RTMs and expansion of immature monocyte-derived clusters in DHPS-deficient peritoneum"
+    tags: [DHPS, scRNA-seq, Timd4, Ccr2, clustering]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: scvelo-tc-to-le-differentiation-hierarchy
     title: "scVelo RNA velocity reveals a reproducible TC→LE differentiation hierarchy with field confidence > 0.85"
     tags: [scVelo, RNA-velocity, differentiation, OSCC, methodological]
@@ -6936,6 +7091,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: metabolism
+  - slug: st2-il1rl1-hypusine-dependent-il33-response-impaired
+    title: "ST2 (Il1rl1) is a hypusine-eIF5A-dependent transcript; ST2 protein is reduced and IL-33-driven alternative activation impaired in DHPS-deficient macrophages"
+    tags: [DHPS, ST2, IL1RL1, IL-33, alternative-activation]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: staggered-sting-agonist-cart-preserves-tcell-function
     title: "Staggered intratumoral STING agonist before CAR-T infusion preserves T cell function while activating TME innate immunity"
     tags: [cgas-sting, car-t, dosing-schedule, t-cell-toxicity]
@@ -8353,6 +8514,10 @@ foundations:
     title: "CLEVER-1 / STAB1"
     status: mainstream
     domain: immunology
+  - slug: clodronate-liposomes
+    title: "Clodronate liposomes (macrophage depletion)"
+    status: mainstream
+    domain: method / macrophage biology
   - slug: clusterprofiler-gsea
     title: "clusterProfiler — R package for functional enrichment / GSEA"
     status: mainstream
@@ -8465,6 +8630,10 @@ foundations:
     title: "DEN — Diethylnitrosamine carcinogen"
     status: mainstream
     domain: methods
+  - slug: deoxyhypusine-synthase-dhps
+    title: "DHPS — deoxyhypusine synthase"
+    status: mainstream
+    domain: biochemistry / translation / immunometabolism
   - slug: deseq2-differential-expression
     title: "DESeq2 — negative-binomial differential expression for RNAseq counts"
     status: mainstream
@@ -8538,6 +8707,10 @@ foundations:
     title: "EGR1 (early growth response 1 / C2H2 zinc-finger TF)"
     status: mainstream
     domain: transcription factor / immediate-early gene
+  - slug: eif5a-hypusine
+    title: "eIF5A and hypusine modification"
+    status: mainstream
+    domain: translation / molecular biology
   - slug: em-seq-enzymatic-methyl-sequencing
     title: "EM-seq — Enzymatic Methyl-sequencing"
     status: mainstream
@@ -9035,6 +9208,10 @@ foundations:
     tags: [transcription-factor, nuclear-receptor, cholesterol-metabolism, macrophage-identity]
     status: mainstream
     domain: immunology
+  - slug: lysm-cre
+    title: "LysM-Cre (myeloid Cre driver)"
+    status: mainstream
+    domain: mouse genetics / method
   - slug: maftools-mutation-analysis
     title: "maftools — Bioconductor toolkit for somatic mutation analysis"
     status: mainstream
@@ -9319,6 +9496,10 @@ foundations:
     title: "PanIN — Pancreatic intraepithelial neoplasia"
     status: mainstream
     domain: oncology
+  - slug: parabiosis
+    title: "Parabiosis"
+    status: mainstream
+    domain: method / in vivo physiology
   - slug: pcawg-consortium
     title: "PCAWG (Pan-Cancer Analysis of Whole Genomes)"
     status: mainstream
@@ -9486,6 +9667,10 @@ foundations:
     title: "Ribonucleotide reductase (RRM1/RRM2)"
     status: mainstream
     domain: nucleotide-metabolism
+  - slug: ribotag-ribosome-profiling
+    title: "RiboTag (ribosome-engaged transcript sequencing)"
+    status: mainstream
+    domain: method / translatomics
   - slug: rnascope-single-molecule-fish
     title: "RNAscope — single-molecule RNA fluorescence in situ hybridization"
     status: mainstream
@@ -9700,6 +9885,10 @@ foundations:
     title: "SpatialInferCNV — spatial copy number alteration inference"
     status: mainstream
     domain: spatial genomics / methods
+  - slug: spermidine
+    title: "Spermidine"
+    status: mainstream
+    domain: metabolism / polyamines
   - slug: spi-c-tf
     title: "SPI-C (Spi-C transcription factor)"
     tags: [transcription-factor, macrophage-identity, iron-metabolism, red-pulp-macrophage, kupffer-cell]
@@ -9721,6 +9910,10 @@ foundations:
     title: "ssGSEA — Single-Sample Gene Set Enrichment Analysis"
     status: mainstream
     domain: methods
+  - slug: st2-il1rl1-il33-receptor
+    title: "ST2 / IL1RL1 — IL-33 receptor"
+    status: mainstream
+    domain: immunology / cytokine signalling
   - slug: stagate-graph-attention-autoencoder
     title: "STAGATE — adaptive graph attention autoencoder for spatial domains"
     status: mainstream
@@ -9829,6 +10022,10 @@ foundations:
     title: "TGFβ — transforming growth factor β"
     status: mainstream
     domain: cell biology / immunology / developmental biology
+  - slug: tim-4-timd4
+    title: "TIM-4 (TIMD4)"
+    status: mainstream
+    domain: immunology / macrophage biology
   - slug: tiparp
     title: "TIPARP / PARP7 (TCDD-inducible poly(ADP-ribose) polymerase)"
     status: mainstream
@@ -9849,6 +10046,10 @@ foundations:
     title: "TNF (Tumor Necrosis Factor)"
     status: mainstream
     domain: immunology / cytokine
+  - slug: tnik-kinase
+    title: "TNIK (TRAF2/NCK-interacting kinase)"
+    status: mainstream
+    domain: signalling / cell adhesion
   - slug: tobias-atac-footprinting
     title: "TOBIAS — transcription factor footprinting on ATAC-seq"
     status: mainstream
