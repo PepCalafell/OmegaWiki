@@ -307,3 +307,4 @@ This is a landmark paper for systems-level thinking about cytokine biology in se
 - [[people/nicolas-chevrier]]
 - [[people/michihiro-takahama]]
 - [[people/matthew-stephens]]
+- [[papers/single-cell-cytokine-dictionary-human-peripheral]] — complementary cytokine-perturbation axis: single-cytokine in vitro human PBMC single-cell (vs pairwise in vivo organism-wide bulk); together they span the single-vs-pairwise and human-vs-mouse cytokine-perturbation literature.

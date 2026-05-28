@@ -330,6 +330,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/role-ahr-host-pathogen-interactions] The AHR-IDO-KYN-mucin axis in SARS-CoV-2 (claim c16) overlaps with the AHR-TIPARP-TBK1-IFN evasion concept ([[concepts/ahr-tiparp-antiviral-type-i-ifn-evasion]]) — are these distinct branches or one integrated AHR-anti-IFN programme?
 - [paper/role-ahr-host-pathogen-interactions] For TIER_1 pathogens in immunology, how would the AHR-PRR framework integrate with the [[concepts/pattern-recognition-receptors-macrophage]] canonical PRR signalling? Are AHR-PRR responses additive, synergistic, or antagonistic to TLR responses in macrophages co-stimulated with phthiocol + LPS?
 - [paper/role-ahr-host-pathogen-interactions] Does the AHR-Th17/Treg/Tr1 logic catalogued in [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] map cleanly to bacterial-clearance contexts (e.g., S. agalactiae)?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] What are the early and late dynamics of cytokine-driven responses beyond 24 h?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] Which cytokine response modules are genuinely conserved vs human-specific across species?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] What genetic/demographic factors drive the interferon-high baseline state and donor response variability?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] Can perturbation atlasing be extended across human organ systems?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] Does the IL-32-β myeloid neutrophil-recruiting switch operate in tumor-associated myeloid cells, and is it hypoxia-modulated?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] Can huCIRA reliably infer cytokine activity in hypoxic tumor niches where cell-type composition departs from PBMC?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] How do CIPs map onto in vivo TAM phenotypes relevant to HypoxiaVERSE?
+- [paper/single-cell-cytokine-dictionary-human-peripheral] Is the receptor-expression-insufficiency / secondary-cascade caveat addressable with multi-timepoint human data?
 - [paper/single-cell-spatial-transcriptomic-analysis-human] Do site-specific inflammatory setpoints (e.g. antecubital MHC II/CD4 elevation) drive site-specific disease predilection?
 - [paper/single-cell-spatial-transcriptomic-analysis-human] Which fibroblast subset mediates volar-fibroblast-driven epidermal thickening?
 - [paper/single-cell-spatial-transcriptomic-analysis-human] Can anti-TNF therapy reshape CCL19+ perivascular fibroblast biology?
@@ -578,6 +586,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Does anti-TNF therapy revert PERIVASC I expansion specifically?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Can PERIVASC I score be used as a transversal disease-activity biomarker?
+- [concept/cross-species-human-mouse-cytokine-response] Isolating genuine species divergence from experimental confounders
+- [concept/cross-species-human-mouse-cytokine-response] Which cytokine modules are conserved vs human-specific
+- [concept/cross-species-human-mouse-cytokine-response] Implications for preclinical-to-clinical cytokine-therapy translation
 - [concept/csf1r-il34-csf2-trophic-axis] Why CSF1 isoforms have tissue-restricted rescue capability.
 - [concept/csf1r-il34-csf2-trophic-axis] Whether IL-34 has CSF1R-independent receptors with biological relevance (PTP-ζ has been proposed).
 - [concept/csf1r-il34-csf2-trophic-axis] Whether boosting CSF2 in non-alveolar tissues can confer alveolar-like phenotypes.
@@ -595,10 +606,13 @@ _Auto-generated open questions. Do not edit._
 - [concept/cup-cancer-type-classifier-proteome] Clinical-grade validation with prospective CUP cohorts.
 - [concept/cytokine-cell-type-specific-response-pleiotropy] Combinatorial cytokine perturbation atlases (>2 cytokines simultaneously)
 - [concept/cytokine-cell-type-specific-response-pleiotropy] Dose-response and temporal dynamics of cell-type-specific programmes
-- [concept/cytokine-cell-type-specific-response-pleiotropy] Human translation of the mouse Immune Dictionary
+- [concept/cytokine-cell-type-specific-response-pleiotropy] Human translation of the mouse Immune Dictionary — now addressed by the Human Cytokine Dictionary (Oesinghaus 2025), which confirms cell-type-specific responses in human PBMCs but finds only weak human↔mouse gene-level concordance
 - [concept/cytokine-driven-immune-polarization-states-atlas] Mapping mouse states to human counterparts
 - [concept/cytokine-driven-immune-polarization-states-atlas] Multi-cytokine combinatorial polarization (most in vivo contexts mix signals)
 - [concept/cytokine-driven-immune-polarization-states-atlas] Persistence/reversibility of polarization states
+- [concept/cytokine-induced-immune-programs-cip] Stability of CIPs across datasets / platforms
+- [concept/cytokine-induced-immune-programs-cip] Causal vs correlational interpretation of program activity
+- [concept/cytokine-induced-immune-programs-cip] Mapping CIPs onto in vivo tissue and tumor states
 - [concept/cytokine-mediated-immune-cell-cell-interactome] Whether the lymph-node interactome generalizes to inflamed tissue / tumours
 - [concept/cytokine-mediated-immune-cell-cell-interactome] Spatial constraints (which interactions occur in which microniche)
 - [concept/cytokine-mediated-immune-cell-cell-interactome] Temporal dynamics of network reconfiguration during disease
@@ -614,6 +628,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Whether AC-derived methionine routes preferentially to nuclear SAM pools near DNMT3A vs cytoplasmic pools
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Therapeutic targeting: can SAM supplementation, MAT2A activators, or selective DNMT3A enhancers rescue resolution in CHIP-DNMT3A or advanced atherosclerosis?
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Whether the pathway is preserved or rewired in tumour-associated macrophages
+- [concept/donor-baseline-interferon-signaling-heterogeneity] Genetic / demographic determinants of the interferon-high state
+- [concept/donor-baseline-interferon-signaling-heterogeneity] Whether the baseline state predicts disease susceptibility or therapy response
+- [concept/donor-baseline-interferon-signaling-heterogeneity] How many distinct baseline immune "setpoints" exist at population scale
 - [concept/e3-ligase-protac-tumor-selectivity] Demonstrate tumour-selective degradation in vivo using a HERC5- or RNF5-recruiting PROTAC.
 - [concept/e3-ligase-protac-tumor-selectivity] Chemoproteomics-driven discovery of small-molecule ligands for novel E3s.
 - [concept/ecdna-precancer-malignant-progression] Whether ecDNA also drives progression in non-EAC cancers with precursor lesions
@@ -707,6 +724,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
 - [concept/il-18-polyfunctional-nk-cell-state] Translation to human NK cells
 - [concept/il-18-polyfunctional-nk-cell-state] Interaction with IL-18BP decoy axis
+- [concept/il-32-beta-myeloid-neutrophil-inflammatory] IL-32 receptor identity and isoform-specific effects
+- [concept/il-32-beta-myeloid-neutrophil-inflammatory] In vivo / tissue relevance (tumor myeloid, autoimmune flares)
+- [concept/il-32-beta-myeloid-neutrophil-inflammatory] Therapeutic targetability of a human-specific node
 - [concept/il1b-precancer-interception-luad] What is the optimal interception biomarker? IL1R1 IF on screening biopsies? Spatial niche signature on resected nodules?
 - [concept/il1b-precancer-interception-luad] Risk-benefit of chronic IL-1β blockade in high-risk asymptomatic cohorts.
 - [concept/il1b-precancer-interception-luad] Does combination with anti-PD-1 raise unacceptable autoimmunity risk in non-cancer prevention populations?
@@ -944,6 +964,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/scprotvelo-translation-dynamics] Validation against ground-truth pulse-SILAC translation rates.
 - [concept/scrna-derived-lasso-cox-prognostic-signature] Calibration benchmarks across multiple cell-type-anchored signatures for the same disease.
 - [concept/scrna-derived-lasso-cox-prognostic-signature] Whether deconvolution (CIBERSORTx, Tamborero) + per-cell-type expression infers the same signatures as direct scRNA-DEG, at a fraction of the data cost.
+- [concept/secondary-cytokine-response-cascade] Temporal resolution of primary vs secondary waves
+- [concept/secondary-cytokine-response-cascade] Quantifying cascade depth (tertiary and higher orders)
+- [concept/secondary-cytokine-response-cascade] Disentangling cascades in dense tissue / tumor niches
 - [concept/senescent-cells-promote-early-tumorigenesis] Specificity of senolytic agents to tumour-promoting senescent populations
 - [concept/senescent-cells-promote-early-tumorigenesis] Whether epithelial senescence at the precancer stage is uniformly tumour-promoting
 - [concept/single-cell-proteomics-mass-spec] Reducing missingness without sacrificing throughput.
@@ -1150,6 +1173,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
 - [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)

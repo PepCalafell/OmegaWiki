@@ -229,6 +229,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: single-cell-cytokine-dictionary-human-peripheral
+    title: "A single-cell cytokine dictionary of human peripheral blood"
+    tags: [cytokines, human-cytokine-dictionary, PBMC, single-cell, perturbation-atlas, IL-32, cytokine-induced-immune-programs, cell-cell-communication, donor-variability, huCIRA]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: single-cell-spatial-transcriptomic-analysis-human
     title: "Single-cell spatial transcriptomic analysis of human skin anatomy"
     tags: [skin, MERFISH, spatial-transcriptomics, atlas, perivascular, CCL19, TNF, SALT, multicellular-neighborhood, aging, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC]
@@ -592,6 +598,10 @@ concepts:
     title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
     tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, basal-cell-carcinoma, squamous-cell-carcinoma, tertiary-lymphoid-structure]
     maturity: emerging
+  - slug: cross-species-human-mouse-cytokine-response
+    title: "Cross-species divergence of human and mouse cytokine responses"
+    tags: [cross-species, cytokines, translation, mouse-human]
+    maturity: emerging
   - slug: csf1r-il34-csf2-trophic-axis
     title: "CSF1R / IL-34 / CSF2 trophic axis for macrophage development and survival"
     tags: [macrophage, cytokine-receptor, trophic-factor, immunology, development]
@@ -632,6 +642,10 @@ concepts:
     title: "Cytokine-driven polarization-state atlas across 17 immune cell types"
     tags: [cytokines, polarization, immune-plasticity, single-cell]
     maturity: stable
+  - slug: cytokine-induced-immune-programs-cip
+    title: "Cytokine-induced immune programs (CIPs)"
+    tags: [gene-programs, cytokines, latent-factors, functional-modules]
+    maturity: emerging
   - slug: cytokine-mediated-immune-cell-cell-interactome
     title: "Cytokine-mediated immune cell–cell interactome (production × response matrix)"
     tags: [cytokine-networks, cell-cell-communication, immune-network, lymph-node]
@@ -659,6 +673,10 @@ concepts:
   - slug: dnmt3a-dusp4-efferocytosis-resolution-pathway
     title: "DNMT3A–DUSP4 efferocytosis-resolution pathway"
     tags: [macrophage, efferocytosis, DNA-methylation, DNMT3A, Dusp4, COX2, PGE2, TGFβ1, resolution, atherosclerosis]
+    maturity: emerging
+  - slug: donor-baseline-interferon-signaling-heterogeneity
+    title: "Donor baseline interferon-signaling heterogeneity"
+    tags: [interferon, donor-variability, ISG, immune-heterogeneity]
     maturity: emerging
   - slug: e3-ligase-protac-tumor-selectivity
     title: "Tumor-type-enriched E3 ubiquitin ligases for PROTAC selectivity"
@@ -849,6 +867,10 @@ concepts:
   - slug: il-18-polyfunctional-nk-cell-state
     title: "IL-18-induced polyfunctional NK cell state (NK-f) — biosynthesis × cytotoxicity × DC recruitment"
     tags: [NK-cell, IL-18, polyfunctional, cancer-immunotherapy]
+    maturity: emerging
+  - slug: il-32-beta-myeloid-neutrophil-inflammatory
+    title: "IL-32-β myeloid reprogramming to neutrophil-recruiting inflammation"
+    tags: [IL-32, myeloid, chemokines, neutrophil-recruitment, inflammation]
     maturity: emerging
   - slug: il-multicellular-coordinated-immune-response
     title: "IL-1 family triggers coordinated multicellular cytokine response (not uniform pathway)"
@@ -1339,6 +1361,10 @@ concepts:
     title: "scRNA-derived LASSO-Cox prognostic signature (single-cell to bulk-survival pipeline)"
     tags: [prognostic-model, LASSO-Cox, scRNA-seq, bulk-RNA-seq, gene-signature, survival-analysis, TCGA, methodology]
     maturity: stable
+  - slug: secondary-cytokine-response-cascade
+    title: "Secondary cytokine response cascade (indirect signaling)"
+    tags: [cytokines, signaling-cascade, indirect-response, cell-cell-communication]
+    maturity: emerging
   - slug: senescent-cells-promote-early-tumorigenesis
     title: "Senescent cells promote early tumorigenesis"
     tags: [oncology, senescence, microenvironment, early-cancer]
@@ -1688,6 +1714,9 @@ people:
   - slug: alexander-coulton
     tags: [tumor-associated-macrophage, scRNA-seq, pan-cancer-atlas, immune-checkpoint-inhibitor, immunogenomics]
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
+  - slug: alexander-rosenberg
+    tags: [single-cell-genomics, split-pool-barcoding, SPLiT-seq, industry]
+    affiliation: "Parse Biosciences, Seattle"
   - slug: alexandru-suvac
     tags: [hypoxia, DNA-repair, genomic-instability, cancer-genomics]
     affiliation: "Translational Oncogenomics Laboratory, Cancer Research UK Manchester Institute; Manchester Cancer Research Centre; Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University of Manchester, UK"
@@ -1754,6 +1783,9 @@ people:
   - slug: charles-antoine-dutertre
     tags: [macrophage, dendritic-cell, mononuclear-phagocyte, immunology, single-cell, PI]
     affiliation: "Gustave Roussy / INSERM U1015, Villejuif, France"
+  - slug: charles-roco
+    tags: [single-cell-genomics, split-pool-barcoding, industry]
+    affiliation: "Parse Biosciences, Seattle"
   - slug: chenfei-wang
     tags: [computational-oncology, single-cell-genomics, pan-cancer, tme, maestro, tabulatime]
     affiliation: "Tongji University"
@@ -1850,6 +1882,9 @@ people:
   - slug: fuduan-peng
     tags: [spatial-transcriptomics, lung-cancer, computational-biology]
     affiliation: "MD Anderson Cancer Center"
+  - slug: georg-seelig
+    tags: [molecular-programming, synthetic-biology, single-cell-genomics, immune-engineering]
+    affiliation: "University of Washington, Seattle (ECE + Allen School CSE)"
   - slug: giovanni-ciriello
     tags: [computational-biology, cancer-genomics, spatial-omics, tumor-heterogeneity]
     affiliation: "Department of Computational Biology, University of Lausanne; Swiss Cancer Center Léman; Swiss Institute of Bioinformatics"
@@ -1937,6 +1972,9 @@ people:
   - slug: luca-pinello
     tags: [computational-biology, gene-regulation, spatial-transcriptomics, single-cell, benchmarking, epigenomics]
     affiliation: "Broad Institute of MIT and Harvard; Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital"
+  - slug: lukas-oesinghaus
+    tags: [single-cell-genomics, immune-engineering, cytokines]
+    affiliation: "University of Washington / Botnar Institute for Immune Engineering"
   - slug: malte-luecken
     tags: [single-cell-genomics, data-integration, benchmarking, Human-Cell-Atlas, methods]
     affiliation: "Helmholtz Zentrum München, Institute of Computational Biology"
@@ -3581,9 +3619,33 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: cytokine-production-strongly-cell-type-specific
+    title: "Cytokine production is strongly cell-type specific in human PBMC"
+    tags: [cytokine-production, cell-type-specific, IL-32]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: cytokine-receptor-expression-alone-sufficient-predict
     title: "Cytokine receptor expression alone is not sufficient to predict cytokine response"
     tags: [cytokine-response, receptor-expression, inference, methodological]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: cytokine-receptor-expression-response-magnitude-correlated
+    title: "Cytokine receptor expression and response magnitude correlate (r≈0.4) above a minimum receptor threshold"
+    tags: [receptor-expression, response-magnitude, correlation]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cytokine-response-profiles-consistent-across-donors
+    title: "Cytokine response profiles are consistent across donors despite baseline heterogeneity"
+    tags: [donor-consensus, reproducibility, response-magnitude]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cytokine-response-tissue-specificity-ranges-tpo
+    title: "Cytokine response tissue-specificity ranges from highly specific (TPO) to broadly acting (IL-15)"
+    tags: [tissue-specificity-index, TSI, TPO, IL-15]
     status: supported
     confidence: 0.9
     domain: immunology
@@ -3797,6 +3859,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: drvi-identifies-82-cytokine-induced-immune
+    title: "DRVI identifies 82 cytokine-induced immune programs (CIPs), predominantly myeloid"
+    tags: [DRVI, CIP, gene-programs, myeloid]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: dusp4-not-dusp1-mediates-erk-negative-feedback-efferocytosis
     title: "DUSP4, not DUSP1, is the ERK-dampening phosphatase whose AC-induced repression is required for sustained ERK1/2 and downstream COX2/TGFβ1"
     tags: [DUSP4, DUSP1, ERK, negative-feedback, efferocytosis, siDusp4, DNMT3A, macrophage]
@@ -4061,6 +4129,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunometabolism / cardiovascular immunology
+  - slug: few-cytokine-perturbations-cause-major-shifts
+    title: "Few cytokine perturbations cause major shifts in PBMC cell-type composition"
+    tags: [cell-composition, differential-abundance, scCODA, PBMC]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: ficz-tcdd-converge-on-cyp1a1-dynamics-when-dose-matched
     title: "FICZ and TCDD produce identical AHR transcriptional dynamics when dose and timing are matched for equivalent CYP1A1 induction — dose/duration, not ligand identity, drives divergence"
     tags: [AHR, FICZ, TCDD, ligand-specificity, CYP1A1, dose-response]
@@ -4493,6 +4567,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology-hypoxia
+  - slug: high-receptor-transcript-abundance-does-always
+    title: "High receptor transcript abundance does not always translate into strong cytokine response"
+    tags: [receptor-insufficiency, L-R-inference, TGF-beta]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: hk2-ahr-target-promotes-ahr-promoter-demethylation
     title: "Hexokinase 2 (HK2) is an AHR target gene that drives AHR promoter demethylation, forming a positive-feedback loop; HK2 expression negatively correlates with AHR promoter methylation across multiple cancers and associates with worse overall survival"
     tags: [AHR, HK2, hexokinase-2, DNA-methylation, positive-feedback, cancer-metabolism, prognosis]
@@ -4529,6 +4609,30 @@ claims:
     status: supported
     confidence: 0.85
     domain: regulatory-genomics
+  - slug: hucira-infers-cytokine-program-activity-independent
+    title: "huCIRA infers cytokine and program activity from independent transcriptomic datasets"
+    tags: [huCIRA, enrichment, gseapy, cytokine-inference]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: hucira-reveals-disease-specific-cytokine-activity
+    title: "huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC"
+    tags: [huCIRA, SLE, multiple-sclerosis, NSCLC, GM-CSF]
+    status: weakly_supported
+    confidence: 0.75
+    domain: immunology
+  - slug: human-cytokine-dictionary-profiles-million-pbmcs
+    title: "Human Cytokine Dictionary profiles 9,697,974 PBMCs from 12 donors across 90 cytokines"
+    tags: [Human-Cytokine-Dictionary, PBMC, scRNA-seq, perturbation-atlas]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: human-mouse-cytokine-responses-show-low
+    title: "Human and mouse cytokine responses show low gene-wise correlation"
+    tags: [cross-species, human-mouse, concordance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: hvg-selection-improves-integration
     title: "HVG selection improves scRNA-seq integration performance across most metrics"
     tags: [data-integration, scRNA-seq, preprocessing, HVG]
@@ -4781,11 +4885,23 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: ifn-gamma-nk-cells-mediates-secondary
+    title: "IFN-γ from NK cells mediates secondary monocyte responses to IL-2, IL-12 and IL-15"
+    tags: [secondary-response, IFN-gamma, NK, monocyte]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: ifnalpha-ifnbeta-induce-common-autonomous-antiviral
     title: "IFNα1 and IFNβ induce a common autonomous antiviral programme across nearly all immune cell types"
     tags: [type-I-IFN, ISG, antiviral, IFNalpha, IFNbeta]
     status: supported
     confidence: 0.95
+    domain: immunology
+  - slug: il-15-most-prolific-regulator-other
+    title: "IL-15 is the most prolific regulator of other cytokines across cell types"
+    tags: [IL-15, cytokine-cross-regulation, network-hub]
+    status: supported
+    confidence: 0.85
     domain: immunology
   - slug: il-18-induces-unique-polyfunctional-nk
     title: "IL-18 induces a unique polyfunctional NK cell state (NK-f) with >1,000 upregulated genes"
@@ -4804,6 +4920,36 @@ claims:
     tags: [IL-23, gamma-delta-T-cell, IL-22, Tgd-f, Th17-like]
     status: supported
     confidence: 0.85
+    domain: immunology
+  - slug: il-32-beta-reprograms-myeloid-cells
+    title: "IL-32-β reprograms myeloid cells from an antiviral/Th1 to a neutrophil-recruiting chemokine profile"
+    tags: [IL-32, myeloid, chemokine-switch, neutrophil-recruitment]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: il-32-beta-response-cd4-cells
+    title: "IL-32-β response in CD4 T cells depends on donor baseline interferon state"
+    tags: [IL-32, donor-context, interferon-group, CD4-T-cell]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: il-32-beta-uniquely-upregulates-il
+    title: "IL-32-β uniquely upregulates the IL-10 family in myeloid cells"
+    tags: [IL-32, IL-10-family, IL-19, IL-24]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: il-32-dominant-signaling-molecule-connecting
+    title: "IL-32 is a dominant signaling molecule connecting T-cell subtypes to other cell types"
+    tags: [IL-32, interactome, T-cell, cell-cell-communication]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: il-common-gamma-chain-il-il
+    title: "IL-1, common γ-chain interleukins, IL-4, IL-10, interferons and IL-32-β elicit the largest number of DEGs"
+    tags: [DEG, response-breadth, IL-32, interferon]
+    status: supported
+    confidence: 0.9
     domain: immunology
   - slug: il-polarizes-cells-distinct-il4i1-positive
     title: "IL-4 polarizes B cells to a distinct Il4i1+ state (B-f)"
@@ -7235,6 +7381,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: single-cell-methods
+  - slug: subset-donors-exhibit-elevated-baseline-interferon
+    title: "A subset of donors exhibit elevated baseline interferon-stimulated gene expression"
+    tags: [donor-variability, ISG, interferon-group]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: succinate-itaconate-tam-set-point
     title: "Succinate stabilizes HIF-1α and drives IL-1β; itaconate alkylates KEAP1 to activate NRF2 — opposing TAM metabolic set points"
     tags: [succinate, itaconate, hif1a, keap1, nrf2, immunometabolism, macrophage]
@@ -8105,6 +8257,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: within-human-cytokine-response-correlation-exceeds
+    title: "Within-human cytokine response correlation exceeds cross-species correlation"
+    tags: [cross-species, within-human, IFN-beta]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: wnn-multimodal-integration-improves-cluster-resolution-vs-single-modality
     title: "WNN integration of spatial DNA methylation and RNA modalities yields enhanced cluster resolution beyond either single modality"
     tags: [WNN, multimodal-integration, spatial-omics, clustering]
@@ -8679,6 +8837,10 @@ foundations:
     tags: [mitochondrial, fission, efferocytosis, macrophage]
     status: mainstream
     domain: immunology
+  - slug: drvi-disentangled-representation-variational-inference
+    title: "DRVI — Disentangled Representation Variational Inference"
+    status: mainstream
+    domain: methods
   - slug: dupilumab-anti-il4ra
     title: "Dupilumab (anti-IL-4Rα monoclonal antibody)"
     status: mainstream
@@ -8836,6 +8998,10 @@ foundations:
     title: "GLUE — graph-linked unified embedding for unpaired multi-omics integration"
     status: mainstream
     domain: methods / single-cell-integration
+  - slug: gm-csf-cytokine
+    title: "GM-CSF — granulocyte-macrophage colony-stimulating factor"
+    status: mainstream
+    domain: immunology
   - slug: gnmt-glycine-n-methyltransferase
     title: "GNMT — glycine N-methyltransferase"
     status: mainstream
@@ -8949,10 +9115,18 @@ foundations:
     title: "HT-SELEX (high-throughput systematic evolution of ligands by exponential enrichment)"
     status: mainstream
     domain: biochemistry / TF binding / in vitro
+  - slug: hucira-cytokine-immune-response-analysis
+    title: "huCIRA — human Cytokine Immune Response Analysis"
+    status: mainstream
+    domain: immunology
   - slug: huggingface-hub
     title: "Hugging Face Hub — open model and dataset hosting platform"
     status: mainstream
     domain: infrastructure / model-hosting
+  - slug: human-cytokine-dictionary-dataset
+    title: "Human Cytokine Dictionary dataset"
+    status: mainstream
+    domain: immunology
   - slug: hvg-selection-scrna
     title: "Highly Variable Gene (HVG) selection in scRNA-seq"
     status: mainstream
@@ -8977,6 +9151,10 @@ foundations:
     title: "IL-10 (Interleukin-10)"
     status: mainstream
     domain: immunology / cytokine / regulatory effector
+  - slug: il-15-cytokine
+    title: "IL-15 — interleukin-15 cytokine"
+    status: mainstream
+    domain: immunology
   - slug: il-17a-il17f-cytokines
     title: "IL-17A / IL-17F (Th17 effector cytokines)"
     status: mainstream
@@ -8997,6 +9175,10 @@ foundations:
     title: "IL-31 — itch-inducing Th2 cytokine"
     status: mainstream
     domain: cytokine / atopic dermatitis / pruritus
+  - slug: il-32-cytokine
+    title: "IL-32 — interleukin-32 cytokine"
+    status: mainstream
+    domain: immunology
   - slug: il-6-cytokine
     title: "IL-6 (Interleukin-6)"
     status: mainstream
@@ -9009,6 +9191,10 @@ foundations:
     title: "IL1R1 — Interleukin-1 receptor type 1"
     status: mainstream
     domain: immunology / cytokine receptor
+  - slug: il4-cytokine
+    title: "IL-4 — interleukin-4 cytokine"
+    status: mainstream
+    domain: immunology
   - slug: il4i1-l-amino-acid-oxidase
     title: "IL4I1 (interleukin-4-induced-1)"
     status: mainstream
@@ -9500,6 +9686,10 @@ foundations:
     title: "Parabiosis"
     status: mainstream
     domain: method / in vivo physiology
+  - slug: parse-biosciences-split-pool-barcoding
+    title: "Parse Biosciences split-pool barcoding (SPLiT-seq)"
+    status: mainstream
+    domain: methods
   - slug: pcawg-consortium
     title: "PCAWG (Pan-Cancer Analysis of Whole Genomes)"
     status: mainstream

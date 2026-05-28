@@ -19,6 +19,7 @@ tags:
 maturity: stable
 key_papers:
   - dictionary-immune-responses-cytokines-single-cell
+  - single-cell-cytokine-dictionary-human-peripheral
 first_introduced: "2024"
 date_updated: 2026-05-13
 related_concepts:
@@ -49,11 +50,12 @@ Cite whenever interpreting cytokine signatures in scRNA-seq data — never assum
 
 - Combinatorial cytokine perturbation atlases (>2 cytokines simultaneously)
 - Dose-response and temporal dynamics of cell-type-specific programmes
-- Human translation of the mouse Immune Dictionary
+- Human translation of the mouse Immune Dictionary — now addressed by the Human Cytokine Dictionary (Oesinghaus 2025), which confirms cell-type-specific responses in human PBMCs but finds only weak human↔mouse gene-level concordance
 
 ## Key papers
 
 - [[papers/dictionary-immune-responses-cytokines-single-cell]]
+- [[papers/single-cell-cytokine-dictionary-human-peripheral]] — human PBMC counterpart; confirms cytokine pleiotropy/cell-type specificity in humans (IL-1, common γ-chain, IL-4, IL-10, interferons, IL-32-β as the broadest responders)
 
 ## My understanding
 

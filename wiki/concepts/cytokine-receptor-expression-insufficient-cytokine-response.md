@@ -19,6 +19,7 @@ tags:
   - scRNA-seq
 key_papers:
   - dictionary-immune-responses-cytokines-single-cell
+  - single-cell-cytokine-dictionary-human-peripheral
 first_introduced: "2024"
 date_updated: 2026-05-13
 related_concepts:
@@ -46,6 +47,7 @@ Any project using CellPhoneDB / CellChat / NicheNet — flag receptor-alone infe
 ## Key papers
 
 - [[papers/dictionary-immune-responses-cytokines-single-cell]]
+- [[papers/single-cell-cytokine-dictionary-human-peripheral]] — human PBMC: receptor expression and response correlate only r≈0.4 with a minimum baseline-receptor threshold (~8 cpm); IL-2/IL-15 drive strong monocyte responses without receptor via NK-derived IFN-γ secondary cascades
 
 ## My understanding
 

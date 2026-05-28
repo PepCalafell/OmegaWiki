@@ -9,3 +9,4 @@
 {"from": "papers/trem2-macrophages-associated-enhanced-response-pd", "to": "papers/cross-tissue-single-cell-landscape-human", "type": "cites", "source": "semantic_scholar", "date": "2026-05-26"}
 {"from": "papers/role-ahr-host-pathogen-interactions", "to": "papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic", "type": "cites", "source": "manual", "date": "2026-05-27"}
 {"from": "papers/role-ahr-host-pathogen-interactions", "to": "papers/complex-biology-aryl-hydrocarbon-receptor-activation", "type": "cites", "source": "manual", "date": "2026-05-27"}
+{"from": "papers/single-cell-cytokine-dictionary-human-peripheral", "to": "papers/dictionary-immune-responses-cytokines-single-cell", "type": "cites", "source": "semantic_scholar", "date": "2026-05-28"}

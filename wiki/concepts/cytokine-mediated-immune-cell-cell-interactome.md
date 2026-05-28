@@ -19,6 +19,7 @@ tags:
   - lymph-node
 key_papers:
   - dictionary-immune-responses-cytokines-single-cell
+  - single-cell-cytokine-dictionary-human-peripheral
 first_introduced: "2024"
 date_updated: 2026-05-13
 related_concepts:
@@ -54,6 +55,7 @@ Reference network for any tissue-immune communication analysis; useful when desi
 ## Key papers
 
 - [[papers/dictionary-immune-responses-cytokines-single-cell]]
+- [[papers/single-cell-cytokine-dictionary-human-peripheral]] — human PBMC interactome via sender-strength × receiver-sensitivity interaction scores; IL-32 emerges as a dominant connector from all T-cell subtypes, NK CD56hi signals to nearly all cell types, NK CD56low signals to none
 
 ## My understanding
 
