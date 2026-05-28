@@ -79,6 +79,12 @@ papers:
     importance: 5
     domain: immunology
     priority: core
+  - slug: effector-host-interactome-map-links-type
+    title: "Effector–host interactome map links type III secretion systems in healthy gut microbiomes to immune modulation"
+    tags: [t3ss, microbiome, interactome, immune-modulation, gut, ibd, nf-kb, effectors]
+    importance: 4
+    domain: microbiology
+    priority: reference
   - slug: emerging-strategies-investigate-biology-early-cancer
     title: "Emerging strategies to investigate the biology of early cancer"
     tags: [early-cancer, precancer, lineage-tracing, organoid, autochthonous-mouse-model, single-cell-omics, spatial-omics, ai-cancer-detection, review]
@@ -598,6 +604,14 @@ concepts:
     title: "COL11A1+GREM1+ CAF — SPP1+ TAM axis driving CTL exclusion in NSCLC"
     tags: [caf, tam, immune-exclusion, ecm, nsclc, ici-resistance]
     maturity: emerging
+  - slug: commensal-pathogen-effector-divergence
+    title: "Commensal–pathogen effector repertoire divergence"
+    tags: [t3ss, effectors, sequence, structure]
+    maturity: emerging
+  - slug: commensal-t3ss-host-directed-secretion
+    title: "Commensal T3SS as host-directed secretion in the healthy gut"
+    tags: [t3ss, microbiome, commensal, host-directed-secretion]
+    maturity: emerging
   - slug: complement-cd55-cd59-tumour-evasion
     title: "CD55/CD59 complement-regulator upregulation as tumour immune-evasion mechanism"
     tags: [complement, cd55, cd59, c5a, cd8-cytotoxicity, ici-combination]
@@ -718,6 +732,18 @@ concepts:
     title: "Ecm-myCAF — leading-edge signalling axis in solid tumors"
     tags: [CAF, leading-edge, ligand-receptor, ECM, OSCC, pan-cancer]
     maturity: active
+  - slug: effector-convergence-host-hub-proteins
+    title: "Effector convergence on host hub proteins"
+    tags: [convergence, network, nf-kb, hummi]
+    maturity: emerging
+  - slug: effector-interaction-sequence-independence
+    title: "Sequence-independence of effector–host interaction profiles"
+    tags: [effectors, interaction-profile, sequence]
+    maturity: emerging
+  - slug: effector-prevalence-crohns-vs-uc-divergence
+    title: "Opposing T3SS effector prevalence in Crohn's disease vs ulcerative colitis"
+    tags: [crohns, ulcerative-colitis, ibd, metagenomics]
+    maturity: emerging
   - slug: efferocytosis-anti-inflammatory-clearance
     title: "Efferocytosis — apoptotic cell clearance with anti-inflammatory output"
     tags: [macrophage, phagocytosis, apoptotic-clearance, tissue-homeostasis, immunology]
@@ -1115,6 +1141,10 @@ concepts:
     title: "Mevalonate pathway sustains B-cell, Breg, and Treg function via cholesterol and GGPP"
     tags: [mevalonate, hmg-coa-reductase, statin, ggpp, b-cell, breg, treg, cholesterol]
     maturity: active
+  - slug: microbiome-host-meta-interactome-hummi
+    title: "Microbiome–host protein meta-interactome (HuMMI)"
+    tags: [hummi, interactome, y2h, effectors]
+    maturity: emerging
   - slug: microbiota-tryptophan-ahr-ligand-axis
     title: "Microbiota / dietary tryptophan → AHR ligand axis"
     tags: [AHR, microbiota, tryptophan, diet, gut-immunity, mucosal-immunity]
@@ -1448,6 +1478,10 @@ concepts:
   - slug: skin-multicellular-spatial-neighborhoods
     title: "Ten multicellular spatial neighborhoods as architectural units of human skin"
     tags: [skin, spatial-transcriptomics, MERFISH, tissue-architecture, multicellular-neighborhood]
+    maturity: emerging
+  - slug: slim-pdz-effector-host-interface
+    title: "SLiM- and PDZ-mediated effector–host interfaces"
+    tags: [slim, pdz, mimicint, holdup]
     maturity: emerging
   - slug: slpi-macrophage-profibrotic-tam
     title: "SLPI+ profibrotic macrophage (Macro_SLPI) — pan-cancer ECM-remodeling TAM"
@@ -1784,6 +1818,9 @@ people:
   - slug: alexandru-suvac
     tags: [hypoxia, DNA-repair, genomic-instability, cancer-genomics]
     affiliation: "Translational Oncogenomics Laboratory, Cancer Research UK Manchester Institute; Manchester Cancer Research Centre; Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University of Manchester, UK"
+  - slug: andreas-zanzoni
+    tags: [bioinformatics, interactome, slim, host-microbe]
+    affiliation: "Aix-Marseille Université"
   - slug: andrew-l-ji
     tags: [skin, dermatology, spatial-transcriptomics, single-cell, squamous-cell-carcinoma]
     affiliation: "Department of Dermatology, Tisch Cancer Institute, Department of Oncological Sciences, Department of Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
@@ -1994,6 +2031,9 @@ people:
   - slug: javier-rodriguez-ubreva
     tags: [epigenetics, immunology, macrophage, DNA-methylation, autoimmune-disease]
     affiliation: "Epigenetics and Immune Disease Group, Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
+  - slug: jean-claude-twizere
+    tags: [interactome, virology, host-pathogen, systems-biology]
+    affiliation: "University of Liège"
   - slug: jean-ehrland-ricci
     tags: [tumor-metabolism, immunometabolism, dlbcl, oxphos, asnase]
     affiliation: "Université Côte d'Azur, INSERM, C3M, Nice, France; Équipe labellisée LIGUE Contre le Cancer"
@@ -2081,6 +2121,12 @@ people:
   - slug: matthias-farlik
     tags: [epigenomics, single-cell, dermatology, jak-stat, immunology]
     affiliation: "Medical University of Vienna, Department of Dermatology; CeMM"
+  - slug: michael-calderwood
+    tags: [interactome, systems-biology, y2h]
+    affiliation: "Dana-Farber Cancer Institute / Harvard Medical School"
+  - slug: michael-rothballer
+    tags: [microbiome, microbial-ecology, plant-microbe]
+    affiliation: "Helmholtz Munich"
   - slug: michael-tyler
     tags: [scrna-seq, pan-cancer, metaprograms, oncology]
     affiliation: "Weizmann Institute of Science; Georg-Speyer-Haus, Institute for Tumor Biology"
@@ -2126,6 +2172,9 @@ people:
   - slug: parker-s-woods
     tags: [macrophage-biology, alveolar-macrophage, immunometabolism, hypoxia-signaling, HIF1A, ARDS]
     affiliation: "Department of Medicine, Section of Pulmonary and Critical Care Medicine, University of Chicago, Chicago, IL, USA"
+  - slug: pascal-falter-braun
+    tags: [interactome, systems-biology, microbiome, plant-microbe]
+    affiliation: "Helmholtz Munich / LMU Munich"
   - slug: patrick-b-ampomah
     tags: [efferocytosis, macrophage, resolution, atherosclerosis, DNMT3A, epigenetics]
     affiliation: "Columbia University Irving Medical Center; Novartis Institutes for BioMedical Research"
@@ -2174,6 +2223,9 @@ people:
   - slug: ran-zhou
     tags: [early-cancer, lineage-tracing]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
+  - slug: renaud-vincentelli
+    tags: [structural-biology, holdup-assay, pdz, protein-interactions]
+    affiliation: "Aix-Marseille Université / CNRS"
   - slug: robert-b-hamanaka
     tags: [immunometabolism, mitochondria, hypoxia, macrophage-biology, pulmonary-fibrosis, reactive-oxygen-species]
     affiliation: "Department of Medicine, Section of Pulmonary and Critical Care Medicine, University of Chicago, Chicago, IL, USA"
@@ -2255,6 +2307,9 @@ people:
   - slug: tomi-lazarov
     tags: [macrophage, tissue-resident-macrophage, immunology, developmental-biology, postdoc, mononuclear-phagocyte]
     affiliation: "Memorial Sloan Kettering Cancer Center, New York, NY, USA; Weill Cornell Graduate School of Medical Sciences, New York, NY, USA"
+  - slug: veronika-young
+    tags: [microbiome, interactome, t3ss]
+    affiliation: "Helmholtz Munich"
   - slug: vinayak-bhandari
     tags: [cancer-genomics, hypoxia, prostate-cancer, pancancer, bioinformatics, computational-oncology]
     affiliation: "Department of Medical Biophysics, University of Toronto; Informatics and Biocomputing Program, Ontario Institute for Cancer Research (OICR)"
@@ -2387,12 +2442,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: immuno-oncology
+  - slug: 26-percent-hummi-effectors-detectable-in-skin-microbiome
+    title: "26% of HuMMI effectors are detectable in skin microbiome samples"
+    tags: [effectors, skin-microbiome, niches, hummi]
+    status: supported
+    confidence: 0.65
+    domain: microbiology
   - slug: 32-134d-hif-inhibitor-anti-pd1-hcc-67-percent
     title: "32-134D HIF-1/2 inhibitor combined with anti-PD-1 increases HCC eradication from 25% to 67% in mice"
     tags: [hypoxia, HIF, 32-134D, anti-PD-1, HCC, combination-therapy, pharmacological, quantitative]
     status: supported
     confidence: 0.75
     domain: hypoxia
+  - slug: 32-commensal-effectors-t3ss-injected-into-hela-via-salmonella
+    title: "32 commensal candidate effectors are specifically T3SS-injected into human cells"
+    tags: [t3ss, effectors, injection-assay, translocation]
+    status: supported
+    confidence: 0.8
+    domain: microbiology
   - slug: 6d-tam-atlas-rational-design
     title: "A 6D TAM atlas (causal drivers / spatial niches / temporal dynamics / signaling state / metabolism / ontogeny) is required for rational TAM-targeted therapy design"
     tags: [framework, tumor-associated-macrophage, translational-oncology, atlas]
@@ -2405,6 +2472,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: 79-percent-gut-pseudomonadota-encode-complete-t3ss
+    title: "~79% of gut-commensal Pseudomonadota reference genomes encode a complete T3SS"
+    tags: [t3ss, microbiome, gut, comparative-genomics]
+    status: supported
+    confidence: 0.85
+    domain: microbiology
   - slug: 8-ifngmac-cxcl9-cxcl10-tcell-recruiting
     title: "Cluster 8_IFNGMac is defined by CXCL9/CXCL10/MMP9/VAMP5 upregulation, consistent with an IFN-γ-driven T-cell-recruiting TAM phenotype"
     tags: [TAM, 8_IFNGMac, CXCL9, CXCL10, IFN-gamma, T-cell-recruitment]
@@ -2417,6 +2490,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immuno-oncology
+  - slug: 92-percent-gut-pseudomonadota-have-host-directed-secretion-system
+    title: "92% of gut Pseudomonadota genomes encode at least one host-directed secretion system"
+    tags: [t3ss, t4ss, t6ss, microbiome, comparative-genomics]
+    status: supported
+    confidence: 0.85
+    domain: microbiology
   - slug: ac-induced-ptgs2-tgfb1-independent-of-extracellular-methionine
     title: "AC-induced Ptgs2 and Tgfb1 in macrophages do not require extracellular methionine in the media — AC-derived methionine is sufficient"
     tags: [methionine, methionine-free-media, efferocytosis, Ptgs2, Tgfb1, BMDM]
@@ -3341,6 +3420,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / pathology
+  - slug: cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1
+    title: "Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1)"
+    tags: [effectors, crohns, cog6, tnip1, hummi]
+    status: weakly_supported
+    confidence: 0.6
+    domain: genomics
   - slug: cd123-prg2-clc-mark-baeoma
     title: "CD123 surface expression with high PRG2 and CLC protein marks BaEoMa (basophil-eosinophil-mast) progenitors"
     tags: [BaEoMa, basophil, eosinophil, mast, CD123, PRG2, CLC, methodological, marker]
@@ -3575,6 +3660,42 @@ claims:
     status: supported
     confidence: 0.9
     domain: hypoxia
+  - slug: commensal-effectors-bidirectionally-modulate-nfkb-activity
+    title: "Commensal effectors bidirectionally modulate NF-κB activity in human cells"
+    tags: [effectors, nf-kb, immune-modulation, functional]
+    status: supported
+    confidence: 0.72
+    domain: immunology
+  - slug: commensal-effectors-modulate-cytokine-secretion-tlr-dependent
+    title: "Commensal effectors modulate cytokine secretion in a stimulus-dependent manner"
+    tags: [effectors, cytokines, tlr, il6, il8, functional]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: commensal-effectors-rarely-share-sequence-with-pathogen-effectors
+    title: "Commensal T3SS effectors rarely share sequence similarity with pathogen effectors"
+    tags: [t3ss, effectors, sequence-similarity, microbiome]
+    status: supported
+    confidence: 0.85
+    domain: microbiology
+  - slug: commensal-pathogen-effector-structures-cluster-homogeneously
+    title: "Commensal and pathogen effector structures form mostly homogeneous clusters; mixed clusters depleted"
+    tags: [t3ss, effectors, structure, foldseek, alphafold]
+    status: supported
+    confidence: 0.8
+    domain: microbiology
+  - slug: commensal-pathogen-effectors-share-12-human-targets
+    title: "Commensal and pathogen effectors share a small but significant set of human targets"
+    tags: [hummi, pathogen, convergence, intact]
+    status: weakly_supported
+    confidence: 0.65
+    domain: genomics
+  - slug: commensal-t3ss-restricted-to-gammaproteobacteria-escherichia
+    title: "Commensal gut T3SS are restricted to Gammaproteobacteria, especially Escherichia"
+    tags: [t3ss, taxonomy, escherichia, microbiome]
+    status: supported
+    confidence: 0.8
+    domain: microbiology
   - slug: conditioned-media-from-control-not-dnmt3a-ko-macs-enhances-efferocytosis-via-tgfb1
     title: "Conditioned media from AC-exposed control macrophages (not DNMT3A-KO) enhances recipient-macrophage efferocytosis in an anti-TGF-β1-blockable manner"
     tags: [conditioned-media, TGFβ1, DNMT3A, efferocytosis, paracrine, PKH26, BMDM]
@@ -4109,6 +4230,42 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology/cancer-stem-cells
+  - slug: edwardsiella-tarda-native-t3ss-injects-effectors-into-hela
+    title: "Edwardsiella tarda uses its native T3SS to inject effectors into human cells"
+    tags: [t3ss, edwardsiella, commensal, translocation]
+    status: supported
+    confidence: 0.75
+    domain: microbiology
+  - slug: effector-interaction-profile-independent-of-sequence-similarity
+    title: "Effector host-interaction profiles are largely independent of overall sequence similarity"
+    tags: [hummi, effectors, sequence-similarity, interaction-profile]
+    status: supported
+    confidence: 0.8
+    domain: genomics
+  - slug: effector-neighbourhoods-enriched-crohns-not-uc
+    title: "Effector-targeted network neighbourhoods are enriched for Crohn's disease but not ulcerative colitis"
+    tags: [hummi, crohns, ibd, network, gwas]
+    status: weakly_supported
+    confidence: 0.65
+    domain: genomics
+  - slug: effector-targets-enriched-gwas-immune-metabolic-disease-variation
+    title: "Effector-targeted human genes are enriched for GWAS variation in immune and metabolic diseases"
+    tags: [hummi, gwas, disease, open-targets, autoimmune]
+    status: weakly_supported
+    confidence: 0.65
+    domain: genomics
+  - slug: effector-targets-enriched-muramyl-dipeptide-nfkb-sapk-jnk
+    title: "Effector-targeted human proteins are enriched for MDP response, NF-κB and SAPK/JNK signalling"
+    tags: [hummi, gene-ontology, nf-kb, nod2, immune-signalling]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: effectors-converge-on-60-host-hub-proteins-more-than-random
+    title: "Effectors from multiple strains converge on ~60 host hub proteins more than expected by chance"
+    tags: [hummi, convergence, network, nf-kb]
+    status: supported
+    confidence: 0.8
+    domain: genomics
   - slug: efferocytosis-induces-fao-and-pparg-ppard-anti-inflammatory-program
     title: "Catabolism of phagocytosed apoptotic cells fuels FAO and induces PPARδ/PPARγ-driven anti-inflammatory programs"
     tags: [efferocytosis, fao, pparg, ppar-delta, anti-inflammatory, regeneration]
@@ -4463,6 +4620,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: ggdef-eal-pas-domains-enriched-commensal-effectors-absent-pathogens
+    title: "GGDEF, EAL and PAS domains are common in commensal effectors but absent from pathogen effectors"
+    tags: [t3ss, effectors, c-di-gmp, protein-domains]
+    status: supported
+    confidence: 0.8
+    domain: microbiology
   - slug: global-5mc-increase-efferocytosis-mat2a-dnmt3a-dependent
     title: "AC-induced macrophage global 5-methylcytosine percentage is partially MAT2A- and DNMT3A-dependent"
     tags: [5mC, global-DNA-methylation, DNMT3A, MAT2A, efferocytosis, macrophage]
@@ -4889,6 +5052,18 @@ claims:
     status: supported
     confidence: 0.75
     domain: cell biology
+  - slug: hummi-1255-interactions-286-effectors-426-human-proteins
+    title: "HuMMI maps 1,255 verified interactions between 286 effectors and 426 human proteins"
+    tags: [hummi, interactome, y2h, effectors]
+    status: supported
+    confidence: 0.85
+    domain: genomics
+  - slug: hummi-biophysical-quality-on-par-with-literature-interactions
+    title: "HuMMI interactions are biophysically reliable and detectable in human cells"
+    tags: [hummi, interactome, validation, coip]
+    status: supported
+    confidence: 0.75
+    domain: genomics
   - slug: hvg-feature-selection-theoretically-ill-posed
     title: "HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction"
     tags: [HVG, zero-shot, feature-selection, theory, perturbation]
@@ -6881,6 +7056,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: neuroscience / anatomy / mouse
+  - slug: pdz-pbm-effector-interfaces-validated-by-holdup-assay
+    title: "Bacterial C-terminal PBMs bind human PDZ domains, validated by holdup assay"
+    tags: [hummi, pdz, holdup, interfaces]
+    status: supported
+    confidence: 0.78
+    domain: genomics
   - slug: perivasc-fib-i-immune-recruitment-ccl19-cxcl12
     title: "Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs"
     tags: [skin, Perivasc-Fib-I, CCL19, CCR7, CXCL12, CXCR4, FRC-like, mechanistic]
@@ -7421,6 +7602,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: slim-domain-interfaces-enriched-in-hummi
+    title: "Short linear motif–domain interfaces are enriched among commensal effector–host interactions"
+    tags: [hummi, slim, mimicint, interfaces]
+    status: supported
+    confidence: 0.75
+    domain: genomics
   - slug: smhcr-validates-tgfb1-kc-dcn-hsc-coexpression-r059
     title: "smHCR independently validates the predicted Tgfb1–Dcn covariation: Pearson r = 0.59 for Tgfb1 (Kupffer) and Dcn (stellate) in co-localized pairs vs r = 0.24 for the Clec4f–Dcn baseline (general KC marker)"
     tags: [smHCR, validation, Tgfb1, Dcn, Kupffer-stellate]
@@ -7733,6 +7920,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: neuroimmunology / pharmacology / mouse-model
+  - slug: t3ss-effectors-enriched-crohns-depleted-uc-metagenomes
+    title: "T3SS effectors are enriched in Crohn's disease but depleted in ulcerative colitis metagenomes"
+    tags: [effectors, metagenomics, crohns, ulcerative-colitis, ibd]
+    status: supported
+    confidence: 0.72
+    domain: microbiology
   - slug: tabulatime-defines-56-tme-subtypes-six-lineages
     title: "TabulaTIME resolves 56 TME cell subtypes across 6 major cell lineages"
     tags: [pan-cancer, cell-atlas, tme, scrna-seq]
@@ -8705,6 +8898,10 @@ foundations:
     title: "Akkermansia muciniphila"
     status: mainstream
     domain: microbiology
+  - slug: alphafold-multimer
+    title: "AlphaFold-Multimer"
+    status: mainstream
+    domain: methods
   - slug: ampk-prkaa
     title: "AMPK (AMP-activated protein kinase)"
     tags: [kinase, energy-sensing, immunometabolism, macrophage]
@@ -9090,6 +9287,10 @@ foundations:
     title: "CXCL8 / IL-8 — interleukin-8 chemokine"
     status: mainstream
     domain: molecular-biology / immunology / chemokine
+  - slug: cyclic-di-gmp
+    title: "Cyclic di-GMP (c-di-GMP)"
+    status: mainstream
+    domain: microbiology
   - slug: cyp1a1-cytochrome
     title: "CYP1A1 (cytochrome P450 1A1)"
     status: mainstream
@@ -9191,6 +9392,14 @@ foundations:
     title: "eCF506 — selective SRC kinase inhibitor"
     status: mainstream
     domain: pharmacology / kinase inhibitor
+  - slug: edwardsiella-tarda
+    title: "Edwardsiella tarda"
+    status: mainstream
+    domain: microbiology
+  - slug: effectivedb-t3ss-prediction
+    title: "EffectiveDB (secretion system & effector prediction)"
+    status: mainstream
+    domain: methods
   - slug: egfr-mutation-luad
     title: "EGFR activating mutations in lung adenocarcinoma"
     status: mainstream
@@ -9267,6 +9476,10 @@ foundations:
     title: "fMRI (functional magnetic resonance imaging)"
     status: mainstream
     domain: neuroimaging / method
+  - slug: foldseek
+    title: "FoldSeek"
+    status: mainstream
+    domain: methods
   - slug: folr2-receptor
     title: "FOLR2 — folate receptor β / FRβ"
     status: mainstream
@@ -9429,6 +9642,10 @@ foundations:
     tags: [enzyme, iron-metabolism, antioxidant, macrophage]
     status: mainstream
     domain: immunology
+  - slug: holdup-assay
+    title: "Holdup assay"
+    status: mainstream
+    domain: methods
   - slug: homer-motif-enrichment-analysis
     title: "HOMER — motif enrichment analysis"
     status: mainstream
@@ -9469,6 +9686,10 @@ foundations:
     title: "Human Cytokine Dictionary dataset"
     status: mainstream
     domain: immunology
+  - slug: huri-human-reference-interactome
+    title: "HuRI (Human Reference Interactome)"
+    status: mainstream
+    domain: genomics
   - slug: hvg-selection-scrna
     title: "Highly Variable Gene (HVG) selection in scRNA-seq"
     status: mainstream
@@ -9836,6 +10057,10 @@ foundations:
     title: "Micro-organosphere (MOS) — droplet-emulsion microfluidic tumour organoid platform"
     status: mainstream
     domain: methods / organoids
+  - slug: mimicint-slim-domain-inference
+    title: "mimicINT (SLiM–domain interaction inference)"
+    status: mainstream
+    domain: methods
   - slug: mir-133a-3p-mirna
     title: "miR-133a-3p (microRNA-133a-3p)"
     status: mainstream
@@ -9915,6 +10140,10 @@ foundations:
     status: mainstream
     domain: imaging / spatial-biology
     maturity: established
+  - slug: muramyl-dipeptide
+    title: "Muramyl dipeptide (MDP)"
+    status: mainstream
+    domain: immunology
   - slug: murf1-trim63
     title: "MURF1 / TRIM63 (muscle RING finger 1)"
     status: mainstream
@@ -9931,6 +10160,10 @@ foundations:
     title: "Mycobacterium tuberculosis (TB pathogen)"
     status: mainstream
     domain: microbiology / Mycobacterium / tuberculosis
+  - slug: nanoluc-hibit-injection-assay
+    title: "NanoLuc HiBiT split-luciferase injection assay"
+    status: mainstream
+    domain: methods
   - slug: ncem-niche-cell-effect-model
     title: "NCEM — Niche Cell-cell Effect Model"
     status: mainstream
@@ -9979,6 +10212,10 @@ foundations:
     title: "nnSVG — nearest-neighbour Gaussian-process SVG detection"
     status: mainstream
     domain: spatial-transcriptomics-methods
+  - slug: nod2
+    title: "NOD2"
+    status: mainstream
+    domain: immunology
   - slug: notch3-receptor
     title: "NOTCH3 receptor"
     status: mainstream
@@ -10028,6 +10265,10 @@ foundations:
     title: "PageRank algorithm"
     status: mainstream
     domain: methods
+  - slug: pam3csk4-tlr12-agonist
+    title: "Pam3CSK4 (TLR1/2 agonist)"
+    status: mainstream
+    domain: immunology
   - slug: panc02-pdac-cachexia-model
     title: "Panc02 PDAC mouse model of cancer cachexia"
     status: mainstream
@@ -10062,6 +10303,10 @@ foundations:
     status: mainstream
     domain: immunology / immune-checkpoint
     maturity: established
+  - slug: pdz-domain
+    title: "PDZ domain"
+    status: mainstream
+    domain: cell biology
   - slug: pdzk1ip1-map17-creer-fate-mapping
     title: "Pdzk1ip1 (Map17)-creER fate mapping (adult HSC progeny)"
     status: mainstream
@@ -10251,6 +10496,10 @@ foundations:
     title: "S1PR1 — sphingosine-1-phosphate receptor 1"
     status: mainstream
     domain: GPCR signaling / immunology
+  - slug: salmonella-typhimurium
+    title: "Salmonella enterica sv. Typhimurium"
+    status: mainstream
+    domain: microbiology
   - slug: sarcopenia-clinical-syndrome
     title: "Sarcopenia (clinical syndrome)"
     status: mainstream
@@ -10554,14 +10803,14 @@ foundations:
     title: "Tangram — deep-learning spatial mapping of scRNA-seq onto spatial transcriptomics"
     status: mainstream
     domain: methods / spatial-transcriptomics / cross-modality-mapping
-  - slug: tapinarof-ahr-agonist
-    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
-    status: mainstream
-    domain: pharmacology / AHR agonist / dermatology drug
   - slug: tapinarof
     title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
     status: mainstream
     domain: immunology / dermatology / small-molecule drug
+  - slug: tapinarof-ahr-agonist
+    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
+    status: mainstream
+    domain: pharmacology / AHR agonist / dermatology drug
   - slug: tbk1-tank-binding-kinase-1
     title: "TBK1 — TANK-binding kinase 1"
     status: mainstream
@@ -10662,6 +10911,10 @@ foundations:
     title: "TYK2 — Tyrosine kinase 2 (Janus kinase family)"
     status: mainstream
     domain: immunology
+  - slug: type-iii-secretion-system
+    title: "Type III secretion system (T3SS)"
+    status: mainstream
+    domain: microbiology
   - slug: type-interferon-ifna-ifnb
     title: "Type I interferons (IFNα, IFNβ, IFNε, IFNκ)"
     status: mainstream
@@ -10731,6 +10984,10 @@ foundations:
     title: "Xenium In Situ — single-cell spatial transcriptomics (10x Genomics)"
     status: mainstream
     domain: spatial transcriptomics / methods
+  - slug: yeast-two-hybrid-y2h
+    title: "Yeast two-hybrid (Y2H)"
+    status: mainstream
+    domain: methods
   - slug: zscan20-tf
     title: "ZSCAN20"
     status: mainstream

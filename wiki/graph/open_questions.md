@@ -103,6 +103,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/dictionary-immune-responses-cytokines-single-cell] How does the Mac-a/b/c/d/e taxonomy map onto hypoxic TAM phenotypes (e.g., mmac1-hypoxic-inflammatory-macrophage)?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Is the IL-18 NK-f state operative in tumour-infiltrating NK cells?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Can the Immune Dictionary serve as a reference panel for human PBMC datasets despite species differences?
+- [paper/effector-host-interactome-map-links-type] What host/environmental cues activate commensal T3SS in vivo?
+- [paper/effector-host-interactome-map-links-type] Do commensal effectors causally contribute to Crohn's disease or protect against UC?
+- [paper/effector-host-interactome-map-links-type] Are convergence proteins differentially manipulated in commensal vs pathogenic contexts?
+- [paper/effector-host-interactome-map-links-type] How much of the skin-microbiome effector detection reflects active injection in skin?
+- [paper/effector-host-interactome-map-links-type] Could effector content (not taxon abundance) become an IBD biomarker or therapy
 - [paper/emerging-strategies-investigate-biology-early-cancer] When and how does a mutant cell reach the tipping point of irreversible commitment to cancer?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Why does the same driver mutation produce vastly different outcomes across mice or patients?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Can early-detection strategies validated in models translate to humans?
@@ -1178,13 +1183,18 @@ _Auto-generated open questions. Do not edit._
 - [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
 - [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
+- [claim/cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1] Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1) (status: weakly_supported)
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
+- [claim/commensal-pathogen-effectors-share-12-human-targets] Commensal and pathogen effectors share a small but significant set of human targets (status: weakly_supported)
 - [claim/continuous-flow-smooth-latent-manifold-acts] Continuous flow on a smooth latent manifold acts as an implicit denoiser without explicit imputation (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
+- [claim/discrete-cell-type-embeddings-structurally-preclude] Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages (status: proposed)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
+- [claim/effector-neighbourhoods-enriched-crohns-not-uc] Effector-targeted network neighbourhoods are enriched for Crohn's disease but not ulcerative colitis (status: weakly_supported)
+- [claim/effector-targets-enriched-gwas-immune-metabolic-disease-variation] Effector-targeted human genes are enriched for GWAS variation in immune and metabolic diseases (status: weakly_supported)
 - [claim/endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps] Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation (status: weakly_supported)
 - [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
@@ -1196,6 +1206,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
+- [claim/hvg-feature-selection-theoretically-ill-posed] HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction (status: proposed)
 - [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
