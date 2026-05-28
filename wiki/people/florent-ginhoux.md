@@ -5,7 +5,7 @@ role: pi
 group: "Ginhoux Lab"
 institution: "Gustave Roussy / A*STAR Singapore"
 papers_in_vault: 4
-relevance_tier: emerging
+relevance_tier: established
 manual_override:
 tags:
   - macrophage
