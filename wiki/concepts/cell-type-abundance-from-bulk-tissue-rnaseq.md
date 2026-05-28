@@ -18,8 +18,9 @@ tags:
 maturity: active
 key_papers:
   - pairwise-cytokine-code-explains-organism-wide
+  - decode-deep-learning-based-common-deconvolution
 first_introduced: "2024"
-date_updated: 2026-05-22
+date_updated: 2026-05-28
 related_concepts:
   - pairwise-cytokine-code-sepsis
 ---
@@ -45,6 +46,7 @@ Use when bulk-RNA-seq covers many organ-condition combinations and a matched sin
 ## Key papers
 
 - [[papers/pairwise-cytokine-code-explains-organism-wide]]
+- [[papers/decode-deep-learning-based-common-deconvolution]] — a learned, distribution-agnostic deconvolver applicable across omics
 
 ## My understanding
 

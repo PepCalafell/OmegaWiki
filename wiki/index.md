@@ -7,24 +7,30 @@ papers:
     importance: 4
     domain: immunology
     priority: context
-  - slug: atlas-scale-metabolic-activities-inferred-single
-    title: "Atlas-scale metabolic activities inferred from single-cell and spatial transcriptomics"
-    tags: [scCellFie, metabolic-task-inference, single-cell-metabolism, spatial-metabolism, endometrium, endometriosis, endometrial-carcinoma, kynurenine-AHR, mevalonate-pathway, GPR-rules, genome-scale-metabolic-model, CELLxGENE, Visium, metabolite-CCC, estrogen-biosynthesis]
-    importance: 3
-    domain: "methods / metabolism / endometrial biology / oncology"
-    priority: reference
   - slug: atlas-guided-discovery-transcription-factors-cell
     title: "Atlas-guided discovery of transcription factors for T cell programming"
     tags: [cd8-t-cells, exhaustion, tissue-resident-memory, transcription-factor, taiji, perturb-seq, immunotherapy]
     importance: 5
     domain: immunology
     priority: core
+  - slug: atlas-scale-metabolic-activities-inferred-single
+    title: "Atlas-scale metabolic activities inferred from single-cell and spatial transcriptomics"
+    tags: [scCellFie, metabolic-task-inference, single-cell-metabolism, spatial-metabolism, endometrium, endometriosis, endometrial-carcinoma, kynurenine-AHR, mevalonate-pathway, GPR-rules, genome-scale-metabolic-model, CELLxGENE, Visium, metabolite-CCC, estrogen-biosynthesis]
+    importance: 3
+    domain: methods / metabolism / endometrial biology / oncology
+    priority: reference
   - slug: benchmarking-atlas-level-data-integration-single
     title: "Benchmarking atlas-level data integration in single-cell genomics"
     tags: [benchmarking, data-integration, single-cell, scRNA-seq, scATAC-seq, batch-correction, methods, atlas, HCA]
     importance: 5
     domain: methods
     priority: core
+  - slug: cancer-associated-cachexia-bridging-clinical-findings
+    title: "Cancer-Associated Cachexia: Bridging Clinical Findings with Mechanistic Insights in Human Studies"
+    tags: [cancer-cachexia, human-studies, clinical-phenotyping, body-composition, CT-L3-imaging, sarcopenia, TRACERx, central-melanocortin-system, cancer-anorexia, cori-cycle, hypermetabolism, PTHrP, GDF-15, WAT-browning, UCP1, lipolysis, HSL, ATGL, ubiquitin-proteasome-MURF1-Atrogin1, muscle-protein-synthesis, patient-reported-outcomes, FAACT, PG-SGA, chemotherapy-induced-cachexia, immunotherapy-cachexia, PET-isotope-tracing, review]
+    importance: 4
+    domain: oncology / metabolism / cachexia / clinical review
+    priority: context
   - slug: cancer-organoids-modelling-complexity-tumour-immune
     title: "Cancer organoids 2.0: modelling the complexity of the tumour immune microenvironment"
     tags: [cancer-organoids, tumour-microenvironment, immunotherapy, ALI-organoids, PDOTS, ICB, precision-medicine]
@@ -55,6 +61,12 @@ papers:
     importance: 5
     domain: oncology
     priority: core
+  - slug: decode-deep-learning-based-common-deconvolution
+    title: "DECODE: deep learning-based common deconvolution framework for various omics data"
+    tags: [deconvolution, multiomics, deep-learning, cell-type, cell-state, metabolomics, batch-effect]
+    importance: 4
+    domain: methods
+    priority: reference
   - slug: development-hypoxia-responsive-macrophage-prognostic-model
     title: "Development of a hypoxia-responsive macrophage prognostic model using single-cell and bulk RNA sequencing in pancreatic cancer"
     tags: [hypoxia, PDAC, pancreatic-cancer, tumor-associated-macrophage, prognostic-model, LASSO-Cox, scRNA-seq, TCGA-PAAD, KRTCAP2, chemoresistance, pan-cancer]
@@ -109,6 +121,12 @@ papers:
     importance: 4
     domain: immunology / immunometabolism / lipid biology
     priority: reference
+  - slug: macrophage-targeted-immunocytokine-leverages-myeloid-nk
+    title: "Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy"
+    tags: [TREM2, immunocytokine, MiTE, IL-2, IL-2-superkine, MMP14, tumor-associated-macrophage, protease-activated-prodrug, cancer-immunotherapy, PD-1, CTLA-4, patient-derived-tumor-fragment, RCC, scRNA-seq, CITE-seq, MERFISH, NK-cell, CD8-T-cell]
+    importance: 4
+    domain: immunology
+    priority: core
   - slug: macrophages-targets-next-generation-cancer-immunotherapy
     title: "Macrophages: Targets for next-generation cancer immunotherapy"
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, review, innate-checkpoint, car-m, mce, bioengineering]
@@ -133,12 +151,24 @@ papers:
     importance: 4
     domain: immunology / immunometabolism / cell biology
     priority: core
+  - slug: mitochondrial-vhl-rewires-cell-metabolism-hypoxia
+    title: "Mitochondrial VHL rewires cell metabolism in hypoxia"
+    tags: [hypoxia, VHL, mitochondria, non-canonical-signaling, leucine, BCAA-metabolism, MCCC2, glutaminolysis, GDH, GLUD1, SRC, PRMT5, arginine-methylation, tyrosine-phosphorylation, mitochondrial-protein-import, TOM22, reductive-carboxylation, ccRCC, renal-ischemia-reperfusion, 13C-tracing, VHL-mutation-subtype]
+    importance: 4
+    domain: metabolism / cell biology / hypoxia / oncology
+    priority: context
   - slug: molecular-landmarks-tumor-hypoxia-across-cancer
     title: "Molecular landmarks of tumor hypoxia across cancer types"
     tags: [hypoxia, cancer, genomics, pancancer, prostate-cancer, TCGA, genomic-instability, microRNA, TP53, PTEN, HIF1a, subclonal-evolution, chromothripsis, telomere]
     importance: 5
     domain: oncology / genomics / hypoxia
     priority: core
+  - slug: multi-omics-profiling-cachexia-targeted-tissues
+    title: "Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer"
+    tags: [cancer-cachexia, one-carbon-metabolism, methionine-cycle, NNMT, MNAM, sarcosine, IL6, muscle-atrophy, glucose-hypermetabolism, 13C-glucose-tracing, multi-omics, metabolomics, transcriptomics, C26-mouse-model, PDAC-cachexia, humanised-cachexia-model, FIDAS-5, MAT-inhibitor, sarcopenia, methyltransferases, pseudo-time-metabolite-clustering]
+    importance: 4
+    domain: metabolism / oncology / cachexia
+    priority: reference
   - slug: multimodal-spatial-omics-reveal-co-evolution
     title: "Multimodal spatial-omics reveal co-evolution of alveolar progenitors and proinflammatory niches in progression of lung precursor lesions"
     tags: [lung-cancer, luad, precursor-lesions, aah, ais, mia, spatial-transcriptomics, xenium, visium, snrna-seq, kac, rpii, alveolar-progenitor, il1b, il1r1, proinflammatory-niche, tam, canakinumab, precancer-interception, clonal-evolution, kras]
@@ -199,6 +229,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: single-cell-spatial-transcriptomic-analysis-human
+    title: "Single-cell spatial transcriptomic analysis of human skin anatomy"
+    tags: [skin, MERFISH, spatial-transcriptomics, atlas, perivascular, CCL19, TNF, SALT, multicellular-neighborhood, aging, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC]
+    importance: 4
+    domain: cell biology / dermatology / immunology
+    priority: core
   - slug: spatial-joint-profiling-dna-methylome-transcriptome
     title: "Spatial joint profiling of DNA methylome and transcriptome in tissues"
     tags: [spatial-omics, spatial-multi-omics, DNA-methylation, methylome, transcriptome, spatial-DMT, EM-seq, DBiT-seq, WNN, mouse-embryo, postnatal-brain, mCH, mCA, VMR, PMD, oligodendrogenesis, epigenetic-priming, methods-development]
@@ -229,6 +265,12 @@ papers:
     importance: 3
     domain: methods
     priority: reference
+  - slug: targeting-sting-generate-therapeutic-anti-tumor
+    title: "Targeting STING to generate therapeutic anti-tumor immunity"
+    tags: [cgas-sting, innate-immunity, tumor-microenvironment, immunotherapy, type-i-interferon, review, epigenetic-silencing, trex1, enpp1, sting-agonist, innate-immune-checkpoint]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: tissue-resident-macrophages-provide-pro-tumorigenic
     title: "Tissue-resident macrophages provide a pro-tumorigenic niche to early NSCLC cells"
     tags: [tissue-resident-macrophage, alveolar-macrophage, monocyte-derived-macrophage, tumor-microenvironment, lung-cancer, NSCLC, macrophage-ontogeny, lineage-tracing, EMT, regulatory-T-cell, immunosuppression, scRNA-seq, ATAC-seq, mouse-model, immunology]
@@ -265,46 +307,7 @@ papers:
     importance: 4
     domain: immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers
     priority: high
-  - slug: macrophage-targeted-immunocytokine-leverages-myeloid-nk
-    title: "Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy"
-    tags: [TREM2, immunocytokine, MiTE, IL-2, IL-2-superkine, MMP14, tumor-associated-macrophage, protease-activated-prodrug, cancer-immunotherapy, PD-1, CTLA-4, patient-derived-tumor-fragment, RCC, scRNA-seq, CITE-seq, MERFISH, NK-cell, CD8-T-cell]
-    importance: 4
-    domain: immunology
-    priority: core
 
-  - slug: single-cell-spatial-transcriptomic-analysis-human
-    title: "Single-cell spatial transcriptomic analysis of human skin anatomy"
-    tags: [skin, MERFISH, spatial-transcriptomics, atlas, perivascular, CCL19, TNF, SALT, multicellular-neighborhood, aging, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC]
-    importance: 4
-    domain: cell biology / dermatology / immunology
-    priority: core
-  - slug: targeting-sting-generate-therapeutic-anti-tumor
-    title: "Targeting STING to generate therapeutic anti-tumor immunity"
-    tags: [cgas-sting, sting-agonist, tumor-microenvironment, immunotherapy, type-i-interferon, trex1, enpp1, innate-immune-checkpoint, review]
-    importance: 4
-    domain: immunology
-    priority: context
-
-  - slug: multi-omics-profiling-cachexia-targeted-tissues
-    title: "Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer"
-    tags: [cancer-cachexia, one-carbon-metabolism, methionine-cycle, NNMT, MNAM, sarcosine, IL6, muscle-atrophy, glucose-hypermetabolism, 13C-glucose-tracing, multi-omics, metabolomics, transcriptomics, C26-mouse-model, PDAC-cachexia, FIDAS-5, sarcopenia, methyltransferases]
-    importance: 4
-    domain: metabolism / oncology / cachexia
-    priority: reference
-
-  - slug: cancer-associated-cachexia-bridging-clinical-findings
-    title: "Cancer-Associated Cachexia: Bridging Clinical Findings with Mechanistic Insights in Human Studies"
-    tags: [cancer-cachexia, human-studies, clinical-phenotyping, body-composition, CT-L3-imaging, sarcopenia, TRACERx, central-melanocortin-system, cancer-anorexia, cori-cycle, hypermetabolism, PTHrP, GDF-15, WAT-browning, UCP1, lipolysis, HSL, ATGL, ubiquitin-proteasome-MURF1-Atrogin1, muscle-protein-synthesis, FAACT, PG-SGA, chemotherapy-induced-cachexia, PET-isotope-tracing, review]
-    importance: 4
-    domain: oncology / metabolism / cachexia / clinical review
-    priority: context
-
-  - slug: mitochondrial-vhl-rewires-cell-metabolism-hypoxia
-    title: "Mitochondrial VHL rewires cell metabolism in hypoxia"
-    tags: [hypoxia, VHL, mitochondria, non-canonical-signaling, leucine, BCAA-metabolism, MCCC2, glutaminolysis, GDH, GLUD1, SRC, PRMT5, arginine-methylation, tyrosine-phosphorylation, mitochondrial-protein-import, TOM22, reductive-carboxylation, ccRCC, renal-ischemia-reperfusion, 13C-tracing, VHL-mutation-subtype]
-    importance: 4
-    domain: metabolism / cell biology / hypoxia / oncology
-    priority: context
 concepts:
   - slug: 6d-tam-translational-framework
     title: "6D TAM translational framework"
@@ -314,6 +317,10 @@ concepts:
     title: "Apoptotic-cell-derived methionine fuels macrophage SAM and DNA methylation"
     tags: [macrophage, efferocytosis, methionine, SAM, DNA-methylation, one-carbon-metabolism, epigenetics, metabolic-signaling]
     maturity: emerging
+  - slug: adipose-lipolysis-cancer-cachexia
+    title: "Adipose-tissue lipolysis in cancer cachexia"
+    tags: [cachexia, oncology, metabolism, adipose-tissue]
+    maturity: active
   - slug: adipose-macrophage-pdgf-cc-lipid-storage
     title: "Adipose tissue-resident macrophage / PDGF-CC / lipid storage axis"
     tags: [macrophage, adipose-tissue, obesity, lipid-metabolism, PDGF, homeostasis, immunology]
@@ -321,6 +328,10 @@ concepts:
   - slug: adrb2-eosinophil-context-dependent-degranulation
     title: "Adrb2-driven, context-dependent eosinophil degranulation"
     tags: [Adrb2, eosinophil, adrenergic-signaling, degranulation, β-arrestin-2, Gs-cAMP]
+    maturity: emerging
+  - slug: age-stroma-to-perivasc-fibroblast-shift
+    title: "Age-associated STROMA→PERIVASC II shift and Retic Fib I depletion in skin"
+    tags: [skin, aging, fibroblast, perivascular, collagen]
     maturity: emerging
   - slug: ageing-nsclc-tme-immunosuppression
     title: "Ageing-associated immunosuppressive TME in NSCLC"
@@ -454,7 +465,7 @@ concepts:
   - slug: batch-removal-vs-bioconservation-tradeoff
     title: "Batch removal vs biological-variance conservation tradeoff in single-cell integration"
     tags: [data-integration, benchmarking, scRNA-seq, tradeoff]
-    maturity: mainstream
+    maturity: stable
   - slug: bile-acid-treg-th17-rebalancing
     title: "Bile acid derivatives rebalance Treg/Th17 and macrophage polarization"
     tags: [bile-acid, treg, th17, macrophage, microbiota, foxp3, rorgt, tgr5, fxr]
@@ -462,6 +473,14 @@ concepts:
   - slug: c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm
     title: "c-Myc compensatory mitochondrial/ribosomal axis in HIF-1α-deficient BMDMs"
     tags: [MYC, HIF1A, BMDM, OXPHOS, ribosomal-biogenesis, cell-proliferation, transcription-factor-antagonism, immunometabolism]
+    maturity: emerging
+  - slug: cac-clinical-phenotyping-body-composition
+    title: "Clinical phenotyping of CAC: PROs, functional assessments, and body composition"
+    tags: [cachexia, oncology, body-composition, clinical-phenotyping]
+    maturity: stable
+  - slug: cac-clinical-subtypes-body-composition
+    title: "Clinical CAC subtypes defined by body-composition loss patterns"
+    tags: [cachexia, oncology, body-composition, clinical-phenotyping]
     maturity: emerging
   - slug: cancer-initiating-cell-cell-origin
     title: "Cancer-initiating cell and cell of origin"
@@ -499,10 +518,26 @@ concepts:
     title: "Cell-cycle phase bias (G1/S vs G2/M) in malignant cells"
     tags: [cell-cycle, proliferation, scrna-seq, pan-cancer, tp53, rb1]
     maturity: emerging
+  - slug: cell-state-deconvolution
+    title: "Cell-state deconvolution"
+    tags: [deconvolution, cell-state, methods]
+    maturity: emerging
   - slug: cell-type-abundance-from-bulk-tissue-rnaseq
     title: "Cell-type abundance scoring from bulk tissue RNA-seq using specificity-ranked gene sets"
     tags: [deconvolution, bulk-RNA-seq, cell-type, methods]
     maturity: active
+  - slug: central-melanocortin-system-cancer-anorexia
+    title: "Central melanocortin system in cancer-associated anorexia"
+    tags: [cachexia, oncology, anorexia, neuroendocrine]
+    maturity: emerging
+  - slug: centrifugal-cellular-diversity-gradient-skin
+    title: "Centrifugal cellular diversity and density gradient across the human body plan"
+    tags: [skin, body-plan, cellular-diversity, spatial-transcriptomics]
+    maturity: emerging
+  - slug: cgas-sting-pathway-canonical-noncanonical-outputs
+    title: "cGAS-STING pathway: canonical and non-canonical outputs"
+    tags: [innate-immunity, cgas-sting, type-i-ifn, nf-kb, autophagy, programmed-cell-death, sasp]
+    maturity: stable
   - slug: chimeric-antigen-receptor-macrophage
     title: "Chimeric antigen receptor macrophage (CAR-M)"
     tags: [macrophage, car-therapy, genetic-engineering, cancer-immunotherapy]
@@ -514,6 +549,10 @@ concepts:
   - slug: chromothripsis-hypoxia-prostate
     title: "Chromothripsis under hypoxia in prostate cancer"
     tags: [chromothripsis, hypoxia, structural-variants, genomic-instability, prostate-cancer, WGS]
+    maturity: stable
+  - slug: chronic-sting-noncanonical-nfkb-cin
+    title: "Chronic STING → non-canonical NF-κB → IL-6/STAT3 in CIN-high tumors"
+    tags: [chromosomal-instability, cgas-sting, nf-kb, il-6, stat3, pro-tumor, metastasis]
     maturity: stable
   - slug: cluster-c2-hypoxia-hypomethylation-signature
     title: "Cluster C2 hypoxia-hypomethylation signature"
@@ -535,13 +574,25 @@ concepts:
     title: "CD55/CD59 complement-regulator upregulation as tumour immune-evasion mechanism"
     tags: [complement, cd55, cd59, c5a, cd8-cytotoxicity, ici-combination]
     maturity: emerging
+  - slug: cori-cycle-tumor-host-metabolism
+    title: "Cori cycle and tumour-driven host metabolic rewiring"
+    tags: [cachexia, oncology, metabolism, cori-cycle]
+    maturity: active
   - slug: crc-stemness-metaprogram
     title: "CRC stemness metaprogram (LGR5/PROM1/ASCL2)"
     tags: [crc, colorectal-cancer, stemness, metaprogram, lgr5, intestinal-stem-cell, scrna-seq]
     maturity: emerging
+  - slug: cross-disease-perivasc-immune-remodeling-skin
+    title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
+    tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, basal-cell-carcinoma, squamous-cell-carcinoma, tertiary-lymphoid-structure]
+    maturity: emerging
   - slug: csf1r-il34-csf2-trophic-axis
     title: "CSF1R / IL-34 / CSF2 trophic axis for macrophage development and survival"
     tags: [macrophage, cytokine-receptor, trophic-factor, immunology, development]
+    maturity: stable
+  - slug: ct-l3-body-composition-phenotyping
+    title: "CT-L3 body-composition phenotyping in cancer cachexia"
+    tags: [cachexia, oncology, body-composition, imaging]
     maturity: stable
   - slug: cthrc1-efibro-ecm-remodeling-pan-cancer-caf
     title: "CTHRC1+ ECM-remodeling fibroblast (eFibro_CTHRC1) — pan-cancer leading-edge CAF"
@@ -591,6 +642,10 @@ concepts:
     title: "De novo lipogenesis (ACLY-ACC-FASN-SCD) fuels effector B, T, and DC programs"
     tags: [lipogenesis, acly, acc, fasn, scd, srebp1, b-cell, cd8-t-cell, dc, treg]
     maturity: active
+  - slug: deconvolution-with-incomplete-reference
+    title: "Deconvolution with an incomplete single-cell reference"
+    tags: [deconvolution, robustness, methods]
+    maturity: emerging
   - slug: dia-ms-pan-cancer-proteomics-approach
     title: "Single-shot DIA-MS as a pan-cancer proteomics approach"
     tags: [proteomics, dia-ms, methods, pan-cancer, single-shot]
@@ -619,10 +674,6 @@ concepts:
     title: "Efferocytosis — apoptotic cell clearance with anti-inflammatory output"
     tags: [macrophage, phagocytosis, apoptotic-clearance, tissue-homeostasis, immunology]
     maturity: stable
-  - slug: endometrial-metabolic-reprogramming-cycle-disease
-    title: "Endometrial metabolic reprogramming across cycle, endometriosis, and endometrial carcinoma"
-    tags: [endometrium, menstrual-cycle, endometriosis, endometrial-carcinoma, kynurenine, mevalonate, estrogen-signaling, metabolic-reprogramming]
-    maturity: emerging
   - slug: efferocytosis-metabolic-rewiring-fao
     title: "Efferocytosis-driven metabolic rewiring — UCP2, DRP1, and FAO-fuelled anti-inflammatory output"
     tags: [efferocytosis, macrophage, fao, mitochondrial, regeneration, inflammation-resolution]
@@ -632,6 +683,14 @@ concepts:
     title: "EGFR-mutant LUAD immune-excluded stromal-rich TME"
     tags: [egfr, luad, immune-exclusion, low-tmb, tki-resistance, ici-resistance]
     maturity: active
+  - slug: endometrial-metabolic-reprogramming-cycle-disease
+    title: "Endometrial metabolic reprogramming across cycle, endometriosis, and endometrial carcinoma"
+    tags: [endometrium, menstrual-cycle, endometriosis, endometrial-carcinoma, kynurenine, mevalonate, estrogen-signaling, metabolic-reprogramming]
+    maturity: emerging
+  - slug: epigenetic-cgas-sting-silencing-immune-evasion
+    title: "Epigenetic cGAS/STING silencing as a tumor immune-evasion mechanism"
+    tags: [epigenetics, cgas-sting, immune-evasion, dnmt, ezh2, h3k27me3]
+    maturity: stable
   - slug: epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor
     title: "Epithelial-proinflammatory niche (IL1B-high macrophage / IL1R1-high KAC) in LUAD precursors"
     tags: [lung, luad, precursor, tme, macrophage, inflammation, niche, spatial]
@@ -644,6 +703,10 @@ concepts:
     title: "Fatty-acid oxidation supports memory CD8, TRM, and Treg programs via CPT1 and AMPK"
     tags: [fao, cpt1, ampk, cd8-memory, trm, treg, memory, immunometabolism]
     maturity: active
+  - slug: fidas-5-methionine-blockade-rescues-cachexia
+    title: "FIDAS-5 methionine-cycle blockade rescues cachexia features in C2C12 myotubes"
+    tags: [FIDAS-5, MAT-inhibitor, methionine-cycle, cachexia, therapeutic, C2C12]
+    maturity: emerging
   - slug: fide-jsd-spatial-domain-metrics
     title: "FIDE and JSD metrics for spatial-domain continuity and cross-slide homogeneity"
     domain: methods / spatial-transcriptomics / benchmarking
@@ -761,6 +824,10 @@ concepts:
     title: "Hypoxia-responsive macrophage subset (cluster 1) in PDAC scRNA-seq"
     tags: [hypoxia, macrophage, PDAC, scRNA-seq, tumor-associated-macrophage, tumor-microenvironment, hypoxia-signature]
     maturity: emerging
+  - slug: hypoxic-vhl-self-ubiquitination-hif1a-shielding
+    title: "Hypoxic VHL self-ubiquitination and the HIF1A shielding model"
+    tags: [hypoxia, VHL, ubiquitination, HIF1A, protein-stability]
+    maturity: emerging
   - slug: idh1-2-mutation-2hg-immune-exclusion
     title: "IDH1/IDH2 mutation, 2HG accumulation and immune exclusion"
     tags: [idh1, idh2, 2-hydroxyglutarate, cgas, immune-exclusion, glioma, aml, icc]
@@ -793,6 +860,10 @@ concepts:
     title: "IL4I1⁺ PD-L1⁺ IDO1⁺ tumor-associated macrophage (IL4I1 TAM)"
     tags: [macrophage, tumor-microenvironment, IL4I1, immunosuppression, tryptophan-metabolism, AHR, PD-L1, single-cell]
     maturity: active
+  - slug: il6-driven-cachexia-one-carbon-reprogramming
+    title: "IL6-driven one-carbon metabolism reprogramming in cancer cachexia"
+    tags: [IL6, cachexia, one-carbon-metabolism, NNMT, inflammation, upstream-regulator]
+    maturity: emerging
   - slug: immune-checkpoint-blockade
     title: "Immune-checkpoint blockade (ICB)"
     tags: [immunotherapy, oncology, checkpoint]
@@ -877,6 +948,10 @@ concepts:
     title: "Lactate-driven TAM M2 polarization via HIF-1α and PKA-CREB"
     tags: [lactate, lactic-acid, macrophage-polarization, Warburg-effect, oncometabolite, HIF-1α, PKA-CREB, hypoxia, TAM, metabolic-reprogramming]
     maturity: active
+  - slug: leucine-allosteric-gdh-glutaminolysis-activation
+    title: "Leucine accumulation allosterically activates GDH to drive glutaminolysis in hypoxia"
+    tags: [hypoxia, leucine, GDH, glutaminolysis, lipogenesis, nucleotide-synthesis]
+    maturity: emerging
   - slug: lipid-rafts-bcr-tcr-signaling
     title: "Lipid rafts organize BCR and TCR proximal signaling"
     tags: [lipid-raft, bcr, tcr, b-cell, t-cell, membrane-microdomain, sphingolipid, cholesterol]
@@ -928,6 +1003,10 @@ concepts:
     title: "Masked antibody (TME-conditional activation)"
     tags: [antibody-engineering, bioengineering, tumor-microenvironment, cancer-immunotherapy]
     maturity: emerging
+  - slug: metabolomics-deconvolution
+    title: "Metabolomics deconvolution"
+    tags: [deconvolution, metabolomics, methods]
+    maturity: emerging
   - slug: metformin-ici-synergy-treg-teff
     title: "Metformin–ICI synergy via Treg suppression and Teff enhancement"
     tags: [metformin, ici-synergy, treg, teff, obesity, metabolic-immunotherapy]
@@ -935,6 +1014,10 @@ concepts:
   - slug: methionine-competition-slc43a2-stat5-tcell
     title: "Methionine competition via SLC43A2 lowers T-cell H3K79me2 and STAT5 signaling"
     tags: [methionine, slc43a2, lat4, h3k79me2, stat5, t-cell, immunometabolism]
+    maturity: emerging
+  - slug: methionine-cycle-myotube-atrophy-hypermetabolism
+    title: "Methionine-cycle drives myotube atrophy and glucose hypermetabolism (in vitro causality)"
+    tags: [methionine, myotube, atrophy, hypermetabolism, C2C12, FIDAS-5, cachexia]
     maturity: emerging
   - slug: methylation-positive-coupling-gene-expression
     title: "Positive methylation–expression coupling at VMRs"
@@ -969,9 +1052,21 @@ concepts:
     title: "miR-210 hypoxia-induced microRNA"
     tags: [hypoxia, microRNA, HIF1A, cancer, mitochondria, non-coding-RNA, biomarker]
     maturity: stable
+  - slug: mitochondrial-vhl-noncanonical-hypoxia-function
+    title: "Mitochondrial VHL: a non-canonical role for VHL in hypoxic metabolism"
+    tags: [hypoxia, VHL, mitochondria, metabolism, non-canonical-signaling]
+    maturity: emerging
   - slug: mmac1-hypoxic-inflammatory-macrophage
     title: "mMAC1 (hypoxic inflammatory macrophage)"
     tags: [macrophage, hypoxia, immune-activation, tumor-microenvironment]
+    maturity: emerging
+  - slug: mmp14-protease-activated-il2-prodrug
+    title: "MMP14-protease-activated IL-2 prodrug (TAM-restricted cytokine unmasking)"
+    tags: [prodrug, protease-activation, IL-2, MMP14, tumor-microenvironment, cancer-immunotherapy]
+    maturity: emerging
+  - slug: mmp14-trem2-tam-marker-pair
+    title: "MMP14–TREM2 co-expression as TAM-specific marker pair"
+    tags: [TREM2, MMP14, tumor-associated-macrophage, tumor-microenvironment, protease, biomarker]
     maturity: emerging
   - slug: momac-verse-mnp-verse-atlas
     title: "MoMac-VERSE / MNP-VERSE — pan-tissue MNP scRNA-seq compendium"
@@ -989,13 +1084,29 @@ concepts:
     title: "mRNA-protein discordance in single cells"
     tags: [multi-omics, proteomics, translation, post-transcriptional-regulation, single-cell]
     maturity: active
+  - slug: multi-omics-coordinated-host-tissue-response-cachexia
+    title: "Coordinated multi-tissue host response in cancer cachexia — multi-omics integration framing"
+    tags: [multi-omics, metabolomics, transcriptomics, isotope-tracing, cachexia, multi-tissue, integration]
+    maturity: emerging
   - slug: multimodal-he-spatial-transcriptomics-fusion
     title: "Multimodal H&E + spatial transcriptomics fusion for spatial domain inference"
     domain: methods / spatial-omics / multimodal-integration
     maturity: emerging
+  - slug: muscle-glucose-hypermetabolism-cachexia-tca-rewiring
+    title: "Muscle glucose hypermetabolism in cachexia — PC/PDH-driven TCA flux acceleration"
+    tags: [muscle, cachexia, 13C-glucose, pyruvate-carboxylase, PDH, TCA-cycle, INCA-flux, anaplerosis, glutamine]
+    maturity: emerging
+  - slug: muscle-wasting-ups-autophagy-cac
+    title: "Muscle wasting in CAC: UPS, autophagy, and anabolic resistance"
+    tags: [cachexia, oncology, muscle-wasting, proteolysis]
+    maturity: active
   - slug: myeloid-cell-engager-mce
     title: "Myeloid cell engager (MCE)"
     tags: [macrophage, bispecific-antibody, cancer-immunotherapy, phagocytosis]
+    maturity: emerging
+  - slug: myeloid-targeted-immunocytokine-mite
+    title: "Myeloid-targeted immunocytokine (MiTE) — dual TAM/lymphocyte trans-acting prodrug class"
+    tags: [immunocytokine, TREM2, IL-2, tumor-associated-macrophage, prodrug, protease-activation, cancer-immunotherapy, bispecific]
     maturity: emerging
   - slug: n3-pufa-immunomodulation
     title: "n-3 long-chain PUFAs (DHA, EPA) modulate T-cell, mast-cell, and neutrophil function"
@@ -1029,6 +1140,10 @@ concepts:
     title: "NMF meta-programs of LUAD epithelial cell states (MP1–MP11)"
     tags: [lung, luad, nmf, meta-program, cell-state, epithelial]
     maturity: emerging
+  - slug: nnmt-mnam-liver-cachexia-axis
+    title: "NNMT-MNAM axis in cachectic liver"
+    tags: [NNMT, MNAM, liver, cachexia, nicotinamide-methylation, methylation-detoxification]
+    maturity: emerging
   - slug: non-cpg-methylation-postnatal-brain
     title: "Non-CpG methylation (mCH / mCA) in the postnatal mammalian brain"
     tags: [DNA-methylation, non-CpG, mCA, mCH, brain, neurons]
@@ -1057,10 +1172,18 @@ concepts:
     title: "Oestrogen polarizes TAMs to immunosuppressive phenotype; fulvestrant restores ICI sensitivity"
     tags: [oestrogen, sex-differences, tam-polarization, cd8-exhaustion, fulvestrant, ici-resensitization]
     maturity: emerging
+  - slug: one-carbon-metabolism-cachexia-tissue-overarching
+    title: "One-carbon metabolism as a tissue-overarching pathway in cancer cachexia"
+    tags: [one-carbon-metabolism, cachexia, methionine-cycle, folate-cycle, multi-tissue, methylation]
+    maturity: emerging
   - slug: ontogeny-divergent-hif1a-macrophage-metabolism
     title: "Ontogeny-divergent HIF-1α function in macrophage metabolism and inflammation"
     tags: [HIF1A, macrophage-ontogeny, BMDM, alveolar-macrophage, immunometabolism, tissue-residency, glycolysis, oxidative-phosphorylation]
     maturity: active
+  - slug: organ-wide-merfish-skin-atlas
+    title: "Organ-wide MERFISH+scRNA-seq+Visium integrated atlas of normal adult human skin"
+    tags: [skin, atlas, MERFISH, spatial-transcriptomics, Visium, scRNA-seq, resource]
+    maturity: emerging
   - slug: organism-wide-multi-tissue-perturbation-profiling
     title: "Organism-wide multi-tissue perturbation profiling"
     tags: [organism-wide, multi-tissue, perturbation, bulk-RNA-seq, sepsis]
@@ -1138,6 +1261,10 @@ concepts:
     title: "Pdyn⁺ noradrenergic sympathetic neurons selectively innervating hairy skin"
     tags: [sympathetic-nervous-system, prodynorphin, hairy-skin, stellate-ganglion, intersectional-genetics]
     maturity: emerging
+  - slug: perivascular-immune-stromal-niche-skin-salt
+    title: "Perivascular immune–stromal niche (PERIVASC I) — physical correlate of SALT in human skin"
+    tags: [skin, spatial-transcriptomics, perivascular, stromal-immune, SALT, multicellular-neighborhood]
+    maturity: emerging
   - slug: pre-cafs-cancer-associated-fibroblasts-premalignant
     title: "Pre-CAFs — Fibroblast reprogramming at the premalignant stage"
     tags: [oncology, microenvironment, early-cancer]
@@ -1146,6 +1273,10 @@ concepts:
     title: "Precancerous lesion and the malignant transformation cascade"
     tags: [oncology, early-cancer, cancer-evolution]
     maturity: stable
+  - slug: prmt5-mccc2-arginine-methylation-oxygen-switch
+    title: "PRMT5-mediated MCCC2 R292 methylation is an oxygen-responsive block on the VHL–MCCC2 interaction"
+    tags: [hypoxia, PRMT5, MCCC2, arginine-methylation, post-translational-modification]
+    maturity: emerging
   - slug: proteomic-cms-markers-colorectal-cancer
     title: "Proteome-defined CMS markers for colorectal cancer"
     tags: [crc, cms, biomarkers, proteomics, subtyping]
@@ -1174,6 +1305,10 @@ concepts:
     title: "scATAC-seq feature-space tradeoff: peaks vs windows vs gene activity"
     tags: [scATAC-seq, feature-space, data-integration, chromatin-accessibility]
     maturity: stable
+  - slug: sccellfie-metabolic-task-inference
+    title: "scCellFie — single-cell & spatial metabolic-task inference"
+    tags: [single-cell, spatial-transcriptomics, metabolism, metabolic-task, GPR-rules, cell-cell-communication, endometrium]
+    maturity: emerging
   - slug: scfa-hdac-gpr-immune-regulation
     title: "SCFA-HDAC-GPR axis regulates immune cell polarization and humoral responses"
     tags: [scfa, hdac, gpr, microbiota, macrophage, treg, th17, breg]
@@ -1210,6 +1345,10 @@ concepts:
     title: "SIRPα–CD47 'don't-eat-me' axis"
     tags: [macrophage, phagocytosis, cancer-immunotherapy, immune-checkpoint, SIRPa, CD47, immunology]
     maturity: active
+  - slug: skin-multicellular-spatial-neighborhoods
+    title: "Ten multicellular spatial neighborhoods as architectural units of human skin"
+    tags: [skin, spatial-transcriptomics, MERFISH, tissue-architecture, multicellular-neighborhood]
+    maturity: emerging
   - slug: slpi-macrophage-profibrotic-tam
     title: "SLPI+ profibrotic macrophage (Macro_SLPI) — pan-cancer ECM-remodeling TAM"
     tags: [pan-cancer, tam, macrophage, profibrotic, ecm, tme, immunosuppression, myeloid]
@@ -1251,6 +1390,10 @@ concepts:
     tags: [macrophage, iron-metabolism, heme, red-pulp-macrophage, kupffer-cell, erythrophagocytosis]
     domain: iron metabolism / macrophage biology
     maturity: stable
+  - slug: src-vhl-y185-phosphorylation-mitochondrial-axis
+    title: "SRC-mediated VHL Y185 phosphorylation enables the mitochondrial VHL–MCCC2 interaction"
+    tags: [hypoxia, SRC, VHL, phosphorylation, post-translational-modification]
+    maturity: emerging
   - slug: stat1-isoform-specificity-alpha-beta
     title: "STAT1 α / β isoform specificity"
     tags: [immunology, stat1, transcription-factor, isoform, jak-stat]
@@ -1267,13 +1410,41 @@ concepts:
     title: "Stem-like cells in precancerous lesions"
     tags: [oncology, stem-cells, early-cancer]
     maturity: active
+  - slug: sting-agonist-adc-targeted-delivery
+    title: "STING-agonist antibody-drug conjugates and cell-targeted delivery"
+    tags: [cgas-sting, antibody-drug-conjugate, targeted-delivery, her2, ccr2]
+    maturity: emerging
+  - slug: sting-agonist-clinical-translation-gap
+    title: "STING agonist clinical translation gap"
+    tags: [cgas-sting, clinical-trial, drug-development, translational-gap]
+    maturity: stable
+  - slug: sting-biomarkers-precision-immunotherapy
+    title: "Predictive biomarkers for STING-pathway-directed precision immunotherapy"
+    tags: [cgas-sting, biomarker, precision-immunotherapy, mtap, stk11, myc, idh1]
+    maturity: emerging
+  - slug: sting-endothelial-vascular-normalization-trafficking
+    title: "STING in endothelial cells: vascular normalization and T/NK trafficking"
+    tags: [cgas-sting, endothelial-cell, vascular-normalization, icam-vcam, cxcl10, jak-stat]
+    maturity: emerging
+  - slug: sting-nk-cell-tumor-clearance
+    title: "STING-driven NK cell tumor clearance"
+    tags: [cgas-sting, nk-cell, innate-immunity, car-nk]
+    maturity: emerging
+  - slug: sting-tcell-intrinsic-cytotoxicity-paradox
+    title: "STING T cell-intrinsic cytotoxicity paradox"
+    tags: [cgas-sting, t-cell, apoptosis, er-stress, nf-kb]
+    maturity: stable
+  - slug: sting-tls-formation-dc-dependent
+    title: "STING-driven tertiary lymphoid structure (TLS) formation"
+    tags: [cgas-sting, tertiary-lymphoid-structure, dendritic-cell, cd11c, antitumor-immunity]
+    maturity: emerging
+  - slug: sting-tme-context-cell-type-dependent
+    title: "STING TME outcomes are context- and cell-type-dependent"
+    tags: [cgas-sting, tumor-microenvironment, cell-type-specificity, innate-immunity]
+    maturity: stable
   - slug: stress-paradigm-specific-sympathetic-circuit
     title: "Stress-paradigm-specific recruitment of sympathetic subtypes"
     tags: [psychological-stress, sympathetic-nervous-system, circuit-specificity, noradrenaline]
-    maturity: emerging
-  - slug: sccellfie-metabolic-task-inference
-    title: "scCellFie — single-cell & spatial metabolic-task inference"
-    tags: [single-cell, spatial-transcriptomics, metabolism, metabolic-task, GPR-rules, cell-cell-communication, endometrium]
     maturity: emerging
   - slug: subgraph-local-microenvironment-encoding
     title: "Subgraph-based local microenvironment encoding for spatial GNNs"
@@ -1303,6 +1474,10 @@ concepts:
     title: "TAM recruitment to hypoxic niches by chemokines and stop-signals"
     tags: [chemokine, macrophage-recruitment, hypoxia, tumor-microenvironment, TAM, Sema3A, NRP1, CCL2, CXCL8, VEGF]
     maturity: active
+  - slug: tam-t-cell-spatial-proximity-tme
+    title: "TAM–T cell spatial proximity in the TME (predominant immune cell-pair across cancers)"
+    tags: [tumor-associated-macrophage, T-cell, spatial-transcriptomics, MERFISH, tumor-microenvironment, ligand-receptor]
+    maturity: emerging
   - slug: tam-therapy-three-pillars
     title: "TAM-targeted therapy: three pillars"
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, tam-therapy, framework]
@@ -1356,6 +1531,10 @@ concepts:
     title: "TLS maturation stage predicts ICI response in NSCLC"
     tags: [tls, nsclc, ici-biomarker, hypoxia, cd8-exhaustion]
     maturity: emerging
+  - slug: tnf-ccl19-perivascular-fibroblast-axis
+    title: "TNF–CCL19 perivascular-fibroblast axis sustaining skin immune-stromal crosstalk"
+    tags: [skin, TNF, CCL19, fibroblast, immune-stromal, homeostasis]
+    maturity: emerging
   - slug: tnf-centered-cytokine-hierarchy
     title: "TNF as the apex node of an organism-wide cytokine hierarchy"
     tags: [TNF, cytokines, sepsis, inflammatory-disease, drug-target]
@@ -1367,6 +1546,14 @@ concepts:
   - slug: tonic-baseline-jak-stat-homeostasis
     title: "Tonic / baseline JAK-STAT signaling in homeostatic immune cells"
     tags: [immunology, jak-stat, interferon, homeostasis, ISG, epigenetics]
+    maturity: active
+  - slug: trans-acting-immunocytokine
+    title: "Trans-acting immunocytokine — dual-compartment cytokine targeting"
+    tags: [immunocytokine, cytokine-engineering, bispecific, tumor-microenvironment, cancer-immunotherapy]
+    maturity: emerging
+  - slug: treatment-induced-cachexia
+    title: "Treatment-induced and treatment-modulated cachexia"
+    tags: [cachexia, oncology, treatment-toxicity]
     maturity: active
   - slug: treg-tme-stromal-tam-reprogramming-vegf
     title: "Treg depletion-induced reprogramming of NSCLC stromal-TAM landscape via VEGF"
@@ -1384,6 +1571,10 @@ concepts:
     title: "TREM2⁺ tumor-associated macrophage (TREM2 TAM)"
     tags: [macrophage, tumor-microenvironment, TREM2, lipid-metabolism, immunosuppression, single-cell]
     maturity: active
+  - slug: trex1-innate-immune-checkpoint
+    title: "TREX1 as an innate immune checkpoint restraining STING-IFN"
+    tags: [cgas-sting, innate-immune-checkpoint, trex1, exonuclease, radiation-immunotherapy]
+    maturity: emerging
   - slug: trm-bmdm-tissue-repair-fibrosis-dichotomy
     title: "TRM-restorative / BMDM-fibrotic functional dichotomy in tissue repair"
     tags: [macrophage, tissue-repair, fibrosis, CCR2, immunology, liver, heart, kidney, lung]
@@ -1404,6 +1595,10 @@ concepts:
     title: "Tumor core (TC) vs leading edge (LE) — spatially distinct transcriptional architectures of solid tumors"
     tags: [spatial-transcriptomics, tumor-microenvironment, OSCC, pan-cancer, EMT, keratinization]
     maturity: active
+  - slug: tumor-derived-cgamp-immunotransmitter
+    title: "Tumor-derived cGAMP as an immunotransmitter in the TME"
+    tags: [cgas-sting, extracellular-signaling, cgamp, macrophage, dendritic-cell, nk-cell]
+    maturity: stable
   - slug: tumor-hypoxia-classification-chronic-acute-cyclic
     title: "Tumor hypoxia classification: chronic, acute, and cyclic / intermittent"
     tags: [hypoxia, tumor-microenvironment, oxygen-gradient, pathophysiology, reoxygenation, vascular-perfusion, diffusion]
@@ -1440,10 +1635,22 @@ concepts:
     title: "Tumour-infiltrating lymphocyte (TIL)"
     tags: [immunology, oncology, T-cells, adoptive-therapy]
     maturity: stable
+  - slug: type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc
+    title: "Type 2B VHL missense mutations confer mitochondrial gain-of-function in ccRCC"
+    tags: [VHL, ccRCC, kidney-cancer, hypoxia, clinical-correlation]
+    maturity: emerging
+  - slug: universal-multiomics-deconvolution
+    title: "Universal multi-omics deconvolution"
+    tags: [deconvolution, multiomics, methods]
+    maturity: emerging
   - slug: variably-methylated-regions-vmr
     title: "Variably Methylated Regions (VMRs)"
     tags: [DNA-methylation, epigenetics, methylome-analysis]
     maturity: stable
+  - slug: vhl-mccc2-leucine-catabolism-inhibition
+    title: "VHL–MCCC2 binding inhibits leucine catabolism under hypoxia"
+    tags: [hypoxia, VHL, MCCC2, leucine, BCAA-metabolism]
+    maturity: emerging
   - slug: viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2
     title: "Viral infections hijack HIF signaling: HBV/HBx, HCV core, and SARS-CoV-2 ORF3a as paradigm examples"
     tags: [virology, hypoxia, HIF1A, HIF2A, HBV, HBx, HCV, SARS-CoV-2, ORF3a, cytokine-storm, viral-hepatitis, hepatocarcinogenesis]
@@ -1460,196 +1667,7 @@ concepts:
     title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
     domain: methods / spatial-transcriptomics / transfer-learning
     maturity: emerging
-  - slug: myeloid-targeted-immunocytokine-mite
-    title: "Myeloid-targeted immunocytokine (MiTE) — dual TAM/lymphocyte trans-acting prodrug class"
-    tags: [immunocytokine, TREM2, IL-2, tumor-associated-macrophage, prodrug, protease-activation, cancer-immunotherapy, bispecific]
-    maturity: emerging
-  - slug: mmp14-protease-activated-il2-prodrug
-    title: "MMP14-protease-activated IL-2 prodrug (TAM-restricted cytokine unmasking)"
-    tags: [prodrug, protease-activation, IL-2, MMP14, tumor-microenvironment, cancer-immunotherapy]
-    maturity: emerging
-  - slug: trans-acting-immunocytokine
-    title: "Trans-acting immunocytokine — dual-compartment cytokine targeting"
-    tags: [immunocytokine, cytokine-engineering, bispecific, tumor-microenvironment, cancer-immunotherapy]
-    maturity: emerging
-  - slug: tam-t-cell-spatial-proximity-tme
-    title: "TAM–T cell spatial proximity in the TME (predominant immune cell-pair across cancers)"
-    tags: [tumor-associated-macrophage, T-cell, spatial-transcriptomics, MERFISH, tumor-microenvironment, ligand-receptor]
-    maturity: emerging
-  - slug: mmp14-trem2-tam-marker-pair
-    title: "MMP14–TREM2 co-expression as TAM-specific marker pair"
-    tags: [TREM2, MMP14, tumor-associated-macrophage, tumor-microenvironment, protease, biomarker]
-    maturity: emerging
 
-  - slug: organ-wide-merfish-skin-atlas
-    title: "Organ-wide MERFISH+scRNA-seq+Visium integrated atlas of normal adult human skin"
-    tags: [skin, atlas, MERFISH, spatial-transcriptomics, Visium, scRNA-seq, resource]
-    maturity: emerging
-  - slug: skin-multicellular-spatial-neighborhoods
-    title: "Ten multicellular spatial neighborhoods as architectural units of human skin"
-    tags: [skin, spatial-transcriptomics, MERFISH, tissue-architecture, multicellular-neighborhood]
-    maturity: emerging
-  - slug: perivascular-immune-stromal-niche-skin-salt
-    title: "Perivascular immune-stromal niche (PERIVASC I) — physical correlate of SALT in human skin"
-    tags: [skin, spatial-transcriptomics, perivascular, stromal-immune, SALT, multicellular-neighborhood]
-    maturity: emerging
-  - slug: tnf-ccl19-perivascular-fibroblast-axis
-    title: "TNF-CCL19 perivascular-fibroblast axis sustaining skin immune-stromal crosstalk"
-    tags: [skin, TNF, CCL19, fibroblast, immune-stromal, homeostasis]
-    maturity: emerging
-  - slug: centrifugal-cellular-diversity-gradient-skin
-    title: "Centrifugal cellular diversity and density gradient across the human body plan"
-    tags: [skin, body-plan, cellular-diversity, spatial-transcriptomics]
-    maturity: emerging
-  - slug: age-stroma-to-perivasc-fibroblast-shift
-    title: "Age-associated STROMA-PERIVASC II shift and Retic Fib I depletion in skin"
-    tags: [skin, aging, fibroblast, perivascular, collagen]
-    maturity: emerging
-  - slug: cross-disease-perivasc-immune-remodeling-skin
-    title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
-    tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, BCC, SCC, TLS]
-    maturity: emerging
-  - slug: cgas-sting-pathway-canonical-noncanonical-outputs
-    title: "cGAS-STING pathway: canonical and non-canonical outputs"
-    tags: [cgas-sting, type-i-ifn, nf-kb, innate-immunity]
-    maturity: stable
-  - slug: sting-tme-context-cell-type-dependent
-    title: "STING TME outcomes are context- and cell-type-dependent"
-    tags: [cgas-sting, tumor-microenvironment, cell-type-specificity]
-    maturity: stable
-  - slug: epigenetic-cgas-sting-silencing-immune-evasion
-    title: "Epigenetic cGAS/STING silencing as tumor immune evasion"
-    tags: [epigenetics, cgas-sting, ezh2, dnmt, immune-evasion]
-    maturity: stable
-  - slug: chronic-sting-noncanonical-nfkb-cin
-    title: "Chronic STING → non-canonical NF-κB → IL-6/STAT3 in CIN-high tumors"
-    tags: [chromosomal-instability, cgas-sting, nf-kb, il-6, stat3]
-    maturity: stable
-  - slug: trex1-innate-immune-checkpoint
-    title: "TREX1 as an innate immune checkpoint restraining STING-IFN"
-    tags: [cgas-sting, trex1, innate-immune-checkpoint]
-    maturity: emerging
-  - slug: sting-tcell-intrinsic-cytotoxicity-paradox
-    title: "STING T cell-intrinsic cytotoxicity paradox"
-    tags: [cgas-sting, t-cell, apoptosis]
-    maturity: stable
-  - slug: sting-nk-cell-tumor-clearance
-    title: "STING-driven NK cell tumor clearance"
-    tags: [cgas-sting, nk-cell, car-nk]
-    maturity: emerging
-  - slug: sting-endothelial-vascular-normalization-trafficking
-    title: "STING in endothelial cells: vascular normalization and T/NK trafficking"
-    tags: [cgas-sting, endothelial-cell, vascular-normalization]
-    maturity: emerging
-  - slug: sting-tls-formation-dc-dependent
-    title: "STING-driven tertiary lymphoid structure formation"
-    tags: [cgas-sting, tertiary-lymphoid-structure, dendritic-cell]
-    maturity: emerging
-  - slug: sting-agonist-clinical-translation-gap
-    title: "STING agonist clinical translation gap"
-    tags: [cgas-sting, clinical-trial, drug-development]
-    maturity: stable
-  - slug: sting-agonist-adc-targeted-delivery
-    title: "STING-agonist antibody-drug conjugates and cell-targeted delivery"
-    tags: [cgas-sting, antibody-drug-conjugate, targeted-delivery]
-    maturity: emerging
-  - slug: sting-biomarkers-precision-immunotherapy
-    title: "Predictive biomarkers for STING-pathway-directed precision immunotherapy"
-    tags: [cgas-sting, biomarker, precision-immunotherapy]
-    maturity: emerging
-  - slug: tumor-derived-cgamp-immunotransmitter
-    title: "Tumor-derived cGAMP as an immunotransmitter in the TME"
-    tags: [cgamp, cgas-sting, paracrine]
-    maturity: stable
-
-  - slug: one-carbon-metabolism-cachexia-tissue-overarching
-    title: "One-carbon metabolism as a tissue-overarching pathway in cancer cachexia"
-    tags: [one-carbon-metabolism, cachexia, methionine-cycle, folate-cycle, multi-tissue, methylation]
-    maturity: emerging
-  - slug: il6-driven-cachexia-one-carbon-reprogramming
-    title: "IL6-driven one-carbon metabolism reprogramming in cancer cachexia"
-    tags: [IL6, cachexia, one-carbon-metabolism, NNMT, inflammation, upstream-regulator]
-    maturity: emerging
-  - slug: methionine-cycle-myotube-atrophy-hypermetabolism
-    title: "Methionine-cycle drives myotube atrophy and glucose hypermetabolism (in vitro causality)"
-    tags: [methionine, myotube, atrophy, hypermetabolism, C2C12, FIDAS-5, cachexia]
-    maturity: emerging
-  - slug: muscle-glucose-hypermetabolism-cachexia-tca-rewiring
-    title: "Muscle glucose hypermetabolism in cachexia — PC/PDH-driven TCA flux acceleration"
-    tags: [muscle, cachexia, 13C-glucose, pyruvate-carboxylase, PDH, TCA-cycle, INCA-flux, anaplerosis, glutamine]
-    maturity: emerging
-  - slug: nnmt-mnam-liver-cachexia-axis
-    title: "NNMT-MNAM axis in cachectic liver"
-    tags: [NNMT, MNAM, liver, cachexia, nicotinamide-methylation, methylation-detoxification]
-    maturity: emerging
-  - slug: fidas-5-methionine-blockade-rescues-cachexia
-    title: "FIDAS-5 methionine-cycle blockade rescues cachexia features in C2C12 myotubes"
-    tags: [FIDAS-5, MAT-inhibitor, methionine-cycle, cachexia, therapeutic, C2C12]
-    maturity: emerging
-  - slug: multi-omics-coordinated-host-tissue-response-cachexia
-    title: "Coordinated multi-tissue host response in cancer cachexia — multi-omics integration framing"
-    tags: [multi-omics, metabolomics, transcriptomics, isotope-tracing, cachexia, multi-tissue, integration]
-    maturity: emerging
-  - slug: cac-clinical-subtypes-body-composition
-    title: "Clinical CAC subtypes defined by body-composition loss patterns"
-    tags: [cancer-cachexia, body-composition-subtype, TRACERx, PDAC, NSCLC]
-    maturity: emerging
-  - slug: ct-l3-body-composition-phenotyping
-    title: "CT-L3 body-composition phenotyping in cancer cachexia"
-    tags: [CT-imaging, body-composition, SAT, VAT, SKM, AI-segmentation]
-    maturity: stable
-  - slug: central-melanocortin-system-cancer-anorexia
-    title: "Central melanocortin system in cancer-associated anorexia"
-    tags: [hypothalamus, POMC, AgRP, MC4R, anorexia, GDF-15, ghrelin]
-    maturity: emerging
-  - slug: cori-cycle-tumor-host-metabolism
-    title: "Cori cycle and tumour-driven host metabolic rewiring"
-    tags: [Cori-cycle, lactate, hepatic-gluconeogenesis, hypermetabolism, isotope-tracing]
-    maturity: active
-  - slug: adipose-lipolysis-cancer-cachexia
-    title: "Adipose-tissue lipolysis in cancer cachexia"
-    tags: [lipolysis, HSL, ATGL, catecholamines, natriuretic-peptides, WAT-browning]
-    maturity: active
-  - slug: muscle-wasting-ups-autophagy-cac
-    title: "Muscle wasting in CAC: UPS, autophagy, and anabolic resistance"
-    tags: [MURF1, Atrogin-1, ubiquitin-proteasome, autophagy, anabolic-resistance, postprandial-blunted-synthesis]
-    maturity: active
-  - slug: treatment-induced-cachexia
-    title: "Treatment-induced and treatment-modulated cachexia"
-    tags: [chemotherapy, immunotherapy, FOLFIRINOX, GEM-NAB, LBM-dosing, treatment-toxicity]
-    maturity: active
-  - slug: cac-clinical-phenotyping-body-composition
-    title: "Clinical phenotyping of CAC: PROs, functional assessments, and body composition"
-    tags: [FAACT, PG-SGA, HGS, 6MWT, ECOG, clinical-trial-endpoints]
-    maturity: stable
-  - slug: mitochondrial-vhl-noncanonical-hypoxia-function
-    title: "Mitochondrial VHL: a non-canonical role for VHL in hypoxic metabolism"
-    tags: [hypoxia, VHL, mitochondria, metabolism, non-canonical-signaling]
-    maturity: emerging
-  - slug: vhl-mccc2-leucine-catabolism-inhibition
-    title: "VHL–MCCC2 binding inhibits leucine catabolism under hypoxia"
-    tags: [hypoxia, VHL, MCCC2, leucine, BCAA-metabolism]
-    maturity: emerging
-  - slug: leucine-allosteric-gdh-glutaminolysis-activation
-    title: "Leucine accumulation allosterically activates GDH to drive glutaminolysis in hypoxia"
-    tags: [hypoxia, leucine, GDH, glutaminolysis, lipogenesis, nucleotide-synthesis]
-    maturity: emerging
-  - slug: src-vhl-y185-phosphorylation-mitochondrial-axis
-    title: "SRC-mediated VHL Y185 phosphorylation enables the mitochondrial VHL–MCCC2 interaction"
-    tags: [hypoxia, SRC, VHL, phosphorylation, post-translational-modification]
-    maturity: emerging
-  - slug: prmt5-mccc2-arginine-methylation-oxygen-switch
-    title: "PRMT5-mediated MCCC2 R292 methylation is an oxygen-responsive block on the VHL–MCCC2 interaction"
-    tags: [hypoxia, PRMT5, MCCC2, arginine-methylation, post-translational-modification]
-    maturity: emerging
-  - slug: hypoxic-vhl-self-ubiquitination-hif1a-shielding
-    title: "Hypoxic VHL self-ubiquitination and the HIF1A shielding model"
-    tags: [hypoxia, VHL, ubiquitination, HIF1A, protein-stability]
-    maturity: emerging
-  - slug: type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc
-    title: "Type 2B VHL missense mutations confer mitochondrial gain-of-function in ccRCC"
-    tags: [VHL, ccRCC, kidney-cancer, hypoxia, clinical-correlation]
-    maturity: emerging
 topics:
 
 people:
@@ -1659,6 +1677,9 @@ people:
   - slug: alexandru-suvac
     tags: [hypoxia, DNA-repair, genomic-instability, cancer-genomics]
     affiliation: "Translational Oncogenomics Laboratory, Cancer Research UK Manchester Institute; Manchester Cancer Research Centre; Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University of Manchester, UK"
+  - slug: andrew-l-ji
+    tags: [skin, dermatology, spatial-transcriptomics, single-cell, squamous-cell-carcinoma]
+    affiliation: "Department of Dermatology, Tisch Cancer Institute, Department of Oncological Sciences, Department of Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
   - slug: ang-cui
     tags: [cytokine-biology, single-cell-genomics, immunology, computational-biology, PI]
     affiliation: "Harvard–MIT Division of Health Sciences and Technology; Broad Institute of MIT and Harvard; Faculty of Medicine, Harvard University"
@@ -1671,12 +1692,18 @@ people:
   - slug: ansam-sinjab
     tags: [lung-cancer, translational-pathology, precancer-biology]
     affiliation: "MD Anderson Cancer Center"
+  - slug: assaf-weiner
+    tags: [systems-immunology, single-cell-genomics, tumor-immunology, immunocytokine, immunai]
+    affiliation: "Department of Systems Immunology, Weizmann Institute of Science, Rehovot, Israel; Immunai, Ramat Gan, Israel"
   - slug: aymeric-silvin
     tags: [macrophage, mononuclear-phagocyte, single-cell, immunology, tumor-microenvironment]
     affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France"
   - slug: benjamin-furtwangler
     tags: [single-cell-proteomics, mass-spectrometry, scp-MS, SCeptre, hematopoiesis, methods]
     affiliation: "Finsen Laboratory, Rigshospitalet & Biotech Research and Innovation Centre, University of Copenhagen"
+  - slug: bo-li
+    tags: [hypoxia, VHL, metabolism, mitochondria, biochemistry, oncology]
+    affiliation: "Southern Medical University, Guangzhou, China"
   - slug: bo-porse
     tags: [hematopoiesis, HSPC, molecular-hematology, leukemia, single-cell-genomics]
     affiliation: "The Finsen Laboratory, Rigshospitalet; Biotech Research and Innovation Centre (BRIC); Department of Clinical Medicine, University of Copenhagen"
@@ -1701,6 +1728,9 @@ people:
   - slug: carolina-m-polonio
     tags: [AHR, neuroimmunology, tryptophan-metabolism]
     affiliation: "Brigham and Women's Hospital, Harvard Medical School"
+  - slug: caroline-fahey
+    tags: [cgas-sting, tumor-immunology, innate-immunity]
+    affiliation: "Dana-Farber Cancer Institute / Harvard University"
   - slug: catherine-j-wu
     tags: [cancer-immunology, neoantigen-vaccines, cancer-genomics, immunotherapy, PI, clinician-scientist]
     affiliation: "Department of Medical Oncology, Dana–Farber Cancer Institute; Department of Medicine, Brigham and Women's Hospital, Harvard Medical School; Broad Institute of MIT and Harvard"
@@ -1737,9 +1767,15 @@ people:
   - slug: cristina-munoz-pinedo
     tags: [cell-death, thoracic-tumor, tumor-microenvironment, metabolism, hypoxia, PI]
     affiliation: "Preclinical and Experimental Research in Thoracic Tumors (PReTT), Oncobell Program, Institut d'Investigació Biomèdica de Bellvitge (IDIBELL), L'Hospitalet de Llobregat, Barcelona, Spain"
+  - slug: dan-hasson
+    tags: [bioinformatics, chromatin, genomics-core, single-cell]
+    affiliation: "Department of Oncological Sciences, Tisch Cancer Institute, Bioinformatics for Next Generation Sequencing (BiNGS) Shared Resource Facility, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
   - slug: daniele-tavernari
     tags: [computational-biology, lung-cancer, LUAD, spatial-omics]
     affiliation: "Department of Computational Biology, University of Lausanne; Swiss Cancer Center Léman; Swiss Institute of Bioinformatics; SIB"
+  - slug: david-barbie
+    tags: [cgas-sting, lung-cancer, kras-lkb1, tumor-immunology, precision-immunotherapy]
+    affiliation: "Dana-Farber Cancer Institute / Parker Institute for Cancer Immunotherapy"
   - slug: david-h-sherr
     tags: [AHR, environmental-immunology, breast-cancer, tryptophan-metabolism]
     affiliation: "Boston University School of Public Health"
@@ -1752,9 +1788,15 @@ people:
   - slug: dominic-grun
     tags: [single-cell-genomics, spatial-transcriptomics, computational-biology, niche-analysis, stem-cell-biology, lineage-inference]
     affiliation: "Würzburg Institute of Systems Immunology, Julius-Maximilians-Universität Würzburg, Germany; CAIDAS Center for AI and Data Science, Würzburg, Germany"
+  - slug: eileen-p-white
+    tags: [autophagy, cancer-metabolism, cancer-cachexia, tumor-host-metabolism]
+    affiliation: "Rutgers Cancer Institute; Ludwig Princeton Branch, Ludwig Institute for Cancer Research, Princeton University"
   - slug: elisa-t-zhang
     tags: [organoids, oncology, tumour-immune-microenvironment]
     affiliation: "Stanford University School of Medicine"
+  - slug: erick-armingol
+    tags: [single-cell, metabolism, cell-cell-communication, tensor-factorization, endometrium]
+    affiliation: "Wellcome Sanger Institute, Cambridge, UK"
   - slug: ernest-fraenkel
     tags: [systems-biology, network-modelling, computational-biology, multi-omics-integration, PI]
     affiliation: "Department of Biological Engineering, Massachusetts Institute of Technology; Broad Institute of MIT and Harvard"
@@ -1788,6 +1830,9 @@ people:
   - slug: gokhan-m-mutlu
     tags: [pulmonary-medicine, macrophage-biology, alveolar-macrophage, hypoxia, ARDS, immunometabolism]
     affiliation: "Department of Medicine, Section of Pulmonary and Critical Care Medicine, University of Chicago, Chicago, IL, USA"
+  - slug: guobang-li
+    tags: [hypoxia, VHL, metabolism, urology]
+    affiliation: "Southern Medical University / Guangdong Provincial People's Hospital, Guangzhou, China"
   - slug: h-kay-chung
     tags: [immunology, cd8-t-cells, exhaustion, transcription-factors]
     affiliation: "Salk Institute / NOMIS Center for Immunobiology and Microbial Pathogenesis; UNC Lineberger Comprehensive Cancer Center"
@@ -1836,6 +1881,9 @@ people:
   - slug: kevin-mulder
     tags: [macrophage, single-cell, mononuclear-phagocyte, immunology, tumor-microenvironment, spatial-transcriptomics]
     affiliation: "Gustave Roussy Cancer Campus, Villejuif, France; INSERM U1015"
+  - slug: kexin-koh
+    tags: [cancer-cachexia, clinical-oncology, lung-cancer, body-composition]
+    affiliation: "Cancer Metastasis Laboratory, UCL Cancer Institute; CRUK Lung Cancer Centre of Excellence, UCL Cancer Institute, London, UK"
   - slug: kimberly-a-mchale
     tags: [tapinarof, clinical-development, dermatology, psoriasis]
     affiliation: "Dermavant Sciences Inc., Morrisville, NC"
@@ -1845,6 +1893,9 @@ people:
   - slug: lei-wang
     tags: [immuno-oncology, macrophage, PD-L1, breast-cancer, scRNA-seq]
     affiliation: "International Cancer Center, Shenzhen University Medical School, Shenzhen, Guangdong 518055, China"
+  - slug: liang-cheng
+    tags: [bioinformatics, deconvolution, molecular-diagnosis]
+    affiliation: "Harbin Medical University"
   - slug: lin-zhao
     tags: [hypoxia, molecular-pharmacology, cancer-drug-development, tumor-associated-macrophage, corresponding-author]
     affiliation: "Department of Pharmacology, School of Pharmacy, China Medical University; Liaoning Key Laboratory of Molecular Targeted Anti-Tumor Drug Development and Evaluation"
@@ -1869,6 +1920,12 @@ people:
   - slug: maria-colome-tatche
     tags: [epigenetics, single-cell-genomics, data-integration, computational-biology, bioinformatics]
     affiliation: "Biomedical Center (BMC), LMU Munich / Helmholtz Zentrum München"
+  - slug: maria-rohm
+    tags: [cachexia, PI, cancer-metabolism, tumour-host-crosstalk, adipose-biology]
+    affiliation: "Helmholtz Center Munich; Heidelberg University; DZD; DZHK Munich Heart Alliance"
+  - slug: mariam-jamal-hanjani
+    tags: [cancer-evolution, NSCLC, cancer-cachexia, TRACERx, PEACE-autopsy-programme]
+    affiliation: "Cancer Metastasis Laboratory, UCL Cancer Institute; CRUK Lung Cancer Centre of Excellence; Dept of Medical Oncology, UCLH"
   - slug: martha-l-bulyk
     tags: [transcription-factor, DNA-binding, protein-binding-microarray, regulatory-genomics, noncoding-variants]
     affiliation: "Division of Genetics, Department of Medicine + Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA"
@@ -1887,6 +1944,9 @@ people:
   - slug: michael-tyler
     tags: [scrna-seq, pan-cancer, metaprograms, oncology]
     affiliation: "Weizmann Institute of Science; Georg-Speyer-Haus, Institute for Tumor Biology"
+  - slug: michelle-von-locquenghien
+    tags: [tumor-immunology, immunocytokine, TREM2, single-cell-genomics]
+    affiliation: "Department of Systems Immunology, Weizmann Institute of Science, Rehovot, Israel"
   - slug: michihiro-takahama
     tags: [immunology, sepsis, cytokines, first-author]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago; Osaka University"
@@ -1899,6 +1959,9 @@ people:
   - slug: mirja-prentzell
     tags: [AHR, tryptophan-metabolism, DKFZ, Heidelberg]
     affiliation: "German Cancer Research Center (DKFZ), Heidelberg; Faculty of Bioscience, Heidelberg University"
+  - slug: nathan-e-lewis
+    tags: [systems-biology, metabolism, genome-scale-metabolic-models, CellFie, glycomics, CHO-biomanufacturing]
+    affiliation: "UC San Diego (Pediatrics, Bioengineering); University of Georgia (CCRC, Biochemistry & Molecular Biology)"
   - slug: nicolas-chevrier
     tags: [immunology, sepsis, organism-wide-profiling, cytokines]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
@@ -1911,6 +1974,9 @@ people:
   - slug: nir-hacohen
     tags: [immunology, tumor-immunology, cytokine-biology, single-cell-genomics, innate-immunity, PI]
     affiliation: "Department of Medicine, Massachusetts General Hospital, Harvard Medical School; Krantz Family Center for Cancer Research, MGH; Broad Institute of MIT and Harvard"
+  - slug: ondrej-kuda
+    tags: [PI, bioactive-lipids, metabolomics, lipidomics, LIMeX-pipeline]
+    affiliation: "Institute of Physiology of the Czech Academy of Sciences, Prague"
   - slug: palmira-barreira-silva
     tags: [AHR, host-pathogen, infection-immunology, pattern-recognition-receptor]
     affiliation: "IBMC / i3S, Universidade do Porto, Porto, Portugal."
@@ -1926,12 +1992,18 @@ people:
   - slug: paul-henry-cournede
     tags: [mathematics, statistical-learning, precision-medicine, spatial-omics, PI]
     affiliation: "Université Paris-Saclay, CentraleSupélec, Lab of Mathematics and Computer Science (MICS); IHU PRISM, National PRecISion Medicine Center in Oncology"
+  - slug: paula-restrepo
+    tags: [skin, spatial-transcriptomics, MERFISH, single-cell-genomics, dermatology]
+    affiliation: "Department of Dermatology and Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
   - slug: pauline-hamon
     tags: [tumor-immunology, macrophage, hepatocellular-carcinoma, spatial-transcriptomics, MERFISH, PIC-seq, immune-checkpoint-blockade]
     affiliation: "Marc and Jennifer Lipschultz Precision Immunology Institute / Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
   - slug: pauline-holfelder
     tags: [AHR, tryptophan-metabolism, DKFZ, Heidelberg]
     affiliation: "German Cancer Research Center (DKFZ), Heidelberg; Faculty of Bioscience, Heidelberg University"
+  - slug: pauline-morigny
+    tags: [cachexia, metabolomics, one-carbon-metabolism, tumour-host-crosstalk]
+    affiliation: "Helmholtz Center Munich; Heidelberg University; DZD German Center for Diabetes Research"
   - slug: pedro-moura-alves
     tags: [AHR, aryl-hydrocarbon-receptor, pattern-recognition-receptor, tuberculosis, Pseudomonas, host-pathogen, host-directed-therapy]
     affiliation: "IBMC / i3S, Universidade do Porto, Porto, Portugal; previously Max Planck Institute for Infection Biology, Berlin."
@@ -1968,12 +2040,18 @@ people:
   - slug: rohit-arora
     tags: [spatial-transcriptomics, OSCC, head-and-neck-cancer]
     affiliation: "University of Calgary (Biochemistry & Molecular Biology, Cumming School of Medicine; Arnie Charbonneau Cancer Institute)"
+  - slug: roser-vento-tormo
+    tags: [single-cell, human-cell-atlas, reproductive-biology, endometrium, decidua, immunology]
+    affiliation: "Wellcome Sanger Institute, Cambridge, UK; Cambridge Stem Cell Institute"
   - slug: roy-el-darzi
     tags: [nsclc, tumour-microenvironment]
     affiliation: "American University of Beirut"
   - slug: ruixue-bai
     tags: [hypoxia, tumor-associated-macrophage, oncology, molecular-pharmacology, first-author]
     affiliation: "China Medical University, Shenyang; Shengjing Hospital of China Medical University"
+  - slug: sai-ma
+    tags: [genomics, single-cell-multi-omics, spatial-transcriptomics]
+    affiliation: "Department of Genetics and Genomic Sciences, Institute of Genomic Health, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
   - slug: saskia-trump
     tags: [AHR, molecular-epidemiology, DNA-methylation, smoking, environmental-exposure, BIH, Charite]
     affiliation: "Molecular Epidemiology Unit, Berlin Institute of Health at Charité; DKTK Partner Site Berlin"
@@ -1998,6 +2076,9 @@ people:
   - slug: stefanie-k-wculek
     tags: [macrophage, immunometabolism, dendritic-cell, tumor-immunology]
     affiliation: "Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid"
+  - slug: stephan-herzig
+    tags: [PI, metabolic-disease, cancer-cachexia, molecular-endocrinology]
+    affiliation: "Helmholtz Center Munich; Heidelberg University; Technical University Munich; DZD"
   - slug: susan-m-kaech
     tags: [immunology, cd8-t-cells, memory-t-cells, exhaustion, tumour-immunology]
     affiliation: "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute"
@@ -2010,12 +2091,18 @@ people:
   - slug: tiannan-guo
     tags: [proteomics, dia-ms, mass-spectrometry, pan-cancer, clinical-proteomics]
     affiliation: "Westlake University — School of Life Sciences; Westlake Laboratory of Life Sciences and Biomedicine"
+  - slug: tianyi-zhao
+    tags: [bioinformatics, deconvolution, deep-learning]
+    affiliation: "Harbin Institute of Technology"
   - slug: tina-cascone
     tags: [thoracic-oncology, nsclc, neoadjuvant-immunotherapy]
     affiliation: "MD Anderson Cancer Center"
   - slug: ting-li
     tags: [immunometabolism, lipid-metabolism, chinese-medicine-pharmacology, macau]
     affiliation: "Macau University of Science and Technology — State Key Laboratory of Quality Research in Chinese Medicine; Macau Institute for Artificial Intelligence in Medicine; Macau Institute for Applied Research in Medicine and Health"
+  - slug: tobias-janowitz
+    tags: [cancer-cachexia, tumor-host-physiology, integrated-oncology, clinical-translational]
+    affiliation: "Cold Spring Harbor Laboratory; Cancer Institute, Northwell Health, New York"
   - slug: tomi-lazarov
     tags: [macrophage, tissue-resident-macrophage, immunology, developmental-biology, postdoc, mononuclear-phagocyte]
     affiliation: "Memorial Sloan Kettering Cancer Center, New York, NY, USA; Weill Cornell Graduate School of Medical Sciences, New York, NY, USA"
@@ -2037,12 +2124,18 @@ people:
   - slug: xiaoqi-sun
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, mononuclear-phagocyte]
     affiliation: "Icahn Genomics Institute, Lipschultz Precision Immunology Institute, Department of Immunology & Immunotherapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+  - slug: xingqiao-wen
+    tags: [urology, hypoxia, VHL, kidney, ccRCC, ischemia]
+    affiliation: "Guangdong Provincial People's Hospital, Southern Medical University, Guangzhou, China"
   - slug: xiwen-tang
     tags: [early-cancer]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
   - slug: ya-han
     tags: [single-cell-genomics, pan-cancer, tme, computational-oncology]
     affiliation: "Tongji University"
+  - slug: yadong-wang
+    tags: [bioinformatics, deconvolution, computing]
+    affiliation: "Harbin Institute of Technology"
   - slug: yanqing-wang
     tags: [neurobiology, integrative-medicine, acupuncture, pain]
     affiliation: "Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences, Shanghai Medical College, Fudan University, Shanghai, China"
@@ -2073,76 +2166,9 @@ people:
   - slug: zhou-chen
     tags: [oncology, hypoxia, tumor-microenvironment, cancer-therapy, review-author]
     affiliation: "The First Clinical Medical College & The First Hospital of Lanzhou University, Lanzhou, Gansu, China"
-  - slug: assaf-weiner
-    tags: [systems-immunology, single-cell-genomics, tumor-immunology, immunocytokine, immunai]
-    affiliation: "Department of Systems Immunology, Weizmann Institute of Science / Immunai"
-  - slug: michelle-von-locquenghien
-    tags: [tumor-immunology, immunocytokine, TREM2, single-cell-genomics]
-    affiliation: "Department of Systems Immunology, Weizmann Institute of Science"
-  - slug: caroline-fahey
-    tags: [cgas-sting, tumor-immunology, innate-immunity]
-    affiliation: "Dana-Farber Cancer Institute / Harvard University"
-  - slug: david-barbie
-    tags: [cgas-sting, lung-cancer, kras-lkb1, precision-immunotherapy]
-    affiliation: "Dana-Farber Cancer Institute / Parker Institute for Cancer Immunotherapy"
 
 ideas:
 
-  - slug: paula-restrepo
-    tags: [skin, spatial-transcriptomics, MERFISH, single-cell-genomics, dermatology]
-    affiliation: "Department of Dermatology and Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
-  - slug: andrew-l-ji
-    tags: [skin, dermatology, spatial-transcriptomics, single-cell, squamous-cell-carcinoma]
-    affiliation: "Department of Dermatology, Tisch Cancer Institute, Department of Oncological Sciences, Department of Stem Cell Biology and Regenerative Medicine, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
-  - slug: sai-ma
-    tags: [genomics, single-cell-multi-omics, spatial-transcriptomics]
-    affiliation: "Department of Genetics and Genomic Sciences, Institute of Genomic Health, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
-  - slug: dan-hasson
-    tags: [bioinformatics, chromatin, genomics-core, single-cell]
-    affiliation: "Department of Oncological Sciences, Tisch Cancer Institute, BiNGS Shared Resource Facility, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
-
-  - slug: pauline-morigny
-    affiliation: "Helmholtz Center Munich; Heidelberg University; DZD"
-    tags: [cachexia, metabolomics, one-carbon-metabolism]
-  - slug: maria-rohm
-    affiliation: "Institute for Diabetes and Cancer, Helmholtz Munich (PI)"
-    tags: [cachexia, PI, cancer-metabolism, adipose-biology]
-  - slug: ondrej-kuda
-    affiliation: "Institute of Physiology of the Czech Academy of Sciences, Prague (PI)"
-    tags: [PI, bioactive-lipids, metabolomics, LIMeX-pipeline]
-  - slug: stephan-herzig
-    affiliation: "Institute for Diabetes and Cancer, Helmholtz Munich; TU Munich (PI)"
-    tags: [PI, metabolic-disease, cancer-cachexia]
-  - slug: erick-armingol
-    affiliation: "Wellcome Sanger Institute, Cambridge, UK (Vento-Tormo group)"
-    tags: [single-cell, metabolism, cell-cell-communication, tensor-factorization, endometrium]
-  - slug: roser-vento-tormo
-    affiliation: "Wellcome Sanger Institute / Cambridge Stem Cell Institute (PI)"
-    tags: [PI, single-cell, human-cell-atlas, reproductive-biology, endometrium, decidua]
-  - slug: nathan-e-lewis
-    affiliation: "UC San Diego (Pediatrics, Bioengineering); University of Georgia (CCRC, BMB) (PI)"
-    tags: [PI, systems-biology, metabolism, GEMs, CellFie, glycomics, CHO-biomanufacturing]
-  - slug: kexin-koh
-    affiliation: "Cancer Metastasis Laboratory, UCL Cancer Institute; CRUK Lung Cancer Centre of Excellence, London, UK"
-    tags: [cancer-cachexia, clinical-oncology, lung-cancer, body-composition]
-  - slug: mariam-jamal-hanjani
-    affiliation: "Cancer Metastasis Laboratory, UCL Cancer Institute; UCLH (PI)"
-    tags: [PI, cancer-evolution, NSCLC, cancer-cachexia, TRACERx, PEACE]
-  - slug: tobias-janowitz
-    affiliation: "Cold Spring Harbor Laboratory; Northwell Health (PI)"
-    tags: [PI, cancer-cachexia, tumor-host-physiology, integrated-oncology, translational-oncology]
-  - slug: eileen-p-white
-    affiliation: "Rutgers Cancer Institute; Ludwig Princeton Branch (PI)"
-    tags: [PI, autophagy, cancer-metabolism, cancer-cachexia, tumor-host-metabolism]
-  - slug: bo-li
-    affiliation: "School of Basic Medical Sciences, Southern Medical University, Guangzhou, China (PI / lead contact)"
-    tags: [PI, hypoxia, VHL, metabolism, mitochondria, oncology]
-  - slug: xingqiao-wen
-    affiliation: "Department of Urology, Guangdong Provincial People's Hospital, Southern Medical University, Guangzhou, China (PI)"
-    tags: [PI, urology, hypoxia, VHL, kidney, ccRCC, ischemia]
-  - slug: guobang-li
-    affiliation: "Department of Urology, Guangdong Cardiovascular Institute, Guangdong Provincial People's Hospital, Guangzhou, China"
-    tags: [hypoxia, VHL, metabolism, urology]
 experiments:
 
 claims:
@@ -2164,6 +2190,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: metabolism / mass spectrometry
+  - slug: 13c6-glucose-labels-tca-elevated-cachectic-muscle-heart
+    title: "In vivo 13C6-glucose tracing shows elevated incorporation of label into TCA intermediates and enrichment of higher isotopologues (M+3, M+4) in GC muscle, soleus and heart of cachectic C26 mice — despite stable or reduced unlabelled pools"
+    tags: [13C6-glucose, isotope-tracing, TCA, muscle, heart, hypermetabolism, cachexia]
+    status: supported
+    confidence: 0.9
+    domain: muscle biology / metabolic flux
   - slug: 18-ecmmac-anticorrelates-mana-score-lung
     title: "18_ECMMac proportion anticorrelates with MANA score (q=0.078) and 8_IFNGMac correlates with MANA score (q=0.060) in lung cancer"
     tags: [MANA-score, neoantigen, 18_ECMMac, 8_IFNGMac, lung-cancer, TAM-T-cell-crosstalk]
@@ -2296,6 +2328,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: neuroimmunology / endocrinology / mouse-model
+  - slug: age-perivasc-ii-increases-abdomen-skin
+    title: "PERIVASC II neighborhood proportion increases with age in abdominal skin (Spearman = 0.70, P = 0.0076)"
+    tags: [skin, aging, PERIVASC-II, abdomen, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: dermatology / aging
+  - slug: age-stroma-decreases-abdomen-skin
+    title: "STROMA neighborhood proportion declines with age in abdominal skin (Spearman = −0.70, P = 0.0083, n=13 donors)"
+    tags: [skin, aging, STROMA, abdomen, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: dermatology / aging
   - slug: ageing-nsclc-tme-immunosuppression-pdl2-tim3-il1a
     title: "LUAD biopsies from older patients show increased PD-L2/TIM3 expression, more immunosuppressive TAMs, fewer TANs, and reduced T-cell function, correlating with worse OS in early-stage disease"
     tags: [ageing, pd-l2, tim3, tam, il-1a, cd8-naive-memory]
@@ -2596,6 +2640,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: anatomic-site-categories-similar-composition
+    title: "Anatomic sites within flexural, extensor, trunk and scalp categories share similar compositional patterns while face and sole are unique"
+    tags: [skin, anatomy, compositional, correlational]
+    status: supported
+    confidence: 0.85
+    domain: dermatology
   - slug: ancestry-disparity-tumor-hypoxia-brca
     title: "Tumor hypoxia in BRCA differs by self-reported ancestry — Caucasian < Asian/African"
     tags: [hypoxia, ancestry, BRCA, health-disparity, precision-medicine, evofosfamide]
@@ -2668,6 +2718,18 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: oncology / immuno-oncology
+  - slug: anti-trem2-il-2sk-ick-induces-lethal-systemic-toxicity
+    title: "Unmasked αTREM2-IL-2 superkine immunocytokine induces lethal systemic cytokine toxicity and hepatotoxicity"
+    tags: [IL-2, immunocytokine, toxicity, cytokine-storm, hepatotoxicity]
+    status: supported
+    confidence: 0.9
+    domain: immunology / pharmacology
+  - slug: anti-trem2-monotherapy-reprograms-tams-limited-efficacy
+    title: "Anti-TREM2 monotherapy molecularly reprograms TAMs but provides only minor tumor-control efficacy"
+    tags: [TREM2, monotherapy, TAM, cancer-immunotherapy, treatment-resistance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: arg-mdsc-arginine-depletion-tcell-suppression-arg-inhibition
     title: "MDSC-expressed ARG1 depletes arginine in the TME and suppresses T cells; ARG inhibition restores antitumour immunity, while systemic ADI-PEG20 also depletes T-cell arginine"
     tags: [arginine, arg1, mdsc, adi-peg20, hepatocellular-carcinoma]
@@ -2710,6 +2772,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: single-cell-methods
+  - slug: attention-denoiser-contrastive-learning-separates-noise
+    title: "Attention denoiser with contrastive learning separates noise, enabling robustness to unknown cell types"
+    tags: [denoising, contrastive, attention, deconvolution]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: authors-propose-tumor-hypoxia-neutrophil-emt
     title: "Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD"
     tags: [LUAD, hypothesis, mechanistic, hypoxia, TAN, EMT, positive-feedback]
@@ -2818,6 +2886,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunometabolism
+  - slug: body-composition-loss-precedes-pancreatic-cancer-diagnosis
+    title: "Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase"
+    tags: [cancer-cachexia, pancreatic-cancer, pre-CAC, early-detection]
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology / cachexia / early detection
   - slug: c2-cluster-cpg-demethylation-specific-hypoxic
     title: "Cluster C2 (403 CpGs) shows hypoxia-specific NF-κB-motif-enriched DNA demethylation in LPS-activated macrophages"
     tags: [cluster-C2, DNA-demethylation, NF-kB, hypoxia, macrophage, IL6, TNF]
@@ -2842,6 +2916,42 @@ claims:
     status: supported
     confidence: 0.8
     domain: epigenetics
+  - slug: c26-cachectic-mice-distinct-metabolome-clustering-tissues
+    title: "C26-cachectic mice show distinct, cachexia-specific metabolome clustering in plasma, liver and adipose; muscle/heart are more variable"
+    tags: [C26, metabolomics, PLSDA, cachexia, multi-tissue]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / metabolomics
+  - slug: cac-prevalence-varies-by-cancer-type
+    title: "CAC prevalence varies dramatically by cancer type — 15-30% (blood/breast/prostate) vs 40-80% (lung/gastric/pancreatic)"
+    tags: [cancer-cachexia, epidemiology, prevalence]
+    status: supported
+    confidence: 0.9
+    domain: oncology / epidemiology
+  - slug: cac-sat-adipocyte-size-reduced
+    title: "In GI-CAC, abdominal-SAT adipocytes are smaller in size (not fewer in number) than in weight-stable patients — lipolysis signature"
+    tags: [cancer-cachexia, adipocyte-morphology, lipolysis, SAT]
+    status: supported
+    confidence: 0.85
+    domain: adipose biology / cachexia
+  - slug: cac-subtypes-by-body-composition-pancreatic
+    title: "Pancreatic CAC has at least two body-composition subtypes (adipose-only loss; adipose + SKM loss), both worse survival"
+    tags: [cancer-cachexia, pancreatic-cancer, body-composition-subtype]
+    status: supported
+    confidence: 0.85
+    domain: oncology / clinical phenotyping
+  - slug: cachexia-transcriptome-remodelling-dominates-tumour-effect
+    title: "Cachexia transcriptome remodelling explains 89-100% of gene-expression variance vs tumour effect (≤11%); 340 genes commonly altered across cachexia target tissues"
+    tags: [transcriptome, RNA-seq, variance-partitioning, cachexia, common-genes]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / transcriptomics
+  - slug: caf-sting-cxcr3-chemokines-tcell-recruitment
+    title: "Cancer-associated fibroblast STING activation produces CXCR3 chemokines (CXCL9/10/11) that recruit cytotoxic T cells"
+    tags: [cgas-sting, cancer-associated-fibroblast, cxcl9, cxcl10, cxcl11]
+    status: supported
+    confidence: 0.7
+    domain: immunology
   - slug: caf-wnt-promotes-pdac-emt-crc
     title: "CAF-secreted WNT promotes PDAC organoid growth and EMT in CRC organoids"
     tags: [mechanistic, oncology, organoid, immunotherapy]
@@ -2872,6 +2982,12 @@ claims:
     status: weakly_supported
     confidence: 0.7
     domain: developmental biology / cardiac
+  - slug: catecholamine-lipolysis-stronger-in-cac
+    title: "The lipolytic effect of catecholamines and natriuretic peptides on HSL is stronger in CAC patients than in weight-stable patients"
+    tags: [cancer-cachexia, lipolysis, HSL, catecholamines, natriuretic-peptides]
+    status: supported
+    confidence: 0.75
+    domain: adipose biology / cachexia
   - slug: cca3-124-datasets-2836-samples-56m-cells
     title: "3CA v2 contains 124 datasets, 2,836 samples and 5,658,705 cells across >40 cancer types"
     tags: [scrna-seq, atlas, pan-cancer, 3ca, resource]
@@ -2980,6 +3096,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: ccl19-fibroblasts-disease-map-perivasc-i
+    title: "Pro-inflammatory CCL19+ fibroblasts described in inflammatory skin disease map primarily to the PERIVASC I neighborhood"
+    tags: [skin, CCL19, fibroblast, PERIVASC-I, correlational]
+    status: supported
+    confidence: 0.85
+    domain: dermatology / immunology
+  - slug: ccl19-perivasc-fib-i-near-vasculature-skin
+    title: "CCL19+ Perivasc Fib I fibroblasts localise to perivascular space near skin vasculature"
+    tags: [skin, CCL19, perivascular, fibroblast, mechanistic]
+    status: supported
+    confidence: 0.9
+    domain: cell biology / dermatology
   - slug: ccr2-monocyte-deficiency-reduces-fibrosis
     title: "CCR2-deficient mice (lacking circulating monocytes) show substantially milder fibrosis in liver, heart, kidney, and lung injury models"
     tags: [CCR2, monocyte, BMDM, fibrosis, tissue-repair, macrophage, immunology]
@@ -3052,6 +3180,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: cancer immunology
+  - slug: cell-cycle-phase-signatures-consistent-across
+    title: "Cell-cycle phase signatures are consistent across cell types"
+    tags: [cell-cycle, cell-state, proteomics]
+    status: weakly_supported
+    confidence: 0.6
+    domain: cell biology
   - slug: cell-label-integration-methods-win-with-labels
     title: "Cell-label-using integration methods (scGen, scANVI) preserve single-batch cell-state differences others remove"
     tags: [data-integration, scRNA-seq, cell-labels, semi-supervised]
@@ -3088,6 +3222,18 @@ claims:
     status: weakly_supported
     confidence: 0.45
     domain: immunology
+  - slug: cellxgene-atlas-recovers-organ-and-cell-type-specific-metabolic-functions
+    title: "An atlas of metabolic-task activities across ~30M CELLxGENE cells recovers known organ- and cell-type-specific metabolic functions"
+    tags: [cellxgene, metabolic-atlas, lens, hepatocyte, adrenal, pancreas]
+    status: supported
+    confidence: 0.7
+    domain: metabolism / single-cell atlases
+  - slug: centrifugal-diversity-density-skin
+    title: "Cellular diversity and density follow a centrifugal gradient from trunk to extremities across human skin"
+    tags: [skin, body-plan, diversity, density, correlational]
+    status: supported
+    confidence: 0.85
+    domain: cell biology / dermatology
   - slug: chemogenetic-eosinophil-activation-triggers-acute-itch
     title: "Chemogenetic activation of eosinophils (Epx-iCre-hM3Dq + CNO) is sufficient to trigger acute itch flare-up in AD-like mice"
     tags: [eosinophil, hM3Dq, DREADD, chemogenetics, itch, scratching, MC903, mouse]
@@ -3124,6 +3270,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: hematopoiesis / chromatin biology
+  - slug: chronic-hypoxia-degrades-cytosolic-vhl-while
+    title: "Under chronic hypoxia most cytosolic VHL is degraded while a residual VHL pool translocates to the mitochondria"
+    tags: [hypoxia, VHL, mitochondria, protein-translocation, mechanistic]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-signaling
   - slug: chronic-hypoxia-transcriptionally-translationally-downregulates-brca1
     title: "Chronic hypoxia transcriptionally and translationally downregulates BRCA1, BRCA2 and RAD51"
     tags: [hypoxia, HR, BRCA1, BRCA2, RAD51, DNA-repair]
@@ -3136,6 +3288,18 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: cin-chronic-sting-nfkb-il6-drives-metastasis
+    title: "In CIN-high tumors, chronic cGAS-STING engages non-canonical NF-κB and IL-6/STAT3 to drive metastasis"
+    tags: [chromosomal-instability, cgas-sting, nf-kb, il6, stat3, metastasis]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cleaved-mites-270-fold-higher-il2rb-affinity-vs-wt-il2
+    title: "Cleaved MiTE constructs bind IL-2Rβ with ~270-fold higher affinity than wild-type IL-2"
+    tags: [IL-2, IL-2Rβ, superkine, binding-affinity, MiTE]
+    status: supported
+    confidence: 0.85
+    domain: protein-engineering
   - slug: clostridium-novyi-nt-anaerobic-spore-bacteriotherapy
     title: "Clostridium novyi-NT anaerobic spores target hypoxic tumor cores and enhance radiotherapy"
     tags: [hypoxia, bacteriotherapy, Clostridium-novyi-NT, anaerobic, biotherapy, radiotherapy]
@@ -3220,6 +3384,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: immunology
+  - slug: cori-cycle-tumor-host-futile-cycle
+    title: "The Cori cycle is rewired by tumours as an energetically expensive futile cycle contributing to host hypermetabolism in CAC"
+    tags: [cancer-cachexia, Cori-cycle, hypermetabolism, host-tumor-metabolism]
+    status: supported
+    confidence: 0.7
+    domain: cancer metabolism / cachexia
   - slug: cox2-pge2-intermediate-tgfb1-efferocytosis
     title: "AC-induced PGE2 via COX2 is the obligate intermediate that induces TGF-β1 in efferocytosing macrophages"
     tags: [efferocytosis, COX2, PGE2, TGFβ1, NS-398, siPtgs2, macrophage]
@@ -3388,18 +3558,90 @@ claims:
     status: supported
     confidence: 0.85
     domain: hepatology / fibrosis / pharmacological
+  - slug: decode-deconvolves-known-cell-types-accurately
+    title: "DECODE deconvolves known cell types accurately when the single-cell reference is incomplete"
+    tags: [deconvolution, robustness, incomplete-reference]
+    status: supported
+    confidence: 0.75
+    domain: methods
+  - slug: decode-deconvolves-transcriptomic-proteomic-metabolomic-data
+    title: "DECODE deconvolves transcriptomic, proteomic and metabolomic data with one framework"
+    tags: [deconvolution, multiomics, methods]
+    status: supported
+    confidence: 0.8
+    domain: methods
+  - slug: decode-first-method-deconvolve-metabolomic-data
+    title: "DECODE is the first method to deconvolve metabolomic data"
+    tags: [deconvolution, metabolomics, novelty]
+    status: supported
+    confidence: 0.8
+    domain: methods
+  - slug: decode-gives-consistent-cross-omics-deconvolution
+    title: "DECODE gives consistent cross-omics deconvolution on PBMC CITE-seq pseudocohorts"
+    tags: [cross-omics, consistency, CITE-seq, deconvolution]
+    status: supported
+    confidence: 0.75
+    domain: methods
+  - slug: decode-outperforms-state-art-deconvolution-methods
+    title: "DECODE outperforms state-of-the-art deconvolution methods in transcriptomic and proteomic data"
+    tags: [deconvolution, benchmark, methods]
+    status: supported
+    confidence: 0.75
+    domain: methods
+  - slug: decode-reasonable-memory-runtime-efficiency-among
+    title: "DECODE has reasonable memory and runtime efficiency among deconvolution methods"
+    tags: [efficiency, benchmark, deconvolution]
+    status: supported
+    confidence: 0.7
+    domain: methods
+  - slug: decode-recovers-cell-state-abundances-across
+    title: "DECODE recovers cell-state abundances across pseudotime, cell-cycle and drug-response"
+    tags: [cell-state, deconvolution, multiomics]
+    status: supported
+    confidence: 0.75
+    domain: methods
+  - slug: decode-recovers-consensus-liver-composition-70
+    title: "DECODE recovers consensus liver composition (~70% hepatocytes, ~15% Kupffer cells)"
+    tags: [liver, validation, deconvolution]
+    status: supported
+    confidence: 0.7
+    domain: cell biology
+  - slug: decode-uses-four-stage-adversarial-contrastive
+    title: "DECODE uses a four-stage adversarial and contrastive deconvolution architecture"
+    tags: [deconvolution, architecture, deep-learning]
+    status: supported
+    confidence: 0.9
+    domain: methods
   - slug: den-induced-oesophageal-scc-mutational-landscape
     title: "DEN-induced oesophageal SCC mouse models develop a mutational landscape similar to aged humans"
     tags: [methodological, oncology]
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: disease-enriched-spot-substates-skin
+    title: "Disease-enriched Visium spot sub-states (TLS, TLS-like, KC stress, HS tunnel, BCC tumor) emerge adjacent to the homeostatic ten-neighborhood scheme"
+    tags: [skin, Visium, TLS, KC-stress, hidradenitis-suppurativa, BCC, correlational]
+    status: supported
+    confidence: 0.8
+    domain: dermatology
+  - slug: disease-perivasc-i-chemokine-cytokine-ecm-remodel
+    title: "Disease-associated PERIVASC I shows expansion plus transcriptional remodeling with increased chemokines, cytokines (incl. IL-17, IL-6, TNF-related) and ECM-remodeling genes (MMPs, collagens)"
+    tags: [skin, disease-remodeling, cytokine, ECM, MMP, correlational]
+    status: supported
+    confidence: 0.8
+    domain: dermatology / immunology
   - slug: dll1-vascular-normalization-recovers-cd8-m1-tme
     title: "DLL1 induces long-term tumor vascular normalization, recovering CD8 T cell infiltration and M1 macrophage polarization"
     tags: [hypoxia, vascular-normalization, DLL1, Notch, CD8, M1-macrophage, breast-cancer, lung-cancer]
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: dmxaa-activates-only-murine-sting
+    title: "DMXAA (vadimezan, ASA404) fully activates only murine STING and was the prototypical translational failure"
+    tags: [cgas-sting, sting-agonist, species-specificity]
+    status: supported
+    confidence: 0.95
+    domain: immunology
   - slug: dna-methylation-machinery-dnmt1-dnmt3a-mecp2-tet1-elevated-e13-vs-e11-brain
     title: "DNA-methylation writers (Dnmt1, Dnmt3a), readers (Mecp2) and erasers (Tet1) are elevated in expression in E13 vs E11 embryonic brain"
     tags: [DNMT1, DNMT3A, MeCP2, TET1, embryonic-brain, methylation-machinery]
@@ -3574,12 +3816,24 @@ claims:
     status: supported
     confidence: 0.95
     domain: developmental biology / immunology
+  - slug: endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps
+    title: "Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation"
+    tags: [endometrial-organoids, menstrual-cycle, nucleotide-salvage, Tn-antigen-glycosylation, in-vitro-vs-in-vivo]
+    status: weakly_supported
+    confidence: 0.55
+    domain: endometrial-biology / organoids / metabolism
   - slug: endomucin-alternative-lt-hsc-marker
     title: "Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data"
     tags: [LT-HSC, HSC, marker, Endomucin, CD90, CD49f, methodological]
     status: weakly_supported
     confidence: 0.6
     domain: hematology / cell sorting
+  - slug: enpp1-degrades-cgamp-drives-breast-cancer
+    title: "ENPP1 degrades extracellular cGAMP and promotes breast cancer growth/metastasis by dampening anti-tumor immunity"
+    tags: [cgas-sting, enpp1, cgamp, breast-cancer, metastasis]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: eosinophil-depletion-protects-stress-exacerbated-dermatitis
     title: "Genetic eosinophil depletion (Epx-iCre-DTA) abolishes stress-induced exacerbation of AD-like dermatitis without affecting baseline AD pathology"
     tags: [eosinophil, Epx-iCre, DTA, MC903, RHS, atopic-dermatitis, conditional-ablation, mouse]
@@ -3598,6 +3852,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / GPCR signaling
+  - slug: epigenetic-sting-silencing-many-cancers
+    title: "Tumor cells most commonly silence cGAS/STING epigenetically (DNMT/EZH2/KDM5) rather than by mutation"
+    tags: [epigenetics, cgas-sting, immune-evasion, dnmt, ezh2, kdm5]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: epigenetic-subclustering-d0-d4-within-rna-cluster-r3-distinct-tf-motifs
     title: "Within RNA cluster R3 of E11 embryo, DNAm-defined subclusters D0 and D4 separate cells with similar transcription but distinct hypomethylation TF motifs (D0: PITX1/AP2/EBF1 facial; D4: HOXA/GATA cardiac)"
     tags: [epigenetic-priming, subclustering, TF-motif, embryogenesis, primed-state]
@@ -3658,6 +3918,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: in-vivo / pharmacology
+  - slug: ezh2-dnmt-inhibition-restores-mhci-antigen-presentation
+    title: "EZH2 and DNMT inhibition reinvigorate STING and restore MHC-I antigen presentation in melanoma, TNBC, and SCLC"
+    tags: [ezh2, dnmt, mhc-i, antigen-presentation, sclc, tnbc, melanoma]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: fao-cpt1-supports-memory-cd8-and-controls-macrophage-atherosclerosis
     title: "FAO/CPT1-AMPK supports central-memory CD8 T cells; CPT1 blockade in macrophages drives CD36-mediated LDL uptake and atherosclerosis"
     tags: [fao, cpt1, ampk, cd8-memory, macrophage, atherosclerosis, cd36, immunometabolism]
@@ -3670,6 +3936,24 @@ claims:
     status: supported
     confidence: 0.75
     domain: AHR pharmacology
+  - slug: fidas5-induces-myotube-hypertrophy-reduces-glucose-uptake
+    title: "FIDAS-5 (MAT inhibitor) reduces one-carbon metabolites in C2C12 and induces a phenotype opposite to L-methionine: myotube hypertrophy with reduced glucose consumption"
+    tags: [FIDAS-5, MAT-inhibitor, C2C12, myotube-hypertrophy, hypometabolism, pharmacological]
+    status: supported
+    confidence: 0.85
+    domain: chemical biology / muscle biology
+  - slug: fidas5-rescues-il6-induced-atrophy-and-hypermetabolism-c2c12
+    title: "FIDAS-5 rescues IL6-induced one-carbon induction, myotube atrophy and elevated glucose consumption in C2C12 cells — the methionine cycle is downstream of IL6"
+    tags: [FIDAS-5, IL6, C2C12, rescue, epistasis, methionine-cycle, cachexia]
+    status: supported
+    confidence: 0.85
+    domain: chemical biology / muscle biology
+  - slug: folfirinox-vs-gemnab-differential-loss
+    title: "In advanced PDAC, FOLFIRINOX → greater SKM loss in males; GEM/NAB → greater adipose-tissue loss in both sexes"
+    tags: [cancer-cachexia, pancreatic-cancer, FOLFIRINOX, GEM-NAB, sex-dimorphism, pharmacology]
+    status: supported
+    confidence: 0.8
+    domain: oncology / pharmacology / cachexia
   - slug: folr2-macs-enriched-hcc-non-responders-paradox
     title: "FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome"
     tags: [FOLR2, HCC, non-responder, PD-1-blockade, onco-fetal-niche, tissue-specific]
@@ -3742,6 +4026,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunometabolism
+  - slug: glucose-to-lactate-spatially-organized-malignant-regions-endometrial-carcinoma
+    title: "Glucose→lactate conversion is spatially organized in endometrial carcinoma tissue (Moran's I ≈ 0.379) with highest activity in malignant-cell regions"
+    tags: [endometrial-carcinoma, glycolysis, warburg, spatial-transcriptomics, morans-i]
+    status: supported
+    confidence: 0.7
+    domain: oncology / cancer-metabolism
   - slug: glue-integrates-scpms-citeseq-joint-latent
     title: "GLUE successfully integrates scp-MS and CITE-seq into a joint latent space (silhouette = 0.03)"
     tags: [GLUE, multi-omics, integration, scp-MS, CITE-seq, methodological, joint-latent-space]
@@ -3754,6 +4044,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunometabolism
+  - slug: glutamine-essential-vhl-promoted-hypoxic-growth
+    title: "Glutamine is essential for VHL-promoted hypoxic growth, and citrate plus nucleosides rescue VHL-deficient cells"
+    tags: [hypoxia, VHL, glutamine, rescue, nucleosides, methodological]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
   - slug: glycolytic-signature-inverse-immune-infiltration-melanoma-nsclc
     title: "Tumour glycolytic gene signature inversely correlates with immune infiltration in melanoma and NSCLC patients receiving adoptive T-cell therapy"
     tags: [glycolysis, melanoma, nsclc, act, immune-infiltration]
@@ -3844,6 +4140,12 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: tumor immunology / mac metabolism
+  - slug: hepatocyte-abundance-falls-nash-rises-slightly
+    title: "Hepatocyte abundance falls in NASH and rises slightly in HFD"
+    tags: [liver, NASH, hepatocyte, deconvolution-derived]
+    status: weakly_supported
+    confidence: 0.5
+    domain: cell biology
   - slug: hepatocyte-downregulation-sepsis
     title: "LPS and cytokine pairs downregulate hepatocyte cell-type abundance, validated by spatial transcriptomics and TUNEL"
     tags: [sepsis, hepatocyte, spatial-transcriptomics, liver]
@@ -3856,6 +4158,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology
+  - slug: hgs-predicts-cac-survival
+    title: "Reduced handgrip strength (HGS) predicts poor survival in CAC across European, Chinese, and Indian elderly populations"
+    tags: [cancer-cachexia, handgrip-strength, functional-assessment, survival]
+    status: supported
+    confidence: 0.85
+    domain: oncology / functional assessment
   - slug: hic1-gfi1-ko-reduces-both-trm-and-texterm
     title: "Hic1 and Gfi1 KO reduce both TRM and TEXterm cell frequency, confirming multi-state TF status"
     tags: [hic1, gfi1, multi-state-tf, mechanistic]
@@ -4096,6 +4404,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: single-cell-methods
+  - slug: hypothalamic-fmri-distinguishes-cac-anorexia
+    title: "Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation"
+    tags: [cancer-cachexia, fMRI, hypothalamus, anorexia]
+    status: weakly_supported
+    confidence: 0.65
+    domain: neuroscience / oncology / cachexia
   - slug: hypoxia-1mmhg-three-fold-radioresistant-cancer-cells
     title: "At 1 mmHg pO₂, cancer cells are 3× more radioresistant than normoxic cells"
     tags: [hypoxia, radiotherapy, radioresistance, OER, oxygen-fixation, quantitative]
@@ -4288,6 +4602,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: hypoxic-vhl-self-ubiquitinated-k171-k196
+    title: "Hypoxic VHL is self-ubiquitinated at K171/K196 by its own complex when HIF1A no longer shields it"
+    tags: [hypoxia, VHL, ubiquitination, HIF1A, shielding, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-signaling
   - slug: icaf-inflammatory-caf-most-abundant-precursor-lesions
     title: "Inflammatory CAFs (iCAFs) are most abundant in AAH and AIS precursor lesions and less abundant in normal lung and invasive LUAD"
     tags: [luad, caf, icaf, precursor, stroma, niche]
@@ -4300,6 +4620,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: idh1-inhibition-restores-cgas-promoter-demethylation
+    title: "Mutant IDH1 inhibition restores dsDNA sensing by demethylating the cGAS promoter in low-grade glioma"
+    tags: [idh1, cgas, glioma, epigenetic-derepression]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: idiopathic-pulmonary-fibrosis-alveolar-macrophages-shift-fao-mcu-mtros-pgc1a
     title: "In idiopathic pulmonary fibrosis, alveolar macrophages shift to FAO via MCU/mtROS-driven PGC-1α; blockade reverses to glycolysis and protects from fibrosis"
     tags: [alveolar-macrophage, idiopathic-pulmonary-fibrosis, fao, mcu, mtros, pgc1a, fibrosis]
@@ -4390,6 +4716,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: lung cancer / genetic validation
+  - slug: il2-superkine-h9-il2rb-bias-effector-over-treg
+    title: "IL-2 superkine 'H9 SK' is engineered to bias IL-2Rβ binding, preferentially expanding effector T cells over Tregs"
+    tags: [IL-2, superkine, IL-2Rβ, Treg, effector-T-cell, protein-engineering]
+    status: supported
+    confidence: 0.7
+    domain: protein-engineering
   - slug: il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc
     title: "IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial"
     tags: [il-4, dupilumab, myeloid-progenitor, ici-combination, nsclc]
@@ -4414,6 +4746,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / oncology
+  - slug: il6-inhibition-rescues-cachexia-and-blocks-nnmt-induction
+    title: "IL6 inhibition (neutralising antibody or tumour-cell IL6 KO) rescues cachexia-associated weight loss without reducing tumour size and suppresses NNMT induction in cachectic liver (-77% antibody; -89% KO)"
+    tags: [IL6, anti-IL6, IL6-KO, NNMT, cachexia, rescue, pharmacological, genetic]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / inflammation
+  - slug: il6-ko-abolishes-one-carbon-metabolite-elevation-cax
+    title: "Tumour-cell IL6 KO abolishes elevation of one-carbon metabolites (MNAM and thymidine in liver; di- and tri-methyllysine in GC muscle) in C26 cachexia"
+    tags: [IL6-KO, MNAM, thymidine, methyllysine, cachexia, metabolomics]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / metabolomics
   - slug: imac1-paradoxical-down-p65-bound-genes
     title: "Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS"
     tags: [iMAC1, p65, paradox, inflammatory-suppression, macrophage-differentiation, context-dependency]
@@ -4450,6 +4794,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: regulatory-genomics
+  - slug: inca-flux-pc-pdh-2ogdh-elevated-cachectic-muscle
+    title: "INCA metabolic-flux modelling (normalised to citrate synthase) shows increased PC (V9), PDH (V10) and 2-OGDH (V18) fluxes and increased glutamine entry (V16-V17) into TCA in cachectic GC muscle; β-oxidation/ketogenic-AA flux (V11) decreased"
+    tags: [INCA, flux-analysis, PC, PDH, 2-OGDH, glutamine, beta-oxidation, cachexia, muscle]
+    status: supported
+    confidence: 0.8
+    domain: muscle biology / metabolic flux
+  - slug: innate-immune-extremity-enrichment-skin
+    title: "Innate immune cells (monocytes, macrophages, DCs) are enriched in skin of extremities versus trunk"
+    tags: [skin, innate-immunity, macrophage, dendritic-cell, correlational]
+    status: supported
+    confidence: 0.8
+    domain: immunology / dermatology
+  - slug: integrated-scrnaseq-skin-reference-286k-cells
+    title: "An integrated scRNA-seq reference of ~286k cells from 14 public studies anchors the MERFISH skin atlas annotation"
+    tags: [skin, scRNA-seq, integration, methodological]
+    status: supported
+    confidence: 0.9
+    domain: methods / single-cell
   - slug: intracluster-epigenetic-heterogeneity-w7-forebrain-vs-spinal-cord-foxi1-tlx1
     title: "Spatially distant pixels within a single WNN cluster (W7) show distinct hypomethylation TF-motif signatures: FOXI1-enriched in forebrain pixels vs TLX1-enriched in spinal-cord pixels"
     tags: [intracluster-heterogeneity, FOXI1, TLX1, spatial-epigenetics, neural-tube]
@@ -4462,6 +4824,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: ipa-lps-il6-tgfb1-upstream-cachexia-reprogramming
+    title: "IPA combined-omics upstream-regulator analysis nominates LPS/inflammation as the principal driver of cachexia metabolic reprogramming, with IL6 and TGFB1 as further regulators"
+    tags: [IPA, upstream-regulator, LPS, IL6, TGFB1, cachexia, inflammation]
+    status: supported
+    confidence: 0.75
+    domain: cachexia / multi-omics
   - slug: ipa-tc-le-canonical-pathways
     title: "IPA predicts LE-specific activation of GP6/EIF2/HOTAIR and TC-specific MSP-RON, IL-33, p38 MAPK canonical pathways"
     tags: [IPA, canonical-pathways, OSCC, mechanistic]
@@ -4558,6 +4926,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: molecular-biology / chromatin / hypoxia
+  - slug: kegg-one-carbon-pyrimidine-arginine-upregulated-cachexia
+    title: "KEGG pathway analysis identifies one-carbon pool by folate, pyrimidine synthesis and arginine biosynthesis as commonly upregulated, and TCA / glycolysis / Ala/Asp/Glu as commonly downregulated, across ≥2 cachexia target tissues"
+    tags: [KEGG, pathway-analysis, one-carbon, pyrimidine, arginine, TCA, glycolysis, cachexia]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / metabolomics
   - slug: klf6-overexpression-15x-trm-enrichment
     title: "KLF6 overexpression yields 15× small-intestinal enrichment and 42× more CD69+CD103+ TRM-like cells"
     tags: [klf6, trm, gain-of-function, quantitative]
@@ -4594,6 +4968,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: tumor immunology / hepatology
+  - slug: kupffer-cells-increase-nash-wda-stay
+    title: "Kupffer cells increase in NASH and WDA but stay stable in HFD liver"
+    tags: [liver, NASH, kupffer-cells, deconvolution-derived]
+    status: weakly_supported
+    confidence: 0.55
+    domain: cell biology
   - slug: kupffer-glycolytic-switch-on-activation-suppresses-il10-tolerance
     title: "Kupffer cells upregulate glucose uptake and PDK-dependent glycolysis upon immunogenic activation, suppressing IL-10 tolerogenic function"
     tags: [kupffer-cell, glycolysis, pdk, il-10, tolerogenic, liver-immunology]
@@ -4606,12 +4986,36 @@ claims:
     status: supported
     confidence: 0.95
     domain: cell biology / hematology / immunology
+  - slug: kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec
+    title: "Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma"
+    tags: [kynurenine, AHR, tryptophan-metabolism, endometrial-carcinoma, cell-cell-communication]
+    status: weakly_supported
+    confidence: 0.55
+    domain: metabolism / immuno-oncology / endometrial-biology
+  - slug: l-methionine-drives-glucose-hyperconsumption-myotube
+    title: "L-methionine treatment of C2C12 myotubes increases glucose consumption and shifts 13C6-glucose labelling toward higher TCA isotopologues — methionine drives muscle-cell hypermetabolism"
+    tags: [L-methionine, C2C12, glucose-consumption, 13C-glucose, TCA, hypermetabolism]
+    status: supported
+    confidence: 0.85
+    domain: muscle biology / one-carbon metabolism
+  - slug: l-methionine-induces-dose-dependent-myotube-atrophy-c2c12
+    title: "L-methionine (0/20/100 μM, 48 h) induces dose-dependent myotube atrophy in C2C12 cells, recapitulating a key cachexia feature in vitro"
+    tags: [L-methionine, C2C12, myotube-atrophy, dose-response, cachexia, in-vitro]
+    status: supported
+    confidence: 0.9
+    domain: muscle biology / one-carbon metabolism
   - slug: label-free-metrics-capture-trajectories-cellcycle
     title: "Three new label-free bio-conservation metrics (cell-cycle, HVG, trajectory conservation) distinguish methods that classical label-based metrics rank as equal"
     tags: [benchmarking, data-integration, metrics, label-free]
     status: supported
     confidence: 0.8
     domain: single-cell-methods
+  - slug: lactate-fuels-nsclc-tca
+    title: "Lactate is utilized by NSCLC tumours to fuel the TCA cycle — not merely a Cori-cycle waste product"
+    tags: [cancer-metabolism, lactate, TCA-cycle, NSCLC, isotope-tracing]
+    status: supported
+    confidence: 0.8
+    domain: cancer metabolism
   - slug: lactate-tam-m2-polarization-hif1a-pka-creb
     title: "Tumor-derived lactate drives TAM M2 polarization via HIF-1α and via GPCR/PKA-CREB; synergizes with hypoxia"
     tags: [lactate, lactic-acid, TAM, M2-polarization, HIF-1α, PKA-CREB, oncometabolite, hypoxia, VEGFA, ARG1]
@@ -4636,6 +5040,30 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology/pan-cancer
+  - slug: leucine-accumulation-downstream-catabolites-drives-hypoxic
+    title: "Leucine accumulation, not downstream catabolites, drives the hypoxic VHL metabolic phenotype"
+    tags: [hypoxia, leucine, BCAT, alpha-KIC, methodological]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
+  - slug: leucine-insensitive-gdh-r204m-abolishes-vhl
+    title: "Leucine-insensitive GDH R204M abolishes VHL-promoted reductive glutaminolysis and hypoxic growth"
+    tags: [hypoxia, GDH, R204M, glutaminolysis, leucine, methodological]
+    status: supported
+    confidence: 0.85
+    domain: metabolism
+  - slug: leucine-isoleucine-valine-allosterically-activates-gdh
+    title: "Leucine, but not isoleucine or valine, allosterically activates GDH in a dose-dependent manner"
+    tags: [leucine, GDH, GLUD1, allostery, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: metabolism
+  - slug: leucine-repletion-fails-activate-mtor-hypoxia
+    title: "Leucine repletion fails to activate mTOR under hypoxia, isolating GDH as the relevant leucine effector"
+    tags: [hypoxia, leucine, mTOR, GDH, mechanistic]
+    status: supported
+    confidence: 0.75
+    domain: metabolism
   - slug: lifetime-oesophageal-cancer-risk-less-than
     title: "Lifetime oesophageal cancer risk is <1% despite high normal-tissue TP53 burden"
     tags: [quantitative, oncology]
@@ -4654,12 +5082,24 @@ claims:
     status: supported
     confidence: 0.9
     domain: B-cell biology / membrane signaling
+  - slug: local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment
+    title: "Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen"
+    tags: [endometrial-carcinoma, estrogen-signaling, ESR1, aromatase, androgens, tumor-microenvironment]
+    status: weakly_supported
+    confidence: 0.45
+    domain: endometrial-oncology / steroid-metabolism
   - slug: logistic-regression-niche-composition-recovers-simulated-interactions
     title: "A regularized logistic-regression classifier trained on cell-type frequencies in local neighborhoods recovers ground-truth interaction strengths in Lennard-Jones-simulated tissues for both juxtacrine (R=0) and paraview (R=5) settings"
     tags: [spatial-simulation, Lennard-Jones, logistic-regression, benchmark]
     status: supported
     confidence: 0.8
     domain: methods / spatial-transcriptomics
+  - slug: longitudinal-trajectories-cac-liver-cancer
+    title: "Latent longitudinal trajectories of SKM and adipose loss (Jin et al. liver-cancer) define CAC vs non-CAC patients"
+    tags: [cancer-cachexia, liver-cancer, trajectory-analysis, body-composition]
+    status: supported
+    confidence: 0.8
+    domain: oncology / clinical methodology
   - slug: lpm-gata6-rxr-cebpb-required-for-lpm-identity
     title: "Large peritoneal macrophage differentiation, survival, and lipid handling require GATA6, RXRα/β, and C/EBPβ"
     tags: [large-peritoneal-macrophage, gata6, rxr, c-ebp-beta, lipid-metabolism]
@@ -4792,6 +5232,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: regenerative immunology
+  - slug: masked-mites-3log-il2-bioactivity-reduction
+    title: "Intact masked MiTEs show ~3-log reduction in IL-2 bioactivity; MMP14 cleavage fully restores activity"
+    tags: [IL-2, MiTE, bioactivity, masking, MMP14]
+    status: supported
+    confidence: 0.85
+    domain: protein-engineering / pharmacology
+  - slug: mccc2-depletion-phenocopies-vhl-growth-promotion
+    title: "MCCC2 depletion phenocopies VHL-mediated growth promotion in hypoxia but not normoxia"
+    tags: [hypoxia, VHL, MCCC2, cell-growth, phenocopy, methodological]
+    status: supported
+    confidence: 0.85
+    domain: metabolism
   - slug: mce-syk-immunogenic-phagocytosis
     title: "Myeloid cell engagers (MCEs) force SYK-coupled, immunogenic phagocytosis and create an MHC-II antigen-transfer conduit"
     tags: [mce, bispecific, dectin-1, syk, phagocytosis, mhc-ii]
@@ -4810,6 +5262,18 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: mertk-blockade-enhances-macrophage-cgamp-sting
+    title: "MerTK blockade on tumor-associated macrophages enhances P2X7R-dependent STING activation by tumor-derived cGAMP"
+    tags: [mertk, tam, cgamp, sting, macrophage]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: met-cd73-adenosine-suppresses-sting-egfr-lung
+    title: "MET amplification in EGFR-TKI-resistant lung adenocarcinoma co-induces CD73 alongside STING, suppressing signaling via adenosine"
+    tags: [met, cd73, adenosine, sting, egfr-tki-resistance, lung-adenocarcinoma]
+    status: supported
+    confidence: 0.65
+    domain: immunology
   - slug: metabolic-inhibitor-clinical-translation-asnase-idh-only-approved
     title: "Despite extensive testing, only L-asparaginase and IDH inhibitors have been approved as metabolic-targeted oncology drugs; complex-I and most other metabolic inhibitors failed in clinical translation"
     tags: [metabolic-inhibitor, clinical-trial-failure, asnase, idh-inhibitor, complex-i, toxicity]
@@ -4822,6 +5286,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: metabolomic-profiles-highest-cross-cell-type
+    title: "Metabolomic profiles have the highest cross-cell-type similarity, making metabolomics deconvolution hardest"
+    tags: [metabolomics, cell-type-specificity, deconvolution]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: metacell-cca-integration-outperforms-single-cell-batch-correction
     title: "MetaCell aggregation (~30 cells/MetaCell) plus CCA reduces batch effects more than single-cell-level CCA integration while preserving cell-type biology"
     tags: [methodological, scrna-seq, integration, metacell, batch-effect]
@@ -4834,6 +5304,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / immunology
+  - slug: methionine-atrophy-link-cell-type-specific-not-adipocyte
+    title: "Methionine → atrophy/hypermetabolism link is cell-type-specific: L-methionine treatment of 3T3-L1 adipocytes does not alter lipolysis or glucose consumption"
+    tags: [3T3-L1, adipocyte, L-methionine, cell-type-specificity, control]
+    status: supported
+    confidence: 0.8
+    domain: muscle biology / adipocyte biology
   - slug: methylation-loss-bidirectional-coupling-nrg3-pdgfra-oligodendrogenesis
     title: "During oligodendrogenesis, loss of DNA methylation is bidirectionally coupled to gene expression: Nrg3 is activated, Pdgfra is silenced"
     tags: [oligodendrogenesis, DNA-methylation, Nrg3, Pdgfra, bidirectional-coupling]
@@ -4918,12 +5394,114 @@ claims:
     status: supported
     confidence: 0.7
     domain: hypoxia
+  - slug: mite144-activates-nk-cytotoxic-proliferation-reduces-exhaustion
+    title: "MiTE-144 activates NK cell cytotoxicity and proliferation while downregulating exhaustion markers"
+    tags: [MiTE, NK-cell, cytotoxicity, exhaustion, perforin, granzyme, MC38]
+    status: supported
+    confidence: 0.85
+    domain: immunology / oncology
+  - slug: mite144-cd8-cytotoxic-proliferation-stemness-reduces-exhaustion
+    title: "MiTE-144 upregulates CD8 T cell cytotoxic, proliferative, and stem-like programs while downregulating exhaustion (Tox)"
+    tags: [MiTE, CD8-T-cell, cytotoxicity, stemness, Tcf7, Tox, exhaustion]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: mite144-conserved-cytotoxic-program-human-t-and-nk
+    title: "MiTE-144 induces a conserved cytotoxic program in human T and NK cells: PRF1, GZMA/B/H, MCM3/4 upregulation; CXCR4/DUSP1/TNFAIP3 downregulation"
+    tags: [MiTE, human, T-cell, NK-cell, PRF1, GZMA, GZMB, exhaustion, RCC]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: mite144-cross-species-conserved-immunostimulation-mouse-human
+    title: "MiTE-144 elicits cross-species conserved immunostimulatory transcriptional response between mouse and human tumors"
+    tags: [MiTE, cross-species, mouse, human, transcriptional-conservation, translational]
+    status: supported
+    confidence: 0.7
+    domain: immunology / translational-oncology
+  - slug: mite144-ctla4-combo-eradicates-mc38-6-of-7-mice
+    title: "MiTE-144 + anti-CTLA-4 combination eradicates MC38 tumors in 6/7 mice"
+    tags: [MiTE, anti-CTLA-4, combination-therapy, MC38, complete-response]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immunotherapy
+  - slug: mite144-disrupts-conserved-suppressive-tam-t-cell-lr-axes
+    title: "MiTE-144 disrupts multiple conserved suppressive TAM–T cell ligand-receptor axes (mouse and human)"
+    tags: [MiTE, TAM, T-cell, ligand-receptor, CTLA-4, PD-1, TGFB, immune-suppression]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia
+    title: "Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies"
+    tags: [MiTE, TAM, hypoxia, M1-M2, polarization, monocyte-like]
+    status: weakly_supported
+    confidence: 0.55
+    domain: immunology / oncology
+  - slug: mite144-induces-mhc-i-and-cdc1-programs-in-dcs
+    title: "MiTE-144 induces MHC class I antigen-presentation and cDC1 developmental programs in tumor DCs"
+    tags: [MiTE, dendritic-cell, cDC1, MHC-I, antigen-presentation, cross-presentation]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: mite144-no-systemic-toxicity-repeated-iv-dosing
+    title: "MiTE-144 shows no detectable systemic toxicity under repeated 200 μg i.v. dosing"
+    tags: [MiTE, safety, toxicity, hepatotoxicity, cytokine]
+    status: supported
+    confidence: 0.85
+    domain: pharmacology
+  - slug: mite144-preferential-tumor-accumulation-extended-half-life
+    title: "MiTE-144 has preferential tumor accumulation and extended plasma half-life vs unmasked αTREM2-IL-2SK"
+    tags: [MiTE, pharmacokinetics, biodistribution, tumor-targeting]
+    status: supported
+    confidence: 0.75
+    domain: pharmacology
+  - slug: mite144-rcc-pdtf-expands-effector-not-treg
+    title: "Ex vivo MiTE-144 on RCC PDTFs selectively expands CD8 cycling/memory T and intermediate-NK cells without expanding Tregs or hypoxic TAMs"
+    tags: [MiTE, PDTF, RCC, ex-vivo, CITE-seq, translational, Treg]
+    status: supported
+    confidence: 0.75
+    domain: immunology / translational-oncology
+  - slug: mite144-reprograms-tams-toward-inflammatory-hypoxia-states
+    title: "MiTE-144 reprograms TAMs from suppressive (TREM2/Mmp14, IFN-response) toward inflammatory monocyte-like and hypoxia-associated states"
+    tags: [MiTE, TAM, transcriptional-reprogramming, hypoxia, monocyte-like, Arg1, Nos2, Hmox1, S100a8]
+    status: supported
+    confidence: 0.75
+    domain: immunology / oncology
+  - slug: mite144-superior-tumor-control-vs-ici-monotherapies-mc38
+    title: "MiTE-144 outperforms αTREM2, αPD-1, and αCTLA-4 monotherapies (and αTREM2+ICI combinations) in MC38 tumor control"
+    tags: [MiTE, MC38, efficacy, immune-checkpoint-inhibitor, anti-PD-1, anti-CTLA-4]
+    status: supported
+    confidence: 0.85
+    domain: oncology / immunotherapy
+  - slug: mite144-treg-expansion-blocked-by-ctla4-combo
+    title: "MiTE-144 slightly expands Tregs in TME/tdLNs; combination with anti-CTLA-4 abrogates this Treg expansion"
+    tags: [MiTE, Treg, CTLA-4, IL-2-superkine, combination-therapy]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: mitochondrial-ros-stabilize-hif-via-phd-inhibition
     title: "Mitochondrial reactive oxygen species (ROS) stabilize HIF-α by inhibiting PHD enzymatic activity"
     tags: [ROS, mitochondria, PHD, HIF-stability, oxygen-sensing, redox-regulation]
     status: supported
     confidence: 0.85
     domain: molecular-biology / hypoxia / redox-signaling
+  - slug: mitochondrial-vhl-binds-mccc2-disrupts-mccc
+    title: "Mitochondrial VHL binds MCCC2 and disrupts the MCCC complex to inhibit leucine catabolism under hypoxia"
+    tags: [hypoxia, VHL, MCCC2, leucine, BCAA, mechanistic]
+    status: supported
+    confidence: 0.85
+    domain: metabolism
+  - slug: mitochondrial-vhl-reduces-leucine-derived-citrate
+    title: "Mitochondrial VHL reduces leucine-derived citrate and acetyl-CoA in hypoxia (13C tracing)"
+    tags: [hypoxia, VHL, leucine, 13C-tracing, acetyl-CoA, quantitative]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
+  - slug: mitochondrial-vhl-stimulates-glutaminolysis-lipids-nucleotides
+    title: "Mitochondrial VHL stimulates glutaminolysis to generate lipids and nucleotides supporting hypoxic growth"
+    tags: [hypoxia, VHL, glutaminolysis, lipogenesis, nucleotides, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
   - slug: mmac1-chemoattracts-cells-cxcl9-cxcl10
     title: "mMAC1 chemoattracts T cells via CXCL9:CXCR3 and CXCL10:CXCR2 and supports T-cell activation via HLA class I and MIF:CD74"
     tags: [mMAC1, CXCL9, CXCL10, CXCR3, CXCR2, T-cell, CellChat, ligand-receptor, bladder-carcinoma]
@@ -4948,6 +5526,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: mmp14-tam-specific-protease-immune-cells
+    title: "MMP14 is TAM-specifically expressed among tumor immune cells, with minimal expression in other leukocytes"
+    tags: [MMP14, TAM, protease, scRNA-seq, biomarker]
+    status: supported
+    confidence: 0.85
+    domain: immunology / cell-biology
+  - slug: mmp14-trem2-coexpression-tumor-tissue-specific
+    title: "MMP14 and TREM2 are strongly co-expressed in tumor TAMs and co-localized in tumor tissue but not in adjacent-healthy tissue"
+    tags: [MMP14, TREM2, TAM, co-expression, immunofluorescence]
+    status: supported
+    confidence: 0.8
+    domain: immunology / oncology
   - slug: mnn-anchor-methods-strong-rna
     title: "MNN-anchor-based integration methods (Scanorama, FastMNN) are consistently strong on complex scRNA-seq integration tasks"
     tags: [data-integration, scRNA-seq, MNN, Scanorama, FastMNN]
@@ -5044,6 +5634,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: regulatory-genomics
+  - slug: mps1-pulsed-inhibition-derepresses-sting-with-decitabine
+    title: "Pulsed MPS1 inhibition induces micronuclei and STING activation, synergizing with decitabine in KRAS-LKB1 lung cancer"
+    tags: [mps1, sting, kras-lkb1, decitabine, epigenetic-priming]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: mrl-lupus-spleen-shows-differential-follicle
     title: "MRL lupus spleen shows differential B-follicle / marginal-zone / B-PALS interactions vs healthy"
     tags: [lupus, spleen, spatial-proteomics, CODEX, correlational, germinal-center]
@@ -5068,11 +5664,29 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / neurology
+  - slug: mtap-deletion-destabilizes-irf3-sting-resistance
+    title: "MTAP deficiency confers STING-agonist resistance by destabilizing IRF3 and co-deletion of chromosome 9p type I IFN genes"
+    tags: [mtap, cdkn2a, 9p-deletion, cgas-sting, irf3, biomarker]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: multi-state-tf-ko-90-percent-texterm-reduction
     title: "KO of Hic1, Stat3, Prdm1 or Ikzf3 reduces TEXterm differentiation by ~90% in chronic LCMV"
     tags: [perturb-seq, exhaustion, multi-state-tf, quantitative]
     status: supported
     confidence: 0.85
+    domain: immunology
+  - slug: muscle-protein-synthesis-lower-than-breakdown-cac
+    title: "In GI-CAC, myofibrillar protein synthesis is higher than in controls but lower than breakdown — net catabolism (MacDonald et al.)"
+    tags: [cancer-cachexia, muscle-protein-synthesis, muscle-protein-breakdown, isotope-tracing]
+    status: supported
+    confidence: 0.75
+    domain: muscle biology / cachexia
+  - slug: mut-p53-binds-tbk1-prevents-sting-irf3-trimer
+    title: "Mutant p53 binds TBK1 directly and prevents STING-TBK1-IRF3 trimerization, suppressing innate immune signaling"
+    tags: [tp53, mutant-p53, tbk1, sting, immune-evasion]
+    status: supported
+    confidence: 0.7
     domain: immunology
   - slug: mutant-clones-outcompete-carcinogen-induced-precancerous
     title: "Mutant clones in adjacent normal oesophagus can outcompete carcinogen-induced precancerous lesions"
@@ -5080,6 +5694,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells
+    title: "Mevalonate (MVA) pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma"
+    tags: [mevalonate, HMGCR, endometrial-carcinoma, cholesterol-biosynthesis, epithelial-cells]
+    status: weakly_supported
+    confidence: 0.55
+    domain: metabolism / oncology / endometrial-biology
   - slug: myc-gain-co-occurs-hypoxia-pancancer
     title: "MYC oncogene gain co-occurs with elevated hypoxia in 11 tumor types"
     tags: [MYC, hypoxia, oncogene, pancancer, amplification, CNA]
@@ -5182,6 +5802,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / cancer-genomics / prostate-cancer
+  - slug: nk-cells-resistant-to-sting-cytotoxicity
+    title: "Human NK cells are resistant to STING-induced cytotoxicity due to low intrinsic STING expression and blunted IRF3 response"
+    tags: [cgas-sting, nk-cell, cytotoxicity-resistance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: non-cax-tumour-no-host-metabolome-perturbation
+    title: "Non-cachexia-inducing NC26 tumours do not perturb host-tissue metabolomes — perturbation requires cachexia-inducing tumour"
+    tags: [NC26, C26, cachexia-specific, control, metabolomics]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / metabolomics
+  - slug: nonmetastatic-breast-tumors-higher-cell-pvl
+    title: "Nonmetastatic breast tumors have higher T-cell and PVL and lower B-cell abundance than metastatic"
+    tags: [breast-cancer, tumor-microenvironment, metastasis, deconvolution-derived]
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology
   - slug: notch3-stromal-tumour-invasion-tgfb-nsclc
     title: "NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature"
     tags: [notch3, caf, pericyte, tgfb, nsclc-invasion]
@@ -5320,6 +5958,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: nsclc-tumour-higher-glucose-oxidation-than-adjacent
+    title: "NSCLC tumours exhibit higher glucose oxidation than adjacent normal tissue, demonstrated by in vivo heavy-isotope tracing"
+    tags: [cancer-metabolism, NSCLC, glucose-oxidation, isotope-tracing]
+    status: supported
+    confidence: 0.8
+    domain: cancer metabolism
   - slug: obesity-ici-paradox-leptin-pd1-nsclc
     title: "Obesity paradoxically improves PFS/OS under PD-1 blockade in NSCLC via leptin-IL-6-driven exhaustion that upregulates PD-1"
     tags: [obesity, leptin, pd1, paradox, nsclc]
@@ -5344,6 +5988,30 @@ claims:
     status: supported
     confidence: 0.8
     domain: adaptive immunity / immunometabolism
+  - slug: one-carbon-conserved-six-mouse-cachexia-models-and-humanised
+    title: "The one-carbon-metabolism signature (gene + metabolite + muscle 13C-glucose TCA enrichment) is conserved across six mouse cachexia models (C26, Panc02, 8025, ApcMin, LLC, KPP) and a humanised SW480 model"
+    tags: [conservation, multi-model, C26, Panc02, 8025, ApcMin, LLC, KPP, SW480, humanised, cachexia, one-carbon]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / multi-model comparison
+  - slug: one-carbon-enzyme-expression-broadly-elevated-cachexia
+    title: "One-carbon enzymes are coordinately upregulated across cachexia target tissues with isoform-specific patterns: Mat1a/Nnmt in liver; Mat2a/Kmt2a/Kmt2b in muscle; Sat1/Gpx3/Gsta4 across tissues"
+    tags: [NNMT, MAT1A, MAT2A, KMT2A, KMT2B, SAT1, GPX3, GSTA4, RNA-seq, cachexia, multi-tissue]
+    status: supported
+    confidence: 0.9
+    domain: cachexia / transcriptomics
+  - slug: one-carbon-products-elevated-across-tissues-cachexia
+    title: "Products of one-carbon metabolism (sarcosine, MNAM, di/tri-methyllysine, dimethylglycine, thymidine) are elevated across plasma, liver, eWAT, iWAT, heart, GC muscle, soleus and tumour of cachectic mice; substrates (glycine, serine) depleted in circulation"
+    tags: [one-carbon, sarcosine, MNAM, methyllysine, dimethylglycine, thymidine, cachexia, multi-tissue]
+    status: supported
+    confidence: 0.95
+    domain: cachexia / metabolomics
+  - slug: only-decode-produces-usable-metabolomic-deconvolution
+    title: "Only DECODE produces usable metabolomic deconvolution under perturbation"
+    tags: [metabolomics, robustness, benchmark]
+    status: supported
+    confidence: 0.75
+    domain: methods
   - slug: oprk1-knockout-eosinophils-not-required-stress-ad
     title: "Eosinophil-specific κ-opioid receptor knockout (Epx-iCre-oprk1-fl/fl) does not affect AD-like pathology or RHS-induced exacerbation"
     tags: [Oprk1, Epx-iCre, conditional-knockout, dynorphin, RHS, MC903, eosinophil, mouse]
@@ -5500,6 +6168,18 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: papil-fib-correlates-epidermal-thickness
+    title: "Papillary fibroblast (Papil Fib) abundance correlates positively with epidermal thickness across skin sites (Spearman = 0.26, P = 0.012)"
+    tags: [skin, papillary-fibroblast, epidermis-thickness, quantitative]
+    status: supported
+    confidence: 0.75
+    domain: dermatology / cell biology
+  - slug: patients-sarcopenia-show-elevated-nnmt-one-carbon-genes-liver-muscle
+    title: "Cancer patients with sarcopenia show increased NNMT and elevated one-carbon signature gene expression in liver and skeletal muscle compared with non-sarcopenic cancer patients"
+    tags: [patients, sarcopenia, NNMT, one-carbon, translation, biomarker]
+    status: supported
+    confidence: 0.75
+    domain: clinical translation / cachexia
   - slug: pcawg-high-hypoxia-tracks-hrd-mmr
     title: "In PCAWG, high hypoxia tracks with SBS6, ID6, SBS21 and ID2 mutational signatures (HRD and MMR-deficient) in tumours without germline DDR mutations"
     tags: [hypoxia, PCAWG, mutational-signatures, HRD, MMR]
@@ -5638,12 +6318,66 @@ claims:
     status: supported
     confidence: 0.9
     domain: neuroscience / anatomy / mouse
+  - slug: perivasc-fib-i-immune-recruitment-ccl19-cxcl12
+    title: "Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs"
+    tags: [skin, Perivasc-Fib-I, CCL19, CCR7, CXCL12, CXCR4, FRC-like, mechanistic]
+    status: weakly_supported
+    confidence: 0.7
+    domain: immunology / dermatology
+  - slug: perivasc-i-expansion-inflammatory-skin-disease
+    title: "PERIVASC I expands in inflammatory and neoplastic skin disease (AD, psoriasis, HS, BCC, SCC) versus healthy skin"
+    tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC, correlational]
+    status: supported
+    confidence: 0.85
+    domain: dermatology
+  - slug: perivasc-i-highest-diversity-immune-enriched
+    title: "PERIVASC I has the highest cellular diversity among skin neighborhoods and is immune-cell-enriched"
+    tags: [skin, PERIVASC-I, diversity, immune-enrichment, correlational]
+    status: supported
+    confidence: 0.9
+    domain: immunology / dermatology
+  - slug: perivasc-i-immune-stromal-lr-pairs
+    title: "Top immune-to-stromal ligand-receptor pairs in PERIVASC I include PPIA-BSG, NAMPT-ITGA5+ITGB1 and TNF-TNFRSF1A"
+    tags: [skin, PERIVASC-I, CellChat, ligand-receptor, TNF, methodological]
+    status: supported
+    confidence: 0.75
+    domain: immunology / dermatology
+  - slug: perivasc-i-most-interactive-cell-types
+    title: "Within PERIVASC I, the most interactive cell types per CellChat are VECs, CD4+ and CD8+ cytotoxic T cells, and Perivasc Fib I/II"
+    tags: [skin, PERIVASC-I, CellChat, T-cell, VEC, methodological]
+    status: supported
+    confidence: 0.75
+    domain: immunology / dermatology
+  - slug: perivasc-i-pathway-volume-leadership
+    title: "PERIVASC I exhibits the highest L-R interaction volume and greatest number of unique pathways among skin neighborhoods (MIF, MK, CXCL/CCL, TNF dominant)"
+    tags: [skin, PERIVASC-I, CellChat, MIF, midkine, TNF, methodological]
+    status: supported
+    confidence: 0.8
+    domain: immunology / dermatology
+  - slug: perivasc-i-physical-correlate-salt
+    title: "PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework"
+    tags: [skin, PERIVASC-I, SALT, mechanistic, conceptual]
+    status: weakly_supported
+    confidence: 0.7
+    domain: immunology / dermatology
+  - slug: perivasc-i-stromal-immune-lr-pairs
+    title: "Top stromal-to-immune ligand-receptor pairs in PERIVASC I are CXCL12-CXCR4, MDK-CD74, MIF-CD74 and PTN-NCL"
+    tags: [skin, PERIVASC-I, CellChat, ligand-receptor, methodological]
+    status: supported
+    confidence: 0.75
+    domain: immunology / dermatology
   - slug: perturb-seq-19-tf-chronic-lcmv-17257-cells
     title: "In vivo Perturb-seq screens 19 candidate TF genes in chronic LCMV across 17,257 P14 CD8+ T cells"
     tags: [perturb-seq, crispr, taiji, methodological]
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: pet-ml-model-detects-cac-nsclc-81-accuracy
+    title: "PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy"
+    tags: [cancer-cachexia, PET, machine-learning, NSCLC, early-detection]
+    status: weakly_supported
+    confidence: 0.65
+    domain: imaging / machine-learning / oncology
   - slug: pge2-tgfb1-induction-dnmt3a-creb1-dependent
     title: "PGE2-induced Tgfb1 transcription requires DNMT3A via the p-CREB1 axis downstream of EP2/EP4"
     tags: [PGE2, DNMT3A, CREB1, p-CREB, Tgfb1, EP2, EP4, macrophage]
@@ -5680,12 +6414,24 @@ claims:
     status: supported
     confidence: 0.9
     domain: epigenetics / spatial omics
+  - slug: postprandial-protein-synthesis-blunted-cac
+    title: "Postprandial muscle protein synthesis is blunted in CRC/PDAC-CAC vs healthy controls — anabolic resistance"
+    tags: [cancer-cachexia, anabolic-resistance, postprandial, protein-synthesis, CRC, PDAC]
+    status: supported
+    confidence: 0.85
+    domain: muscle biology / cachexia
   - slug: prdm1-stat3-ko-expands-texprog
     title: "Loss of Prdm1 or Stat3 markedly expands TEXprog cells and TEXprog signature genes"
     tags: [prdm1, stat3, texprog, perturb-seq, mechanistic]
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: pre-cachectic-muscle-tca-flux-trends-early
+    title: "Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting"
+    tags: [pre-cachexia, early-event, TCA-flux, INCA, biomarker, cachexia]
+    status: weakly_supported
+    confidence: 0.6
+    domain: muscle biology / metabolic flux
   - slug: pre-cafs-promote-malignant-progression-panin
     title: "Pre-CAFs that promote malignant progression are present in PanIN and other precancerous lesions"
     tags: [microenvironment, oncology]
@@ -5704,6 +6450,18 @@ claims:
     status: supported
     confidence: 0.95
     domain: developmental biology / immunology
+  - slug: pretreatment-weight-loss-poor-tumour-response
+    title: "Pretreatment weight loss is associated with poor tumour response and severe dose-limiting toxicity in breast and gastrointestinal cancers"
+    tags: [cancer-cachexia, chemotherapy, toxicity, tumour-response]
+    status: supported
+    confidence: 0.85
+    domain: oncology / pharmacology
+  - slug: prmt5-dimethylates-mccc2-r292-under-normoxia
+    title: "PRMT5 symmetrically dimethylates MCCC2 R292 under normoxia to block the VHL–MCCC2 interaction"
+    tags: [hypoxia, PRMT5, MCCC2, R292, arginine-methylation, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
   - slug: proteasome-pathway-hallmark-texterm
     title: "Proteasome catabolism is a functional hallmark of TEXterm cells linked to dysfunction"
     tags: [exhaustion, proteasome, catabolism, cd8-t-cells]
@@ -5722,12 +6480,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: pseudo-time-cluster1-methylated-aa-coordinated-cachexia
+    title: "Pseudo-time VSClust analysis identifies a dominant late-increase cluster (#1, 151 metabolites) enriched in methylated amino acids and coordinated across host tissues in cachexia"
+    tags: [VSClust, pseudo-time, sarcosine, methylated-amino-acids, cachexia, cluster1]
+    status: supported
+    confidence: 0.85
+    domain: cachexia / metabolomics
   - slug: pseudomonas-qs-molecules-bidirectionally-modulate-ahr
     title: "P. aeruginosa quorum-sensing molecules bidirectionally modulate AHR: HHQ/3-oxo-C12-HSL inhibit; pyocyanin/1-hydroxyphenazine activate"
     tags: [AHR, Pseudomonas-aeruginosa, quorum-sensing, pyocyanin, HHQ, 3-oxo-C12-HSL, bidirectional]
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: pseudotissue-training-data-generated-random-uniform
+    title: "Pseudotissue training data is generated by random uniform sampling from single-cell data"
+    tags: [pseudobulk, training, deconvolution]
+    status: supported
+    confidence: 0.9
+    domain: methods
   - slug: pten-loss-co-occurs-with-hypoxia-localized-pca
     title: "Allelic loss of PTEN co-occurs with elevated hypoxia in localized prostate cancer and synergistically predicts relapse"
     tags: [PTEN, hypoxia, prostate-cancer, relapse, prognostic, synergy, nimbosus]
@@ -5740,12 +6510,30 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: pthrp-detection-nsclc-lower-lbm-higher-ree
+    title: "NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures"
+    tags: [cancer-cachexia, PTHrP, UCP1, NSCLC, WAT-browning]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / cachexia / adipose biology
   - slug: px-478-hif1a-inhibitor-mechanism-pdac
     title: "PX-478 inhibits HIF-1α protein, transactivation, deubiquitination, hypoxic VEGF synthesis, and PDAC GM-CSF / PNI"
     tags: [PX-478, HIF1A-inhibitor, VEGF, GM-CSF, perineural-invasion, pancreatic-ductal-adenocarcinoma, PDAC, small-molecule, clinical-trial]
     status: supported
     confidence: 0.75
     domain: pharmacology / oncology / hypoxia-targeted-therapy
+  - slug: pyruvate-carboxylase-active-cachectic-muscle-anaplerotic
+    title: "M+3 labelling from 13C6-glucose and [1-13C]-pyruvate tracing in C2C12 establish that pyruvate carboxylase (PC) is active in cachectic muscle, providing anaplerotic carbon to the TCA cycle"
+    tags: [pyruvate-carboxylase, PC, anaplerosis, cachexia, 13C-tracing, M+3, muscle]
+    status: supported
+    confidence: 0.85
+    domain: muscle biology / metabolic flux
+  - slug: radiation-curative-effect-requires-sting-pathway
+    title: "The curative effect of ionizing radiation requires an intact STING/cGAS pathway"
+    tags: [radiation-therapy, cgas-sting, dna-damage-immunology]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: recombinant-il1b-and-im-coculture-increase-krt8-organoid-growth
     title: "Recombinant IL-1β and interstitial-macrophage co-culture increase number and size of AT2-derived KRT8+ (KAC-rich) organoids"
     tags: [luad, organoid, il1b, kac, mechanism, in-vitro]
@@ -5764,6 +6552,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: retic-fib-i-declines-age-abdomen
+    title: "Retic Fib I numerical abundance declines with age in abdominal skin, paralleled by expansion of HEC, VEC, pericytes and smooth muscle"
+    tags: [skin, aging, fibroblast, Retic-Fib-I, correlational]
+    status: supported
+    confidence: 0.8
+    domain: dermatology / aging
+  - slug: retic-fib-ii-sole-dermis-localization
+    title: "Retic Fib II (ANGPTL7+/PRG4+/COMP+) is diffusely localised throughout sole dermis, distinct from superficial papillary fibroblasts"
+    tags: [skin, Retic-Fib-II, sole, dermis, correlational]
+    status: supported
+    confidence: 0.8
+    domain: cell biology / dermatology
   - slug: rhs-stress-exacerbates-ad-mouse-mc903
     title: "Repeated high-platform stress (RHS), but not restraint or cage-change stress, exacerbates pre-established MC903-induced AD-like skin inflammation in mice"
     tags: [RHS, restraint-stress, cage-change-stress, MC903, atopic-dermatitis, TEWL, scratching, mouse]
@@ -5806,6 +6606,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: cardiovascular immunology / sphingolipid signaling
+  - slug: sah-sam-thf-5mthf-ratios-trend-up-cachexia
+    title: "SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation"
+    tags: [SAM, SAH, THF, 5-methylTHF, one-carbon, flux, cachexia]
+    status: weakly_supported
+    confidence: 0.65
+    domain: cachexia / metabolomics
   - slug: sars-cov2-orf3a-induces-hif1a-via-mitochondrial-ros-cytokine-storm
     title: "SARS-CoV-2 ORF3a induces HIF-1α via mitochondrial ROS, and HIF-1α reciprocally facilitates viral replication and inflammatory cytokine secretion, driving COVID-19 cytokine storm"
     tags: [SARS-CoV-2, COVID-19, ORF3a, HIF1A, mitochondrial-ROS, cytokine-storm, viral-infection, hypoxia]
@@ -5836,6 +6642,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: single-cell-methods
+  - slug: sccellfie-scales-metabolic-task-inference-to-single-cell-and-spatial
+    title: "scCellFie infers metabolic-task activities from single-cell and spatial transcriptomics at atlas scale via GPR-rule aggregation over GEMs"
+    tags: [sccellfie, metabolic-task, GPR-rules, single-cell, spatial-transcriptomics]
+    status: supported
+    confidence: 0.75
+    domain: methods / metabolism
   - slug: scdesign3-realistic-svg-simulation
     title: "scDesign3 Gaussian-process simulation enables biologically realistic SVG benchmarks beyond binary classification"
     tags: [simulation, benchmarking, spatial-transcriptomics, methodology]
@@ -5944,6 +6756,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia
+  - slug: sex-dimorphism-skm-loss-cac
+    title: "Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females"
+    tags: [cancer-cachexia, sex-dimorphism, body-composition]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / clinical phenotyping
+  - slug: sgrsenirta-linker-mmp14-selective-cleavage
+    title: "The SGRSENIRTA linker is selectively cleaved by MMP14 versus MMP3/7/10/11"
+    tags: [MMP14, protease, linker, drug-design]
+    status: supported
+    confidence: 0.8
+    domain: protein-engineering
   - slug: shared-vs-pair-specific-cytokine-tissue-programs
     title: "Cytokine pair-induced gene programs are mostly shared in liver/kidney but pair-specific in heart/spleen/LNs"
     tags: [cytokines, tissue-specificity, gene-programs]
@@ -5956,6 +6780,30 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / cancer biology
+  - slug: site-dominates-variance-cell-abundance-skin
+    title: "Anatomic site is the dominant source of variance in skin cell-type abundance across donors, sex and technical factors"
+    tags: [skin, variance-partitioning, anatomy, methodological]
+    status: supported
+    confidence: 0.85
+    domain: methods / dermatology
+  - slug: site-specific-lr-mhc-cd4-cd8-antecubital
+    title: "Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint"
+    tags: [skin, antecubital-fossa, MHC, CD4, CD8, correlational]
+    status: weakly_supported
+    confidence: 0.65
+    domain: immunology / dermatology
+  - slug: skin-45-cell-types-resolved-spatially
+    title: "45 cell types are resolved spatially in adult human skin including 8 fibroblast subpopulations and 2 perivascular subsets"
+    tags: [skin, cell-types, fibroblast, perivascular, correlational]
+    status: supported
+    confidence: 0.9
+    domain: cell biology / dermatology
+  - slug: skin-atlas-12m-cells-15-sites-merfish
+    title: "MERFISH atlas of ~1.2 million cells from 114 samples across 15 anatomic sites in 22 adult donors defines normal human skin spatially"
+    tags: [skin, MERFISH, atlas, quantitative]
+    status: supported
+    confidence: 0.95
+    domain: cell biology / dermatology
   - slug: slc43a2-methionine-competition-h3k79me2-stat5-tcell-impairment
     title: "Tumour SLC43A2 outcompetes T cells for methionine, lowering H3K79me2 and impairing STAT5/IL-2 signaling"
     tags: [methionine, slc43a2, h3k79me2, stat5, t-cell-dysfunction]
@@ -6052,6 +6900,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: iron metabolism / macrophage biology
+  - slug: spn-kc-ii-scalp-sole-infundibular-like
+    title: "Spn KC II keratinocyte subset is enriched in scalp and sole with an infundibular-like S100A8/SOX9/GJB2/GJB6 signature"
+    tags: [skin, keratinocyte, scalp, sole, correlational]
+    status: supported
+    confidence: 0.8
+    domain: cell biology / dermatology
   - slug: spp1-ccl2-il4i1-monocyte-subset-enriched-hcc-responders
     title: "A tissue-infiltrating SPP1+CCL2+FN1+IL4I1+ pro-inflammatory monocyte subset is enriched in HCC PD-1 responders"
     tags: [tissue-infiltrating-monocyte, SPP1, CCL2, FN1, IL4I1, NLRP3, IL1B, HCC, PD-1-blockade, responder]
@@ -6063,6 +6917,30 @@ claims:
     tags: [spp1, macrophage, prognosis, tumor-associated-macrophage]
     status: supported
     confidence: 0.85
+    domain: immunology
+  - slug: src-hypoxia-induced-hif-hif-through
+    title: "SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements"
+    tags: [hypoxia, SRC, HIF1, HIF2, HRE, mechanistic]
+    status: weakly_supported
+    confidence: 0.7
+    domain: hypoxia-signaling
+  - slug: src-phosphorylates-prmt5-y283-inhibit-mccc2
+    title: "SRC phosphorylates PRMT5 Y283 to inhibit MCCC2 R292 dimethylation under hypoxia"
+    tags: [hypoxia, SRC, PRMT5, Y283, MCCC2, methylation, mechanistic]
+    status: supported
+    confidence: 0.75
+    domain: metabolism
+  - slug: src-phosphorylates-vhl-y185-only-under
+    title: "SRC phosphorylates VHL Y185 only under hypoxia, enabling the VHL–MCCC2 interaction"
+    tags: [hypoxia, SRC, VHL, Y185, phosphorylation, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
+  - slug: staggered-sting-agonist-cart-preserves-tcell-function
+    title: "Staggered intratumoral STING agonist before CAR-T infusion preserves T cell function while activating TME innate immunity"
+    tags: [cgas-sting, car-t, dosing-schedule, t-cell-toxicity]
+    status: supported
+    confidence: 0.65
     domain: immunology
   - slug: stat1-alpha-beta-isoform-divergent-effects
     title: "STAT1α and STAT1β isoforms produce distinct, partially opposing transcriptomes under homeostasis"
@@ -6142,6 +7020,42 @@ claims:
     status: supported
     confidence: 0.8
     domain: intestinal biology / stem-cell-niche
+  - slug: sting-agonist-adc-her2-reduced-systemic-toxicity
+    title: "STING-agonist ADCs (XMT-2056 HER2; TAK-500 CCR2; EGFR-STING) reduce systemic cytokine release relative to free agonist"
+    tags: [cgas-sting, antibody-drug-conjugate, her2, ccr2, targeted-delivery]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: sting-agonist-clinical-translational-gap
+    title: "STING agonists show a major translational gap between preclinical mouse efficacy and human clinical efficacy"
+    tags: [cgas-sting, clinical-trial, translational-gap]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: sting-cd11c-dc-tls-formation
+    title: "Host STING activation, particularly in CD11c+ DCs, is required for tumor-associated tertiary lymphoid structure formation"
+    tags: [cgas-sting, tertiary-lymphoid-structure, dendritic-cell, cd11c]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: sting-ec-vascular-normalization-icam-vcam
+    title: "EC STING activation drives tumor vascular normalization and upregulates T/NK adhesion molecules (ICAM, VCAM, SELL)"
+    tags: [cgas-sting, endothelial-cell, vascular-normalization, icam, vcam]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: sting-tcell-intrinsic-cytotoxicity
+    title: "T cell-intrinsic STING signaling is cytotoxic and impairs T cell proliferation, memory, and effector function"
+    tags: [cgas-sting, t-cell, apoptosis, er-stress]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: sting-tme-outcomes-context-cell-type-dependent
+    title: "STING activation outcomes in the TME are highly context- and cell-type-dependent"
+    tags: [cgas-sting, tumor-microenvironment, cell-type-specificity]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: strem2-serum-elevated-pd1-responders-hcc
     title: "Baseline serum soluble TREM2 (sTREM2) is elevated in HCC patients responding to PD-1 blockade vs non-responders"
     tags: [sTREM2, serum-biomarker, HCC, PD-1-blockade, ELISA, predictive-biomarker]
@@ -6232,6 +7146,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: tam-t-cell-ligand-receptor-network-enriched-tme
+    title: "TAM-T cell ligand-receptor interactions are the densest immune crosstalk axis enriched in the TME"
+    tags: [TAM, T-cell, ligand-receptor, MultiNicheNet, TME, immunosuppression]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: tam-therapy-three-categories-framework
     title: "Macrophage-targeted cancer therapies fall into three categories: depletion, effectorization, reprogramming"
     tags: [framework, macrophage, cancer-immunotherapy]
@@ -6244,6 +7164,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: oncology / immunology / hypoxia
+  - slug: tams-predominant-spatial-proximity-t-cells-pan-cancer
+    title: "TAMs are the predominant immune population in close spatial proximity to T cells across human cancers"
+    tags: [TAM, T-cell, spatial-proximity, MERFISH, pan-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: tapinarof-fda-approved-ik-175-bay-2416964-clinical
     title: "AHR-targeting therapeutics are clinically validated: tapinarof FDA-approved for psoriasis; AHR antagonists IK-175 and BAY-2416964 in solid-tumour trials"
     tags: [AHR, tapinarof, IK-175, BAY-2416964, FDA-approval, clinical-trial, psoriasis, host-directed-therapy]
@@ -6304,12 +7230,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: tcell-antecubital-fossa-enrichment-skin
+    title: "T-cell subsets are distinctly enriched in antecubital fossa (and to a lesser extent popliteal fossa), diverging from neighbouring extensor sites"
+    tags: [skin, T-cells, flexural, correlational]
+    status: supported
+    confidence: 0.8
+    domain: immunology / dermatology
   - slug: tcga-oscc-le-worse-tc-better-survival
     title: "In TCGA HPV-negative OSCC (n=275), high LE score predicts worse DSS/PFI; high TC score predicts improved OS/DSS/PFI"
     tags: [TCGA, OSCC, survival, prognosis, correlational]
     status: supported
     confidence: 0.85
     domain: oncology/prognosis
+  - slug: ten-multicellular-neighborhoods-skin
+    title: "Ten multicellular spatial neighborhoods (N0-N9) define the cellular architecture of human skin"
+    tags: [skin, spatial-neighborhood, MERFISH, methodological]
+    status: supported
+    confidence: 0.9
+    domain: cell biology / dermatology
   - slug: tet-inhibition-blocks-c2-demethylation-target-expression
     title: "TET2 inhibition (4-octyl itaconate) increases C2 methylation and decreases C2-target gene expression, confirming TET2-dependent active demethylation"
     tags: [4-octyl-itaconate, TET2-inhibitor, DNA-demethylation, cluster-C2, itaconate, pharmacological]
@@ -6388,6 +7326,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / developmental biology
+  - slug: tissue-specific-methylated-product-signature-cachexia
+    title: "Methylated-product signature is tissue-specific in cachexia: MNAM dominates liver; sarcosine and methyllysine dominate adipose and muscle"
+    tags: [tissue-specificity, MNAM, sarcosine, methyllysine, cachexia, methylation]
+    status: supported
+    confidence: 0.85
+    domain: cachexia / metabolomics
   - slug: tissue-specific-tf-motifs-hypomethylated-vmrs-tf-coexpression
     title: "Tissue-specific TFs are expressed in spatial clusters whose hypomethylated VMRs are enriched for their binding motifs (Hand2/Tbx20/Meis1 heart W6; Ebf1/Pbx1 brain W2; Sox9/Ebf1/Zeb2 craniofacial W0)"
     tags: [TF-motif-enrichment, hypomethylated-VMR, embryogenesis, HOMER]
@@ -6412,6 +7356,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: hypoxia
+  - slug: tnbc-cgas-sting-il6-stat3-tocilizumab-synergy
+    title: "In CIN-high TNBC, cGAS-STING-NF-κB-IL-6-STAT3 drives survival; tocilizumab + STING activation selectively impairs growth"
+    tags: [tnbc, cgas-sting, il6, stat3, tocilizumab, cin]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: tnf-blockade-reverses-clp-tissue-transcriptome
     title: "Combined anti-TNF + cytokine genetic deletion counteracts 31.9%–63.3% of CLP sepsis gene expression changes"
     tags: [TNF, CLP, sepsis, therapeutics]
@@ -6442,6 +7392,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / sepsis
+  - slug: tnf-sustains-ccl19-perivasc-fibroblast
+    title: "TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I"
+    tags: [skin, TNF, CCL19, perivascular-fibroblast, mechanistic, immune-stromal]
+    status: weakly_supported
+    confidence: 0.7
+    domain: immunology / dermatology
   - slug: tobacco-ahr-mtor-pdl1-immune-evasion-nsclc
     title: "Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC"
     tags: [smoking, ahr, mtor, pd-l1, immune-evasion, nsclc]
@@ -6514,6 +7470,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: tracerx-nsclc-cac-thresholds
+    title: "TRACERx-NSCLC defines CAC body-composition thresholds and links isolated SKM loss to distinct tumour gene expression"
+    tags: [cancer-cachexia, TRACERx, NSCLC, body-composition]
+    status: supported
+    confidence: 0.85
+    domain: oncology / clinical methodology
   - slug: tracerx-renal-aggressive-subclonal-growth-occurs
     title: "TRACERx Renal: aggressive subclonal growth occurs in peri-necrotic tumour centres with elevated CNAs and proliferation"
     tags: [hypoxia, TRACERx, ccRCC, peri-necrotic, subclonal-evolution, spatial-genomics]
@@ -6532,6 +7494,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunometabolism / hypoxia-signaling
+  - slug: transferred-adversarial-training-removes-batch-effects
+    title: "Transferred adversarial training removes batch effects between train-tissue and target-tissue"
+    tags: [batch-effect, adversarial, deconvolution]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: treg-localize-close-trm-tumor
     title: "FOXP3⁺ Tregs localize close to TRMs in NSCLC tumour lesions"
     tags: [Treg, TRM, spatial-imaging, NSCLC, tumor-niche, FOXP3]
@@ -6541,6 +7509,12 @@ claims:
   - slug: trem2-antagonism-clinical-no-efficacy
     title: "TREM2 antagonism (PY314) as mono- or combo-therapy with PD-1 blockade did not yield clinically significant antitumor efficacy"
     tags: [trem2, clinical-trials, innate-checkpoint, py314]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: trem2-enriched-in-tumors-vs-healthy-tcga
+    title: "TREM2 is significantly enriched in tumors vs healthy tissue across 14 TCGA cancer types"
+    tags: [TREM2, TCGA, pan-cancer, biomarker]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -6652,6 +7626,12 @@ claims:
     status: challenged
     confidence: 0.6
     domain: immuno-oncology
+  - slug: trex1-adaptive-innate-immune-checkpoint
+    title: "TREX1 functions as an adaptive negative-feedback innate immune checkpoint restraining STING-IFN in cancer cells"
+    tags: [cgas-sting, trex1, innate-immune-checkpoint, exonuclease]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: trm-conditioned-medium-promotes-kp-migration
     title: "TRM-conditioned medium promotes KP tumour-cell transwell migration"
     tags: [TRM, conditioned-medium, transwell, tumor-migration, secretome, EMT]
@@ -6784,6 +7764,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: tumor-cell-sting-suppresses-glycolysis-hk2
+    title: "Tumor cell STING is a cell-intrinsic suppressor of aerobic glycolysis via HK2"
+    tags: [cgas-sting, metabolism, glycolysis, hk2, t-cell]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: tumor-cgamp-immunotransmitter-paracrine-tme
+    title: "Tumor-derived cGAMP acts as an extracellular immunotransmitter, imported by TME cells via SLC19A1/SLC46A2/LRRC8"
+    tags: [cgamp, immunotransmitter, slc19a1, slc46a2, lrrc8, paracrine]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: tumor-ecosystem-subtype-prognostic-skcm-brca
     title: "Tumor ecosystem subtype stratifies overall survival in TCGA SKCM (P=2.54×10⁻⁵) and BRCA (P=0.0229)"
     tags: [prognosis, tcga, skcm, brca, ecotype, subtype, survival]
@@ -6856,6 +7848,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: type-2b-vhl-missense-mutants-enhance
+    title: "Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression"
+    tags: [VHL, ccRCC, kidney-cancer, mutation-subtype, TCGA, correlational, clinical]
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology
   - slug: type-i-ifn-sensitises-cancer-organoid-cart
     title: "Type I interferon signalling sensitizes breast cancer organoids to γδ CAR-T cell killing"
     tags: [mechanistic, oncology, organoid, immunotherapy]
@@ -6868,6 +7866,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: lung cancer biology
+  - slug: um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis
+    title: "Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype"
+    tags: [endometriosis, uM1-macrophages, inositol-phosphate, methylglyoxal, PLC, NFkB]
+    status: weakly_supported
+    confidence: 0.5
+    domain: endometrial-biology / immunometabolism
   - slug: upbm-escore-aurocs-above-097-for-padit-seq-active-kmers
     title: "uPBM E-scores predict PADIT-seq active k-mers with AUROC > 0.97 across all six TFs"
     tags: [uPBM, PADIT-seq, AUROC, benchmark, methodological]
@@ -6880,6 +7884,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: regulatory-genomics
+  - slug: ups-markers-conflicting-evidence-cac
+    title: "MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity"
+    tags: [cancer-cachexia, MURF1, Atrogin-1, ubiquitin-proteasome, muscle-wasting]
+    status: weakly_supported
+    confidence: 0.5
+    domain: muscle biology / cachexia
   - slug: validation-cohort-trem2-enriched-cemiplimab-sbrt-hcc-responders
     title: "TREM2 mac enrichment in PD-1-responders is reproduced in an independent cemiplimab+SBRT HCC validation cohort"
     tags: [validation-cohort, cemiplimab, SBRT, HCC, TREM2, neoadjuvant, replication]
@@ -6898,12 +7908,36 @@ claims:
     status: supported
     confidence: 0.7
     domain: AHR pharmacology
+  - slug: vhl-enters-mitochondria-tom22-recognition-alpha
+    title: "VHL is imported into mitochondria via TOM22 recognition of positively charged alpha-domain helices under hypoxia"
+    tags: [hypoxia, VHL, TOM22, mitochondrial-import, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: cell-biology
+  - slug: vhly151f-knock-mice-show-worsened-renal
+    title: "VhlY151F knock-in mice show worsened renal ischemia-reperfusion injury, rescued by BCAT inhibition and dietary leucine"
+    tags: [hypoxia, VHL, ischemia-reperfusion, kidney, in-vivo, mouse, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: metabolism
+  - slug: visium-skin-5-diseases-143k-spots
+    title: "Visium ST integration spans 143k spots from 81 samples / 63 donors across normal skin and 5 skin diseases (AD, SCC, HS, BCC, PP)"
+    tags: [skin, Visium, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC, methodological]
+    status: supported
+    confidence: 0.9
+    domain: methods / dermatology
   - slug: vmr-hypomethylation-correlates-cluster-specific-expression
     title: "Spatial cluster-specific gene expression is frequently associated with low DNA methylation at neighbouring VMRs (Runx2 craniofacial, Mapt brain, Trim55 heart)"
     tags: [VMR, DNA-methylation, gene-expression, embryogenesis]
     status: supported
     confidence: 0.9
     domain: epigenetics / spatial omics
+  - slug: wat-browning-human-cac-evidence-conflicting
+    title: "Evidence for WAT browning driving human CAC is conflicting — large-cohort BAT prevalence is LOWER in CAC patients, contradicting the mouse-derived browning paradigm"
+    tags: [cancer-cachexia, WAT-browning, UCP1, BAT]
+    status: challenged
+    confidence: 0.4
+    domain: adipose biology / cachexia
   - slug: wgcna-13-modules-pan-cancer-proteome
     title: "WGCNA on TPCPA yields 13 protein co-expression modules with tissue-correlated and pan-cancer biology"
     tags: [wgcna, co-expression, hub-proteins, drug-targets, tpcpa]
@@ -6958,597 +7992,7 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
-  - slug: tams-predominant-spatial-proximity-t-cells-pan-cancer
-    title: "TAMs are the predominant immune population in close spatial proximity to T cells across human cancers"
-    tags: [TAM, T-cell, spatial-proximity, MERFISH, pan-cancer]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: tam-t-cell-ligand-receptor-network-enriched-tme
-    title: "TAM-T cell ligand-receptor interactions are the densest immune crosstalk axis enriched in the TME"
-    tags: [TAM, T-cell, ligand-receptor, MultiNicheNet, TME, immunosuppression]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: trem2-enriched-in-tumors-vs-healthy-tcga
-    title: "TREM2 is significantly enriched in tumors vs healthy tissue across 14 TCGA cancer types"
-    tags: [TREM2, TCGA, pan-cancer, biomarker]
-    status: supported
-    confidence: 0.85
-    domain: immunology
-  - slug: anti-trem2-monotherapy-reprograms-tams-limited-efficacy
-    title: "Anti-TREM2 monotherapy molecularly reprograms TAMs but provides only minor tumor-control efficacy"
-    tags: [TREM2, monotherapy, TAM, cancer-immunotherapy, treatment-resistance]
-    status: supported
-    confidence: 0.85
-    domain: immunology
-  - slug: anti-trem2-il-2sk-ick-induces-lethal-systemic-toxicity
-    title: "Unmasked αTREM2-IL-2 superkine immunocytokine induces lethal systemic cytokine toxicity and hepatotoxicity"
-    tags: [IL-2, immunocytokine, toxicity, cytokine-storm, hepatotoxicity]
-    status: supported
-    confidence: 0.9
-    domain: immunology / pharmacology
-  - slug: mmp14-tam-specific-protease-immune-cells
-    title: "MMP14 is TAM-specifically expressed among tumor immune cells, with minimal expression in other leukocytes"
-    tags: [MMP14, TAM, protease, scRNA-seq, biomarker]
-    status: supported
-    confidence: 0.85
-    domain: immunology / cell-biology
-  - slug: mmp14-trem2-coexpression-tumor-tissue-specific
-    title: "MMP14 and TREM2 are strongly co-expressed in tumor TAMs and co-localized in tumor tissue but not in adjacent-healthy tissue"
-    tags: [MMP14, TREM2, TAM, co-expression, immunofluorescence]
-    status: supported
-    confidence: 0.8
-    domain: immunology / oncology
-  - slug: sgrsenirta-linker-mmp14-selective-cleavage
-    title: "The SGRSENIRTA linker is selectively cleaved by MMP14 versus MMP3/7/10/11"
-    tags: [MMP14, protease, linker, drug-design]
-    status: supported
-    confidence: 0.8
-    domain: protein-engineering
-  - slug: cleaved-mites-270-fold-higher-il2rb-affinity-vs-wt-il2
-    title: "Cleaved MiTE constructs bind IL-2Rβ with ~270-fold higher affinity than wild-type IL-2"
-    tags: [IL-2, IL-2Rβ, superkine, binding-affinity, MiTE]
-    status: supported
-    confidence: 0.85
-    domain: protein-engineering
-  - slug: masked-mites-3log-il2-bioactivity-reduction
-    title: "Intact masked MiTEs show ~3-log reduction in IL-2 bioactivity; MMP14 cleavage fully restores activity"
-    tags: [IL-2, MiTE, bioactivity, masking, MMP14]
-    status: supported
-    confidence: 0.85
-    domain: protein-engineering / pharmacology
-  - slug: mite144-no-systemic-toxicity-repeated-iv-dosing
-    title: "MiTE-144 shows no detectable systemic toxicity under repeated 200 μg i.v. dosing"
-    tags: [MiTE, safety, toxicity, hepatotoxicity, cytokine]
-    status: supported
-    confidence: 0.85
-    domain: pharmacology
-  - slug: mite144-preferential-tumor-accumulation-extended-half-life
-    title: "MiTE-144 has preferential tumor accumulation and extended plasma half-life vs unmasked αTREM2-IL-2SK"
-    tags: [MiTE, pharmacokinetics, biodistribution, tumor-targeting]
-    status: supported
-    confidence: 0.75
-    domain: pharmacology
-  - slug: mite144-superior-tumor-control-vs-ici-monotherapies-mc38
-    title: "MiTE-144 outperforms αTREM2, αPD-1, and αCTLA-4 monotherapies (and αTREM2+ICI combinations) in MC38 tumor control"
-    tags: [MiTE, MC38, efficacy, immune-checkpoint-inhibitor, anti-PD-1, anti-CTLA-4]
-    status: supported
-    confidence: 0.85
-    domain: oncology / immunotherapy
-  - slug: mite144-ctla4-combo-eradicates-mc38-6-of-7-mice
-    title: "MiTE-144 + anti-CTLA-4 combination eradicates MC38 tumors in 6/7 mice"
-    tags: [MiTE, anti-CTLA-4, combination-therapy, MC38, complete-response]
-    status: supported
-    confidence: 0.85
-    domain: oncology / immunotherapy
-  - slug: mite144-reprograms-tams-toward-inflammatory-hypoxia-states
-    title: "MiTE-144 reprograms TAMs from suppressive (TREM2/Mmp14, IFN-response) toward inflammatory monocyte-like and hypoxia-associated states"
-    tags: [MiTE, TAM, transcriptional-reprogramming, hypoxia, monocyte-like, Arg1, Nos2, Hmox1, S100a8]
-    status: supported
-    confidence: 0.75
-    domain: immunology / oncology
-  - slug: mite144-induces-mhc-i-and-cdc1-programs-in-dcs
-    title: "MiTE-144 induces MHC class I antigen-presentation and cDC1 developmental programs in tumor DCs"
-    tags: [MiTE, dendritic-cell, cDC1, MHC-I, antigen-presentation, cross-presentation]
-    status: supported
-    confidence: 0.75
-    domain: immunology
-  - slug: mite144-activates-nk-cytotoxic-proliferation-reduces-exhaustion
-    title: "MiTE-144 activates NK cell cytotoxicity and proliferation while downregulating exhaustion markers"
-    tags: [MiTE, NK-cell, cytotoxicity, exhaustion, perforin, granzyme, MC38]
-    status: supported
-    confidence: 0.85
-    domain: immunology / oncology
-  - slug: mite144-cd8-cytotoxic-proliferation-stemness-reduces-exhaustion
-    title: "MiTE-144 upregulates CD8 T cell cytotoxic, proliferative, and stem-like programs while downregulating exhaustion (Tox)"
-    tags: [MiTE, CD8-T-cell, cytotoxicity, stemness, Tcf7, Tox, exhaustion]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: mite144-treg-expansion-blocked-by-ctla4-combo
-    title: "MiTE-144 slightly expands Tregs in TME/tdLNs; combination with anti-CTLA-4 abrogates this Treg expansion"
-    tags: [MiTE, Treg, CTLA-4, IL-2-superkine, combination-therapy]
-    status: supported
-    confidence: 0.75
-    domain: immunology
-  - slug: mite144-disrupts-conserved-suppressive-tam-t-cell-lr-axes
-    title: "MiTE-144 disrupts multiple conserved suppressive TAM–T cell ligand-receptor axes (mouse and human)"
-    tags: [MiTE, TAM, T-cell, ligand-receptor, CTLA-4, PD-1, TGFB, immune-suppression]
-    status: supported
-    confidence: 0.7
-    domain: immunology
-  - slug: mite144-rcc-pdtf-expands-effector-not-treg
-    title: "Ex vivo MiTE-144 on RCC PDTFs selectively expands CD8 cycling/memory T and intermediate-NK cells without expanding Tregs or hypoxic TAMs"
-    tags: [MiTE, PDTF, RCC, ex-vivo, CITE-seq, translational, Treg]
-    status: supported
-    confidence: 0.75
-    domain: immunology / translational-oncology
-  - slug: mite144-conserved-cytotoxic-program-human-t-and-nk
-    title: "MiTE-144 induces a conserved cytotoxic program in human T and NK cells"
-    tags: [MiTE, human, T-cell, NK-cell, PRF1, GZMA, GZMB, exhaustion, RCC]
-    status: supported
-    confidence: 0.75
-    domain: immunology
-  - slug: mite144-cross-species-conserved-immunostimulation-mouse-human
-    title: "MiTE-144 elicits cross-species conserved immunostimulatory transcriptional response between mouse and human tumors"
-    tags: [MiTE, cross-species, mouse, human, transcriptional-conservation, translational]
-    status: supported
-    confidence: 0.7
-    domain: immunology / translational-oncology
-  - slug: il2-superkine-h9-il2rb-bias-effector-over-treg
-    title: "IL-2 superkine 'H9 SK' is engineered to bias IL-2Rβ binding, preferentially expanding effector T cells over Tregs"
-    tags: [IL-2, superkine, IL-2Rβ, Treg, effector-T-cell, protein-engineering]
-    status: supported
-    confidence: 0.7
-    domain: protein-engineering
-  - slug: mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia
-    title: "Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies"
-    tags: [MiTE, TAM, hypoxia, M1-M2, polarization, monocyte-like]
-    status: weakly_supported
-    confidence: 0.55
-    domain: immunology / oncology
 
-  - slug: skin-atlas-12m-cells-15-sites-merfish
-    title: "MERFISH atlas of ~1.2 million cells from 114 samples across 15 anatomic sites in 22 adult donors defines normal human skin spatially"
-    tags: [skin,MERFISH,atlas,quantitative]
-    status: supported
-  - slug: integrated-scrnaseq-skin-reference-286k-cells
-    title: "An integrated scRNA-seq reference of ~286k cells from 14 public studies anchors the MERFISH skin atlas annotation"
-    tags: [skin,scRNA-seq,integration,methodological]
-    status: supported
-  - slug: skin-45-cell-types-resolved-spatially
-    title: "45 cell types are resolved spatially in adult human skin including 8 fibroblast subpopulations and 2 perivascular subsets"
-    tags: [skin,cell-types,fibroblast,perivascular,correlational]
-    status: supported
-  - slug: spn-kc-ii-scalp-sole-infundibular-like
-    title: "Spn KC II keratinocyte subset is enriched in scalp and sole with an infundibular-like S100A8/SOX9/GJB2/GJB6 signature"
-    tags: [skin,keratinocyte,scalp,sole,correlational]
-    status: supported
-  - slug: ccl19-perivasc-fib-i-near-vasculature-skin
-    title: "CCL19+ Perivasc Fib I fibroblasts localise to perivascular space near skin vasculature"
-    tags: [skin,CCL19,perivascular,fibroblast,mechanistic]
-    status: supported
-  - slug: centrifugal-diversity-density-skin
-    title: "Cellular diversity and density follow a centrifugal gradient from trunk to extremities across human skin"
-    tags: [skin,body-plan,diversity,density,correlational]
-    status: supported
-  - slug: anatomic-site-categories-similar-composition
-    title: "Anatomic sites within flexural, extensor, trunk and scalp categories share similar compositional patterns while face and sole are unique"
-    tags: [skin,anatomy,compositional,correlational]
-    status: supported
-  - slug: innate-immune-extremity-enrichment-skin
-    title: "Innate immune cells (monocytes, macrophages, DCs) are enriched in skin of extremities versus trunk"
-    tags: [skin,innate-immunity,macrophage,dendritic-cell,correlational]
-    status: supported
-  - slug: tcell-antecubital-fossa-enrichment-skin
-    title: "T-cell subsets are distinctly enriched in antecubital fossa (and to a lesser extent popliteal fossa), diverging from neighbouring extensor sites"
-    tags: [skin,T-cells,flexural,correlational]
-    status: supported
-  - slug: ten-multicellular-neighborhoods-skin
-    title: "Ten multicellular spatial neighborhoods (N0-N9) define the cellular architecture of human skin"
-    tags: [skin,spatial-neighborhood,MERFISH,methodological]
-    status: supported
-  - slug: perivasc-i-highest-diversity-immune-enriched
-    title: "PERIVASC I has the highest cellular diversity among skin neighborhoods and is immune-cell-enriched"
-    tags: [skin,PERIVASC-I,diversity,immune-enrichment,correlational]
-    status: supported
-  - slug: age-stroma-decreases-abdomen-skin
-    title: "STROMA neighborhood proportion declines with age in abdominal skin (Spearman = -0.70, P = 0.0083, n=13 donors)"
-    tags: [skin,aging,STROMA,abdomen,quantitative]
-    status: supported
-  - slug: age-perivasc-ii-increases-abdomen-skin
-    title: "PERIVASC II neighborhood proportion increases with age in abdominal skin (Spearman = 0.70, P = 0.0076)"
-    tags: [skin,aging,PERIVASC-II,abdomen,quantitative]
-    status: supported
-  - slug: retic-fib-i-declines-age-abdomen
-    title: "Retic Fib I numerical abundance declines with age in abdominal skin, paralleled by expansion of HEC, VEC, pericytes and smooth muscle"
-    tags: [skin,aging,fibroblast,Retic-Fib-I,correlational]
-    status: supported
-  - slug: tnf-sustains-ccl19-perivasc-fibroblast
-    title: "TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I"
-    tags: [skin,TNF,CCL19,perivascular-fibroblast,mechanistic,immune-stromal]
-    status: weakly_supported
-  - slug: perivasc-i-stromal-immune-lr-pairs
-    title: "Top stromal-to-immune ligand-receptor pairs in PERIVASC I are CXCL12-CXCR4, MDK-CD74, MIF-CD74 and PTN-NCL"
-    tags: [skin,PERIVASC-I,CellChat,ligand-receptor,methodological]
-    status: supported
-  - slug: perivasc-i-immune-stromal-lr-pairs
-    title: "Top immune-to-stromal ligand-receptor pairs in PERIVASC I include PPIA-BSG, NAMPT-ITGA5+ITGB1 and TNF-TNFRSF1A"
-    tags: [skin,PERIVASC-I,CellChat,ligand-receptor,TNF,methodological]
-    status: supported
-  - slug: visium-skin-5-diseases-143k-spots
-    title: "Visium ST integration spans 143k spots from 81 samples / 63 donors across normal skin and 5 skin diseases (AD, SCC, HS, BCC, PP)"
-    tags: [skin,Visium,atopic-dermatitis,psoriasis,hidradenitis-suppurativa,SCC,BCC,methodological]
-    status: supported
-  - slug: perivasc-i-expansion-inflammatory-skin-disease
-    title: "PERIVASC I expands in inflammatory and neoplastic skin disease (AD, psoriasis, HS, BCC, SCC) versus healthy skin"
-    tags: [skin,PERIVASC-I,atopic-dermatitis,psoriasis,hidradenitis-suppurativa,SCC,BCC,correlational]
-    status: supported
-  - slug: ccl19-fibroblasts-disease-map-perivasc-i
-    title: "Pro-inflammatory CCL19+ fibroblasts described in inflammatory skin disease map primarily to the PERIVASC I neighborhood"
-    tags: [skin,CCL19,fibroblast,PERIVASC-I,correlational]
-    status: supported
-  - slug: disease-enriched-spot-substates-skin
-    title: "Disease-enriched Visium spot sub-states (TLS, TLS-like, KC stress, HS tunnel, BCC tumor) emerge adjacent to the homeostatic ten-neighborhood scheme"
-    tags: [skin,Visium,TLS,KC-stress,hidradenitis-suppurativa,BCC,correlational]
-    status: supported
-  - slug: papil-fib-correlates-epidermal-thickness
-    title: "Papillary fibroblast (Papil Fib) abundance correlates positively with epidermal thickness across skin sites (Spearman = 0.26, P = 0.012)"
-    tags: [skin,papillary-fibroblast,epidermis-thickness,quantitative]
-    status: supported
-  - slug: perivasc-i-physical-correlate-salt
-    title: "PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework"
-    tags: [skin,PERIVASC-I,SALT,mechanistic,conceptual]
-    status: weakly_supported
-  - slug: site-dominates-variance-cell-abundance-skin
-    title: "Anatomic site is the dominant source of variance in skin cell-type abundance across donors, sex and technical factors"
-    tags: [skin,variance-partitioning,anatomy,methodological]
-    status: supported
-  - slug: perivasc-i-most-interactive-cell-types
-    title: "Within PERIVASC I, the most interactive cell types per CellChat are VECs, CD4+ and CD8+ cytotoxic T cells, and Perivasc Fib I/II"
-    tags: [skin,PERIVASC-I,CellChat,T-cell,VEC,methodological]
-    status: supported
-  - slug: perivasc-i-pathway-volume-leadership
-    title: "PERIVASC I exhibits the highest L-R interaction volume and greatest number of unique pathways among skin neighborhoods (MIF, MK, CXCL/CCL, TNF dominant)"
-    tags: [skin,PERIVASC-I,CellChat,MIF,midkine,TNF,methodological]
-    status: supported
-  - slug: site-specific-lr-mhc-cd4-cd8-antecubital
-    title: "Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint"
-    tags: [skin,antecubital-fossa,MHC,CD4,CD8,correlational]
-    status: weakly_supported
-  - slug: disease-perivasc-i-chemokine-cytokine-ecm-remodel
-    title: "Disease-associated PERIVASC I shows expansion plus transcriptional remodeling with increased chemokines, cytokines and ECM-remodeling genes"
-    tags: [skin,disease-remodeling,cytokine,ECM,MMP,correlational]
-    status: supported
-  - slug: perivasc-fib-i-immune-recruitment-ccl19-cxcl12
-    title: "Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs"
-    tags: [skin,Perivasc-Fib-I,CCL19,CCR7,CXCL12,CXCR4,FRC-like,mechanistic]
-    status: weakly_supported
-  - slug: retic-fib-ii-sole-dermis-localization
-    title: "Retic Fib II (ANGPTL7+/PRG4+/COMP+) is diffusely localised throughout sole dermis, distinct from superficial papillary fibroblasts"
-    tags: [skin,Retic-Fib-II,sole,dermis,correlational]
-    status: supported
-  - slug: sting-tme-outcomes-context-cell-type-dependent
-    title: "STING activation outcomes in the TME are highly context- and cell-type-dependent"
-    tags: [cgas-sting, tumor-microenvironment]
-    status: supported
-    confidence: 0.8
-  - slug: sting-agonist-clinical-translational-gap
-    title: "STING agonists show a major translational gap between preclinical mouse and human clinical efficacy"
-    tags: [cgas-sting, clinical-trial]
-    status: supported
-    confidence: 0.8
-  - slug: dmxaa-activates-only-murine-sting
-    title: "DMXAA fully activates only murine STING and was the prototypical translational failure"
-    tags: [cgas-sting, dmxaa]
-    status: supported
-    confidence: 0.8
-  - slug: epigenetic-sting-silencing-many-cancers
-    title: "Tumor cells most commonly silence cGAS/STING epigenetically rather than by mutation"
-    tags: [cgas-sting, epigenetics]
-    status: supported
-    confidence: 0.8
-  - slug: cin-chronic-sting-nfkb-il6-drives-metastasis
-    title: "In CIN-high tumors, chronic cGAS-STING engages non-canonical NF-κB and IL-6/STAT3 to drive metastasis"
-    tags: [cin, cgas-sting, metastasis]
-    status: supported
-    confidence: 0.8
-  - slug: trex1-adaptive-innate-immune-checkpoint
-    title: "TREX1 functions as an adaptive negative-feedback innate immune checkpoint restraining STING-IFN"
-    tags: [trex1, cgas-sting, innate-checkpoint]
-    status: supported
-    confidence: 0.8
-  - slug: enpp1-degrades-cgamp-drives-breast-cancer
-    title: "ENPP1 degrades extracellular cGAMP and promotes breast cancer growth/metastasis"
-    tags: [enpp1, cgamp, breast-cancer]
-    status: supported
-    confidence: 0.8
-  - slug: sting-tcell-intrinsic-cytotoxicity
-    title: "T cell-intrinsic STING signaling is cytotoxic and impairs T cell proliferation, memory, and effector function"
-    tags: [cgas-sting, t-cell]
-    status: supported
-    confidence: 0.8
-  - slug: nk-cells-resistant-to-sting-cytotoxicity
-    title: "Human NK cells are resistant to STING-induced cytotoxicity due to low intrinsic STING expression"
-    tags: [cgas-sting, nk-cell]
-    status: supported
-    confidence: 0.8
-  - slug: sting-ec-vascular-normalization-icam-vcam
-    title: "EC STING activation drives tumor vascular normalization and upregulates T/NK adhesion molecules (ICAM/VCAM/SELL)"
-    tags: [cgas-sting, endothelial-cell, vascular-normalization]
-    status: supported
-    confidence: 0.8
-  - slug: sting-cd11c-dc-tls-formation
-    title: "Host STING activation, particularly in CD11c+ DCs, is required for tumor TLS formation"
-    tags: [cgas-sting, tls, dendritic-cell]
-    status: supported
-    confidence: 0.8
-  - slug: caf-sting-cxcr3-chemokines-tcell-recruitment
-    title: "CAF STING activation produces CXCR3 chemokines (CXCL9/10/11) that recruit cytotoxic T cells"
-    tags: [caf, cgas-sting, cxcl9, cxcl10]
-    status: supported
-    confidence: 0.8
-  - slug: tumor-cell-sting-suppresses-glycolysis-hk2
-    title: "Tumor cell STING is a cell-intrinsic suppressor of aerobic glycolysis via HK2"
-    tags: [cgas-sting, metabolism, hk2]
-    status: supported
-    confidence: 0.8
-  - slug: mps1-pulsed-inhibition-derepresses-sting-with-decitabine
-    title: "Pulsed MPS1 inhibition induces micronuclei + STING activation and synergizes with decitabine in KRAS-LKB1 lung cancer"
-    tags: [mps1, cgas-sting, kras-lkb1]
-    status: supported
-    confidence: 0.8
-  - slug: mtap-deletion-destabilizes-irf3-sting-resistance
-    title: "MTAP deficiency confers STING-agonist resistance by destabilizing IRF3 and co-deletion of 9p IFN genes"
-    tags: [mtap, irf3, cgas-sting]
-    status: supported
-    confidence: 0.8
-  - slug: idh1-inhibition-restores-cgas-promoter-demethylation
-    title: "Mutant IDH1 inhibition restores dsDNA sensing by demethylating the cGAS promoter in low-grade glioma"
-    tags: [idh1, cgas, glioma]
-    status: supported
-    confidence: 0.8
-  - slug: sting-agonist-adc-her2-reduced-systemic-toxicity
-    title: "STING-agonist ADCs (XMT-2056 HER2; TAK-500 CCR2) reduce systemic cytokine release vs free agonist"
-    tags: [cgas-sting, adc, her2]
-    status: supported
-    confidence: 0.8
-  - slug: tumor-cgamp-immunotransmitter-paracrine-tme
-    title: "Tumor-derived cGAMP acts as an extracellular immunotransmitter, imported by TME cells via SLC19A1/SLC46A2/LRRC8"
-    tags: [cgamp, immunotransmitter]
-    status: supported
-    confidence: 0.8
-  - slug: radiation-curative-effect-requires-sting-pathway
-    title: "The curative effect of ionizing radiation requires an intact STING/cGAS pathway"
-    tags: [radiation, cgas-sting]
-    status: supported
-    confidence: 0.8
-  - slug: ezh2-dnmt-inhibition-restores-mhci-antigen-presentation
-    title: "EZH2 and DNMT inhibition reinvigorate STING and restore MHC-I antigen presentation in melanoma, TNBC, SCLC"
-    tags: [ezh2, dnmt, mhc-i]
-    status: supported
-    confidence: 0.8
-  - slug: mut-p53-binds-tbk1-prevents-sting-irf3-trimer
-    title: "Mutant p53 binds TBK1 and prevents STING-TBK1-IRF3 trimer formation"
-    tags: [tp53, tbk1, sting]
-    status: supported
-    confidence: 0.8
-  - slug: tnbc-cgas-sting-il6-stat3-tocilizumab-synergy
-    title: "In CIN-high TNBC, cGAS-STING-IL-6-STAT3 drives survival; tocilizumab + STING activation selectively impairs growth"
-    tags: [tnbc, il6, stat3, cgas-sting]
-    status: supported
-    confidence: 0.8
-  - slug: mertk-blockade-enhances-macrophage-cgamp-sting
-    title: "MerTK blockade on TAMs enhances P2X7R-dependent STING activation by tumor-derived cGAMP"
-    tags: [mertk, tam, cgas-sting]
-    status: supported
-    confidence: 0.8
-  - slug: met-cd73-adenosine-suppresses-sting-egfr-lung
-    title: "MET-amplified EGFR-TKI-resistant lung cancer co-induces CD73 alongside STING, suppressing signaling via adenosine"
-    tags: [met, cd73, cgas-sting, egfr]
-    status: supported
-    confidence: 0.8
-  - slug: staggered-sting-agonist-cart-preserves-tcell-function
-    title: "Staggered intratumoral STING agonist before CAR-T preserves T cell function and improves antitumor control"
-    tags: [cgas-sting, car-t, dosing]
-    status: supported
-    confidence: 0.8
-
-  - slug: c26-cachectic-mice-distinct-metabolome-clustering-tissues
-    title: "C26-cachectic mice show distinct, cachexia-specific metabolome clustering in plasma, liver and adipose; muscle/heart are more variable"
-  - slug: non-cax-tumour-no-host-metabolome-perturbation
-    title: "Non-cachexia-inducing NC26 tumours do not perturb host-tissue metabolomes"
-  - slug: pseudo-time-cluster1-methylated-aa-coordinated-cachexia
-    title: "Pseudo-time VSClust analysis identifies a dominant late-increase cluster enriched in methylated amino acids coordinated across host tissues in cachexia"
-  - slug: kegg-one-carbon-pyrimidine-arginine-upregulated-cachexia
-    title: "KEGG pathway analysis identifies one-carbon pool by folate, pyrimidine synthesis and arginine biosynthesis as commonly upregulated in cachexia"
-  - slug: one-carbon-products-elevated-across-tissues-cachexia
-    title: "Products of one-carbon metabolism elevated across plasma, liver, eWAT, iWAT, heart, GC muscle, soleus and tumour of cachectic mice"
-  - slug: sah-sam-thf-5mthf-ratios-trend-up-cachexia
-    title: "SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic tissues — consistent with one-carbon flux activation"
-  - slug: tissue-specific-methylated-product-signature-cachexia
-    title: "Methylated-product signature is tissue-specific in cachexia: MNAM dominates liver; sarcosine and methyllysine dominate adipose and muscle"
-  - slug: cachexia-transcriptome-remodelling-dominates-tumour-effect
-    title: "Cachexia explains 89-100% of gene-expression variance vs tumour ≤11%; 340 genes commonly altered across cachexia target tissues"
-  - slug: one-carbon-enzyme-expression-broadly-elevated-cachexia
-    title: "One-carbon enzymes coordinately upregulated across cachexia target tissues with isoform-specific patterns"
-  - slug: ipa-lps-il6-tgfb1-upstream-cachexia-reprogramming
-    title: "IPA combined-omics upstream-regulator analysis nominates LPS/inflammation, IL6 and TGFB1 as drivers of cachexia metabolic reprogramming"
-  - slug: il6-inhibition-rescues-cachexia-and-blocks-nnmt-induction
-    title: "IL6 inhibition rescues cachexia weight loss without reducing tumour size and suppresses NNMT induction"
-  - slug: il6-ko-abolishes-one-carbon-metabolite-elevation-cax
-    title: "Tumour-cell IL6 KO abolishes elevation of one-carbon metabolites in C26 cachexia"
-  - slug: l-methionine-induces-dose-dependent-myotube-atrophy-c2c12
-    title: "L-methionine induces dose-dependent myotube atrophy in C2C12 cells"
-  - slug: l-methionine-drives-glucose-hyperconsumption-myotube
-    title: "L-methionine treatment of C2C12 myotubes increases glucose consumption and TCA isotopologue label"
-  - slug: fidas5-induces-myotube-hypertrophy-reduces-glucose-uptake
-    title: "FIDAS-5 (MAT inhibitor) induces C2C12 myotube hypertrophy and reduces glucose consumption — opposite of L-methionine"
-  - slug: fidas5-rescues-il6-induced-atrophy-and-hypermetabolism-c2c12
-    title: "FIDAS-5 rescues IL6-induced one-carbon induction, myotube atrophy and elevated glucose consumption in C2C12 cells"
-  - slug: methionine-atrophy-link-cell-type-specific-not-adipocyte
-    title: "Methionine → atrophy/hypermetabolism link is cell-type-specific: 3T3-L1 adipocytes do not respond"
-  - slug: 13c6-glucose-labels-tca-elevated-cachectic-muscle-heart
-    title: "13C6-glucose tracing shows elevated TCA isotopologues in GC muscle, soleus and heart of cachectic C26 mice"
-  - slug: pyruvate-carboxylase-active-cachectic-muscle-anaplerotic
-    title: "M+3 labelling and [1-13C]-pyruvate tracing show pyruvate carboxylase is active in cachectic muscle"
-  - slug: inca-flux-pc-pdh-2ogdh-elevated-cachectic-muscle
-    title: "INCA metabolic-flux modelling shows increased PC, PDH and 2-OGDH fluxes plus glutamine anaplerosis in cachectic GC muscle"
-  - slug: pre-cachectic-muscle-tca-flux-trends-early
-    title: "Pre-cachectic mice already show trends towards increased TCA flux — muscle glucose hypermetabolism is an early event"
-  - slug: one-carbon-conserved-six-mouse-cachexia-models-and-humanised
-    title: "One-carbon-metabolism signature conserved across six mouse cachexia models and humanised SW480 model"
-  - slug: patients-sarcopenia-show-elevated-nnmt-one-carbon-genes-liver-muscle
-    title: "Cancer patients with sarcopenia show elevated NNMT and one-carbon signature gene expression in liver and skeletal muscle"
-  - slug: sccellfie-scales-metabolic-task-inference-to-single-cell-and-spatial
-    title: "scCellFie infers metabolic-task activities from single-cell and spatial transcriptomics at atlas scale via GPR-rule aggregation over GEMs"
-  - slug: cellxgene-atlas-recovers-organ-and-cell-type-specific-metabolic-functions
-    title: "An atlas of metabolic-task activities across ~30M CELLxGENE cells recovers known organ- and cell-type-specific metabolic functions"
-  - slug: mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells
-    title: "MVA pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma"
-  - slug: kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec
-    title: "Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and elevated in malignant regions of endometrial carcinoma"
-  - slug: um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis
-    title: "uM1 macrophages in endometriosis eutopic endometrium show elevated myo-inositol-trisphosphate conversion and methylglyoxal production"
-  - slug: local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment
-    title: "Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization"
-  - slug: glucose-to-lactate-spatially-organized-malignant-regions-endometrial-carcinoma
-    title: "Glucose→lactate conversion is spatially organized in EEC (Moran's I ≈ 0.379) with highest activity in malignant-cell regions"
-  - slug: endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps
-    title: "Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation"
-  - slug: cac-prevalence-varies-by-cancer-type
-    title: "CAC prevalence varies dramatically by cancer type (15-30% blood/breast/prostate vs 40-80% lung/gastric/pancreatic)"
-  - slug: cac-subtypes-by-body-composition-pancreatic
-    title: "Pancreatic CAC has at least two body-composition subtypes (adipose-only, adipose+SKM), both worse survival"
-  - slug: tracerx-nsclc-cac-thresholds
-    title: "TRACERx-NSCLC defines CAC thresholds and links isolated SKM-loss to distinct tumour gene expression"
-  - slug: longitudinal-trajectories-cac-liver-cancer
-    title: "Latent longitudinal trajectories of SKM/adipose loss (Jin et al. liver cancer) define CAC"
-  - slug: body-composition-loss-precedes-pancreatic-cancer-diagnosis
-    title: "Body-composition loss precedes clinical pancreatic-cancer diagnosis (pre-CAC phase)"
-  - slug: sex-dimorphism-skm-loss-cac
-    title: "Skeletal-muscle loss in CAC shows sex dimorphism — males more consistently affected"
-  - slug: hgs-predicts-cac-survival
-    title: "Reduced handgrip strength predicts poor survival in CAC across European/Chinese/Indian populations"
-  - slug: folfirinox-vs-gemnab-differential-loss
-    title: "FOLFIRINOX → greater SKM loss in males; GEM/NAB → greater adipose loss in both sexes (advanced PDAC)"
-  - slug: pretreatment-weight-loss-poor-tumour-response
-    title: "Pretreatment weight loss → poor tumour response and severe dose-limiting toxicity in breast and GI cancers"
-  - slug: hypothalamic-fmri-distinguishes-cac-anorexia
-    title: "Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia"
-  - slug: pthrp-detection-nsclc-lower-lbm-higher-ree
-    title: "NSCLC patients with detectable PTHrP have lower LBM and higher REE"
-  - slug: cori-cycle-tumor-host-futile-cycle
-    title: "Cori cycle is rewired by tumour as energetically expensive futile cycle contributing to host hypermetabolism"
-  - slug: lactate-fuels-nsclc-tca
-    title: "Lactate is utilized by NSCLC tumours to fuel the TCA cycle (not just Cori-cycle waste)"
-  - slug: nsclc-tumour-higher-glucose-oxidation-than-adjacent
-    title: "NSCLC tumours exhibit higher glucose oxidation than adjacent normal tissue (in vivo isotope tracing)"
-  - slug: pet-ml-model-detects-cac-nsclc-81-accuracy
-    title: "PET/CT-based ML model identifies CAC at diagnosis in NSCLC with 81% accuracy"
-  - slug: cac-sat-adipocyte-size-reduced
-    title: "In GI-CAC, abdominal-SAT adipocytes are smaller (not fewer) than in weight-stable patients — lipolysis signature"
-  - slug: catecholamine-lipolysis-stronger-in-cac
-    title: "Lipolytic effect of catecholamines + natriuretic peptides on HSL is stronger in CAC patients"
-  - slug: wat-browning-human-cac-evidence-conflicting
-    title: "WAT browning evidence in human CAC is conflicting; large-cohort BAT prevalence is LOWER in CAC"
-  - slug: ups-markers-conflicting-evidence-cac
-    title: "MURF1/Atrogin-1 expression in CAC muscle is elevated in some cohorts, unchanged in others — definition heterogeneity"
-  - slug: muscle-protein-synthesis-lower-than-breakdown-cac
-    title: "GI-CAC: myofibrillar protein synthesis higher than controls but lower than breakdown — net catabolism"
-  - slug: postprandial-protein-synthesis-blunted-cac
-    title: "Postprandial muscle protein synthesis is blunted in CRC/PDAC-CAC — anabolic resistance"
-  - slug: chronic-hypoxia-degrades-cytosolic-vhl-while
-    title: "Under chronic hypoxia most cytosolic VHL is degraded while a residual VHL pool translocates to the mitochondria"
-    tags: [hypoxia, VHL, mitochondria, protein-translocation, mechanistic]
-    status: supported
-    confidence: 0.85
-  - slug: hypoxic-vhl-self-ubiquitinated-k171-k196
-    title: "Hypoxic VHL is self-ubiquitinated at K171/K196 by its own complex when HIF1A no longer shields it"
-    tags: [hypoxia, VHL, ubiquitination, HIF1A, shielding, mechanistic]
-    status: supported
-    confidence: 0.8
-  - slug: vhl-enters-mitochondria-tom22-recognition-alpha
-    title: "VHL is imported into mitochondria via TOM22 recognition of positively charged alpha-domain helices under hypoxia"
-    tags: [hypoxia, VHL, TOM22, mitochondrial-import, mechanistic]
-    status: supported
-    confidence: 0.8
-  - slug: mitochondrial-vhl-binds-mccc2-disrupts-mccc
-    title: "Mitochondrial VHL binds MCCC2 and disrupts the MCCC complex to inhibit leucine catabolism under hypoxia"
-    tags: [hypoxia, VHL, MCCC2, leucine, BCAA, mechanistic]
-    status: supported
-    confidence: 0.85
-  - slug: mccc2-depletion-phenocopies-vhl-growth-promotion
-    title: "MCCC2 depletion phenocopies VHL-mediated growth promotion in hypoxia but not normoxia"
-    tags: [hypoxia, VHL, MCCC2, cell-growth, phenocopy, methodological]
-    status: supported
-    confidence: 0.85
-  - slug: mitochondrial-vhl-reduces-leucine-derived-citrate
-    title: "Mitochondrial VHL reduces leucine-derived citrate and acetyl-CoA in hypoxia (13C tracing)"
-    tags: [hypoxia, VHL, leucine, 13C-tracing, acetyl-CoA, quantitative]
-    status: supported
-    confidence: 0.8
-  - slug: mitochondrial-vhl-stimulates-glutaminolysis-lipids-nucleotides
-    title: "Mitochondrial VHL stimulates glutaminolysis to generate lipids and nucleotides supporting hypoxic growth"
-    tags: [hypoxia, VHL, glutaminolysis, lipogenesis, nucleotides, mechanistic]
-    status: supported
-    confidence: 0.8
-  - slug: glutamine-essential-vhl-promoted-hypoxic-growth
-    title: "Glutamine is essential for VHL-promoted hypoxic growth, and citrate plus nucleosides rescue VHL-deficient cells"
-    tags: [hypoxia, VHL, glutamine, rescue, nucleosides, methodological]
-    status: supported
-    confidence: 0.8
-  - slug: leucine-accumulation-downstream-catabolites-drives-hypoxic
-    title: "Leucine accumulation, not downstream catabolites, drives the hypoxic VHL metabolic phenotype"
-    tags: [hypoxia, leucine, BCAT, alpha-KIC, methodological]
-    status: supported
-    confidence: 0.8
-  - slug: leucine-isoleucine-valine-allosterically-activates-gdh
-    title: "Leucine, but not isoleucine or valine, allosterically activates GDH in a dose-dependent manner"
-    tags: [leucine, GDH, GLUD1, allostery, quantitative]
-    status: supported
-    confidence: 0.85
-  - slug: leucine-insensitive-gdh-r204m-abolishes-vhl
-    title: "Leucine-insensitive GDH R204M abolishes VHL-promoted reductive glutaminolysis and hypoxic growth"
-    tags: [hypoxia, GDH, R204M, glutaminolysis, leucine, methodological]
-    status: supported
-    confidence: 0.85
-  - slug: leucine-repletion-fails-activate-mtor-hypoxia
-    title: "Leucine repletion fails to activate mTOR under hypoxia, isolating GDH as the relevant leucine effector"
-    tags: [hypoxia, leucine, mTOR, GDH, mechanistic]
-    status: supported
-    confidence: 0.75
-  - slug: src-phosphorylates-vhl-y185-only-under
-    title: "SRC phosphorylates VHL Y185 only under hypoxia, enabling the VHL–MCCC2 interaction"
-    tags: [hypoxia, SRC, VHL, Y185, phosphorylation, mechanistic]
-    status: supported
-    confidence: 0.8
-  - slug: src-hypoxia-induced-hif-hif-through
-    title: "SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements"
-    tags: [hypoxia, SRC, HIF1, HIF2, HRE, mechanistic]
-    status: weakly_supported
-    confidence: 0.7
-  - slug: prmt5-dimethylates-mccc2-r292-under-normoxia
-    title: "PRMT5 symmetrically dimethylates MCCC2 R292 under normoxia to block the VHL–MCCC2 interaction"
-    tags: [hypoxia, PRMT5, MCCC2, R292, arginine-methylation, mechanistic]
-    status: supported
-    confidence: 0.8
-  - slug: src-phosphorylates-prmt5-y283-inhibit-mccc2
-    title: "SRC phosphorylates PRMT5 Y283 to inhibit MCCC2 R292 dimethylation under hypoxia"
-    tags: [hypoxia, SRC, PRMT5, Y283, MCCC2, methylation, mechanistic]
-    status: supported
-    confidence: 0.75
-  - slug: vhly151f-knock-mice-show-worsened-renal
-    title: "VhlY151F knock-in mice show worsened renal ischemia-reperfusion injury, rescued by BCAT inhibition and dietary leucine"
-    tags: [hypoxia, VHL, ischemia-reperfusion, kidney, in-vivo, mouse, mechanistic]
-    status: supported
-    confidence: 0.8
-  - slug: type-2b-vhl-missense-mutants-enhance
-    title: "Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression"
-    tags: [VHL, ccRCC, kidney-cancer, mutation-subtype, TCGA, correlational, clinical]
-    status: weakly_supported
-    confidence: 0.7
 Summary:
 
 foundations:
@@ -7556,6 +8000,10 @@ foundations:
     title: "10x Genomics Visium — sequencing-based spatial transcriptomics"
     status: mainstream
     domain: spatial-transcriptomics
+  - slug: 13c6-glucose-tracer
+    title: "[13C6]-glucose tracer"
+    status: mainstream
+    domain: mass spectrometry / metabolic flux
   - slug: 2-hydroxyglutarate
     title: "2-hydroxyglutarate (2HG) — oncometabolite"
     status: mainstream
@@ -7588,6 +8036,14 @@ foundations:
     title: "Adrb2 — β2 adrenergic receptor"
     status: mainstream
     domain: GPCR / adrenergic signaling / immunology
+  - slug: adu-s100-sting-agonist
+    title: "ADU-S100 (MIW815) — phosphorothioate cyclic dinucleotide STING agonist"
+    status: historical
+    domain: pharmacology / STING agonist
+  - slug: adversarial-domain-adaptation-dann
+    title: "Adversarial domain adaptation (DANN-style batch alignment)"
+    status: mainstream
+    domain: methods
   - slug: ahr-ido1-tryptophan-axis
     title: "AHR / IDO1 / IL4I1 tryptophan-degradation immunosuppression axis"
     status: mainstream
@@ -7641,6 +8097,10 @@ foundations:
     title: "ATAC-seq (Assay for Transposase-Accessible Chromatin)"
     status: mainstream
     domain: genomics / methods / epigenetics
+  - slug: atgl-adipose-triglyceride-lipase
+    title: "ATGL (adipose triglyceride lipase / PNPLA2)"
+    status: mainstream
+    domain: adipose biology / lipid metabolism
   - slug: atm-kinase
     title: "ATM (Ataxia Telangiectasia Mutated kinase)"
     status: mainstream
@@ -7653,6 +8113,10 @@ foundations:
     title: "ATR (Ataxia Telangiectasia and Rad3-related kinase)"
     status: mainstream
     domain: dna-repair
+  - slug: atrogin1-fbxo32
+    title: "Atrogin-1 / FBXO32"
+    status: mainstream
+    domain: muscle biology / ubiquitin-proteasome
   - slug: aucell-gene-set-activity
     title: "AUCell — per-cell gene set activity scoring"
     status: mainstream
@@ -7690,6 +8154,14 @@ foundations:
     title: "BBKNN — Batch-Balanced k-Nearest Neighbors graph integration"
     status: mainstream
     domain: methods / single-cell-integration
+  - slug: bcat-branched-chain-aminotransferase
+    title: "BCAT — branched-chain aminotransferase"
+    status: mainstream
+    domain: molecular biology / amino acid metabolism
+  - slug: bcat-in-2-inhibitor
+    title: "BCAT-IN-2 — branched-chain aminotransferase (BCAT) inhibitor"
+    status: mainstream
+    domain: pharmacology / metabolism tool compound
   - slug: behav3d-imaging
     title: "BEHAV3D — live confocal 3D imaging + transcriptomic phenotyping of immune cell behaviour"
     status: mainstream
@@ -7727,6 +8199,14 @@ foundations:
     title: "c-Maf (MAF)"
     status: mainstream
     domain: transcription factor / bZIP / Tr1 lineage
+  - slug: c26-colon-carcinoma-cachexia-model
+    title: "C26 colon carcinoma mouse model of cancer cachexia"
+    status: mainstream
+    domain: oncology / cachexia models
+  - slug: c2c12-myotube-model
+    title: "C2C12 myotube model"
+    status: mainstream
+    domain: cell biology / muscle biology
   - slug: calreticulin-calr
     title: "Calreticulin (CALR) — ER chaperone and surface pro-phagocytic 'eat-me' signal"
     status: mainstream
@@ -7739,6 +8219,10 @@ foundations:
     title: "Cancer-associated fibroblast (CAF) — tumour-microenvironment stromal cell"
     status: mainstream
     domain: cell biology / oncology
+  - slug: cancer-cachexia
+    title: "Cancer cachexia"
+    status: mainstream
+    domain: oncology / metabolic disease
   - slug: candida-albicans-fungus
     title: "Candida albicans (opportunistic fungal pathogen)"
     status: mainstream
@@ -7767,6 +8251,10 @@ foundations:
     title: "CCL11 (Eotaxin-1) — eosinophil chemoattractant chemokine"
     status: mainstream
     domain: chemokine / eosinophil biology / allergic inflammation
+  - slug: ccl19-chemokine
+    title: "CCL19 (C-C motif chemokine ligand 19)"
+    status: mainstream
+    domain: immunology / chemokine
   - slug: ccl2-mcp1
     title: "CCL2 / MCP-1 — monocyte chemoattractant protein-1"
     status: mainstream
@@ -7833,6 +8321,14 @@ foundations:
     title: "Cemiplimab — anti-PD-1 monoclonal antibody"
     status: mainstream
     domain: drugs / immune-checkpoint inhibitors
+  - slug: cgamp-cyclic-dinucleotide
+    title: "2′3′-cGAMP — cyclic GMP-AMP second messenger"
+    status: mainstream
+    domain: immunology / signaling
+  - slug: cgas-cyclic-gmp-amp-synthase
+    title: "cGAS — cyclic GMP-AMP synthase"
+    status: mainstream
+    domain: immunology / innate immunity
   - slug: ch-223191-ahr-antagonist
     title: "CH-223191 (AHR antagonist)"
     status: mainstream
@@ -7849,6 +8345,10 @@ foundations:
     title: "CIBERSORTx — bulk deconvolution"
     status: mainstream
     domain: computational-biology / methods
+  - slug: cite-seq-citeseq
+    title: "CITE-seq — cellular indexing of transcriptomes and epitopes by sequencing"
+    status: mainstream
+    domain: single-cell-genomics / methods
   - slug: clever-1-stab1-receptor
     title: "CLEVER-1 / STAB1"
     status: mainstream
@@ -7873,6 +8373,10 @@ foundations:
     title: "CONCH — pathology vision-language foundation model"
     status: mainstream
     domain: methods / digital-pathology / foundation-models
+  - slug: contrastive-learning
+    title: "Contrastive learning"
+    status: mainstream
+    domain: methods
   - slug: cosmx-spatial-transcriptomics
     title: "CosMx Spatial Molecular Imager — NanoString in situ multiplex transcriptomics"
     status: mainstream
@@ -7897,10 +8401,18 @@ foundations:
     title: "CREB1 — cAMP response element binding protein 1"
     status: mainstream
     domain: transcription / signalling
+  - slug: crumblr-cell-composition
+    title: "crumblr — fast mixed-model testing of cell-composition shifts"
+    status: mainstream
+    domain: methods / single-cell statistics
   - slug: csf1r-receptor
     title: "CSF1R — colony-stimulating factor 1 receptor"
     status: mainstream
     domain: cell biology / immunology
+  - slug: ctla-4-checkpoint
+    title: "CTLA-4 — cytotoxic T-lymphocyte-associated protein 4"
+    status: mainstream
+    domain: immunology
   - slug: ctnnb1-beta-catenin
     title: "CTNNB1 / β-catenin"
     status: mainstream
@@ -7913,6 +8425,10 @@ foundations:
     title: "Cx3cr1-creER fate mapping (monocyte progeny)"
     status: mainstream
     domain: mouse genetics / lineage tracing / immunology
+  - slug: cxcl12-chemokine
+    title: "CXCL12 (Stromal cell-derived factor 1)"
+    status: mainstream
+    domain: immunology / chemokine
   - slug: cxcl13-chemokine
     title: "CXCL13 chemokine"
     status: mainstream
@@ -7933,6 +8449,10 @@ foundations:
     title: "CytoTRACE — single-cell differentiation state predictor"
     status: mainstream
     domain: single-cell genomics / methods
+  - slug: czi-cellxgene-atlas
+    title: "CZI CELLxGENE — harmonized human/mouse single-cell atlas"
+    status: mainstream
+    domain: single-cell genomics / atlases
   - slug: dbit-seq-deterministic-barcoding-in-tissue
     title: "DBiT-seq — Deterministic Barcoding in Tissue via microfluidics"
     status: mainstream
@@ -7961,10 +8481,18 @@ foundations:
     title: "DIA-MS — Data-Independent Acquisition Mass Spectrometry"
     status: mainstream
     domain: proteomics
+  - slug: diabzi-amidobenzimidazole
+    title: "diABZI — diamidobenzimidazole non-CDN STING agonist"
+    status: mainstream
+    domain: pharmacology / STING agonist
   - slug: dmba-carcinogen
     title: "DMBA — 7,12-dimethylbenz[a]anthracene carcinogen"
     status: mainstream
     domain: methods
+  - slug: dmxaa-vadimezan
+    title: "DMXAA / vadimezan — murine-specific STING agonist"
+    status: historical
+    domain: pharmacology / STING agonist
   - slug: dnmt1-maintenance-methyltransferase
     title: "DNMT1 — DNA (cytosine-5)-methyltransferase 1 (maintenance)"
     status: mainstream
@@ -7998,6 +8526,10 @@ foundations:
     title: "ecDNA — Extrachromosomal DNA"
     status: mainstream
     domain: genomics
+  - slug: ecf506-src-inhibitor
+    title: "eCF506 — selective SRC kinase inhibitor"
+    status: mainstream
+    domain: pharmacology / kinase inhibitor
   - slug: egfr-mutation-luad
     title: "EGFR activating mutations in lung adenocarcinoma"
     status: mainstream
@@ -8010,6 +8542,10 @@ foundations:
     title: "EM-seq — Enzymatic Methyl-sequencing"
     status: mainstream
     domain: genomics / methods / epigenetics
+  - slug: enpp1-cgamp-hydrolase
+    title: "ENPP1 — ectonucleotide pyrophosphatase/phosphodiesterase 1"
+    status: mainstream
+    domain: immunology / extracellular enzymology
   - slug: eosinophil-peroxidase-epx
     title: "Eosinophil peroxidase (Epx) — eosinophil granule protein & Cre-driver locus"
     status: mainstream
@@ -8026,6 +8562,10 @@ foundations:
     title: "Evofosfamide (TH-302) — hypoxia-activated prodrug"
     status: mainstream
     domain: pharmacology / oncology
+  - slug: ezh2-histone-methyltransferase
+    title: "EZH2 — enhancer of zeste homolog 2"
+    status: mainstream
+    domain: epigenetics / chromatin
   - slug: fasn-fatty-acid-synthase
     title: "FASN — fatty acid synthase"
     status: mainstream
@@ -8046,10 +8586,18 @@ foundations:
     title: "FICZ (6-formylindolo[3,2-b]carbazole)"
     status: mainstream
     domain: immunology / AHR ligand / tryptophan photoproduct
+  - slug: fidas-5-mat-inhibitor
+    title: "FIDAS-5 — methionine adenosyltransferase (MAT) inhibitor"
+    status: mainstream
+    domain: chemical biology / one-carbon biology
   - slug: fmiso-hypoxia-pet-tracer
     title: "¹⁸F-FMISO (Fluoromisonidazole) — hypoxia PET tracer"
     status: mainstream
     domain: radiology / nuclear-medicine / hypoxia-imaging
+  - slug: fmri-functional-mri-method
+    title: "fMRI (functional magnetic resonance imaging)"
+    status: mainstream
+    domain: neuroimaging / method
   - slug: folr2-receptor
     title: "FOLR2 — folate receptor β / FRβ"
     status: mainstream
@@ -8083,10 +8631,18 @@ foundations:
     tags: [transcription-factor, macrophage-identity, peritoneal-macrophage, tissue-resident-macrophage]
     status: mainstream
     domain: immunology
+  - slug: gdf-15-growth-differentiation-factor-15
+    title: "GDF-15 (growth differentiation factor 15)"
+    status: mainstream
+    domain: cytokine biology / appetite regulation / cachexia
   - slug: gemm-genetically-engineered-mouse-model
     title: "GEMM — Genetically engineered mouse model"
     status: mainstream
     domain: methods
+  - slug: genome-scale-metabolic-model
+    title: "Genome-scale metabolic model (GEM)"
+    status: mainstream
+    domain: systems biology / metabolism
   - slug: gfi1-tf
     title: "GFI1"
     status: mainstream
@@ -8099,10 +8655,18 @@ foundations:
     title: "GISTIC 2.0 — Genomic Identification of Significant Targets in Cancer"
     status: mainstream
     domain: methods / genomics
+  - slug: glud1-glutamate-dehydrogenase
+    title: "GDH / GLUD1 — glutamate dehydrogenase"
+    status: mainstream
+    domain: molecular biology / amino acid metabolism / mitochondria
   - slug: glue-multiomics-integration
     title: "GLUE — graph-linked unified embedding for unpaired multi-omics integration"
     status: mainstream
     domain: methods / single-cell-integration
+  - slug: gnmt-glycine-n-methyltransferase
+    title: "GNMT — glycine N-methyltransferase"
+    status: mainstream
+    domain: metabolism / methylation
   - slug: gpnmb-protein
     title: "GPNMB — glycoprotein non-metastatic melanoma protein B (osteoactivin)"
     status: mainstream
@@ -8151,6 +8715,10 @@ foundations:
     title: "HIC1"
     status: mainstream
     domain: immunology
+  - slug: hidradenitis-suppurativa-disease
+    title: "Hidradenitis suppurativa (HS)"
+    status: mainstream
+    domain: dermatology / chronic inflammatory disease
   - slug: hif1a
     title: "HIF1α (Hypoxia-Inducible Factor 1α)"
     status: mainstream
@@ -8184,6 +8752,10 @@ foundations:
     title: "HOMER — motif enrichment analysis"
     status: mainstream
     domain: computational-biology / methods
+  - slug: hotspot-gene-module-analysis
+    title: "Hotspot — gene module analysis on scRNA-seq latent embeddings"
+    status: mainstream
+    domain: computational-biology / methods
   - slug: hoxd13-tf
     title: "HOXD13 (homeodomain transcription factor)"
     status: mainstream
@@ -8192,6 +8764,10 @@ foundations:
     title: "HPV oncoproteins E6/E7"
     status: mainstream
     domain: oncology
+  - slug: hsl-hormone-sensitive-lipase
+    title: "HSL (hormone-sensitive lipase / LIPE)"
+    status: mainstream
+    domain: adipose biology / lipid metabolism
   - slug: hsp90-aip-chaperone-complex
     title: "HSP90 / AIP (XAP2) / p23 — AHR cytosolic chaperone complex"
     status: mainstream
@@ -8236,6 +8812,10 @@ foundations:
     title: "IL-18 (Interleukin-18)"
     status: mainstream
     domain: immunology / cytokine
+  - slug: il-2-cytokine
+    title: "IL-2 — interleukin-2 cytokine"
+    status: mainstream
+    domain: immunology
   - slug: il-22-cytokine
     title: "IL-22 (Interleukin-22)"
     status: mainstream
@@ -8276,6 +8856,10 @@ foundations:
     title: "Imiquimod (IMQ) — TLR7/8 agonist and psoriasis model"
     status: mainstream
     domain: small-molecule / TLR agonist / dermatology model
+  - slug: inca-isotopomer-network-analysis
+    title: "INCA — Isotopomer Network Compartmental Analysis"
+    status: mainstream
+    domain: metabolic flux analysis / mass spectrometry
   - slug: indole-3-aldehyde-i3ald
     title: "Indole-3-aldehyde (I3Ald, microbiota-derived AHR agonist)"
     status: mainstream
@@ -8304,6 +8888,10 @@ foundations:
     title: "IREA — Immune Response Enrichment Analysis"
     status: mainstream
     domain: immunology / bioinformatics
+  - slug: irf3-interferon-regulatory-factor-3
+    title: "IRF3 — interferon regulatory factor 3"
+    status: mainstream
+    domain: immunology / transcription factor
   - slug: irf9-tf
     title: "IRF9 — interferon regulatory factor 9"
     status: mainstream
@@ -8346,6 +8934,10 @@ foundations:
     title: "kBET — k-nearest-neighbor batch effect test"
     status: mainstream
     domain: methods / batch-effect-metric / single-cell
+  - slug: kegg-pathway-database
+    title: "KEGG — Kyoto Encyclopedia of Genes and Genomes pathway database"
+    status: mainstream
+    domain: bioinformatics / pathway analysis
   - slug: klf4-tf
     title: "KLF4 (Krüppel-like factor 4)"
     status: mainstream
@@ -8398,6 +8990,10 @@ foundations:
     title: "Leiden clustering — community detection on kNN graphs"
     status: mainstream
     domain: methods / clustering / single-cell
+  - slug: leucine-bcaa
+    title: "Leucine (branched-chain amino acid)"
+    status: mainstream
+    domain: biochemistry / amino acid metabolism / nutrient signaling
   - slug: lgals9-galectin-9
     title: "LGALS9 (Galectin-9) — β-galactoside-binding lectin in immune regulation"
     status: mainstream
@@ -8451,14 +9047,26 @@ foundations:
     title: "MARCO scavenger receptor"
     status: mainstream
     domain: immunology
+  - slug: mat1a-methionine-adenosyltransferase-1a
+    title: "MAT1A — methionine adenosyltransferase 1A (hepatic SAM synthase)"
+    status: mainstream
+    domain: metabolism / one-carbon biology
   - slug: mat2a-methionine-adenosyltransferase
     title: "MAT2A — methionine adenosyltransferase 2A"
     status: mainstream
     domain: metabolism / one-carbon biology
+  - slug: mc38-syngeneic-tumor-model
+    title: "MC38 — murine colorectal carcinoma syngeneic tumor model"
+    status: mainstream
+    domain: oncology / immunology
   - slug: mc903-calcipotriol-ad-model
     title: "MC903 (calcipotriol) — murine atopic dermatitis model"
     status: mainstream
     domain: mouse model / atopic dermatitis / vitamin D analog
+  - slug: mccc2-3-methylcrotonyl-coa-carboxylase
+    title: "MCCC2 — 3-methylcrotonyl-CoA carboxylase subunit 2"
+    status: mainstream
+    domain: molecular biology / amino acid metabolism / mitochondria
   - slug: mclust-r
     title: "mclust — Gaussian mixture model clustering in R"
     status: mainstream
@@ -8487,6 +9095,10 @@ foundations:
     title: "TAM receptors — TYRO3, AXL, MERTK"
     status: mainstream
     domain: cell biology / immunology
+  - slug: metabolic-task-cellfie
+    title: "Metabolic task (CellFie / scCellFie)"
+    status: mainstream
+    domain: systems biology / metabolism
   - slug: metacell-aggregation
     title: "MetaCell aggregation — single-cell coarse-graining for large-scale integration"
     status: mainstream
@@ -8523,6 +9135,14 @@ foundations:
     title: "MMR core (MLH1 / MSH2 / MSH6)"
     status: mainstream
     domain: dna-repair
+  - slug: mmp14-matrix-metalloproteinase
+    title: "MMP14 — matrix metalloproteinase 14 (MT1-MMP)"
+    status: mainstream
+    domain: cell-biology / oncology
+  - slug: mnam-1-methylnicotinamide
+    title: "MNAM (1-methylnicotinamide)"
+    status: mainstream
+    domain: metabolism / methylation
   - slug: mnn-fastmnn-integration
     title: "MNN and FastMNN — mutual-nearest-neighbor scRNA-seq integration"
     status: mainstream
@@ -8539,6 +9159,14 @@ foundations:
     title: "MPO — myeloperoxidase"
     status: mainstream
     domain: molecular-biology / immunology / oncology
+  - slug: mps1-mitotic-checkpoint-kinase
+    title: "MPS1 — mitotic checkpoint serine/threonine kinase (TTK)"
+    status: mainstream
+    domain: cell biology / mitosis
+  - slug: mrvi-multi-resolution-variational-inference
+    title: "MrVI — multi-resolution variational inference for treatment effects in scRNA-seq"
+    status: mainstream
+    domain: computational-biology / methods
   - slug: ms4a3-tdtom-monocyte-tracing
     title: "Ms4a3-tdTom reporter (monocyte progeny tracing)"
     status: mainstream
@@ -8552,6 +9180,10 @@ foundations:
     tags: [kinase, nutrient-sensing, immunometabolism, autophagy]
     status: mainstream
     domain: immunology
+  - slug: multinichenetr-cell-cell-comm
+    title: "MultiNicheNetR — multi-sample ligand-receptor cell-cell communication inference"
+    status: mainstream
+    domain: computational-biology / methods
   - slug: multiple-sclerosis-eae
     title: "Multiple sclerosis & EAE (experimental autoimmune encephalomyelitis)"
     status: mainstream
@@ -8562,6 +9194,14 @@ foundations:
     status: mainstream
     domain: imaging / spatial-biology
     maturity: established
+  - slug: murf1-trim63
+    title: "MURF1 / TRIM63 (muscle RING finger 1)"
+    status: mainstream
+    domain: muscle biology / ubiquitin-proteasome
+  - slug: music-deconvolution
+    title: "MuSiC — multi-subject single-cell bulk deconvolution"
+    status: mainstream
+    domain: methods
   - slug: myc-oncogene
     title: "MYC (c-Myc proto-oncogene)"
     status: mainstream
@@ -8610,6 +9250,10 @@ foundations:
     title: "NNK — nicotine-derived nitrosamine ketone (tobacco carcinogen)"
     status: mainstream
     domain: cancer biology / carcinogens
+  - slug: nnmt-nicotinamide-n-methyltransferase
+    title: "NNMT — nicotinamide N-methyltransferase"
+    status: mainstream
+    domain: metabolism / methylation
   - slug: nnsvg-svg
     title: "nnSVG — nearest-neighbour Gaussian-process SVG detection"
     status: mainstream
@@ -8663,6 +9307,10 @@ foundations:
     title: "PageRank algorithm"
     status: mainstream
     domain: methods
+  - slug: panc02-pdac-cachexia-model
+    title: "Panc02 PDAC mouse model of cancer cachexia"
+    status: mainstream
+    domain: oncology / cachexia models
   - slug: paneth-cells
     title: "Paneth cells — intestinal crypt secretory cells and stem-cell-niche"
     status: mainstream
@@ -8742,6 +9390,10 @@ foundations:
     title: "PRDM1 / BLIMP1"
     status: mainstream
     domain: immunology
+  - slug: prmt5-arginine-methyltransferase
+    title: "PRMT5 — protein arginine methyltransferase 5"
+    status: mainstream
+    domain: molecular biology / post-translational modification / epigenetics
   - slug: prodynorphin-pdyn-neuropeptide
     title: "Prodynorphin (Pdyn) — opioid neuropeptide precursor & noradrenergic sympathetic subtype marker"
     status: mainstream
@@ -8750,6 +9402,10 @@ foundations:
     title: "Propeller — cell-type composition test for scRNAseq"
     status: mainstream
     domain: computational-biology / methods
+  - slug: pseudobulk-simulation-deconvolution
+    title: "Pseudobulk / pseudotissue simulation for deconvolution training"
+    status: mainstream
+    domain: methods
   - slug: pseudomonas-aeruginosa-pathogen
     title: "Pseudomonas aeruginosa (opportunistic Gram-negative pathogen)"
     status: mainstream
@@ -8774,6 +9430,10 @@ foundations:
     title: "PTGS2 / COX2 — prostaglandin-endoperoxide synthase 2 (cyclooxygenase 2)"
     status: mainstream
     domain: enzymology / inflammation
+  - slug: pthrp-parathyroid-hormone-related-protein
+    title: "PTHrP (parathyroid hormone-related protein)"
+    status: mainstream
+    domain: tumour-secreted factor / endocrine / cachexia
   - slug: px-478-hif1a-inhibitor
     title: "PX-478 — HIF-1α small-molecule inhibitor"
     status: mainstream
@@ -8786,6 +9446,14 @@ foundations:
     title: "Pyocyanin (PYO, P. aeruginosa phenazine AHR agonist)"
     status: mainstream
     domain: microbial chemistry / AHR ligand / Pseudomonas aeruginosa
+  - slug: pyruvate-carboxylase-pc
+    title: "Pyruvate carboxylase (PC)"
+    status: mainstream
+    domain: metabolism / TCA anaplerosis
+  - slug: r162-gdh-inhibitor
+    title: "R162 — glutamate dehydrogenase (GDH) inhibitor"
+    status: mainstream
+    domain: pharmacology / metabolism tool compound
   - slug: rad51-recombinase
     title: "RAD51 recombinase"
     status: mainstream
@@ -8794,6 +9462,10 @@ foundations:
     title: "RB1 (retinoblastoma 1) tumor suppressor"
     status: mainstream
     domain: oncology
+  - slug: rctd-deconvolution
+    title: "RCTD — Robust Cell Type Decomposition for spatial transcriptomics"
+    status: mainstream
+    domain: methods
   - slug: red2onco-multicolour-reporter
     title: "Red2Onco — Multicolour clone tracing of oncogenic clones"
     status: mainstream
@@ -8802,6 +9474,10 @@ foundations:
     title: "Repeated high-platform stress (RHS) — murine psychological stress paradigm"
     status: mainstream
     domain: behavioral paradigm / psychological stress / mouse
+  - slug: resolvi-spatial-transcript-correction
+    title: "ResolVI — deep-learning correction of transcript misassignment in subcellular spatial transcriptomics"
+    status: mainstream
+    domain: computational-biology / methods / spatial-omics
   - slug: reticle-realtime-search-acquisition
     title: "RETICLE — real-time search-assisted MS acquisition for scp-MS"
     status: mainstream
@@ -8834,10 +9510,22 @@ foundations:
     title: "S1PR1 — sphingosine-1-phosphate receptor 1"
     status: mainstream
     domain: GPCR signaling / immunology
+  - slug: sarcopenia-clinical-syndrome
+    title: "Sarcopenia (clinical syndrome)"
+    status: mainstream
+    domain: clinical medicine / muscle biology
+  - slug: sarcosine-metabolite
+    title: "Sarcosine (N-methylglycine)"
+    status: mainstream
+    domain: metabolism / one-carbon biology
   - slug: sars-cov-2-coronavirus
     title: "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2)"
     status: mainstream
     domain: virology / coronavirus / COVID-19
+  - slug: sat1-spermidine-spermine-acetyltransferase
+    title: "SAT1 — spermidine/spermine N1-acetyltransferase"
+    status: mainstream
+    domain: metabolism / polyamine biology
   - slug: sb297006-ccr3-antagonist
     title: "SB297006 — selective CCR3 antagonist"
     status: mainstream
@@ -8846,6 +9534,10 @@ foundations:
     title: "SBRT — stereotactic body radiotherapy"
     status: mainstream
     domain: radiation oncology / clinical methods
+  - slug: scaden-deconvolution
+    title: "Scaden — deep-learning bulk deconvolution from simulated tissue"
+    status: mainstream
+    domain: methods
   - slug: scanorama-integration
     title: "Scanorama — heterogeneous scRNA-seq integration via panoramic stitching"
     status: mainstream
@@ -8882,6 +9574,10 @@ foundations:
     title: "scIB — single-cell Integration Benchmark Python module and Snakemake pipeline"
     status: mainstream
     domain: methods / benchmarking / single-cell-integration
+  - slug: scpdeconv-proteomics-deconvolution
+    title: "scpDeconv — domain-adversarial proteome deconvolution"
+    status: mainstream
+    domain: methods
   - slug: scpred-classifier
     title: "scPred — probabilistic cell-type / spot classification on PC space"
     status: mainstream
@@ -8940,6 +9636,10 @@ foundations:
     title: "SingleR — reference-based automated cell-type annotation for scRNAseq"
     status: mainstream
     domain: computational-biology / methods
+  - slug: skin-associated-lymphoid-tissue-salt
+    title: "Skin-associated lymphoid tissue (SALT)"
+    status: historical
+    domain: immunology / skin biology
   - slug: slc1a5-asct2-glutamine-transporter
     title: "SLC1A5 — ASCT2 / glutamine transporter"
     status: mainstream
@@ -9049,10 +9749,22 @@ foundations:
     title: "STAT6 — signal transducer and activator of transcription 6"
     status: mainstream
     domain: immunology
+  - slug: sting-stimulator-of-interferon-genes
+    title: "STING — stimulator of interferon genes"
+    status: mainstream
+    domain: immunology / innate immunity
+  - slug: stk11-lkb1-tumor-suppressor
+    title: "STK11 / LKB1 — serine/threonine kinase tumor suppressor"
+    status: mainstream
+    domain: oncology / tumor suppressor
   - slug: sucnr1-succinate-receptor
     title: "SUCNR1 / GPR91 — succinate receptor"
     status: mainstream
     domain: molecular-biology / metabolism / cell-signaling
+  - slug: sw480-humanised-cachexia-model
+    title: "SW480 humanised cachexia mouse model"
+    status: mainstream
+    domain: oncology / cachexia models
   - slug: swav-self-supervised-framework
     title: "SwAV — Swapping Assignments between Views (self-supervised learning)"
     status: mainstream
@@ -9081,6 +9793,10 @@ foundations:
     title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
     status: mainstream
     domain: immunology / dermatology / small-molecule drug
+  - slug: tbk1-tank-binding-kinase-1
+    title: "TBK1 — TANK-binding kinase 1"
+    status: mainstream
+    domain: immunology / kinase
   - slug: tbx5-tf
     title: "TBX5 (T-box cardiac/limb TF)"
     status: mainstream
@@ -9137,6 +9853,10 @@ foundations:
     title: "TOBIAS — transcription factor footprinting on ATAC-seq"
     status: mainstream
     domain: methods
+  - slug: tom22-mitochondrial-import-receptor
+    title: "TOM22 / TOM complex — translocase of the outer mitochondrial membrane"
+    status: mainstream
+    domain: cell biology / mitochondrial protein import
   - slug: totalvi-cite-seq-modeling
     title: "totalVI — paired probabilistic modeling for CITE-seq"
     status: mainstream
@@ -9145,10 +9865,18 @@ foundations:
     title: "TP53 (Tumor Protein 53 / p53)"
     status: mainstream
     domain: molecular-biology / oncology / DNA-damage-response
+  - slug: tracerx-nsclc-cohort
+    title: "TRACERx — TRAcking Cancer Evolution through therapy (Rx)"
+    status: mainstream
+    domain: clinical cohort / cancer evolution / NSCLC
   - slug: trem2-receptor
     title: "TREM2 — triggering receptor expressed on myeloid cells 2"
     status: mainstream
     domain: immunology / cell-biology
+  - slug: trex1-exonuclease
+    title: "TREX1 — three-prime repair exonuclease 1"
+    status: mainstream
+    domain: immunology / DNA metabolism
   - slug: trvae-conditional-vae
     title: "trVAE — conditional out-of-distribution VAE for unpaired single-cell data"
     status: mainstream
@@ -9173,6 +9901,10 @@ foundations:
     title: "UCHL3 (ubiquitin carboxyl-terminal hydrolase L3)"
     status: mainstream
     domain: molecular biology / deubiquitinase
+  - slug: ucp1
+    title: "UCP1 (uncoupling protein 1)"
+    status: mainstream
+    domain: mitochondrial biology / adipose / thermogenesis
   - slug: ucp2-mitochondrial-uncoupler
     title: "UCP2 (mitochondrial uncoupling protein 2)"
     tags: [mitochondrial, efferocytosis, macrophage, bioenergetics]
@@ -9202,6 +9934,10 @@ foundations:
     title: "Vorasidenib — brain-penetrant mIDH1/mIDH2 inhibitor"
     status: mainstream
     domain: oncology-therapeutics
+  - slug: vsclust-clustering
+    title: "VSClust — variance-sensitive clustering of omics data"
+    status: mainstream
+    domain: bioinformatics / clustering
   - slug: wgcna-weighted-gene-coexpression
     title: "WGCNA — Weighted Gene Co-expression Network Analysis"
     status: mainstream
@@ -9222,267 +9958,3 @@ foundations:
     title: "ZSCAN20"
     status: mainstream
     domain: immunology
-  - slug: il-2-cytokine
-    title: "IL-2 — interleukin-2 cytokine"
-    status: mainstream
-    domain: immunology
-  - slug: mmp14-matrix-metalloproteinase
-    title: "MMP14 — matrix metalloproteinase 14 (MT1-MMP)"
-    status: mainstream
-    domain: cell-biology / oncology
-  - slug: ctla-4-checkpoint
-    title: "CTLA-4 — cytotoxic T-lymphocyte-associated protein 4"
-    status: mainstream
-    domain: immunology
-  - slug: mc38-syngeneic-tumor-model
-    title: "MC38 — murine colorectal carcinoma syngeneic tumor model"
-    status: mainstream
-    domain: oncology / immunology
-  - slug: mrvi-multi-resolution-variational-inference
-    title: "MrVI — multi-resolution variational inference for treatment effects in scRNA-seq"
-    status: mainstream
-    domain: computational-biology / methods
-  - slug: hotspot-gene-module-analysis
-    title: "Hotspot — gene module analysis on scRNA-seq latent embeddings"
-    status: mainstream
-    domain: computational-biology / methods
-  - slug: multinichenetr-cell-cell-comm
-    title: "MultiNicheNetR — multi-sample ligand-receptor cell-cell communication inference"
-    status: mainstream
-    domain: computational-biology / methods
-  - slug: resolvi-spatial-transcript-correction
-    title: "ResolVI — deep-learning correction of transcript misassignment in subcellular spatial transcriptomics"
-    status: mainstream
-    domain: computational-biology / methods / spatial-omics
-  - slug: cite-seq-citeseq
-    title: "CITE-seq — cellular indexing of transcriptomes and epitopes by sequencing"
-    status: mainstream
-    domain: single-cell-genomics / methods
-  - slug: ccl19-chemokine
-    title: "CCL19 (C-C motif chemokine ligand 19)"
-    status: mainstream
-    domain: immunology / chemokine
-  - slug: cxcl12-chemokine
-    title: "CXCL12 (Stromal cell-derived factor 1)"
-    status: mainstream
-    domain: immunology / chemokine
-  - slug: crumblr-cell-composition
-    title: "crumblr — fast mixed-model testing of cell-composition shifts"
-    status: mainstream
-    domain: methods / single-cell statistics
-  - slug: hidradenitis-suppurativa-disease
-    title: "Hidradenitis suppurativa (HS)"
-    status: mainstream
-    domain: dermatology / chronic inflammatory disease
-  - slug: skin-associated-lymphoid-tissue-salt
-    title: "Skin-associated lymphoid tissue (SALT)"
-    status: historical
-    domain: immunology / skin biology
-
-  - slug: cgas-cyclic-gmp-amp-synthase
-    title: "cGAS — cyclic GMP-AMP synthase"
-    status: mainstream
-    domain: immunology / innate immunity
-  - slug: sting-stimulator-of-interferon-genes
-    title: "STING — stimulator of interferon genes"
-    status: mainstream
-    domain: immunology / innate immunity
-  - slug: cgamp-cyclic-dinucleotide
-    title: "2′3′-cGAMP — cyclic GMP-AMP second messenger"
-    status: mainstream
-    domain: immunology / signaling
-  - slug: tbk1-tank-binding-kinase-1
-    title: "TBK1 — TANK-binding kinase 1"
-    status: mainstream
-    domain: immunology / kinase
-  - slug: irf3-interferon-regulatory-factor-3
-    title: "IRF3 — interferon regulatory factor 3"
-    status: mainstream
-    domain: immunology / transcription factor
-  - slug: trex1-exonuclease
-    title: "TREX1 — three-prime repair exonuclease 1"
-    status: mainstream
-    domain: immunology / DNA metabolism
-  - slug: enpp1-cgamp-hydrolase
-    title: "ENPP1 — ectonucleotide pyrophosphatase/phosphodiesterase 1"
-    status: mainstream
-    domain: immunology / extracellular enzymology
-  - slug: ezh2-histone-methyltransferase
-    title: "EZH2 — enhancer of zeste homolog 2"
-    status: mainstream
-    domain: epigenetics / chromatin
-  - slug: dmxaa-vadimezan
-    title: "DMXAA / vadimezan — murine-specific STING agonist"
-    status: historical
-    domain: pharmacology / STING agonist
-  - slug: adu-s100-sting-agonist
-    title: "ADU-S100 (MIW815) — phosphorothioate cyclic dinucleotide STING agonist"
-    status: historical
-    domain: pharmacology / STING agonist
-  - slug: diabzi-amidobenzimidazole
-    title: "diABZI — diamidobenzimidazole non-CDN STING agonist"
-    status: mainstream
-    domain: pharmacology / STING agonist
-  - slug: mps1-mitotic-checkpoint-kinase
-    title: "MPS1 — mitotic checkpoint serine/threonine kinase (TTK)"
-    status: mainstream
-    domain: cell biology / mitosis
-  - slug: stk11-lkb1-tumor-suppressor
-    title: "STK11 / LKB1 — serine/threonine kinase tumor suppressor"
-    status: mainstream
-    domain: oncology / tumor suppressor
-  - slug: cancer-cachexia
-    title: "Cancer cachexia"
-    status: mainstream
-    domain: oncology / metabolic disease
-  - slug: nnmt-nicotinamide-n-methyltransferase
-    title: "NNMT — nicotinamide N-methyltransferase"
-    status: mainstream
-    domain: metabolism / methylation
-  - slug: mat1a-methionine-adenosyltransferase-1a
-    title: "MAT1A — methionine adenosyltransferase 1A (hepatic SAM synthase)"
-    status: mainstream
-    domain: metabolism / one-carbon biology
-  - slug: gnmt-glycine-n-methyltransferase
-    title: "GNMT — glycine N-methyltransferase"
-    status: mainstream
-    domain: metabolism / methylation
-  - slug: sat1-spermidine-spermine-acetyltransferase
-    title: "SAT1 — spermidine/spermine N1-acetyltransferase"
-    status: mainstream
-    domain: metabolism / polyamine biology
-  - slug: sarcosine-metabolite
-    title: "Sarcosine (N-methylglycine)"
-    status: mainstream
-    domain: metabolism / one-carbon biology
-  - slug: mnam-1-methylnicotinamide
-    title: "MNAM (1-methylnicotinamide)"
-    status: mainstream
-    domain: metabolism / methylation
-  - slug: fidas-5-mat-inhibitor
-    title: "FIDAS-5 — methionine adenosyltransferase (MAT) inhibitor"
-    status: mainstream
-    domain: chemical biology / one-carbon biology
-  - slug: c26-colon-carcinoma-cachexia-model
-    title: "C26 colon carcinoma mouse model of cancer cachexia"
-    status: mainstream
-    domain: oncology / cachexia models
-  - slug: panc02-pdac-cachexia-model
-    title: "Panc02 PDAC mouse model of cancer cachexia"
-    status: mainstream
-    domain: oncology / cachexia models
-  - slug: sw480-humanised-cachexia-model
-    title: "SW480 humanised cachexia mouse model"
-    status: mainstream
-    domain: oncology / cachexia models
-  - slug: c2c12-myotube-model
-    title: "C2C12 myotube model"
-    status: mainstream
-    domain: cell biology / muscle biology
-  - slug: 13c6-glucose-tracer
-    title: "[13C6]-glucose tracer"
-    status: mainstream
-    domain: mass spectrometry / metabolic flux
-  - slug: inca-isotopomer-network-analysis
-    title: "INCA — Isotopomer Network Compartmental Analysis"
-    status: mainstream
-    domain: metabolic flux analysis
-  - slug: pyruvate-carboxylase-pc
-    title: "Pyruvate carboxylase (PC)"
-    status: mainstream
-    domain: metabolism / TCA anaplerosis
-  - slug: sarcopenia-clinical-syndrome
-    title: "Sarcopenia (clinical syndrome)"
-    status: mainstream
-    domain: clinical medicine / muscle biology
-  - slug: vsclust-clustering
-    title: "VSClust — variance-sensitive clustering of omics data"
-    status: mainstream
-    domain: bioinformatics / clustering
-  - slug: kegg-pathway-database
-    title: "KEGG — Kyoto Encyclopedia of Genes and Genomes pathway database"
-    status: mainstream
-    domain: bioinformatics / pathway analysis  - slug: genome-scale-metabolic-model
-    title: "Genome-scale metabolic model (GEM)"
-    status: mainstream
-    domain: systems biology / metabolism
-  - slug: czi-cellxgene-atlas
-    title: "CZI CELLxGENE — harmonized human/mouse single-cell atlas"
-    status: mainstream
-    domain: single-cell genomics / atlases
-  - slug: metabolic-task-cellfie
-    title: "Metabolic task (CellFie / scCellFie)"
-    status: mainstream
-    domain: systems biology / metabolism
-  - slug: gdf-15-growth-differentiation-factor-15
-    title: "GDF-15 (growth differentiation factor 15)"
-    status: mainstream
-    domain: cytokine biology / appetite regulation / cachexia
-  - slug: murf1-trim63
-    title: "MURF1 / TRIM63 (muscle RING finger 1)"
-    status: mainstream
-    domain: muscle biology / ubiquitin-proteasome
-  - slug: atrogin1-fbxo32
-    title: "Atrogin-1 / FBXO32"
-    status: mainstream
-    domain: muscle biology / ubiquitin-proteasome
-  - slug: pthrp-parathyroid-hormone-related-protein
-    title: "PTHrP (parathyroid hormone-related protein)"
-    status: mainstream
-    domain: tumour-secreted factor / endocrine / cachexia
-  - slug: ucp1
-    title: "UCP1 (uncoupling protein 1)"
-    status: mainstream
-    domain: mitochondrial biology / adipose / thermogenesis
-  - slug: hsl-hormone-sensitive-lipase
-    title: "HSL (hormone-sensitive lipase / LIPE)"
-    status: mainstream
-    domain: adipose biology / lipid metabolism
-  - slug: atgl-adipose-triglyceride-lipase
-    title: "ATGL (adipose triglyceride lipase / PNPLA2)"
-    status: mainstream
-    domain: adipose biology / lipid metabolism
-  - slug: tracerx-nsclc-cohort
-    title: "TRACERx — TRAcking Cancer Evolution through therapy (Rx)"
-    status: mainstream
-    domain: clinical cohort / cancer evolution / NSCLC
-  - slug: fmri-functional-mri-method
-    title: "fMRI (functional magnetic resonance imaging)"
-    status: mainstream
-    domain: neuroimaging / method
-  - slug: mccc2-3-methylcrotonyl-coa-carboxylase
-    title: "MCCC2 — 3-methylcrotonyl-CoA carboxylase subunit 2"
-    status: mainstream
-    domain: molecular biology / amino acid metabolism / mitochondria
-  - slug: glud1-glutamate-dehydrogenase
-    title: "GDH / GLUD1 — glutamate dehydrogenase"
-    status: mainstream
-    domain: molecular biology / amino acid metabolism / mitochondria
-  - slug: prmt5-arginine-methyltransferase
-    title: "PRMT5 — protein arginine methyltransferase 5"
-    status: mainstream
-    domain: molecular biology / post-translational modification / epigenetics
-  - slug: tom22-mitochondrial-import-receptor
-    title: "TOM22 / TOM complex — translocase of the outer mitochondrial membrane"
-    status: mainstream
-    domain: cell biology / mitochondrial protein import
-  - slug: bcat-branched-chain-aminotransferase
-    title: "BCAT — branched-chain aminotransferase"
-    status: mainstream
-    domain: molecular biology / amino acid metabolism
-  - slug: leucine-bcaa
-    title: "Leucine (branched-chain amino acid)"
-    status: mainstream
-    domain: biochemistry / amino acid metabolism / nutrient signaling
-  - slug: r162-gdh-inhibitor
-    title: "R162 — glutamate dehydrogenase (GDH) inhibitor"
-    status: mainstream
-    domain: pharmacology / metabolism tool compound
-  - slug: bcat-in-2-inhibitor
-    title: "BCAT-IN-2 — branched-chain aminotransferase (BCAT) inhibitor"
-    status: mainstream
-    domain: pharmacology / metabolism tool compound
-  - slug: ecf506-src-inhibitor
-    title: "eCF506 — selective SRC kinase inhibitor"
-    status: mainstream
-    domain: pharmacology / kinase inhibitor
