@@ -322,7 +322,16 @@ def check_xref_asymmetry(wiki_dir: Path, pages: dict[str, Path]) -> list[LintIss
                 target_path = wiki_dir / "people" / f"{target}.md"
                 if target_path.exists():
                     ref_content = target_path.read_text(encoding="utf-8")
-                    if f"[[{slug}]]" not in ref_content and f"[[{slug}|" not in ref_content:
+                    # Aceptar el reverse-link con o sin prefijo papers/:
+                    # [[slug]], [[slug|...]], [[papers/slug]], [[papers/slug|...]]
+                    linked_back = any(
+                        variant in ref_content
+                        for variant in (
+                            f"[[{slug}]]", f"[[{slug}|",
+                            f"[[papers/{slug}]]", f"[[papers/{slug}|",
+                        )
+                    )
+                    if not linked_back:
                         issues.append(LintIssue("🟡", "xref-asymmetry", rel,
                                                 f"links to people/{target} but person doesn't link back to [[{slug}]]",
                                                 fixable=True))
