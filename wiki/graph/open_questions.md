@@ -338,6 +338,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/single-cell-cytokine-dictionary-human-peripheral] Can huCIRA reliably infer cytokine activity in hypoxic tumor niches where cell-type composition departs from PBMC?
 - [paper/single-cell-cytokine-dictionary-human-peripheral] How do CIPs map onto in vivo TAM phenotypes relevant to HypoxiaVERSE?
 - [paper/single-cell-cytokine-dictionary-human-peripheral] Is the receptor-expression-insufficiency / secondary-cascade caveat addressable with multi-timepoint human data?
+- [paper/single-cell-spatial-genomics-atlas-human] Are F6 inflammatory myofibroblasts obligatory intermediates toward F7, and what controls the transition?
+- [paper/single-cell-spatial-genomics-atlas-human] Do re-activated LTo programs drive tertiary lymphoid structures in human skin disease (e.g. hidradenitis suppurativa)?
+- [paper/single-cell-spatial-genomics-atlas-human] Why is the FRC-like fibroblast uniquely enriched in human skin relative to mouse?
+- [paper/single-cell-spatial-genomics-atlas-human] Could targeting F6 chemokine output (CXCR2/CCR1 axes) modulate scarring or pathological immune infiltration?
+- [paper/single-cell-spatial-genomics-atlas-human] Is the hypoxic-signaling signature in F6 a driver of the inflammatory-myofibroblast state, linking this work to hypoxia-focused stromal biology?
 - [paper/single-cell-spatial-transcriptomic-analysis-human] Do site-specific inflammatory setpoints (e.g. antecubital MHC II/CD4 elevation) drive site-specific disease predilection?
 - [paper/single-cell-spatial-transcriptomic-analysis-human] Which fibroblast subset mediates volar-fibroblast-driven epidermal thickening?
 - [paper/single-cell-spatial-transcriptomic-analysis-human] Can anti-TNF therapy reshape CCL19+ perivascular fibroblast biology?
@@ -1150,6 +1155,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/wgcna-protein-coexpression-cancer-hubs] Integration with single-cell co-expression networks.
 - [claim/6d-tam-atlas-rational-design] A 6D TAM atlas (causal drivers / spatial niches / temporal dynamics / signaling state / metabolism / ontogeny) is required for rational TAM-targeted therapy design (status: proposed)
 - [claim/acetate-induces-breg-il10-via-acetyl-coa-tca] Acetate induces IL-10⁺ Breg differentiation via conversion to acetyl-CoA, TCA-cycle fuelling, and protein acetylation (status: weakly_supported)
+- [claim/adult-skin-f3-frc-like-fibroblasts] Adult skin F3 FRC-like fibroblasts may arise from a prenatal LTo gene program (prenatal skin CCL19+ cells ≈ intestinal mLTo) (status: weakly_supported)
 - [claim/ahr-klf6-cps1-h1k34-homocitrullination-pad2] AHR ligand activation recruits an AHR-KLF6 complex to non-canonical XREs (NC-XREs); KLF6 recruits CPS1, driving homocitrullination of histone H1K34 and induction of peptidyl-arginine-deiminase 2 (PAD2) — a histone-carbamylation arm of AHR signalling (status: weakly_supported)
 - [claim/ahr-pxr-promiscuous-ligand-overlap] AHR and the nuclear receptor PXR share substantial agonist overlap, implying that AHR ligands frequently co-activate PXR and that response heterogeneity reflects parallel receptor activation (status: weakly_supported)
 - [claim/anti-pd1-ctla4-alvocidib-le-outgoing-pattern] Anti-PD-1 / anti-CTLA-4 perturbations and Alvocidib (CDK inhibitor) recapitulate the effective-drug LE-outgoing pattern in OSCC ST (status: weakly_supported)
@@ -1167,6 +1173,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps] Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation (status: weakly_supported)
 - [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)
+- [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
+- [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
 - [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
@@ -1180,6 +1188,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
+- [claim/klf5-transcription-factor-activity-marks-f2] KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state (status: weakly_supported)
 - [claim/kupffer-cells-increase-nash-wda-stay] Kupffer cells increase in NASH and WDA but stay stable in HFD liver (status: weakly_supported)
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)

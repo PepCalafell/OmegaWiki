@@ -21,6 +21,7 @@ related_concepts:
   - "[[concepts/skin-multicellular-spatial-neighborhoods]]"
   - "[[concepts/tnf-ccl19-perivascular-fibroblast-axis]]"
   - "[[concepts/cross-disease-perivasc-immune-remodeling-skin]]"
+  - "[[concepts/frc-like-fibroblast-ccl19-immunomodulatory-niche]]"
 ---
 
 ## Definition

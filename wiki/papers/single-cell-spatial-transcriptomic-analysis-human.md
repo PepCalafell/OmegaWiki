@@ -232,3 +232,4 @@ For my thesis (skin / hypoxia / single-cell context), this paper is a foundation
 - [[papers/spatial-joint-profiling-dna-methylome-transcriptome]] — Sai Ma co-senior, related spatial multi-omics
 - [[papers/cellcharter-reveals-spatial-cell-niches-associated]] — neighborhood-discovery methodology in tumours
 - [[papers/nico-identifies-extrinsic-drivers-cell-state]] — neighborhood-based cell-state inference
+- [[papers/single-cell-spatial-genomics-atlas-human]] — same problem (human skin fibroblast atlas; this paper cites it)

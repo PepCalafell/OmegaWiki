@@ -19,6 +19,7 @@ date_updated: 2026-05-27
 related_concepts:
   - "[[concepts/perivascular-immune-stromal-niche-skin-salt]]"
   - "[[concepts/tnf-centered-cytokine-hierarchy]]"
+  - "[[concepts/frc-like-fibroblast-ccl19-immunomodulatory-niche]]"
 ---
 
 ## Definition

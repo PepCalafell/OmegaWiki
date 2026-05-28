@@ -10,3 +10,4 @@
 {"from": "papers/role-ahr-host-pathogen-interactions", "to": "papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic", "type": "cites", "source": "manual", "date": "2026-05-27"}
 {"from": "papers/role-ahr-host-pathogen-interactions", "to": "papers/complex-biology-aryl-hydrocarbon-receptor-activation", "type": "cites", "source": "manual", "date": "2026-05-27"}
 {"from": "papers/single-cell-cytokine-dictionary-human-peripheral", "to": "papers/dictionary-immune-responses-cytokines-single-cell", "type": "cites", "source": "semantic_scholar", "date": "2026-05-28"}
+{"from": "papers/single-cell-spatial-transcriptomic-analysis-human", "to": "papers/single-cell-spatial-genomics-atlas-human", "type": "cites", "source": "semantic_scholar", "date": "2026-05-28"}

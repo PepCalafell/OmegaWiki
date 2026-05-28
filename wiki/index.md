@@ -235,6 +235,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: single-cell-spatial-genomics-atlas-human
+    title: "A single-cell and spatial genomics atlas of human skin fibroblasts reveals shared disease-related fibroblast subtypes across tissues"
+    tags: [skin, fibroblast, myofibroblast, FRC, spatial-transcriptomics, single-cell, atlas, scarring, fibrosis, cross-tissue, immune-niche]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: single-cell-spatial-transcriptomic-analysis-human
     title: "Single-cell spatial transcriptomic analysis of human skin anatomy"
     tags: [skin, MERFISH, spatial-transcriptomics, atlas, perivascular, CCL19, TNF, SALT, multicellular-neighborhood, aging, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, SCC, BCC]
@@ -602,6 +608,10 @@ concepts:
     title: "Cross-species divergence of human and mouse cytokine responses"
     tags: [cross-species, cytokines, translation, mouse-human]
     maturity: emerging
+  - slug: cross-tissue-conserved-fibroblast-states
+    title: "Cross-tissue conserved fibroblast states (skin subtypes shared across human tissues)"
+    tags: [fibroblast, cross-tissue, atlas, integration, universal-fibroblast]
+    maturity: emerging
   - slug: csf1r-il34-csf2-trophic-axis
     title: "CSF1R / IL-34 / CSF2 trophic axis for macrophage development and survival"
     tags: [macrophage, cytokine-receptor, trophic-factor, immunology, development]
@@ -731,6 +741,10 @@ concepts:
     title: "Fatty-acid oxidation supports memory CD8, TRM, and Treg programs via CPT1 and AMPK"
     tags: [fao, cpt1, ampk, cd8-memory, trm, treg, memory, immunometabolism]
     maturity: active
+  - slug: fibroblast-compositional-signature-scarring-risk
+    title: "Fibroblast compositional signatures predict scarring risk in skin disease"
+    tags: [skin, fibroblast, fibrosis, scarring, disease-endotype, myofibroblast]
+    maturity: emerging
   - slug: fidas-5-methionine-blockade-rescues-cachexia
     title: "FIDAS-5 methionine-cycle blockade rescues cachexia features in C2C12 myotubes"
     tags: [FIDAS-5, MAT-inhibitor, methionine-cycle, cachexia, therapeutic, C2C12]
@@ -747,6 +761,14 @@ concepts:
     title: "FOLR2⁺ tissue-resident-like macrophage (FOLR2 mac)"
     tags: [macrophage, tumor-microenvironment, FOLR2, tissue-resident-like, mo-mac, onco-fetal]
     maturity: active
+  - slug: frc-like-fibroblast-ccl19-immunomodulatory-niche
+    title: "F3 FRC-like fibroblast (CCL19+CD74+HLA-DRA+) maintaining the superficial perivascular immune niche"
+    tags: [skin, fibroblast, FRC, immune-niche, perivascular, antigen-presentation]
+    maturity: emerging
+  - slug: frc-like-fibroblast-prenatal-lymphoid-tissue
+    title: "Adult skin F3 FRC-like fibroblasts potentially arise from prenatal LTo-like cells"
+    tags: [skin, fibroblast, FRC, development, lymphoid-tissue-organizer, ontogeny]
+    maturity: emerging
   - slug: glutamine-asymmetric-metabolism-tumor-immune
     title: "Asymmetric glutamine metabolism between tumour, T cells, and M1/M2 macrophages"
     tags: [glutamine, gls1, slc1a5, m2-macrophage, mdsc, immunometabolism]
@@ -763,6 +785,10 @@ concepts:
     title: "Gut microbiota as modulator of ICI response in NSCLC"
     tags: [microbiome, ici-response, akkermansia, alistipes, faecal-microbiota-transplant, nsclc]
     maturity: active
+  - slug: harmonized-skin-fibroblast-subtype-atlas-f1
+    title: "Harmonized human skin fibroblast subtype taxonomy (F1–F8)"
+    tags: [skin, fibroblast, single-cell, spatial-transcriptomics, atlas, nomenclature]
+    maturity: emerging
   - slug: hepatic-trem2-protective-tam-program
     title: "Hepatic TREM2 protective TAM program"
     tags: [TREM2, HCC, tissue-specific, protective-TAM, liver, metallothionein, calreticulin, immune-checkpoint-blockade]
@@ -920,6 +946,10 @@ concepts:
     title: "In vivo Perturb-seq"
     tags: [methods, crispr, single-cell, functional-genomics, immunology]
     maturity: active
+  - slug: inflammatory-myofibroblast-il11-mmp1-intermediate-state
+    title: "F6 inflammatory myofibroblast (IL11+MMP1+CXCL8+IL7R+) as an intermediate, immune-recruiting state"
+    tags: [skin, myofibroblast, fibroblast, inflammation, scarring, immune-recruitment]
+    maturity: emerging
   - slug: innate-immune-checkpoint-blockade
     title: "Innate immune checkpoint blockade"
     tags: [macrophage, immune-checkpoint, cancer-immunotherapy, innate-immunity]
@@ -1139,6 +1169,10 @@ concepts:
   - slug: myeloid-targeted-immunocytokine-mite
     title: "Myeloid-targeted immunocytokine (MiTE) — dual TAM/lymphocyte trans-acting prodrug class"
     tags: [immunocytokine, TREM2, IL-2, tumor-associated-macrophage, prodrug, protease-activation, cancer-immunotherapy, bispecific]
+    maturity: emerging
+  - slug: myofibroblast-differentiation-trajectory-skin
+    title: "Myofibroblast differentiation trajectory in human skin (F1/F2 → F6 → F7)"
+    tags: [skin, myofibroblast, trajectory, rna-velocity, wound-healing, fibrosis]
     maturity: emerging
   - slug: n3-pufa-immunomodulation
     title: "n-3 long-chain PUFAs (DHA, EPA) modulate T-cell, mast-cell, and neutrophil function"
@@ -1966,6 +2000,9 @@ people:
   - slug: linghua-wang
     tags: [genomic-medicine, spatial-transcriptomics, lung-cancer, data-science-oncology]
     affiliation: "MD Anderson Cancer Center"
+  - slug: lloyd-steele
+    tags: [dermatology, single-cell, skin, fibroblast, spatial-transcriptomics]
+    affiliation: "Wellcome Sanger Institute; Newcastle University"
   - slug: logan-walsh
     tags: [cancer-biology, lung-cancer, tumor-microenvironment, immuno-oncology]
     affiliation: "Rosalind and Morris Goodman Cancer Institute, McGill University; Department of Human Genetics, McGill University"
@@ -2026,6 +2063,9 @@ people:
   - slug: mirja-prentzell
     tags: [AHR, tryptophan-metabolism, DKFZ, Heidelberg]
     affiliation: "German Cancer Research Center (DKFZ), Heidelberg; Faculty of Bioscience, Heidelberg University"
+  - slug: muzlifah-haniffa
+    tags: [immunology, single-cell, skin, developmental-atlas, spatial-transcriptomics]
+    affiliation: "Wellcome Sanger Institute; Newcastle University"
   - slug: nathan-e-lewis
     tags: [systems-biology, metabolism, genome-scale-metabolic-models, CellFie, glycomics, CHO-biomanufacturing]
     affiliation: "UC San Diego (Pediatrics, Bioengineering); University of Georgia (CCRC, Biochemistry & Molecular Biology)"
@@ -2119,6 +2159,9 @@ people:
   - slug: sai-ma
     tags: [genomics, single-cell-multi-omics, spatial-transcriptomics]
     affiliation: "Department of Genetics and Genomic Sciences, Institute of Genomic Health, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+  - slug: sarah-teichmann
+    tags: [single-cell, computational-biology, immunology, cell-atlas, spatial-transcriptomics]
+    affiliation: "University of Cambridge; formerly Wellcome Sanger Institute"
   - slug: saskia-trump
     tags: [AHR, molecular-epidemiology, DNA-methylation, smoking, environmental-exposure, BIH, Charite]
     affiliation: "Molecular Epidemiology Unit, Berlin Institute of Health at Charité; DKTK Partner Site Berlin"
@@ -2395,6 +2438,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: neuroimmunology / endocrinology / mouse-model
+  - slug: adult-skin-f3-frc-like-fibroblasts
+    title: "Adult skin F3 FRC-like fibroblasts may arise from a prenatal LTo gene program (prenatal skin CCL19+ cells ≈ intestinal mLTo)"
+    tags: [skin, fibroblast, FRC, development, lymphoid-tissue-organizer, ontogeny]
+    status: weakly_supported
+    confidence: 0.6
+    domain: cell biology
   - slug: age-perivasc-ii-increases-abdomen-skin
     title: "PERIVASC II neighborhood proportion increases with age in abdominal skin (Spearman = 0.70, P = 0.0076)"
     tags: [skin, aging, PERIVASC-II, abdomen, quantitative]
@@ -4123,6 +4172,66 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: f1-superficial-f2-universal-fibroblasts-uniform
+    title: "F1 superficial and F2 universal fibroblasts are uniformly distributed at different dermal depths"
+    tags: [skin, fibroblast, spatial, dermis]
+    status: supported
+    confidence: 0.8
+    domain: cell biology
+  - slug: f3-frc-like-fibroblasts-enriched-human
+    title: "F3 FRC-like fibroblasts are enriched in human skin but rare/absent in mouse skin (correspond to mouse Ccl19+ fibroblasts of lymphoid organs)"
+    tags: [skin, fibroblast, FRC, species-comparison, mouse, human]
+    status: supported
+    confidence: 0.7
+    domain: cell biology
+  - slug: f3-frc-like-fibroblasts-localize-superficial
+    title: "F3 FRC-like fibroblasts localize to the superficial perivascular region near immune cells"
+    tags: [skin, fibroblast, FRC, perivascular, immune-niche, spatial]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: f3-frc-like-fibroblasts-transcriptomically-resemble
+    title: "F3 FRC-like fibroblasts transcriptomically resemble lymphoid-organ fibroblastic reticular cells"
+    tags: [skin, fibroblast, FRC, antigen-presentation, immune-niche]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: f5-schwann-like-fibroblasts-nerve-associated
+    title: "F5 Schwann-like fibroblasts are a nerve-associated population (colocalize with Schwann cells / eccrine innervation)"
+    tags: [skin, fibroblast, nerve, Schwann, spatial]
+    status: supported
+    confidence: 0.75
+    domain: cell biology
+  - slug: f6-inflammatory-myofibroblast-expresses-immune-gene
+    title: "F6 inflammatory myofibroblasts co-express a myofibroblast and immune program (IL11/IL24, CXCL5/8/13, MMP1, IL7R) with elevated JAK-STAT and hypoxic signaling"
+    tags: [skin, myofibroblast, inflammation, JAK-STAT, hypoxia, chemokines]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: f6-inflammatory-myofibroblasts-elevated-inflamed-ibd
+    title: "F6 inflammatory myofibroblasts are significantly elevated in inflamed IBD tissue and correlate with clinical inflammation severity"
+    tags: [IBD, myofibroblast, inflammation, cross-tissue, intestine]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: f6-inflammatory-myofibroblasts-enriched-scarring-risk
+    title: "F6 inflammatory myofibroblasts are uniquely enriched in scarring-risk disease but sparse in established fibrosis"
+    tags: [skin, myofibroblast, scarring, fibrosis, intermediate-state]
+    status: supported
+    confidence: 0.75
+    domain: cell biology
+  - slug: f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils
+    title: "F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes"
+    tags: [skin, myofibroblast, immune-recruitment, chemokines, cell-cell-communication]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
+  - slug: f7-terminal-myofibroblasts-arise-two-differentiation
+    title: "F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state"
+    tags: [skin, myofibroblast, trajectory, rna-velocity, differentiation]
+    status: weakly_supported
+    confidence: 0.6
+    domain: cell biology
   - slug: fao-cpt1-supports-memory-cd8-and-controls-macrophage-atherosclerosis
     title: "FAO/CPT1-AMPK supports central-memory CD8 T cells; CPT1 blockade in macrophages drives CD36-mediated LDL uptake and atherosclerosis"
     tags: [fao, cpt1, ampk, cd8-memory, macrophage, atherosclerosis, cd36, immunometabolism]
@@ -4135,6 +4244,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: fibroblast-composition-distinguishes-clinical-scarring-risk
+    title: "Fibroblast subtype composition distinguishes clinically defined scarring-risk categories of skin disease"
+    tags: [skin, fibroblast, scarring, fibrosis, disease-endotype]
+    status: supported
+    confidence: 0.75
+    domain: cell biology
+  - slug: fibroblast-subtypes-conserved-across-multiple-human
+    title: "F2 universal, F3 FRC-like, F6 and F7 fibroblast subtypes are conserved across multiple human tissues"
+    tags: [fibroblast, cross-tissue, atlas, conservation, integration]
+    status: supported
+    confidence: 0.7
+    domain: cell biology
   - slug: ficz-tcdd-converge-on-cyp1a1-dynamics-when-dose-matched
     title: "FICZ and TCDD produce identical AHR transcriptional dynamics when dose and timing are matched for equivalent CYP1A1 induction — dose/duration, not ligand identity, drives divergence"
     tags: [AHR, FICZ, TCDD, ligand-specificity, CYP1A1, dose-response]
@@ -4633,6 +4754,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: human-skin-wound-time-course-f6
+    title: "In time-resolved human skin wounds, F6 inflammatory myofibroblasts predominate by day 7 and F7 myofibroblasts by day 30"
+    tags: [skin, wound-healing, myofibroblast, temporal, trajectory]
+    status: supported
+    confidence: 0.75
+    domain: cell biology
   - slug: hvg-selection-improves-integration
     title: "HVG selection improves scRNA-seq integration performance across most metrics"
     tags: [data-integration, scRNA-seq, preprocessing, HVG]
@@ -5209,6 +5336,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: cachexia / metabolomics
+  - slug: klf5-transcription-factor-activity-marks-f2
+    title: "KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state"
+    tags: [skin, fibroblast, transcription-factor, KLF5, universal-fibroblast]
+    status: weakly_supported
+    confidence: 0.65
+    domain: cell biology
   - slug: klf6-overexpression-15x-trm-enrichment
     title: "KLF6 overexpression yields 15× small-intestinal enrichment and 42× more CD69+CD103+ TRM-like cells"
     tags: [klf6, trm, gain-of-function, quantitative]
@@ -5401,6 +5534,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology / sepsis
+  - slug: lrrc15-protein-validates-myofibroblasts-inflamed-scarring
+    title: "LRRC15 protein is detected in inflamed scarring-risk skin (hidradenitis suppurativa) but not in non-inflamed or low-risk inflamed skin"
+    tags: [skin, myofibroblast, LRRC15, immunofluorescence, scarring]
+    status: supported
+    confidence: 0.75
+    domain: cell biology
   - slug: luad-treg-depletion-tme-reprogramming-vegf
     title: "Treg depletion in a mouse LUAD model reprograms fibroblast, endothelial and TAM states, enhancing VEGF signalling and vascularization"
     tags: [treg, luad, vegf, tme-reprogramming, stromal-rewiring]
@@ -6823,6 +6962,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: random-forest-ranks-f6-f7-myofibroblasts
+    title: "A random-forest classifier ranks F6 and F7 myofibroblasts as the most important fibroblast subtypes for predicting scarring-risk category"
+    tags: [skin, myofibroblast, scarring, machine-learning, classifier]
+    status: supported
+    confidence: 0.75
+    domain: methods
   - slug: recombinant-il1b-and-im-coculture-increase-krt8-organoid-growth
     title: "Recombinant IL-1β and interstitial-macrophage co-culture increase number and size of AT2-derived KRT8+ (KAC-rich) organoids"
     tags: [luad, organoid, il1b, kac, mechanism, in-vitro]
@@ -6985,6 +7130,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: single-cell proteomics / hematology
+  - slug: scpoli-reference-mapping-classifies-diseased-fibroblasts
+    title: "scPoli reference mapping assigned 121,167/190,756 diseased fibroblasts to F1–F5; 69,589 uncertain cells revealed novel disease states"
+    tags: [skin, fibroblast, scpoli, reference-mapping, disease]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: scpred-tc-le-classifier-high-roc
     title: "scPred classifier on TC/LE/transitory/other achieves 10-fold CV ROC of 0.991 (TC), 0.922 (LE), 0.943 (transitory), 0.958 (other)"
     tags: [methodological, scPred, ML, OSCC, classifier]
@@ -7093,6 +7244,12 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: immunology / dermatology
+  - slug: six-major-healthy-skin-fibroblast-subtypes
+    title: "Healthy human skin contains six major fibroblast subtypes (F1–F5, F4/F5 with subclusters)"
+    tags: [skin, fibroblast, single-cell, taxonomy]
+    status: supported
+    confidence: 0.8
+    domain: cell biology
   - slug: skin-45-cell-types-resolved-spatially
     title: "45 cell types are resolved spatially in adult human skin including 8 fibroblast subpopulations and 2 perivascular subsets"
     tags: [skin, cell-types, fibroblast, perivascular, correlational]
@@ -7105,6 +7262,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: cell biology / dermatology
+  - slug: skin-fibroblast-atlas-integrates-357000-fibroblasts
+    title: "The atlas integrates 357,276 high-quality fibroblasts from 2.1M skin cells across 32 datasets and 251 donors"
+    tags: [skin, fibroblast, atlas, integration, scvi]
+    status: supported
+    confidence: 0.85
+    domain: methods
   - slug: slc43a2-methionine-competition-h3k79me2-stat5-tcell-impairment
     title: "Tumour SLC43A2 outcompetes T cells for methionine, lowering H3K79me2 and impairing STAT5/IL-2 signaling"
     tags: [methionine, slc43a2, h3k79me2, stat5, t-cell-dysfunction]
@@ -7621,6 +7784,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: hepatology / TGFbeta-signaling
+  - slug: three-disease-specific-myofibroblast-subtypes-f6
+    title: "Three disease-specific myofibroblast subtypes (F6, F7, F8) have no healthy skin counterpart"
+    tags: [skin, myofibroblast, fibroblast, disease, ECM]
+    status: supported
+    confidence: 0.8
+    domain: cell biology
   - slug: three-spatial-clonal-evolution-patterns-luad-precursor
     title: "Lung precursor-to-LUAD evolution follows three distinct spatial clonal patterns (1a fully shared, 1b partially shared, 2 disjoint)"
     tags: [luad, clonal-evolution, spatial-genomics, cna, phylogeny]
@@ -8602,6 +8771,10 @@ foundations:
     title: "CD47"
     status: mainstream
     domain: immunology
+  - slug: cd74-invariant-chain
+    title: "CD74 (HLA class II invariant chain)"
+    status: mainstream
+    domain: immunology
   - slug: cdkn2a-tumor-suppressor
     title: "CDKN2A (Cyclin-Dependent Kinase Inhibitor 2A; p16INK4a / p14ARF)"
     status: mainstream
@@ -9187,6 +9360,10 @@ foundations:
     title: "IL-1β (Interleukin-1 beta)"
     status: mainstream
     domain: immunology / cytokine
+  - slug: il11-interleukin-11
+    title: "IL11 (interleukin 11)"
+    status: mainstream
+    domain: immunology
   - slug: il1r1-receptor
     title: "IL1R1 — Interleukin-1 receptor type 1"
     status: mainstream
@@ -9389,6 +9566,10 @@ foundations:
     title: "LPS / Toll-like receptor signaling"
     status: mainstream
     domain: immunology / cell-signaling
+  - slug: lrrc15-leucine-rich-repeat-containing-15
+    title: "LRRC15 (leucine-rich repeat containing 15)"
+    status: mainstream
+    domain: cell biology
   - slug: lxra-tf
     title: "LXRα (liver X receptor alpha)"
     tags: [transcription-factor, nuclear-receptor, cholesterol-metabolism, macrophage-identity]
@@ -9736,6 +9917,10 @@ foundations:
     title: "Phthiocol (M. tuberculosis naphthoquinone AHR agonist)"
     status: mainstream
     domain: microbial chemistry / AHR ligand / Mycobacterium tuberculosis
+  - slug: pi16-peptidase-inhibitor-16
+    title: "PI16 (peptidase inhibitor 16)"
+    status: mainstream
+    domain: cell biology
   - slug: pic-seq-physically-interacting-cells
     title: "PIC-seq — physically-interacting cell sequencing"
     status: mainstream
@@ -9769,6 +9954,10 @@ foundations:
     title: "Prodynorphin (Pdyn) — opioid neuropeptide precursor & noradrenergic sympathetic subtype marker"
     status: mainstream
     domain: neuroscience / sympathetic nervous system / neuropeptide
+  - slug: progeny-pathway-activity-inference
+    title: "PROGENy (pathway responsive genes for activity inference)"
+    status: mainstream
+    domain: methods
   - slug: propeller-cell-composition-analysis
     title: "Propeller — cell-type composition test for scRNAseq"
     status: mainstream
@@ -9951,6 +10140,10 @@ foundations:
     domain: methods / benchmarking / single-cell-integration
   - slug: scpdeconv-proteomics-deconvolution
     title: "scpDeconv — domain-adversarial proteome deconvolution"
+    status: mainstream
+    domain: methods
+  - slug: scpoli-prototype-reference-mapping
+    title: "scPoli (single-cell population-level integration)"
     status: mainstream
     domain: methods
   - slug: scpred-classifier

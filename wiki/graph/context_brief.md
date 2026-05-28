@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1012 total)
+## Claims (1033 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (53 total)
+## Papers (54 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -45,15 +45,16 @@ _Auto-generated open questions. Do not edit._
 - [4] Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer (metabolism / oncology / cachexia)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
-- [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
-## Recent Relationships (2260 total)
-  papers/single-cell-cytokine-dictionary-human-peripheral --derived_from--> foundations/il4-cytokine
-  papers/single-cell-cytokine-dictionary-human-peripheral --derived_from--> foundations/il-15-cytokine
-  papers/single-cell-cytokine-dictionary-human-peripheral --derived_from--> foundations/gm-csf-cytokine
-  papers/single-cell-cytokine-dictionary-human-peripheral --supports--> claims/human-cytokine-dictionary-profiles-million-pbmcs
-  papers/single-cell-cytokine-dictionary-human-peripheral --supports--> claims/few-cytokine-perturbations-cause-major-shifts
-  papers/single-cell-cytokine-dictionary-human-peripheral --supports--> claims/il-common-gamma-chain-il-il
-  papers/single-cell-cytokine-dictionary-human-peripheral --supports--> claims/cytokine-response-tissue-specificity-ranges-tpo
-  papers/single-cell-cytokine-dictionary-human-peripheral --supports--> claims/cytokine-receptor-expression-response-magnitude-correlated
-  papers/single-cell-cytokine-dictionary-human-peripheral --support
+- [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
+## Recent Relationships (2305 total)
+  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/pi16-peptidase-inhibitor-16
+  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/cd74-invariant-chain
+  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/ccl19-chemokine
+  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/cxcl8-il8
+  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/six-major-healthy-skin-fibroblast-subtypes
+  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/skin-fibroblast-atlas-integrates-357000-fibroblasts
+  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/f1-superficial-f2-universal-fibroblasts-uniform
+  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/f3-frc-like-fibroblasts-localize-superficial
+  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/f3-frc-like-fibroblasts-transcriptomically-resemble
+  papers/s
