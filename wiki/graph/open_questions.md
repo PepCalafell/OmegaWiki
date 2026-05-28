@@ -413,6 +413,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [paper/towards-building-world-model-simulate-perturbation] How to incorporate gene/chemical embeddings for zero-shot prediction of unseen perturbations?
+- [paper/towards-building-world-model-simulate-perturbation] How to extend the single-modality virtual world to a multi-modal digital twin?
+- [paper/towards-building-world-model-simulate-perturbation] Do the reported sweeps hold under independent benchmarks (e.g., Wei et al. 2025 generalizable perturbation benchmark)?
+- [paper/towards-building-world-model-simulate-perturbation] Is Pearson ~0.2 sufficient for actionable in-silico screening?
+- [paper/towards-building-world-model-simulate-perturbation] Can the implicit-denoising claim be quantified against explicit imputation baselines?
+- [paper/towards-building-world-model-simulate-perturbation] How much does each component (Mamba vs Transformer, ArcFace, per-channel DANN) contribute (ablations absent)?
 - [paper/transition-monocyte-tissue-resident-macrophage-requires] Which mRNA motifs confer hypusine dependency beyond polyproline?
 - [paper/transition-monocyte-tissue-resident-macrophage-requires] How do polyamine levels in a cell influence hypusine and translation across biological contexts?
 - [paper/transition-monocyte-tissue-resident-macrophage-requires] Are proteins other than eIF5A modified by the polyamine–hypusine axis?
@@ -569,6 +575,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
 - [concept/cell-cycle-phase-bias-malignant] Are TME cell-cycle phases correlated with malignant phase bias?
+- [concept/cell-type-zero-shot-perturbation-generalization] Closing the gap between "multi-fold improvement over near-random" and actionable accuracy.
 - [concept/central-melanocortin-system-cancer-anorexia] Which peripheral signal(s) (GDF-15 vs IL-6 vs leptin) dominates the central anorexia phenotype across cancer types?
 - [concept/central-melanocortin-system-cancer-anorexia] Does CNS structural change (Simoes et al.) reflect neuroinflammation, neurodegeneration, or both?
 - [concept/central-melanocortin-system-cancer-anorexia] Can hypothalamic fMRI be used as a pharmacodynamic biomarker in early-phase trials of central-acting anti-CAC drugs?
@@ -586,6 +593,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
+- [concept/compositional-perturbation-generalization] Standardized, independent compositional benchmarks across modalities.
 - [concept/cori-cycle-tumor-host-metabolism] Can targeting hepatic gluconeogenesis (metformin? specific GP inhibitors?) reduce host REE without harming tumour control?
 - [concept/cori-cycle-tumor-host-metabolism] Are lactate-shuttle inhibitors (MCT1/MCT4 antagonists) viable CAC therapeutics?
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
@@ -659,6 +667,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/fidas-5-methionine-blockade-rescues-cachexia] Toxicity profile of sustained systemic MAT inhibition in lean tissue (intestine, immune cells).
 - [concept/folr2-tissue-resident-macrophage] Whether HCC FOLR2 macs are causally pro-tumorigenic or just enriched alongside other niche components (CAFs, endothelial subsets).
 - [concept/folr2-tissue-resident-macrophage] Mechanism of the tissue-context-dependent functional flip.
+- [concept/genome-wide-cell-representation-versus-highly] Quantifying how many response-relevant genes fall outside control-derived HVG sets.
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
 - [concept/hepatic-trem2-protective-tam-program] Which subset of the 209 liver-specific genes is causally responsible for the protective phenotype?
 - [concept/hepatic-trem2-protective-tam-program] Does the program persist outside HCC (e.g., hepatic metastases of non-liver primaries)?
@@ -809,6 +818,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Whether monocyte-derived TAMs in tumours acquire long-term-resident properties or remain transient
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
+- [concept/manifold-rectification-continuous-virtual-cell-space] Verifying the manifold is genuinely "differentiable" enough for the flow model vs merely smooth.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Tumour-selective SLC43A2 inhibitors.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Biomarkers of SLC43A2-driven methionine competition.
 - [concept/methionine-cycle-myotube-atrophy-hypermetabolism] Which downstream methylation reactions in myotubes mediate the atrophy phenotype (DNA / RNA / histone / specific protein methylation)?
@@ -945,6 +955,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/pd-l1-immunostimulatory-tam-phenotype] Whether the PD-L1+ TAM phenotype is reversible, or whether it represents a terminal mature state.
 - [concept/perivascular-immune-stromal-niche-skin-salt] Is PERIVASC I sufficient to maintain skin-resident memory T cells longitudinally?
 - [concept/perivascular-immune-stromal-niche-skin-salt] Does PERIVASC I expansion precede or follow inflammatory infiltration in skin disease?
+- [concept/perturbation-continuous-flow-versus-discrete-jump] Stochastic flow formulations for heterogeneous responder populations.
 - [concept/polyamine-hypusine-axis-macrophage-residency] How tissue polyamine availability tunes the axis in health, age and disease.
 - [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
@@ -1148,6 +1159,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF inhibitors synergize with antivirals to clear HBV cccDNA
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF stabilization is a biomarker of severe COVID-19
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Mechanism of ORF3a-mitochondrial ROS coupling
+- [concept/virtual-cell-world-model] Integrating gene/chemical embeddings for perturbation-level zero-shot.
+- [concept/virtual-cell-world-model] Extending the world model to multi-modal (protein, chromatin) state.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
@@ -1168,6 +1181,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
+- [claim/continuous-flow-smooth-latent-manifold-acts] Continuous flow on a smooth latent manifold acts as an implicit denoiser without explicit imputation (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)

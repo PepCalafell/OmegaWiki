@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1033 total)
+## Claims (1052 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -18,8 +18,8 @@ _Auto-generated compressed context. Do not edit._
 - [supported] TAMs are the most abundant immune cell population in the TME and accumulate preferentially in hypoxic tumor regions (conf: 0.95)
 - [supported] TREM2⁺ tumor-associated macrophages associate with poor cancer prognosis (conf: 0.7)
 - [supported] TREM2⁺ TAMs accumulate across all six human cancer types in the MoMac-VERSE (conf: 0.85)
-- [supported] Cluster 12_MBMMac is enriched in melanoma brain metastases vs primary GBM and uniquely upregulates LRMDA, suggesting TAM-melanocyte crosstalk at the brain metastatic niche (conf: 0.85)
-- [supported
+- [supported] 100x tokenization preserves gene-expression resolution of 0.01 within a vocabulary of 1024 (conf: 0.85)
+- [supported] Cluster 12_MBMMac is enriched in melanoma brain metastases vs primary GBM and u
 ## Open Gaps
 _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How to design SAHRMs that engage tolerogenic AHR functions without off-target dioxin-like effects
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (54 total)
+## Papers (55 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,14 +47,13 @@ _Auto-generated open questions. Do not edit._
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2305 total)
-  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/pi16-peptidase-inhibitor-16
-  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/cd74-invariant-chain
-  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/ccl19-chemokine
-  papers/single-cell-spatial-genomics-atlas-human --derived_from--> foundations/cxcl8-il8
-  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/six-major-healthy-skin-fibroblast-subtypes
-  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/skin-fibroblast-atlas-integrates-357000-fibroblasts
-  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/f1-superficial-f2-universal-fibroblasts-uniform
-  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/f3-frc-like-fibroblasts-localize-superficial
-  papers/single-cell-spatial-genomics-atlas-human --supports--> claims/f3-frc-like-fibroblasts-transcriptomically-resemble
-  papers/s
+## Recent Relationships (2341 total)
+  papers/towards-building-world-model-simulate-perturbation --derived_from--> foundations/optimal-transport-sinkhorn
+  papers/towards-building-world-model-simulate-perturbation --derived_from--> foundations/hgnc-gene-nomenclature-standard
+  papers/towards-building-world-model-simulate-perturbation --derived_from--> foundations/czi-cellxgene-atlas
+  papers/towards-building-world-model-simulate-perturbation --derived_from--> foundations/hvg-selection-scrna
+  papers/towards-building-world-model-simulate-perturbation --derived_from--> foundations/tahoe-100m-single-cell-perturbation-atlas
+  papers/towards-building-world-model-simulate-perturbation --derived_from--> foundations/sci-plex-chemical-transcriptomics
+  papers/towards-building-world-model-simulate-perturbation --supports--> claims/alphacell-processes-full-19253-hgnc-protein
+  papers/towards-building-world-model-simulate-perturbation --supports--> claims/extending-baseline-models-hvgs-full-geneset
+  papers/towards-building-world-mod
