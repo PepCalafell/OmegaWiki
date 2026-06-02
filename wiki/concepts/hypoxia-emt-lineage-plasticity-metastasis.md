@@ -24,6 +24,7 @@ key_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
   - cellcharter-reveals-spatial-cell-niches-associated
+  - characterization-hypoxia-associated-molecular-features-aid
 first_introduced: "2003"
 date_updated: 2026-05-22
 related_concepts:

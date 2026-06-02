@@ -27,6 +27,7 @@ key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
   - hif-regulates-mitochondrial-function-bone-marrow
   - atlas-scale-metabolic-activities-inferred-single
+  - characterization-hypoxia-associated-molecular-features-aid
 first_introduced: "Warburg 1924; HIF link Semenza 1990s"
 date_updated: 2026-05-13
 related_concepts:

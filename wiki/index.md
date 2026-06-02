@@ -43,6 +43,12 @@ papers:
     importance: 4
     domain: methods / oncology / immunology / spatial-omics
     priority: core
+  - slug: characterization-hypoxia-associated-molecular-features-aid
+    title: "Characterization of hypoxia-associated molecular features to aid hypoxia-targeted therapy"
+    tags: [hypoxia, cancer, pancancer, TCGA, multi-omics, drug-response, precision-oncology, genomics, epigenetics, proteomics]
+    importance: 4
+    domain: oncology
+    priority: core
   - slug: complex-biology-aryl-hydrocarbon-receptor-activation
     title: "The complex biology of aryl hydrocarbon receptor activation in cancer and beyond"
     tags: [AHR, aryl-hydrocarbon-receptor, context-specificity, ARNT, AHRR, posttranslational-modifications, epigenetic-regulation, DNA-methylation, histone-modifications, non-genomic-AHR, tryptophan-metabolism, kynurenine, IDO1, TDO2, IL4I1, CYP1A1, TIPARP, HIF1A, HIF2A, SRC, vemurafenib, BRAFi-resistance, melanoma, tumor-suppression, tumor-promotion, SUMOylation, phosphorylation, ARNT2, HK2, TET2, CUL4B, UCHL3, review]
@@ -303,7 +309,7 @@ papers:
     priority: reference
   - slug: transcriptome-based-network-analysis-reveals-spectrum
     title: "Transcriptome-Based Network Analysis Reveals a Spectrum Model of Human Macrophage Activation"
-    tags: [macrophage, activation, transcriptomics, network-analysis, immunology, WGCNA, spectrum-model, M1-M2, ARACNe, STAT4, TPP, COPD, core-signature, ImmGen]
+    tags: [macrophage, activation, transcriptomics, network-analysis, immunology, WGCNA]
     importance: 5
     domain: immunology
     priority: context
@@ -612,11 +618,11 @@ concepts:
     maturity: emerging
   - slug: commensal-pathogen-effector-divergence
     title: "Commensal–pathogen effector repertoire divergence"
-    tags: [t3ss, effectors, sequence, structure]
+    tags: [microbiome, host-pathogen, t3ss, effector-evolution]
     maturity: emerging
   - slug: commensal-t3ss-host-directed-secretion
     title: "Commensal T3SS as host-directed secretion in the healthy gut"
-    tags: [t3ss, microbiome, commensal, host-directed-secretion]
+    tags: [microbiome, host-pathogen, t3ss, commensal]
     maturity: emerging
   - slug: complement-cd55-cd59-tumour-evasion
     title: "CD55/CD59 complement-regulator upregulation as tumour immune-evasion mechanism"
@@ -638,13 +644,13 @@ concepts:
     title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
     tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, basal-cell-carcinoma, squamous-cell-carcinoma, tertiary-lymphoid-structure]
     maturity: emerging
-  - slug: cross-species-human-mouse-cytokine-response
-    title: "Cross-species divergence of human and mouse cytokine responses"
-    tags: [cross-species, cytokines, translation, mouse-human]
-    maturity: emerging
   - slug: cross-species-core-macrophage-signature
     title: "Cross-species core macrophage signature"
     tags: [macrophage, comparative-transcriptomics, signature]
+    maturity: emerging
+  - slug: cross-species-human-mouse-cytokine-response
+    title: "Cross-species divergence of human and mouse cytokine responses"
+    tags: [cross-species, cytokines, translation, mouse-human]
     maturity: emerging
   - slug: cross-tissue-conserved-fibroblast-states
     title: "Cross-tissue conserved fibroblast states (skin subtypes shared across human tissues)"
@@ -744,15 +750,15 @@ concepts:
     maturity: active
   - slug: effector-convergence-host-hub-proteins
     title: "Effector convergence on host hub proteins"
-    tags: [convergence, network, nf-kb, hummi]
+    tags: [microbiome, host-pathogen, effector, host-hub]
     maturity: emerging
   - slug: effector-interaction-sequence-independence
     title: "Sequence-independence of effector–host interaction profiles"
-    tags: [effectors, interaction-profile, sequence]
+    tags: [microbiome, host-pathogen, effector, protein-interaction]
     maturity: emerging
   - slug: effector-prevalence-crohns-vs-uc-divergence
     title: "Opposing T3SS effector prevalence in Crohn's disease vs ulcerative colitis"
-    tags: [crohns, ulcerative-colitis, ibd, metagenomics]
+    tags: [microbiome, host-pathogen, ibd, crohns-uc]
     maturity: emerging
   - slug: efferocytosis-anti-inflammatory-clearance
     title: "Efferocytosis — apoptotic cell clearance with anti-inflammatory output"
@@ -879,6 +885,10 @@ concepts:
   - slug: hypoxia-activated-prodrugs-haps
     title: "Hypoxia-activated prodrugs (HAPs)"
     tags: [hypoxia, therapy, prodrug, bioreductive, cancer-treatment]
+    maturity: active
+  - slug: hypoxia-bidirectional-drug-response-modulation
+    title: "Hypoxia bidirectionally modulates anticancer drug response"
+    tags: [hypoxia, drug-response, drug-resistance, drug-sensitivity, precision-oncology]
     maturity: active
   - slug: hypoxia-centrosome-amplification-mitotic-cin
     title: "Hypoxia drives centrosome amplification and mitotic CIN"
@@ -1157,7 +1167,7 @@ concepts:
     maturity: active
   - slug: microbiome-host-meta-interactome-hummi
     title: "Microbiome–host protein meta-interactome (HuMMI)"
-    tags: [hummi, interactome, y2h, effectors]
+    tags: [microbiome, host-pathogen, interactome, hummi]
     maturity: emerging
   - slug: microbiota-tryptophan-ahr-ligand-axis
     title: "Microbiota / dietary tryptophan → AHR ligand axis"
@@ -1353,6 +1363,10 @@ concepts:
     title: "Pan-cancer conserved leading-edge (LE) signature"
     tags: [pan-cancer, leading-edge, prognosis, TCGA, spatial-transcriptomics, EMT]
     maturity: active
+  - slug: pan-cancer-hypoxia-multiomic-landscape
+    title: "Pan-cancer multidimensional hypoxia-associated molecular landscape"
+    tags: [hypoxia, pancancer, multi-omics, TCGA, cancer-genomics]
+    maturity: emerging
   - slug: pan-cancer-proteome-atlas-tpcpa
     title: "The Pan-Cancer Proteome Atlas (TPCPA)"
     tags: [pan-cancer, proteomics, dia-ms, atlas, reference-dataset]
@@ -1417,6 +1431,10 @@ concepts:
     title: "PRMT5-mediated MCCC2 R292 methylation is an oxygen-responsive block on the VHL–MCCC2 interaction"
     tags: [hypoxia, PRMT5, MCCC2, arginine-methylation, post-translational-modification]
     maturity: emerging
+  - slug: propensity-score-confounder-balanced-omics
+    title: "Propensity-score confounder balancing for omics group comparison"
+    tags: [methodology, biostatistics, confounders, cancer-genomics, causal-inference]
+    maturity: active
   - slug: proteomic-cms-markers-colorectal-cancer
     title: "Proteome-defined CMS markers for colorectal cancer"
     tags: [crc, cms, biomarkers, proteomics, subtyping]
@@ -1495,7 +1513,7 @@ concepts:
     maturity: emerging
   - slug: slim-pdz-effector-host-interface
     title: "SLiM- and PDZ-mediated effector–host interfaces"
-    tags: [slim, pdz, mimicint, holdup]
+    tags: [microbiome, host-pathogen, slim, pdz-domain]
     maturity: emerging
   - slug: slpi-macrophage-profibrotic-tam
     title: "SLPI+ profibrotic macrophage (Macro_SLPI) — pan-cancer ECM-remodeling TAM"
@@ -2020,6 +2038,9 @@ people:
   - slug: gokhan-m-mutlu
     tags: [pulmonary-medicine, macrophage-biology, alveolar-macrophage, hypoxia, ARDS, immunometabolism]
     affiliation: "Department of Medicine, Section of Pulmonary and Critical Care Medicine, University of Chicago, Chicago, IL, USA"
+  - slug: gordon-mills
+    tags: [cancer-biology, functional-proteomics, precision-oncology, PI3K-signalling]
+    affiliation: "Oregon Health and Science University (Knight Cancer Institute)"
   - slug: guobang-li
     tags: [hypoxia, VHL, metabolism, urology]
     affiliation: "Southern Medical University / Guangdong Provincial People's Hospital, Guangzhou, China"
@@ -2032,6 +2053,9 @@ people:
   - slug: h-kay-chung
     tags: [immunology, cd8-t-cells, exhaustion, transcription-factors]
     affiliation: "Salk Institute / NOMIS Center for Immunobiology and Microbial Pathogenesis; UNC Lineberger Comprehensive Cancer Center"
+  - slug: han-liang
+    tags: [bioinformatics, cancer-genomics, pancancer, TCGA]
+    affiliation: "The University of Texas MD Anderson Cancer Center"
   - slug: heming-ge
     tags: [pancreatic-cancer, hypoxia, tumor-associated-macrophage, prognostic-model, scRNA-seq, bioinformatics]
     affiliation: "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
@@ -2098,6 +2122,9 @@ people:
   - slug: lei-wang
     tags: [immuno-oncology, macrophage, PD-L1, breast-cancer, scRNA-seq]
     affiliation: "International Cancer Center, Shenzhen University Medical School, Shenzhen, Guangdong 518055, China"
+  - slug: leng-han
+    tags: [cancer-genomics, bioinformatics, pancancer, precision-medicine]
+    affiliation: "The University of Texas Health Science Center at Houston (McGovern Medical School)"
   - slug: liang-cheng
     tags: [bioinformatics, deconvolution, molecular-diagnosis]
     affiliation: "Harbin Medical University"
@@ -2107,6 +2134,9 @@ people:
   - slug: linghua-wang
     tags: [genomic-medicine, spatial-transcriptomics, lung-cancer, data-science-oncology]
     affiliation: "MD Anderson Cancer Center"
+  - slug: liuqing-yang
+    tags: [cancer-biology, non-coding-RNA, epigenetics]
+    affiliation: "The University of Texas MD Anderson Cancer Center"
   - slug: lloyd-steele
     tags: [dermatology, single-cell, skin, fibroblast, spatial-transcriptomics]
     affiliation: "Wellcome Sanger Institute; Newcastle University"
@@ -2245,6 +2275,9 @@ people:
   - slug: qi-liu
     tags: [bioinformatics, single-cell-genomics, virtual-cell, perturbation-modeling, AI-for-biology]
     affiliation: "Bioinformatics Department, School of Life Sciences and Technology, Tongji University, Shanghai, China"
+  - slug: qingsong-hu
+    tags: [cancer-biology, non-coding-RNA, hypoxia]
+    affiliation: "The University of Texas MD Anderson Cancer Center"
   - slug: qiu-wu
     tags: [pan-cancer, single-cell-genomics, tme, computational-oncology]
     affiliation: "Tongji University"
@@ -2383,6 +2416,9 @@ people:
   - slug: yilei-li
     tags: [dermatology, atopic-dermatitis, clinical-research]
     affiliation: "Department of Dermatology, Zhongshan Hospital, Fudan University, Shanghai, China"
+  - slug: youqiong-ye
+    tags: [cancer-genomics, hypoxia, bioinformatics, pancancer]
+    affiliation: "Shanghai Jiao Tong University School of Medicine; formerly UTHealth / MD Anderson"
   - slug: yuan-wang
     tags: [early-cancer, lineage-tracing, glioma, autochthonous-mouse-models]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
@@ -2440,6 +2476,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: muscle biology / metabolic flux
+  - slug: 15-gene-hypoxia-signature-robust-pancancer-classification
+    title: "A 15-gene mRNA signature robustly classifies tumour hypoxia status across cancer types"
+    tags: [hypoxia, mRNA-signature, pancancer, TCGA, methodology]
+    status: supported
+    confidence: 0.9
+    domain: oncology / cancer-genomics / hypoxia-quantification
   - slug: 18-ecmmac-anticorrelates-mana-score-lung
     title: "18_ECMMac proportion anticorrelates with MANA score (q=0.078) and 8_IFNGMac correlates with MANA score (q=0.060) in lung cancer"
     tags: [MANA-score, neoantigen, 18_ECMMac, 8_IFNGMac, lung-cancer, TAM-T-cell-crosstalk]
@@ -3058,6 +3100,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: aracne-reverse-engineering-yields-dense-macrophage
+    title: "ARACNe reverse engineering yields a dense macrophage gene interaction network (66,744 interactions)"
+    tags: [macrophage, network-biology, ARACNe]
+    status: supported
+    confidence: 0.85
+    domain: methods
   - slug: arcface-head-concurrent-reconstruction-sharpens-biological
     title: "ArcFace head with concurrent reconstruction sharpens biological identity separability without collapsing transcriptomic detail"
     tags: [AlphaCell, ArcFace, fine-tuning, latent-structure, reconstruction]
@@ -3766,6 +3814,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: oncology / immuno-oncology
+  - slug: copd-alveolar-macrophages-lose-inflammatory-gene
+    title: "COPD alveolar macrophages show an unexpected loss of inflammatory gene signatures"
+    tags: [macrophage, COPD, alveolar, GSEA]
+    status: supported
+    confidence: 0.7
+    domain: immunology
   - slug: copy-number-variations-accumulate-cancer-specifically
     title: "CNV accumulation in precancer is cancer- and stage-specific"
     tags: [oncology, genomics]
@@ -4135,8 +4189,8 @@ claims:
   - slug: discrete-cell-type-embeddings-structurally-preclude
     title: "Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages"
     tags: [zero-shot, cell-type-embedding, STATE, architecture, perturbation]
-    status: supported
-    confidence: 0.75
+    status: proposed
+    confidence: 0.5
     domain: methods / single-cell
   - slug: disease-enriched-spot-substates-skin
     title: "Disease-enriched Visium spot sub-states (TLS, TLS-like, KC stress, HS tunnel, BCC tumor) emerge adjacent to the homeostatic ten-neighborhood scheme"
@@ -5014,6 +5068,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology-hypoxia
+  - slug: high-hypoxia-score-worse-sorafenib-prognosis-nsclc
+    title: "High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC"
+    tags: [hypoxia, sorafenib, NSCLC, clinical-trial, prognosis]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / clinical-trials / hypoxia
   - slug: high-receptor-transcript-abundance-does-always
     title: "High receptor transcript abundance does not always translate into strong cytokine response"
     tags: [receptor-insufficiency, L-R-inference, TGF-beta, decorin, resistin]
@@ -5074,6 +5134,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: immunology
+  - slug: human-macrophage-activation-forms-spectrum-least
+    title: "Human macrophage activation forms a spectrum of at least nine programs beyond M1/M2"
+    tags: [macrophage, activation, spectrum-model]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: human-mouse-cytokine-responses-show-low
     title: "Human and mouse cytokine responses show low gene-wise correlation"
     tags: [cross-species, human-mouse, concordance, discordance, translation]
@@ -5101,8 +5167,8 @@ claims:
   - slug: hvg-feature-selection-theoretically-ill-posed
     title: "HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction"
     tags: [HVG, zero-shot, feature-selection, theory, perturbation]
-    status: supported
-    confidence: 0.7
+    status: proposed
+    confidence: 0.5
     domain: methods / single-cell
   - slug: hvg-selection-improves-integration
     title: "HVG selection improves scRNA-seq integration performance across most metrics"
@@ -5128,6 +5194,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: hypoxia-biases-clinically-actionable-genes-pancancer
+    title: "90.9% of clinically actionable genes are biased by hypoxia status in at least one molecular layer"
+    tags: [hypoxia, actionable-genes, FDA-drugs, precision-oncology, pancancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology / precision-medicine / hypoxia
+  - slug: hypoxia-bidirectional-anticancer-drug-response
+    title: "Tumour hypoxia bidirectionally modulates anticancer drug response, conferring both resistance and sensitivity"
+    tags: [hypoxia, drug-resistance, drug-sensitivity, precision-oncology, pancancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology / pharmacology / hypoxia
   - slug: hypoxia-bidirectional-apoptosis-bnip3-p53-stabilization
     title: "Hypoxia exerts bidirectional effects on apoptosis: HIF-1α suppresses apoptosis via BNIP3-mitophagy in some contexts but accelerates p53-dependent apoptosis via Nix/BNIP3 in others"
     tags: [hypoxia, apoptosis, HIF1A, BNIP3, Nix, TP53, p53, mitochondrial-apoptosis, bidirectional]
@@ -5158,6 +5236,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia
+  - slug: hypoxia-drug-response-lung-cell-line-validation
+    title: "Lung cancer cell-line experiments confirm hypoxia-dependent drug resistance and sensitivity predictions"
+    tags: [hypoxia, drug-response, experimental-validation, NSCLC, cell-line]
+    status: supported
+    confidence: 0.8
+    domain: oncology / pharmacology / hypoxia
   - slug: hypoxia-elevates-genomic-instability-pancancer
     title: "Tumor hypoxia is associated with elevated genomic instability across cancer types"
     tags: [hypoxia, genomic-instability, PGA, pancancer, cancer]
@@ -5170,6 +5254,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: hypoxia-genes-correlate-anticancer-drug-sensitivity
+    title: "143 hypoxia-associated genes correlate with anticancer drug sensitivity across cancer cell lines"
+    tags: [hypoxia, drug-response, GDSC, pharmacogenomics, pancancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology / pharmacogenomics / hypoxia
   - slug: hypoxia-hif1-dependently-induces-low-fidelity
     title: "Hypoxia induces low-fidelity translesion-synthesis DNA polymerases in a HIF1-dependent manner"
     tags: [hypoxia, HIF1, translesion-synthesis, mutator, DNA-polymerase]
@@ -5212,12 +5302,36 @@ claims:
     status: supported
     confidence: 0.9
     domain: hypoxia
+  - slug: hypoxia-integrative-multiomic-egfr-drug-response-network
+    title: "Integrative multi-omic regulation converges on drug-response genes such as EGFR in hypoxic tumours"
+    tags: [hypoxia, multi-omics, EGFR, drug-response, regulatory-network]
+    status: supported
+    confidence: 0.7
+    domain: oncology / integrative-genomics / hypoxia
+  - slug: hypoxia-mirna-target-network-cancer-pathways
+    title: "Hypoxia-associated miRNAs regulate target genes enriched in cancer signalling pathways"
+    tags: [hypoxia, miRNA, signalling-pathways, regulatory-network, pancancer]
+    status: supported
+    confidence: 0.75
+    domain: oncology / non-coding-RNA / hypoxia
   - slug: hypoxia-model-tcga-paad-os-auc
     title: "13-gene hypoxia model predicts OS in TCGA-PAAD with AUC 0.774 (1yr), 0.727 (2yr), 0.711 (3yr), exceeding clinicopathologic features alone"
     tags: [hypoxia, PDAC, prognostic-model, TCGA-PAAD, AUC, overall-survival]
     status: supported
     confidence: 0.7
     domain: oncology-hypoxia
+  - slug: hypoxia-molecular-alteration-burden-varies-by-cancer
+    title: "The burden of hypoxia-associated multi-omic alterations varies markedly across cancer types and molecular layers"
+    tags: [hypoxia, multi-omics, pancancer, heterogeneity, TCGA]
+    status: supported
+    confidence: 0.85
+    domain: oncology / cancer-genomics / hypoxia
+  - slug: hypoxia-mrna-expression-inverse-dna-methylation
+    title: "Hypoxia-biased mRNA expression changes are inversely related to DNA methylation changes"
+    tags: [hypoxia, DNA-methylation, gene-regulation, epigenetics, pancancer]
+    status: supported
+    confidence: 0.75
+    domain: oncology / epigenetics / hypoxia
   - slug: hypoxia-pdl1-gsdmc-nlrp3-induces-pyroptosis
     title: "Hypoxia drives pyroptosis through PD-L1-mediated nuclear induction of GSDMC and through NLRP3 inflammasome activation in an NF-κB/HIF-1α-dependent manner"
     tags: [hypoxia, pyroptosis, GSDMC, PD-L1, NLRP3, inflammasome, HIF1A, NF-kB, tumor-microenvironment]
@@ -5236,12 +5350,30 @@ claims:
     status: supported
     confidence: 0.95
     domain: oncology / hypoxia / tumor-biology
+  - slug: hypoxia-protein-alterations-pten-loss-fibronectin-gain
+    title: "Hypoxia score-high tumours show recurrent protein alterations including PTEN loss and fibronectin gain"
+    tags: [hypoxia, proteomics, PTEN, EMT, apoptosis]
+    status: supported
+    confidence: 0.75
+    domain: oncology / proteomics / hypoxia
   - slug: hypoxia-pten-tert-three-way-telomere-interaction
     title: "Hypoxia × PTEN × TERT three-way interaction modulates telomere length in localized PCa"
     tags: [hypoxia, PTEN, TERT, telomere, prostate-cancer, interaction, HIF1A]
     status: supported
     confidence: 0.75
     domain: oncology / cancer-genomics / prostate-cancer
+  - slug: hypoxia-scna-harbour-actionable-genes
+    title: "Hypoxia-associated somatic copy number alterations harbour clinically actionable genes"
+    tags: [hypoxia, SCNA, copy-number, actionable-genes, immunotherapy]
+    status: supported
+    confidence: 0.75
+    domain: oncology / cancer-genomics / hypoxia
+  - slug: hypoxia-score-high-worse-survival-pancancer
+    title: "Hypoxia score-high tumours are associated with worse overall survival across cancer types"
+    tags: [hypoxia, prognosis, survival, pancancer, TCGA]
+    status: supported
+    confidence: 0.85
+    domain: oncology / clinical-genomics / hypoxia
   - slug: hypoxia-signature-tumor-cells-anticorrelates-distance
     title: "Hypoxia signature score in LUAD tumour cells anticorrelates with distance to TANs"
     tags: [LUAD, hypoxia, TAN, spatial-statistics, correlational]
@@ -5650,6 +5782,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: junb-nfkb1-creb1-common-transcriptional-denominators
+    title: "JUNB, NFKB1, and CREB1 are common transcriptional denominators of macrophage activation"
+    tags: [macrophage, transcription-factors, network-hubs]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: kac-mp-landscape-resembles-precursor-lesions
     title: "KAC meta-program landscape (reduced MP2-AT2, elevated MP6-tumor/KAC) resembles precursor lesions, not normal alveolar cells"
     tags: [luad, nmf, meta-program, kac, precursor]
@@ -6580,6 +6718,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: cachexia / metabolomics
+  - slug: non-polarizing-stimuli-reveal-activation-states
+    title: "Non-polarizing stimuli reveal macrophage activation states beyond the bipolar M1/M2 axis"
+    tags: [macrophage, activation, fatty-acids]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: nonmetastatic-breast-tumors-higher-cell-pvl
     title: "Nonmetastatic breast tumors have higher T-cell and PVL and lower B-cell abundance than metastatic"
     tags: [breast-cancer, tumor-microenvironment, metastasis, deconvolution-derived]
@@ -7240,6 +7384,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: metabolism
+  - slug: propensity-score-confounder-balanced-hypoxia-features
+    title: "A propensity score algorithm balances clinical confounders to isolate hypoxia-associated molecular features"
+    tags: [methodology, propensity-score, confounders, hypoxia, pancancer]
+    status: supported
+    confidence: 0.8
+    domain: cancer-genomics / biostatistics / hypoxia
   - slug: proteasome-pathway-hallmark-texterm
     title: "Proteasome catabolism is a functional hallmark of TEXterm cells linked to dysfunction"
     tags: [exhaustion, proteasome, catabolism, cd8-t-cells]
@@ -7294,6 +7444,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / cachexia / adipose biology
+  - slug: pu1-binding-h3k4me3-enriched-macrophage-hub
+    title: "PU.1 binding and H3K4me3 marks are enriched at macrophage hub gene loci"
+    tags: [macrophage, ChIP-seq, PU1, epigenetics]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: px-478-hif1a-inhibitor-mechanism-pdac
     title: "PX-478 inhibits HIF-1α protein, transactivation, deubiquitination, hypoxic VEGF synthesis, and PDAC GM-CSF / PNI"
     tags: [PX-478, HIF1A-inhibitor, VEGF, GM-CSF, perineural-invasion, pancreatic-ductal-adenocarcinoma, PDAC, small-molecule, clinical-trial]
@@ -7324,6 +7480,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: lung cancer / functional validation
+  - slug: refined-cross-species-core-macrophage-signature
+    title: "A refined cross-species core macrophage signature distinguishes macrophages from DCs and monocytes"
+    tags: [macrophage, comparative-transcriptomics, core-signature]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: resource-299-human-macrophage-transcriptomes-across
+    title: "A resource of 299 human macrophage transcriptomes across 28 stimuli on a single platform"
+    tags: [macrophage, transcriptomics, resource]
+    status: supported
+    confidence: 0.95
+    domain: immunology
   - slug: response-hypoxia-signature-correlates-tan-nan
     title: "Response-to-hypoxia signature correlates with TAN but not NAN signature in LUAD bulk cohorts"
     tags: [LUAD, bulk-transcriptomics, TAN, NAN, hypoxia-signature, correlational, meta-analysis]
@@ -7582,6 +7750,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology / cytokines
+  - slug: single-selective-marker-genes-induced-specific
+    title: "Single selective marker genes are induced by specific macrophage stimuli, but combinations are usually needed"
+    tags: [macrophage, marker-genes]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: sirpa-cd47-axis-blocks-phagocytosis
     title: "SIRPα–CD47 axis is a 'don't-eat-me' signal that protects normal cells and tumour cells from macrophage phagocytosis; targeting it is a clinical-stage cancer immunotherapy strategy"
     tags: [SIRPa, CD47, phagocytosis, macrophage-checkpoint, cancer-immunotherapy, macrophage]
@@ -7660,6 +7834,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: hematopoiesis / functional genomics
+  - slug: som-clustering-correlation-matrices-validate-macrophage
+    title: "SOM clustering and correlation coefficient matrices validate the macrophage spectrum model"
+    tags: [macrophage, clustering, bioinformatics]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: somde-best-scalability-svg
     title: "SOMDE has the best memory and runtime scalability among SVG-detection methods up to 40,000 spots"
     tags: [spatial-transcriptomics, scalability, benchmarking, SVG]
@@ -7786,6 +7966,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: stat1-stat6-central-hubs-ifn-gamma
+    title: "STAT1 and STAT6 are central TF hubs of the IFN-γ and IL-4 macrophage networks"
+    tags: [macrophage, transcription-factors, STAT]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: stat2-irf9-keystones-baseline-jak-stat-priming
     title: "STAT2 and IRF9 are the keystones of baseline JAK-STAT priming — their KOs most strongly compromise IFN-β response"
     tags: [stat2, irf9, jak-stat, ifn-beta, priming, homeostasis-keystone]
@@ -7803,6 +7989,12 @@ claims:
     tags: [stat3, stat5, isg, isgf3, macrophage, cooperative-regulation, jak-stat]
     status: supported
     confidence: 0.7
+    domain: immunology
+  - slug: stat4-selectively-induced-tpp-activated-macrophages
+    title: "STAT4 is selectively induced in TPP-activated human macrophages"
+    tags: [macrophage, STAT4, TPP]
+    status: supported
+    confidence: 0.8
     domain: immunology
   - slug: stat5-stat6-repressive-chromatin-macrophage-homeostasis
     title: "STAT5 and STAT6 KOs increase chromatin accessibility in macrophages — repressive epigenomic role under homeostasis"
@@ -8278,6 +8470,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: tp53-mutation-enriched-hypoxia-score-high
+    title: "TP53 mutation frequency is higher in hypoxia score-high tumours across multiple cancer types"
+    tags: [hypoxia, TP53, somatic-mutation, pancancer, drug-response]
+    status: supported
+    confidence: 0.85
+    domain: oncology / cancer-genomics / hypoxia
   - slug: tp53-null-cells-outcompete-wild-type
     title: "Under hypoxia, TP53-null and BCL2-overexpressing cells outcompete wild-type cells via reduced apoptosis (isogenic competition)"
     tags: [hypoxia, TP53, BCL2, apoptosis, clonal-selection, driver-gene]
@@ -8320,6 +8518,24 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: tpp-macrophages-express-distinct-cell-surface
+    title: "TPP macrophages express a distinct cell-surface marker set (CD14, CD23, CD25, CXCR7, CD197)"
+    tags: [macrophage, TPP, surface-markers]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: tpp-macrophages-functionally-distinct-inhibit-cell
+    title: "TPP macrophages are functionally distinct and strongly inhibit T cell proliferation"
+    tags: [macrophage, TPP, T-cell-suppression]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: tpp-stimulation-induces-macrophage-modules-absent
+    title: "TPP stimulation induces macrophage coexpression modules absent in M1 and M2"
+    tags: [macrophage, TPP, chronic-inflammation]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: tracerx-nsclc-cac-thresholds
     title: "TRACERx-NSCLC defines CAC body-composition thresholds and links isolated SKM loss to distinct tumour gene expression"
     tags: [cancer-cachexia, TRACERx, NSCLC, body-composition]
@@ -8794,6 +9010,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: wgcna-defines-49-macrophage-coexpression-modules
+    title: "WGCNA defines 49 macrophage coexpression modules linked to stimulation conditions"
+    tags: [macrophage, wgcna, coexpression]
+    status: supported
+    confidence: 0.9
+    domain: methods
   - slug: within-human-cytokine-response-correlation-exceeds
     title: "Within-human cytokine response correlation exceeds cross-species correlation"
     tags: [cross-species, within-human, IFN-beta, Kang-et-al, experimental-design]
@@ -8860,102 +9082,6 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
-  - slug: aracne-reverse-engineering-yields-dense-macrophage
-    title: "ARACNe reverse engineering yields a dense macrophage gene interaction network (66,744 interactions)"
-    tags: [macrophage, network-biology, ARACNe]
-    status: supported
-    confidence: 0.85
-    domain: methods
-  - slug: copd-alveolar-macrophages-lose-inflammatory-gene
-    title: "COPD alveolar macrophages show an unexpected loss of inflammatory gene signatures"
-    tags: [macrophage, COPD, alveolar, GSEA]
-    status: supported
-    confidence: 0.7
-    domain: immunology
-  - slug: human-macrophage-activation-forms-spectrum-least
-    title: "Human macrophage activation forms a spectrum of at least nine programs beyond M1/M2"
-    tags: [macrophage, activation, spectrum-model]
-    status: supported
-    confidence: 0.85
-    domain: immunology
-  - slug: junb-nfkb1-creb1-common-transcriptional-denominators
-    title: "JUNB, NFKB1, and CREB1 are common transcriptional denominators of macrophage activation"
-    tags: [macrophage, transcription-factors, network-hubs]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: non-polarizing-stimuli-reveal-activation-states
-    title: "Non-polarizing stimuli reveal macrophage activation states beyond the bipolar M1/M2 axis"
-    tags: [macrophage, activation, fatty-acids]
-    status: supported
-    confidence: 0.85
-    domain: immunology
-  - slug: pu1-binding-h3k4me3-enriched-macrophage-hub
-    title: "PU.1 binding and H3K4me3 marks are enriched at macrophage hub gene loci"
-    tags: [macrophage, ChIP-seq, PU1, epigenetics]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: refined-cross-species-core-macrophage-signature
-    title: "A refined cross-species core macrophage signature distinguishes macrophages from DCs and monocytes"
-    tags: [macrophage, comparative-transcriptomics, core-signature]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: resource-299-human-macrophage-transcriptomes-across
-    title: "A resource of 299 human macrophage transcriptomes across 28 stimuli on a single platform"
-    tags: [macrophage, transcriptomics, resource]
-    status: supported
-    confidence: 0.95
-    domain: immunology
-  - slug: single-selective-marker-genes-induced-specific
-    title: "Single selective marker genes are induced by specific macrophage stimuli, but combinations are usually needed"
-    tags: [macrophage, marker-genes]
-    status: supported
-    confidence: 0.75
-    domain: immunology
-  - slug: som-clustering-correlation-matrices-validate-macrophage
-    title: "SOM clustering and correlation coefficient matrices validate the macrophage spectrum model"
-    tags: [macrophage, clustering, bioinformatics]
-    status: supported
-    confidence: 0.8
-    domain: methods
-  - slug: stat1-stat6-central-hubs-ifn-gamma
-    title: "STAT1 and STAT6 are central TF hubs of the IFN-γ and IL-4 macrophage networks"
-    tags: [macrophage, transcription-factors, STAT]
-    status: supported
-    confidence: 0.85
-    domain: immunology
-  - slug: stat4-selectively-induced-tpp-activated-macrophages
-    title: "STAT4 is selectively induced in TPP-activated human macrophages"
-    tags: [macrophage, STAT4, TPP]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: tpp-macrophages-express-distinct-cell-surface
-    title: "TPP macrophages express a distinct cell-surface marker set (CD14, CD23, CD25, CXCR7, CD197)"
-    tags: [macrophage, TPP, surface-markers]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: tpp-macrophages-functionally-distinct-inhibit-cell
-    title: "TPP macrophages are functionally distinct and strongly inhibit T cell proliferation"
-    tags: [macrophage, TPP, T-cell-suppression]
-    status: supported
-    confidence: 0.8
-    domain: immunology
-  - slug: tpp-stimulation-induces-macrophage-modules-absent
-    title: "TPP stimulation induces macrophage coexpression modules absent in M1 and M2"
-    tags: [macrophage, TPP, chronic-inflammation]
-    status: supported
-    confidence: 0.85
-    domain: immunology
-  - slug: wgcna-defines-49-macrophage-coexpression-modules
-    title: "WGCNA defines 49 macrophage coexpression modules linked to stimulation conditions"
-    tags: [macrophage, wgcna, coexpression]
-    status: supported
-    confidence: 0.9
-    domain: methods
 
 Summary:
 
@@ -9045,6 +9171,10 @@ foundations:
     title: "APOBEC-mediated mutagenesis"
     status: mainstream
     domain: mutational-signatures
+  - slug: aracne-reverse-network-engineering
+    title: "ARACNe — Algorithm for the Reconstruction of Accurate Cellular Networks"
+    status: mainstream
+    domain: methods
   - slug: arcface-additive-angular-margin-loss
     title: "ArcFace — additive angular margin loss"
     status: mainstream
@@ -9053,10 +9183,6 @@ foundations:
     title: "ARG1 — Arginase 1"
     status: mainstream
     domain: immunometabolism
-  - slug: aracne-reverse-network-engineering
-    title: "ARACNe — Algorithm for the Reconstruction of Accurate Cellular Networks"
-    status: mainstream
-    domain: methods
   - slug: arnt-hif1b
     title: "ARNT (AHR nuclear translocator / HIF-1β)"
     status: mainstream
@@ -10945,14 +11071,14 @@ foundations:
     title: "Tangram — deep-learning spatial mapping of scRNA-seq onto spatial transcriptomics"
     status: mainstream
     domain: methods / spatial-transcriptomics / cross-modality-mapping
-  - slug: tapinarof
-    title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
-    status: mainstream
-    domain: immunology / dermatology / small-molecule drug
   - slug: tapinarof-ahr-agonist
     title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
     status: mainstream
     domain: pharmacology / AHR agonist / dermatology drug
+  - slug: tapinarof
+    title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
+    status: mainstream
+    domain: immunology / dermatology / small-molecule drug
   - slug: tbk1-tank-binding-kinase-1
     title: "TBK1 — TANK-binding kinase 1"
     status: mainstream

@@ -14,7 +14,12 @@ domain: "oncology / non-coding-RNA / hypoxia"
 source_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+  - characterization-hypoxia-associated-molecular-features-aid
 evidence:
+  - source: characterization-hypoxia-associated-molecular-features-aid
+    type: supports
+    strength: strong
+    detail: "Hypoxia-induced miR-210-3p was upregulated in hypoxia score-high tumours in 16 cancer types and its expression correlated with response to ≥1 drug in 13 cancer types. Quote (p.436): 'The hypoxia-induced miRNA, miR-210-3p, was upregulated in hypoxia score-high tumours in 16 cancer types.' In LIHC, miR-210-3p negatively correlated (drug-sensitive) with the ATM inhibitor KU-55933 (rs=−0.44) and positively (drug-resistant) with vinorelbine (rs=0.48)."
   - source: hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
     type: supports
     strength: moderate
@@ -35,6 +40,7 @@ miR-210 abundance is positively correlated with mRNA-based tumor hypoxia score a
 ## Evidence summary
 
 - [[papers/molecular-landmarks-tumor-hypoxia-across-cancer]] — primary pancancer evidence: 18/19 tumor types, ρ range 0.20–0.66.
+- [[papers/characterization-hypoxia-associated-molecular-features-aid]] — miR-210-3p up in hypoxia score-high tumours in 16 cancer types; drug-response correlations in 13 cancer types.
 - Mechanistic prior: Kulshreshtha 2007 *Mol Cell Biol*, Camps 2008 *Clin Cancer Res*, Huang 2009 *Mol Cell* — direct HIF1A binding at MIR210 promoter.
 
 ## Conditions and scope

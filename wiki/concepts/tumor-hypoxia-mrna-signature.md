@@ -24,6 +24,7 @@ tags:
 maturity: stable
 key_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
+  - characterization-hypoxia-associated-molecular-features-aid
 first_introduced: "Buffa et al. 2010 Br J Cancer (51-gene metagene); Winter 2007, Ragnum 2015"
 date_updated: 2026-05-06
 related_concepts: []

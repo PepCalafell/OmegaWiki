@@ -54,6 +54,10 @@ _Auto-generated open questions. Do not edit._
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Therapeutic targetability of the TAN-hypoxia niche (HIF1α inhibition with PX-478 / belzutifan, CXCR1/2 antagonism).
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Whether the hierarchical n=3/8/20 stable solutions generalise to other tumour cohorts.
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Robustness of analytical-NE false-positive rate vs permutation-NE.
+- [paper/characterization-hypoxia-associated-molecular-features-aid] Which hypoxia-associated alterations are directly caused by hypoxia vs. merely correlated?
+- [paper/characterization-hypoxia-associated-molecular-features-aid] How does intratumoral hypoxia heterogeneity (single-cell) modify these pan-cancer patterns?
+- [paper/characterization-hypoxia-associated-molecular-features-aid] Can hypoxia status prospectively stratify patients into benefit/no-benefit arms for hypoxia-targeted or combination therapy?
+- [paper/characterization-hypoxia-associated-molecular-features-aid] How do these bulk pan-cancer associations compare to single-cell/spatial hypoxia maps now available?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Which kinases (beyond PKC and tyrosine kinases) directly phosphorylate AHR, and at which residues? Most of the high-throughput PTM sites have no assigned upstream enzyme (Fig. 3).
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Does ARNT2 antagonise AHR in tissues where it is dominantly expressed (CNS, kidney, retinal epithelium)?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Why do AHRR and CYP1A1 promoter methylation respond in *opposite* directions to maternal smoking exposure if both are downstream of the same AHR axis?
@@ -704,6 +708,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-activated-prodrugs-haps] Whether combining HAPs with anti-angiogenic vascular *normalization* (which raises pO₂) cancels HAP activation — a paradoxical antagonism.
 - [concept/hypoxia-activated-prodrugs-haps] Whether biomarker-stratified trials (hypoxia-high only) would rescue HAP efficacy.
 - [concept/hypoxia-activated-prodrugs-haps] HAPs + ICB synergy as a way to convert ICB-cold hypoxic tumors to responders.
+- [concept/hypoxia-bidirectional-drug-response-modulation] Prospectively stratifying patients into "benefit" vs "no-benefit" arms by hypoxia status.
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Causal vs correlational role in driving CNAs
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Cycling vs chronic hypoxia contributions to centrosome defects
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Spatial validation in situ via single-cell centrosome imaging or spatial transcriptomics
@@ -946,6 +951,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pairwise-cytokine-code-sepsis] Higher-order (triplet, quartet) cytokine combinations are not yet sampled
 - [concept/pan-cancer-conserved-leading-edge-signature] Whether LE signature subtypes exist (e.g. ECM-dominant vs immune-cold variants)
 - [concept/pan-cancer-conserved-leading-edge-signature] Causal upstream drivers shared across cancers
+- [concept/pan-cancer-hypoxia-multiomic-landscape] Single-cell / spatial extension of the landscape.
+- [concept/pan-cancer-hypoxia-multiomic-landscape] Distinguishing hypoxia-driven from hypoxia-correlated alterations.
 - [concept/pan-cancer-proteome-atlas-tpcpa] Extension to metastatic and post-treatment tumours.
 - [concept/pan-cancer-proteome-atlas-tpcpa] Integration with single-cell / spatial proteomics.
 - [concept/pan-cancer-tumor-ecosystem-five-subtypes] How robust is the classification across non-TCGA cohorts and in independent ICB-treated cohorts?
@@ -976,6 +983,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
 - [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Broader catalogue of PRMT5 metabolic-enzyme substrates.
 - [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Therapeutic exploitation of the methionine–leucine crosstalk in hypoxic disease.
+- [concept/propensity-score-confounder-balanced-omics] Robustness to confounder selection and model misspecification.
 - [concept/proteomic-cms-markers-colorectal-cancer] An IHC- or DIA-based CMS classifier deployable in routine pathology.
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
@@ -1218,6 +1226,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
 - [claim/hvg-feature-selection-theoretically-ill-posed] HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction (status: proposed)
 - [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)

@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1091 total)
+## Claims (1106 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -15,11 +15,11 @@ _Auto-generated compressed context. Do not edit._
 - [supported] Hypoxic tumours are clinically refractory to immune checkpoint inhibition despite elevated TMB and neoantigens (conf: 0.8)
 - [supported] IL4I1 macrophages are the in vivo correlates of in vitro mMAC1 (conf: 0.8)
 - [supported] Tumor-derived lactate drives TAM M2 polarization via HIF-1α and via GPCR/PKA-CREB; synergizes with hypoxia (conf: 0.85)
+- [supported] miR-210 abundance is positively correlated with hypoxia score in 18 of 19 tumor types (conf: 0.95)
 - [supported] TAMs are the most abundant immune cell population in the TME and accumulate preferentially in hypoxic tumor regions (conf: 0.95)
 - [supported] TREM2⁺ tumor-associated macrophages associate with poor cancer prognosis (conf: 0.7)
 - [supported] TREM2⁺ TAMs accumulate across all six human cancer types in the MoMac-VERSE (conf: 0.85)
-- [supported] 100x tokenization preserves gene-expression resolution of 0.01 within a vocabulary of 1024 (conf: 0.85)
-- [supported] Cluster 12_MBMMac is enriched in melanoma brain metastases vs primary GBM and u
+- [supported] 100x tokenization preserves gene-expression resolution of 0.01 within a vocabulary o
 ## Open Gaps
 _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How to design SAHRMs that engage tolerogenic AHR functions without off-target dioxin-like effects
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (57 total)
+## Papers (58 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,13 +47,12 @@ _Auto-generated open questions. Do not edit._
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2419 total)
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/immgen-immunological-genome-project
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/stat1-tf
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/stat6-tf
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/stat4-transcription-factor
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/nf-kb-p65-rela
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/creb1-transcription-factor
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/spi1-pu1-master-tf
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/tissue-resident-alveolar-macrophage
-  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from-
+## Recent Relationships (2460 total)
+  papers/characterization-hypoxia-associated-molecular-features-aid --introduces_concept--> concepts/pan-cancer-hypoxia-multiomic-landscape
+  papers/characterization-hypoxia-associated-molecular-features-aid --uses_concept--> concepts/propensity-score-confounder-balanced-omics
+  papers/characterization-hypoxia-associated-molecular-features-aid --uses_concept--> concepts/hypoxia-bidirectional-drug-response-modulation
+  papers/characterization-hypoxia-associated-molecular-features-aid --uses_concept--> concepts/tumor-hypoxia-mrna-signature
+  papers/characterization-hypoxia-associated-molecular-features-aid --uses_concept--> concepts/mir-210-hypoxia-induced-microrna
+  papers/characterization-hypoxia-associated-molecular-features-aid --uses_concept--> concepts/warburg-effect-hif1a-glycolytic-reprogramming
+  papers/characterization-hypoxia-associated-molecular-features-aid --uses_concept--> concepts/hypoxia-emt-lineage-plasticity-metastasis
+  papers/characterization-hypoxia-associated-molec
