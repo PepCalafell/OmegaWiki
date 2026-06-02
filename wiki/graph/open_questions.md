@@ -117,6 +117,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/dictionary-immune-responses-cytokines-single-cell] How does the Mac-a/b/c/d/e taxonomy map onto hypoxic TAM phenotypes (e.g., mmac1-hypoxic-inflammatory-macrophage)?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Is the IL-18 NK-f state operative in tumour-infiltrating NK cells?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Can the Immune Dictionary serve as a reference panel for human PBMC datasets despite species differences?
+- [paper/editing-skin-place-vivo-genome-correction] Does the approach work in primary patient cells and a disease-relevant in vivo model?
+- [paper/editing-skin-place-vivo-genome-correction] Is restored TG1 enzyme activity durable beyond 48 h?
+- [paper/editing-skin-place-vivo-genome-correction] What are the competitive dynamics of corrected vs uncorrected skin stem cells?
+- [paper/editing-skin-place-vivo-genome-correction] Can efficacy be extended to whole-body surface areas?
+- [paper/editing-skin-place-vivo-genome-correction] How comprehensively was bystander-free editing validated under genome-wide off-target profiling?
+- [paper/editing-skin-place-vivo-genome-correction] How transferable is the barrier-modulation + LNP platform to other genodermatosis loci with different mutation classes (deletions, large rearrangements) not amenable to base editing?
+- [paper/editing-skin-place-vivo-genome-correction] What is the manufacturing / regulatory path for a combined device (laser microablation) + biologic (mRNA-LNP editor) therapy?
 - [paper/effector-host-interactome-map-links-type] What host/environmental cues activate commensal T3SS in vivo?
 - [paper/effector-host-interactome-map-links-type] Do commensal effectors causally contribute to Crohn's disease or protect against UC?
 - [paper/effector-host-interactome-map-links-type] Are convergence proteins differentially manipulated in commensal vs pathogenic contexts?
@@ -612,6 +619,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/batch-removal-vs-bioconservation-tradeoff] Does reference-mapping (scArches, Azimuth) reformulation escape the tradeoff?
 - [concept/bile-acid-treg-th17-rebalancing] Reproducibility of isoalloLCA Treg induction at physiological human gut concentrations.
 - [concept/bile-acid-treg-th17-rebalancing] Pharmacological agonists of TGR5 / antagonists of RORγt selective for immune over metabolic compartments.
+- [concept/bystander-free-precision-base-editing] Maintaining narrow-window precision while raising on-target efficiency
+- [concept/bystander-free-precision-base-editing] Generalising bystander-free editing across diverse splice-site and regulatory contexts
+- [concept/bystander-free-precision-base-editing] Comprehensive off-target characterisation (sgRNA-dependent and -independent) at therapeutic scale
 - [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Does the Myc-compensation also operate in vivo (e.g. in HIF-1α-deficient infiltrating macrophages in tumors)?
 - [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Is the proliferative shift mechanistically linked to the c-Myc/ribosomal biogenesis observation in tumor-associated macrophages?
 - [concept/c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm] Could PHD-inhibitor therapies (which stabilise rather than ablate HIF-1α) trigger the opposite — Myc suppression and impaired macrophage proliferation in inflammation?
@@ -833,6 +843,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/immune-consensus-cluster-crc-prognostic] Mechanistic link between Treg/macrophage skew and recurrence.
 - [concept/in-silico-perturbation-le-state-reversal] Experimental validation of top hits (e.g. Alvocidib) in OSCC patient-derived models
 - [concept/in-silico-perturbation-le-state-reversal] Extending the pipeline to combination drugs
+- [concept/in-situ-genome-editing-skin] Confirming durability of correction at time points beyond 48 h
+- [concept/in-situ-genome-editing-skin] Competitive dynamics of corrected vs uncorrected skin stem cells
+- [concept/in-situ-genome-editing-skin] Scaling from focal application to whole-body surface area
+- [concept/in-situ-genome-editing-skin] Moving from immortalised human cells / 3D models to primary patient cells and clinical settings
 - [concept/inflammatory-hypoxia-neutrophil-oxygen-depletion] How to harness pro-resolution inflammatory hypoxia therapeutically without exacerbating tissue injury.
 - [concept/intermittent-versus-sustained-hypoxia-inflammation] Defining the oscillation frequency/amplitude thresholds that maximise inflammatory signalling.
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
@@ -873,6 +887,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
 - [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
+- [concept/laser-microablation-transdermal-lnp-delivery] Scaling controlled microablation across large body-surface areas
+- [concept/laser-microablation-transdermal-lnp-delivery] Reproducibility of pore-depth control across skin sites and patients
+- [concept/laser-microablation-transdermal-lnp-delivery] Whether barrier modulation alters local immune responses on repeat dosing
+- [concept/laser-microablation-transdermal-lnp-delivery] Translating from 3D skin models to in vivo human skin
 - [concept/leucine-allosteric-gdh-glutaminolysis-activation] Quantitative split of glutamine carbon between lipids and nucleotides under this regime.
 - [concept/leucine-allosteric-gdh-glutaminolysis-activation] Whether the leucine→GDH axis is druggable for hypoxia-related disease.
 - [concept/ligand-receptor-free-cell-cell-interaction] Combining L–R-free discovery with curated prior knowledge for biological realism.
@@ -1290,6 +1308,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/effector-targets-enriched-gwas-immune-metabolic-disease-variation] Effector-targeted human genes are enriched for GWAS variation in immune and metabolic diseases (status: weakly_supported)
 - [claim/endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps] Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation (status: weakly_supported)
 - [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)
+- [claim/etd-cbe-bystander-free-26-percent] eTD-CBE achieves up to 26% on-target editing of TGM1 c.877-2A>G with no bystander editing in ARCI patient keratinocytes (status: weakly_supported)
+- [claim/etd-cbe-restores-30-percent-tg1] eTD-CBE achieves 12% mean on-target TGM1 correction and restores 30% of wild-type TG1 enzyme activity in a 3D human ARCI skin model (status: weakly_supported)
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
 - [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
@@ -1321,6 +1341,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
+- [claim/microablation-mrna-lnp-transfects-39-percent] Laser microablation plus topical mRNA-LNP transfects 39.1% of basal keratinocytes (skin stem cells) in a 3D ARCI skin model (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells] Mevalonate (MVA) pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma (status: weakly_supported)
@@ -1344,6 +1365,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
+- [claim/topical-mrna-lnp-low-immunogenicity-confined] Topical mRNA-LNPs show minimal immunogenicity, no local inflammation on repeat dosing, and remain confined to treated skin with limited systemic dissemination (status: weakly_supported)
 - [claim/tumors-do-not-acquire-resistance-to-systemic-hypoxia] Tumors do not develop resistance to systemic hypoxia therapy over serial passage (status: weakly_supported)
 - [claim/type-2b-vhl-missense-mutants-enhance] Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)

@@ -97,6 +97,12 @@ papers:
     importance: 5
     domain: immunology
     priority: core
+  - slug: editing-skin-place-vivo-genome-correction
+    title: "Editing the skin in place: In vivo genome correction of rare skin disease"
+    tags: [genome-editing, base-editing, gene-therapy, genodermatosis, lipid-nanoparticle, commentary]
+    importance: 2
+    domain: cell biology
+    priority: reference
   - slug: effector-host-interactome-map-links-type
     title: "Effector–host interactome map links type III secretion systems in healthy gut microbiomes to immune modulation"
     tags: [t3ss, microbiome, interactome, immune-modulation, gut, ibd, nf-kb, effectors]
@@ -558,6 +564,10 @@ concepts:
     title: "Bile acid derivatives rebalance Treg/Th17 and macrophage polarization"
     tags: [bile-acid, treg, th17, macrophage, microbiota, foxp3, rorgt, tgr5, fxr]
     maturity: active
+  - slug: bystander-free-precision-base-editing
+    title: "Bystander-free precision base editing of splice sites"
+    tags: [base-editing, genome-editing, precision, splice-site, TGM1]
+    maturity: emerging
   - slug: c-myc-compensatory-mitochondrial-axis-hif-deficient-bmdm
     title: "c-Myc compensatory mitochondrial/ribosomal axis in HIF-1α-deficient BMDMs"
     tags: [MYC, HIF1A, BMDM, OXPHOS, ribosomal-biogenesis, cell-proliferation, transcription-factor-antagonism, immunometabolism]
@@ -1096,6 +1106,10 @@ concepts:
     title: "In-silico Dynamo perturbation predicts drug efficacy via LE-state reversal"
     tags: [in-silico-screen, drug-response, RNA-velocity, OSCC, leading-edge]
     maturity: emerging
+  - slug: in-situ-genome-editing-skin
+    title: "In situ genome editing of skin"
+    tags: [genome-editing, skin, gene-therapy, genodermatosis, base-editing]
+    maturity: emerging
   - slug: in-vivo-perturb-seq
     title: "In vivo Perturb-seq"
     tags: [methods, crispr, single-cell, functional-genomics, immunology]
@@ -1172,6 +1186,10 @@ concepts:
     title: "Lactate-driven TAM M2 polarization via HIF-1α and PKA-CREB"
     tags: [lactate, lactic-acid, macrophage-polarization, Warburg-effect, oncometabolite, HIF-1α, PKA-CREB, hypoxia, TAM, metabolic-reprogramming]
     maturity: active
+  - slug: laser-microablation-transdermal-lnp-delivery
+    title: "Laser-microablation-assisted transdermal mRNA-LNP delivery"
+    tags: [drug-delivery, transdermal, skin-barrier, lipid-nanoparticle, genome-editing]
+    maturity: emerging
   - slug: leucine-allosteric-gdh-glutaminolysis-activation
     title: "Leucine accumulation allosterically activates GDH to drive glutaminolysis in hypoxia"
     tags: [hypoxia, leucine, GDH, glutaminolysis, lipogenesis, nucleotide-synthesis]
@@ -2324,6 +2342,9 @@ people:
   - slug: michael-calderwood
     tags: [interactome, systems-biology, y2h]
     affiliation: "Dana-Farber Cancer Institute / Harvard Medical School"
+  - slug: michael-mitchell
+    tags: [drug-delivery, lipid-nanoparticle, nanomedicine, genome-editing, rna-therapeutics]
+    affiliation: "Department of Bioengineering, University of Pennsylvania, Philadelphia"
   - slug: michael-rothballer
     tags: [microbiome, microbial-ecology, plant-microbe]
     affiliation: "Helmholtz Munich"
@@ -2444,6 +2465,9 @@ people:
   - slug: roel-polak
     tags: [organoids, oncology, paediatric-oncology, tumour-immune-microenvironment]
     affiliation: "Stanford University School of Medicine; Princess Máxima Center for Pediatric Oncology, Utrecht"
+  - slug: rohan-palanki
+    tags: [drug-delivery, lipid-nanoparticle, genome-editing, gene-therapy]
+    affiliation: "Department of Bioengineering, University of Pennsylvania, Philadelphia"
   - slug: rohit-arora
     tags: [spatial-transcriptomics, OSCC, head-and-neck-cancer]
     affiliation: "University of Calgary (Biochemistry & Molecular Biology, Cumming School of Medicine; Arnie Charbonneau Cancer Institute)"
@@ -4820,6 +4844,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: etd-cbe-bystander-free-26-percent
+    title: "eTD-CBE achieves up to 26% on-target editing of TGM1 c.877-2A>G with no bystander editing in ARCI patient keratinocytes"
+    tags: [base-editing, precision, TGM1, ARCI, splice-site]
+    status: weakly_supported
+    confidence: 0.7
+    domain: genome editing / dermatology
+  - slug: etd-cbe-restores-30-percent-tg1
+    title: "eTD-CBE achieves 12% mean on-target TGM1 correction and restores 30% of wild-type TG1 enzyme activity in a 3D human ARCI skin model"
+    tags: [base-editing, TGM1, ARCI, enzyme-activity, skin-model]
+    status: weakly_supported
+    confidence: 0.7
+    domain: genome editing / dermatology
   - slug: evofosfamide-th-302-clinical-failure-sarcoma-pancreas
     title: "Evofosfamide (TH-302) shows preclinical hypoxia-selective cytotoxicity but failed phase III in sarcoma and pancreatic cancer"
     tags: [hypoxia, HAP, evofosfamide, TH-302, sarcoma, pancreatic-cancer, clinical-trial, pharmacological]
@@ -6812,6 +6848,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology / immuno-oncology
+  - slug: microablation-mrna-lnp-transfects-39-percent
+    title: "Laser microablation plus topical mRNA-LNP transfects 39.1% of basal keratinocytes (skin stem cells) in a 3D ARCI skin model"
+    tags: [transdermal-delivery, lipid-nanoparticle, skin-stem-cells, base-editing, barrier-modulation]
+    status: weakly_supported
+    confidence: 0.7
+    domain: drug delivery / dermatology
   - slug: microbial-tryptophan-indoles-sustain-ahr-barrier
     title: "Microbiota-derived indoles (IAA, I3A, tryptamine, I3S) are major endogenous AHR agonists sustaining mucosal immunity"
     tags: [AHR, microbiota, tryptophan, indoles, gut-immunity]
@@ -9038,6 +9080,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: hepatology / TGFbeta-signaling
+  - slug: tgm1-mutations-cause-one-third-arci
+    title: "About one-third of ARCI cases are caused by TGM1 mutations, with c.877-2A>G the most common disease-causing allele"
+    tags: [TGM1, ARCI, genodermatosis, splice-site, epidemiology]
+    status: supported
+    confidence: 0.85
+    domain: dermatology / genetics
   - slug: three-disease-specific-myofibroblast-subtypes-f6
     title: "Three disease-specific myofibroblast subtypes (F6, F7, F8) have no healthy skin counterpart"
     tags: [skin, myofibroblast, fibroblast, disease, ECM]
@@ -9152,6 +9200,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: bioinformatics / unsupervised modeling
+  - slug: topical-mrna-lnp-low-immunogenicity-confined
+    title: "Topical mRNA-LNPs show minimal immunogenicity, no local inflammation on repeat dosing, and remain confined to treated skin with limited systemic dissemination"
+    tags: [lipid-nanoparticle, safety, immunogenicity, biodistribution, skin]
+    status: weakly_supported
+    confidence: 0.7
+    domain: drug delivery / safety
   - slug: tp53-mutant-human-gastric-organoids-show
     title: "TP53-mutant human gastric organoids show clonal evolution and CNV accumulation over 2 years of culture"
     tags: [methodological, oncology]
@@ -9945,6 +9999,10 @@ foundations:
     title: "AUCell — per-cell gene set activity scoring"
     status: mainstream
     domain: methods / scRNA-seq
+  - slug: autosomal-recessive-congenital-ichthyosis
+    title: "Autosomal recessive congenital ichthyosis (ARCI)"
+    status: mainstream
+    domain: dermatology / genodermatoses / genetics
   - slug: azimuth-reference-mapping
     title: "Azimuth — query-to-reference scRNA-seq mapping"
     status: mainstream
@@ -10289,6 +10347,10 @@ foundations:
     title: "In vivo cytokine perturbation scRNA-seq (lymph-node injection)"
     status: mainstream
     domain: immunology / methods / single-cell
+  - slug: cytosine-base-editor
+    title: "Cytosine base editor (CBE)"
+    status: mainstream
+    domain: genome editing / molecular biology / methods
   - slug: cytotrace-differentiation
     title: "CytoTRACE — single-cell differentiation state predictor"
     status: mainstream
@@ -11139,6 +11201,10 @@ foundations:
     title: "MPS1 — mitotic checkpoint serine/threonine kinase (TTK)"
     status: mainstream
     domain: cell biology / mitosis
+  - slug: mrna-lipid-nanoparticle
+    title: "mRNA lipid nanoparticle (mRNA-LNP)"
+    status: mainstream
+    domain: drug delivery / nanomedicine / methods
   - slug: mrvi-multi-resolution-variational-inference
     title: "MrVI — multi-resolution variational inference for treatment effects in scRNA-seq"
     status: mainstream
@@ -11857,14 +11923,14 @@ foundations:
     title: "Tangram — deep-learning spatial mapping of scRNA-seq onto spatial transcriptomics"
     status: mainstream
     domain: methods / spatial-transcriptomics / cross-modality-mapping
-  - slug: tapinarof-ahr-agonist
-    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
-    status: mainstream
-    domain: pharmacology / AHR agonist / dermatology drug
   - slug: tapinarof
     title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
     status: mainstream
     domain: immunology / dermatology / small-molecule drug
+  - slug: tapinarof-ahr-agonist
+    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
+    status: mainstream
+    domain: pharmacology / AHR agonist / dermatology drug
   - slug: tbk1-tank-binding-kinase-1
     title: "TBK1 — TANK-binding kinase 1"
     status: mainstream
@@ -11949,6 +12015,10 @@ foundations:
     title: "TRACERx — TRAcking Cancer Evolution through therapy (Rx)"
     status: mainstream
     domain: clinical cohort / cancer evolution / NSCLC
+  - slug: transglutaminase-1
+    title: "Transglutaminase 1 (TG1 / TGM1)"
+    status: mainstream
+    domain: dermatology / epidermal biology / genetics
   - slug: trem2-receptor
     title: "TREM2 — triggering receptor expressed on myeloid cells 2"
     status: mainstream
