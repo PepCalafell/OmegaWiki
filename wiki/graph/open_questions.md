@@ -230,6 +230,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/mapping-early-human-blood-cell-differentiation] Does the SOD1-KO granulocytic block reflect a redox-specific requirement, or is it a general HSPC stress phenotype? The SOD1/SOD2 contrast (SOD2 KO replicates much of the phenotype but without proliferation arrest) is suggestive but unresolved.
 - [paper/mapping-early-human-blood-cell-differentiation] How sensitive are scProtVelo's translation-rate inferences to mis-specified pseudotime priors?
 - [paper/mapping-early-human-blood-cell-differentiation] Would the same conclusions hold under sparser TMT channels (e.g., 8-plex) or shotgun-DIA workflows that bypass isobaric labeling entirely?
+- [paper/mcrigor-statistical-method-enhance-rigor-metacell] Does multi-round double permutation improve robustness?
+- [paper/mcrigor-statistical-method-enhance-rigor-metacell] Can dubious metacells be recursively re-partitioned rather than discarded?
+- [paper/mcrigor-statistical-method-enhance-rigor-metacell] Can a new method generate only trustworthy metacells by construction?
+- [paper/mcrigor-statistical-method-enhance-rigor-metacell] How to define reliable rigor criteria for spatial niches?
+- [paper/mcrigor-statistical-method-enhance-rigor-metacell] How sensitive is mcDiv to the choice of normalization and HVG count (Seurat V5 defaults are baked in)?
+- [paper/mcrigor-statistical-method-enhance-rigor-metacell] Could mcRigor's Score be biased toward methods whose dubious-metacell geometry happens to suit the mcDiv statistic?
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] The actual *flux* (not just transcriptomic signature) of lipid and cholesterol handling in KCs and RPMs and its homeostatic relevance (p.389).
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] Whether observed metabolic shifts in M1/M2 polarization are causes or consequences of polarization (p.387 — discussed for FAO inhibitors in M2).
 - [paper/metabolism-tissue-macrophages-homeostasis-pathology] Why clinical metabolic interventions in IPF (NAC, metformin) fail despite preclinical macrophage signal — i.e. translational gap (p.393).
@@ -698,6 +704,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/donor-baseline-interferon-signaling-heterogeneity] Genetic / demographic determinants of the interferon-high state
 - [concept/donor-baseline-interferon-signaling-heterogeneity] Whether the baseline state predicts disease susceptibility or therapy response
 - [concept/donor-baseline-interferon-signaling-heterogeneity] How many distinct baseline immune "setpoints" exist at population scale
+- [concept/dubious-versus-trustworthy-metacell-statistical-definition] Recursive re-partitioning of dubious metacells into trustworthy ones (vs simply discarding them).
+- [concept/dubious-versus-trustworthy-metacell-statistical-definition] A from-scratch partitioning method that produces only trustworthy metacells by construction.
 - [concept/e3-ligase-protac-tumor-selectivity] Demonstrate tumour-selective degradation in vivo using a HERC5- or RNF5-recruiting PROTAC.
 - [concept/e3-ligase-protac-tumor-selectivity] Chemoproteomics-driven discovery of small-molecule ligands for novel E3s.
 - [concept/ecdna-precancer-malignant-progression] Whether ecDNA also drives progression in non-EAC cancers with precursor lesions
@@ -886,6 +894,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
 - [concept/manifold-rectification-continuous-virtual-cell-space] Verifying the manifold is genuinely "differentiable" enough for the flow model vs merely smooth.
+- [concept/metacell-divergence-score-mcdiv-double-permutation] Whether multiple double-permutation rounds yield more robust detection.
+- [concept/metacell-divergence-score-mcdiv-double-permutation] Extending the statistic to integrate multiple modalities (RNA + ATAC) jointly rather than one modality at a time.
+- [concept/metacell-granularity-optimization-dubrate-zerorate-score] Joint multi-hyperparameter and multi-modality optimization.
+- [concept/metacell-granularity-optimization-dubrate-zerorate-score] Granularity selection tuned for cross-cohort integration specifically.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Tumour-selective SLC43A2 inhibitors.
 - [concept/methionine-competition-slc43a2-stat5-tcell] Biomarkers of SLC43A2-driven methionine competition.
 - [concept/methionine-cycle-myotube-atrophy-hypermetabolism] Which downstream methylation reactions in myotubes mediate the atrophy phenotype (DNA / RNA / histone / specific protein methylation)?

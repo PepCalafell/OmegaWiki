@@ -181,6 +181,12 @@ papers:
     importance: 5
     domain: single-cell methods / hematology / proteomics
     priority: core
+  - slug: mcrigor-statistical-method-enhance-rigor-metacell
+    title: "mcRigor: a statistical method to enhance the rigor of metacell partitioning in single-cell data analysis"
+    tags: [single-cell, metacell, statistics, benchmarking, methods, scRNA-seq, multiome]
+    importance: 3
+    domain: methods
+    priority: reference
   - slug: metabolism-tissue-macrophages-homeostasis-pathology
     title: "Metabolism of tissue macrophages in homeostasis and pathology"
     tags: [macrophage, immunometabolism, tissue-resident-macrophage, alveolar-macrophage, kupffer-cell, red-pulp-macrophage, microglia, osteoclast, peritoneal-macrophage, efferocytosis, itaconate, hif1a, pparg, lxr, spi-c, nrf2, iron-metabolism, lipid-metabolism, fibrosis, regeneration, review]
@@ -782,6 +788,10 @@ concepts:
     title: "Donor baseline interferon-signaling heterogeneity"
     tags: [interferon, donor-variability, ISG, immune-heterogeneity]
     maturity: emerging
+  - slug: dubious-versus-trustworthy-metacell-statistical-definition
+    title: "Trustworthy vs dubious metacells: a statistical definition"
+    tags: [single-cell, metacell, statistics, homogeneity, measurement-model]
+    maturity: emerging
   - slug: e3-ligase-protac-tumor-selectivity
     title: "Tumor-type-enriched E3 ubiquitin ligases for PROTAC selectivity"
     tags: [protac, e3-ligase, ubiquitin-proteasome, drug-design, selectivity]
@@ -936,6 +946,10 @@ concepts:
     title: "Human HSPC differentiation hierarchy (multi-omics view)"
     tags: [hematopoiesis, HSPC, stem-cells, bone-marrow, differentiation, single-cell]
     maturity: active
+  - slug: hydroxylase-inhibitor-anti-inflammatory-therapy
+    title: "Hydroxylase inhibition as anti-inflammatory therapy"
+    tags: [HIF, prolyl-hydroxylase, PHD-inhibitor, DMOG, roxadustat, IBD, anti-inflammatory, drug-repurposing]
+    maturity: active
   - slug: hypoxia-activated-prodrugs-haps
     title: "Hypoxia-activated prodrugs (HAPs)"
     tags: [hypoxia, therapy, prodrug, bioreductive, cancer-treatment]
@@ -1068,6 +1082,10 @@ concepts:
     title: "In vivo Perturb-seq"
     tags: [methods, crispr, single-cell, functional-genomics, immunology]
     maturity: active
+  - slug: inflammatory-hypoxia-neutrophil-oxygen-depletion
+    title: "Inflammatory hypoxia (neutrophil-driven oxygen depletion)"
+    tags: [hypoxia, HIF, neutrophil, NADPH-oxidase, mucosa, inflammation-resolution, IBD]
+    maturity: active
   - slug: inflammatory-myofibroblast-il11-mmp1-intermediate-state
     title: "F6 inflammatory myofibroblast (IL11+MMP1+CXCL8+IL7R+) as an intermediate, immune-recruiting state"
     tags: [skin, myofibroblast, fibroblast, inflammation, scarring, immune-recruitment]
@@ -1075,6 +1093,10 @@ concepts:
   - slug: innate-immune-checkpoint-blockade
     title: "Innate immune checkpoint blockade"
     tags: [macrophage, immune-checkpoint, cancer-immunotherapy, innate-immunity]
+    maturity: active
+  - slug: intermittent-versus-sustained-hypoxia-inflammation
+    title: "Intermittent versus sustained hypoxia and inflammation"
+    tags: [hypoxia, HIF, NF-kB, inflammation, tumour-microenvironment, oxygen-gradient]
     maturity: active
   - slug: intraductal-cribriform-carcinoma
     title: "Intraductal/cribriform carcinoma (IDC-CA) of the prostate"
@@ -1202,6 +1224,14 @@ concepts:
   - slug: metabolomics-deconvolution
     title: "Metabolomics deconvolution"
     tags: [deconvolution, metabolomics, methods]
+    maturity: emerging
+  - slug: metacell-divergence-score-mcdiv-double-permutation
+    title: "Metacell divergence score (mcDiv) and the double permutation null"
+    tags: [single-cell, metacell, statistics, permutation-test, feature-correlation]
+    maturity: emerging
+  - slug: metacell-granularity-optimization-dubrate-zerorate-score
+    title: "Metacell granularity optimization via DubRate/ZeroRate Score"
+    tags: [single-cell, metacell, hyperparameter-optimization, sparsity, benchmarking]
     maturity: emerging
   - slug: metformin-ici-synergy-treg-teff
     title: "Metformin–ICI synergy via Treg suppression and Teff enhancement"
@@ -1477,6 +1507,10 @@ concepts:
     title: "Perturbation as continuous flow versus discrete jump"
     tags: [perturbation, flow-matching, optimal-transport, vector-field, dynamics, single-cell]
     maturity: emerging
+  - slug: physiological-versus-pathological-hypoxia-immunological-niche
+    title: "Physiological versus pathological hypoxia in immunological niches"
+    tags: [hypoxia, HIF, immunology, immunological-niche, inflammation, tissue-microenvironment]
+    maturity: stable
   - slug: polyamine-hypusine-axis-macrophage-residency
     title: "Polyamine–hypusine–eIF5A axis as a cell-intrinsic regulator of macrophage tissue residency"
     tags: [macrophage, immunometabolism, polyamine, hypusine, tissue-residency, translation]
@@ -1907,22 +1941,6 @@ concepts:
     title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
     domain: methods / spatial-transcriptomics / transfer-learning
     maturity: emerging
-  - slug: physiological-versus-pathological-hypoxia-immunological-niche
-    title: "Physiological versus pathological hypoxia in immunological niches"
-    tags: [hypoxia, HIF, immunology, immunological-niche, inflammation, tissue-microenvironment]
-    maturity: stable
-  - slug: inflammatory-hypoxia-neutrophil-oxygen-depletion
-    title: "Inflammatory hypoxia (neutrophil-driven oxygen depletion)"
-    tags: [hypoxia, HIF, neutrophil, NADPH-oxidase, mucosa, inflammation-resolution, IBD]
-    maturity: active
-  - slug: intermittent-versus-sustained-hypoxia-inflammation
-    title: "Intermittent versus sustained hypoxia and inflammation"
-    tags: [hypoxia, HIF, NF-kB, inflammation, tumour-microenvironment, oxygen-gradient]
-    maturity: active
-  - slug: hydroxylase-inhibitor-anti-inflammatory-therapy
-    title: "Hydroxylase inhibition as anti-inflammatory therapy"
-    tags: [HIF, prolyl-hydroxylase, PHD-inhibitor, DMOG, roxadustat, IBD, anti-inflammatory, drug-repurposing]
-    maturity: active
 
 topics:
 
@@ -1938,7 +1956,7 @@ people:
     affiliation: "Translational Oncogenomics Laboratory, Cancer Research UK Manchester Institute; Manchester Cancer Research Centre; Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University of Manchester, UK"
   - slug: amitava-sinha
     tags: [macrophage, immunometabolism, vienna, preprint-club]
-    affiliation: "Medical University of Vienna, Vienna, Austria"
+    affiliation: "Medical University of Vienna"
   - slug: andreas-zanzoni
     tags: [bioinformatics, interactome, slim, host-microbe]
     affiliation: "Aix-Marseille Université"
@@ -2031,13 +2049,16 @@ people:
     affiliation: "Department of Oncology and Metabolism, University of Sheffield Medical School, Beech Hill Road, Sheffield, Yorkshire S10 2RX, UK"
   - slug: claudia-jakubzick
     tags: [immunology, lung-macrophage-biology, monocyte-biology, tumor-immunology]
-    affiliation: "Dartmouth Geisel School of Medicine, Hanover, NH"
+    affiliation: "Dartmouth Geisel School of Medicine"
   - slug: cong-liu
     tags: [computational-biology, transcription-factor, multi-omics]
     affiliation: "Department of Chemistry and Biochemistry, UC San Diego"
   - slug: connie-r-jimenez
     tags: [proteomics, dia-ms, oncology, biomarkers, colorectal-cancer]
     affiliation: "Amsterdam UMC, Vrije Universiteit Amsterdam — Department of Medical Oncology, OncoProteomics Laboratory; Cancer Center Amsterdam"
+  - slug: cormac-taylor
+    tags: [hypoxia, HIF, inflammation, immunometabolism, oxygen-sensing, PI]
+    affiliation: "UCD Conway Institute, Systems Biology Ireland and the School of Medicine, University College Dublin, Belfield, Dublin 4, Ireland"
   - slug: cristina-munoz-pinedo
     tags: [cell-death, thoracic-tumor, tumor-microenvironment, metabolism, hypoxia, PI]
     affiliation: "Preclinical and Experimental Research in Thoracic Tumors (PReTT), Oncobell Program, Institut d'Investigació Biomèdica de Bellvitge (IDIBELL), L'Hospitalet de Llobregat, Barcelona, Spain"
@@ -2179,6 +2200,9 @@ people:
   - slug: jianguo-wu
     tags: [virology, hypoxia-signaling, HIF1A, SARS-CoV-2, viral-pathogenesis, PI]
     affiliation: "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou; The First Affiliated Hospital of Jinan University, Guangzhou"
+  - slug: jingyi-jessica-li
+    tags: [single-cell, statistics, biostatistics, computational-biology, simulation]
+    affiliation: "Department of Statistics and Data Science, UCLA; Biostatistics, Fred Hutchinson Cancer Center / University of Washington"
   - slug: joachim-schultze
     tags: [immunology, macrophage, systems-immunology, single-cell]
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
@@ -2314,6 +2338,9 @@ people:
   - slug: palmira-barreira-silva
     tags: [AHR, host-pathogen, infection-immunology, pattern-recognition-receptor]
     affiliation: "IBMC / i3S, Universidade do Porto, Porto, Portugal."
+  - slug: pan-liu
+    tags: [single-cell, statistics, computational-biology, metacell]
+    affiliation: "Department of Statistics and Data Science, University of California, Los Angeles"
   - slug: parker-s-woods
     tags: [macrophage-biology, alveolar-macrophage, immunometabolism, hypoxia-signaling, HIF1A, ARDS]
     affiliation: "Department of Medicine, Section of Pulmonary and Critical Care Medicine, University of Chicago, Chicago, IL, USA"
@@ -2407,6 +2434,9 @@ people:
   - slug: saskia-trump
     tags: [AHR, molecular-epidemiology, DNA-methylation, smoking, environmental-exposure, BIH, Charite]
     affiliation: "Molecular Epidemiology Unit, Berlin Institute of Health at Charité; DKTK Partner Site Berlin"
+  - slug: sean-colgan
+    tags: [mucosal-immunology, hypoxia, HIF, intestinal-epithelium, inflammation-resolution, PI]
+    affiliation: "Department of Medicine and the Mucosal Inflammation Program, University of Colorado School of Medicine, Aurora, Colorado, USA"
   - slug: sebastien-gouy
     tags: [surgical-oncology, ovarian-cancer, gynecological-oncology, clinical-research, PI]
     affiliation: "Department of Surgical Oncology, Gustave Roussy, Villejuif, France"
@@ -2424,7 +2454,7 @@ people:
     affiliation: "Washington University in St. Louis"
   - slug: soubhik-ghosh
     tags: [immunology, macrophage-biology, tumor-immunology]
-    affiliation: "Dartmouth Geisel School of Medicine, Hanover, NH"
+    affiliation: "Dartmouth Geisel School of Medicine"
   - slug: stefan-h-e-kaufmann
     tags: [tuberculosis, infection-immunology, vaccine, AHR, macrophage, granuloma, host-directed-therapy]
     affiliation: "Max Planck Institute for Infection Biology, Berlin; Max Planck Institute for Multidisciplinary Sciences, Göttingen; Hagler Institute for Advanced Study, Texas A&M; Charité Universitätsmedizin Berlin."
@@ -2435,8 +2465,8 @@ people:
     tags: [PI, metabolic-disease, cancer-cachexia, molecular-endocrinology]
     affiliation: "Helmholtz Center Munich; Heidelberg University; Technical University Munich; DZD"
   - slug: suoqin-jin
-    tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology, single-cell, CellChat]
-    affiliation: "School of Mathematics and Statistics, Wuhan University, Wuhan, China"
+    tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology, single-cell]
+    affiliation: "School of Mathematics and Statistics, Wuhan University"
   - slug: susan-m-kaech
     tags: [immunology, cd8-t-cells, memory-t-cells, exhaustion, tumour-immunology]
     affiliation: "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute"
@@ -2451,7 +2481,7 @@ people:
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
   - slug: thomas-weichhart
     tags: [immunometabolism, macrophage, mtor, vienna]
-    affiliation: "Medical University of Vienna, Vienna, Austria"
+    affiliation: "Medical University of Vienna"
   - slug: tiannan-guo
     tags: [proteomics, dia-ms, mass-spectrometry, pan-cancer, clinical-proteomics]
     affiliation: "Westlake University — School of Life Sciences; Westlake Laboratory of Life Sciences and Biomedicine"
@@ -2490,7 +2520,7 @@ people:
     affiliation: "Macau University of Science and Technology — State Key Laboratory of Quality Research in Chinese Medicines; School of Pharmacy, Faculty of Medicine"
   - slug: xiangzheng-cheng
     tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology]
-    affiliation: "School of Mathematics and Statistics, Wuhan University, Wuhan, China"
+    affiliation: "School of Mathematics and Statistics, Wuhan University"
   - slug: xiaoqi-sun
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, mononuclear-phagocyte]
     affiliation: "Icahn Genomics Institute, Lipschultz Precision Immunology Institute, Department of Immunology & Immunotherapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
@@ -2539,12 +2569,6 @@ people:
   - slug: zhou-chen
     tags: [oncology, hypoxia, tumor-microenvironment, cancer-therapy, review-author]
     affiliation: "The First Clinical Medical College & The First Hospital of Lanzhou University, Lanzhou, Gansu, China"
-  - slug: cormac-taylor
-    tags: [hypoxia, HIF, inflammation, immunometabolism, oxygen-sensing, PI]
-    affiliation: "UCD Conway Institute, Systems Biology Ireland and the School of Medicine, University College Dublin, Ireland"
-  - slug: sean-colgan
-    tags: [mucosal-immunology, hypoxia, HIF, intestinal-epithelium, inflammation-resolution, PI]
-    affiliation: "Department of Medicine and the Mucosal Inflammation Program, University of Colorado School of Medicine, Aurora, Colorado, USA"
 
 ideas:
 
@@ -3111,7 +3135,7 @@ claims:
     domain: pulmonary immunology / immunometabolism
   - slug: alveolar-macrophages-excluded-tumor-regions-while
     title: "Alveolar macrophages are excluded from tumor regions while recMacs dominate tumor cores"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [quantitative, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -3289,6 +3313,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: cell biology / antigen presentation
+  - slug: barcode-multiplets-approximate-trustworthy-metacells-validating
+    title: "Barcode multiplets approximate trustworthy metacells and mcRigor identifies all of them as trustworthy"
+    tags: [single-cell, metacell, mcRigor, scATAC-seq, technical-variation]
+    status: supported
+    confidence: 0.8
+    domain: single-cell-methods
   - slug: baseline-jak-stat-homeostasis-cd8-macrophage
     title: "Tonic / baseline JAK-STAT signaling exists in unstimulated CD8+ T cells and macrophages of unperturbed mice"
     tags: [jak-stat, homeostasis, immune-cells, baseline-signaling, spleen]
@@ -3393,7 +3423,7 @@ claims:
     domain: immunology
   - slug: busulfan-versus-irradiation-conditioning-isolates-im
     title: "Busulfan versus irradiation conditioning isolates IM-derived CCL2 function"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [methodological, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -3621,7 +3651,7 @@ claims:
     domain: cell biology / dermatology
   - slug: ccl2-deficiency-bone-marrow-reduces-tumor
     title: "Ccl2 deficiency in bone marrow reduces tumor burden and recMac accumulation"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [quantitative, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -3633,7 +3663,7 @@ claims:
     domain: immunology / pathology
   - slug: ccr5-loss-monocyte-derived-cells-reduces
     title: "CCR5 loss in monocyte-derived cells reduces lung metastatic burden"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [quantitative, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -3657,43 +3687,43 @@ claims:
     domain: immunology / mouse genetics / methods
   - slug: cd206hi-im-depletion-abolishes-tertiary-lymphoid
     title: "CD206hi IM depletion abolishes TLS formation and reduces lymphocyte aggregates"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [mechanistic, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: cd206hi-im-depletion-reduces-lung-cxcl9
     title: "CD206hi IM depletion reduces lung CXCL9, CXCL10 and CXCL13 protein levels"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [quantitative, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: cd206hi-ims-cd206lo-ims-recmacs-form
     title: "CD206hi IMs, CD206lo IMs and recMacs form a functional division of labor in lung cancer"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [mechanistic, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: cd206hi-ims-folr2-cd163-mmp9-positive
     title: "CD206hi IMs are Folr2/Cd163/Mmp9-positive whereas CD206lo IMs are Tmem119/Mmp12/Ccr2-positive"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [methodological, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: cd206hi-ims-occupy-bronchovascular-pleural-niches
     title: "CD206hi IMs occupy bronchovascular/pleural niches while CD206lo IMs and recMacs occupy tumor regions"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [correlational, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: cd206hi-interstitial-macrophages-express-antitumorigenic-chemokines
     title: "CD206hi interstitial macrophages express antitumorigenic chemokines CXCL13, CXCL9 and CXCL10"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [correlational, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: cd206lo-ims-recmacs-within-tumor-microenvironment
     title: "CD206lo IMs and recMacs within the TME coexpress Ccl2"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [correlational, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -4149,7 +4179,7 @@ claims:
     domain: oncology
   - slug: cxcl13-produced-cd163-folr2-cd206hi-ims
     title: "Cxcl13 is produced by Cd163+Folr2+ CD206hi IMs lining bronchial airways"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [correlational, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -4311,7 +4341,7 @@ claims:
     domain: oncology
   - slug: depletion-cd206hi-ims-increases-lung-tumor
     title: "Depletion of CD206hi IMs increases lung tumor burden across three cancer models"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [quantitative, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -4453,6 +4483,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: methods / epigenetics
+  - slug: double-permutation-necessary-accurate-dubious-metacell
+    title: "Double permutation is necessary for accurate dubious-metacell detection; within-feature permutation alone fails"
+    tags: [single-cell, metacell, mcRigor, permutation-test, null-distribution]
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
   - slug: driver-mutations-necessary-sufficient-cancer
     title: "Cancer driver mutations are necessary but not sufficient for cancer"
     tags: [oncology, clonal-evolution]
@@ -4921,6 +4957,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: cell-therapy
+  - slug: germinal-centre-hypoxia-regulates-cell-antibody
+    title: "Germinal-centre physiological hypoxia regulates B cell proliferation, phenotype and antibody class switching"
+    tags: [germinal-centre, B-cell, hypoxia, antibody, class-switch-recombination, lymph-node]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia-immunology
   - slug: gfpt1-gfpt2-hub-colon-module5-hexosamine
     title: "GFPT1 and GFPT2 are hub proteins of colon cancer module 5, linking N/O-glycosylation to β-catenin biology"
     tags: [gfpt1, gfpt2, hexosamine, beta-catenin, colon-cancer, wgcna]
@@ -5006,11 +5048,11 @@ claims:
     confidence: 0.75
     domain: T-cell biology / autoimmunity
   - slug: gpcca-estimator-coarse-grains-markov-chain
-    title: "GPCCA coarse-grains the cell-cell Markov chain into macrostates, terminal states and fate probabilities"
+    title: "GPCCA coarse-grains the cell–cell Markov chain into macrostates, terminal states and fate probabilities"
     tags: [trajectory-inference, gpcca, markov-chain, cellrank]
     status: supported
     confidence: 0.85
-    domain: methods / single-cell trajectory inference
+    domain: methods / Markov-chain coarse-graining
   - slug: gut-lamina-propria-populated-hsc-bmdm
     title: "Gut lamina propria is populated by HSC- and BMDM-derived macrophages, an exception to TRM dominance in adult tissues"
     tags: [macrophage, gut, lamina-propria, bmdm, hsc, exception, tissue-specific, immunology]
@@ -5155,18 +5197,48 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: hif-central-regulator-innate-adaptive-immune
+    title: "HIF is a central regulator of innate and adaptive immune cell function with cell-type-specific roles"
+    tags: [HIF, immune-cell, neutrophil, macrophage, dendritic-cell, T-cell, B-cell]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
+  - slug: hif-controls-immune-cell-function-through
+    title: "HIF regulates immune cell function primarily by controlling cellular metabolism"
+    tags: [HIF, immunometabolism, glycolysis, effector-function]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
   - slug: hif-er-stress-bidirectional-crosstalk-upr
     title: "HIF signaling and ER stress (UPR) form a bidirectional cross-talk: HIF-1α/VEGF induces ATF6/PERK and XBP1, while ER stress can reduce HIF expression"
     tags: [HIF1A, ER-stress, UPR, PERK, ATF6, XBP1, VEGF, cross-talk, chemoresistance]
     status: supported
     confidence: 0.75
     domain: molecular-biology / hypoxia / proteostasis
+  - slug: hif-hydroxylases-metabolic-sensors-tca-intermediates
+    title: "HIF hydroxylases are metabolic sensors: TCA intermediates and ROS regulate the HIF pathway beyond oxygen sensing"
+    tags: [HIF, hydroxylase, metabolism, succinate, 2-hydroxyglutarate, ROS, immunometabolism]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: hif-master-regulator-metazoan-adaptive-response
+    title: "HIF is the master transcriptional regulator of the metazoan adaptive response to hypoxia"
+    tags: [HIF, hypoxia, transcription-factor, HIF1, HIF2]
+    status: supported
+    confidence: 0.95
+    domain: hypoxia-immunology
   - slug: hif-phd-vhl-fih-canonical-degradation-axis
     title: "HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination"
     tags: [HIF1A, HIF2A, PHD, prolyl-hydroxylase, FIH, VHL, ubiquitin-proteasome, oxygen-sensing, canonical-axis, text-book]
     status: supported
     confidence: 0.99
     domain: molecular-biology / hypoxia / oxygen-sensing
+  - slug: hif-prolyl-hydroxylase-inhibitors-clinically-effective
+    title: "HIF prolyl-hydroxylase inhibitors (roxadustat, daprodustat, vadadustat) are clinically effective and well-tolerated for CKD-associated anaemia"
+    tags: [PHD-inhibitor, roxadustat, daprodustat, vadadustat, EPO, CKD, anaemia, drug-repurposing]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
   - slug: hif-uncoupled-from-oxygen-pim1-iaspp
     title: "HIF-α activation can be uncoupled from O₂: PIM1 phosphorylates HIF-1α to block PHD binding; iASPP binds pVHL to block HIF-1α degradation"
     tags: [HIF1A, PIM1, iASPP, VHL, oxygen-independent-HIF, kinase, post-translational-modification, cancer]
@@ -5179,6 +5251,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: molecular-biology / autophagy / hypoxia
+  - slug: hif1-promotes-glycolysis-represses-oxphos
+    title: "HIF1 promotes glycolysis and represses oxidative phosphorylation"
+    tags: [HIF1, glycolysis, OXPHOS, metabolism, immunometabolism]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
   - slug: hif1a-activation-promotes-diabetic-wound-healing-and-cardiac-recovery
     title: "Pharmacological HIF-1α activation improves wound healing, increases angiogenesis, and enhances post-ischemic functional recovery in diabetic animal models"
     tags: [HIF1A, diabetes, wound-healing, angiogenesis, cardiac-ischemia, PHD-inhibitor, pharmacology, hyperglycemia]
@@ -5419,6 +5497,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: single-cell-methods
+  - slug: hydroxylase-inhibitors-exacerbate-lethal-bacterial-sepsis
+    title: "Hydroxylase inhibitors exacerbate lethal bacterial sepsis despite protecting against sterile LPS-induced sepsis"
+    tags: [hydroxylase-inhibitor, HIF, sepsis, LPS, cecal-ligation-puncture, context-dependent]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-immunology
   - slug: hypothalamic-fmri-distinguishes-cac-anorexia
     title: "Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation"
     tags: [cancer-cachexia, fMRI, hypothalamus, anorexia]
@@ -5473,6 +5557,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology / cancer-genomics / tumor-evolution
+  - slug: hypoxia-common-feature-physiological-pathological-immunological
+    title: "Hypoxia is a common microenvironmental feature of both physiological and pathological immunological niches"
+    tags: [hypoxia, immunological-niche, HIF, inflammation]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
   - slug: hypoxia-downregulates-cadherin-induces-snail-twist
     title: "Hypoxia downregulates E-cadherin and induces SNAIL, TWIST, N-cadherin, vimentin and JAGGED2 (EMT program)"
     tags: [hypoxia, EMT, E-cadherin, SNAIL, TWIST, N-cadherin, vimentin, JAGGED2]
@@ -5883,7 +5973,7 @@ claims:
     domain: cachexia / metabolomics
   - slug: im-derived-ccl2-dominant-nonredundant-source
     title: "IM-derived CCL2 is the dominant nonredundant source driving recMac recruitment"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [mechanistic, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -5929,6 +6019,30 @@ claims:
     status: supported
     confidence: 0.8
     domain: muscle biology / metabolic flux
+  - slug: infection-site-hypoxia-regulates-host-immunity
+    title: "At sites of infection, hypoxia regulates both host immunity and pathogen virulence"
+    tags: [infection, hypoxia, HIF, Pseudomonas-aeruginosa, virulence, antibiotic-resistance, host-defence]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-immunology
+  - slug: inflammation-increases-hif-signalling-feedforward-immunometabolic
+    title: "Inflammation increases HIF signalling, forming a feedforward loop linking immune metabolism to inflammation"
+    tags: [HIF, inflammation, cytokines, ROS, nitric-oxide, feedforward-loop, immunometabolism]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: inflammatory-hypoxia-arises-neutrophil-nadph-oxidase
+    title: "Inflammatory hypoxia arises from oxygen consumption by activated neutrophils and can promote inflammatory resolution"
+    tags: [inflammatory-hypoxia, neutrophil, NADPH-oxidase, mucosa, HIF, resolution, IBD, GLUT1]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: influence-tensor-clustering-yields-sharper-spatial
+    title: "Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex)"
+    tags: [cell-cell-interaction, spatial-transcriptomics, cell-clustering, mouse-brain]
+    status: weakly_supported
+    confidence: 0.6
+    domain: spatial transcriptomics / neuroscience
   - slug: innate-immune-extremity-enrichment-skin
     title: "Innate immune cells (monocytes, macrophages, DCs) are enriched in skin of extremities versus trunk"
     tags: [skin, innate-immunity, macrophage, dendritic-cell, correlational]
@@ -5941,6 +6055,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: methods / single-cell
+  - slug: intermittent-hypoxia-promotes-more-inflammation-than
+    title: "Intermittent hypoxia promotes greater inflammatory responses than sustained hypoxia"
+    tags: [intermittent-hypoxia, sustained-hypoxia, inflammation, NF-kB, tumour, sleep-apnoea]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-immunology
+  - slug: intestinal-epithelial-physiological-hypoxia-drives-hif1
+    title: "Intestinal epithelial physiological hypoxia (pO2 ~30→3 mmHg along the gut) drives HIF1-dependent barrier-protective genes"
+    tags: [intestinal-mucosa, physiological-hypoxia, HIF1, epithelial-barrier, oxygen-gradient, IBD]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
   - slug: intracluster-epigenetic-heterogeneity-w7-forebrain-vs-spinal-cord-foxi1-tlx1
     title: "Spatially distant pixels within a single WNN cluster (W7) show distinct hypomethylation TF-motif signatures: FOXI1-enriched in forebrain pixels vs TLX1-enriched in spinal-cord pixels"
     tags: [intracluster-heterogeneity, FOXI1, TLX1, spatial-epigenetics, neural-tube]
@@ -6247,6 +6373,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology / clinical methodology
+  - slug: lowering-granularity-alone-insufficient-mcrigor-essential
+    title: "Lowering granularity alone is insufficient; coarse partition + mcRigor filtering beats a naively fine partition"
+    tags: [single-cell, metacell, mcRigor, granularity, statistical-power]
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
   - slug: lpm-gata6-rxr-cebpb-required-for-lpm-identity
     title: "Large peritoneal macrophage differentiation, survival, and lipid handling require GATA6, RXRα/β, and C/EBPβ"
     tags: [large-peritoneal-macrophage, gata6, rxr, c-ebp-beta, lipid-metabolism]
@@ -6303,7 +6435,7 @@ claims:
     domain: splenic immunology / nuclear receptor
   - slug: ly6c-recmacs-become-modcs-migrate-ccr5
     title: "Ly6C+ recMacs become moDCs that migrate via CCR5 and immunosuppress in draining lymph nodes"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [mechanistic, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -6363,7 +6495,7 @@ claims:
     domain: regenerative immunology / immunometabolism
   - slug: macrophage-function-tumors-best-predicted-anatomical
     title: "Macrophage function in tumors is best predicted by anatomical niche, not surface markers"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [mechanistic, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -6405,13 +6537,13 @@ claims:
     domain: regenerative immunology
   - slug: maraviroc-enhances-neoantigen-vaccine-antitumor-immunity
     title: "Maraviroc enhances neoantigen vaccine antitumor immunity"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [pharmacological, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.8
     domain: immunology
   - slug: maraviroc-selectively-transiently-blocks-antigen-bearing
     title: "Maraviroc selectively and transiently blocks antigen-bearing moDC migration to draining lymph nodes"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [pharmacological, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -6427,6 +6559,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: metabolism
+  - slug: mcdiv-divergence-score-negatively-correlates-metacell
+    title: "mcDiv divergence score is strongly negatively correlated with ground-truth metacell purity"
+    tags: [single-cell, metacell, mcRigor, validation]
+    status: supported
+    confidence: 0.85
+    domain: single-cell-methods
   - slug: mce-syk-immunogenic-phagocytosis
     title: "Myeloid cell engagers (MCEs) force SYK-coupled, immunogenic phagocytosis and create an MHC-II antigen-transfer conduit"
     tags: [mce, bispecific, dectin-1, syk, phagocytosis, mhc-ii]
@@ -6439,6 +6577,36 @@ claims:
     status: supported
     confidence: 0.9
     domain: epigenetics / neuroscience / spatial omics
+  - slug: mcrigor-distinguishes-biological-nonbiological-zeros-smfish
+    title: "mcRigor-optimized metacell partition distinguishes biological from non-biological zeros, matching smRNA-FISH"
+    tags: [single-cell, metacell, mcRigor, dropout, smFISH, sparsity]
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
+  - slug: mcrigor-improves-enhancer-gene-regulatory-inference
+    title: "Removing dubious metacells improves enhancer-gene regulatory inference on multiome data"
+    tags: [single-cell, metacell, mcRigor, multiome, enhancer-gene, ATAC]
+    status: supported
+    confidence: 0.8
+    domain: single-cell-methods
+  - slug: mcrigor-optimized-partition-improves-dge-concordance
+    title: "mcRigor-optimized metacell partition improves DGE concordance with paired bulk RNA-seq"
+    tags: [single-cell, metacell, mcRigor, differential-expression, bulk-RNA-seq]
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
+  - slug: mcrigor-optimized-partition-reveals-temporal-immune
+    title: "mcRigor-optimized partition better reveals temporal immune-cell trajectories and corrects gene temporal patterns"
+    tags: [single-cell, metacell, mcRigor, trajectory, Zman-seq, tumor-immunity]
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
+  - slug: mcrigor-score-selects-optimal-granularity-matching
+    title: "mcRigor's Score criterion selects an optimal granularity that matches the true value on semi-synthetic data"
+    tags: [single-cell, metacell, mcRigor, hyperparameter-optimization]
+    status: supported
+    confidence: 0.8
+    domain: single-cell-methods
   - slug: merfish-luad-dataset-replicates-hypoxic-tumor
     title: "MERFISH LUAD dataset replicates the hypoxic-tumour + neutrophil niche identified in CosMx"
     tags: [LUAD, MERFISH, hypoxia, neutrophil, correlational]
@@ -6481,6 +6649,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: single-cell methodology
+  - slug: metacell-seacells-outperform-supercell-metacell2-metacell
+    title: "MetaCell and SEACells produce more trustworthy partitions than SuperCell and MetaCell2"
+    tags: [single-cell, metacell, benchmarking, mcRigor]
+    status: supported
+    confidence: 0.75
+    domain: single-cell-methods
+  - slug: metacell-size-does-predict-trustworthiness
+    title: "Metacell size does not predict trustworthiness"
+    tags: [single-cell, metacell, mcRigor, heterogeneity]
+    status: supported
+    confidence: 0.7
+    domain: single-cell-methods
   - slug: metformin-treg-teff-ici-synergy
     title: "Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function"
     tags: [metformin, ici-synergy, treg, teff, metabolic-immunotherapy]
@@ -7599,7 +7779,7 @@ claims:
     domain: imaging / machine-learning / oncology
   - slug: pf4cre-cx3cr1dtr-mice-selectively-deplete-cd206hi
     title: "Pf4Cre Cx3cr1DTR mice selectively deplete CD206hi interstitial macrophages without altering lung structure"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [methodological, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -7609,6 +7789,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: signalling / epigenetics
+  - slug: pharmacological-hydroxylase-inhibition-broadly-anti-inflammatory
+    title: "Pharmacological hydroxylase inhibition is broadly anti-inflammatory across preclinical disease models"
+    tags: [hydroxylase-inhibitor, DMOG, HIF, anti-inflammatory, colitis, IBD, ischaemia, therapy]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: phd-fih-hydroxylases-target-hifalpha-pvhl
+    title: "In normoxia PHD and FIH hydroxylases target HIFα for pVHL-dependent proteasomal degradation and transcriptional repression"
+    tags: [HIF, PHD, FIH, pVHL, hydroxylase, oxygen-sensing]
+    status: supported
+    confidence: 0.95
+    domain: hypoxia-immunology
   - slug: pho4-cbf1-paralog-competition-explained-by-overlapping-sites-r-0948
     title: "Differential numbers of overlapping Pho4 vs Cbf1 active 8-mers predict BET-seq ΔΔΔG at Pearson r=0.948 (r²=0.898)"
     tags: [Pho4, Cbf1, paralog-competition, BET-seq, overlapping-binding-sites, quantitative]
@@ -7621,12 +7813,24 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: physiological-hypoxia-maintains-hsc-quiescence-hif
+    title: "Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial)"
+    tags: [HSC, bone-marrow, quiescence, HIF, haematopoiesis, hypoxia]
+    status: weakly_supported
+    confidence: 0.6
+    domain: hypoxia-immunology
   - slug: pi3k-mtor-stat3-upregulates-hif-alpha-mrna
     title: "PI3K-mTOR signaling upregulates HIF-α mRNA, with mTORC1-phosphorylated STAT3 inducing HIF-1α transcription"
     tags: [PI3K, mTOR, mTORC1, STAT3, HIF1A, HIF-alpha, cross-talk, upstream-regulation]
     status: supported
     confidence: 0.85
     domain: molecular-biology / hypoxia / signal-transduction
+  - slug: placental-physiological-hypoxia-immune-privilege-hif1alpha
+    title: "Placental physiological hypoxia confers fetal immune privilege via HIF1α-dependent HLA-G and PD-L1"
+    tags: [placenta, immune-privilege, HIF1alpha, HLA-G, PD-L1, trophoblast, NK-cell]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia-immunology
   - slug: pmd-methylation-spatial-mitotic-history-readout-embryos-brain
     title: "Partially Methylated Domain (PMD) methylation acts as a spatial mitotic-history readout: low in proliferative tissue (embryonic heart, P21 dentate gyrus), high in differentiated tissue (P21 cortex)"
     tags: [PMD, mitotic-history, partially-methylated-domain, proliferation, spatial-omics]
@@ -7784,8 +7988,8 @@ claims:
     confidence: 0.75
     domain: methods
   - slug: recmacs-express-protumorigenic-spp1-vegfa-arg1
-    title: "recMacs express protumorigenic Spp1, Vegfa, Arg1, PD-L1 and CCL2"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    title: "recMacs express protumorigenic Spp1, Vegfa, Arg1, PD-L1 (Cd274) and CCL2"
+    tags: [correlational, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -7801,6 +8005,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: removing-dubious-metacells-uncovers-covid19-differential
+    title: "Removing dubious metacells uncovers COVID-19-enriched differential gene co-expression and eliminates artifact correlations"
+    tags: [single-cell, metacell, mcRigor, co-expression, COVID-19, B-cells]
+    status: supported
+    confidence: 0.8
+    domain: single-cell-methods
   - slug: resource-299-human-macrophage-transcriptomes-across
     title: "A resource of 299 human macrophage transcriptomes across 28 stimuli on a single platform"
     tags: [macrophage, transcriptomics, resource]
@@ -8059,6 +8269,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: protein-engineering
+  - slug: shared-oxygen-dependent-hydroxylases-couple-hif
+    title: "Shared oxygen-dependent hydroxylases couple the HIF and NF-κB pathways"
+    tags: [HIF, NF-kB, hydroxylase, PHD1, FIH, IKKbeta, crosstalk]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
   - slug: shared-vs-pair-specific-cytokine-tissue-programs
     title: "Cytokine pair-induced gene programs are mostly shared in liver/kidney but pair-specific in heart/spleen/LNs"
     tags: [cytokines, tissue-specificity, gene-programs]
@@ -8889,7 +9105,7 @@ claims:
     domain: methods
   - slug: transient-cd206hi-im-depletion-after-tumor
     title: "Transient CD206hi IM depletion after tumor seeding is sufficient to promote tumor growth"
-    tags: [macrophage, tumor-immunity, lung-cancer]
+    tags: [mechanistic, macrophage, tumor-immunity, lung-cancer]
     status: supported
     confidence: 0.75
     domain: immunology
@@ -9241,6 +9457,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology / immuno-oncology
+  - slug: tumour-hypoxia-drives-hif-vegf-angiogenesis
+    title: "Tumour hypoxia drives HIF-dependent VEGF angiogenesis, the glycolytic Warburg switch and immune cell dysregulation"
+    tags: [tumour, hypoxia, HIF, VEGF, angiogenesis, Warburg, MDSC, CD8-T-cell]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
   - slug: tyk2-kinase-independent-functions
     title: "TYK2 has kinase-independent regulatory functions: Tyk2-KO and Tyk2-K923E diverge for a subset of IL-12-regulated genes"
     tags: [tyk2, kinase-independent, scaffold-function, jak-stat, il-12]
@@ -9415,132 +9637,6 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
-  - slug: hypoxia-common-feature-physiological-pathological-immunological
-    title: "Hypoxia is a common microenvironmental feature of both physiological and pathological immunological niches"
-    tags: [hypoxia, immunological-niche, HIF, inflammation]
-    status: supported
-    confidence: 0.9
-    domain: hypoxia-immunology
-  - slug: hif-master-regulator-metazoan-adaptive-response
-    title: "HIF is the master transcriptional regulator of the metazoan adaptive response to hypoxia"
-    tags: [HIF, hypoxia, transcription-factor, HIF1, HIF2]
-    status: supported
-    confidence: 0.95
-    domain: hypoxia-immunology
-  - slug: phd-fih-hydroxylases-target-hifalpha-pvhl
-    title: "In normoxia PHD and FIH hydroxylases target HIFα for pVHL-dependent proteasomal degradation and transcriptional repression"
-    tags: [HIF, PHD, FIH, pVHL, hydroxylase, oxygen-sensing]
-    status: supported
-    confidence: 0.95
-    domain: hypoxia-immunology
-  - slug: hif-hydroxylases-metabolic-sensors-tca-intermediates
-    title: "HIF hydroxylases are metabolic sensors: TCA intermediates and ROS regulate the HIF pathway beyond oxygen sensing"
-    tags: [HIF, hydroxylase, metabolism, succinate, 2-hydroxyglutarate, ROS, immunometabolism]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: hif1-promotes-glycolysis-represses-oxphos
-    title: "HIF1 promotes glycolysis and represses oxidative phosphorylation"
-    tags: [HIF1, glycolysis, OXPHOS, metabolism, immunometabolism]
-    status: supported
-    confidence: 0.9
-    domain: hypoxia-immunology
-  - slug: hif-central-regulator-innate-adaptive-immune
-    title: "HIF is a central regulator of innate and adaptive immune cell function with cell-type-specific roles"
-    tags: [HIF, immune-cell, neutrophil, macrophage, dendritic-cell, T-cell, B-cell]
-    status: supported
-    confidence: 0.9
-    domain: hypoxia-immunology
-  - slug: hif-controls-immune-cell-function-through
-    title: "HIF regulates immune cell function primarily by controlling cellular metabolism"
-    tags: [HIF, immunometabolism, glycolysis, effector-function]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: inflammation-increases-hif-signalling-feedforward-immunometabolic
-    title: "Inflammation increases HIF signalling, forming a feedforward loop linking immune metabolism to inflammation"
-    tags: [HIF, inflammation, cytokines, ROS, nitric-oxide, feedforward-loop, immunometabolism]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: shared-oxygen-dependent-hydroxylases-couple-hif
-    title: "Shared oxygen-dependent hydroxylases couple the HIF and NF-κB pathways"
-    tags: [HIF, NF-kB, hydroxylase, PHD1, FIH, IKKbeta, crosstalk]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: intermittent-hypoxia-promotes-more-inflammation-than
-    title: "Intermittent hypoxia promotes greater inflammatory responses than sustained hypoxia"
-    tags: [intermittent-hypoxia, sustained-hypoxia, inflammation, NF-kB, tumour, sleep-apnoea]
-    status: supported
-    confidence: 0.8
-    domain: hypoxia-immunology
-  - slug: physiological-hypoxia-maintains-hsc-quiescence-hif
-    title: "Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial)"
-    tags: [HSC, bone-marrow, quiescence, HIF, haematopoiesis, hypoxia]
-    status: weakly_supported
-    confidence: 0.6
-    domain: hypoxia-immunology
-  - slug: germinal-centre-hypoxia-regulates-cell-antibody
-    title: "Germinal-centre physiological hypoxia regulates B cell proliferation, phenotype and antibody class switching"
-    tags: [germinal-centre, B-cell, hypoxia, antibody, class-switch-recombination, lymph-node]
-    status: supported
-    confidence: 0.75
-    domain: hypoxia-immunology
-  - slug: placental-physiological-hypoxia-immune-privilege-hif1alpha
-    title: "Placental physiological hypoxia confers fetal immune privilege via HIF1α-dependent HLA-G and PD-L1"
-    tags: [placenta, immune-privilege, HIF1alpha, HLA-G, PD-L1, trophoblast, NK-cell]
-    status: supported
-    confidence: 0.75
-    domain: hypoxia-immunology
-  - slug: intestinal-epithelial-physiological-hypoxia-drives-hif1
-    title: "Intestinal epithelial physiological hypoxia (pO2 ~30→3 mmHg along the gut) drives HIF1-dependent barrier-protective genes"
-    tags: [intestinal-mucosa, physiological-hypoxia, HIF1, epithelial-barrier, oxygen-gradient, IBD]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: tumour-hypoxia-drives-hif-vegf-angiogenesis
-    title: "Tumour hypoxia drives HIF-dependent VEGF angiogenesis, the glycolytic Warburg switch and immune cell dysregulation"
-    tags: [tumour, hypoxia, HIF, VEGF, angiogenesis, Warburg, MDSC, CD8-T-cell]
-    status: supported
-    confidence: 0.9
-    domain: hypoxia-immunology
-  - slug: inflammatory-hypoxia-arises-neutrophil-nadph-oxidase
-    title: "Inflammatory hypoxia arises from oxygen consumption by activated neutrophils and can promote inflammatory resolution"
-    tags: [inflammatory-hypoxia, neutrophil, NADPH-oxidase, mucosa, HIF, resolution, IBD, GLUT1]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: influence-tensor-clustering-yields-sharper-spatial
-    title: "Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex)"
-    tags: [cell-cell-interaction, spatial-transcriptomics, cell-clustering, mouse-brain]
-    status: weakly_supported
-    confidence: 0.6
-    domain: spatial transcriptomics / neuroscience
-  - slug: pharmacological-hydroxylase-inhibition-broadly-anti-inflammatory
-    title: "Pharmacological hydroxylase inhibition is broadly anti-inflammatory across preclinical disease models"
-    tags: [hydroxylase-inhibitor, DMOG, HIF, anti-inflammatory, colitis, IBD, ischaemia, therapy]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: hydroxylase-inhibitors-exacerbate-lethal-bacterial-sepsis
-    title: "Hydroxylase inhibitors exacerbate lethal bacterial sepsis despite protecting against sterile LPS-induced sepsis"
-    tags: [hydroxylase-inhibitor, HIF, sepsis, LPS, cecal-ligation-puncture, context-dependent]
-    status: supported
-    confidence: 0.8
-    domain: hypoxia-immunology
-  - slug: hif-prolyl-hydroxylase-inhibitors-clinically-effective
-    title: "HIF prolyl-hydroxylase inhibitors (roxadustat, daprodustat, vadadustat) are clinically effective and well-tolerated for CKD-associated anaemia"
-    tags: [PHD-inhibitor, roxadustat, daprodustat, vadadustat, EPO, CKD, anaemia, drug-repurposing]
-    status: supported
-    confidence: 0.85
-    domain: hypoxia-immunology
-  - slug: infection-site-hypoxia-regulates-host-immunity
-    title: "At sites of infection, hypoxia regulates both host immunity and pathogen virulence"
-    tags: [infection, hypoxia, HIF, Pseudomonas-aeruginosa, virulence, antibiotic-resistance, host-defence]
-    status: supported
-    confidence: 0.8
-    domain: hypoxia-immunology
 
 Summary:
 
@@ -10074,6 +10170,10 @@ foundations:
     title: "diABZI — diamidobenzimidazole non-CDN STING agonist"
     status: mainstream
     domain: pharmacology / STING agonist
+  - slug: dimethyloxalylglycine-dmog
+    title: "Dimethyloxalylglycine (DMOG)"
+    status: mainstream
+    domain: pharmacology / hypoxia signalling
   - slug: dmba-carcinogen
     title: "DMBA — 7,12-dimethylbenz[a]anthracene carcinogen"
     status: mainstream
@@ -10159,6 +10259,10 @@ foundations:
     title: "Epacadostat — IDO1 inhibitor"
     status: historical
     domain: oncology-therapeutics
+  - slug: erythropoietin-epo
+    title: "Erythropoietin (EPO)"
+    status: mainstream
+    domain: hypoxia physiology / haematology
   - slug: estimate-stromal-immune-score
     title: "ESTIMATE — Stromal and Immune Score Algorithm"
     status: mainstream
@@ -10171,6 +10275,10 @@ foundations:
     title: "EZH2 — enhancer of zeste homolog 2"
     status: mainstream
     domain: epigenetics / chromatin
+  - slug: factor-inhibiting-hif-fih
+    title: "Factor inhibiting HIF (FIH)"
+    status: mainstream
+    domain: hypoxia signalling
   - slug: fasn-fatty-acid-synthase
     title: "FASN — fatty acid synthase"
     status: mainstream
@@ -11779,15 +11887,3 @@ foundations:
     title: "ZSCAN20"
     status: mainstream
     domain: immunology
-  - slug: factor-inhibiting-hif-fih
-    title: "Factor inhibiting HIF (FIH)"
-    status: mainstream
-    domain: hypoxia signalling
-  - slug: dimethyloxalylglycine-dmog
-    title: "Dimethyloxalylglycine (DMOG)"
-    status: mainstream
-    domain: pharmacology / hypoxia signalling
-  - slug: erythropoietin-epo
-    title: "Erythropoietin (EPO)"
-    status: mainstream
-    domain: hypoxia physiology / haematology
