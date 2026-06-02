@@ -276,6 +276,7 @@ For my thesis (hypoxia / oxidative stress / myeloid identity): SOD1 and TALDO1 e
 
 ## Related
 
+- [[papers/cellrank-consistent-data-view-agnostic-fate]] — protocol for the CellRank fate-mapping framework applied here (`similar_method_to`)
 - [[concepts/single-cell-proteomics-mass-spec]] — primary methodological framing
 - [[concepts/scprotvelo-translation-dynamics]] — new latent-variable model introduced here
 - [[concepts/mrna-protein-discordance]] — central interpretive concept

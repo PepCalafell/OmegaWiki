@@ -11,10 +11,10 @@ tags:
   - Human-Cell-Atlas
   - scverse
   - methods
-papers_in_vault: 3
+papers_in_vault: 4
 relevance_tier: emerging
 manual_override:
-date_updated: 2026-05-28
+date_updated: 2026-06-02
 ---
 
 ## Background
@@ -34,6 +34,7 @@ Fabian J. Theis is director of the Institute of Computational Biology at Helmhol
 - [[papers/benchmarking-atlas-level-data-integration-single]] (2022, senior author).
 - [[papers/mapping-early-human-blood-cell-differentiation]] (2025, co-corresponding author, *Science*).
 - [[papers/single-cell-cytokine-dictionary-human-peripheral]] (2025, co-corresponding/senior author, bioRxiv) — Human Cytokine Dictionary; DRVI-based CIP decomposition.
+- [[papers/cellrank-consistent-data-view-agnostic-fate]] (2026, senior/corresponding author, *Nature Protocols*) — CellRank protocol for data-view-agnostic fate mapping.
 
 ## External links
 

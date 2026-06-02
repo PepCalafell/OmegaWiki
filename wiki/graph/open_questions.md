@@ -54,6 +54,10 @@ _Auto-generated open questions. Do not edit._
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Therapeutic targetability of the TAN-hypoxia niche (HIF1α inhibition with PX-478 / belzutifan, CXCR1/2 antagonism).
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Whether the hierarchical n=3/8/20 stable solutions generalise to other tumour cohorts.
 - [paper/cellcharter-reveals-spatial-cell-niches-associated] Robustness of analytical-NE false-positive rate vs permutation-NE.
+- [paper/cellrank-consistent-data-view-agnostic-fate] How to weight kernel combinations cell-specifically rather than globally?
+- [paper/cellrank-consistent-data-view-agnostic-fate] How to infer most-probable paths and causal drivers, not just correlations?
+- [paper/cellrank-consistent-data-view-agnostic-fate] What predicts, a priori, which kernel performs best on a given dataset?
+- [paper/cellrank-consistent-data-view-agnostic-fate] How robust is fate inference to upstream dependency version drift (given the v1/v2 compatibility caveat)?
 - [paper/characterization-hypoxia-associated-molecular-features-aid] Which hypoxia-associated alterations are directly caused by hypoxia vs. merely correlated?
 - [paper/characterization-hypoxia-associated-molecular-features-aid] How does intratumoral hypoxia heterogeneity (single-cell) modify these pan-cancer patterns?
 - [paper/characterization-hypoxia-associated-molecular-features-aid] Can hypoxia status prospectively stratify patients into benefit/no-benefit arms for hypoxia-targeted or combination therapy?

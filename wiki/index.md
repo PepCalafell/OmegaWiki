@@ -43,6 +43,12 @@ papers:
     importance: 4
     domain: methods / oncology / immunology / spatial-omics
     priority: core
+  - slug: cellrank-consistent-data-view-agnostic-fate
+    title: "CellRank: consistent and data view agnostic fate mapping for single-cell genomics"
+    tags: [trajectory-inference, single-cell, RNA-velocity, pseudotime, fate-mapping, methods-protocol]
+    importance: 3
+    domain: methods
+    priority: reference
   - slug: characterization-hypoxia-associated-molecular-features-aid
     title: "Characterization of hypoxia-associated molecular features to aid hypoxia-targeted therapy"
     tags: [hypoxia, cancer, pancancer, TCGA, multi-omics, drug-response, precision-oncology, genomics, epigenetics, proteomics]
@@ -2341,6 +2347,9 @@ people:
   - slug: peter-p-lee
     tags: [immuno-oncology, tumor-immunology, breast-cancer, PD-L1, macrophage, PI]
     affiliation: "Department of Immuno-Oncology, Beckman Research Institute, City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA"
+  - slug: philipp-weiler
+    tags: [single-cell-genomics, trajectory-inference, RNA-velocity, methods, scverse]
+    affiliation: "Helmholtz Munich / Technical University of Munich"
   - slug: philippe-benaroch
     tags: [macrophage, antigen-presentation, mononuclear-phagocyte, PI, immunology, host-pathogen-interaction]
     affiliation: "Institut Curie, PSL Research University, INSERM U932, Paris, France"
@@ -3784,6 +3793,30 @@ claims:
     status: weakly_supported
     confidence: 0.45
     domain: immunology
+  - slug: cellrank-decomposes-trajectory-inference-into-kernels
+    title: "CellRank decomposes fate mapping into kernels, estimators and analysis tools"
+    tags: [trajectory-inference, single-cell, cellrank, software-architecture]
+    status: supported
+    confidence: 0.85
+    domain: methods / single-cell trajectory inference
+  - slug: cellrank-generalizes-fate-mapping-data-view
+    title: "CellRank 2 generalizes fate mapping to a data-view-agnostic, multiview framework"
+    tags: [trajectory-inference, single-cell, cellrank, multiview]
+    status: supported
+    confidence: 0.85
+    domain: methods / single-cell trajectory inference
+  - slug: cellrank-identifies-putative-lineage-drivers-correlating
+    title: "CellRank ranks putative lineage drivers by correlating gene expression with fate probabilities"
+    tags: [trajectory-inference, cellrank, lineage-drivers, gene-expression]
+    status: supported
+    confidence: 0.8
+    domain: methods / single-cell trajectory inference
+  - slug: cellrank-results-compatible-cellrank
+    title: "CellRank 1 results are compatible with CellRank 2 (same RNA-velocity inference, modulo API changes)"
+    tags: [trajectory-inference, cellrank, software-versioning, reproducibility]
+    status: supported
+    confidence: 0.85
+    domain: methods / single-cell trajectory inference
   - slug: cellxgene-atlas-recovers-organ-and-cell-type-specific-metabolic-functions
     title: "An atlas of metabolic-task activities across ~30M CELLxGENE cells recovers known organ- and cell-type-specific metabolic functions"
     tags: [cellxgene, metabolic-atlas, lens, hepatocyte, adrenal, pancreas]
@@ -3910,6 +3943,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: hypoxia
+  - slug: combining-multiple-kernels-improves-terminal-state
+    title: "Combining multiple kernels improves terminal-state recovery and numerical stability"
+    tags: [trajectory-inference, cellrank, multiview, kernel-combination]
+    status: supported
+    confidence: 0.75
+    domain: methods / single-cell trajectory inference
   - slug: commensal-effectors-bidirectionally-modulate-nfkb-activity
     title: "Commensal effectors bidirectionally modulate NF-κB activity in human cells"
     tags: [effectors, nf-kb, immune-modulation, functional]
@@ -4966,6 +5005,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: T-cell biology / autoimmunity
+  - slug: gpcca-estimator-coarse-grains-markov-chain
+    title: "GPCCA coarse-grains the cell-cell Markov chain into macrostates, terminal states and fate probabilities"
+    tags: [trajectory-inference, gpcca, markov-chain, cellrank]
+    status: supported
+    confidence: 0.85
+    domain: methods / single-cell trajectory inference
   - slug: gut-lamina-propria-populated-hsc-bmdm
     title: "Gut lamina propria is populated by HSC- and BMDM-derived macrophages, an exception to TRM dominance in adult tissues"
     tags: [macrophage, gut, lamina-propria, bmdm, hsc, exception, tissue-specific, immunology]
@@ -7678,6 +7723,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: pseudotimekernel-outperformed-cytotracekernel-human-bone-marrow
+    title: "On CD34+ human bone marrow, the PseudotimeKernel outperformed the CytoTRACEKernel in recapitulating known state transitions"
+    tags: [trajectory-inference, cellrank, hematopoiesis, benchmarking]
+    status: supported
+    confidence: 0.75
+    domain: methods / single-cell trajectory inference
   - slug: pseudotissue-training-data-generated-random-uniform
     title: "Pseudotissue training data is generated by random uniform sampling from single-cell data"
     tags: [pseudobulk, training, deconvolution]
@@ -9106,6 +9157,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: tsi-cbc-scores-quantify-trajectory-inference
+    title: "TSI and CBC scores quantify terminal-state recovery and transition fidelity for model selection"
+    tags: [trajectory-inference, cellrank, benchmarking, model-selection]
+    status: supported
+    confidence: 0.8
+    domain: methods / single-cell trajectory inference
   - slug: tumor-cell-sting-suppresses-glycolysis-hk2
     title: "Tumor cell STING is a cell-intrinsic suppressor of aerobic glycolysis via HK2"
     tags: [cgas-sting, metabolism, glycolysis, hk2, t-cell]
@@ -9565,6 +9622,10 @@ foundations:
     tags: [kinase, energy-sensing, immunometabolism, macrophage]
     status: mainstream
     domain: immunology
+  - slug: anndata-annotated-data-structure
+    title: "AnnData (annotated data structure)"
+    status: mainstream
+    domain: methods / single-cell data infrastructure
   - slug: apc-tumor-suppressor
     title: "APC tumor suppressor"
     status: mainstream
@@ -10235,6 +10296,10 @@ foundations:
     title: "GNMT — glycine N-methyltransferase"
     status: mainstream
     domain: metabolism / methylation
+  - slug: gpcca-generalized-perron-cluster-cluster-analysis
+    title: "GPCCA (Generalized Perron Cluster Cluster Analysis)"
+    status: mainstream
+    domain: methods / Markov-chain coarse-graining
   - slug: gpnmb-protein
     title: "GPNMB — glycoprotein non-metastatic melanoma protein B (osteoactivin)"
     status: mainstream
@@ -10675,6 +10740,10 @@ foundations:
     title: "MARCO scavenger receptor"
     status: mainstream
     domain: immunology
+  - slug: markov-chain-trajectory-model
+    title: "Markov chain (cell-state trajectory model)"
+    status: mainstream
+    domain: methods / probabilistic dynamics
   - slug: mat1a-methionine-adenosyltransferase-1a
     title: "MAT1A — methionine adenosyltransferase 1A (hepatic SAM synthase)"
     status: mainstream
@@ -10959,6 +11028,10 @@ foundations:
     title: "PageRank algorithm"
     status: mainstream
     domain: methods
+  - slug: palantir-pseudotime-fate
+    title: "Palantir (pseudotime and fate probabilities)"
+    status: mainstream
+    domain: methods / single-cell trajectory inference
   - slug: pam3csk4-tlr12-agonist
     title: "Pam3CSK4 (TLR1/2 agonist)"
     status: mainstream
@@ -11094,6 +11167,10 @@ foundations:
     title: "Pseudorabies virus (PRV-Bartha) — transsynaptic retrograde tracing"
     status: mainstream
     domain: viral tract tracing / neuroscience
+  - slug: pseudotime-trajectory-inference
+    title: "Pseudotime (trajectory inference)"
+    status: mainstream
+    domain: methods / single-cell trajectory inference
   - slug: psoriasis-disease
     title: "Psoriasis (plaque psoriasis)"
     status: mainstream
@@ -11170,6 +11247,10 @@ foundations:
     title: "RiboTag (ribosome-engaged transcript sequencing)"
     status: mainstream
     domain: method / translatomics
+  - slug: rna-velocity
+    title: "RNA velocity"
+    status: mainstream
+    domain: methods / single-cell trajectory inference
   - slug: rnascope-single-molecule-fish
     title: "RNAscope — single-molecule RNA fluorescence in situ hybridization"
     status: mainstream
