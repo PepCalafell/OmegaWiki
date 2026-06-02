@@ -22,7 +22,9 @@ NOISE_PREFIXES = ("preview_", "comment_", "biorxiv ", "brief_comm_")
 KNOWN_ALIASES = {
     "calafell_2024_nfkb_tet2": "nf-kb-tet2-promote-macrophage-reprogramming",
     "sympathetic-eosinophil axis orchestrates": "sympathetic-eosinophil-axis-orchestrates-psychological-stress",
+    "mcrigor a statistical method": "mcrigor-statistical-method-enhance-rigor-metacell",
 }
+
 
 
 def official_slug(title):
