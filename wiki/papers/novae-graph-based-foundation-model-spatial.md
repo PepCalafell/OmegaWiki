@@ -297,3 +297,4 @@ Novae is a strong methodological contribution — the first credible foundation-
 - [[foundations/cellcharter-framework]]
 - [[papers/cellcharter-reveals-spatial-cell-niches-associated]]
 - [[papers/systematic-benchmarking-computational-methods-identify-spatially]]
+- [[papers/identifying-spatial-single-cell-level-interactions]] — News & Views on GITIII; graph-based deep learning on spatial-transcriptomics neighbourhoods (similar method family).

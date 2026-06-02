@@ -127,6 +127,12 @@ papers:
     importance: 4
     domain: oncology
     priority: core
+  - slug: identifying-spatial-single-cell-level-interactions
+    title: "Identifying spatial single-cell-level interactions with graph transformer"
+    tags: [news-and-views, commentary, cell-cell-interaction, spatial-transcriptomics, graph-transformer, self-supervised, ligand-receptor-free, GITIII, methods]
+    importance: 2
+    domain: methods / spatial transcriptomics / cell–cell interaction
+    priority: reference
   - slug: jak-stat-signaling-maintains-homeostasis-cells
     title: "JAK-STAT signaling maintains homeostasis in T cells and macrophages"
     tags: [jak-stat, homeostasis, interferon, ISGF3, STAT1, STAT2, IRF9, TYK2, STAT5BN642H, chromatin-accessibility, spatial-transcriptomics, immunology, epigenetics]
@@ -563,6 +569,10 @@ concepts:
   - slug: carcinogenesis-tipping-point-irreversibility
     title: "Tipping point along the carcinogenic trajectory"
     tags: [oncology, early-cancer, theory]
+    maturity: emerging
+  - slug: cci-influence-tensor
+    title: "CCI influence tensor"
+    tags: [cell-cell-interaction, spatial-transcriptomics, interpretability, methods]
     maturity: emerging
   - slug: ccl11-ccr3-eosinophil-chemotaxis-skin
     title: "CCL11–CCR3 chemoattraction of eosinophils to inflamed skin"
@@ -1109,6 +1119,10 @@ concepts:
   - slug: leucine-allosteric-gdh-glutaminolysis-activation
     title: "Leucine accumulation allosterically activates GDH to drive glutaminolysis in hypoxia"
     tags: [hypoxia, leucine, GDH, glutaminolysis, lipogenesis, nucleotide-synthesis]
+    maturity: emerging
+  - slug: ligand-receptor-free-cell-cell-interaction
+    title: "Ligand–receptor-free cell–cell interaction inference"
+    tags: [cell-cell-interaction, spatial-transcriptomics, self-supervised, methods]
     maturity: emerging
   - slug: lipid-rafts-bcr-tcr-signaling
     title: "Lipid rafts organize BCR and TCR proximal signaling"
@@ -2398,6 +2412,9 @@ people:
   - slug: stephan-herzig
     tags: [PI, metabolic-disease, cancer-cachexia, molecular-endocrinology]
     affiliation: "Helmholtz Center Munich; Heidelberg University; Technical University Munich; DZD"
+  - slug: suoqin-jin
+    tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology, single-cell, CellChat]
+    affiliation: "School of Mathematics and Statistics, Wuhan University, Wuhan, China"
   - slug: susan-m-kaech
     tags: [immunology, cd8-t-cells, memory-t-cells, exhaustion, tumour-immunology]
     affiliation: "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute"
@@ -2446,6 +2463,9 @@ people:
   - slug: wende-deng
     tags: [immunometabolism, lipid-metabolism, pharmacology]
     affiliation: "Macau University of Science and Technology — State Key Laboratory of Quality Research in Chinese Medicines; School of Pharmacy, Faculty of Medicine"
+  - slug: xiangzheng-cheng
+    tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology]
+    affiliation: "School of Mathematics and Statistics, Wuhan University, Wuhan, China"
   - slug: xiaoqi-sun
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, mononuclear-phagocyte]
     affiliation: "Icahn Genomics Institute, Lipschultz Precision Immunology Institute, Department of Immunology & Immunotherapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
@@ -3556,6 +3576,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: cci-interaction-strength-decays-distance-long
+    title: "GITIII recapitulates distance-decay of CCI strength and identifies long-range interactions missed by fixed-neighbourhood methods"
+    tags: [cell-cell-interaction, spatial-transcriptomics, long-range-interaction]
+    status: weakly_supported
+    confidence: 0.6
+    domain: spatial transcriptomics / methods
   - slug: ccl19-fibroblasts-disease-map-perivasc-i
     title: "Pro-inflammatory CCL19+ fibroblasts described in inflammatory skin disease map primarily to the PERIVASC I neighborhood"
     tags: [skin, CCL19, fibroblast, PERIVASC-I, correlational]
@@ -4852,6 +4878,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: microbiology
+  - slug: gitiii-predicts-central-cell-state-neighbouring
+    title: "GITIII predicts the central receiver cell's state from neighbouring sender cells via node, distance, and edge embeddings"
+    tags: [cell-cell-interaction, spatial-transcriptomics, graph-transformer]
+    status: supported
+    confidence: 0.7
+    domain: spatial transcriptomics / methods
+  - slug: gitiii-self-supervised-graph-transformer-infers
+    title: "GITIII infers single-cell-level CCIs from imaging spatial transcriptomics without ligand–receptor priors"
+    tags: [cell-cell-interaction, spatial-transcriptomics, graph-transformer, self-supervised]
+    status: supported
+    confidence: 0.75
+    domain: spatial transcriptomics / methods
   - slug: global-5mc-increase-efferocytosis-mat2a-dnmt3a-dependent
     title: "AC-induced macrophage global 5-methylcytosine percentage is partially MAT2A- and DNMT3A-dependent"
     tags: [5mC, global-DNA-methylation, DNMT3A, MAT2A, efferocytosis, macrophage]
@@ -7930,6 +7968,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology / cytokines
+  - slug: single-layer-graph-transformer-keeps-cci
+    title: "A single-layer graph transformer keeps GITIII's output traceable to neighbourhood features, preserving interpretability"
+    tags: [cell-cell-interaction, graph-transformer, interpretability, spatial-transcriptomics]
+    status: supported
+    confidence: 0.7
+    domain: spatial transcriptomics / methods
   - slug: single-selective-marker-genes-induced-specific
     title: "Single selective marker genes are induced by specific macrophage stimuli, but combinations are usually needed"
     tags: [macrophage, marker-genes]
@@ -9364,6 +9408,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia-immunology
+  - slug: influence-tensor-clustering-yields-sharper-spatial
+    title: "Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex)"
+    tags: [cell-cell-interaction, spatial-transcriptomics, cell-clustering, mouse-brain]
+    status: weakly_supported
+    confidence: 0.6
+    domain: spatial transcriptomics / neuroscience
   - slug: pharmacological-hydroxylase-inhibition-broadly-anti-inflammatory
     title: "Pharmacological hydroxylase inhibition is broadly anti-inflammatory across preclinical disease models"
     tags: [hydroxylase-inhibitor, DMOG, HIF, anti-inflammatory, colitis, IBD, ischaemia, therapy]
@@ -10115,6 +10165,10 @@ foundations:
     title: "GISTIC 2.0 — Genomic Identification of Significant Targets in Cancer"
     status: mainstream
     domain: methods / genomics
+  - slug: gitiii-graph-transformer-cci-method
+    title: "GITIII — self-supervised graph transformer for single-cell-level cell–cell interactions"
+    status: mainstream
+    domain: spatial transcriptomics / methods / cell–cell interaction
   - slug: glud1-glutamate-dehydrogenase
     title: "GDH / GLUD1 — glutamate dehydrogenase"
     status: mainstream

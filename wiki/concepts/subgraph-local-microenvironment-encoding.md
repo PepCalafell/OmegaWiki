@@ -17,7 +17,8 @@ aliases:
   - subgraph sampling spatial GNN
 key_papers:
   - "[[papers/novae-graph-based-foundation-model-spatial]]"
-date_updated: 2026-05-26
+  - "[[papers/identifying-spatial-single-cell-level-interactions]]"
+date_updated: 2026-06-02
 ---
 
 ## Definition

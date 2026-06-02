@@ -69,3 +69,4 @@
 ## [2026-06-02] ingest | added papers/characterization-hypoxia-associated-molecular-features-aid | +16 claims (15 new + miR-210 merge), +3 concepts, +6 people, +24 edges, +1 citation
 ## [2026-06-02] ingest | added papers/regulation-immunity-inflammation-hypoxia-immunological-niches (Taylor & Colgan, Nat Rev Immunol 2017) | +20 claims, +4 concepts, +3 foundations (FIH, DMOG, EPO), +2 people (Cormac Taylor, Sean Colgan); updated 5 existing concepts' key_papers; +1 paper-paper edge
 ## [2026-06-02] ingest | added papers/chemokine-defined-macrophage-niches-establish-spatial | +21 claims, +5 concepts, +4 foundations, +2 people; updated 6 concept key_papers; +44 edges
+## [2026-06-02] ingest | added papers/identifying-spatial-single-cell-level-interactions (News & Views commentary on GITIII) | +5 claims, +2 concepts, +1 foundation, +2 people; edges to nico/novae; reverse key_papers on subgraph concept

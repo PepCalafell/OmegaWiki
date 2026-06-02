@@ -162,6 +162,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How does HIF2α-driven 5-FU resistance via macrophage DPD inform CRC combination strategy?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] What is the relationship between this review's HIF/TAM/TME framing and the genomic-instability framework of [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] (Suvac, Ashton, Bristow 2025)?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] For the user's thesis (skin / hypoxia / TAMs), which therapeutic class (HAP vs vascular normalization vs HIF inhibitor vs nano-O₂) maps best onto the skin-cancer hypoxic niche?
+- [paper/identifying-spatial-single-cell-level-interactions] How can causal machine learning move CCI inference from correlation to mechanism?
+- [paper/identifying-spatial-single-cell-level-interactions] How should structured prior knowledge (ligand diffusion ranges, contact-dependence) be integrated into de-novo inference?
+- [paper/identifying-spatial-single-cell-level-interactions] Can multi-omics integration compensate for limited gene panels and reveal cross-omics regulatory mechanisms?
+- [paper/identifying-spatial-single-cell-level-interactions] Can in-silico perturbation of CCIs become predictive enough to drive therapeutic-target discovery?
+- [paper/identifying-spatial-single-cell-level-interactions] How does GITIII benchmark head-to-head against L–R-based tools ([[foundations/cellchat-cell-cell-communication]], [[foundations/cellphonedb-ligand-receptor]], [[foundations/nichenet-ligand-target-inference]]) and against graph-based spatial frameworks ([[concepts/graph-based-foundation-model-spatial-transcriptomics]])? (requires the primary paper)
+- [paper/identifying-spatial-single-cell-level-interactions] Does the single-layer constraint cost predictive accuracy relative to deeper transformers?
+- [paper/identifying-spatial-single-cell-level-interactions] Would GITIII's influence tensor recover TAM–cancer-cell or TAM–stromal CCI patterns relevant to hypoxic-niche biology — the thesis-relevant test?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What is the role of perturbed baseline JAK-STAT signaling in human disease (inborn errors of immunity, inflammatory disorders, cancer)?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Which specific cell-extrinsic ligands and source cell types trigger baseline JAK-STAT in the spleen tissue context?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What non-ISGF3 protein complexes does IRF9 form to regulate ISGF3-independent targets?
@@ -842,6 +849,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
 - [concept/leucine-allosteric-gdh-glutaminolysis-activation] Quantitative split of glutamine carbon between lipids and nucleotides under this regime.
 - [concept/leucine-allosteric-gdh-glutaminolysis-activation] Whether the leucine→GDH axis is druggable for hypoxia-related disease.
+- [concept/ligand-receptor-free-cell-cell-interaction] Combining L–R-free discovery with curated prior knowledge for biological realism.
+- [concept/ligand-receptor-free-cell-cell-interaction] Distinguishing direct signalling from biomechanical/metabolic confounders.
 - [concept/lipid-rafts-bcr-tcr-signaling] Whether α2,6-sialylation control is a viable handle for psoriasis / atopic dermatitis where Th17 is central.
 - [concept/lipid-rafts-bcr-tcr-signaling] Drug-discovery tractability of "raft modulators" (cholesterol-depleting agents lack specificity).
 - [concept/low-affinity-tf-binding-site] Universal definition of "low-affinity but functional" across TF families
@@ -1232,6 +1241,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
 - [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
+- [claim/cci-interaction-strength-decays-distance-long] GITIII recapitulates distance-decay of CCI strength and identifies long-range interactions missed by fixed-neighbourhood methods (status: weakly_supported)
 - [claim/cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1] Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1) (status: weakly_supported)
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
@@ -1261,6 +1271,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
+- [claim/influence-tensor-clustering-yields-sharper-spatial] Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex) (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
 - [claim/klf5-transcription-factor-activity-marks-f2] KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state (status: weakly_supported)
