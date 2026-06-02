@@ -49,6 +49,12 @@ papers:
     importance: 4
     domain: oncology
     priority: core
+  - slug: chemokine-defined-macrophage-niches-establish-spatial
+    title: "Chemokine-defined macrophage niches establish spatial organization of tumor immunity"
+    tags: [macrophage, interstitial-macrophage, chemokine, tertiary-lymphoid-structure, spatial-transcriptomics, tumor-immunology, lung-cancer, monocyte-derived-dc]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: complex-biology-aryl-hydrocarbon-receptor-activation
     title: "The complex biology of aryl hydrocarbon receptor activation in cancer and beyond"
     tags: [AHR, aryl-hydrocarbon-receptor, context-specificity, ARNT, AHRR, posttranslational-modifications, epigenetic-regulation, DNA-methylation, histone-modifications, non-genomic-AHR, tryptophan-metabolism, kynurenine, IDO1, TDO2, IL4I1, CYP1A1, TIPARP, HIF1A, HIF2A, SRC, vemurafenib, BRAFi-resistance, melanoma, tumor-suppression, tumor-promotion, SUMOylation, phosphorylation, ARNT2, HK2, TET2, CUL4B, UCHL3, review]
@@ -486,6 +492,10 @@ concepts:
     tags: [alveolar-macrophage, lung, lipid-metabolism, cholesterol, pparg, surfactant]
     domain: pulmonary immunology / immunometabolism
     maturity: stable
+  - slug: anatomical-niche-predicts-macrophage-function
+    title: "Anatomical niche predicts macrophage function in tumors"
+    tags: [macrophage, spatial-transcriptomics, tumor-microenvironment, niche]
+    maturity: emerging
   - slug: ancestry-specific-tumor-hypoxia
     title: "Ancestry-specific tumor hypoxia"
     tags: [hypoxia, cancer, health-disparity, ancestry, BRCA, clinical-trial, precision-medicine]
@@ -558,6 +568,14 @@ concepts:
     title: "CCL11–CCR3 chemoattraction of eosinophils to inflamed skin"
     tags: [chemokine, CCL11, CCR3, eosinophil, atopic-dermatitis, chemotaxis]
     maturity: stable
+  - slug: ccr5-modc-immunosuppressive-lymph-node-axis
+    title: "CCR5-dependent moDC immunosuppressive draining-lymph-node axis"
+    tags: [monocyte-derived-dc, chemokine, immunosuppression, cancer-vaccine, lung-cancer]
+    maturity: emerging
+  - slug: cd206hi-im-bronchovascular-chemokine-tls-niche
+    title: "CD206hi interstitial macrophage bronchovascular chemokine–TLS niche"
+    tags: [macrophage, tertiary-lymphoid-structure, chemokine, lung-cancer, spatial-transcriptomics]
+    maturity: emerging
   - slug: cd8-t-cell-exhaustion-texterm
     title: "CD8+ T cell exhaustion and the TEXterm state"
     tags: [immunology, cd8-t-cells, exhaustion, cancer-immunotherapy, chronic-infection]
@@ -590,6 +608,10 @@ concepts:
     title: "cGAS-STING pathway: canonical and non-canonical outputs"
     tags: [innate-immunity, cgas-sting, type-i-ifn, nf-kb, autophagy, programmed-cell-death, sasp]
     maturity: stable
+  - slug: chemokine-defined-interstitial-macrophage-division-of-labor
+    title: "Chemokine-defined interstitial macrophage division of labor (CD206hi vs CD206lo IMs vs recMacs)"
+    tags: [macrophage, interstitial-macrophage, chemokine, tumor-microenvironment, lung-cancer]
+    maturity: emerging
   - slug: chimeric-antigen-receptor-macrophage
     title: "Chimeric antigen receptor macrophage (CAR-M)"
     tags: [macrophage, car-therapy, genetic-engineering, cancer-immunotherapy]
@@ -991,6 +1013,10 @@ concepts:
   - slug: il6-driven-cachexia-one-carbon-reprogramming
     title: "IL6-driven one-carbon metabolism reprogramming in cancer cachexia"
     tags: [IL6, cachexia, one-carbon-metabolism, NNMT, inflammation, upstream-regulator]
+    maturity: emerging
+  - slug: im-derived-ccl2-recmac-recruitment-loop
+    title: "IM-derived CCL2 recruited-macrophage protumor loop"
+    tags: [macrophage, chemokine, CCL2, tumor-microenvironment, lung-cancer]
     maturity: emerging
   - slug: immune-checkpoint-blockade
     title: "Immune-checkpoint blockade (ICB)"
@@ -1970,6 +1996,9 @@ people:
   - slug: claire-e-lewis
     tags: [tumor-associated-macrophage, macrophage-tumour-niche, angiogenesis, hypoxia-macrophage, TAM-classification, immunometabolism]
     affiliation: "Department of Oncology and Metabolism, University of Sheffield Medical School, Beech Hill Road, Sheffield, Yorkshire S10 2RX, UK"
+  - slug: claudia-jakubzick
+    tags: [immunology, lung-macrophage-biology, monocyte-biology, tumor-immunology]
+    affiliation: "Dartmouth Geisel School of Medicine, Hanover, NH"
   - slug: cong-liu
     tags: [computational-biology, transcription-factor, multi-omics]
     affiliation: "Department of Chemistry and Biochemistry, UC San Diego"
@@ -2357,6 +2386,9 @@ people:
   - slug: sidharth-v-puram
     tags: [hnscc, head-and-neck-cancer, scrna-seq, partial-emt, oncology]
     affiliation: "Washington University in St. Louis"
+  - slug: soubhik-ghosh
+    tags: [immunology, macrophage-biology, tumor-immunology]
+    affiliation: "Dartmouth Geisel School of Medicine, Hanover, NH"
   - slug: stefan-h-e-kaufmann
     tags: [tuberculosis, infection-immunology, vaccine, AHR, macrophage, granuloma, host-directed-therapy]
     affiliation: "Max Planck Institute for Infection Biology, Berlin; Max Planck Institute for Multidisciplinary Sciences, Göttingen; Hagler Institute for Advanced Study, Texas A&M; Charité Universitätsmedizin Berlin."
@@ -3032,6 +3064,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: pulmonary immunology / immunometabolism
+  - slug: alveolar-macrophages-excluded-tumor-regions-while
+    title: "Alveolar macrophages are excluded from tumor regions while recMacs dominate tumor cores"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: analytical-cluster-neighborhood-enrichment-scales-beyond
     title: "CellCharter's analytical cluster neighbourhood enrichment is more scalable than permutation-based tests"
     tags: [spatial-statistics, methodological, cluster-NE, scalability]
@@ -3308,6 +3346,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: busulfan-versus-irradiation-conditioning-isolates-im
+    title: "Busulfan versus irradiation conditioning isolates IM-derived CCL2 function"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: c2-cluster-cpg-demethylation-specific-hypoxic
     title: "Cluster C2 (403 CpGs) shows hypoxia-specific NF-κB-motif-enriched DNA demethylation in LPS-activated macrophages"
     tags: [cluster-C2, DNA-demethylation, NF-kB, hypoxia, macrophage, IL6, TNF]
@@ -3524,12 +3568,24 @@ claims:
     status: supported
     confidence: 0.9
     domain: cell biology / dermatology
+  - slug: ccl2-deficiency-bone-marrow-reduces-tumor
+    title: "Ccl2 deficiency in bone marrow reduces tumor burden and recMac accumulation"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: ccr2-monocyte-deficiency-reduces-fibrosis
     title: "CCR2-deficient mice (lacking circulating monocytes) show substantially milder fibrosis in liver, heart, kidney, and lung injury models"
     tags: [CCR2, monocyte, BMDM, fibrosis, tissue-repair, macrophage, immunology]
     status: supported
     confidence: 0.9
     domain: immunology / pathology
+  - slug: ccr5-loss-monocyte-derived-cells-reduces
+    title: "CCR5 loss in monocyte-derived cells reduces lung metastatic burden"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1
     title: "Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1)"
     tags: [effectors, crohns, cog6, tnip1, hummi]
@@ -3548,6 +3604,48 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / mouse genetics / methods
+  - slug: cd206hi-im-depletion-abolishes-tertiary-lymphoid
+    title: "CD206hi IM depletion abolishes TLS formation and reduces lymphocyte aggregates"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd206hi-im-depletion-reduces-lung-cxcl9
+    title: "CD206hi IM depletion reduces lung CXCL9, CXCL10 and CXCL13 protein levels"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd206hi-ims-cd206lo-ims-recmacs-form
+    title: "CD206hi IMs, CD206lo IMs and recMacs form a functional division of labor in lung cancer"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd206hi-ims-folr2-cd163-mmp9-positive
+    title: "CD206hi IMs are Folr2/Cd163/Mmp9-positive whereas CD206lo IMs are Tmem119/Mmp12/Ccr2-positive"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd206hi-ims-occupy-bronchovascular-pleural-niches
+    title: "CD206hi IMs occupy bronchovascular/pleural niches while CD206lo IMs and recMacs occupy tumor regions"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd206hi-interstitial-macrophages-express-antitumorigenic-chemokines
+    title: "CD206hi interstitial macrophages express antitumorigenic chemokines CXCL13, CXCL9 and CXCL10"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: cd206lo-ims-recmacs-within-tumor-microenvironment
+    title: "CD206lo IMs and recMacs within the TME coexpress Ccl2"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: cd36-principal-ac-receptor-driving-erk-cox2-tgfb1
     title: "CD36 is the principal AC receptor driving ERK1/2 activation and downstream COX2/TGFβ1 in efferocytosing macrophages, with MerTK contributing modestly"
     tags: [CD36, MerTK, ERK, COX2, TGFβ1, efferocytosis, macrophage, flow-cytometry]
@@ -3968,6 +4066,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: cxcl13-produced-cd163-folr2-cd206hi-ims
+    title: "Cxcl13 is produced by Cd163+Folr2+ CD206hi IMs lining bronchial airways"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: cxcl8-cxcr1-2-jak-stat1-tam-tumor-feedback-loop
     title: "Hypoxia drives a CXCL8 (macrophage) → CXCR1/2 (gastric cancer) → JAK/STAT1 → IL-10 → TAM M2 (NF-κB) positive feedback loop"
     tags: [CXCL8, IL-8, CXCR1, CXCR2, JAK, STAT1, IL-10, NF-κB, TAM, M2-polarization, gastric-cancer, positive-feedback, hypoxia]
@@ -4124,6 +4228,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: depletion-cd206hi-ims-increases-lung-tumor
+    title: "Depletion of CD206hi IMs increases lung tumor burden across three cancer models"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: dhps-alveolar-proteinosis-lung-inflammation
     title: "Loss of functional alveolar macrophages in DHPS-deficient mice causes alveolar proteinosis and lung immune infiltration"
     tags: [DHPS, alveolar-macrophage, proteinosis, lung-inflammation, homeostasis]
@@ -5666,6 +5776,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: cachexia / metabolomics
+  - slug: im-derived-ccl2-dominant-nonredundant-source
+    title: "IM-derived CCL2 is the dominant nonredundant source driving recMac recruitment"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: imac1-paradoxical-down-p65-bound-genes
     title: "Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS"
     tags: [iMAC1, p65, paradox, inflammatory-suppression, macrophage-differentiation, context-dependency]
@@ -6080,6 +6196,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: splenic immunology / nuclear receptor
+  - slug: ly6c-recmacs-become-modcs-migrate-ccr5
+    title: "Ly6C+ recMacs become moDCs that migrate via CCR5 and immunosuppress in draining lymph nodes"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: lymphoid-tissue-delayed-recovery-sepsis
     title: "Nonlymphoid tissues regain transcriptional steady state within 5 d of LPS while lymphoid tissues do not"
     tags: [sepsis, lymphoid, recovery, immunosuppression]
@@ -6134,6 +6256,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: regenerative immunology / immunometabolism
+  - slug: macrophage-function-tumors-best-predicted-anatomical
+    title: "Macrophage function in tumors is best predicted by anatomical niche, not surface markers"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: macrophage-identity-tissue-context-dependent-irreversible-ex-vivo
     title: "Macrophage cellular identity (not just JAK-STAT) depends on tissue context — not rescued by M-CSF or IFN-β"
     tags: [macrophage-identity, tissue-context, ex-vivo, m-csf, ifn-beta, niche-dependence]
@@ -6164,6 +6292,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: regenerative immunology
+  - slug: maraviroc-enhances-neoantigen-vaccine-antitumor-immunity
+    title: "Maraviroc enhances neoantigen vaccine antitumor immunity"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: maraviroc-selectively-transiently-blocks-antigen-bearing
+    title: "Maraviroc selectively and transiently blocks antigen-bearing moDC migration to draining lymph nodes"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: masked-mites-3log-il2-bioactivity-reduction
     title: "Intact masked MiTEs show ~3-log reduction in IL-2 bioactivity; MMP14 cleavage fully restores activity"
     tags: [IL-2, MiTE, bioactivity, masking, MMP14]
@@ -7328,6 +7468,12 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: imaging / machine-learning / oncology
+  - slug: pf4cre-cx3cr1dtr-mice-selectively-deplete-cd206hi
+    title: "Pf4Cre Cx3cr1DTR mice selectively deplete CD206hi interstitial macrophages without altering lung structure"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: pge2-tgfb1-induction-dnmt3a-creb1-dependent
     title: "PGE2-induced Tgfb1 transcription requires DNMT3A via the p-CREB1 axis downstream of EP2/EP4"
     tags: [PGE2, DNMT3A, CREB1, p-CREB, Tgfb1, EP2, EP4, macrophage]
@@ -7502,6 +7648,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: recmacs-express-protumorigenic-spp1-vegfa-arg1
+    title: "recMacs express protumorigenic Spp1, Vegfa, Arg1, PD-L1 and CCL2"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: recombinant-il1b-and-im-coculture-increase-krt8-organoid-growth
     title: "Recombinant IL-1β and interstitial-macrophage co-culture increase number and size of AT2-derived KRT8+ (KAC-rich) organoids"
     tags: [luad, organoid, il1b, kac, mechanism, in-vitro]
@@ -8594,6 +8746,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: methods
+  - slug: transient-cd206hi-im-depletion-after-tumor
+    title: "Transient CD206hi IM depletion after tumor seeding is sufficient to promote tumor growth"
+    tags: [macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: treg-localize-close-trm-tumor
     title: "FOXP3⁺ Tregs localize close to TRMs in NSCLC tumour lesions"
     tags: [Treg, TRM, spatial-imaging, NSCLC, tumor-niche, FOXP3]
@@ -9440,6 +9598,10 @@ foundations:
     title: "Buffa hypoxia metagene signature"
     status: mainstream
     domain: methods / cancer-genomics / hypoxia-quantification
+  - slug: busulfan-conditioning-myeloid-sparing
+    title: "Busulfan vs irradiation conditioning to spare tissue-resident macrophages"
+    status: mainstream
+    domain: immunology / hematopoietic chimerism
   - slug: c-ebp-beta
     title: "C/EBPβ (CCAAT/enhancer-binding protein beta)"
     tags: [transcription-factor, lipid-metabolism, inflammation, macrophage-identity]
@@ -9513,6 +9675,10 @@ foundations:
     title: "CCR3 — eosinophil chemokine receptor"
     status: mainstream
     domain: chemokine receptor / eosinophil biology
+  - slug: ccr5-chemokine-receptor
+    title: "CCR5 chemokine receptor"
+    status: mainstream
+    domain: immunology / chemokine biology
   - slug: cd169-dtr-trm-depletion
     title: "CD169-DTR mouse for tissue-resident macrophage depletion"
     status: mainstream
@@ -10393,6 +10559,10 @@ foundations:
     title: "ERK1/2 — MAPK1 / MAPK3 (extracellular signal-regulated kinases)"
     status: mainstream
     domain: kinase / signalling
+  - slug: maraviroc
+    title: "Maraviroc (CCR5 antagonist)"
+    status: mainstream
+    domain: pharmacology / immunology
   - slug: marco-scavenger-receptor
     title: "MARCO scavenger receptor"
     status: mainstream
@@ -10731,6 +10901,10 @@ foundations:
     title: "PF-9366 — MAT2A allosteric inhibitor"
     status: mainstream
     domain: pharmacology / small molecule
+  - slug: pf4cre-cx3cr1dtr-im-depletion
+    title: "Pf4Cre Cx3cr1DTR model for CD206hi interstitial macrophage depletion"
+    status: mainstream
+    domain: immunology / mouse genetics
   - slug: pge2-prostaglandin-e2
     title: "PGE2 — Prostaglandin E2"
     status: mainstream

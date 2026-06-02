@@ -58,6 +58,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/characterization-hypoxia-associated-molecular-features-aid] How does intratumoral hypoxia heterogeneity (single-cell) modify these pan-cancer patterns?
 - [paper/characterization-hypoxia-associated-molecular-features-aid] Can hypoxia status prospectively stratify patients into benefit/no-benefit arms for hypoxia-targeted or combination therapy?
 - [paper/characterization-hypoxia-associated-molecular-features-aid] How do these bulk pan-cancer associations compare to single-cell/spatial hypoxia maps now available?
+- [paper/chemokine-defined-macrophage-niches-establish-spatial] Which individual chemokine-defined IM subset (Cxcl13⁺ vs Cxcl9⁺ vs Cxcl10⁺) drives which protective function?
+- [paper/chemokine-defined-macrophage-niches-establish-spatial] What sets the timing/context of CD206hi vs CD206lo IM CCL2 output?
+- [paper/chemokine-defined-macrophage-niches-establish-spatial] Can monocyte-selective, transient CCR5 blockade be translated to human vaccination/immunotherapy schedules?
+- [paper/chemokine-defined-macrophage-niches-establish-spatial] Is niche assignment instructive (niche programs the macrophage) or selective (programmed macrophages home to niches)?
+- [paper/chemokine-defined-macrophage-niches-establish-spatial] Does preserving the CD206hi IM bronchovascular–TLS niche synergize with checkpoint blockade?
+- [paper/chemokine-defined-macrophage-niches-establish-spatial] How does this division of labor intersect with hypoxia in tumor cores (relevant to the broader corpus, though not addressed here)?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Which kinases (beyond PKC and tyrosine kinases) directly phosphorylate AHR, and at which residues? Most of the high-throughput PTM sites have no assigned upstream enzyme (Fig. 3).
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Does ARNT2 antagonise AHR in tissues where it is dominantly expressed (CNS, kidney, retinal epithelium)?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Why do AHRR and CYP1A1 promoter methylation respond in *opposite* directions to maternal smoking exposure if both are downstream of the same AHR axis?
@@ -562,6 +568,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/air-liquid-interface-tumour-organoid] FNA-compatible ALI culture from minimal biopsy material.
 - [concept/air-liquid-interface-tumour-organoid] Cell-type-specific in situ perturbation (CRISPR delivery).
 - [concept/air-liquid-interface-tumour-organoid] Standardized prospective clinical correlation.
+- [concept/anatomical-niche-predicts-macrophage-function] Spatially selective perturbation tools to test the niche→function link directly.
+- [concept/anatomical-niche-predicts-macrophage-function] Whether niche assignment is instructive (niche programs the macrophage) or selective (programmed macrophages home to niches).
 - [concept/ancestry-specific-tumor-hypoxia] Whether genetic ancestry (HLA, germline DDR variants) drives the hypoxia signal, or whether it is environmental/socioeconomic
 - [concept/ancestry-specific-tumor-hypoxia] Validation in non-TCGA cohorts with prospective hypoxia measurement
 - [concept/ancestry-specific-tumor-hypoxia] Does ancestry-specific hypoxia mediate the higher evofosfamide response in Asian-descent MAESTRO subjects (post-hoc finding)
@@ -593,6 +601,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/carcinogenesis-tipping-point-irreversibility] Whether a single, universal tipping point exists or whether commitment is cancer- and lineage-specific
 - [concept/carcinogenesis-tipping-point-irreversibility] How to non-invasively detect the moment of commitment in living tissue
 - [concept/carcinogenesis-tipping-point-irreversibility] Whether commitment is truly irreversible or pharmacologically reversible
+- [concept/ccr5-modc-immunosuppressive-lymph-node-axis] Translating transient, monocyte-selective CCR5 blockade to human vaccination schedules.
+- [concept/ccr5-modc-immunosuppressive-lymph-node-axis] Markers to distinguish suppressive vs stimulatory monocyte-derived APCs in tissue.
+- [concept/cd206hi-im-bronchovascular-chemokine-tls-niche] Whether boosting or preserving this niche enhances checkpoint blockade or vaccination in vivo.
+- [concept/cd206hi-im-bronchovascular-chemokine-tls-niche] Human translation at subset and spatial resolution.
 - [concept/cd8-t-cell-exhaustion-texterm] Which TEXterm-selective TFs are druggable in CAR-T or TIL therapy?
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
@@ -605,6 +617,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/centrifugal-cellular-diversity-gradient-skin] Does the gradient shift with age?
 - [concept/cgas-sting-pathway-canonical-noncanonical-outputs] What dictates the relative weighting of IRF3 vs NF-κB vs autophagy outputs in a given cell?
 - [concept/cgas-sting-pathway-canonical-noncanonical-outputs] Can therapeutic agents bias the output toward canonical IRF3 while sparing the pro-tumor NF-κB arm?
+- [concept/chemokine-defined-interstitial-macrophage-division-of-labor] Functional dissection of individual IMck subsets (Cxcl13⁺ vs Cxcl9⁺ vs Cxcl10⁺).
+- [concept/chemokine-defined-interstitial-macrophage-division-of-labor] Whether the same division of labor holds in human lung tumors at subset resolution.
 - [concept/cholesterol-cd8-tex-er-stress-tme] Whether statin or ACAT inhibitor combinations with ICB rescue CD8 function clinically.
 - [concept/cholesterol-cd8-tex-er-stress-tme] Interaction with TREM2-LAM lipid handoff.
 - [concept/chromothripsis-hypoxia-prostate] Mechanistic basis for the hypoxia-chromothripsis association: micronucleus formation under hypoxia? Replication fork collapse?
@@ -777,6 +791,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/il6-driven-cachexia-one-carbon-reprogramming] What is the molecular route from IL6R engagement to Nnmt transcription (STAT3 binding at the Nnmt promoter in liver hepatocytes)?
 - [concept/il6-driven-cachexia-one-carbon-reprogramming] Does anti-IL6R therapy in patients (tocilizumab, siltuximab) reduce NNMT/MNAM/sarcosine biomarkers proportionally to weight loss rescue?
 - [concept/il6-driven-cachexia-one-carbon-reprogramming] Is the metabolic arm IL6-specific or does any chronic-inflammation cytokine (IL1B, TNF) phenocopy?
+- [concept/im-derived-ccl2-recmac-recruitment-loop] Whether targeting IM-derived CCL2 selectively (vs systemic CCR2 blockade) avoids disrupting protective IM functions.
+- [concept/im-derived-ccl2-recmac-recruitment-loop] Timing/context dependence of CD206hi vs CD206lo IM CCL2 output.
 - [concept/immune-checkpoint-blockade] Robust per-patient predictors of ICB response.
 - [concept/immune-checkpoint-blockade] Strategies to convert cold tumours to hot.
 - [concept/immune-checkpoint-blockade] Mechanistic drivers of acquired resistance.

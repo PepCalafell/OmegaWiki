@@ -28,6 +28,7 @@ key_papers:
   - tissue-resident-macrophages-provide-pro-tumorigenic
   - physiology-diseases-tissue-resident-macrophages
   - macrophages-targets-next-generation-cancer-immunotherapy
+  - chemokine-defined-macrophage-niches-establish-spatial
 first_introduced: "Casanova-Acebes et al. *Nature* 2021 (this paper); precursor framings in Lavin 2017, Mantovani 2017; broader TRM-disease context in Lazarov & Geissmann 2023 Nature review"
 date_updated: 2026-05-27
 related_concepts:

@@ -15,6 +15,7 @@ maturity: active
 key_papers:
   - cancer-organoids-modelling-complexity-tumour-immune
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - chemokine-defined-macrophage-niches-establish-spatial
 first_introduced: ""
 date_updated: 2026-05-21
 related_concepts: [tumour-immune-microenvironment, tumour-infiltrating-lymphocyte, immune-checkpoint-blockade]

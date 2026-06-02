@@ -17,6 +17,7 @@ tags:
 maturity: active
 key_papers:
   - tumour-microenvironment-crosstalk-nsclc-progression-response
+  - chemokine-defined-macrophage-niches-establish-spatial
 first_introduced: 2010
 date_updated: 2026-05-22
 related_concepts:
