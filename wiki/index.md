@@ -325,6 +325,12 @@ papers:
     importance: 3
     domain: methods
     priority: reference
+  - slug: systemic-hypoxia-suppresses-solid-tumor-growth
+    title: "Systemic hypoxia suppresses solid tumor growth"
+    tags: [hypoxia, cancer-metabolism, purine-metabolism, tumor-suppression, oncology, immunotherapy, HypoxyStat, GENEVA]
+    importance: 4
+    domain: oncology
+    priority: core
   - slug: targeting-sting-generate-therapeutic-anti-tumor
     title: "Targeting STING to generate therapeutic anti-tumor immunity"
     tags: [cgas-sting, innate-immunity, tumor-microenvironment, immunotherapy, type-i-interferon, review, epigenetic-silencing, trex1, enpp1, sting-agonist, innate-immune-checkpoint]
@@ -772,6 +778,10 @@ concepts:
     title: "De novo lipogenesis (ACLY-ACC-FASN-SCD) fuels effector B, T, and DC programs"
     tags: [lipogenesis, acly, acc, fasn, scd, srebp1, b-cell, cd8-t-cell, dc, treg]
     maturity: active
+  - slug: de-novo-purine-synthesis-suppression-hypoxic-tumor
+    title: "De novo purine synthesis suppression in hypoxic tumors"
+    tags: [purine-metabolism, nucleotide, hypoxia, tumor-metabolism]
+    maturity: emerging
   - slug: deconvolution-with-incomplete-reference
     title: "Deconvolution with an incomplete single-cell reference"
     tags: [deconvolution, robustness, methods]
@@ -884,6 +894,10 @@ concepts:
   - slug: frc-like-fibroblast-prenatal-lymphoid-tissue
     title: "Adult skin F3 FRC-like fibroblasts potentially arise from prenatal LTo-like cells"
     tags: [skin, fibroblast, FRC, development, lymphoid-tissue-organizer, ontogeny]
+    maturity: emerging
+  - slug: geneva-multiplexed-mosaic-xenograft
+    title: "GENEVA multiplexed mosaic xenograft platform"
+    tags: [xenograft, scrna-seq, functional-genomics, platform, in_vivo]
     maturity: emerging
   - slug: genome-wide-cell-representation-versus-highly
     title: "Genome-wide cell representation versus highly-variable-gene truncation"
@@ -1013,6 +1027,10 @@ concepts:
   - slug: hypoxic-vhl-self-ubiquitination-hif1a-shielding
     title: "Hypoxic VHL self-ubiquitination and the HIF1A shielding model"
     tags: [hypoxia, VHL, ubiquitination, HIF1A, protein-stability]
+    maturity: emerging
+  - slug: hypoxystat-hemoglobin-oxygen-affinity-modulator
+    title: "HypoxyStat — small-molecule hemoglobin-oxygen affinity modulator"
+    tags: [hypoxia-mimetic, hemoglobin, small-molecule, drug, oncology]
     maturity: emerging
   - slug: idh1-2-mutation-2hg-immune-exclusion
     title: "IDH1/IDH2 mutation, 2HG accumulation and immune exclusion"
@@ -1732,6 +1750,10 @@ concepts:
     title: "Sympathetic–eosinophil axis in stress-exacerbated skin inflammation"
     tags: [neuroimmunology, sympathetic-nervous-system, eosinophil, atopic-dermatitis, psychological-stress, CCL11, CCR3, Adrb2]
     maturity: emerging
+  - slug: systemic-hypoxia-anti-tumor-therapy
+    title: "Systemic hypoxia as anti-tumor therapy"
+    tags: [hypoxia, cancer-therapy, tumor-metabolism, oncology]
+    maturity: emerging
   - slug: taiji-tf-activity-pipeline
     title: "Taiji TF activity pipeline"
     tags: [methods, transcription-factor, gene-regulatory-network, multi-omics, immunology]
@@ -1981,6 +2003,9 @@ people:
   - slug: aymeric-silvin
     tags: [macrophage, mononuclear-phagocyte, single-cell, immunology, tumor-microenvironment]
     affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France"
+  - slug: ayush-midha
+    tags: [hypoxia, cancer-metabolism, mstp]
+    affiliation: "Gladstone Institutes & UCSF (MSTP), San Francisco, CA, USA"
   - slug: benjamin-furtwangler
     tags: [single-cell-proteomics, mass-spectrometry, scp-MS, SCeptre, hematopoiesis, methods]
     affiliation: "Finsen Laboratory, Rigshospitalet & Biotech Research and Innovation Centre, University of Copenhagen"
@@ -2161,6 +2186,9 @@ people:
   - slug: han-liang
     tags: [bioinformatics, cancer-genomics, pancancer, TCGA]
     affiliation: "The University of Texas MD Anderson Cancer Center"
+  - slug: hani-goodarzi
+    tags: [cancer-genomics, rna-biology, computational-biology, pi]
+    affiliation: "Arc Institute & UCSF"
   - slug: heming-ge
     tags: [pancreatic-cancer, hypoxia, tumor-associated-macrophage, prognostic-model, scRNA-seq, bioinformatics]
     affiliation: "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
@@ -2173,6 +2201,9 @@ people:
   - slug: ira-tabas
     tags: [efferocytosis, macrophage, resolution, atherosclerosis, inflammation, lipid-metabolism, DNMT3A]
     affiliation: "Columbia University Irving Medical Center"
+  - slug: isha-jain
+    tags: [hypoxia, oxygen-therapy, metabolism, pi]
+    affiliation: "Gladstone Institutes, UCSF & Arc Institute"
   - slug: itay-tirosh
     tags: [scrna-seq, pan-cancer, intratumor-heterogeneity, metaprograms, oncology]
     affiliation: "Weizmann Institute of Science, Rehovot, Israel"
@@ -3283,6 +3314,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunometabolism
+  - slug: aspartate-depletion-does-not-explain-hypoxia-purine-suppression
+    title: "Aspartate depletion does not explain purine synthesis suppression in hypoxic tumors in vivo"
+    tags: [aspartate, purine, mechanism-exclusion, in_vivo]
+    status: weakly_supported
+    confidence: 0.62
+    domain: oncology
   - slug: atlas-complexity-favors-deep-learning-integration
     title: "Atlas-complexity integration tasks favor nonlinear deep-learning methods over classical linear methods (reversing earlier benchmarks)"
     tags: [data-integration, deep-learning, atlas, methods-comparison]
@@ -3667,6 +3704,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: ccrcc-and-select-lines-resist-hypoxia-tumor-suppression
+    title: "A subset of cancer cell lines, including two ccRCC lines, gain relative fitness under systemic hypoxia"
+    tags: [geneva, ccrcc, resistance, vhl]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
   - slug: cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1
     title: "Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1)"
     tags: [effectors, crohns, cog6, tnip1, hummi]
@@ -4279,6 +4322,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: hepatology / fibrosis / pharmacological
+  - slug: de-novo-purine-gene-expression-correlates-fitness-hypoxia
+    title: "De novo purine synthesis gene expression positively correlates with cancer cell fitness under hypoxia"
+    tags: [geneva, purine, transcriptomics, fitness]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
+  - slug: de-novo-purine-synthesis-more-essential-in-vivo-than-in-vitro
+    title: "De novo purine synthesis is more essential for PDAC tumor growth in vivo than in vitro"
+    tags: [purine, crispr-screen, in_vivo, essentiality, pdac]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
   - slug: decode-deconvolves-known-cell-types-accurately
     title: "DECODE deconvolves known cell types accurately when the single-cell reference is incomplete"
     tags: [deconvolution, robustness, incomplete-reference]
@@ -5401,6 +5456,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: higher-altitude-correlates-lower-cancer-mortality
+    title: "Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US"
+    tags: [altitude, epidemiology, cancer-mortality, ecological]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology
   - slug: hk2-ahr-target-promotes-ahr-promoter-demethylation
     title: "Hexokinase 2 (HK2) is an AHR target gene that drives AHR promoter demethylation, forming a positive-feedback loop; HK2 expression negatively correlates with AHR promoter methylation across multiple cancers and associates with worse overall survival"
     tags: [AHR, HK2, hexokinase-2, DNA-methylation, positive-feedback, cancer-metabolism, prognosis]
@@ -5695,6 +5756,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology / cancer-genomics / prostate-cancer
+  - slug: hypoxia-purine-suppression-tracks-myc-target-downregulation
+    title: "Hypoxia-induced suppression of de novo purine synthesis tracks downregulation of Myc target genes"
+    tags: [myc, purine, transcriptomics, mechanism-hypothesis]
+    status: weakly_supported
+    confidence: 0.58
+    domain: oncology
   - slug: hypoxia-scna-harbour-actionable-genes
     title: "Hypoxia-associated somatic copy number alterations harbour clinically actionable genes"
     tags: [hypoxia, SCNA, copy-number, actionable-genes, immunotherapy]
@@ -5707,6 +5774,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / clinical-genomics / hypoxia
+  - slug: hypoxia-shifts-cancer-cells-toward-g1-arrest
+    title: "Systemic hypoxia shifts cancer cells toward G1 arrest and reduced S-phase occupancy"
+    tags: [cell-cycle, hypoxia, proliferation]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: hypoxia-signature-tumor-cells-anticorrelates-distance
     title: "Hypoxia signature score in LUAD tumour cells anticorrelates with distance to TANs"
     tags: [LUAD, hypoxia, TAN, spatial-statistics, correlational]
@@ -5731,6 +5804,30 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: hypoxia-tumor-suppression-heterogeneous-across-lineages-geneva
+    title: "Systemic hypoxia suppresses pooled xenograft growth but with heterogeneous lineage-specific responses"
+    tags: [geneva, xenograft, scrna-seq, heterogeneity]
+    status: supported
+    confidence: 0.72
+    domain: oncology
+  - slug: hypoxia-tumor-suppression-independent-of-hypoglycemia
+    title: "Tumor suppression by systemic hypoxia is independent of hypoglycemia"
+    tags: [glucose, hypoglycemia, hypoxia, mechanism-exclusion]
+    status: supported
+    confidence: 0.72
+    domain: oncology
+  - slug: hypoxia-tumor-suppression-independent-of-insulin-signaling
+    title: "Tumor suppression by systemic hypoxia is independent of insulin/PI3K signaling"
+    tags: [insulin, pten, pi3k, mechanism-exclusion]
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: hypoxia-tumor-suppression-independent-of-tumor-hif
+    title: "Tumor suppression by systemic hypoxia is independent of tumor-intrinsic HIF activation"
+    tags: [hif, arnt, mechanism-exclusion, hypoxia]
+    status: supported
+    confidence: 0.72
+    domain: oncology
   - slug: hypoxia-upregulates-immune-checkpoint-molecules-pd
     title: "Hypoxia upregulates immune checkpoint molecules PD-L1 and CD47 in tumour cells"
     tags: [hypoxia, PD-L1, CD47, immune-checkpoint, SIRPA]
@@ -5767,6 +5864,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / immunology / hypoxia
+  - slug: hypoxic-tumors-increase-glucose-uptake-glut1
+    title: "Hypoxic tumors increase glucose uptake via GLUT1/SLC2A1 despite systemic hypoglycemia"
+    tags: [fdg, glut1, slc2a1, glucose-uptake]
+    status: supported
+    confidence: 0.72
+    domain: oncology
   - slug: hypoxic-tumours-clinically-refractory-immune-checkpoint
     title: "Hypoxic tumours are clinically refractory to immune checkpoint inhibition despite elevated TMB and neoantigens"
     tags: [hypoxia, immune-checkpoint-inhibitor, TMB, neoantigen, immunotherapy-resistance]
@@ -5779,6 +5882,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia-signaling
+  - slug: hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression
+    title: "HypoxyStat, a small-molecule hemoglobin-oxygen affinity modulator, recapitulates inhaled hypoxia's tumor suppression"
+    tags: [hypoxystat, hemoglobin, pharmacological-hypoxia, drug]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: icaf-inflammatory-caf-most-abundant-precursor-lesions
     title: "Inflammatory CAFs (iCAFs) are most abundant in AAH and AIS precursor lesions and less abundant in normal lung and invasive LUAD"
     tags: [luad, caf, icaf, precursor, stroma, niche]
@@ -8683,6 +8792,54 @@ claims:
     status: supported
     confidence: 0.85
     domain: neuroimmunology / pharmacology / mouse-model
+  - slug: systemic-hypoxia-depletes-tumor-purine-nucleotides
+    title: "Systemic hypoxia depletes purine nucleotides and nucleotide intermediates in tumors"
+    tags: [metabolomics, purine, nucleotide, adenine, amp]
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: systemic-hypoxia-increases-purine-salvage-reliance
+    title: "Systemic hypoxia increases tumor reliance on purine salvage"
+    tags: [purine-salvage, 13c-adenine, amp, metabolism]
+    status: supported
+    confidence: 0.72
+    domain: oncology
+  - slug: systemic-hypoxia-lowers-intratumoral-po2
+    title: "Systemic inhaled hypoxia lowers the partial pressure of oxygen inside tumors"
+    tags: [hypoxia, tumor-oxygenation, po2]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: systemic-hypoxia-reduces-solid-tumor-growth-multimodel
+    title: "Systemic hypoxia reduces solid tumor growth across multiple cancer models in vivo"
+    tags: [hypoxia, tumor-growth, in_vivo, pdac, breast-cancer]
+    status: supported
+    confidence: 0.78
+    domain: oncology
+  - slug: systemic-hypoxia-suppresses-de-novo-purine-synthesis
+    title: "Systemic hypoxia suppresses de novo purine synthesis in tumors in vitro and in vivo"
+    tags: [purine, stable-isotope-tracing, 15n-glutamine, de-novo-synthesis]
+    status: supported
+    confidence: 0.78
+    domain: oncology
+  - slug: systemic-hypoxia-synergizes-with-anti-ctla4-ici
+    title: "Systemic hypoxia synergizes with anti-CTLA4 immune checkpoint inhibition"
+    tags: [immunotherapy, ctla4, checkpoint-inhibitor, combination-therapy]
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: systemic-hypoxia-synergizes-with-gemcitabine
+    title: "Systemic hypoxia synergizes with gemcitabine chemotherapy"
+    tags: [gemcitabine, chemotherapy, combination-therapy, pdac]
+    status: supported
+    confidence: 0.7
+    domain: oncology
+  - slug: systemic-vs-local-tumor-hypoxia-opposite-effects
+    title: "Systemic (whole-body) hypoxia has the opposite effect on tumor growth to local intratumoral hypoxia"
+    tags: [hypoxia, paradigm, local-vs-systemic, tumor]
+    status: supported
+    confidence: 0.72
+    domain: oncology
   - slug: t3ss-effectors-enriched-crohns-depleted-uc-metagenomes
     title: "T3SS effectors are enriched in Crohn's disease but depleted in ulcerative colitis metagenomes"
     tags: [effectors, metagenomics, crohns, ulcerative-colitis, ibd]
@@ -9445,6 +9602,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology / oncology
+  - slug: tumors-do-not-acquire-resistance-to-systemic-hypoxia
+    title: "Tumors do not develop resistance to systemic hypoxia therapy over serial passage"
+    tags: [resistance, hypoxia, serial-passage, therapy]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: tumour-explant-cytokine-marker-predicts-icb
     title: "Pooled multi-fragment 24-48 h tumour explant cytokine/chemokine/T cell activation marker readouts predict ICB response across melanoma, NSCLC, breast, ovarian and RCC"
     tags: [correlational, oncology, organoid, immunotherapy]

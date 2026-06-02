@@ -439,6 +439,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Does SPARK-X's dominance hold on emerging high-resolution platforms (Visium HD, Slide-Tags) not represented in the 50 reference datasets?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] Could ensemble methods (e.g., SPARK-X + Moran's I + SpatialDE2 union) outperform any single method in practice given complementary pattern-specific behaviour ([c08])?
 - [paper/systematic-benchmarking-computational-methods-identify-spatially] For thesis-relevant TME work using Visium / Xenium, does the Moran's I → SpatialDE2 → nnSVG recommendation hold on macrophage-niche spatial data, or does TAM-rich tissue introduce SVG-pattern types where SPARK-X is preferable?
+- [paper/systemic-hypoxia-suppresses-solid-tumor-growth] What is the precise role of decreased Myc activity in mediating tumor suppression?
+- [paper/systemic-hypoxia-suppresses-solid-tumor-growth] How do tumor-extrinsic factors (nutrients, immune surveillance) contribute?
+- [paper/systemic-hypoxia-suppresses-solid-tumor-growth] How can pharmacological hypoxia be optimized for a safe therapeutic window in humans?
+- [paper/systemic-hypoxia-suppresses-solid-tumor-growth] Does systemic-hypoxia tumor suppression require any immune contribution (given anti-CTLA4 synergy) vs pure metabolic effect?
+- [paper/systemic-hypoxia-suppresses-solid-tumor-growth] Would direct pharmacological de novo purine-synthesis inhibition phenocopy systemic hypoxia, and is the combination additive?
+- [paper/systemic-hypoxia-suppresses-solid-tumor-growth] What metabolic feature renders VHL-WT ccRCC lines resistant?
 - [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether systemically administered STING agonists (CRD3874-SI, GSK3745417, TAK-676) can succeed where intratumoral failed
 - [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether STING agonists can be combined with adoptive T-cell therapies given T-cell-intrinsic cytotoxicity, or whether engineered STING-resistant T cells are required
 - [paper/targeting-sting-generate-therapeutic-anti-tumor] Whether STING-pathway-targeting therapies require predictive biomarker enrichment (cGAS/STING IHC) to show efficacy
@@ -1260,12 +1266,14 @@ _Auto-generated open questions. Do not edit._
 - [claim/ahr-pxr-promiscuous-ligand-overlap] AHR and the nuclear receptor PXR share substantial agonist overlap, implying that AHR ligands frequently co-activate PXR and that response heterogeneity reflects parallel receptor activation (status: weakly_supported)
 - [claim/anti-pd1-ctla4-alvocidib-le-outgoing-pattern] Anti-PD-1 / anti-CTLA-4 perturbations and Alvocidib (CDK inhibitor) recapitulate the effective-drug LE-outgoing pattern in OSCC ST (status: weakly_supported)
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
+- [claim/aspartate-depletion-does-not-explain-hypoxia-purine-suppression] Aspartate depletion does not explain purine synthesis suppression in hypoxic tumors in vivo (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
 - [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
 - [claim/cci-interaction-strength-decays-distance-long] GITIII recapitulates distance-decay of CCI strength and identifies long-range interactions missed by fixed-neighbourhood methods (status: weakly_supported)
+- [claim/ccrcc-and-select-lines-resist-hypoxia-tumor-suppression] A subset of cancer cell lines, including two ccRCC lines, gain relative fitness under systemic hypoxia (status: weakly_supported)
 - [claim/cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1] Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1) (status: weakly_supported)
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
@@ -1274,6 +1282,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/continuous-flow-smooth-latent-manifold-acts] Continuous flow on a smooth latent manifold acts as an implicit denoiser without explicit imputation (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
+- [claim/de-novo-purine-gene-expression-correlates-fitness-hypoxia] De novo purine synthesis gene expression positively correlates with cancer cell fitness under hypoxia (status: weakly_supported)
+- [claim/de-novo-purine-synthesis-more-essential-in-vivo-than-in-vitro] De novo purine synthesis is more essential for PDAC tumor growth in vivo than in vitro (status: weakly_supported)
 - [claim/discrete-cell-type-embeddings-structurally-preclude] Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages (status: proposed)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/effector-neighbourhoods-enriched-crohns-not-uc] Effector-targeted network neighbourhoods are enriched for Crohn's disease but not ulcerative colitis (status: weakly_supported)
@@ -1290,9 +1300,13 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
+- [claim/higher-altitude-correlates-lower-cancer-mortality] Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US (status: weakly_supported)
 - [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
 - [claim/hvg-feature-selection-theoretically-ill-posed] HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction (status: proposed)
 - [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)
+- [claim/hypoxia-purine-suppression-tracks-myc-target-downregulation] Hypoxia-induced suppression of de novo purine synthesis tracks downregulation of Myc target genes (status: weakly_supported)
+- [claim/hypoxia-shifts-cancer-cells-toward-g1-arrest] Systemic hypoxia shifts cancer cells toward G1 arrest and reduced S-phase occupancy (status: weakly_supported)
+- [claim/hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression] HypoxyStat, a small-molecule hemoglobin-oxygen affinity modulator, recapitulates inhaled hypoxia's tumor suppression (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
@@ -1330,6 +1344,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
+- [claim/tumors-do-not-acquire-resistance-to-systemic-hypoxia] Tumors do not develop resistance to systemic hypoxia therapy over serial passage (status: weakly_supported)
 - [claim/type-2b-vhl-missense-mutants-enhance] Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
 - [claim/ups-markers-conflicting-evidence-cac] MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity (status: weakly_supported)
