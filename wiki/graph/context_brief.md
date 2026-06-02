@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1075 total)
+## Claims (1091 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (56 total)
+## Papers (57 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,12 +47,13 @@ _Auto-generated open questions. Do not edit._
 - [4] Novae: a graph-based foundation model for spatial transcriptomics data (methods / spatial-transcriptomics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2387 total)
-  papers/effector-host-interactome-map-links-type --supports--> claims/pdz-pbm-effector-interfaces-validated-by-holdup-assay
-  papers/effector-host-interactome-map-links-type --supports--> claims/effector-targets-enriched-muramyl-dipeptide-nfkb-sapk-jnk
-  papers/effector-host-interactome-map-links-type --supports--> claims/effector-targets-enriched-gwas-immune-metabolic-disease-variation
-  papers/effector-host-interactome-map-links-type --supports--> claims/effector-neighbourhoods-enriched-crohns-not-uc
-  papers/effector-host-interactome-map-links-type --supports--> claims/commensal-effectors-bidirectionally-modulate-nfkb-activity
-  papers/effector-host-interactome-map-links-type --supports--> claims/commensal-effectors-modulate-cytokine-secretion-tlr-dependent
-  papers/effector-host-interactome-map-links-type --supports--> claims/t3ss-effectors-enriched-crohns-depleted-uc-metagenomes
-  papers/effector-host-interactome-map-links-type --supports--> claims/cd-prevalent-effectors-target-c
+## Recent Relationships (2419 total)
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/immgen-immunological-genome-project
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/stat1-tf
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/stat6-tf
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/stat4-transcription-factor
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/nf-kb-p65-rela
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/creb1-transcription-factor
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/spi1-pu1-master-tf
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from--> foundations/tissue-resident-alveolar-macrophage
+  papers/transcriptome-based-network-analysis-reveals-spectrum --derived_from-

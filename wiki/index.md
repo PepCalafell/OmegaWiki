@@ -301,6 +301,12 @@ papers:
     importance: 4
     domain: methods / single-cell / perturbation-modeling
     priority: reference
+  - slug: transcriptome-based-network-analysis-reveals-spectrum
+    title: "Transcriptome-Based Network Analysis Reveals a Spectrum Model of Human Macrophage Activation"
+    tags: [macrophage, activation, transcriptomics, network-analysis, immunology, WGCNA, spectrum-model, M1-M2, ARACNe, STAT4, TPP, COPD, core-signature, ImmGen]
+    importance: 5
+    domain: immunology
+    priority: context
   - slug: transition-monocyte-tissue-resident-macrophage-requires
     title: "The transition from monocyte to tissue-resident macrophage requires DHPS"
     tags: [macrophage, tissue-resident-macrophage, immunometabolism, polyamine, hypusine, eIF5A, translation, monocyte]
@@ -635,6 +641,10 @@ concepts:
   - slug: cross-species-human-mouse-cytokine-response
     title: "Cross-species divergence of human and mouse cytokine responses"
     tags: [cross-species, cytokines, translation, mouse-human]
+    maturity: emerging
+  - slug: cross-species-core-macrophage-signature
+    title: "Cross-species core macrophage signature"
+    tags: [macrophage, comparative-transcriptomics, signature]
     maturity: emerging
   - slug: cross-tissue-conserved-fibroblast-states
     title: "Cross-tissue conserved fibroblast states (skin subtypes shared across human tissues)"
@@ -1093,6 +1103,10 @@ concepts:
     tags: [macrophage, immunometabolism, itaconate, succinate, hif1a, tca-cycle]
     domain: immunology / immunometabolism
     maturity: stable
+  - slug: macrophage-activation-core-regulatory-hubs
+    title: "Core regulatory hubs of macrophage activation"
+    tags: [macrophage, transcription-factors, network-biology]
+    maturity: emerging
   - slug: macrophage-induced-emt-tumor-invasiveness
     title: "Macrophage-induced EMT and tumor invasiveness"
     tags: [macrophage, EMT, tumor-invasiveness, tumor-cell-plasticity, TWIST1, ZEB1, E-cadherin, cancer-cell-biology, tumor-microenvironment]
@@ -1519,6 +1533,10 @@ concepts:
     title: "Spatially variable gene (SVG) detection in spatial transcriptomics"
     tags: [spatial-transcriptomics, methods, feature-selection, benchmarking]
     maturity: active
+  - slug: spectrum-model-macrophage-activation
+    title: "Spectrum model of macrophage activation"
+    tags: [macrophage, immunology, transcriptomics, activation]
+    maturity: active
   - slug: spi-c-nrf2-iron-axis-rpm-kupffer
     title: "SPI-C / NRF2 / BACH1 iron-recycling axis in red pulp and Kupffer macrophages"
     tags: [macrophage, iron-metabolism, heme, red-pulp-macrophage, kupffer-cell, erythrophagocytosis]
@@ -1681,6 +1699,10 @@ concepts:
     title: "Tonic / baseline JAK-STAT signaling in homeostatic immune cells"
     tags: [immunology, jak-stat, interferon, homeostasis, ISG, epigenetics]
     maturity: active
+  - slug: tpp-chronic-inflammation-macrophage-program
+    title: "TPP chronic-inflammation macrophage program"
+    tags: [macrophage, immunology, chronic-inflammation, STAT4]
+    maturity: emerging
   - slug: trans-acting-immunocytokine
     title: "Trans-acting immunocytokine — dual-compartment cytokine targeting"
     tags: [immunocytokine, cytokine-engineering, bispecific, tumor-microenvironment, cancer-immunotherapy]
@@ -1947,6 +1969,9 @@ people:
   - slug: edward-j-pearce
     tags: [immunometabolism, macrophage, dendritic-cell, helminth-immunity, PI]
     affiliation: "Department of Molecular Microbiology and Immunology, Bloomberg School of Public Health, Johns Hopkins University; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
+  - slug: eicke-latz
+    tags: [innate-immunity, inflammasome, macrophage]
+    affiliation: "Institute of Innate Immunity, University Hospitals, University of Bonn; DZNE; UMass Medical School"
   - slug: eileen-p-white
     tags: [autophagy, cancer-metabolism, cancer-cachexia, tumor-host-metabolism]
     affiliation: "Rutgers Cancer Institute; Ludwig Princeton Branch, Ludwig Institute for Cancer Research, Princeton University"
@@ -2037,12 +2062,18 @@ people:
   - slug: jean-ehrland-ricci
     tags: [tumor-metabolism, immunometabolism, dlbcl, oxphos, asnase]
     affiliation: "Université Côte d'Azur, INSERM, C3M, Nice, France; Équipe labellisée LIGUE Contre le Cancer"
+  - slug: jia-xue
+    tags: [immunology, macrophage, transcriptomics]
+    affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn"
   - slug: jiahe-tian
     tags: [neuroimmunology, sympathetic-nervous-system, atopic-dermatitis, optogenetics, chemogenetics]
     affiliation: "State Key Laboratory of Brain Function and Disorders, Institutes of Brain Science, Huashan Hospital; Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences, Fudan University, Shanghai, China"
   - slug: jianguo-wu
     tags: [virology, hypoxia-signaling, HIF1A, SARS-CoV-2, viral-pathogenesis, PI]
     affiliation: "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou; The First Affiliated Hospital of Jinan University, Guangzhou"
+  - slug: joachim-schultze
+    tags: [immunology, macrophage, systems-immunology, single-cell]
+    affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
   - slug: josep-calafell-segura
     tags: [epigenetics, immunology, macrophage, hypoxia, PhD-student]
     affiliation: "Epigenetics and Immune Disease Group, Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
@@ -2289,6 +2320,9 @@ people:
   - slug: thomas-u-marron
     tags: [clinical-oncology, immune-checkpoint-blockade, neoadjuvant, hepatocellular-carcinoma, early-phase-trials, hematology-oncology]
     affiliation: "Marc and Jennifer Lipschultz Precision Immunology Institute / Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+  - slug: thomas-ulas
+    tags: [bioinformatics, systems-immunology, transcriptomics]
+    affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
   - slug: tiannan-guo
     tags: [proteomics, dia-ms, mass-spectrometry, pan-cancer, clinical-proteomics]
     affiliation: "Westlake University — School of Life Sciences; Westlake Laboratory of Life Sciences and Biomedicine"
@@ -8826,6 +8860,102 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: aracne-reverse-engineering-yields-dense-macrophage
+    title: "ARACNe reverse engineering yields a dense macrophage gene interaction network (66,744 interactions)"
+    tags: [macrophage, network-biology, ARACNe]
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: copd-alveolar-macrophages-lose-inflammatory-gene
+    title: "COPD alveolar macrophages show an unexpected loss of inflammatory gene signatures"
+    tags: [macrophage, COPD, alveolar, GSEA]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: human-macrophage-activation-forms-spectrum-least
+    title: "Human macrophage activation forms a spectrum of at least nine programs beyond M1/M2"
+    tags: [macrophage, activation, spectrum-model]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: junb-nfkb1-creb1-common-transcriptional-denominators
+    title: "JUNB, NFKB1, and CREB1 are common transcriptional denominators of macrophage activation"
+    tags: [macrophage, transcription-factors, network-hubs]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: non-polarizing-stimuli-reveal-activation-states
+    title: "Non-polarizing stimuli reveal macrophage activation states beyond the bipolar M1/M2 axis"
+    tags: [macrophage, activation, fatty-acids]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: pu1-binding-h3k4me3-enriched-macrophage-hub
+    title: "PU.1 binding and H3K4me3 marks are enriched at macrophage hub gene loci"
+    tags: [macrophage, ChIP-seq, PU1, epigenetics]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: refined-cross-species-core-macrophage-signature
+    title: "A refined cross-species core macrophage signature distinguishes macrophages from DCs and monocytes"
+    tags: [macrophage, comparative-transcriptomics, core-signature]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: resource-299-human-macrophage-transcriptomes-across
+    title: "A resource of 299 human macrophage transcriptomes across 28 stimuli on a single platform"
+    tags: [macrophage, transcriptomics, resource]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: single-selective-marker-genes-induced-specific
+    title: "Single selective marker genes are induced by specific macrophage stimuli, but combinations are usually needed"
+    tags: [macrophage, marker-genes]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: som-clustering-correlation-matrices-validate-macrophage
+    title: "SOM clustering and correlation coefficient matrices validate the macrophage spectrum model"
+    tags: [macrophage, clustering, bioinformatics]
+    status: supported
+    confidence: 0.8
+    domain: methods
+  - slug: stat1-stat6-central-hubs-ifn-gamma
+    title: "STAT1 and STAT6 are central TF hubs of the IFN-γ and IL-4 macrophage networks"
+    tags: [macrophage, transcription-factors, STAT]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: stat4-selectively-induced-tpp-activated-macrophages
+    title: "STAT4 is selectively induced in TPP-activated human macrophages"
+    tags: [macrophage, STAT4, TPP]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: tpp-macrophages-express-distinct-cell-surface
+    title: "TPP macrophages express a distinct cell-surface marker set (CD14, CD23, CD25, CXCR7, CD197)"
+    tags: [macrophage, TPP, surface-markers]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: tpp-macrophages-functionally-distinct-inhibit-cell
+    title: "TPP macrophages are functionally distinct and strongly inhibit T cell proliferation"
+    tags: [macrophage, TPP, T-cell-suppression]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: tpp-stimulation-induces-macrophage-modules-absent
+    title: "TPP stimulation induces macrophage coexpression modules absent in M1 and M2"
+    tags: [macrophage, TPP, chronic-inflammation]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: wgcna-defines-49-macrophage-coexpression-modules
+    title: "WGCNA defines 49 macrophage coexpression modules linked to stimulation conditions"
+    tags: [macrophage, wgcna, coexpression]
+    status: supported
+    confidence: 0.9
+    domain: methods
 
 Summary:
 
@@ -8923,6 +9053,10 @@ foundations:
     title: "ARG1 — Arginase 1"
     status: mainstream
     domain: immunometabolism
+  - slug: aracne-reverse-network-engineering
+    title: "ARACNe — Algorithm for the Reconstruction of Accurate Cellular Networks"
+    status: mainstream
+    domain: methods
   - slug: arnt-hif1b
     title: "ARNT (AHR nuclear translocator / HIF-1β)"
     status: mainstream
@@ -9774,6 +9908,10 @@ foundations:
     title: "IMbrave150 — phase III atezolizumab + bevacizumab in unresectable HCC"
     status: mainstream
     domain: clinical trials / hepatocellular carcinoma
+  - slug: immgen-immunological-genome-project
+    title: "ImmGen — Immunological Genome Project"
+    status: mainstream
+    domain: immunology
   - slug: immune-dictionary-dataset
     title: "Immune Dictionary — perturbational scRNA-seq atlas of 86 cytokines × 17+ immune cell types"
     status: mainstream
@@ -10749,6 +10887,10 @@ foundations:
     domain: immunology
   - slug: stat3-tf
     title: "STAT3 — signal transducer and activator of transcription 3"
+    status: mainstream
+    domain: immunology
+  - slug: stat4-transcription-factor
+    title: "STAT4 (Signal Transducer and Activator of Transcription 4)"
     status: mainstream
     domain: immunology
   - slug: stat5-tf

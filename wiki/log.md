@@ -65,3 +65,4 @@
 ## [2026-05-28] ingest | added papers/single-cell-spatial-genomics-atlas-human (Steele et al., Nature Immunology 2025, importance 4 TIER_1) | +7 concepts +6 foundations +3 people +21 claims | edges: 1 same_problem_as, 7 introduces_concept, 16 derived_from, 21 supports, 1 cites
 ## [2026-05-28] ingest | added papers/towards-building-world-model-simulate-perturbation (AlphaCell, bioRxiv 2026) | +19 claims, +6 concepts, +10 foundations, +3 people, +36 edges
 ## [2026-05-28] ingest | added papers/effector-host-interactome-map-links-type (Nature Microbiology 2026, T3SS commensal interactome, TIER_1, imp 4) | +7 concepts +23 claims +16 foundations +7 people +46 edges
+## [2026-06-02] ingest | added papers/transcriptome-based-network-analysis-reveals-spectrum (Xue et al. 2014 Immunity, importance 5) | +16 claims, +4 concepts, +3 foundations, +4 people | updated concepts/m1-m2-polarization-paradigm; +32 graph edges

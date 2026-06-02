@@ -31,12 +31,14 @@ key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
   - lipid-metabolism-homeostasis-disease
   - macrophages-targets-next-generation-cancer-immunotherapy
+  - transcriptome-based-network-analysis-reveals-spectrum
 first_introduced: "Mills, Kincaid et al. 2000 *J Immunol* (M1/M2 framing); refined by Cui & Hacohen 2024 *Nature* Mac-a/b/c/d/e at scRNA-seq resolution"
-date_updated: 2026-05-27
+date_updated: 2026-06-02
 related_concepts:
   - momac-verse-mnp-verse-atlas
   - tumor-associated-macrophage-immunosuppression
   - mmac1-hypoxic-inflammatory-macrophage
+  - spectrum-model-macrophage-activation
 ---
 
 ## Definition
@@ -86,6 +88,7 @@ vs ontogeny-based axis: M1/M2 is orthogonal; an embryonic-origin TRM can be M1- 
 
 ## Key papers
 
+- [[papers/transcriptome-based-network-analysis-reveals-spectrum]] — Xue et al. 2014 *Immunity*: the seminal bulk-transcriptomic extension of M1/M2 to a [[spectrum-model-macrophage-activation]]; 299 transcriptomes show non-polarizing stimuli pull macrophages off the bipolar axis into ≥9 programs
 - [[papers/cross-tissue-single-cell-landscape-human]] — explicitly demonstrates that the M1/M2 dichotomy fails to embrace the diversity of human MAC populations across tissues; clusters #6 (IL4I1) and #2 (HES1) score as M1 yet are neither pro-inflammatory effectors nor IL-12 producers, and IL-12B is restricted to DC populations rather than M1 macrophages
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — uses M-CSF mMAC21 vs mMAC1 axis where the M1/M2 framing is partially informative for the in vitro system but is shown to fail at predicting in vivo TAM diversity
 - [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — Bai 2022 *Molecular Cancer* review uses the M1/M2 axis as the dominant TAM polarization framework throughout, with tumor-derived exosomes / cytokines / oncometabolites driving M2 polarization and rare counter-mechanisms (Spint1, colon-cancer SIRPα-CD47 paradox) preserving M1-like TAMs

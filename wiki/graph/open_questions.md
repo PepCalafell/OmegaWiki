@@ -424,6 +424,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/towards-building-world-model-simulate-perturbation] Is Pearson ~0.2 sufficient for actionable in-silico screening?
 - [paper/towards-building-world-model-simulate-perturbation] Can the implicit-denoising claim be quantified against explicit imputation baselines?
 - [paper/towards-building-world-model-simulate-perturbation] How much does each component (Mamba vs Transformer, ArcFace, per-channel DANN) contribute (ablations absent)?
+- [paper/transcriptome-based-network-analysis-reveals-spectrum] How are defined in-vitro activation programs realised in vivo in human tissue macrophages?
+- [paper/transcriptome-based-network-analysis-reveals-spectrum] What is the role of macrophage STAT4 and of unstudied hub TFs (e.g. HIVEP1) in activation?
+- [paper/transcriptome-based-network-analysis-reveals-spectrum] Why do COPD alveolar macrophages lose inflammatory signatures, and what are the therapeutic implications?
+- [paper/transcriptome-based-network-analysis-reveals-spectrum] How does the bulk spectrum model map onto modern single-cell macrophage taxonomies (MoMac-VERSE)?
+- [paper/transcriptome-based-network-analysis-reveals-spectrum] Can a quantitative scoring framework place arbitrary samples within the spectrum?
 - [paper/transition-monocyte-tissue-resident-macrophage-requires] Which mRNA motifs confer hypusine dependency beyond polyproline?
 - [paper/transition-monocyte-tissue-resident-macrophage-requires] How do polyamine levels in a cell influence hypusine and translation across biological contexts?
 - [paper/transition-monocyte-tissue-resident-macrophage-requires] Are proteins other than eIF5A modified by the polyamine–hypusine axis?
@@ -604,6 +609,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Does anti-TNF therapy revert PERIVASC I expansion specifically?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Can PERIVASC I score be used as a transversal disease-activity biomarker?
+- [concept/cross-species-core-macrophage-signature] Extending the core to tissue-resident macrophage ontogenies.
+- [concept/cross-species-core-macrophage-signature] Same-tissue human↔mouse comparisons in homeostasis and disease.
 - [concept/cross-species-human-mouse-cytokine-response] Isolating genuine species divergence from experimental confounders
 - [concept/cross-species-human-mouse-cytokine-response] Which cytokine modules are conserved vs human-specific
 - [concept/cross-species-human-mouse-cytokine-response] Implications for preclinical-to-clinical cytokine-therapy translation
@@ -816,6 +823,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] The role of microglia replacement (CSF1R-blockade-and-replacement strategies) in neuropathic LSDs.
 - [concept/m1-m2-polarization-paradigm] A formal replacement nomenclature that combines stimulus, ontogeny, and tissue niche
 - [concept/m1-m2-polarization-paradigm] Quantitative scoring frameworks that encode multidimensional polarisation rather than collapsing to one axis
+- [concept/macrophage-activation-core-regulatory-hubs] Functional validation of HIVEP1 and other under-studied hubs in macrophage activation.
+- [concept/macrophage-activation-core-regulatory-hubs] Causal direction within the inferred network.
 - [concept/macrophage-induced-emt-tumor-invasiveness] Identification of the necessary and sufficient TRM-secreted EMT inducer(s)
 - [concept/macrophage-induced-emt-tumor-invasiveness] Whether the TRM-EMT axis generalises to non-lung early epithelial cancers
 - [concept/macrophage-induced-emt-tumor-invasiveness] Interplay with hypoxic / WNT / Notch EMT signalling
@@ -1020,6 +1029,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatially-variable-gene-detection] Specialised SVP detection for spatial ATAC-seq (current SVG methods fail; see [[concepts/spatial-atac-svp-detection-gap]]).
 - [concept/spatially-variable-gene-detection] SVG–SVP integration for spatial gene-regulatory networks.
 - [concept/spatially-variable-gene-detection] Rotation- and registration-invariant SVG scoring.
+- [concept/spectrum-model-macrophage-activation] A standard quantitative scoring framework that places any macrophage sample within the spectrum.
+- [concept/spectrum-model-macrophage-activation] Reconciling the bulk-stimulation spectrum with single-cell in-vivo cluster taxonomies.
 - [concept/src-vhl-y185-phosphorylation-mitochondrial-axis] Full set of hypoxia-responsive VHL PTMs.
 - [concept/src-vhl-y185-phosphorylation-mitochondrial-axis] Whether targeting SRC-pVHL is selective enough for therapy.
 - [concept/stat1-isoform-specificity-alpha-beta] Identify isoform-specific chromatin binding sites and protein partners.
@@ -1097,6 +1108,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tonic-baseline-jak-stat-homeostasis] Map cell-extrinsic ligands and source cells for baseline JAK-STAT in each tissue.
 - [concept/tonic-baseline-jak-stat-homeostasis] Determine whether baseline activity itself shapes responsiveness to cytokine stimulation (priming gain).
 - [concept/tonic-baseline-jak-stat-homeostasis] Test whether disease-associated JAK-STAT variants disrupt baseline more than induced signaling.
+- [concept/tpp-chronic-inflammation-macrophage-program] The mechanistic role of macrophage STAT4 in granulomatous disease.
+- [concept/tpp-chronic-inflammation-macrophage-program] Whether TPP-like programs appear in human tissue macrophages.
 - [concept/trans-acting-immunocytokine] Optimal cytokine for each cellular niche (IL-2 / IL-15 / IL-12 / IL-18)
 - [concept/trans-acting-immunocytokine] Whether other TAM-restricted antigens (MARCO, VISTA) could substitute for TREM2
 - [concept/trans-acting-immunocytokine] Quantifying the diffusion radius of trans cytokine activity in vivo
