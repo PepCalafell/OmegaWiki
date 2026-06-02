@@ -100,6 +100,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/decode-deep-learning-based-common-deconvolution] Would independent third-party benchmarking confirm the cross-omics SOTA claims?
 - [paper/decode-deep-learning-based-common-deconvolution] How does accuracy degrade as the unknown-cell-type fraction grows large?
 - [paper/decode-deep-learning-based-common-deconvolution] Could non-uniform (Dirichlet) proportion sampling better match real tissue distributions and improve transfer?
+- [paper/delineation-signaling-routes-underlie-differences-macrophage] What are the precise activities and clinical roles of PKCα, PKACα, PAK2, PDPK1, and LRRK2 in immunosuppressive macrophages?
+- [paper/delineation-signaling-routes-underlie-differences-macrophage] Can rational signaling rewiring reprogram macrophage states in the TME?
+- [paper/delineation-signaling-routes-underlie-differences-macrophage] How best to expand state-specific macrophage biomarkers from unbiased proteomic signatures?
+- [paper/delineation-signaling-routes-underlie-differences-macrophage] Do perturbations (inhibition/knockdown) of PAK2 or PKCα causally revert immunosuppressive polarization in primary human macrophages?
+- [paper/delineation-signaling-routes-underlie-differences-macrophage] How do the kinase hubs (PAK2/PKCα) mechanistically connect to the TF hubs (FOS/NCOR2/PPARγ)?
+- [paper/delineation-signaling-routes-underlie-differences-macrophage] Is the strong macrophage–B-cell correlation in brain metastases mechanistic, and does it predict immunotherapy response?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] What protein-level expression patterns underlie the 13-gene transcriptional model?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] Is the regulatory mechanism in pancreatic cancer experimentally validated?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] How broadly does KRTCAP2 act as a therapeutic target across cancer types?
@@ -745,6 +751,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/fidas-5-methionine-blockade-rescues-cachexia] Toxicity profile of sustained systemic MAT inhibition in lean tissue (intestine, immune cells).
 - [concept/folr2-tissue-resident-macrophage] Whether HCC FOLR2 macs are causally pro-tumorigenic or just enriched alongside other niche components (CAFs, endothelial subsets).
 - [concept/folr2-tissue-resident-macrophage] Mechanism of the tissue-context-dependent functional flip.
+- [concept/fos-ncor2-ppargamma-transcriptional-hub-immunosuppressive] Causal validation that FOS/NCOR2/PPARγ drive (rather than mark) M2a programs
+- [concept/fos-ncor2-ppargamma-transcriptional-hub-immunosuppressive] How these TF hubs connect to the PAK2/PKCα kinase hubs mechanistically
 - [concept/genome-wide-cell-representation-versus-highly] Quantifying how many response-relevant genes fall outside control-derived HVG sets.
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Which O-GlcNAcylated substrate(s) gate the G2/M-to-division step in maturing cavity macrophages?
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Is the senescence-like phenotype of Ogt-deficient LCMs reversible by restoring O-GlcNAc?
@@ -867,6 +875,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Whether KDM oxygen sensing dominates or merely modulates the HIF transcriptional response in hypoxic cancer cells in vivo.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Therapeutic exploitation: KDM inhibitors as hypoxia-mimetic compounds, or KDM activators as anti-hypoxia compounds.
 - [concept/kdm-direct-oxygen-sensing-hif-independent] Cross-talk with the metabolic state: 2-OG and succinate are competing co-substrates / inhibitors of KDMs; oncometabolite states (SDH-deficient paragangliomas, IDH-mutant gliomas) overlap with KDM regulation.
+- [concept/kinase-activity-footprint-inference-phosphoproteomics] Integrating motif predictions with abundance to filter inactive kinases
+- [concept/kinase-activity-footprint-inference-phosphoproteomics] Reconciling disagreements among motif-, family-, and enrichment-based predictions
 - [concept/kinase-independent-functions-tyk2] Identify TYK2-interacting receptor/signaling complexes that depend on TYK2 protein presence but not its catalytic activity.
 - [concept/kinase-independent-functions-tyk2] Predict which clinical phenotypes of TYK2 inhibition vs TYK2 loss-of-function variants will diverge.
 - [concept/krtcap2-pan-cancer-biomarker] Causal: does KRTCAP2 knockdown reduce tumour growth and increase CD8+ infiltration in immune-competent models?
@@ -1033,6 +1043,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/pairwise-cytokine-code-sepsis] Direct vs indirect cytokine pair effects on each cell type are not separated
 - [concept/pairwise-cytokine-code-sepsis] Human translation of the pairwise code is untested
 - [concept/pairwise-cytokine-code-sepsis] Higher-order (triplet, quartet) cytokine combinations are not yet sampled
+- [concept/pak2-pkc-alpha-regulators-immunosuppressive-macrophages] Causal tests (inhibition/knockdown) of PAK2 and PKCα in macrophage polarization
+- [concept/pak2-pkc-alpha-regulators-immunosuppressive-macrophages] Whether these kinases are tractable, selective targets in the tumor microenvironment
 - [concept/pan-cancer-conserved-leading-edge-signature] Whether LE signature subtypes exist (e.g. ECM-dominant vs immune-cold variants)
 - [concept/pan-cancer-conserved-leading-edge-signature] Causal upstream drivers shared across cancers
 - [concept/pan-cancer-hypoxia-multiomic-landscape] Single-cell / spatial extension of the landscape.
@@ -1070,6 +1082,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Therapeutic exploitation of the methionine–leucine crosstalk in hypoxic disease.
 - [concept/propensity-score-confounder-balanced-omics] Robustness to confounder selection and model misspecification.
 - [concept/proteomic-cms-markers-colorectal-cancer] An IHC- or DIA-based CMS classifier deployable in routine pathology.
+- [concept/proteomic-signature-classifies-proinflammatory-tumor-associated] Whether proteomic signatures can also resolve immunosuppressive sub-states in vivo
+- [concept/proteomic-signature-classifies-proinflammatory-tumor-associated] Generalization across more tumor types and platforms
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
@@ -1313,6 +1327,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
 - [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
+- [claim/fos-ncor2-ppargamma-central-transcription-regulators] FOS, NCOR2, and PPARγ are central transcription regulators of the immunosuppressive M2a macrophage network (status: weakly_supported)
 - [claim/glcnacylation-dynamically-regulated-monocyte-large-cavity] O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition (status: proposed)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
@@ -1331,6 +1346,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/influence-tensor-clustering-yields-sharper-spatial] Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex) (status: weakly_supported)
+- [claim/irak1-irak4-inferred-upregulated-m2a-camkk2] Footprinting nominates IRAK1/IRAK4 in M2a and CAMKK2/GAK in M2c as novel immunosuppressive-state kinases (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
 - [claim/klf5-transcription-factor-activity-marks-f2] KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state (status: weakly_supported)
@@ -1352,11 +1368,13 @@ _Auto-generated open questions. Do not edit._
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
 - [claim/ogt-deficiency-rewires-macrophage-metabolism-induces] Ogt deficiency rewires LCM metabolism and induces a senescence-like phenotype with G2/M arrest (status: proposed)
 - [claim/ogt-inhibition-increases-macrophage-costimulation-cell] Pharmacological OGT inhibition increases macrophage co-stimulatory molecules and T cell proliferation in co-culture (status: proposed)
+- [claim/pak2-pkc-alpha-inferred-regulators-vitro] PAK2 and PKCα are inferred as central regulators of in vitro immunosuppressive macrophages (status: weakly_supported)
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
 - [claim/pet-ml-model-detects-cac-nsclc-81-accuracy] PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy (status: weakly_supported)
 - [claim/physiological-hypoxia-maintains-hsc-quiescence-hif] Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial) (status: weakly_supported)
 - [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
+- [claim/proinflammatory-macrophage-fraction-correlates-cell-fraction] Proinflammatory macrophage fraction correlates strongly with B-cell fraction in brain metastases (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)

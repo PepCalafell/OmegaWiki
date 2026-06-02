@@ -397,6 +397,12 @@ papers:
     importance: 4
     domain: immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers
     priority: high
+  - slug: delineation-signaling-routes-underlie-differences-macrophage
+    title: "Delineation of signaling routes that underlie differences in macrophage phenotypic states"
+    tags: [macrophage, polarization, phosphoproteomics, proteomics, kinase, signaling, TAM, immunosuppression]
+    importance: 3
+    domain: immunology
+    priority: context
 
 concepts:
   - slug: 6d-tam-translational-framework
@@ -1981,6 +1987,22 @@ concepts:
     title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
     domain: methods / spatial-transcriptomics / transfer-learning
     maturity: emerging
+  - slug: kinase-activity-footprint-inference-phosphoproteomics
+    title: "Kinase activity footprint inference from phosphoproteomics"
+    tags: [phosphoproteomics, kinase, signaling, methods]
+    maturity: active
+  - slug: pak2-pkc-alpha-regulators-immunosuppressive-macrophages
+    title: "PAK2 and PKCα as signaling regulators of immunosuppressive macrophages"
+    tags: [macrophage, immunosuppression, kinase, phosphoproteomics, TAM]
+    maturity: emerging
+  - slug: fos-ncor2-ppargamma-transcriptional-hub-immunosuppressive
+    title: "FOS / NCOR2 / PPARγ transcriptional hub of immunosuppressive macrophages"
+    tags: [macrophage, transcription-factor, immunosuppression, network, TAM]
+    maturity: emerging
+  - slug: proteomic-signature-classifies-proinflammatory-tumor-associated
+    title: "Proteomic signatures classify proinflammatory tumor-associated macrophages"
+    tags: [macrophage, proteomics, signature, scRNA-seq, TAM, classification]
+    maturity: emerging
 
 topics:
 
@@ -2624,6 +2646,15 @@ people:
   - slug: zhou-chen
     tags: [oncology, hypoxia, tumor-microenvironment, cancer-therapy, review-author]
     affiliation: "The First Clinical Medical College & The First Hospital of Lanzhou University, Lanzhou, Gansu, China"
+  - slug: marija-buljan
+    tags: [systems-biology, proteomics, phosphoproteomics, macrophage, network-biology]
+    affiliation: "Empa (Swiss Federal Laboratories for Materials Science and Technology) & Swiss Institute of Bioinformatics, St. Gallen"
+  - slug: tiberiu-totu
+    tags: [phosphoproteomics, data-curation, network-integration, macrophage]
+    affiliation: "Empa & Swiss Institute of Bioinformatics & ETH Zurich"
+  - slug: jonas-bossart
+    tags: [proteomics, phosphoproteomics, macrophage, in-vitro-polarization]
+    affiliation: "Empa & Swiss Institute of Bioinformatics & ETH Zurich"
 
 ideas:
 
@@ -9854,6 +9885,96 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: deep-proteomic-phosphoproteomic-map-primary-human
+    title: "Deep (phospho)proteomics of primary human M1/M2a/M2c macrophages quantifies 5342 proteins and 5905 phosphopeptides"
+    tags: [macrophage, proteomics, phosphoproteomics]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: hundreds-proteins-differentially-expressed-between-m1
+    title: "Hundreds of proteins are differentially expressed between M1 and M2 human macrophages"
+    tags: [macrophage, proteomics, polarization]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: pak2-pkc-alpha-inferred-regulators-vitro
+    title: "PAK2 and PKCα are inferred as central regulators of in vitro immunosuppressive macrophages"
+    tags: [macrophage, kinase, immunosuppression, phosphoproteomics]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
+  - slug: pkc-alpha-activation-loop-t497-phosphorylation
+    title: "PKCα activation-loop residue T497 is phosphorylated at higher levels in both M2a and M2c macrophages"
+    tags: [macrophage, kinase, PKCalpha, phosphoproteomics]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: pkac-alpha-activation-loop-t198-phosphorylation
+    title: "PKACα activation-loop residue T198 is phosphorylated at higher levels in M2c macrophages"
+    tags: [macrophage, kinase, PKACalpha, phosphoproteomics]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: ripk2-autophosphorylation-site-s176-higher-m1
+    title: "RIPK2 activation-segment autophosphorylation site S176 is phosphorylated higher in M1 macrophages"
+    tags: [macrophage, kinase, RIPK2, phosphoproteomics]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: jak2-s518-phosphorylation-higher-m1-proinflammatory
+    title: "JAK2 S518 is phosphorylated at higher levels in M1 proinflammatory macrophages"
+    tags: [macrophage, kinase, JAK2, JAK-STAT, phosphoproteomics]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: 71-kinases-differentially-phosphorylated-between-m1
+    title: "71 protein kinases are differentially phosphorylated between M1 and M2, with enrichment of the MAPK pathway"
+    tags: [macrophage, kinase, MAPK, phosphoproteomics]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: kinase-library-footprinting-predicts-jnk-p38
+    title: "Kinase-footprint inference recovers JNK and p38 as top upstream kinases of M1 macrophages"
+    tags: [macrophage, kinase, footprinting, methods]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: irak1-irak4-inferred-upregulated-m2a-camkk2
+    title: "Footprinting nominates IRAK1/IRAK4 in M2a and CAMKK2/GAK in M2c as novel immunosuppressive-state kinases"
+    tags: [macrophage, kinase, immunosuppression, footprinting]
+    status: weakly_supported
+    confidence: 0.55
+    domain: immunology
+  - slug: fos-ncor2-ppargamma-central-transcription-regulators
+    title: "FOS, NCOR2, and PPARγ are central transcription regulators of the immunosuppressive M2a macrophage network"
+    tags: [macrophage, transcription-factor, immunosuppression, network]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
+  - slug: pml-tumor-suppressor-carries-twelve-phosphoresidues
+    title: "PML tumor suppressor carries 12 phosphoresidues with higher phosphorylation in M1 macrophages"
+    tags: [macrophage, PML, phosphoproteomics, interferon]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: proteomic-signatures-separate-proinflammatory-macrophages-patient
+    title: "Proteomics-derived signatures separate proinflammatory macrophages in patient tumor scRNA-seq"
+    tags: [macrophage, proteomics, signature, scRNA-seq, TAM]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: cd163-alone-fails-classify-proinflammatory-versus
+    title: "CD163 alone fails to classify proinflammatory vs immunosuppressive macrophages; multi-marker proteomic lists outperform"
+    tags: [macrophage, marker, classification, CD163, TAM]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: proinflammatory-macrophage-fraction-correlates-cell-fraction
+    title: "Proinflammatory macrophage fraction correlates strongly with B-cell fraction in brain metastases"
+    tags: [macrophage, B-cell, brain-metastasis, correlation, TME]
+    status: weakly_supported
+    confidence: 0.55
+    domain: immunology
 
 Summary:
 
@@ -12120,3 +12241,67 @@ foundations:
     title: "ZSCAN20"
     status: mainstream
     domain: immunology
+  - slug: pak2-kinase
+    title: "PAK2 — p21-activated kinase 2"
+    status: mainstream
+    domain: cell biology
+  - slug: pkc-alpha-prkca
+    title: "PKCα — protein kinase C alpha (PRKCA)"
+    status: mainstream
+    domain: cell biology
+  - slug: pkac-alpha-prkaca
+    title: "PKACα — protein kinase A catalytic subunit alpha (PRKACA)"
+    status: mainstream
+    domain: cell biology
+  - slug: ripk2-kinase
+    title: "RIPK2 — receptor-interacting serine/threonine kinase 2"
+    status: mainstream
+    domain: immunology
+  - slug: lrrk2-kinase
+    title: "LRRK2 — leucine-rich repeat kinase 2"
+    status: mainstream
+    domain: cell biology
+  - slug: pdpk1-pdk1-kinase
+    title: "PDPK1 — 3-phosphoinositide-dependent protein kinase 1 (PDK1)"
+    status: mainstream
+    domain: cell biology
+  - slug: jak2-kinase
+    title: "JAK2 — Janus kinase 2"
+    status: mainstream
+    domain: immunology
+  - slug: fos-transcription-factor
+    title: "FOS — AP-1 transcription factor subunit"
+    status: mainstream
+    domain: cell biology
+  - slug: ncor2-nuclear-receptor-corepressor
+    title: "NCOR2 — nuclear receptor corepressor 2 (SMRT)"
+    status: mainstream
+    domain: cell biology
+  - slug: mafb-transcription-factor
+    title: "MAFB — MAF bZIP transcription factor B"
+    status: mainstream
+    domain: immunology
+  - slug: hsf1-heat-shock-factor
+    title: "HSF1 — heat shock transcription factor 1"
+    status: mainstream
+    domain: cell biology
+  - slug: pml-promyelocytic-leukemia-protein
+    title: "PML — promyelocytic leukemia protein"
+    status: mainstream
+    domain: cell biology
+  - slug: kinase-library-phosphosite-atlas
+    title: "The Kinase Library — substrate-specificity atlas for kinase prediction"
+    status: mainstream
+    domain: methods
+  - slug: kea3-kinase-enrichment-analysis
+    title: "KEA3 — Kinase Enrichment Analysis version 3"
+    status: mainstream
+    domain: methods
+  - slug: netphorest-kinase-prediction
+    title: "NetPhorest — kinase/phosphatase specificity prediction"
+    status: mainstream
+    domain: methods
+  - slug: maxquant-proteomics
+    title: "MaxQuant — MS-based proteomics quantification software"
+    status: mainstream
+    domain: methods

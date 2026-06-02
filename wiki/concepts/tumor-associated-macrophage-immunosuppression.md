@@ -24,8 +24,9 @@ key_papers:
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
   - development-hypoxia-responsive-macrophage-prognostic-model
   - macrophages-targets-next-generation-cancer-immunotherapy
+  - delineation-signaling-routes-underlie-differences-macrophage
 first_introduced: "(field-standard concept; refined here)"
-date_updated: 2026-05-27
+date_updated: 2026-06-02
 related_concepts:
   - mmac1-hypoxic-inflammatory-macrophage
   - momac-verse-mnp-verse-atlas

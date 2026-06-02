@@ -121,7 +121,7 @@ data_availability: "GSE47189"
 
 # === Cross-references ===
 code_url: ""
-cited_by: []
+cited_by: [delineation-signaling-routes-underlie-differences-macrophage]
 ---
 
 ## Problem
