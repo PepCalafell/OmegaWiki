@@ -125,6 +125,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/emerging-strategies-investigate-biology-early-cancer] For solid tumours without clinically defined precursor lesions, what minimal molecular signature can mark "precancerous cells" in single-cell atlases?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Is the immune surveillance-to-evasion switch reversible by current ICI or by pre-CAF/senescent-cell-targeted interception?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Does ecDNA emergence have an analogue in cancers other than EAC?
+- [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Implicitly: which O-GlcNAcylated substrate(s) mediate the cell-cycle "calibration" enabling residency and IL-4 responsiveness?
+- [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Does the O-GlcNAc→residency axis operate in tumour-associated macrophages and in hypoxic, glucose-competing niches (the thesis-relevant test)?
+- [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Is the senescence-like G2/M arrest of Ogt-deficient LCMs reversible by restoring O-GlcNAc or relieving ROS/DNA damage?
+- [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] How does this metabolic checkpoint relate to other metabolite-gated residency programmes such as the [[concepts/polyamine-hypusine-axis-macrophage-residency]]?
+- [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Would loss of macrophage O-GlcNAcylation enhance antigen-presentation/co-stimulation enough to be exploitable in tumour immunity?
 - [paper/hif-regulates-mitochondrial-function-bone-marrow] Does HIF-1α-Myc antagonism explain mitochondrial-OXPHOS / cytokine phenotypes in other macrophage ontogenies?
 - [paper/hif-regulates-mitochondrial-function-bone-marrow] Does in-vivo FG-4592 / roxadustat administration in ARDS models recapitulate the ontogeny-divergent effect?
 - [paper/hif-regulates-mitochondrial-function-bone-marrow] Why does culture with GM-CSF apparently confer HIF-1α inducibility on TR-AMs (Zhu et al.) — is it proliferation-coupled HIF biology?
@@ -713,6 +718,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/folr2-tissue-resident-macrophage] Whether HCC FOLR2 macs are causally pro-tumorigenic or just enriched alongside other niche components (CAFs, endothelial subsets).
 - [concept/folr2-tissue-resident-macrophage] Mechanism of the tissue-context-dependent functional flip.
 - [concept/genome-wide-cell-representation-versus-highly] Quantifying how many response-relevant genes fall outside control-derived HVG sets.
+- [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Which O-GlcNAcylated substrate(s) gate the G2/M-to-division step in maturing cavity macrophages?
+- [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Is the senescence-like phenotype of Ogt-deficient LCMs reversible by restoring O-GlcNAc?
+- [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Does the same axis operate in tumour-associated macrophages and hypoxic niches?
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
 - [concept/hepatic-trem2-protective-tam-program] Which subset of the 209 liver-specific genes is causally responsible for the protective phenotype?
 - [concept/hepatic-trem2-protective-tam-program] Does the program persist outside HCC (e.g., hepatic metastases of non-liver primaries)?
@@ -1259,6 +1267,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
 - [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
+- [claim/glcnacylation-dynamically-regulated-monocyte-large-cavity] O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition (status: proposed)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
@@ -1278,16 +1287,20 @@ _Auto-generated open questions. Do not edit._
 - [claim/kupffer-cells-increase-nash-wda-stay] Kupffer cells increase in NASH and WDA but stay stable in HFD liver (status: weakly_supported)
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
+- [claim/macrophage-ogt-deletion-reduces-il-alternative] Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control (status: proposed)
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells] Mevalonate (MVA) pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma (status: weakly_supported)
+- [claim/myeloid-ogt-deficiency-disrupts-peritoneal-tissue] Myeloid Ogt deficiency disrupts peritoneal tissue-resident macrophage homeostasis (reduced LCMs, increased SCMs/CCMs) (status: proposed)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
 - [claim/nico-applicable-slide-seqv2-cerebellum-purkinje-bergmann] NiCo applied to Slide-seqV2 mouse cerebellum (10 µm pixels) recovers the canonical Purkinje neuron–Bergmann glial cell interaction and detects covarying calcium-signaling secretory programs from Bergmann glia to Purkinje neurons, demonstrating generalizability to sequencing-based spatial transcriptomics when per-pixel cell-type assignments are available (status: weakly_supported)
 - [claim/nonmetastatic-breast-tumors-higher-cell-pvl] Nonmetastatic breast tumors have higher T-cell and PVL and lower B-cell abundance than metastatic (status: weakly_supported)
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
+- [claim/ogt-deficiency-rewires-macrophage-metabolism-induces] Ogt deficiency rewires LCM metabolism and induces a senescence-like phenotype with G2/M arrest (status: proposed)
+- [claim/ogt-inhibition-increases-macrophage-costimulation-cell] Pharmacological OGT inhibition increases macrophage co-stimulatory molecules and T cell proliferation in co-culture (status: proposed)
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
 - [claim/pet-ml-model-detects-cac-nsclc-81-accuracy] PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy (status: weakly_supported)

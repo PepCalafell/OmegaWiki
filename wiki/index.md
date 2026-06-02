@@ -103,6 +103,12 @@ papers:
     importance: 4
     domain: oncology
     priority: context
+  - slug: glcnacylation-shapes-macrophage-tissue-residency-alternative
+    title: "O-GlcNAcylation shapes macrophage tissue residency and alternative activation"
+    tags: [journal-club, preprint-watch, commentary, macrophage, immunometabolism, o-glcnac, tissue-residency, alternative-activation]
+    importance: 2
+    domain: immunology / immunometabolism
+    priority: reference
   - slug: hif-regulates-mitochondrial-function-bone-marrow
     title: "HIF-1 regulates mitochondrial function in bone marrow-derived macrophages but not in tissue-resident alveolar macrophages"
     tags: [HIF1A, BMDM, tissue-resident-alveolar-macrophage, macrophage-ontogeny, immunometabolism, glycolysis, oxidative-phosphorylation, FG-4592, roxadustat, prolyl-hydroxylase-inhibitor, c-Myc, DoRothEA, ribosomal-biogenesis, TCA-cycle, itaconate, succinate, LPS, inflammation, LysM-CreERT2, Seahorse, GC-MS, ETC-inhibitor]
@@ -866,6 +872,10 @@ concepts:
   - slug: genome-wide-cell-representation-versus-highly
     title: "Genome-wide cell representation versus highly-variable-gene truncation"
     tags: [genome-wide, HVG, feature-representation, single-cell, perturbation, completeness]
+    maturity: emerging
+  - slug: glcnacylation-metabolic-regulator-macrophage-cell-cycle
+    title: "O-GlcNAcylation as a metabolic regulator of macrophage cell cycle, residency, and alternative activation"
+    tags: [macrophage, immunometabolism, tissue-residency, alternative-activation, cell-cycle, o-glcnac, senescence]
     maturity: emerging
   - slug: glutamine-asymmetric-metabolism-tumor-immune
     title: "Asymmetric glutamine metabolism between tumour, T cells, and M1/M2 macrophages"
@@ -1920,6 +1930,9 @@ people:
   - slug: alexandru-suvac
     tags: [hypoxia, DNA-repair, genomic-instability, cancer-genomics]
     affiliation: "Translational Oncogenomics Laboratory, Cancer Research UK Manchester Institute; Manchester Cancer Research Centre; Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University of Manchester, UK"
+  - slug: amitava-sinha
+    tags: [macrophage, immunometabolism, vienna, preprint-club]
+    affiliation: "Medical University of Vienna, Vienna, Austria"
   - slug: andreas-zanzoni
     tags: [bioinformatics, interactome, slim, host-microbe]
     affiliation: "Aix-Marseille Université"
@@ -2427,6 +2440,9 @@ people:
   - slug: thomas-ulas
     tags: [bioinformatics, systems-immunology, transcriptomics]
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
+  - slug: thomas-weichhart
+    tags: [immunometabolism, macrophage, mtor, vienna]
+    affiliation: "Medical University of Vienna, Vienna, Austria"
   - slug: tiannan-guo
     tags: [proteomics, dia-ms, mass-spectrometry, pan-cancer, clinical-proteomics]
     affiliation: "Westlake University — School of Life Sciences; Westlake Laboratory of Life Sciences and Biomedicine"
@@ -4890,6 +4906,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: spatial transcriptomics / methods
+  - slug: glcnacylation-dynamically-regulated-monocyte-large-cavity
+    title: "O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition"
+    tags: [macrophage, o-glcnac, differentiation, tissue-residency]
+    status: proposed
+    confidence: 0.4
+    domain: immunology / immunometabolism
   - slug: global-5mc-increase-efferocytosis-mat2a-dnmt3a-dependent
     title: "AC-induced macrophage global 5-methylcytosine percentage is partially MAT2A- and DNMT3A-dependent"
     tags: [5mC, global-DNA-methylation, DNMT3A, MAT2A, efferocytosis, macrophage]
@@ -6312,6 +6334,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: macrophage-ogt-deletion-reduces-il-alternative
+    title: "Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control"
+    tags: [macrophage, o-glcnac, alternative-activation, il-4, helminth]
+    status: proposed
+    confidence: 0.45
+    domain: immunology / immunometabolism
   - slug: macrophages-express-five-prr-families-tlr
     title: "Macrophages express five pattern recognition receptor families — TLRs, NLRs, RLRs, ALRs and CLRs — for pathogen sensing"
     tags: [macrophage, prr, pattern-recognition-receptor, tlr, nlr, rlr, alr, clr, innate-immunity, immunology]
@@ -6822,6 +6850,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunometabolism
+  - slug: myeloid-ogt-deficiency-disrupts-peritoneal-tissue
+    title: "Myeloid Ogt deficiency disrupts peritoneal tissue-resident macrophage homeostasis (reduced LCMs, increased SCMs/CCMs)"
+    tags: [macrophage, tissue-residency, peritoneal, o-glcnac, tim4]
+    status: proposed
+    confidence: 0.45
+    domain: immunology / macrophage biology
   - slug: n3-pufa-dha-suppresses-cd4-activation-via-mhcii-costim
     title: "n-3 PUFA DHA suppresses CD4⁺ T-cell activation by downregulating MHC-II, CD40/CD80/CD86 and IL-6/IL-12p70"
     tags: [pufa, dha, cd4-t-cell, mhc-ii, costimulation, inflammatory-cytokines]
@@ -7098,6 +7132,18 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology / immunology
+  - slug: ogt-deficiency-rewires-macrophage-metabolism-induces
+    title: "Ogt deficiency rewires LCM metabolism and induces a senescence-like phenotype with G2/M arrest"
+    tags: [macrophage, o-glcnac, metabolism, senescence, cell-cycle, ros]
+    status: proposed
+    confidence: 0.45
+    domain: immunology / immunometabolism
+  - slug: ogt-inhibition-increases-macrophage-costimulation-cell
+    title: "Pharmacological OGT inhibition increases macrophage co-stimulatory molecules and T cell proliferation in co-culture"
+    tags: [macrophage, o-glcnac, t-cell, co-stimulation, pharmacology]
+    status: proposed
+    confidence: 0.4
+    domain: immunology / immunometabolism
   - slug: oleic-acid-boosts-treg-via-fao-oxphos-foxp3-stat5
     title: "Oleic acid (MUFA) improves human Treg function via FAO-driven OXPHOS, Foxp3, and STAT5 phosphorylation"
     tags: [mufa, oleic-acid, treg, fao, oxphos, foxp3, stat5]
@@ -10169,6 +10215,10 @@ foundations:
     title: "GITIII — self-supervised graph transformer for single-cell-level cell–cell interactions"
     status: mainstream
     domain: spatial transcriptomics / methods / cell–cell interaction
+  - slug: glcnacylation
+    title: "O-GlcNAcylation (protein O-GlcNAc modification)"
+    status: mainstream
+    domain: cell biology / glycobiology
   - slug: glud1-glutamate-dehydrogenase
     title: "GDH / GLUD1 — glutamate dehydrogenase"
     status: mainstream
@@ -10528,6 +10578,10 @@ foundations:
     title: "L-asparaginase (ASNase)"
     status: mainstream
     domain: oncology-therapeutics
+  - slug: large-cavity-macrophage-lcm-peritoneal
+    title: "Large cavity macrophages (LCMs) and cavity macrophage subsets"
+    status: mainstream
+    domain: immunology / macrophage biology
   - slug: lasso-cox-glmnet
     title: "LASSO-Cox regression (glmnet)"
     status: mainstream
@@ -10865,6 +10919,10 @@ foundations:
     title: "Numbat — haplotype-aware CNV inference for single-cell and ST data"
     status: mainstream
     domain: methods/genomics
+  - slug: ogt-glcnac-transferase
+    title: "OGT — O-GlcNAc transferase"
+    status: mainstream
+    domain: cell biology / glycobiology
   - slug: oncopredict-drug-sensitivity
     title: "oncoPredict — in-silico bulk-RNA drug sensitivity prediction"
     status: mainstream
@@ -11584,6 +11642,10 @@ foundations:
     tags: [mitochondrial, efferocytosis, macrophage, bioenergetics]
     status: mainstream
     domain: immunology
+  - slug: udp-glcnac-uridine-diphosphate-acetylglucosamine
+    title: "UDP-GlcNAc (uridine diphosphate N-acetylglucosamine)"
+    status: mainstream
+    domain: metabolism / glycobiology
   - slug: uk5099-mpc-inhibitor
     title: "UK-5099 — Mitochondrial pyruvate carrier (MPC) inhibitor"
     status: mainstream

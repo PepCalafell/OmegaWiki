@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1152 total)
+## Claims (1157 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (61 total)
+## Papers (62 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,12 +47,12 @@ _Auto-generated open questions. Do not edit._
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2557 total)
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/cd206hi-im-depletion-abolishes-tertiary-lymphoid
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/cd206hi-im-depletion-reduces-lung-cxcl9
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/cd206hi-ims-occupy-bronchovascular-pleural-niches
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/cxcl13-produced-cd163-folr2-cd206hi-ims
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/alveolar-macrophages-excluded-tumor-regions-while
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/cd206lo-ims-recmacs-within-tumor-microenvironment
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/im-derived-ccl2-dominant-nonredundant-source
-  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/ccl2
+## Recent Relationships (2567 total)
+  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/ccr5-loss-monocyte-derived-cells-reduces
+  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/maraviroc-selectively-transiently-blocks-antigen-bearing
+  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/maraviroc-enhances-neoantigen-vaccine-antitumor-immunity
+  papers/chemokine-defined-macrophage-niches-establish-spatial --supports--> claims/macrophage-function-tumors-best-predicted-anatomical
+  papers/identifying-spatial-single-cell-level-interactions --supports--> claims/gitiii-self-supervised-graph-transformer-infers
+  papers/identifying-spatial-single-cell-level-interactions --supports--> claims/gitiii-predicts-central-cell-state-neighbouring
+  papers/identifying-spatial-single-cell-level-interactions --supports--> claims/single-layer-graph-transformer-keeps-cci
+  papers/identifying-spatial-single-cell-level-interactions --supports--> cl
