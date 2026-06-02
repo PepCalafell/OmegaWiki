@@ -18,6 +18,7 @@ tags:
 maturity: emerging
 key_papers:
   - nf-kb-tet2-promote-macrophage-reprogramming
+  - regulation-immunity-inflammation-hypoxia-immunological-niches
 first_introduced: "Calafell-Segura/de la Calle-Fabregat 2024"
 date_updated: 2026-05-05
 related_concepts:

@@ -235,6 +235,12 @@ papers:
     importance: 5
     domain: immunology / developmental biology / cell biology
     priority: core
+  - slug: regulation-immunity-inflammation-hypoxia-immunological-niches
+    title: "Regulation of immunity and inflammation by hypoxia in immunological niches"
+    tags: [hypoxia, HIF, HIF1, HIF2, immunological-niche, inflammation, immunometabolism, oxygen-sensing, PHD, FIH, pVHL, NF-kB, inflammatory-hypoxia, intestinal-mucosa, bone-marrow, germinal-centre, placenta, tumour-microenvironment, hydroxylase-inhibitor, inflammatory-bowel-disease, review]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: role-ahr-host-pathogen-interactions
     title: "The role of the AHR in host–pathogen interactions"
     tags: [AHR, aryl-hydrocarbon-receptor, host-pathogen, pattern-recognition-receptor, infection, microbiota, tryptophan-metabolism, quorum-sensing, Pseudomonas-aeruginosa, Mycobacterium-tuberculosis, Candida-albicans, Plasmodium, influenza-virus, SARS-CoV-2, HIV, review]
@@ -1845,6 +1851,22 @@ concepts:
     title: "Zero-shot spatial-domain inference across panels, tissues, and platforms"
     domain: methods / spatial-transcriptomics / transfer-learning
     maturity: emerging
+  - slug: physiological-versus-pathological-hypoxia-immunological-niche
+    title: "Physiological versus pathological hypoxia in immunological niches"
+    tags: [hypoxia, HIF, immunology, immunological-niche, inflammation, tissue-microenvironment]
+    maturity: stable
+  - slug: inflammatory-hypoxia-neutrophil-oxygen-depletion
+    title: "Inflammatory hypoxia (neutrophil-driven oxygen depletion)"
+    tags: [hypoxia, HIF, neutrophil, NADPH-oxidase, mucosa, inflammation-resolution, IBD]
+    maturity: active
+  - slug: intermittent-versus-sustained-hypoxia-inflammation
+    title: "Intermittent versus sustained hypoxia and inflammation"
+    tags: [hypoxia, HIF, NF-kB, inflammation, tumour-microenvironment, oxygen-gradient]
+    maturity: active
+  - slug: hydroxylase-inhibitor-anti-inflammatory-therapy
+    title: "Hydroxylase inhibition as anti-inflammatory therapy"
+    tags: [HIF, prolyl-hydroxylase, PHD-inhibitor, DMOG, roxadustat, IBD, anti-inflammatory, drug-repurposing]
+    maturity: active
 
 topics:
 
@@ -2440,6 +2462,12 @@ people:
   - slug: zhou-chen
     tags: [oncology, hypoxia, tumor-microenvironment, cancer-therapy, review-author]
     affiliation: "The First Clinical Medical College & The First Hospital of Lanzhou University, Lanzhou, Gansu, China"
+  - slug: cormac-taylor
+    tags: [hypoxia, HIF, inflammation, immunometabolism, oxygen-sensing, PI]
+    affiliation: "UCD Conway Institute, Systems Biology Ireland and the School of Medicine, University College Dublin, Ireland"
+  - slug: sean-colgan
+    tags: [mucosal-immunology, hypoxia, HIF, intestinal-epithelium, inflammation-resolution, PI]
+    affiliation: "Department of Medicine and the Mucosal Inflammation Program, University of Colorado School of Medicine, Aurora, Colorado, USA"
 
 ideas:
 
@@ -9082,6 +9110,126 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: hypoxia-common-feature-physiological-pathological-immunological
+    title: "Hypoxia is a common microenvironmental feature of both physiological and pathological immunological niches"
+    tags: [hypoxia, immunological-niche, HIF, inflammation]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
+  - slug: hif-master-regulator-metazoan-adaptive-response
+    title: "HIF is the master transcriptional regulator of the metazoan adaptive response to hypoxia"
+    tags: [HIF, hypoxia, transcription-factor, HIF1, HIF2]
+    status: supported
+    confidence: 0.95
+    domain: hypoxia-immunology
+  - slug: phd-fih-hydroxylases-target-hifalpha-pvhl
+    title: "In normoxia PHD and FIH hydroxylases target HIFα for pVHL-dependent proteasomal degradation and transcriptional repression"
+    tags: [HIF, PHD, FIH, pVHL, hydroxylase, oxygen-sensing]
+    status: supported
+    confidence: 0.95
+    domain: hypoxia-immunology
+  - slug: hif-hydroxylases-metabolic-sensors-tca-intermediates
+    title: "HIF hydroxylases are metabolic sensors: TCA intermediates and ROS regulate the HIF pathway beyond oxygen sensing"
+    tags: [HIF, hydroxylase, metabolism, succinate, 2-hydroxyglutarate, ROS, immunometabolism]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: hif1-promotes-glycolysis-represses-oxphos
+    title: "HIF1 promotes glycolysis and represses oxidative phosphorylation"
+    tags: [HIF1, glycolysis, OXPHOS, metabolism, immunometabolism]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
+  - slug: hif-central-regulator-innate-adaptive-immune
+    title: "HIF is a central regulator of innate and adaptive immune cell function with cell-type-specific roles"
+    tags: [HIF, immune-cell, neutrophil, macrophage, dendritic-cell, T-cell, B-cell]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
+  - slug: hif-controls-immune-cell-function-through
+    title: "HIF regulates immune cell function primarily by controlling cellular metabolism"
+    tags: [HIF, immunometabolism, glycolysis, effector-function]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: inflammation-increases-hif-signalling-feedforward-immunometabolic
+    title: "Inflammation increases HIF signalling, forming a feedforward loop linking immune metabolism to inflammation"
+    tags: [HIF, inflammation, cytokines, ROS, nitric-oxide, feedforward-loop, immunometabolism]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: shared-oxygen-dependent-hydroxylases-couple-hif
+    title: "Shared oxygen-dependent hydroxylases couple the HIF and NF-κB pathways"
+    tags: [HIF, NF-kB, hydroxylase, PHD1, FIH, IKKbeta, crosstalk]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: intermittent-hypoxia-promotes-more-inflammation-than
+    title: "Intermittent hypoxia promotes greater inflammatory responses than sustained hypoxia"
+    tags: [intermittent-hypoxia, sustained-hypoxia, inflammation, NF-kB, tumour, sleep-apnoea]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-immunology
+  - slug: physiological-hypoxia-maintains-hsc-quiescence-hif
+    title: "Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial)"
+    tags: [HSC, bone-marrow, quiescence, HIF, haematopoiesis, hypoxia]
+    status: weakly_supported
+    confidence: 0.6
+    domain: hypoxia-immunology
+  - slug: germinal-centre-hypoxia-regulates-cell-antibody
+    title: "Germinal-centre physiological hypoxia regulates B cell proliferation, phenotype and antibody class switching"
+    tags: [germinal-centre, B-cell, hypoxia, antibody, class-switch-recombination, lymph-node]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia-immunology
+  - slug: placental-physiological-hypoxia-immune-privilege-hif1alpha
+    title: "Placental physiological hypoxia confers fetal immune privilege via HIF1α-dependent HLA-G and PD-L1"
+    tags: [placenta, immune-privilege, HIF1alpha, HLA-G, PD-L1, trophoblast, NK-cell]
+    status: supported
+    confidence: 0.75
+    domain: hypoxia-immunology
+  - slug: intestinal-epithelial-physiological-hypoxia-drives-hif1
+    title: "Intestinal epithelial physiological hypoxia (pO2 ~30→3 mmHg along the gut) drives HIF1-dependent barrier-protective genes"
+    tags: [intestinal-mucosa, physiological-hypoxia, HIF1, epithelial-barrier, oxygen-gradient, IBD]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: tumour-hypoxia-drives-hif-vegf-angiogenesis
+    title: "Tumour hypoxia drives HIF-dependent VEGF angiogenesis, the glycolytic Warburg switch and immune cell dysregulation"
+    tags: [tumour, hypoxia, HIF, VEGF, angiogenesis, Warburg, MDSC, CD8-T-cell]
+    status: supported
+    confidence: 0.9
+    domain: hypoxia-immunology
+  - slug: inflammatory-hypoxia-arises-neutrophil-nadph-oxidase
+    title: "Inflammatory hypoxia arises from oxygen consumption by activated neutrophils and can promote inflammatory resolution"
+    tags: [inflammatory-hypoxia, neutrophil, NADPH-oxidase, mucosa, HIF, resolution, IBD, GLUT1]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: pharmacological-hydroxylase-inhibition-broadly-anti-inflammatory
+    title: "Pharmacological hydroxylase inhibition is broadly anti-inflammatory across preclinical disease models"
+    tags: [hydroxylase-inhibitor, DMOG, HIF, anti-inflammatory, colitis, IBD, ischaemia, therapy]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: hydroxylase-inhibitors-exacerbate-lethal-bacterial-sepsis
+    title: "Hydroxylase inhibitors exacerbate lethal bacterial sepsis despite protecting against sterile LPS-induced sepsis"
+    tags: [hydroxylase-inhibitor, HIF, sepsis, LPS, cecal-ligation-puncture, context-dependent]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-immunology
+  - slug: hif-prolyl-hydroxylase-inhibitors-clinically-effective
+    title: "HIF prolyl-hydroxylase inhibitors (roxadustat, daprodustat, vadadustat) are clinically effective and well-tolerated for CKD-associated anaemia"
+    tags: [PHD-inhibitor, roxadustat, daprodustat, vadadustat, EPO, CKD, anaemia, drug-repurposing]
+    status: supported
+    confidence: 0.85
+    domain: hypoxia-immunology
+  - slug: infection-site-hypoxia-regulates-host-immunity
+    title: "At sites of infection, hypoxia regulates both host immunity and pathogen virulence"
+    tags: [infection, hypoxia, HIF, Pseudomonas-aeruginosa, virulence, antibiotic-resistance, host-defence]
+    status: supported
+    confidence: 0.8
+    domain: hypoxia-immunology
 
 Summary:
 
@@ -11260,3 +11408,15 @@ foundations:
     title: "ZSCAN20"
     status: mainstream
     domain: immunology
+  - slug: factor-inhibiting-hif-fih
+    title: "Factor inhibiting HIF (FIH)"
+    status: mainstream
+    domain: hypoxia signalling
+  - slug: dimethyloxalylglycine-dmog
+    title: "Dimethyloxalylglycine (DMOG)"
+    status: mainstream
+    domain: pharmacology / hypoxia signalling
+  - slug: erythropoietin-epo
+    title: "Erythropoietin (EPO)"
+    status: mainstream
+    domain: hypoxia physiology / haematology

@@ -67,3 +67,4 @@
 ## [2026-05-28] ingest | added papers/effector-host-interactome-map-links-type (Nature Microbiology 2026, T3SS commensal interactome, TIER_1, imp 4) | +7 concepts +23 claims +16 foundations +7 people +46 edges
 ## [2026-06-02] ingest | added papers/transcriptome-based-network-analysis-reveals-spectrum (Xue et al. 2014 Immunity, importance 5) | +16 claims, +4 concepts, +3 foundations, +4 people | updated concepts/m1-m2-polarization-paradigm; +32 graph edges
 ## [2026-06-02] ingest | added papers/characterization-hypoxia-associated-molecular-features-aid | +16 claims (15 new + miR-210 merge), +3 concepts, +6 people, +24 edges, +1 citation
+## [2026-06-02] ingest | added papers/regulation-immunity-inflammation-hypoxia-immunological-niches (Taylor & Colgan, Nat Rev Immunol 2017) | +20 claims, +4 concepts, +3 foundations (FIH, DMOG, EPO), +2 people (Cormac Taylor, Sean Colgan); updated 5 existing concepts' key_papers; +1 paper-paper edge

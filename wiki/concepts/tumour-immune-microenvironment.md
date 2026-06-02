@@ -16,6 +16,7 @@ maturity: stable
 key_papers:
   - cancer-organoids-modelling-complexity-tumour-immune
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - regulation-immunity-inflammation-hypoxia-immunological-niches
 first_introduced: ""
 date_updated: 2026-05-22
 related_concepts: [hot-cold-tumour-immune-classification, immune-checkpoint-blockade, tertiary-lymphoid-structure, tumour-infiltrating-lymphocyte]

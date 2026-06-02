@@ -330,6 +330,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/physiology-diseases-tissue-resident-macrophages] Which TRM diseases are amenable to BMT/HSC-replacement and which are not? Review notes BMT helps "some but not all" LSD patients; the predictive logic is unclear.
 - [paper/physiology-diseases-tissue-resident-macrophages] For tumour immunology specifically: do early-stage Kupffer-cell-mediated tumour limitation and late-stage TAM-mediated tumour promotion involve the *same* lineage of cells switching state, or are they distinct populations?
 - [paper/physiology-diseases-tissue-resident-macrophages] How does the model interface with the Casanova-Acebes 2021 finding that lung TRMs *promote* (not limit) early tumours? The Lazarov review predates that paper's TRM-pro-tumour story being fully appreciated; future syntheses need to reconcile organ-specific opposite directions.
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Which HIF isoform and downstream programme governs HSC quiescence in vivo (controversy).
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Whether GC hypoxia decreases or potentiates class-switch recombination.
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] How ROS mechanistically regulate HIF expression/activity.
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] The effects of HIF2α-specific inhibitors on immunity and inflammation.
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Whether hydroxylase-inhibitor tolerability in CKD anaemia translates to anti-inflammatory benefit.
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] How the niche framework maps onto single-cell/spatial resolution of intratumoural and mucosal hypoxia (cf. the wiki's spatial-omics and tumour-hypoxia corpus).
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Whether "inflammatory hypoxia" (neutrophil oxygen depletion) operates analogously in non-mucosal pathological niches.
+- [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Reconciliation of the HIF–NF-κB hydroxylase-coupling mechanism with the cooperative chromatin-binding model captured elsewhere in the wiki.
 - [paper/role-ahr-host-pathogen-interactions] What microbe-derived AHR ligands remain unidentified — particularly from parasites, where none has yet been described?
 - [paper/role-ahr-host-pathogen-interactions] Can AHR-targeting host-directed therapies (agonist or antagonist) achieve clinical efficacy in TB, COVID-19, or Zika?
 - [paper/role-ahr-host-pathogen-interactions] How do bacterial growth-phase QS signals integrate with host AHR to time immune responses?
@@ -705,6 +713,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/hspc-differentiation-multiomics] Better LT-HSC markers across human populations.
 - [concept/hspc-differentiation-multiomics] Linking the multi-omics hierarchy to functional readouts (LTC-IC, xenografts) gene-by-gene rather than population-by-population.
 - [concept/hspc-differentiation-multiomics] Disease state perturbations (MDS, AML) projected onto this multi-omics reference.
+- [concept/hydroxylase-inhibitor-anti-inflammatory-therapy] Cell-type- and tissue-targeted delivery; isoform-selective (HIF1 vs HIF2; PHD-specific) reagents; human efficacy in inflammatory disease.
 - [concept/hypoxia-activated-prodrugs-haps] Whether combining HAPs with anti-angiogenic vascular *normalization* (which raises pO₂) cancels HAP activation — a paradoxical antagonism.
 - [concept/hypoxia-activated-prodrugs-haps] Whether biomarker-stratified trials (hypoxia-high only) would rescue HAP efficacy.
 - [concept/hypoxia-activated-prodrugs-haps] HAPs + ICB synergy as a way to convert ICB-cold hypoxic tumors to responders.
@@ -775,6 +784,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/immune-consensus-cluster-crc-prognostic] Mechanistic link between Treg/macrophage skew and recurrence.
 - [concept/in-silico-perturbation-le-state-reversal] Experimental validation of top hits (e.g. Alvocidib) in OSCC patient-derived models
 - [concept/in-silico-perturbation-le-state-reversal] Extending the pipeline to combination drugs
+- [concept/inflammatory-hypoxia-neutrophil-oxygen-depletion] How to harness pro-resolution inflammatory hypoxia therapeutically without exacerbating tissue injury.
+- [concept/intermittent-versus-sustained-hypoxia-inflammation] Defining the oscillation frequency/amplitude thresholds that maximise inflammatory signalling.
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
@@ -977,6 +988,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/perivascular-immune-stromal-niche-skin-salt] Is PERIVASC I sufficient to maintain skin-resident memory T cells longitudinally?
 - [concept/perivascular-immune-stromal-niche-skin-salt] Does PERIVASC I expansion precede or follow inflammatory infiltration in skin disease?
 - [concept/perturbation-continuous-flow-versus-discrete-jump] Stochastic flow formulations for heterogeneous responder populations.
+- [concept/physiological-versus-pathological-hypoxia-immunological-niche] Quantitative thresholds (pO₂, duration, oscillation frequency) that separate homeostatic from pathological HIF responses in vivo.
 - [concept/polyamine-hypusine-axis-macrophage-residency] How tissue polyamine availability tunes the axis in health, age and disease.
 - [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
@@ -1252,6 +1264,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
 - [claim/pet-ml-model-detects-cac-nsclc-81-accuracy] PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy (status: weakly_supported)
+- [claim/physiological-hypoxia-maintains-hsc-quiescence-hif] Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial) (status: weakly_supported)
 - [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)

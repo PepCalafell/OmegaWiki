@@ -28,6 +28,7 @@ key_papers:
   - hif-regulates-mitochondrial-function-bone-marrow
   - atlas-scale-metabolic-activities-inferred-single
   - characterization-hypoxia-associated-molecular-features-aid
+  - regulation-immunity-inflammation-hypoxia-immunological-niches
 first_introduced: "Warburg 1924; HIF link Semenza 1990s"
 date_updated: 2026-05-13
 related_concepts:

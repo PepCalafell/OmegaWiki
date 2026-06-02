@@ -28,6 +28,7 @@ key_papers:
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
   - metabolism-tissue-macrophages-homeostasis-pathology
   - hif-regulates-mitochondrial-function-bone-marrow
+  - regulation-immunity-inflammation-hypoxia-immunological-niches
 first_introduced: "Shi et al. 2011 (Th17/Treg); Palazon et al. 2017 (CD8+)"
 date_updated: 2026-05-22
 related_concepts:

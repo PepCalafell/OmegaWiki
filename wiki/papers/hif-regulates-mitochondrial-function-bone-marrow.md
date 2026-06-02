@@ -303,3 +303,4 @@ A focused, mechanistically clean Scientific Reports paper that breaks the "HIF-1
 - [[papers/hypoxia-signaling-human-health-diseases-implications]] — broader HIF immunology review.
 - [[papers/metabolism-tissue-macrophages-homeostasis-pathology]] — tissue-macrophage metabolism review.
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — HIF1A vs NF-κB in hypoxic BMDMs.
+- [[papers/regulation-immunity-inflammation-hypoxia-immunological-niches]] — niche-hypoxia/HIF immunology review; bone marrow as a physiological hypoxic niche regulating HSC quiescence.
