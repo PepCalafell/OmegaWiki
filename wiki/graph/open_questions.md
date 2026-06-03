@@ -526,6 +526,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/towards-building-world-model-simulate-perturbation] Is Pearson ~0.2 sufficient for actionable in-silico screening?
 - [paper/towards-building-world-model-simulate-perturbation] Can the implicit-denoising claim be quantified against explicit imputation baselines?
 - [paper/towards-building-world-model-simulate-perturbation] How much does each component (Mamba vs Transformer, ArcFace, per-channel DANN) contribute (ablations absent)?
+- [paper/transcriptional-regulator-network-human-inflammatory-macrophages] Does M-CSF-driven differentiation produce a comparable open-chromatin TR network?
+- [paper/transcriptional-regulator-network-human-inflammatory-macrophages] Is the open-chromatin exception intrinsic to macrophage identity or to activation per se?
+- [paper/transcriptional-regulator-network-human-inflammatory-macrophages] What molecular machinery maintains constitutive promoter accessibility at network TR loci?
+- [paper/transcriptional-regulator-network-human-inflammatory-macrophages] Do human tissue-resident macrophages confirm the integrated (identity-type) regulation seen in mouse?
+- [paper/transcriptional-regulator-network-human-inflammatory-macrophages] Can the dichotomy be generalized to other plastic cell types (e.g. fibroblasts, T cells)?
 - [paper/transcriptome-based-network-analysis-reveals-spectrum] How are defined in-vitro activation programs realised in vivo in human tissue macrophages?
 - [paper/transcriptome-based-network-analysis-reveals-spectrum] What is the role of macrophage STAT4 and of unstudied hub TFs (e.g. HIVEP1) in activation?
 - [paper/transcriptome-based-network-analysis-reveals-spectrum] Why do COPD alveolar macrophages lose inflammatory signatures, and what are the therapeutic implications?
@@ -770,6 +775,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/de-novo-lipogenesis-effector-immune-cells] SCD-MUFA selectivity for GC B cells in vaccine adjuvancy.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
+- [concept/dichotomous-epigenetic-versus-transcriptional-regulation-tr] Whether the two regimes are discrete or a continuum
+- [concept/dichotomous-epigenetic-versus-transcriptional-regulation-tr] What molecular machinery keeps activation-network loci constitutively open
 - [concept/differential-stromal-interactions-skin-cancer] Whether differential fibroblast wiring is causal for metastatic potential
 - [concept/differential-stromal-interactions-skin-cancer] Mapping fibroblast subtypes (CAF, EMT-fibroblast) to the differential interactions
 - [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Identifying the true cellular mediators behind binding/function discordances.
@@ -1091,6 +1098,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] Does ontogeny-divergent HIF-1α function generalize to other tissue-resident macrophage populations (microglia, Kupffer, peritoneal, TAMs)?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] What chromatin-state difference rewires TR-AMs to be HIF-1α-independent at baseline?
 - [concept/ontogeny-divergent-hif1a-macrophage-metabolism] In tumor-associated macrophages of mixed ontogeny (some resident, some recruited), can HIF-targeting strategies be made ontogeny-selective?
+- [concept/open-chromatin-predefined-macrophage-activation-tr] Whether M-CSF differentiation yields a comparable open-chromatin TR network
+- [concept/open-chromatin-predefined-macrophage-activation-tr] Whether the predefined-open-chromatin regime generalizes to other plastic cell types
 - [concept/organ-wide-merfish-skin-atlas] Inclusion of paediatric / pigmented / non-Western skin cohorts.
 - [concept/organ-wide-merfish-skin-atlas] Linking gene-level transcriptomic data with proteomic / epigenomic atlas layers.
 - [concept/osteoclast-multinucleated-macrophage-bone] Whether engineered re-introduction of EMP-derived osteoclasts can rescue osteopetrosis better than HSC-BMT.
@@ -1462,6 +1471,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
 - [claim/macrophage-ogt-deletion-reduces-il-alternative] Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control (status: proposed)
+- [claim/master-regulators-human-macrophage-activation-stimulus] Master regulators of human macrophage activation are stimulus-specific transcription factors (status: weakly_supported)
 - [claim/matched-cytokine-pathway-inhibition-perturbs-group] Cytokine-pathway inhibition matched to a TME group specifically perturbs that group's expression signature (status: weakly_supported)
 - [claim/megakaryocyte-erythroid-lineages-show-coupled-growth] Megakaryocyte and erythroid lineages show coupled growth/differentiation; neutrophils decoupled (status: weakly_supported)
 - [claim/melanoma-community-collagen-cd44-tyrosine-pyrimidine] The melanoma community shows collagen-CD44 signaling and enriched tyrosine and pyrimidine metabolism (status: weakly_supported)
@@ -1475,6 +1485,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/microsatellite-instability-high-tumors-reduced-phf2] Microsatellite-instability-high tumors show significantly reduced PHF2 expression (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
+- [claim/murine-tissue-macrophage-tr-network-epigenetically] Murine tissue-macrophage TR network is epigenetically and transcriptionally integrated (status: weakly_supported)
 - [claim/mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells] Mevalonate (MVA) pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma (status: weakly_supported)
 - [claim/myeloid-ogt-deficiency-disrupts-peritoneal-tissue] Myeloid Ogt deficiency disrupts peritoneal tissue-resident macrophage homeostasis (reduced LCMs, increased SCMs/CCMs) (status: proposed)
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
@@ -1506,6 +1517,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
+- [claim/subset-activation-specific-enhancers-pu-independent] A subset of activation-specific enhancers are PU.1-independent, resembling latent enhancers (status: weakly_supported)
 - [claim/time-dependent-flux-parameters-required-fit] Time-dependent flux parameters are required to fit 9-month in vivo haematopoiesis (status: weakly_supported)
 - [claim/time-independent-models-wrongly-assign-high] Time-independent models wrongly assign high growth rates to quiescent HSCs (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)

@@ -4,7 +4,7 @@ affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn
 role: individual
 group: "Genomics and Immunoregulation (Schultze Lab)"
 institution: "University of Bonn"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -13,7 +13,7 @@ tags:
   - transcriptomics
 homepage: ""
 scholar: ""
-date_updated: 2026-06-02
+date_updated: 2026-06-03
 ---
 
 ## Research areas
@@ -22,6 +22,7 @@ date_updated: 2026-06-02
 
 ## Key papers in vault
 - [[papers/transcriptome-based-network-analysis-reveals-spectrum]] — first author; spectrum model of human macrophage activation
+- [[papers/transcriptional-regulator-network-human-inflammatory-macrophages]] — co-author; open-chromatin macrophage activation TR network
 
 ## Recent work
 
@@ -29,6 +30,9 @@ date_updated: 2026-06-02
 - [[people/joachim-schultze]]
 - [[people/eicke-latz]]
 - [[people/thomas-ulas]]
+- [[people/susanne-schmidt]]
+- [[people/wolfgang-krebs]]
+- [[people/marc-beyer]]
 
 ## My notes
 First author of the seminal 2014 spectrum-model resource paper.

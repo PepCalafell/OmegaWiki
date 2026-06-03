@@ -12,8 +12,9 @@ tags:
 maturity: active
 key_papers:
   - transcriptome-based-network-analysis-reveals-spectrum
+  - transcriptional-regulator-network-human-inflammatory-macrophages
 first_introduced: "Xue et al. 2014 Immunity (299-transcriptome resource)"
-date_updated: 2026-06-02
+date_updated: 2026-06-03
 related_concepts:
   - m1-m2-polarization-paradigm
   - tpp-chronic-inflammation-macrophage-program

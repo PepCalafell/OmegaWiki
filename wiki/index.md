@@ -415,6 +415,12 @@ papers:
     importance: 5
     domain: immunology
     priority: context
+  - slug: transcriptional-regulator-network-human-inflammatory-macrophages
+    title: "The transcriptional regulator network of human inflammatory macrophages is defined by open chromatin"
+    tags: [macrophage, epigenetics, transcription-factors, chromatin, inflammation, network-biology, open-chromatin, super-enhancer, PU.1, ChIP-seq]
+    importance: 4
+    domain: epigenetics
+    priority: context
   - slug: transition-monocyte-tissue-resident-macrophage-requires
     title: "The transition from monocyte to tissue-resident macrophage requires DHPS"
     tags: [macrophage, tissue-resident-macrophage, immunometabolism, polyamine, hypusine, eIF5A, translation, monocyte]
@@ -877,6 +883,10 @@ concepts:
     title: "Single-shot DIA-MS as a pan-cancer proteomics approach"
     tags: [proteomics, dia-ms, methods, pan-cancer, single-shot]
     maturity: active
+  - slug: dichotomous-epigenetic-versus-transcriptional-regulation-tr
+    title: "Dichotomous epigenetic versus transcriptional regulation of TR networks"
+    tags: [epigenetics, transcription-factors, network-biology, macrophage]
+    maturity: emerging
   - slug: differential-stromal-interactions-skin-cancer
     title: "Differential stromal cell-cell interactions across skin cancer subtypes"
     tags: [skin-cancer, tumour-microenvironment, cell-cell-interaction, fibroblast]
@@ -1589,6 +1599,10 @@ concepts:
     title: "Ontogeny-divergent HIF-1α function in macrophage metabolism and inflammation"
     tags: [HIF1A, macrophage-ontogeny, BMDM, alveolar-macrophage, immunometabolism, tissue-residency, glycolysis, oxidative-phosphorylation]
     maturity: active
+  - slug: open-chromatin-predefined-macrophage-activation-tr
+    title: "Open-chromatin-predefined macrophage activation TR network"
+    tags: [macrophage, epigenetics, transcription-factors, network-biology]
+    maturity: emerging
   - slug: organ-wide-merfish-skin-atlas
     title: "Organ-wide MERFISH+scRNA-seq+Visium integrated atlas of normal adult human skin"
     tags: [skin, atlas, MERFISH, spatial-transcriptomics, Visium, scRNA-seq, resource]
@@ -2557,6 +2571,9 @@ people:
   - slug: malte-luecken
     tags: [single-cell-genomics, data-integration, benchmarking, Human-Cell-Atlas, methods]
     affiliation: "Helmholtz Zentrum München, Institute of Computational Biology"
+  - slug: marc-beyer
+    tags: [immunology, macrophage, systems-immunology]
+    affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
   - slug: marco-varrone
     tags: [computational-biology, spatial-omics, bioinformatics-tools]
     affiliation: "Department of Computational Biology, University of Lausanne; Swiss Cancer Center Léman; Swiss Institute of Bioinformatics"
@@ -2794,6 +2811,9 @@ people:
   - slug: susan-m-kaech
     tags: [immunology, cd8-t-cells, memory-t-cells, exhaustion, tumour-immunology]
     affiliation: "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute"
+  - slug: susanne-schmidt
+    tags: [immunology, macrophage, epigenetics]
+    affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn"
   - slug: thomas-decker
     tags: [jak-stat, transcription, immunology, gas-isre, interferon]
     affiliation: "Max Perutz Labs, University of Vienna"
@@ -2848,6 +2868,9 @@ people:
   - slug: wende-deng
     tags: [immunometabolism, lipid-metabolism, pharmacology]
     affiliation: "Macau University of Science and Technology — State Key Laboratory of Quality Research in Chinese Medicines; School of Pharmacy, Faculty of Medicine"
+  - slug: wolfgang-krebs
+    tags: [bioinformatics, macrophage, epigenetics]
+    affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn"
   - slug: xiangzheng-cheng
     tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology]
     affiliation: "School of Mathematics and Statistics, Wuhan University"
@@ -3088,6 +3111,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: B-cell biology / immunometabolism
+  - slug: activation-specific-regulatory-elements-bound-stimulus
+    title: "Activation-specific regulatory elements are bound by stimulus-specific transcription factors"
+    tags: [macrophage, transcription-factor, enhancer, motif]
+    status: supported
+    confidence: 0.8
+    domain: epigenetics
   - slug: adcp-induces-proangiogenic-tam-program
     title: "Antibody-dependent cellular phagocytosis (ADCP) induces an anti-inflammatory, pro-angiogenic program in macrophages"
     tags: [adcp, phagocytosis, angiogenesis, tam-feedback]
@@ -4450,6 +4479,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: microbiology
+  - slug: common-macrophage-promoters-predominantly-accessible-across
+    title: "Common human macrophage promoters are predominantly accessible across activation conditions"
+    tags: [macrophage, epigenetics, promoter]
+    status: supported
+    confidence: 0.9
+    domain: epigenetics
   - slug: conditioned-media-from-control-not-dnmt3a-ko-macs-enhances-efferocytosis-via-tgfb1
     title: "Conditioned media from AC-exposed control macrophages (not DNMT3A-KO) enhances recipient-macrophage efferocytosis in an anti-TGF-β1-blockable manner"
     tags: [conditioned-media, TGFβ1, DNMT3A, efferocytosis, paracrine, PKH26, BMDM]
@@ -6130,6 +6165,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: cell biology
+  - slug: human-tissue-tr-networks-follow-integrated
+    title: "Human tissue TR networks follow integrated epigenetic and transcriptional regulation"
+    tags: [tissue, transcription-factors, epigenetics, network-biology]
+    status: supported
+    confidence: 0.8
+    domain: epigenetics
   - slug: hummi-1255-interactions-286-effectors-426-human-proteins
     title: "HuMMI maps 1,255 verified interactions between 286 effectors and 426 human proteins"
     tags: [hummi, interactome, y2h, effectors]
@@ -6784,6 +6825,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia-immunology
+  - slug: inflammatory-macrophage-activation-regulated-transcriptionally-pre
+    title: "Inflammatory macrophage activation is regulated transcriptionally by a pre-defined open-chromatin TR network"
+    tags: [macrophage, activation, transcription, epigenetics]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: influence-tensor-clustering-yields-sharper-spatial
     title: "Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex)"
     tags: [cell-cell-interaction, spatial-transcriptomics, cell-clustering, mouse-brain]
@@ -7294,6 +7341,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: cancer immunology
+  - slug: macrophage-activation-hub-genes-marked-active
+    title: "Macrophage activation hub genes are marked by active promoters rather than enhancers"
+    tags: [macrophage, hub-genes, promoter]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
+  - slug: macrophage-activation-induces-stimulus-specific-enhancer
+    title: "Macrophage activation induces stimulus-specific enhancer remodeling"
+    tags: [macrophage, enhancer, activation]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
+  - slug: macrophage-activation-tr-network-constitutively-accessible
+    title: "The macrophage activation TR network has constitutively accessible promoters regardless of stimulus"
+    tags: [macrophage, transcription-factors, open-chromatin, network-biology]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
   - slug: macrophage-ampk-required-for-anti-inflammatory-phenotype-tissue-regeneration
     title: "AMPKα1 in macrophages is required for the anti-inflammatory phenotype and skeletal muscle regeneration"
     tags: [macrophage, ampk, oxphos, regeneration, muscle-injury, anti-inflammatory]
@@ -7360,6 +7425,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: protein-engineering / pharmacology
+  - slug: master-regulators-human-macrophage-activation-stimulus
+    title: "Master regulators of human macrophage activation are stimulus-specific transcription factors"
+    tags: [macrophage, master-regulator, transcription-factor]
+    status: weakly_supported
+    confidence: 0.7
+    domain: immunology
   - slug: matched-cytokine-pathway-inhibition-perturbs-group
     title: "Cytokine-pathway inhibition matched to a TME group specifically perturbs that group's expression signature"
     tags: [therapy, cytokine, csf1r, tgfb, vegf, pharmacological]
@@ -7918,6 +7989,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: murine-tissue-macrophage-tr-network-epigenetically
+    title: "Murine tissue-macrophage TR network is epigenetically and transcriptionally integrated"
+    tags: [macrophage, tissue, mouse, network-biology]
+    status: weakly_supported
+    confidence: 0.7
+    domain: epigenetics
   - slug: muscle-protein-synthesis-lower-than-breakdown-cac
     title: "In GI-CAC, myofibrillar protein synthesis is higher than in controls but lower than breakdown — net catabolism (MacDonald et al.)"
     tags: [cancer-cachexia, muscle-protein-synthesis, muscle-protein-breakdown, isotope-tracing]
@@ -8290,6 +8367,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: pharmacology / immunology
+  - slug: open-chromatin-tr-loci-specific-expressed
+    title: "Open chromatin at TR loci is specific to expressed network regulators in macrophages"
+    tags: [macrophage, open-chromatin, transcription-factors]
+    status: supported
+    confidence: 0.8
+    domain: epigenetics
+  - slug: open-promoter-landscape-tr-network-macrophage
+    title: "The open promoter landscape of the TR network is a macrophage-specific feature"
+    tags: [macrophage, open-chromatin, cell-identity]
+    status: supported
+    confidence: 0.75
+    domain: epigenetics
   - slug: open-system-soft-boundary-assumption-allows
     title: "An open-system soft-boundary assumption lets DP thymocytes keep differentiating, unlike pseudodynamics-v1"
     tags: [methods, boundary-condition, open-system, thymocyte]
@@ -8950,6 +9039,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / cachexia / adipose biology
+  - slug: pu-motif-enriched-common-active-promoters
+    title: "PU.1 motif is enriched at common active promoters and strong enhancers of human macrophages"
+    tags: [macrophage, PU.1, enhancer, motif]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
   - slug: pu1-binding-h3k4me3-enriched-macrophage-hub
     title: "PU.1 binding and H3K4me3 marks are enriched at macrophage hub gene loci"
     tags: [macrophage, ChIP-seq, PU1, epigenetics]
@@ -9742,12 +9837,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: dermatology / neuroimmunology
+  - slug: strong-enhancers-associate-higher-gene-expression
+    title: "Strong enhancers associate with higher gene expression than weak or poised enhancers"
+    tags: [enhancer, gene-expression, histone]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
   - slug: strongest-batch-effects-species-nuclei
     title: "Strongest batch-effect contributors in single-cell genomics integration are inter-species, single-nucleus-vs-single-cell and spatial location"
     tags: [batch-effects, data-integration, benchmarking, species]
     status: supported
     confidence: 0.75
     domain: single-cell-methods
+  - slug: subset-activation-specific-enhancers-pu-independent
+    title: "A subset of activation-specific enhancers are PU.1-independent, resembling latent enhancers"
+    tags: [macrophage, PU.1, enhancer, latent-enhancer]
+    status: weakly_supported
+    confidence: 0.65
+    domain: epigenetics
   - slug: subset-donors-exhibit-elevated-baseline-interferon
     title: "A subset of donors exhibit elevated baseline interferon-stimulated gene expression ('interferon group')"
     tags: [donor-variability, ISG, interferon-group, baseline, IFIT]
@@ -9778,6 +9885,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: AHR signalling
+  - slug: super-enhancers-act-activation-specific-manner
+    title: "Super-enhancers act in an activation-specific manner in human macrophages"
+    tags: [macrophage, super-enhancer, activation]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
   - slug: supervised-dimensional-reduction-essential-resolving-subtle
     title: "Supervised dimensional reduction is essential for resolving subtle disease phenotypes but unnecessary for strong temporal signals"
     tags: [scSLIDE, supervision, PLS, severity, development]
@@ -10276,6 +10389,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: tr-network-gene-expression-stimulus-specific
+    title: "TR network gene expression is stimulus-specific despite uniform open chromatin"
+    tags: [macrophage, transcription, open-chromatin, network-biology]
+    status: supported
+    confidence: 0.85
+    domain: epigenetics
   - slug: tracerx-nsclc-cac-thresholds
     title: "TRACERx-NSCLC defines CAC body-composition thresholds and links isolated SKM loss to distinct tumour gene expression"
     tags: [cancer-cachexia, TRACERx, NSCLC, body-composition]
@@ -11753,6 +11872,18 @@ foundations:
     title: "H3K27ac — histone H3 lysine-27 acetylation"
     status: mainstream
     domain: epigenetics / chromatin biology
+  - slug: h3k27me3-histone-trimethylation-mark
+    title: "H3K27me3 (histone H3 lysine 27 trimethylation)"
+    status: mainstream
+    domain: epigenetics
+  - slug: h3k4me1-histone-monomethylation-mark
+    title: "H3K4me1 (histone H3 lysine 4 monomethylation)"
+    status: mainstream
+    domain: epigenetics
+  - slug: h3k4me3-histone-trimethylation-mark
+    title: "H3K4me3 (histone H3 lysine 4 trimethylation)"
+    status: mainstream
+    domain: epigenetics
   - slug: harmony-integration
     title: "Harmony — fast iterative integration via soft clustering"
     status: mainstream
@@ -12014,6 +12145,10 @@ foundations:
     title: "IRF3 — interferon regulatory factor 3"
     status: mainstream
     domain: immunology / transcription factor
+  - slug: irf4-transcription-factor
+    title: "IRF4 (Interferon Regulatory Factor 4)"
+    status: mainstream
+    domain: immunology
   - slug: irf9-tf
     title: "IRF9 — interferon regulatory factor 9"
     status: mainstream
@@ -12120,6 +12255,10 @@ foundations:
     title: "LASSO-Cox regression (glmnet)"
     status: mainstream
     domain: methods / survival modelling
+  - slug: latent-enhancer
+    title: "Latent enhancer"
+    status: mainstream
+    domain: epigenetics
   - slug: lcmv-armstrong-acute-infection-model
     title: "LCMV–Armstrong acute infection model"
     status: mainstream
@@ -13163,6 +13302,10 @@ foundations:
     title: "SUCNR1 / GPR91 — succinate receptor"
     status: mainstream
     domain: molecular-biology / metabolism / cell-signaling
+  - slug: super-enhancer
+    title: "Super-enhancer"
+    status: mainstream
+    domain: epigenetics
   - slug: sw480-humanised-cachexia-model
     title: "SW480 humanised cachexia mouse model"
     status: mainstream

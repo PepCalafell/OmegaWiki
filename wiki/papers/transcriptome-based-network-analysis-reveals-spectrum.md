@@ -121,7 +121,7 @@ data_availability: "GSE47189"
 
 # === Cross-references ===
 code_url: ""
-cited_by: [delineation-signaling-routes-underlie-differences-macrophage]
+cited_by: [delineation-signaling-routes-underlie-differences-macrophage, transcriptional-regulator-network-human-inflammatory-macrophages]
 ---
 
 ## Problem
