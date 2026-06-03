@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1270 total)
+## Claims (1290 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -30,7 +30,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (72 total)
+## Papers (73 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -46,12 +46,12 @@ _Auto-generated open questions. Do not edit._
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2792 total)
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --derived_from--> foundations/palantir-pseudotime-fate
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --derived_from--> foundations/pseudotime-trajectory-inference
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --derived_from--> foundations/rna-velocity
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --derived_from--> foundations/scanpy
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --derived_from--> foundations/scrna-seq-10x-chromium
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --derived_from--> foundations/cre-loxp-recombinase-system
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --supports--> claims/pseudodynamics-solves-single-cell-advection-reaction
-  papers/pseudodynamics-reconstructing-population-dynamics-time-resolved --supports--> claims/single-cell-s
+## Recent Relationships (2822 total)
+  papers/reconstructing-developmental-disease-progression-sample-level --derived_from--> foundations/geometric-sketching
+  papers/reconstructing-developmental-disease-progression-sample-level --derived_from--> foundations/diffusion-map-embedding
+  papers/reconstructing-developmental-disease-progression-sample-level --derived_from--> foundations/principal-curve-fitting
+  papers/reconstructing-developmental-disease-progression-sample-level --derived_from--> foundations/trade-transcriptome-wide-impact
+  papers/reconstructing-developmental-disease-progression-sample-level --derived_from--> foundations/sci-rna-seq3
+  papers/reconstructing-developmental-disease-progression-sample-level --supports--> claims/scslide-represents-each-sample-landmark-density
+  papers/reconstructing-developmental-disease-progression-sample-level --supports--> claims/scslide-builds-semi-supervised-cell-embedding
+  papers/reconstructing-developmental-disease-progression-sample-level --supports--> claims/chi-square-n

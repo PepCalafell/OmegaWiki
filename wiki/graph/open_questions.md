@@ -397,6 +397,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] How robust are the inferred time-dependent rates to the choice of density estimator and diffusion-map dimensionality?
 - [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] Does the open-system assumption generalize to systems with strong influx (not just outflux)?
 - [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] How does CDT compare quantitatively to optimal-transport coupling maps on the same data?
+- [paper/reconstructing-developmental-disease-progression-sample-level] How to correct sample-level batch effects from tissue handling/dissociation differences?
+- [paper/reconstructing-developmental-disease-progression-sample-level] How to scale sample-level embedding to tens of millions of cells?
+- [paper/reconstructing-developmental-disease-progression-sample-level] Can richer phenotype integration via supervised deep learning improve the embedding?
+- [paper/reconstructing-developmental-disease-progression-sample-level] How many samples are needed to reliably resolve N independent axes?
+- [paper/reconstructing-developmental-disease-progression-sample-level] Does the inferred trajectory predict *longitudinal* clinical decline, not just cross-sectional severity?
+- [paper/reconstructing-developmental-disease-progression-sample-level] Is the microglial Rho GTPase signal causal or a downstream marker?
 - [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Which HIF isoform and downstream programme governs HSC quiescence in vivo (controversy).
 - [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Whether GC hypoxia decreases or potentiates class-switch recombination.
 - [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] How ROS mechanistically regulate HIF expression/activity.
@@ -704,6 +710,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
 - [concept/compositional-perturbation-generalization] Standardized, independent compositional benchmarks across modalities.
 - [concept/continuous-density-transport] Quantitative benchmarking of CDT maps against ground-truth lineage-tracing flux.
+- [concept/continuous-disease-progression-modeling] Distinguishing genuine progression axes from confounding technical gradients.
 - [concept/cori-cycle-tumor-host-metabolism] Can targeting hepatic gluconeogenesis (metformin? specific GP inhibitors?) reduce host REE without harming tumour control?
 - [concept/cori-cycle-tumor-host-metabolism] Are lactate-shuttle inhibitors (MCT1/MCT4 antagonists) viable CAC therapeutics?
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
@@ -936,6 +943,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/lactate-driven-tam-m2-polarization] Whether lactate-driven M2 polarization is reversible after MCT inhibition.
 - [concept/lactate-driven-tam-m2-polarization] Cross-talk with the succinate-SUCNR1 axis: do the two oncometabolites compete or cooperate at HIF-1α stabilization in TAMs?
 - [concept/lactate-driven-tam-m2-polarization] Lactate effect on TAM polarization in cyclic hypoxia (oscillating lactate vs steady high lactate).
+- [concept/landmark-based-density-estimation] Principled landmark-count selection; robustness to extreme compositional outliers.
 - [concept/laser-microablation-transdermal-lnp-delivery] Scaling controlled microablation across large body-surface areas
 - [concept/laser-microablation-transdermal-lnp-delivery] Reproducibility of pore-depth control across skin sites and patients
 - [concept/laser-microablation-transdermal-lnp-delivery] Whether barrier modulation alters local immune responses on repeat dosing
@@ -1139,6 +1147,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
 - [concept/s1p-s1pr-immune-trafficking] Whether S1P-S1PR2 macrophage tuning is exploitable for tumour-associated macrophage repolarization.
 - [concept/s1p-s1pr-immune-trafficking] Tissue-by-tissue S1P concentration mapping.
+- [concept/sample-level-embedding] Cross-cohort/atlas integration at the sample level; scaling to tens of millions of cells.
 - [concept/scatac-feature-space-tradeoff] Can dedicated scATAC dimensionality reduction (SCALE, LSI) combined with MNN-anchor matching beat LIGER/Harmony?
 - [concept/scatac-feature-space-tradeoff] How should joint RNA + ATAC atlases reconcile the feature-space tradeoff?
 - [concept/scfa-hdac-gpr-immune-regulation] Disentangle GPR43 vs HDAC contributions cell-type by cell-type.
@@ -1449,6 +1458,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/pseudodynamics-recovers-synthetic-differentiation-rate-pearson] pseudodynamics+ recovers synthetic differentiation rate at average Pearson 0.81 (status: weakly_supported)
 - [claim/pseudodynamics-solves-single-cell-advection-reaction] pseudodynamics+ solves the single-cell advection-reaction-diffusion PDE without pseudotime discretization via a PINN (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
+- [claim/rho-gtpase-pathway-genes-rise-microglia] Rho GTPase pathway genes rise progressively in microglia along the Alzheimer trajectory (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)

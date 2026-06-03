@@ -81,3 +81,4 @@
 ## [2026-06-03] ingest | added papers/mapping-inflammatory-origins-lung-cancer (Cancer Cell Preview, Sasaki/Homme/Kitajima 2026) | merged evidence into 6 Peng claims; +2 people; +13 edges; surveys multimodal-spatial-omics-reveal-co-evolution
 ## [2026-06-03] ingest | added papers/integrative-epigenome-based-strategy-unbiased-functional | updated: 6 concepts, 15 claims, 11 foundations, 2 people, index, graph edges
 ## [2026-06-03] ingest | added papers/pseudodynamics-reconstructing-population-dynamics-time-resolved | updated: 7 concepts, 11 foundations, 18 claims, people/berthold-gottgens, people/weizhong-zheng, people/fabian-theis, papers/cellrank-consistent-data-view-agnostic-fate (cited_by)
+## [2026-06-03] ingest | added papers/reconstructing-developmental-disease-progression-sample-level (scSLIDE, Satija lab) | concepts: sample-level-embedding, landmark-based-density-estimation, continuous-disease-progression-modeling | +8 foundations | +20 claims | +3 people
