@@ -14,3 +14,4 @@
 {"from": "papers/tumour-hypoxia-driving-genomic-instability-tumour", "to": "papers/characterization-hypoxia-associated-molecular-features-aid", "type": "cites", "source": "semantic_scholar", "date": "2026-06-02"}
 {"from": "papers/delineation-signaling-routes-underlie-differences-macrophage", "to": "papers/transcriptome-based-network-analysis-reveals-spectrum", "type": "cites", "source": "semantic_scholar", "date": "2026-06-02"}
 {"from": "papers/mapping-inflammatory-origins-lung-cancer", "to": "papers/multimodal-spatial-omics-reveal-co-evolution", "type": "cites", "source": "semantic_scholar", "date": "2026-06-03"}
+{"from": "papers/pseudodynamics-reconstructing-population-dynamics-time-resolved", "to": "papers/cellrank-consistent-data-view-agnostic-fate", "type": "cites", "source": "semantic_scholar", "date": "2026-06-03"}

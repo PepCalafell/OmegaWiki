@@ -87,7 +87,7 @@ data_availability: "Figshare 10.6084/m9.figshare.c.7752290.v1; code github.com/t
 
 # === Cross-references ===
 code_url: "https://github.com/theislab/cellrank"
-cited_by: []
+cited_by: [pseudodynamics-reconstructing-population-dynamics-time-resolved]
 ---
 
 ## Problem

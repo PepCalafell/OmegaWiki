@@ -294,6 +294,12 @@ papers:
     importance: 5
     domain: immunology / developmental biology / cell biology
     priority: core
+  - slug: pseudodynamics-reconstructing-population-dynamics-time-resolved
+    title: "Pseudodynamics+: Reconstructing Population Dynamics from Time-Resolved Single Cell Landscapes with Physics Informed Neural Networks"
+    tags: [single-cell, trajectory-inference, population-dynamics, physics-informed-neural-network, neural-ode, haematopoiesis, thymocyte-development, cell-flux, lineage-tracing, megakaryocyte, methods]
+    importance: 4
+    domain: methods / single-cell genomics / haematopoiesis
+    priority: reference
   - slug: regulation-immunity-inflammation-hypoxia-immunological-niches
     title: "Regulation of immunity and inflammation by hypoxia in immunological niches"
     tags: [hypoxia, HIF, HIF1, HIF2, immunological-niche, inflammation, immunometabolism, oxygen-sensing, PHD, FIH, pVHL, NF-kB, inflammatory-hypoxia, intestinal-mucosa, bone-marrow, germinal-centre, placenta, tumour-microenvironment, hydroxylase-inhibitor, inflammatory-bowel-disease, review]
@@ -428,6 +434,34 @@ papers:
     priority: context
 
 concepts:
+  - slug: population-aware-single-cell-flux-modeling
+    title: "Population-aware single-cell flux modelling"
+    tags: [population-dynamics, single-cell, PINN, cell-flux, methods]
+    maturity: emerging
+  - slug: continuous-density-transport
+    title: "Continuous density transport (CDT)"
+    tags: [continuous-density-transport, cell-flux, single-cell, methods]
+    maturity: emerging
+  - slug: population-size-confounds-snapshot-trajectory-flux
+    title: "Population size confounds single-cell snapshot flux"
+    tags: [single-cell, trajectory-inference, population-dynamics, conceptual]
+    maturity: active
+  - slug: drift-association-gene-discovery-test
+    title: "Drift-association gene discovery test"
+    tags: [gene-discovery, lineage-regulators, single-cell, methods]
+    maturity: emerging
+  - slug: time-dependent-flux-parameters-long-timecourse
+    title: "Time-dependent flux parameters over long time courses"
+    tags: [time-dependent-rates, population-dynamics, haematopoiesis, methods]
+    maturity: emerging
+  - slug: megakaryocyte-biased-balanced-haematopoiesis-temporal-shift
+    title: "Temporal shift from megakaryocyte-biased to balanced haematopoiesis"
+    tags: [haematopoiesis, megakaryocyte-bias, homeostasis, temporal-shift]
+    maturity: emerging
+  - slug: vwf-hsc-fast-megakaryocyte-differentiation-pathway
+    title: "vWF+ HSC fast megakaryocyte differentiation pathway"
+    tags: [HSC, vWF, megakaryocyte-bias, haematopoiesis]
+    maturity: emerging
   - slug: epigenome-based-functional-profiling-kinase-inhibitors
     title: "Epigenome-based functional profiling of kinase inhibitors"
     tags: [kinase-inhibitors, epigenomics, H3K27ac, drug-profiling, macrophages, methods]
@@ -2086,6 +2120,12 @@ concepts:
 topics:
 
 people:
+  - slug: berthold-gottgens
+    tags: [haematopoiesis, stem-cells, HSC, single-cell-genomics, gene-regulatory-networks, methods]
+    affiliation: "Cambridge Stem Cell Institute & Department of Haematology, University of Cambridge"
+  - slug: weizhong-zheng
+    tags: [single-cell-genomics, population-dynamics, physics-informed-neural-network, haematopoiesis, methods]
+    affiliation: "Cambridge Stem Cell Institute & Department of Haematology, University of Cambridge"
   - slug: francesco-gualdrini
     tags: [macrophages, epigenomics, H3K27ac, signaling, kinase-inhibitors, inflammation]
     affiliation: "Department of Experimental Oncology, IEO, European Institute of Oncology IRCCS, Milan, Italy"
@@ -2758,6 +2798,96 @@ ideas:
 experiments:
 
 claims:
+  - slug: pseudodynamics-solves-single-cell-advection-reaction
+    title: "pseudodynamics+ solves the single-cell advection-reaction-diffusion PDE without pseudotime discretization via a PINN"
+    tags: [methodological, PINN, PDE, single-cell]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: single-cell-snapshot-trajectories-confound-cell
+    title: "Single-cell snapshot trajectories confound cell flux with population-size changes"
+    tags: [conceptual, trajectory-inference, population-dynamics]
+    status: supported
+    confidence: 0.8
+  - slug: diffusion-map-coordinates-gaussian-kde-best
+    title: "Diffusion-map coordinates with Gaussian KDE best recapitulate the pseudotime density ground truth"
+    tags: [methodological, density-estimation, benchmark]
+    status: weakly_supported
+    confidence: 0.65
+  - slug: pseudodynamics-recovers-synthetic-differentiation-rate-pearson
+    title: "pseudodynamics+ recovers synthetic differentiation rate at average Pearson 0.81"
+    tags: [quantitative, synthetic-benchmark, parameter-recovery]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: pseudodynamics-identifies-three-proliferative-bursts-during
+    title: "pseudodynamics+ identifies three proliferative bursts during thymocyte maturation"
+    tags: [correlational, thymocyte, proliferation]
+    status: weakly_supported
+    confidence: 0.65
+  - slug: dp-thymocyte-proliferative-wave-validated-high
+    title: "The DP thymocyte proliferative wave is validated by a high G2M cell-cycle fraction"
+    tags: [correlational, thymocyte, cell-cycle]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: open-system-soft-boundary-assumption-allows
+    title: "An open-system soft-boundary assumption lets DP thymocytes keep differentiating unlike pseudodynamics-v1"
+    tags: [methodological, boundary-condition, thymocyte]
+    status: weakly_supported
+    confidence: 0.65
+  - slug: pseudodynamics-matches-flow-matching-fate-prediction
+    title: "pseudodynamics+ matches flow-matching methods on LARRY fate prediction"
+    tags: [methodological, benchmark, LARRY, fate-prediction]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: dynamic-optimal-transport-methods-underperform-cell
+    title: "Dynamic optimal-transport methods underperform at cell-state fate prediction"
+    tags: [correlational, optimal-transport, benchmark]
+    status: weakly_supported
+    confidence: 0.55
+  - slug: time-dependent-flux-parameters-required-fit
+    title: "Time-dependent flux parameters are required to fit 9-month in vivo haematopoiesis"
+    tags: [methodological, in-vivo-haematopoiesis, time-dependent-rates]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: pseudodynamics-imputes-held-out-haematopoiesis-timepoints
+    title: "pseudodynamics+ imputes held-out haematopoiesis timepoints at average KLD 0.097"
+    tags: [quantitative, imputation, held-out]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: megakaryocyte-erythroid-lineages-show-coupled-growth
+    title: "Megakaryocyte and erythroid lineages show coupled growth/differentiation; neutrophils decoupled"
+    tags: [mechanistic, haematopoiesis, lineage-dynamics]
+    status: weakly_supported
+    confidence: 0.55
+  - slug: drift-association-test-recovers-canonical-haematopoietic
+    title: "The drift-association test recovers canonical haematopoietic lineage regulators"
+    tags: [methodological, gene-discovery, lineage-regulators]
+    status: weakly_supported
+    confidence: 0.7
+  - slug: haematopoiesis-shifts-early-megakaryocyte-biased-balanced
+    title: "In vivo haematopoiesis shifts from early megakaryocyte-biased to balanced homeostatic output"
+    tags: [mechanistic, haematopoiesis, megakaryocyte-bias, temporal-shift]
+    status: weakly_supported
+    confidence: 0.55
+  - slug: vwf-megakaryocyte-biased-hscs-enriched-early
+    title: "vWF+ megakaryocyte-biased HSCs are enriched early and decline over time"
+    tags: [correlational, HSC, vWF, megakaryocyte-bias]
+    status: weakly_supported
+    confidence: 0.6
+  - slug: continuous-density-transport-quantifies-stepwise-progeny
+    title: "Continuous density transport quantifies stepwise progeny density redistribution"
+    tags: [methodological, continuous-density-transport, cell-flux]
+    status: weakly_supported
+    confidence: 0.65
+  - slug: meps-show-transient-megakaryocyte-bias-giving
+    title: "MEPs show transient megakaryocyte bias giving way to balanced erythroid-megakaryocyte output"
+    tags: [correlational, MEP, fate-bias, megakaryocyte]
+    status: weakly_supported
+    confidence: 0.55
+  - slug: time-independent-models-wrongly-assign-high
+    title: "Time-independent models wrongly assign high growth rates to quiescent HSCs"
+    tags: [correlational, HSC, quiescence, model-comparison]
+    status: weakly_supported
+    confidence: 0.65
   - slug: h3k27ac-chip-seq-mfa-deconvolution-unbiased
     title: "Genome-wide H3K27ac with MFA deconvolution is an unbiased functional readout of kinase-inhibitor effects on macrophages"
     tags: [methodological, H3K27ac, kinase-inhibitors, macrophages]
@@ -10274,6 +10404,50 @@ claims:
 Summary:
 
 foundations:
+  - slug: physics-informed-neural-network
+    title: "Physics-Informed Neural Network (PINN)"
+    status: mainstream
+    domain: methods / scientific machine learning / PDE solving
+  - slug: neural-ordinary-differential-equation
+    title: "Neural Ordinary Differential Equation (Neural ODE)"
+    status: mainstream
+    domain: methods / deep learning / continuous-time models
+  - slug: diffusion-map-embedding
+    title: "Diffusion map embedding"
+    status: mainstream
+    domain: methods / dimensionality reduction / single-cell trajectory
+  - slug: larry-lineage-barcoding
+    title: "LARRY lineage barcoding"
+    status: mainstream
+    domain: methods / lineage tracing / single-cell genomics
+  - slug: gaussian-kernel-density-estimation
+    title: "Gaussian kernel density estimation (KDE)"
+    status: mainstream
+    domain: methods / nonparametric statistics / density estimation
+  - slug: waddington-ot
+    title: "Waddington-OT"
+    status: mainstream
+    domain: methods / single-cell trajectory / optimal transport
+  - slug: moscot-multi-omic-optimal-transport
+    title: "moscot (multi-omics single-cell optimal transport)"
+    status: mainstream
+    domain: methods / single-cell trajectory / optimal transport
+  - slug: prescient-population-dynamics-model
+    title: "PRESCIENT"
+    status: mainstream
+    domain: methods / single-cell trajectory / generative dynamics
+  - slug: tigon-dynamic-unbalanced-optimal-transport
+    title: "TIGON"
+    status: mainstream
+    domain: methods / single-cell trajectory / dynamic optimal transport
+  - slug: von-willebrand-factor-vwf
+    title: "Von Willebrand factor (vWF / Vwf)"
+    status: mainstream
+    domain: haematopoiesis / coagulation / cell biology
+  - slug: platelet-factor-pf4
+    title: "Platelet factor 4 (Pf4 / CXCL4)"
+    status: mainstream
+    domain: haematopoiesis / megakaryocyte biology / chemokine
   - slug: multiple-factor-analysis
     title: "Multiple Factor Analysis (MFA)"
     status: mainstream

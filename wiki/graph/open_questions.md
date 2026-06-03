@@ -391,6 +391,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/physiology-diseases-tissue-resident-macrophages] Which TRM diseases are amenable to BMT/HSC-replacement and which are not? Review notes BMT helps "some but not all" LSD patients; the predictive logic is unclear.
 - [paper/physiology-diseases-tissue-resident-macrophages] For tumour immunology specifically: do early-stage Kupffer-cell-mediated tumour limitation and late-stage TAM-mediated tumour promotion involve the *same* lineage of cells switching state, or are they distinct populations?
 - [paper/physiology-diseases-tissue-resident-macrophages] How does the model interface with the Casanova-Acebes 2021 finding that lung TRMs *promote* (not limit) early tumours? The Lazarov review predates that paper's TRM-pro-tumour story being fully appreciated; future syntheses need to reconcile organ-specific opposite directions.
+- [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] How to separate tamoxifen-induced perturbation from intrinsic HSC kinetic heterogeneity in the early time window.
+- [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] How to recover per-gene contributions to flux parameters given the diffusion-map input.
+- [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] Whether drift-associated genes are causal regulators or mere correlates.
+- [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] How robust are the inferred time-dependent rates to the choice of density estimator and diffusion-map dimensionality?
+- [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] Does the open-system assumption generalize to systems with strong influx (not just outflux)?
+- [paper/pseudodynamics-reconstructing-population-dynamics-time-resolved] How does CDT compare quantitatively to optimal-transport coupling maps on the same data?
 - [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Which HIF isoform and downstream programme governs HSC quiescence in vivo (controversy).
 - [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] Whether GC hypoxia decreases or potentiates class-switch recombination.
 - [paper/regulation-immunity-inflammation-hypoxia-immunological-niches] How ROS mechanistically regulate HIF expression/activity.
@@ -697,6 +703,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
 - [concept/compositional-perturbation-generalization] Standardized, independent compositional benchmarks across modalities.
+- [concept/continuous-density-transport] Quantitative benchmarking of CDT maps against ground-truth lineage-tracing flux.
 - [concept/cori-cycle-tumor-host-metabolism] Can targeting hepatic gluconeogenesis (metformin? specific GP inhibitors?) reduce host REE without harming tumour control?
 - [concept/cori-cycle-tumor-host-metabolism] Are lactate-shuttle inhibitors (MCT1/MCT4 antagonists) viable CAC therapeutics?
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
@@ -751,6 +758,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/donor-baseline-interferon-signaling-heterogeneity] Genetic / demographic determinants of the interferon-high state
 - [concept/donor-baseline-interferon-signaling-heterogeneity] Whether the baseline state predicts disease susceptibility or therapy response
 - [concept/donor-baseline-interferon-signaling-heterogeneity] How many distinct baseline immune "setpoints" exist at population scale
+- [concept/drift-association-gene-discovery-test] Establishing regulatory causality for drift-associated genes.
 - [concept/drug-repurposing-kinase-inhibitors-control-inflammation] Translating macrophage epigenomic signatures into predicted clinical anti-inflammatory benefit.
 - [concept/drug-repurposing-kinase-inhibitors-control-inflammation] Balancing desired anti-inflammatory effects against off-target interferon induction.
 - [concept/dubious-versus-trustworthy-metacell-statistical-definition] Recursive re-partitioning of dubious metacells into trustworthy ones (vs simply discarding them).
@@ -959,6 +967,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Cross-species mapping of murine fate-mapping data to specific MoMac-VERSE clusters at scale
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
 - [concept/manifold-rectification-continuous-virtual-cell-space] Verifying the manifold is genuinely "differentiable" enough for the flow model vs merely smooth.
+- [concept/megakaryocyte-biased-balanced-haematopoiesis-temporal-shift] Disentangling intrinsic HSC kinetic heterogeneity from induction/perturbation effects experimentally.
 - [concept/metacell-divergence-score-mcdiv-double-permutation] Whether multiple double-permutation rounds yield more robust detection.
 - [concept/metacell-divergence-score-mcdiv-double-permutation] Extending the statistic to integrate multiple modalities (RNA + ATAC) jointly rather than one modality at a time.
 - [concept/metacell-granularity-optimization-dubrate-zerorate-score] Joint multi-hyperparameter and multi-modality optimization.
@@ -1109,6 +1118,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
 - [concept/polypharmacology-clinical-kinase-inhibitors] Predicting which off-targets drive efficacy vs toxicity for a given indication.
 - [concept/polypharmacology-clinical-kinase-inhibitors] Systematic functional (not just binding) deconvolution of polypharmacology.
+- [concept/population-aware-single-cell-flux-modeling] Linking inferred flux parameters back to gene-level regulatory programmes.
+- [concept/population-aware-single-cell-flux-modeling] Extending to systems dominated by influx rather than outflux.
+- [concept/population-size-confounds-snapshot-trajectory-flux] Population-size measurement is itself noisy/indirect (flow cytometry, tissue counts), propagating uncertainty into flux estimates.
 - [concept/power-analysis-research-fraud-detector] Automating plausibility screening at scale with acceptable false-positive rates.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
@@ -1227,6 +1239,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/tfbs-weavability] Why does weavability arise — selection, biophysics of the DBD, or both?
 - [concept/tfbs-weavability] Does weavability predict TF dosage robustness or cofactor independence?
 - [concept/tfbs-weavability] Is weavability altered in TFs with paralog-divergent specificity?
+- [concept/time-dependent-flux-parameters-long-timecourse] Distinguishing genuine temporal rate changes from measurement/perturbation artefacts.
 - [concept/tissue-context-dependence-immune-signaling] Identify the source-cell + ligand pairs that maintain baseline JAK-STAT in each tissue.
 - [concept/tissue-context-dependence-immune-signaling] Determine whether reconstituting a single CellChat-nominated pair can rescue context-deprivation phenotypes.
 - [concept/tissue-context-dependence-immune-signaling] Quantify how much of the literature's "macrophage transcriptome" reflects ex vivo context loss.
@@ -1321,6 +1334,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Mechanism of ORF3a-mitochondrial ROS coupling
 - [concept/virtual-cell-world-model] Integrating gene/chemical embeddings for perturbation-level zero-shot.
 - [concept/virtual-cell-world-model] Extending the world model to multi-modal (protein, chromatin) state.
+- [concept/vwf-hsc-fast-megakaryocyte-differentiation-pathway] Whether vWF+ bias is a stable subtype or a reversible primed state.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Whether targeting Warburg-axis enzymes synergizes with ICB in hypoxic tumors.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Cell-of-origin determinants of lactate symbiosis.
 - [concept/warburg-effect-hif1a-glycolytic-reprogramming] Therapeutic ceiling of PDK1 / LDHA inhibitors.
@@ -1349,13 +1363,18 @@ _Auto-generated open questions. Do not edit._
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/colorectal-innate-activation-associated-mutation-burden] In colorectal cancer, high innate immune activation associates with mutation burden, MUC16 mutation, and exhaustion markers (status: weakly_supported)
 - [claim/commensal-pathogen-effectors-share-12-human-targets] Commensal and pathogen effectors share a small but significant set of human targets (status: weakly_supported)
+- [claim/continuous-density-transport-quantifies-stepwise-progeny] Continuous density transport quantifies stepwise progeny density redistribution (status: weakly_supported)
 - [claim/continuous-flow-smooth-latent-manifold-acts] Continuous flow on a smooth latent manifold acts as an implicit denoiser without explicit imputation (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
 - [claim/de-novo-purine-gene-expression-correlates-fitness-hypoxia] De novo purine synthesis gene expression positively correlates with cancer cell fitness under hypoxia (status: weakly_supported)
 - [claim/de-novo-purine-synthesis-more-essential-in-vivo-than-in-vitro] De novo purine synthesis is more essential for PDAC tumor growth in vivo than in vitro (status: weakly_supported)
 - [claim/deseq2-mean-dispersion-curve-approximated-heuristic] The DESeq2 mean-dispersion curve can be approximated by a data-free order-of-magnitude band (status: weakly_supported)
+- [claim/diffusion-map-coordinates-gaussian-kde-best] Diffusion-map coordinates with Gaussian KDE best recapitulate the pseudotime density ground truth (status: weakly_supported)
 - [claim/discrete-cell-type-embeddings-structurally-preclude] Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages (status: proposed)
+- [claim/dp-thymocyte-proliferative-wave-validated-high] The DP thymocyte proliferative wave is validated by a high G2M cell-cycle fraction (status: weakly_supported)
+- [claim/drift-association-test-recovers-canonical-haematopoietic] The drift-association test recovers canonical haematopoietic lineage regulators (status: weakly_supported)
+- [claim/dynamic-optimal-transport-methods-underperform-cell] Dynamic optimal-transport methods underperform at cell-state fate prediction (status: weakly_supported)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/effector-neighbourhoods-enriched-crohns-not-uc] Effector-targeted network neighbourhoods are enriched for Crohn's disease but not ulcerative colitis (status: weakly_supported)
 - [claim/effector-targets-enriched-gwas-immune-metabolic-disease-variation] Effector-targeted human genes are enriched for GWAS variation in immune and metabolic diseases (status: weakly_supported)
@@ -1369,6 +1388,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/fos-ncor2-ppargamma-central-transcription-regulators] FOS, NCOR2, and PPARγ are central transcription regulators of the immunosuppressive M2a macrophage network (status: weakly_supported)
 - [claim/glcnacylation-dynamically-regulated-monocyte-large-cavity] O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition (status: proposed)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
+- [claim/haematopoiesis-shifts-early-megakaryocyte-biased-balanced] In vivo haematopoiesis shifts from early megakaryocyte-biased to balanced homeostatic output (status: weakly_supported)
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
@@ -1396,6 +1416,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
 - [claim/macrophage-ogt-deletion-reduces-il-alternative] Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control (status: proposed)
+- [claim/megakaryocyte-erythroid-lineages-show-coupled-growth] Megakaryocyte and erythroid lineages show coupled growth/differentiation; neutrophils decoupled (status: weakly_supported)
+- [claim/meps-show-transient-megakaryocyte-bias-giving] MEPs show transient megakaryocyte bias giving way to balanced erythroid-megakaryocyte output (status: weakly_supported)
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
@@ -1411,6 +1433,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
 - [claim/ogt-deficiency-rewires-macrophage-metabolism-induces] Ogt deficiency rewires LCM metabolism and induces a senescence-like phenotype with G2/M arrest (status: proposed)
 - [claim/ogt-inhibition-increases-macrophage-costimulation-cell] Pharmacological OGT inhibition increases macrophage co-stimulatory molecules and T cell proliferation in co-culture (status: proposed)
+- [claim/open-system-soft-boundary-assumption-allows] An open-system soft-boundary assumption lets DP thymocytes keep differentiating, unlike pseudodynamics-v1 (status: weakly_supported)
 - [claim/pak2-pkc-alpha-inferred-regulators-vitro] PAK2 and PKCα are inferred as central regulators of in vitro immunosuppressive macrophages (status: weakly_supported)
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
@@ -1420,12 +1443,19 @@ _Auto-generated open questions. Do not edit._
 - [claim/power-analysis-flag-implausible-published-results] Power-analysis mathematics can flag implausible published results but does not scale as a fraud detector (status: proposed)
 - [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
 - [claim/proinflammatory-macrophage-fraction-correlates-cell-fraction] Proinflammatory macrophage fraction correlates strongly with B-cell fraction in brain metastases (status: weakly_supported)
+- [claim/pseudodynamics-identifies-three-proliferative-bursts-during] pseudodynamics+ identifies three proliferative bursts during thymocyte maturation (status: weakly_supported)
+- [claim/pseudodynamics-imputes-held-out-haematopoiesis-timepoints] pseudodynamics+ imputes held-out haematopoiesis timepoints at average KLD 0.097 (status: weakly_supported)
+- [claim/pseudodynamics-matches-flow-matching-fate-prediction] pseudodynamics+ matches flow-matching methods on LARRY fate prediction (status: weakly_supported)
+- [claim/pseudodynamics-recovers-synthetic-differentiation-rate-pearson] pseudodynamics+ recovers synthetic differentiation rate at average Pearson 0.81 (status: weakly_supported)
+- [claim/pseudodynamics-solves-single-cell-advection-reaction] pseudodynamics+ solves the single-cell advection-reaction-diffusion PDE without pseudotime discretization via a PINN (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
+- [claim/time-dependent-flux-parameters-required-fit] Time-dependent flux parameters are required to fit 9-month in vivo haematopoiesis (status: weakly_supported)
+- [claim/time-independent-models-wrongly-assign-high] Time-independent models wrongly assign high growth rates to quiescent HSCs (status: weakly_supported)
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
 - [claim/topical-mrna-lnp-low-immunogenicity-confined] Topical mRNA-LNPs show minimal immunogenicity, no local inflammation on repeat dosing, and remain confined to treated skin with limited systemic dissemination (status: weakly_supported)
@@ -1434,5 +1464,6 @@ _Auto-generated open questions. Do not edit._
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
 - [claim/unbiased-single-cell-rna-seq-insufficient] Unbiased single-cell RNA-seq is statistically insufficient for rare cell types; enrichment is mandatory (status: weakly_supported)
 - [claim/ups-markers-conflicting-evidence-cac] MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity (status: weakly_supported)
+- [claim/vwf-megakaryocyte-biased-hscs-enriched-early] vWF+ megakaryocyte-biased HSCs are enriched early and decline over time (status: weakly_supported)
 - [claim/wnt2-fzd2-cardiomyocyte-pharyngeal-mesoderm-ligand-receptor] Wnt2 (cardiomyocyte) — Fzd2 (pharyngeal mesoderm) emerges as a predicted ligand-receptor pair underlying cardiomyocyte–pharyngeal-mesoderm covariation in E8.5 embryo, consistent with known WNT-dependence of SHF progenitor proliferation (status: weakly_supported)
 - [claim/wnt3-fzd7-paneth-stem-niche-progenitor-source] Wnt3 (Paneth) — Fzd7 (stem/TA) is the predicted ligand-receptor pair mediating the stem-cell niche, with Wnt3 trajectory downregulating during Paneth maturation — implicating nascent Paneth progenitors, not mature Paneth cells, as the dominant Wnt-source (status: weakly_supported)
