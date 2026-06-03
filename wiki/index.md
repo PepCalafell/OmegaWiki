@@ -169,6 +169,12 @@ papers:
     importance: 2
     domain: methods / spatial transcriptomics / cell–cell interaction
     priority: reference
+  - slug: integrating-12-spatial-single-cell-technologies
+    title: "Integrating 12 Spatial and Single Cell Technologies to Characterise Tumour Neighbourhoods and Cellular Interactions in three Skin Cancer Types"
+    tags: [spatial-omics, multiomics, skin-cancer, single-cell, cell-cell-interaction, atlas, melanoma, cscc, bcc]
+    importance: 4
+    domain: oncology
+    priority: core
   - slug: integrative-epigenome-based-strategy-unbiased-functional
     title: "An integrative epigenome-based strategy for unbiased functional profiling of clinical kinase inhibitors"
     tags: [kinase-inhibitors, polypharmacology, H3K27ac, epigenomics, macrophages, inflammation, TLR4, IL-4, JAK-inhibitors, TBK1, IRF3, interferon, drug-repurposing, machine-learning, kinobeads, viral-mimicry]
@@ -666,6 +672,10 @@ concepts:
     title: "CD206hi interstitial macrophage bronchovascular chemokine–TLS niche"
     tags: [macrophage, tertiary-lymphoid-structure, chemokine, lung-cancer, spatial-transcriptomics]
     maturity: emerging
+  - slug: cd44-ecm-axis-melanoma-invasion
+    title: "CD44-ECM ligand-receptor axis in melanoma invasion"
+    tags: [melanoma, cell-cell-interaction, extracellular-matrix, therapeutic-target]
+    maturity: emerging
   - slug: cd8-t-cell-exhaustion-texterm
     title: "CD8+ T cell exhaustion and the TEXterm state"
     tags: [immunology, cd8-t-cells, exhaustion, cancer-immunotherapy, chronic-infection]
@@ -773,6 +783,10 @@ concepts:
     title: "Pan-disease PERIVASC I immune remodeling in inflammatory and neoplastic skin"
     tags: [skin, PERIVASC-I, atopic-dermatitis, psoriasis, hidradenitis-suppurativa, basal-cell-carcinoma, squamous-cell-carcinoma, tertiary-lymphoid-structure]
     maturity: emerging
+  - slug: cross-platform-spatial-meta-community
+    title: "Cross-platform spatial meta-community"
+    tags: [spatial-omics, niche, community-analysis, methods]
+    maturity: emerging
   - slug: cross-species-core-macrophage-signature
     title: "Cross-species core macrophage signature"
     tags: [macrophage, comparative-transcriptomics, signature]
@@ -857,6 +871,10 @@ concepts:
     title: "Single-shot DIA-MS as a pan-cancer proteomics approach"
     tags: [proteomics, dia-ms, methods, pan-cancer, single-shot]
     maturity: active
+  - slug: differential-stromal-interactions-skin-cancer
+    title: "Differential stromal cell-cell interactions across skin cancer subtypes"
+    tags: [skin-cancer, tumour-microenvironment, cell-cell-interaction, fibroblast]
+    maturity: emerging
   - slug: discordance-between-vitro-kinase-inhibitor-selectivity
     title: "Discordance between in vitro kinase-inhibitor selectivity and cellular effects"
     tags: [kinase-inhibitors, drug-selectivity, kinobeads, target-engagement, pharmacology]
@@ -1816,6 +1834,18 @@ concepts:
     title: "Spatial domain detection from SVG-based feature selection"
     tags: [spatial-transcriptomics, clustering, downstream-analysis]
     maturity: active
+  - slug: spatial-gwas-heritability-cell-type-mapping
+    title: "Spatial mapping of GWAS heritability to cell types and domains"
+    tags: [statistical-genetics, spatial-omics, gwas, heritability]
+    maturity: emerging
+  - slug: spatial-multiomics-orthogonal-validation
+    title: "Spatial multiomics orthogonal cross-platform validation"
+    tags: [spatial-omics, multiomics, methods, validation]
+    maturity: emerging
+  - slug: spatially-constrained-ligand-receptor-inference
+    title: "Spatially-constrained ligand-receptor interaction inference"
+    tags: [spatial-omics, cell-cell-interaction, ligand-receptor, methods]
+    maturity: active
   - slug: spatially-regulated-cancer-cell-states
     title: "Spatially regulated cancer cell states — TC and LE as plastic cell-state attractors"
     tags: [cancer-stem-cells, EMT, plasticity, spatial-transcriptomics, OSCC]
@@ -2318,6 +2348,9 @@ people:
   - slug: fabrice-andre
     tags: [medical-oncology, breast-cancer, precision-medicine, clinical-translation, PI]
     affiliation: "Université Paris-Saclay, Inserm U981, Gustave Roussy; IHU PRISM; Department of Medical Oncology, Gustave Roussy, Villejuif, France"
+  - slug: feng-zhang-qimr
+    tags: [spatial-omics, single-cell, skin-cancer, bioinformatics]
+    affiliation: "QIMR Berghofer; Institute for Molecular Bioscience, University of Queensland"
   - slug: florent-ginhoux
     tags: [macrophage, dendritic-cell, immunology, tumor-microenvironment, PI, mononuclear-phagocyte, spatial-transcriptomics]
     affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; A*STAR SIgN, Singapore"
@@ -2378,6 +2411,9 @@ people:
   - slug: humam-kadara
     tags: [nsclc, tumour-microenvironment, translational-pathology, lung-cancer-genomics, precancer-biology, spatial-transcriptomics]
     affiliation: "MD Anderson Cancer Center"
+  - slug: ian-frazer
+    tags: [immunology, vaccinology, skin-cancer, hpv]
+    affiliation: "Frazer Institute, University of Queensland"
   - slug: ido-amit
     tags: [systems-immunology, single-cell-genomics, PIC-seq, macrophage, tumor-immunology, microglia, dendritic-cell]
     affiliation: "Department of Systems Immunology, Weizmann Institute of Science, Rehovot, Israel"
@@ -2444,6 +2480,9 @@ people:
   - slug: lanxuan-yang
     tags: [immunometabolism, lipid-metabolism]
     affiliation: "Macau University of Science and Technology — State Key Laboratory of Quality Research in Chinese Medicine"
+  - slug: laura-f-grice
+    tags: [spatial-omics, single-cell, skin-cancer, bioinformatics]
+    affiliation: "QIMR Berghofer; Institute for Molecular Bioscience and School of Biomedical Sciences, University of Queensland"
   - slug: lei-wang
     tags: [immuno-oncology, macrophage, PD-L1, breast-cancer, scRNA-seq]
     affiliation: "International Cancer Center, Shenzhen University Medical School, Shenzhen, Guangdong 518055, China"
@@ -2567,6 +2606,9 @@ people:
   - slug: ondrej-kuda
     tags: [PI, bioactive-lipids, metabolomics, lipidomics, LIMeX-pipeline]
     affiliation: "Institute of Physiology of the Czech Academy of Sciences, Prague"
+  - slug: p-prakrithi
+    tags: [spatial-omics, single-cell, statistical-genetics, skin-cancer]
+    affiliation: "QIMR Berghofer; Institute for Molecular Bioscience, University of Queensland"
   - slug: palmira-barreira-silva
     tags: [AHR, host-pathogen, infection-immunology, pattern-recognition-receptor]
     affiliation: "IBMC / i3S, Universidade do Porto, Porto, Portugal."
@@ -2627,6 +2669,9 @@ people:
   - slug: qiu-wu
     tags: [pan-cancer, single-cell-genomics, tme, computational-oncology]
     affiliation: "Tongji University"
+  - slug: quan-nguyen
+    tags: [spatial-omics, single-cell, computational-biology, cell-cell-interaction]
+    affiliation: "QIMR Berghofer; Institute for Molecular Bioscience, University of Queensland"
   - slug: quentin-blampey
     tags: [spatial-transcriptomics, graph-neural-networks, foundation-models, single-cell, oncology, software-engineering]
     affiliation: "Université Paris-Saclay, CentraleSupélec, Lab of Mathematics and Computer Science; Université Paris-Saclay, Inserm U981, Gustave Roussy; IHU PRISM, National PRecISion Medicine Center in Oncology"
@@ -3767,6 +3812,18 @@ claims:
     status: supported
     confidence: 0.75
     domain: pharmacology / oncology / drug-repurposing
+  - slug: cancer-kc-identification-cnv-module-score
+    title: "Cancer keratinocytes are stringently identified by combining CNV polyploidy with cancer module scores"
+    tags: [cscc, cnv, malignant-cell-identification, keratinocyte]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: cancer-lineage-variation-exceeds-intralineage
+    title: "Transcriptomic variation between skin-cancer lineages exceeds variation within a lineage"
+    tags: [skin-cancer, transcriptomics, melanoma, cscc]
+    status: weakly_supported
+    confidence: 0.75
+    domain: oncology
   - slug: cancer-metabolic-heterogeneity-glycolytic-vs-oxphos-tumors
     title: "Human tumours of the same entity exhibit heterogeneous reliance on glycolysis vs OxPhos"
     tags: [tumor-metabolism, oxphos, glycolysis, dlbcl, warburg]
@@ -4019,6 +4076,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: cd44-fgf2-melanoma-therapeutic-target-pla-validated
+    title: "CD44 is a dominant melanoma receptor and CD44-FGF2 is a PLA-validated candidate therapeutic target"
+    tags: [melanoma, cd44, fgf2, therapeutic-target, validation, pla]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: cd47-first-gen-failure-eat-me-redundancy
     title: "First-generation CD47 antagonists failed due to redundancy in 'don't eat me' ligands; APMAP knockout enhances anti-CD47 phagocytosis"
     tags: [cd47, sirpa, phagocytosis-checkpoint, crispr-screen, apmap]
@@ -4469,12 +4532,30 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / immuno-oncology
+  - slug: cross-platform-melanocyte-meta-community
+    title: "A melanocyte-enriched spatial meta-community is reproducible across platforms and enriched in melanoma"
+    tags: [spatial-omics, community, melanoma, niche]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: cross-species-conservation-19-of-34-texterm-tfs
     title: "19/34 mouse TEXterm single-state TFs and 22/30 multi-state TFs are conserved in human pan-cancer CD8+ T cells"
     tags: [scTaiji, cross-species, human-pan-cancer, transcription-factor, quantitative]
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: cscc-atlas-matched-healthy-cancer-45909-cells
+    title: "A matched healthy/cancer cSCC scRNA-seq atlas resolves 45,909 cells and 19 immune subtypes"
+    tags: [cscc, scRNA-seq, atlas, skin-cancer]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: cscc-spp1-integrin-bcc-wnt-angiogenesis-interactions
+    title: "cSCC interactomes are enriched for SPP1-integrin/CD44 and BCC for WNT and angiogenesis pairs"
+    tags: [cscc, bcc, ligand-receptor, spp1, wnt, angiogenesis]
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology
   - slug: csf1-il34-csf2-control-trm-development
     title: "CSF1, IL-34, and CSF2 control tissue-resident macrophage development and survival via CSF1R and CSF2R, with tissue-specific dependencies"
     tags: [macrophage, CSF1R, IL-34, CSF2, GM-CSF, trophic-factor, immunology]
@@ -4817,6 +4898,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: differential-fibroblast-interactions-skin-cancers
+    title: "Fibroblasts interact preferentially with T cells in keratinocyte cancers and with melanocytes in melanoma"
+    tags: [fibroblast, cell-cell-interaction, skin-cancer, tumour-microenvironment]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: diffusion-map-coordinates-gaussian-kde-best
     title: "Diffusion-map coordinates with Gaussian KDE best recapitulate the pseudotime density ground truth"
     tags: [methods, density-estimation, diffusion-map, benchmark]
@@ -5333,6 +5420,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: pharmacology
+  - slug: first-spatial-multiomics-skin-cancer-atlas-resource
+    title: "The study is the first spatial multiomics atlas integrating 12 technologies across cSCC, BCC and melanoma"
+    tags: [atlas, spatial-omics, multiomics, skin-cancer, resource]
+    status: supported
+    confidence: 0.85
+    domain: oncology
   - slug: folfirinox-vs-gemnab-differential-loss
     title: "In advanced PDAC, FOLFIRINOX → greater SKM loss in males; GEM/NAB → greater adipose-tissue loss in both sexes"
     tags: [cancer-cachexia, pancreatic-cancer, FOLFIRINOX, GEM-NAB, sex-dimorphism, pharmacology]
@@ -5495,6 +5588,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: methods / Markov-chain coarse-graining
+  - slug: gsmap-skin-cancer-heritability-cell-type-mapping
+    title: "Skin-cancer GWAS heritability maps spatially to melanocytes, dysplastic/cornified keratinocytes, and fibroblasts"
+    tags: [gwas, heritability, spatial-omics, skin-cancer, fibroblast]
+    status: supported
+    confidence: 0.75
+    domain: statistical genetics
   - slug: gut-lamina-propria-populated-hsc-bmdm
     title: "Gut lamina propria is populated by HSC- and BMDM-derived macrophages, an exception to TRM dominance in adult tissues"
     tags: [macrophage, gut, lamina-propria, bmdm, hsc, exception, tissue-specific, immunology]
@@ -6467,6 +6566,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: protein-engineering
+  - slug: il34-csf1r-elevated-melanoma-validated
+    title: "IL34-CSF1R interaction is elevated in melanoma and validated by RNAScope colocalization"
+    tags: [melanoma, il34, csf1r, macrophage, validation]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc
     title: "IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial"
     tags: [il-4, dupilumab, myeloid-progenitor, ici-combination, nsclc]
@@ -6743,6 +6848,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: lung cancer biology
+  - slug: kc-cancer-ecm-remodeling-il17-signature
+    title: "Keratinocyte cancer cells upregulate ECM-remodeling and IL-17 pathway genes"
+    tags: [cscc, ecm, mmp, il17, inflammation]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: kdm6a-kdm5a-direct-oxygen-sensors
     title: "KDM6A and KDM5A histone demethylases are direct oxygen sensors regulating cell fate independent of HIF"
     tags: [KDM6A, KDM5A, histone-demethylase, oxygen-sensor, chromatin, epigenetics, hypoxia, HIF-independent, H3K27me3, H3K4me3]
@@ -7193,6 +7304,30 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: haematopoiesis
+  - slug: melanoma-collagen-integrin-fgf-cd44-interactions
+    title: "Melanoma interactomes are dominated by collagen-integrin and FGF-CD44/FGFR ligand-receptor pairs"
+    tags: [melanoma, ligand-receptor, collagen, integrin, fgf, cd44]
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: melanoma-community-collagen-cd44-tyrosine-pyrimidine
+    title: "The melanoma community shows collagen-CD44 signaling and enriched tyrosine and pyrimidine metabolism"
+    tags: [melanoma, metabolism, multiomics, cd44, collagen]
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology
+  - slug: melanoma-higher-spatial-heterogeneity-than-cscc
+    title: "Melanoma shows higher spatial cell-type heterogeneity than cSCC"
+    tags: [melanoma, spatial-heterogeneity, tumour-microenvironment]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
+  - slug: melanoma-immune-evasion-signature-vs-melanocytes
+    title: "Melanoma cells upregulate immune-evasion and signaling genes relative to melanocytes"
+    tags: [melanoma, immune-evasion, ctla4, pd-l1]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
   - slug: meps-show-transient-megakaryocyte-bias-giving
     title: "MEPs show transient megakaryocyte bias giving way to balanced erythroid-megakaryocyte output"
     tags: [MEP, megakaryocyte, erythroid, fate-bias, continuous-density-transport]
@@ -9131,6 +9266,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: cell biology
+  - slug: six-validated-kc-cancer-markers-multiplatform
+    title: "Six genes are consistently upregulated in keratinocyte cancer cells across four platforms"
+    tags: [cscc, biomarkers, spatial-transcriptomics, keratinocyte]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: skin-45-cell-types-resolved-spatially
     title: "45 cell types are resolved spatially in adult human skin including 8 fibroblast subpopulations and 2 perivascular subsets"
     tags: [skin, cell-types, fibroblast, perivascular, correlational]
@@ -9173,6 +9314,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: hepatology / validation
+  - slug: snrnaseq-melanoma-reference-benign-to-invasive
+    title: "A snRNA-seq melanoma reference spans benign naevus to invasive melanoma"
+    tags: [melanoma, snRNA-seq, reference, skin-cancer]
+    status: supported
+    confidence: 0.85
+    domain: oncology
   - slug: sod1-ko-blocks-granulocytic-differentiation
     title: "SOD1-deficient HSPCs nearly fail to form colonies and show a block in granulocytic differentiation"
     tags: [SOD1, CRISPR, granulocyte, CFU, oxidative-stress, pharmacological, hematopoiesis]
@@ -9197,12 +9344,24 @@ claims:
     status: supported
     confidence: 0.85
     domain: spatial-transcriptomics-methods
+  - slug: sox2-marks-kc-cancer-cells
+    title: "SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium"
+    tags: [cscc, sox2, biomarker, cancer-stem-cell]
+    status: weakly_supported
+    confidence: 0.75
+    domain: oncology
   - slug: sparkx-best-overall-svg-benchmark
     title: "SPARK-X is the best-performing SVG detection method overall in a 14-method, 96-dataset benchmark"
     tags: [spatial-transcriptomics, benchmarking, SVG]
     status: supported
     confidence: 0.85
     domain: spatial-transcriptomics-methods
+  - slug: spatial-constraint-reduces-false-lr-interactions
+    title: "Spatial constraints remove scRNA-seq false-positive ligand-receptor interactions and recover missed ones"
+    tags: [cell-cell-interaction, ligand-receptor, spatial-omics, methods]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: spatial-dmt-10um-resolves-telencephalic-progenitors-vs-gabaergic-cortical-interneurons-e11
     title: "At 10 μm pixel resolution, spatial-DMT resolves telencephalon progenitors (W11, ventricular zone) from migrating GABAergic cortical interneurons (W7, mantle zone) in E11 mouse embryo forebrain"
     tags: [near-single-cell, 10um-resolution, telencephalon, GABAergic-interneurons, cell-type-deconvolution]
@@ -10019,6 +10178,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology
+  - slug: treg-fibroblast-colocalize-melanocytes-melanoma
+    title: "Tregs and fibroblasts co-localize with melanocytes in melanoma communities"
+    tags: [melanoma, treg, fibroblast, colocalization, spatial]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: treg-localize-close-trm-tumor
     title: "FOXP3⁺ Tregs localize close to TRMs in NSCLC tumour lesions"
     tags: [Treg, TRM, spatial-imaging, NSCLC, tumor-niche, FOXP3]
@@ -10888,6 +11053,10 @@ foundations:
     title: "CD40"
     status: mainstream
     domain: immunology
+  - slug: cd44-receptor
+    title: "CD44 (hyaluronan receptor)"
+    status: mainstream
+    domain: cell biology
   - slug: cd47-don-t-eat-me-receptor
     title: "CD47"
     status: mainstream
@@ -11340,6 +11509,10 @@ foundations:
     title: "Geometric Sketching"
     status: mainstream
     domain: single-cell genomics
+  - slug: geomx-digital-spatial-profiling
+    title: "GeoMx Digital Spatial Profiler (DSP)"
+    status: mainstream
+    domain: spatial omics
   - slug: gfi1-tf
     title: "GFI1"
     status: mainstream
@@ -11400,6 +11573,10 @@ foundations:
     title: "GSE155698 — Steele et al. 2020 PDAC scRNA-seq dataset"
     status: mainstream
     domain: datasets / scRNA-seq
+  - slug: gsmap-spatial-heritability
+    title: "gsMAP - genetics-to-spatial heritability mapping"
+    status: mainstream
+    domain: statistical genetics
   - slug: h1f0-linker-histone
     title: "H1F0 (H1.0) — replication-independent linker histone, quiescence marker"
     status: mainstream
@@ -11844,6 +12021,10 @@ foundations:
     title: "maftools — Bioconductor toolkit for somatic mutation analysis"
     status: mainstream
     domain: methods / genomics
+  - slug: maldi-msi-spatial-glycomics
+    title: "MALDI-MSI spatial glycomics"
+    status: mainstream
+    domain: spatial metabolomics
   - slug: mamba-selective-state-space-model
     title: "Mamba — selective state space model (SSM)"
     status: mainstream
@@ -11972,6 +12153,10 @@ foundations:
     title: "MMR core (MLH1 / MSH2 / MSH6)"
     status: mainstream
     domain: dna-repair
+  - slug: mmcci-multiplatform-cci
+    title: "MMCCI - multi-platform multi-modal cell-cell interaction integration"
+    status: mainstream
+    domain: spatial omics methods
   - slug: mmp14-matrix-metalloproteinase
     title: "MMP14 — matrix metalloproteinase 14 (MT1-MMP)"
     status: mainstream
@@ -12160,6 +12345,10 @@ foundations:
     title: "Oncostatin M (OSM) — IL-6 family cytokine"
     status: mainstream
     domain: molecular-biology / immunology / cytokine
+  - slug: opal-polaris-multiplex-ihc
+    title: "Opal multiplex IHC (Vectra Polaris)"
+    status: mainstream
+    domain: molecular imaging
   - slug: openproblems-benchmark
     title: "Open Problems in Single-Cell Analysis — community benchmarking platform"
     status: mainstream
@@ -12367,6 +12556,10 @@ foundations:
     title: "Propeller — cell-type composition test for scRNAseq"
     status: mainstream
     domain: computational-biology / methods
+  - slug: proximal-ligation-assay
+    title: "Proximity Ligation Assay (PLA)"
+    status: mainstream
+    domain: molecular imaging
   - slug: pseudobulk-simulation-deconvolution
     title: "Pseudobulk / pseudotissue simulation for deconvolution training"
     status: mainstream
@@ -12782,6 +12975,10 @@ foundations:
     title: "STK11 / LKB1 — serine/threonine kinase tumor suppressor"
     status: mainstream
     domain: oncology / tumor suppressor
+  - slug: stlearn-sctp-spatial-lr
+    title: "stLearn SCTP - spatially-constrained ligand-receptor inference"
+    status: mainstream
+    domain: spatial omics methods
   - slug: sucnr1-succinate-receptor
     title: "SUCNR1 / GPR91 — succinate receptor"
     status: mainstream

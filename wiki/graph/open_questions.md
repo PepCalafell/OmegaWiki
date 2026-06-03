@@ -202,6 +202,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/identifying-spatial-single-cell-level-interactions] How does GITIII benchmark head-to-head against L–R-based tools ([[foundations/cellchat-cell-cell-communication]], [[foundations/cellphonedb-ligand-receptor]], [[foundations/nichenet-ligand-target-inference]]) and against graph-based spatial frameworks ([[concepts/graph-based-foundation-model-spatial-transcriptomics]])? (requires the primary paper)
 - [paper/identifying-spatial-single-cell-level-interactions] Does the single-layer constraint cost predictive accuracy relative to deeper transformers?
 - [paper/identifying-spatial-single-cell-level-interactions] Would GITIII's influence tensor recover TAM–cancer-cell or TAM–stromal CCI patterns relevant to hypoxic-niche biology — the thesis-relevant test?
+- [paper/integrating-12-spatial-single-cell-technologies] Which factors differentiate progressor from non-progressor actinic-keratosis/naevus lesions?
+- [paper/integrating-12-spatial-single-cell-technologies] Why are most cSCCs and BCCs less invasive than melanoma, and does differential fibroblast wiring explain it?
+- [paper/integrating-12-spatial-single-cell-technologies] Can risk loci be mechanistically attributed to keratinocyte cis-regulation of melanocytes?
+- [paper/integrating-12-spatial-single-cell-technologies] Do the cross-platform-validated markers (SOX2, CXCL9/10, CCL5, LAMP3, UBE2C) hold as KC-cancer-intrinsic in larger cohorts, controlling for immune infiltrate?
+- [paper/integrating-12-spatial-single-cell-technologies] Is CD44-FGF2 a tractable therapeutic target in functional melanoma models, beyond proximity validation?
+- [paper/integrating-12-spatial-single-cell-technologies] Does the melanoma spatial heterogeneity difference associate with clinical outcome?
 - [paper/integrative-epigenome-based-strategy-unbiased-functional] Can the approach, expanded across cell types/contexts and integrated with clinical data, predict clinical outcomes of CKIs?
 - [paper/integrative-epigenome-based-strategy-unbiased-functional] Which specific repeat elements and mediators drive CKI-induced Ifnb1 upregulation?
 - [paper/integrative-epigenome-based-strategy-unbiased-functional] How well does the H3K27ac resolution advantage over RNA-seq hold across timepoints and slower-kinetic systems?
@@ -682,6 +688,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/ccr5-modc-immunosuppressive-lymph-node-axis] Markers to distinguish suppressive vs stimulatory monocyte-derived APCs in tissue.
 - [concept/cd206hi-im-bronchovascular-chemokine-tls-niche] Whether boosting or preserving this niche enhances checkpoint blockade or vaccination in vivo.
 - [concept/cd206hi-im-bronchovascular-chemokine-tls-niche] Human translation at subset and spatial resolution.
+- [concept/cd44-ecm-axis-melanoma-invasion] Isoform-specific targeting
+- [concept/cd44-ecm-axis-melanoma-invasion] Whether disrupting CD44-FGF2 blocks invasion in vivo
 - [concept/cd8-t-cell-exhaustion-texterm] Which TEXterm-selective TFs are druggable in CAR-T or TIL therapy?
 - [concept/cd8-t-cell-exhaustion-texterm] Can KO of TEXterm-selective TFs preserve TRM formation in solid tumours, not only in viral models?
 - [concept/cell-cycle-phase-bias-malignant] Does phase bias prospectively predict response to CDK4/6 inhibitors or platinum chemotherapy?
@@ -716,6 +724,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Does anti-TNF therapy revert PERIVASC I expansion specifically?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Can PERIVASC I score be used as a transversal disease-activity biomarker?
+- [concept/cross-platform-spatial-meta-community] Statistical calibration of cross-platform community matching
+- [concept/cross-platform-spatial-meta-community] Extending to >3 platforms and modalities jointly
 - [concept/cross-species-core-macrophage-signature] Extending the core to tissue-resident macrophage ontogenies.
 - [concept/cross-species-core-macrophage-signature] Same-tissue human↔mouse comparisons in homeostasis and disease.
 - [concept/cross-species-human-mouse-cytokine-response] Isolating genuine species divergence from experimental confounders
@@ -755,6 +765,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/de-novo-lipogenesis-effector-immune-cells] SCD-MUFA selectivity for GC B cells in vaccine adjuvancy.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
+- [concept/differential-stromal-interactions-skin-cancer] Whether differential fibroblast wiring is causal for metastatic potential
+- [concept/differential-stromal-interactions-skin-cancer] Mapping fibroblast subtypes (CAF, EMT-fibroblast) to the differential interactions
 - [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Identifying the true cellular mediators behind binding/function discordances.
 - [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Building predictive bridges from binding profiles to cellular phenotype.
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Site-specific methyl-mark tracking at the Dusp4 promoter (e.g., 13C5-methionine + targeted bisulfite + LC-MS)
@@ -1187,6 +1199,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/spatial-dmt-method] Computational deconvolution to recover single-cell methylomes from multi-cellular pixels.
 - [concept/spatial-domain-detection-from-svg] Joint SVG-selection-plus-clustering frameworks that learn the spatial domain partition and the feature set simultaneously.
 - [concept/spatial-domain-detection-from-svg] Spatial domain detection on spatial ATAC-seq where SVP signal is poor (see [[concepts/spatial-atac-svp-detection-gap]]).
+- [concept/spatial-gwas-heritability-cell-type-mapping] Causal interpretation and regulatory annotation integration
+- [concept/spatial-gwas-heritability-cell-type-mapping] Power with small spatial cohorts vs large GWAS
+- [concept/spatial-multiomics-orthogonal-validation] Principled statistical frameworks for "agreement across heterogeneous assays"
+- [concept/spatial-multiomics-orthogonal-validation] Standardised cross-platform harmonisation pipelines
+- [concept/spatially-constrained-ligand-receptor-inference] Optimal neighbourhood scales across platforms
+- [concept/spatially-constrained-ligand-receptor-inference] Distinguishing autocrine/juxtacrine/paracrine modes
 - [concept/spatially-regulated-cancer-cell-states] Lineage tracing of TC ↔ LE transitions in vivo
 - [concept/spatially-regulated-cancer-cell-states] Whether state transitions are reversible under therapy (the in-silico Dynamo work suggests yes)
 - [concept/spatially-variable-gene-detection] Specialised SVP detection for spatial ATAC-seq (current SVG methods fail; see [[concepts/spatial-atac-svp-detection-gap]]).
@@ -1360,11 +1378,13 @@ _Auto-generated open questions. Do not edit._
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
+- [claim/cancer-lineage-variation-exceeds-intralineage] Transcriptomic variation between skin-cancer lineages exceeds variation within a lineage (status: weakly_supported)
 - [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
 - [claim/cci-interaction-strength-decays-distance-long] GITIII recapitulates distance-decay of CCI strength and identifies long-range interactions missed by fixed-neighbourhood methods (status: weakly_supported)
 - [claim/ccrcc-and-select-lines-resist-hypoxia-tumor-suppression] A subset of cancer cell lines, including two ccRCC lines, gain relative fitness under systemic hypoxia (status: weakly_supported)
 - [claim/cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1] Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1) (status: weakly_supported)
+- [claim/cd44-fgf2-melanoma-therapeutic-target-pla-validated] CD44 is a dominant melanoma receptor and CD44-FGF2 is a PLA-validated candidate therapeutic target (status: weakly_supported)
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/cgas-activation-negatively-associated-global-transcription] cGAS activation is negatively associated with global transcription pan-cancer (status: weakly_supported)
@@ -1375,10 +1395,12 @@ _Auto-generated open questions. Do not edit._
 - [claim/continuous-density-transport-quantifies-stepwise-progeny] Continuous density transport quantifies stepwise progeny density redistribution (status: weakly_supported)
 - [claim/continuous-flow-smooth-latent-manifold-acts] Continuous flow on a smooth latent manifold acts as an implicit denoiser without explicit imputation (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
+- [claim/cscc-spp1-integrin-bcc-wnt-angiogenesis-interactions] cSCC interactomes are enriched for SPP1-integrin/CD44 and BCC for WNT and angiogenesis pairs (status: weakly_supported)
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
 - [claim/de-novo-purine-gene-expression-correlates-fitness-hypoxia] De novo purine synthesis gene expression positively correlates with cancer cell fitness under hypoxia (status: weakly_supported)
 - [claim/de-novo-purine-synthesis-more-essential-in-vivo-than-in-vitro] De novo purine synthesis is more essential for PDAC tumor growth in vivo than in vitro (status: weakly_supported)
 - [claim/deseq2-mean-dispersion-curve-approximated-heuristic] The DESeq2 mean-dispersion curve can be approximated by a data-free order-of-magnitude band (status: weakly_supported)
+- [claim/differential-fibroblast-interactions-skin-cancers] Fibroblasts interact preferentially with T cells in keratinocyte cancers and with melanocytes in melanoma (status: weakly_supported)
 - [claim/diffusion-map-coordinates-gaussian-kde-best] Diffusion-map coordinates with Gaussian KDE best recapitulate the pseudotime density ground truth (status: weakly_supported)
 - [claim/discrete-cell-type-embeddings-structurally-preclude] Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages (status: proposed)
 - [claim/dp-thymocyte-proliferative-wave-validated-high] The DP thymocyte proliferative wave is validated by a high G2M cell-cycle fraction (status: weakly_supported)
@@ -1420,12 +1442,16 @@ _Auto-generated open questions. Do not edit._
 - [claim/irak1-irak4-inferred-upregulated-m2a-camkk2] Footprinting nominates IRAK1/IRAK4 in M2a and CAMKK2/GAK in M2c as novel immunosuppressive-state kinases (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
+- [claim/kc-cancer-ecm-remodeling-il17-signature] Keratinocyte cancer cells upregulate ECM-remodeling and IL-17 pathway genes (status: weakly_supported)
 - [claim/klf5-transcription-factor-activity-marks-f2] KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state (status: weakly_supported)
 - [claim/kupffer-cells-increase-nash-wda-stay] Kupffer cells increase in NASH and WDA but stay stable in HFD liver (status: weakly_supported)
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
 - [claim/macrophage-ogt-deletion-reduces-il-alternative] Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control (status: proposed)
 - [claim/megakaryocyte-erythroid-lineages-show-coupled-growth] Megakaryocyte and erythroid lineages show coupled growth/differentiation; neutrophils decoupled (status: weakly_supported)
+- [claim/melanoma-community-collagen-cd44-tyrosine-pyrimidine] The melanoma community shows collagen-CD44 signaling and enriched tyrosine and pyrimidine metabolism (status: weakly_supported)
+- [claim/melanoma-higher-spatial-heterogeneity-than-cscc] Melanoma shows higher spatial cell-type heterogeneity than cSCC (status: weakly_supported)
+- [claim/melanoma-immune-evasion-signature-vs-melanocytes] Melanoma cells upregulate immune-evasion and signaling genes relative to melanocytes (status: weakly_supported)
 - [claim/meps-show-transient-megakaryocyte-bias-giving] MEPs show transient megakaryocyte bias giving way to balanced erythroid-megakaryocyte output (status: weakly_supported)
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
@@ -1462,6 +1488,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
+- [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/time-dependent-flux-parameters-required-fit] Time-dependent flux parameters are required to fit 9-month in vivo haematopoiesis (status: weakly_supported)
@@ -1469,6 +1496,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/tnf-sustains-ccl19-perivasc-fibroblast] TNF is the keystone signal maintaining CCL19 expression in perivascular fibroblasts of PERIVASC I (status: weakly_supported)
 - [claim/tobacco-ahr-mtor-pdl1-immune-evasion-nsclc] Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC (status: weakly_supported)
 - [claim/topical-mrna-lnp-low-immunogenicity-confined] Topical mRNA-LNPs show minimal immunogenicity, no local inflammation on repeat dosing, and remain confined to treated skin with limited systemic dissemination (status: weakly_supported)
+- [claim/treg-fibroblast-colocalize-melanocytes-melanoma] Tregs and fibroblasts co-localize with melanocytes in melanoma communities (status: weakly_supported)
 - [claim/tumors-do-not-acquire-resistance-to-systemic-hypoxia] Tumors do not develop resistance to systemic hypoxia therapy over serial passage (status: weakly_supported)
 - [claim/type-2b-vhl-missense-mutants-enhance] Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
