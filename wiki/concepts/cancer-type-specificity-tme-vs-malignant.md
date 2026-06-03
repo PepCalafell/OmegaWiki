@@ -13,6 +13,7 @@ tags: [pan-cancer, tme, malignant, pseudobulk, batch-control, scrna-seq]
 maturity: emerging
 key_papers:
   - curated-cancer-cell-atlas-provides-comprehensive
+  - pan-cancer-tumor-classification-holistic-tumor
 first_introduced: "2025 (Tyler et al., 3CA v2)"
 date_updated: 2026-05-26
 related_concepts: [curated-cancer-cell-atlas-3ca, pan-cancer-tam-atlas-23-clusters, momac-verse-mnp-verse-atlas]

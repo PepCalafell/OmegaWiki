@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1310 total)
+## Claims (1328 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -30,13 +30,14 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (74 total)
+## Papers (75 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
 - [4] Targeting STING to generate therapeutic anti-tumor immunity (immunology)
 - [4] Metabolism of tissue macrophages in homeostasis and pathology (immunology / immunometabolism / cell biology)
+- [4] Pan-cancer tumor classification by a holistic tumor microenvironment atlas (oncology)
 - [4] Emerging strategies to investigate the biology of early cancer (oncology)
 - [4] Tumor-induced metabolic immunosuppression: Mechanisms and therapeutic targets (immunometabolism)
 - [5] Tumour hypoxia in driving genomic instability and tumour evolution (oncology)
@@ -45,14 +46,14 @@ _Auto-generated open questions. Do not edit._
 - [4] Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer (metabolism / oncology / cachexia)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
-- [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2873 total)
-  papers/integrating-12-spatial-single-cell-technologies --derived_from--> foundations/csf1r-receptor
-  papers/integrating-12-spatial-single-cell-technologies --derived_from--> foundations/spp1-secreted-phosphoprotein-1
-  papers/integrating-12-spatial-single-cell-technologies --derived_from--> foundations/cancer-associated-fibroblast
-  papers/integrating-12-spatial-single-cell-technologies --derived_from--> foundations/mapk1-3-erk1-2-kinases
-  papers/integrating-12-spatial-single-cell-technologies --supports--> claims/cscc-atlas-matched-healthy-cancer-45909-cells
-  papers/integrating-12-spatial-single-cell-technologies --supports--> claims/cancer-kc-identification-cnv-module-score
-  papers/integrating-12-spatial-single-cell-technologies --supports--> claims/snrnaseq-melanoma-reference-benign-to-invasive
-  papers/integrating-12-spatial-single-cell-technologies --supports--> claims/cancer-lineage-variation-exceeds-intralineage
-  papers/integrating-12-spatial-single-cell-technologies --su
+## Recent Relationships (2935 total)
+  papers/pan-cancer-tumor-classification-holistic-tumor --derived_from--> foundations/csf1r-receptor
+  papers/pan-cancer-tumor-classification-holistic-tumor --derived_from--> foundations/tgfb1-cytokine
+  papers/pan-cancer-tumor-classification-holistic-tumor --derived_from--> foundations/vegf
+  papers/pan-cancer-tumor-classification-holistic-tumor --derived_from--> foundations/myc-oncogene
+  papers/pan-cancer-tumor-classification-holistic-tumor --derived_from--> foundations/bone-marrow-derived-macrophage-bmdm
+  papers/pan-cancer-tumor-classification-holistic-tumor --supports--> claims/pan-cancer-single-cell-tme-atlas
+  papers/pan-cancer-tumor-classification-holistic-tumor --supports--> claims/harmony-selected-best-batch-integration-method
+  papers/pan-cancer-tumor-classification-holistic-tumor --supports--> claims/immune-activation-tme-clusters-positive-survival
+  papers/pan-cancer-tumor-classification-holistic-tumor --supports--> claims/ifit1-cxcl9-tams-distinct-ifn-ifn
+  papers/pan-ca

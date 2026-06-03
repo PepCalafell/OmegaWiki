@@ -23,6 +23,7 @@ tags:
 maturity: emerging
 key_papers:
   - spatiotemporal-analyses-pan-cancer-single-cell
+  - pan-cancer-tumor-classification-holistic-tumor
 first_introduced: "2025"
 date_updated: 2026-05-26
 related_concepts:

@@ -374,6 +374,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/pan-cancer-proteome-atlas-mass-spectrometry] Which of the 79 RNA-discordant CMS proteins are post-transcriptionally regulated vs derived from infiltrating cell populations?
 - [paper/pan-cancer-proteome-atlas-mass-spectrometry] Does CMS4 hypoxia signature predict response to hypoxia-activated prodrugs (evofosfamide, tarloxotinib)?
 - [paper/pan-cancer-proteome-atlas-mass-spectrometry] Does immune CC retain prognostic power after multivariable adjustment for stage / MSI / KRAS / BRAF?
+- [paper/pan-cancer-tumor-classification-holistic-tumor] What are the causal drivers of the immune-inactivation TME and the IFN-I duality?
+- [paper/pan-cancer-tumor-classification-holistic-tumor] Can group-matched cytokine therapies improve ICB outcomes prospectively?
+- [paper/pan-cancer-tumor-classification-holistic-tumor] How stable is the 10-group scheme as new cancer types/platforms are added?
+- [paper/pan-cancer-tumor-classification-holistic-tumor] Are IFIT1+/CXCL9+/SPP1+ TAM states terminal or interconvertible in vivo?
+- [paper/pan-cancer-tumor-classification-holistic-tumor] Do chr1q genes (ADAM15, EFNA1) causally drive LRRC15+ myCAF accumulation?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] What is the impact of anti-PD-1/PD-L1 immunotherapy on PD-L1+ TAM function and abundance in vivo?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] Are PD-L1+/− TAMs functionally equivalent in non-breast tumors (lung, HCC, urothelial)?
 - [paper/pd-l1-expressing-tumor-associated-macrophages] Do PD-L1+/− TAM functional differences hold in primary vs metastatic disease?
@@ -833,6 +838,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/holistic-tme-based-pan-cancer-tumor] Stability of the scheme as new cancer types/platforms are added.
 - [concept/hspc-differentiation-multiomics] Better LT-HSC markers across human populations.
 - [concept/hspc-differentiation-multiomics] Linking the multi-omics hierarchy to functional readouts (LTC-IC, xenografts) gene-by-gene rather than population-by-population.
 - [concept/hspc-differentiation-multiomics] Disease state perturbations (MDS, AML) projected onto this multi-omics reference.
@@ -884,6 +890,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxic-vhl-self-ubiquitination-hif1a-shielding] Whether other substrate-empty E3 ligases use analogous shielding.
 - [concept/idh1-2-mutation-2hg-immune-exclusion] Optimal sequencing of mIDH inhibitors with ICB.
 - [concept/idh1-2-mutation-2hg-immune-exclusion] Translatable 2HG biomarkers.
+- [concept/ifit1-tam-type-interferon-induced-state] Whether IFIT1+ TAMs are terminal or interconvert with CXCL9+/SPP1+ states.
 - [concept/il-18-polyfunctional-nk-cell-state] Persistence of NK-f state without continued IL-18 stimulation
 - [concept/il-18-polyfunctional-nk-cell-state] Translation to human NK cells
 - [concept/il-18-polyfunctional-nk-cell-state] Interaction with IL-18BP decoy axis
@@ -1282,6 +1289,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/tissue-specific-lineage-determining-factors-macrophage] How LDF expression interfaces with the tissue-specific enhancer landscape (Lavin 2014, Gosselin 2014).
 - [concept/tissue-specific-tam-function-context-dependence] Which tissue-derived signals (hepatocyte vs alveolar epithelium vs mammary epithelium) program the overlay?
 - [concept/tissue-specific-tam-function-context-dependence] Can the overlay be reprogrammed therapeutically to flip the functional output?
+- [concept/tme-cellular-co-occurrence-multicellular-modules] Distinguishing causally interacting modules from co-enriched but non-interacting ones.
+- [concept/tme-group-matched-cytokine-targeting-therapy] Whether group-matched cytokine therapy improves clinical outcomes when combined with ICB.
 - [concept/tnf-ccl19-perivascular-fibroblast-axis] Do anti-TNF biologics reduce CCL19+ fibroblast abundance in vivo?
 - [concept/tnf-ccl19-perivascular-fibroblast-axis] Is TNFR1 or TNFR2 the relevant receptor on perivascular fibroblasts?
 - [concept/tnf-centered-cytokine-hierarchy] Why is TNF the apex? Receptor ubiquity, kinetics, or signalling crosstalk?
@@ -1352,6 +1361,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/tumour-infiltrating-lymphocyte] Spatial determinants of TIL function (TLS proximity, hypoxic niches).
 - [concept/type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc] Whether mutation-subtype-stratified metabolic targeting (SRC/BCAT/GDH) benefits ccRCC patients.
 - [concept/type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc] Mechanistic basis of the R167Q exception.
+- [concept/type-interferon-multicellular-module-ifn1] Whether M-IFN1 causally establishes the immune-permissive niche and can be therapeutically induced.
 - [concept/variably-methylated-regions-vmr] Statistical model for VMR significance (rather than top-N heuristic).
 - [concept/variably-methylated-regions-vmr] Joint VMR / variable-accessibility / variable-gene region calling in spatial multi-omics data.
 - [concept/vhl-mccc2-leucine-catabolism-inhibition] Whether VHL similarly regulates other carboxylases/mitochondrial enzymes.
@@ -1417,6 +1427,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
 - [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
 - [claim/fos-ncor2-ppargamma-central-transcription-regulators] FOS, NCOR2, and PPARγ are central transcription regulators of the immunosuppressive M2a macrophage network (status: weakly_supported)
+- [claim/g09-chromosome-1q-cnv-associates-lrrc15] G09 stromal-centric tumors associate with chromosome 1q CNV that tracks LRRC15+ myCAF abundance (status: weakly_supported)
 - [claim/glcnacylation-dynamically-regulated-monocyte-large-cavity] O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition (status: proposed)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/haematopoiesis-shifts-early-megakaryocyte-biased-balanced] In vivo haematopoiesis shifts from early megakaryocyte-biased to balanced homeostatic output (status: weakly_supported)
@@ -1433,6 +1444,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/hypoxia-purine-suppression-tracks-myc-target-downregulation] Hypoxia-induced suppression of de novo purine synthesis tracks downregulation of Myc target genes (status: weakly_supported)
 - [claim/hypoxia-shifts-cancer-cells-toward-g1-arrest] Systemic hypoxia shifts cancer cells toward G1 arrest and reduced S-phase occupancy (status: weakly_supported)
 - [claim/hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression] HypoxyStat, a small-molecule hemoglobin-oxygen affinity modulator, recapitulates inhaled hypoxia's tumor suppression (status: weakly_supported)
+- [claim/ifit1-low-tumors-enriched-mt1x-low] IFIT1-low tumors are enriched for MT1X+ populations and low-activation T cells, marking an immune-cold state (status: weakly_supported)
+- [claim/ifn-multicellular-module-promotes-immune-permissive] The type I interferon multicellular module (M-IFN1) promotes an immune-permissive TME (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
@@ -1440,6 +1453,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/innate-immune-activation-predicts-patient-survival] Innate immune activation scores predict patient survival in a subset of TCGA cancer types (status: weakly_supported)
 - [claim/intratumor-microbes-weak-tissue-specific-association] Intratumor microbial abundance shows weak, tissue-specific associations with innate immune activation (status: weakly_supported)
 - [claim/irak1-irak4-inferred-upregulated-m2a-camkk2] Footprinting nominates IRAK1/IRAK4 in M2a and CAMKK2/GAK in M2c as novel immunosuppressive-state kinases (status: weakly_supported)
+- [claim/irf1-irf2-antagonistic-transcription-factors-control] IRF1 and IRF2 are antagonistic TFs preferentially active in CXCL9+ and IFIT1+ TAMs respectively (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
 - [claim/kc-cancer-ecm-remodeling-il17-signature] Keratinocyte cancer cells upregulate ECM-remodeling and IL-17 pathway genes (status: weakly_supported)
@@ -1448,6 +1462,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
 - [claim/macrophage-ogt-deletion-reduces-il-alternative] Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control (status: proposed)
+- [claim/matched-cytokine-pathway-inhibition-perturbs-group] Cytokine-pathway inhibition matched to a TME group specifically perturbs that group's expression signature (status: weakly_supported)
 - [claim/megakaryocyte-erythroid-lineages-show-coupled-growth] Megakaryocyte and erythroid lineages show coupled growth/differentiation; neutrophils decoupled (status: weakly_supported)
 - [claim/melanoma-community-collagen-cd44-tyrosine-pyrimidine] The melanoma community shows collagen-CD44 signaling and enriched tyrosine and pyrimidine metabolism (status: weakly_supported)
 - [claim/melanoma-higher-spatial-heterogeneity-than-cscc] Melanoma shows higher spatial cell-type heterogeneity than cSCC (status: weakly_supported)

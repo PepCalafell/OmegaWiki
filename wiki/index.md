@@ -295,6 +295,12 @@ papers:
     importance: 4
     domain: oncology
     priority: reference
+  - slug: pan-cancer-tumor-classification-holistic-tumor
+    title: "Pan-cancer tumor classification by a holistic tumor microenvironment atlas"
+    tags: [pan-cancer, tumor-microenvironment, single-cell, tumor-classification, macrophage, interferon, IFIT1-TAM, CXCL9-TAM, multicellular-module, ICB, CAF, TME-groups]
+    importance: 4
+    domain: oncology
+    priority: reference
   - slug: pd-l1-expressing-tumor-associated-macrophages
     title: "PD-L1-expressing tumor-associated macrophages are immunostimulatory and associate with good clinical outcome in human breast cancer"
     tags: [PD-L1, tumor-associated-macrophage, TAM, breast-cancer, scRNA-seq, SIGLEC15, multiplex-immunofluorescence, mIF, immunotherapy, immune-checkpoint, CD8-T-cell, IFN-gamma, ERK, macrophage-maturation, METABRIC, TCGA]
@@ -1068,6 +1074,10 @@ concepts:
     title: "HIF1α/NF-κB cooperative chromatin binding"
     tags: [transcription-factor, chromatin, hypoxia, inflammation, HIF1a, NF-kB]
     maturity: emerging
+  - slug: holistic-tme-based-pan-cancer-tumor
+    title: "Holistic TME-based pan-cancer tumor classification (10 groups, T/M/S trichotomy)"
+    tags: [pan-cancer, tme, classification, single-cell, immune-stratification]
+    maturity: emerging
   - slug: hspc-differentiation-multiomics
     title: "Human HSPC differentiation hierarchy (multi-omics view)"
     tags: [hematopoiesis, HSPC, stem-cells, bone-marrow, differentiation, single-cell]
@@ -1148,6 +1158,10 @@ concepts:
     title: "IDH1/IDH2 mutation, 2HG accumulation and immune exclusion"
     tags: [idh1, idh2, 2-hydroxyglutarate, cgas, immune-exclusion, glioma, aml, icc]
     maturity: stable
+  - slug: ifit1-tam-type-interferon-induced-state
+    title: "IFIT1+ TAM — type I interferon-induced macrophage state"
+    tags: [tam, interferon, ifit1, macrophage-state, tme]
+    maturity: emerging
   - slug: ifng-mac-cxcl9-tam-ici-responder
     title: "IFN-γ-driven CXCL9+ TAM (8_IFNGMac) — T-cell-recruiting macrophage associated with ICI response"
     tags: [TAM, 8_IFNGMac, CXCL9, CXCL10, IFN-gamma, T-cell-recruitment, ICI-response, biomarker]
@@ -2011,6 +2025,14 @@ concepts:
     title: "TLS maturation stage predicts ICI response in NSCLC"
     tags: [tls, nsclc, ici-biomarker, hypoxia, cd8-exhaustion]
     maturity: emerging
+  - slug: tme-cellular-co-occurrence-multicellular-modules
+    title: "TME cellular co-occurrence network and multicellular modules"
+    tags: [tme, co-occurrence, multicellular-module, cellular-network, spatial]
+    maturity: emerging
+  - slug: tme-group-matched-cytokine-targeting-therapy
+    title: "TME-group-matched cytokine-targeting therapy"
+    tags: [therapy, tme, cytokine, stratification, icb]
+    maturity: emerging
   - slug: tnf-ccl19-perivascular-fibroblast-axis
     title: "TNF–CCL19 perivascular-fibroblast axis sustaining skin immune-stromal crosstalk"
     tags: [skin, TNF, CCL19, fibroblast, immune-stromal, homeostasis]
@@ -2122,6 +2144,10 @@ concepts:
   - slug: type-2b-vhl-mutation-mitochondrial-gain-of-function-ccrcc
     title: "Type 2B VHL missense mutations confer mitochondrial gain-of-function in ccRCC"
     tags: [VHL, ccRCC, kidney-cancer, hypoxia, clinical-correlation]
+    maturity: emerging
+  - slug: type-interferon-multicellular-module-ifn1
+    title: "Type I interferon multicellular module (M-IFN1)"
+    tags: [multicellular-module, interferon, tme, co-occurrence, immune-niche]
     maturity: emerging
   - slug: universal-multiomics-deconvolution
     title: "Universal multi-omics deconvolution"
@@ -2315,6 +2341,9 @@ people:
   - slug: dominic-grun
     tags: [single-cell-genomics, spatial-transcriptomics, computational-biology, niche-analysis, stem-cell-biology, lineage-inference]
     affiliation: "Würzburg Institute of Systems Immunology, Julius-Maximilians-Universität Würzburg, Germany; CAIDAS Center for AI and Data Science, Würzburg, Germany"
+  - slug: dongfang-wang
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
+    affiliation: "BIOPIC, Peking University, Beijing, China"
   - slug: edward-j-pearce
     tags: [immunometabolism, macrophage, dendritic-cell, helminth-immunity, PI]
     affiliation: "Department of Molecular Microbiology and Immunology, Bloomberg School of Public Health, Johns Hopkins University; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
@@ -2453,6 +2482,9 @@ people:
   - slug: jingyi-jessica-li
     tags: [single-cell, statistics, biostatistics, computational-biology, simulation]
     affiliation: "Department of Statistics and Data Science, UCLA; Biostatistics, Fred Hutchinson Cancer Center / University of Washington"
+  - slug: jinhu-li
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
+    affiliation: "BIOPIC, Peking University, Beijing, China"
   - slug: joachim-schultze
     tags: [immunology, macrophage, systems-immunology, single-cell]
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
@@ -2501,6 +2533,9 @@ people:
   - slug: linghua-wang
     tags: [genomic-medicine, spatial-transcriptomics, lung-cancer, data-science-oncology]
     affiliation: "MD Anderson Cancer Center"
+  - slug: linnan-zhu
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
+    affiliation: "BIOPIC, Peking University, Beijing, China"
   - slug: liuqing-yang
     tags: [cancer-biology, non-coding-RNA, epigenetics]
     affiliation: "The University of Texas MD Anderson Cancer Center"
@@ -2729,6 +2764,9 @@ people:
   - slug: shenbin-liu
     tags: [neuroimmunology, sympathetic-nervous-system, atopic-dermatitis, psychological-stress, eosinophil]
     affiliation: "State Key Laboratory of Brain Function and Disorders, MOE Frontiers Center for Brain Science, Institutes of Brain Science, Department of Neurosurgery, Huashan Hospital; Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences; Institute of Acupuncture Research, Institutes of Integrative Medicine, Fudan University, Shanghai, China"
+  - slug: shishang-qin
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
+    affiliation: "BIOPIC, Peking University, Beijing, China"
   - slug: shubham-khetan
     tags: [transcription-factor, DNA-binding, PADIT-seq, regulatory-genomics, noncoding-variants]
     affiliation: "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA"
@@ -2813,6 +2851,9 @@ people:
   - slug: xiangzheng-cheng
     tags: [cell-cell-interaction, spatial-transcriptomics, computational-biology]
     affiliation: "School of Mathematics and Statistics, Wuhan University"
+  - slug: xiao-du
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
+    affiliation: "BIOPIC, Peking University, Beijing, China"
   - slug: xiaoqi-sun
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, mononuclear-phagocyte]
     affiliation: "Icahn Genomics Institute, Lipschultz Precision Immunology Institute, Department of Immunology & Immunotherapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
@@ -2852,6 +2893,9 @@ people:
   - slug: zahraa-rahal
     tags: [nsclc, tumour-microenvironment, spatial-biology]
     affiliation: "MD Anderson Cancer Center"
+  - slug: zemin-zhang
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology, immunogenomics]
+    affiliation: "BIOPIC, Peking University, Beijing; Chongqing Medical University, China"
   - slug: zhen-luo
     tags: [virology, hypoxia-signaling, HIF1A, SARS-CoV-2, viral-hepatitis, immunology]
     affiliation: "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou; Foshan Institute of Medical Microbiology, Foshan"
@@ -2960,6 +3004,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: microbiology
+  - slug: 36-gene-tme-panel-predicts-icb
+    title: "A 36-gene TME-derived panel predicts ICB response with superior AUC across multiple bulk cohorts"
+    tags: [icb, biomarker, gene-panel, quantitative, methodological]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: 6d-tam-atlas-rational-design
     title: "A 6D TAM atlas (causal drivers / spatial niches / temporal dynamics / signaling state / metabolism / ontogeny) is required for rational TAM-targeted therapy design"
     tags: [framework, tumor-associated-macrophage, translational-oncology, atlas]
@@ -3830,6 +3880,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: cancer-types-distribute-across-tme-groups
+    title: "Most cancer types distribute across multiple TME groups rather than mapping one-to-one to tissue of origin"
+    tags: [tme, classification, pan-cancer, heterogeneity, correlational]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: capendo-rgcc-tumor-enriched-vegfa-angpt1-regulated
     title: "capEndo_RGCC tumor-enriched angiogenic capillary endothelial subtype is inferred to be regulated by VEGFA, ANGPT1, FGF2, TGFB1, TGFA, TNF"
     tags: [endothelial, angiogenesis, rgcc, vegfa, angpt1, tgfb1, nichenet, tme]
@@ -4616,6 +4672,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / oncology / cytokine-signaling
+  - slug: cxcl9-ifit1-macrophages-spatially-segregated-distinct
+    title: "CXCL9+ and IFIT1+ macrophages are spatially segregated and show distinct chromatin accessibility"
+    tags: [tam, spatial, scatac, interferon, correlational]
+    status: supported
+    confidence: 0.7
+    domain: immunology
   - slug: cxcl9-spp1-tam-ratio-ici-response-nsclc
     title: "Low CXCL9:SPP1 macrophage ratio predicts ICI resistance and poor prognosis across solid tumours including NSCLC"
     tags: [tam, cxcl9, spp1, ici-biomarker]
@@ -5468,6 +5530,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: methods
+  - slug: g09-chromosome-1q-cnv-associates-lrrc15
+    title: "G09 stromal-centric tumors associate with chromosome 1q CNV that tracks LRRC15+ myCAF abundance"
+    tags: [cnv, caf, g09, genetics, correlational]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
   - slug: galectin-3-ros-nfkb-hypoxic-tam-not-hif1a
     title: "Galectin-3 in hypoxic TAMs is regulated by ROS-NF-κB rather than HIF-1α"
     tags: [Galectin-3, LGALS3, ROS, NF-κB, HIF1A, hypoxic-TAM, VEGFA, angiogenesis, non-canonical-regulation]
@@ -5660,6 +5728,12 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: haematopoiesis
+  - slug: harmony-selected-best-batch-integration-method
+    title: "Harmony was the best batch-integration method for the pan-cancer TME atlas by scIB benchmark"
+    tags: [integration, harmony, scib, methods, methodological]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: harmony-simple-tasks-only
     title: "Harmony performs well on simple scRNA-seq integration tasks but ranks outside the top third on atlas-complexity tasks"
     tags: [data-integration, scRNA-seq, Harmony, benchmarking]
@@ -5984,6 +6058,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: cancer epigenetics
+  - slug: holistic-tme-composition-stratifies-tumors-into
+    title: "Holistic TME cellular composition stratifies pan-cancer tumors into 10 stable groups along a T/myeloid/stromal trichotomy"
+    tags: [tme, classification, pan-cancer, trichotomy, methodological]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: hsc-derived-macrophages-short-lived-monocyte
     title: "HSC-derived macrophages are short-lived and depend on circulating monocytes for renewal, contrasting with self-renewing TRMs"
     tags: [macrophage, bmdm, hsc, monocyte, self-renewal, turnover, immunology]
@@ -6446,6 +6526,24 @@ claims:
     status: challenged
     confidence: 0.7
     domain: immunometabolism
+  - slug: ifit1-cxcl9-tams-distinct-ifn-ifn
+    title: "IFIT1+ and CXCL9+ TAMs are two distinct IFN-related macrophage states induced by IFN-I and IFN-gamma"
+    tags: [tam, interferon, ifit1, cxcl9, mechanistic]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ifit1-high-status-alone-does-equal
+    title: "IFIT1-high (type I IFN) status alone does not equal an immune-hot tumor phenotype"
+    tags: [interferon, tme, immune-evasion, duality, mechanistic]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: ifit1-low-tumors-enriched-mt1x-low
+    title: "IFIT1-low tumors are enriched for MT1X+ populations and low-activation T cells, marking an immune-cold state"
+    tags: [tme, immune-cold, metallothionein, correlational]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: ifn-beta-partially-rescues-context-deprivation-except-stat1beta
     title: "IFN-β stimulation partially rescues context-deprivation transcriptional changes, except for STAT1β-dependent genes"
     tags: [ifn-beta, rescue, ex-vivo, jak-stat, stat1beta, isoform-specific]
@@ -6457,6 +6555,12 @@ claims:
     tags: [secondary-response, IFN-gamma, NK, monocyte, cascade, IL-12]
     status: supported
     confidence: 0.85
+    domain: immunology
+  - slug: ifn-multicellular-module-promotes-immune-permissive
+    title: "The type I interferon multicellular module (M-IFN1) promotes an immune-permissive TME"
+    tags: [tme, multicellular-module, interferon, mechanistic]
+    status: weakly_supported
+    confidence: 0.65
     domain: immunology
   - slug: ifnalpha-ifnbeta-induce-common-autonomous-antiviral
     title: "IFNα1 and IFNβ induce a common autonomous antiviral programme across nearly all immune cell types"
@@ -6626,6 +6730,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: immune-activation-tme-clusters-positive-survival
+    title: "Adaptive-immune TME clusters track favorable prognosis while ECM/vascular clusters track poor prognosis"
+    tags: [tme, prognosis, survival, icb, correlational]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: immune-cc-predicts-rfs-better-than-cms-crc
     title: "Proteome immune consensus cluster predicts recurrence-free survival in stage-2 CRC more significantly than CMS classification"
     tags: [crc, immune-cc, rfs, prognosis, cms, stage-2]
@@ -6757,6 +6867,12 @@ claims:
     tags: [IREA, cytokine-inference, polarization-inference, scRNA-seq, methodology]
     status: supported
     confidence: 0.9
+    domain: immunology
+  - slug: irf1-irf2-antagonistic-transcription-factors-control
+    title: "IRF1 and IRF2 are antagonistic TFs preferentially active in CXCL9+ and IFIT1+ TAMs respectively"
+    tags: [tam, transcription-factor, irf1, irf2, mechanistic]
+    status: weakly_supported
+    confidence: 0.65
     domain: immunology
   - slug: irf9-isgf3-independent-target-regulation
     title: "IRF9 regulates target genes (Rdh14, Tprkb, Usb1, etc.) independent of STAT1 and STAT2 / ISGF3"
@@ -7244,6 +7360,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: protein-engineering / pharmacology
+  - slug: matched-cytokine-pathway-inhibition-perturbs-group
+    title: "Cytokine-pathway inhibition matched to a TME group specifically perturbs that group's expression signature"
+    tags: [therapy, cytokine, csf1r, tgfb, vegf, pharmacological]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: mccc2-depletion-phenocopies-vhl-growth-promotion
     title: "MCCC2 depletion phenocopies VHL-mediated growth promotion in hypoxia but not normoxia"
     tags: [hypoxia, VHL, MCCC2, cell-growth, phenocopy, methodological]
@@ -8306,6 +8428,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: clinical oncology / bulk transcriptomics
+  - slug: pan-cancer-single-cell-tme-atlas
+    title: "Pan-cancer single-cell TME atlas spans 4.6M cells across 24 cancer types"
+    tags: [tme, atlas, scRNA-seq, pan-cancer, quantitative]
+    status: supported
+    confidence: 0.9
+    domain: oncology
   - slug: pan-cancer-tam-atlas-363k-cells-23-clusters
     title: "Pan-cancer TAM atlas integrates 363,315 cells from 32 studies and 17 cancer types into 23 Louvain clusters"
     tags: [TAM, scRNA-seq, pan-cancer, atlas, clustering, Seurat]
@@ -9434,6 +9562,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: spp1-tams-express-m2-pro-tumoral
+    title: "SPP1+ TAMs express M2-related pro-tumoral programs including hypoxia response, ECM remodeling, and angiogenesis"
+    tags: [tam, spp1, m2, hypoxia, mechanistic]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: square-root-wald-statistic-equals-lfc
     title: "The square-root Wald statistic equals the LFC divided by its standard error"
     tags: [wald-test, deseq2, statistics, power-analysis]
@@ -9986,6 +10120,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: hypoxia
+  - slug: tme-groups-g01-g10-distinct-cellular
+    title: "The 10 TME groups (G01-G10) have distinct cellular compositions mapping to T-, M-, and S-centric phenotypes"
+    tags: [tme, classification, caf, tam, correlational]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: tnbc-cgas-sting-il6-stat3-tocilizumab-synergy
     title: "In CIN-high TNBC, cGAS-STING-NF-κB-IL-6-STAT3 drives survival; tocilizumab + STING activation selectively impairs growth"
     tags: [tnbc, cgas-sting, il6, stat3, tocilizumab, cin]
@@ -10052,6 +10192,12 @@ claims:
     status: weakly_supported
     confidence: 0.7
     domain: drug delivery / safety
+  - slug: tosica-transfers-atlas-labels-validation-set
+    title: "TOSICA transfers core-atlas cell labels to an independent validation set with 0.94 mean probability"
+    tags: [annotation, transformer, validation, methodological, quantitative]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: tp53-mutant-human-gastric-organoids-show
     title: "TP53-mutant human gastric organoids show clonal evolution and CNV accumulation over 2 years of culture"
     tags: [methodological, oncology]
@@ -10634,6 +10780,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: methods / dermatology
+  - slug: vitro-bmdm-ifn-gamma-induces-cxcl9
+    title: "IFN-gamma induces CXCL9 and IFN-I induces IFIT1 in human bone-marrow-derived macrophages"
+    tags: [tam, bmdm, interferon, validation, methodological]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: vmr-hypomethylation-correlates-cluster-specific-expression
     title: "Spatial cluster-specific gene expression is frequently associated with low DNA methylation at neighbouring VMRs (Runx2 craniofacial, Mapt brain, Trim55 heart)"
     tags: [VMR, DNA-methylation, gene-expression, embryogenesis]
@@ -10993,6 +11145,10 @@ foundations:
     title: "Cancer cachexia"
     status: mainstream
     domain: oncology / metabolic disease
+  - slug: cancer-finder
+    title: "Cancer-Finder"
+    status: mainstream
+    domain: single-cell genomics / malignant cell identification
   - slug: candida-albicans-fungus
     title: "Candida albicans (opportunistic fungal pathogen)"
     status: mainstream
@@ -11099,6 +11255,10 @@ foundations:
     title: "cellRank — Markov-chain trajectory and fate-mapping for single-cell data"
     status: mainstream
     domain: methods / trajectory-inference
+  - slug: celltypist
+    title: "CellTypist"
+    status: mainstream
+    domain: single-cell genomics / cell-type annotation
   - slug: cemiplimab
     title: "Cemiplimab — anti-PD-1 monoclonal antibody"
     status: mainstream
@@ -11227,6 +11387,10 @@ foundations:
     title: "CXCL8 / IL-8 — interleukin-8 chemokine"
     status: mainstream
     domain: molecular-biology / immunology / chemokine
+  - slug: cxcl9-chemokine
+    title: "CXCL9 (MIG, monokine induced by gamma interferon)"
+    status: mainstream
+    domain: immunology / chemokines
   - slug: cyclic-di-gmp
     title: "Cyclic di-GMP (c-di-GMP)"
     status: mainstream
@@ -11239,6 +11403,10 @@ foundations:
     title: "In vivo cytokine perturbation scRNA-seq (lymph-node injection)"
     status: mainstream
     domain: immunology / methods / single-cell
+  - slug: cytosig
+    title: "CytoSig"
+    status: mainstream
+    domain: single-cell genomics / cytokine signaling inference
   - slug: cytosine-base-editor
     title: "Cytosine base editor (CBE)"
     status: mainstream
@@ -11710,6 +11878,10 @@ foundations:
     title: "IDO1 — Indoleamine 2,3-dioxygenase 1"
     status: mainstream
     domain: immunometabolism
+  - slug: ifit1
+    title: "IFIT1 (Interferon-induced protein with tetratricopeptide repeats 1)"
+    status: mainstream
+    domain: immunology / interferon-stimulated genes
   - slug: ifn-gamma-cytokine
     title: "IFNγ (Interferon gamma)"
     status: mainstream
@@ -11830,6 +12002,14 @@ foundations:
     title: "IREA — Immune Response Enrichment Analysis"
     status: mainstream
     domain: immunology / bioinformatics
+  - slug: irf1
+    title: "IRF1 (Interferon regulatory factor 1)"
+    status: mainstream
+    domain: immunology / transcription factors
+  - slug: irf2
+    title: "IRF2 (Interferon regulatory factor 2)"
+    status: mainstream
+    domain: immunology / transcription factors
   - slug: irf3-interferon-regulatory-factor-3
     title: "IRF3 — interferon regulatory factor 3"
     status: mainstream
@@ -13099,6 +13279,10 @@ foundations:
     title: "TOM22 / TOM complex — translocase of the outer mitochondrial membrane"
     status: mainstream
     domain: cell biology / mitochondrial protein import
+  - slug: tosica
+    title: "TOSICA"
+    status: mainstream
+    domain: single-cell genomics / reference-based annotation
   - slug: totalvi-cite-seq-modeling
     title: "totalVI — paired probabilistic modeling for CITE-seq"
     status: mainstream

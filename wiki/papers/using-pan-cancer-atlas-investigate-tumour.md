@@ -482,6 +482,7 @@ This is a high-utility resource paper: a TAM-specific pan-cancer atlas at 23-clu
 - [[foundations/scrna-seq-10x-chromium]]
 - [[papers/pd-l1-expressing-tumor-associated-macrophages]]
 - [[papers/cross-tissue-single-cell-landscape-human]]
+- [[papers/pan-cancer-tumor-classification-holistic-tumor]]
 - [[people/alexander-coulton]]
 - [[people/kevin-litchfield]]
 - [[people/claire-e-lewis]]

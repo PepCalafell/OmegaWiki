@@ -351,6 +351,7 @@ Caveats: ST spot resolution limits cellular-level claims; NicheNet inference is 
 - [[papers/cellcharter-reveals-spatial-cell-niches-associated]]
 - [[papers/cross-tissue-single-cell-landscape-human]]
 - [[papers/curated-cancer-cell-atlas-provides-comprehensive]]
+- [[papers/pan-cancer-tumor-classification-holistic-tumor]]
 - [[people/ya-han]]
 - [[people/qiu-wu]]
 - [[people/chenfei-wang]]

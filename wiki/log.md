@@ -83,3 +83,4 @@
 ## [2026-06-03] ingest | added papers/pseudodynamics-reconstructing-population-dynamics-time-resolved | updated: 7 concepts, 11 foundations, 18 claims, people/berthold-gottgens, people/weizhong-zheng, people/fabian-theis, papers/cellrank-consistent-data-view-agnostic-fate (cited_by)
 ## [2026-06-03] ingest | added papers/reconstructing-developmental-disease-progression-sample-level (scSLIDE, Satija lab) | concepts: sample-level-embedding, landmark-based-density-estimation, continuous-disease-progression-modeling | +8 foundations | +20 claims | +3 people
 ## [2026-06-03] ingest | added papers/integrating-12-spatial-single-cell-technologies | +20 claims, +6 concepts, +8 foundations, +5 people, +51 edges (skin cancer spatial multiomics atlas, bioRxiv 2025)
+## [2026-06-03] ingest | added papers/pan-cancer-tumor-classification-holistic-tumor | +18 claims, +5 concepts, +8 foundations, +6 people, +62 edges; updated key_papers on 5 concepts; reverse Related on 2 papers

@@ -19,6 +19,7 @@ maturity: active
 key_papers:
   - tumour-microenvironment-crosstalk-nsclc-progression-response
   - macrophages-targets-next-generation-cancer-immunotherapy
+  - pan-cancer-tumor-classification-holistic-tumor
 first_introduced: 2023
 date_updated: 2026-05-27
 related_concepts:
