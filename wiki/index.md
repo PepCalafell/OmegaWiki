@@ -1,6 +1,12 @@
 # Wiki Index
 
 papers:
+  - slug: integrative-epigenome-based-strategy-unbiased-functional
+    title: "An integrative epigenome-based strategy for unbiased functional profiling of clinical kinase inhibitors"
+    tags: [kinase-inhibitors, polypharmacology, H3K27ac, epigenomics, macrophages, inflammation, TLR4, IL-4, JAK-inhibitors, TBK1, IRF3, interferon, drug-repurposing, machine-learning, kinobeads, viral-mimicry]
+    importance: 3
+    domain: methods / immunology / epigenetics
+    priority: context
   - slug: genomic-investigation-innate-sensing-pathways-tumor
     title: "Genomic investigation of innate sensing pathways in the tumor microenvironment"
     tags: [innate-immunity, cGAS-STING, TCGA, ssGSEA, tumor-microenvironment, PHF2, PHF8, intratumor-microbiome, colorectal-cancer]
@@ -422,6 +428,30 @@ papers:
     priority: context
 
 concepts:
+  - slug: epigenome-based-functional-profiling-kinase-inhibitors
+    title: "Epigenome-based functional profiling of kinase inhibitors"
+    tags: [kinase-inhibitors, epigenomics, H3K27ac, drug-profiling, macrophages, methods]
+    maturity: emerging
+  - slug: polypharmacology-clinical-kinase-inhibitors
+    title: "Polypharmacology of clinical kinase inhibitors"
+    tags: [kinase-inhibitors, polypharmacology, off-target, drug-selectivity, pharmacology]
+    maturity: active
+  - slug: h3k27ac-functional-readout-signaling-perturbation
+    title: "H3K27ac as a high-resolution functional readout of signaling perturbation"
+    tags: [H3K27ac, epigenomics, signaling, enhancers, readout]
+    maturity: emerging
+  - slug: discordance-between-vitro-kinase-inhibitor-selectivity
+    title: "Discordance between in vitro kinase-inhibitor selectivity and cellular effects"
+    tags: [kinase-inhibitors, drug-selectivity, kinobeads, target-engagement, pharmacology]
+    maturity: active
+  - slug: cki-induced-retroelement-activation-drives-interferon
+    title: "Kinase-inhibitor-induced retroelement activation driving interferon response"
+    tags: [kinase-inhibitors, viral-mimicry, endogenous-retrovirus, interferon, Ifnb1, off-target]
+    maturity: emerging
+  - slug: drug-repurposing-kinase-inhibitors-control-inflammation
+    title: "Repurposing clinical kinase inhibitors to control inflammation"
+    tags: [kinase-inhibitors, drug-repurposing, inflammation, macrophages, therapeutics]
+    maturity: emerging
   - slug: innate-immune-pathway-ssgsea-immunophenotyping-pan
     title: "ssGSEA immunophenotyping of innate sensing pathways (pan-cancer)"
     tags: [innate-immunity, ssGSEA, pan-cancer, immunophenotyping, TCGA, PRR]
@@ -2056,6 +2086,12 @@ concepts:
 topics:
 
 people:
+  - slug: francesco-gualdrini
+    tags: [macrophages, epigenomics, H3K27ac, signaling, kinase-inhibitors, inflammation]
+    affiliation: "Department of Experimental Oncology, IEO, European Institute of Oncology IRCCS, Milan, Italy"
+  - slug: gioacchino-natoli
+    tags: [macrophages, enhancers, inflammation, chromatin, transcription-factors, innate-immunity]
+    affiliation: "Department of Experimental Oncology, IEO, European Institute of Oncology IRCCS, Milan, Italy"
   - slug: gabriella-quinn
     tags: [immunology, innate-immunity, cancer, bioinformatics, cGAS-STING]
     affiliation: "UT Southwestern Medical Center, Dallas, TX, USA"
@@ -2722,6 +2758,96 @@ ideas:
 experiments:
 
 claims:
+  - slug: h3k27ac-chip-seq-mfa-deconvolution-unbiased
+    title: "Genome-wide H3K27ac with MFA deconvolution is an unbiased functional readout of kinase-inhibitor effects on macrophages"
+    tags: [methodological, H3K27ac, kinase-inhibitors, macrophages]
+    status: supported
+    confidence: 0.8
+    domain: methods / epigenomics
+  - slug: h3k27ac-perturbed-least-one-cki-most
+    title: "H3K27ac is perturbed by at least one CKI at ~85% of LPS- and ~89% of IL-4-regulated CREs"
+    tags: [quantitative, H3K27ac, kinase-inhibitors, CRE]
+    status: supported
+    confidence: 0.85
+    domain: epigenomics
+  - slug: ckis-identical-designated-targets-produce-divergent
+    title: "CKIs with identical designated targets produce largely divergent epigenomic effects"
+    tags: [mechanistic, correlational, kinase-inhibitors, polypharmacology]
+    status: supported
+    confidence: 0.85
+    domain: pharmacology / epigenomics
+  - slug: h3k27ac-captures-cki-functional-similarity-higher
+    title: "H3K27ac captures CKI functional similarity at higher resolution than RNA-seq"
+    tags: [methodological, H3K27ac, RNA-seq, resolution]
+    status: supported
+    confidence: 0.75
+    domain: methods / epigenomics
+  - slug: kinobeads-target-assignment-improves-cki-selectivity
+    title: "Kinobeads target assignment improves CKI selectivity profiling over clinical annotations, but cellular effects reflect on+off-target combinations"
+    tags: [correlational, kinobeads, kinase-inhibitors, selectivity]
+    status: supported
+    confidence: 0.8
+    domain: pharmacology / chemoproteomics
+  - slug: per-cki-xgboost-classifiers-predict-downregulatory
+    title: "Per-CKI XGBoost classifiers predict downregulatory H3K27ac effects from TF occupancy better than upregulatory effects"
+    tags: [methodological, machine-learning, transcription-factors, H3K27ac]
+    status: supported
+    confidence: 0.75
+    domain: methods / machine learning
+  - slug: each-jak-inhibitor-induces-unique-spectrum
+    title: "Each JAK inhibitor induces a unique epigenomic/transcriptional spectrum dominated by off-target activity"
+    tags: [mechanistic, JAK-inhibitors, off-target, polypharmacology]
+    status: supported
+    confidence: 0.8
+    domain: pharmacology / epigenomics
+  - slug: only-filgotinib-momelotinib-reduce-lps-induced
+    title: "At kinobeads EC50, only Filgotinib and Momelotinib significantly reduce LPS-induced STAT1 phosphorylation"
+    tags: [pharmacological, quantitative, JAK-inhibitors, p-STAT1]
+    status: supported
+    confidence: 0.85
+    domain: pharmacology / immunology
+  - slug: filgotinib-tofacitinib-inhibit-ifn-signaling-despite
+    title: "Filgotinib and Tofacitinib inhibit IFN signaling despite no detectable JAK binding in kinobeads"
+    tags: [pharmacological, JAK-inhibitors, binding-function-discordance, interferon]
+    status: supported
+    confidence: 0.75
+    domain: pharmacology
+  - slug: momelotinib-uniquely-reduces-ifnb1-expression-among
+    title: "Momelotinib uniquely reduces Ifnb1 expression among JAK inhibitors via TBK1 inhibition"
+    tags: [mechanistic, JAK-inhibitors, TBK1, Ifnb1]
+    status: supported
+    confidence: 0.8
+    domain: pharmacology / innate immunity
+  - slug: several-ckis-unexpectedly-upregulate-ifnb1-gene
+    title: "Several CKIs unexpectedly upregulate Ifnb1 expression, some via IRF3-bound CRE hyperactivation"
+    tags: [pharmacological, Ifnb1, interferon, off-target, IRF3]
+    status: supported
+    confidence: 0.8
+    domain: pharmacology / innate immunity
+  - slug: ckis-upregulate-ifnb1-induce-transposable-element
+    title: "CKIs that upregulate Ifnb1 induce transposable-element expression, suggesting viral mimicry"
+    tags: [mechanistic, viral-mimicry, endogenous-retrovirus, Ifnb1]
+    status: weakly_supported
+    confidence: 0.6
+    domain: innate immunity / genomics
+  - slug: midostaurin-inhibits-ifnb1-induction-binding-stabilizing
+    title: "Midostaurin inhibits Ifnb1 induction by binding and stabilizing TBK1, confirmed by CETSA"
+    tags: [mechanistic, pharmacological, TBK1, Ifnb1, CETSA]
+    status: supported
+    confidence: 0.8
+    domain: pharmacology / innate immunity
+  - slug: midostaurin-momelotinib-produce-near-identical-epigenomic
+    title: "Midostaurin and Momelotinib produce near-identical epigenomic effects via the TBK1/IKBKE paralog pair"
+    tags: [mechanistic, TBK1, IKBKE, kinase-inhibitors]
+    status: supported
+    confidence: 0.8
+    domain: pharmacology / innate immunity
+  - slug: cki-effects-ifnb1-induction-translate-mouse
+    title: "CKI effects on IFNB1 induction translate from mouse macrophages to human THP-1 cells"
+    tags: [methodological, translation, human, IFNB1, THP-1]
+    status: supported
+    confidence: 0.75
+    domain: pharmacology / immunology
   - slug: custom-ssgsea-ontology-recapitulates-innate-immune
     title: "A custom 5-pathway ssGSEA ontology recapitulates innate immune activation by viral and bacterial stimuli"
     tags: [ssGSEA, innate-immunity, methodological, validation]
@@ -10148,6 +10274,50 @@ claims:
 Summary:
 
 foundations:
+  - slug: multiple-factor-analysis
+    title: "Multiple Factor Analysis (MFA)"
+    status: mainstream
+    domain: statistics / multivariate analysis / methods
+  - slug: kinobeads-chemoproteomic-selectivity-profiling
+    title: "Kinobeads chemoproteomic selectivity profiling (and CATDS score)"
+    status: mainstream
+    domain: chemoproteomics / drug profiling / methods
+  - slug: xgboost-gradient-boosting
+    title: "XGBoost — gradient-boosted decision trees"
+    status: mainstream
+    domain: machine learning / methods
+  - slug: shap-feature-attribution
+    title: "SHAP — Shapley additive feature attribution"
+    status: mainstream
+    domain: machine learning / interpretability / methods
+  - slug: cetsa-cellular-thermal-shift-assay
+    title: "CETSA — cellular thermal shift assay"
+    status: mainstream
+    domain: biophysics / target engagement / methods
+  - slug: h3k27ac-histone-acetylation-mark
+    title: "H3K27ac — histone H3 lysine-27 acetylation"
+    status: mainstream
+    domain: epigenetics / chromatin biology
+  - slug: midostaurin
+    title: "Midostaurin (PKC412, Rydapt)"
+    status: mainstream
+    domain: pharmacology / kinase inhibitors
+  - slug: momelotinib
+    title: "Momelotinib (CYT387, Ojjaara)"
+    status: mainstream
+    domain: pharmacology / kinase inhibitors
+  - slug: filgotinib
+    title: "Filgotinib (GLPG0634, Jyseleca)"
+    status: mainstream
+    domain: pharmacology / kinase inhibitors
+  - slug: ikbke-ikk-epsilon-kinase
+    title: "IKBKE (IKKε) — inhibitor of NF-κB kinase subunit epsilon"
+    status: mainstream
+    domain: cell signaling / innate immunity
+  - slug: endogenous-retrovirus-viral-mimicry
+    title: "Endogenous retroviruses and viral mimicry"
+    status: mainstream
+    domain: genomics / innate immunity
   - slug: phf2-histone-demethylase
     title: "PHF2 — PHD finger protein 2 (Jumonji-C histone demethylase)"
     status: mainstream

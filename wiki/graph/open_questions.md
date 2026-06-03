@@ -202,6 +202,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/identifying-spatial-single-cell-level-interactions] How does GITIII benchmark head-to-head against L–R-based tools ([[foundations/cellchat-cell-cell-communication]], [[foundations/cellphonedb-ligand-receptor]], [[foundations/nichenet-ligand-target-inference]]) and against graph-based spatial frameworks ([[concepts/graph-based-foundation-model-spatial-transcriptomics]])? (requires the primary paper)
 - [paper/identifying-spatial-single-cell-level-interactions] Does the single-layer constraint cost predictive accuracy relative to deeper transformers?
 - [paper/identifying-spatial-single-cell-level-interactions] Would GITIII's influence tensor recover TAM–cancer-cell or TAM–stromal CCI patterns relevant to hypoxic-niche biology — the thesis-relevant test?
+- [paper/integrative-epigenome-based-strategy-unbiased-functional] Can the approach, expanded across cell types/contexts and integrated with clinical data, predict clinical outcomes of CKIs?
+- [paper/integrative-epigenome-based-strategy-unbiased-functional] Which specific repeat elements and mediators drive CKI-induced Ifnb1 upregulation?
+- [paper/integrative-epigenome-based-strategy-unbiased-functional] How well does the H3K27ac resolution advantage over RNA-seq hold across timepoints and slower-kinetic systems?
+- [paper/integrative-epigenome-based-strategy-unbiased-functional] Could a functional epigenomic readout be used to re-annotate CKI targets beyond binding assays?
+- [paper/integrative-epigenome-based-strategy-unbiased-functional] Is dsRNA sensing (RIG-I/MDA5) required for the proposed viral-mimicry Ifnb1 induction?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What is the role of perturbed baseline JAK-STAT signaling in human disease (inborn errors of immunity, inflammatory disorders, cancer)?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Which specific cell-extrinsic ligands and source cell types trigger baseline JAK-STAT in the spleen tissue context?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What non-ISGF3 protein complexes does IRF9 form to regulate ISGF3-independent targets?
@@ -686,6 +691,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
 - [concept/chronic-sting-noncanonical-nfkb-cin] Whether biasing STING output toward canonical IRF3 (e.g., via dose, schedule, or co-treatment) can convert pro-tumor chronic activation into antitumor acute activation
 - [concept/chronic-sting-noncanonical-nfkb-cin] IL-6/IL-6R blockade (tocilizumab, siltuximab) as a STING-pathway-directed combination strategy
+- [concept/cki-induced-retroelement-activation-drives-interferon] Which off-target kinase(s) cause the derepression for each implicated CKI.
+- [concept/cki-induced-retroelement-activation-drives-interferon] Clinical relevance of drug-induced viral mimicry for efficacy and toxicity.
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Tissue-of-origin specificity: does the same set of 403 CpGs apply outside MACs?
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether C2 expansion (more CpGs) defines a "stronger" mMAC1 phenotype or different in vivo subsets.
@@ -734,6 +741,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/de-novo-lipogenesis-effector-immune-cells] SCD-MUFA selectivity for GC B cells in vaccine adjuvancy.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
+- [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Identifying the true cellular mediators behind binding/function discordances.
+- [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Building predictive bridges from binding profiles to cellular phenotype.
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Site-specific methyl-mark tracking at the Dusp4 promoter (e.g., 13C5-methionine + targeted bisulfite + LC-MS)
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] The molecular mechanism of DNMT3A dependence in the PGE2-EP2/4 → p-CREB1 step
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Whether AC-derived methionine routes preferentially to nuclear SAM pools near DNMT3A vs cytoplasmic pools
@@ -742,6 +751,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/donor-baseline-interferon-signaling-heterogeneity] Genetic / demographic determinants of the interferon-high state
 - [concept/donor-baseline-interferon-signaling-heterogeneity] Whether the baseline state predicts disease susceptibility or therapy response
 - [concept/donor-baseline-interferon-signaling-heterogeneity] How many distinct baseline immune "setpoints" exist at population scale
+- [concept/drug-repurposing-kinase-inhibitors-control-inflammation] Translating macrophage epigenomic signatures into predicted clinical anti-inflammatory benefit.
+- [concept/drug-repurposing-kinase-inhibitors-control-inflammation] Balancing desired anti-inflammatory effects against off-target interferon induction.
 - [concept/dubious-versus-trustworthy-metacell-statistical-definition] Recursive re-partitioning of dubious metacells into trustworthy ones (vs simply discarding them).
 - [concept/dubious-versus-trustworthy-metacell-statistical-definition] A from-scratch partitioning method that produces only trustworthy metacells by construction.
 - [concept/e3-ligase-protac-tumor-selectivity] Demonstrate tumour-selective degradation in vivo using a HERC5- or RNF5-recruiting PROTAC.
@@ -756,6 +767,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/eif5a-selective-translation-cell-adhesion-mrnas] A predictive model of hypusine-dependent transcripts from sequence alone.
 - [concept/epigenetic-cgas-sting-silencing-immune-evasion] Predictive cutoffs for cGAS/STING protein staining as a biomarker
 - [concept/epigenetic-cgas-sting-silencing-immune-evasion] Whether epigenetic derepression alone is sufficient or always needs a co-stimulus (STING agonist, radiation, MPS1 inhibitor)
+- [concept/epigenome-based-functional-profiling-kinase-inhibitors] Integrating multiple cell types/contexts and clinical efficacy/toxicity data to predict clinical outcomes.
+- [concept/epigenome-based-functional-profiling-kinase-inhibitors] Disentangling combinatorial on-/off-target contributions to a measured H3K27ac signature.
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Are these niches reversible by inflammation resolution agents (e.g., resolvins) rather than blockade?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Which precursor lesions carry an active niche versus a resolved one, and can imaging (IL1R1 IF) stratify them?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
@@ -774,6 +787,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Is the senescence-like phenotype of Ogt-deficient LCMs reversible by restoring O-GlcNAc?
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Does the same axis operate in tumour-associated macrophages and hypoxic niches?
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
+- [concept/h3k27ac-functional-readout-signaling-perturbation] Whether the resolution advantage generalizes across cell types and slower-kinetic systems.
 - [concept/hepatic-trem2-protective-tam-program] Which subset of the 209 liver-specific genes is causally responsible for the protective phenotype?
 - [concept/hepatic-trem2-protective-tam-program] Does the program persist outside HCC (e.g., hepatic metastases of non-liver primaries)?
 - [concept/hepatic-trem2-protective-tam-program] Is the program reversible by chronic-inflammation context (NASH, fibrosis)?
@@ -1093,6 +1107,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/physiological-versus-pathological-hypoxia-immunological-niche] Quantitative thresholds (pO₂, duration, oscillation frequency) that separate homeostatic from pathological HIF responses in vivo.
 - [concept/polyamine-hypusine-axis-macrophage-residency] How tissue polyamine availability tunes the axis in health, age and disease.
 - [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
+- [concept/polypharmacology-clinical-kinase-inhibitors] Predicting which off-targets drive efficacy vs toxicity for a given indication.
+- [concept/polypharmacology-clinical-kinase-inhibitors] Systematic functional (not just binding) deconvolution of polypharmacology.
 - [concept/power-analysis-research-fraud-detector] Automating plausibility screening at scale with acceptable false-positive rates.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
@@ -1329,6 +1345,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
 - [claim/cgas-activation-negatively-associated-global-transcription] cGAS activation is negatively associated with global transcription pan-cancer (status: weakly_supported)
+- [claim/ckis-upregulate-ifnb1-induce-transposable-element] CKIs that upregulate Ifnb1 induce transposable-element expression, suggesting viral mimicry (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
 - [claim/colorectal-innate-activation-associated-mutation-burden] In colorectal cancer, high innate immune activation associates with mutation burden, MUC16 mutation, and exhaustion markers (status: weakly_supported)
 - [claim/commensal-pathogen-effectors-share-12-human-targets] Commensal and pathogen effectors share a small but significant set of human targets (status: weakly_supported)
