@@ -90,6 +90,12 @@ papers:
     importance: 4
     domain: methods
     priority: reference
+  - slug: depower-approximate-power-analysis-deseq2
+    title: "DEPower: approximate power analysis with DESeq2"
+    tags: [power-analysis, sample-size, rna-seq, deseq2, experimental-design, single-cell, statistics, methods]
+    importance: 3
+    domain: methods
+    priority: context
   - slug: development-hypoxia-responsive-macrophage-prognostic-model
     title: "Development of a hypoxia-responsive macrophage prognostic model using single-cell and bulk RNA sequencing in pancreatic cancer"
     tags: [hypoxia, PDAC, pancreatic-cancer, tumor-associated-macrophage, prognostic-model, LASSO-Cox, scRNA-seq, TCGA-PAAD, KRTCAP2, chemoresistance, pan-cancer]
@@ -2024,6 +2030,22 @@ concepts:
     title: "Proteomic signatures classify proinflammatory tumor-associated macrophages"
     tags: [macrophage, proteomics, signature, scRNA-seq, TAM, classification]
     maturity: emerging
+  - slug: analytical-power-analysis-deseq2-model
+    title: "Analytical power analysis for the DESeq2 model"
+    tags: [power-analysis, rna-seq, experimental-design, deseq2, statistics]
+    maturity: emerging
+  - slug: heuristic-dispersion-band-mean-expression
+    title: "Heuristic dispersion band from mean expression"
+    tags: [dispersion, deseq2, rna-seq, power-analysis, statistics]
+    maturity: emerging
+  - slug: rare-cell-type-single-cell-enrichment
+    title: "Statistical necessity of enrichment for rare cell types in single-cell DE"
+    tags: [single-cell, rna-seq, power-analysis, experimental-design, rare-cell-types]
+    maturity: emerging
+  - slug: power-analysis-research-fraud-detector
+    title: "Power analysis as a research-fraud / implausibility detector"
+    tags: [research-integrity, power-analysis, statistics, metascience, rna-seq]
+    maturity: emerging
 
 topics:
 
@@ -2682,6 +2704,12 @@ people:
   - slug: jonas-bossart
     tags: [proteomics, phosphoproteomics, macrophage, in-vitro-polarization]
     affiliation: "Empa & Swiss Institute of Bioinformatics & ETH Zurich"
+  - slug: gennady-gorin
+    tags: [computational-biology, rna-seq, statistics, power-analysis]
+    affiliation: "Fauna Bio, Emeryville, CA"
+  - slug: linda-goodman
+    tags: [computational-biology, rna-seq, genomics, industry]
+    affiliation: "Fauna Bio, Emeryville, CA"
 
 ideas:
 
@@ -10050,6 +10078,66 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: immunology
+  - slug: square-root-wald-statistic-equals-lfc
+    title: "The square-root Wald statistic equals the LFC divided by its standard error"
+    tags: [wald-test, deseq2, statistics, power-analysis]
+    status: supported
+    confidence: 0.95
+    domain: statistics / methods
+  - slug: lfc-standard-error-scales-inversely-sample
+    title: "The LFC standard error scales inversely with sample size and per-sample Fisher information"
+    tags: [deseq2, standard-error, dispersion, power-analysis, statistics]
+    status: supported
+    confidence: 0.9
+    domain: statistics / methods
+  - slug: deseq2-sample-size-solution-exists-only
+    title: "A finite-sample-size solution exists only above a dispersion-dependent threshold"
+    tags: [deseq2, dispersion, power-analysis, statistics, edge-case]
+    status: supported
+    confidence: 0.85
+    domain: statistics / methods
+  - slug: deseq2-mean-dispersion-curve-approximated-heuristic
+    title: "The DESeq2 mean-dispersion curve can be approximated by a data-free order-of-magnitude band"
+    tags: [dispersion, deseq2, power-analysis, heuristic, statistics]
+    status: weakly_supported
+    confidence: 0.6
+    domain: statistics / methods
+  - slug: heuristic-deseq2-power-analysis-values-concordant
+    title: "Heuristic DESeq2 power-analysis p-values are broadly concordant with full PyDESeq2"
+    tags: [validation, deseq2, pydeseq2, power-analysis, dispersion]
+    status: weakly_supported
+    confidence: 0.65
+    domain: statistics / methods
+  - slug: rare-cell-type-log2-fold-change
+    title: "Detecting log2FC=1 in a rare cell type requires several samples per condition (nominal p=0.05)"
+    tags: [single-cell, power-analysis, rare-cell-types, sample-size, quantitative]
+    status: supported
+    confidence: 0.8
+    domain: statistics / methods
+  - slug: genome-wide-fdr-correction-sharply-increases
+    title: "Genome-wide multiple-testing correction sharply increases the required sample size"
+    tags: [multiple-testing, fdr, bonferroni, power-analysis, sample-size, quantitative]
+    status: supported
+    confidence: 0.8
+    domain: statistics / methods
+  - slug: unbiased-single-cell-rna-seq-insufficient
+    title: "Unbiased single-cell RNA-seq is statistically insufficient for rare cell types; enrichment is mandatory"
+    tags: [single-cell, experimental-design, rare-cell-types, enrichment, power-analysis]
+    status: weakly_supported
+    confidence: 0.7
+    domain: statistics / methods
+  - slug: power-analysis-flag-implausible-published-results
+    title: "Power-analysis mathematics can flag implausible published results but does not scale as a fraud detector"
+    tags: [research-integrity, metascience, power-analysis, fraud-detection]
+    status: proposed
+    confidence: 0.5
+    domain: statistics / metascience
+  - slug: deseq2-sample-size-estimates-lower-bound
+    title: "Analytical DESeq2 sample-size estimates should be treated as a lower bound under ideal assumptions"
+    tags: [power-analysis, deseq2, assumptions, experimental-design, statistics]
+    status: supported
+    confidence: 0.85
+    domain: statistics / methods
 
 Summary:
 
@@ -12392,3 +12480,15 @@ foundations:
     title: "MaxQuant — MS-based proteomics quantification software"
     status: mainstream
     domain: methods
+  - slug: pydeseq2
+    title: "PyDESeq2 — Python reimplementation of DESeq2"
+    status: mainstream
+    domain: computational-biology / methods
+  - slug: wald-test
+    title: "Wald test — asymptotic test of a single GLM parameter"
+    status: mainstream
+    domain: statistics / methods
+  - slug: benjamini-hochberg-fdr
+    title: "Benjamini–Hochberg FDR — step-up false discovery rate control"
+    status: mainstream
+    domain: statistics / methods

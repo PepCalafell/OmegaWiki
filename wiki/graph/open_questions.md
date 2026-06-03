@@ -106,6 +106,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/delineation-signaling-routes-underlie-differences-macrophage] Do perturbations (inhibition/knockdown) of PAK2 or PKCα causally revert immunosuppressive polarization in primary human macrophages?
 - [paper/delineation-signaling-routes-underlie-differences-macrophage] How do the kinase hubs (PAK2/PKCα) mechanistically connect to the TF hubs (FOS/NCOR2/PPARγ)?
 - [paper/delineation-signaling-routes-underlie-differences-macrophage] Is the strong macrophage–B-cell correlation in brain metastases mechanistic, and does it predict immunotherapy response?
+- [paper/depower-approximate-power-analysis-deseq2] How to choose the BH non-null quantile \(q\) defensibly for prospective design.
+- [paper/depower-approximate-power-analysis-deseq2] When pilot data are unavailable, how tight can a purely heuristic dispersion band be made?
+- [paper/depower-approximate-power-analysis-deseq2] How well does heuristic-vs-full concordance hold across larger, heterogeneous, unbalanced designs?
+- [paper/depower-approximate-power-analysis-deseq2] What empirical inflation factor converts the "lower bound" into a realistic target n?
+- [paper/depower-approximate-power-analysis-deseq2] Quantitative power/cost trade-off of specific cell-type enrichment strategies.
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] What protein-level expression patterns underlie the 13-gene transcriptional model?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] Is the regulatory mechanism in pancreatic cancer experimentally validated?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] How broadly does KRTCAP2 act as a therapeutic target across cancer types?
@@ -615,6 +620,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/air-liquid-interface-tumour-organoid] FNA-compatible ALI culture from minimal biopsy material.
 - [concept/air-liquid-interface-tumour-organoid] Cell-type-specific in situ perturbation (CRISPR delivery).
 - [concept/air-liquid-interface-tumour-organoid] Standardized prospective clinical correlation.
+- [concept/analytical-power-analysis-deseq2-model] Incorporating covariates/batches and small-sample Wald non-asymptotics into the closed form.
 - [concept/anatomical-niche-predicts-macrophage-function] Spatially selective perturbation tools to test the niche→function link directly.
 - [concept/anatomical-niche-predicts-macrophage-function] Whether niche assignment is instructive (niche programs the macrophage) or selective (programmed macrophages home to niches).
 - [concept/ancestry-specific-tumor-hypoxia] Whether genetic ancestry (HLA, germline DDR variants) drives the hypoxia signal, or whether it is environmental/socioeconomic
@@ -767,6 +773,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/hepatic-trem2-protective-tam-program] Which subset of the 209 liver-specific genes is causally responsible for the protective phenotype?
 - [concept/hepatic-trem2-protective-tam-program] Does the program persist outside HCC (e.g., hepatic metastases of non-liver primaries)?
 - [concept/hepatic-trem2-protective-tam-program] Is the program reversible by chronic-inflammation context (NASH, fibrosis)?
+- [concept/heuristic-dispersion-band-mean-expression] Tightening the band using priors from related public datasets.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Predictive biomarker for response (beyond VHL mutation): is there a transcriptomic signature that identifies HIF-2α-dependent tumors better than VHL status alone?
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Optimal combination partner: pembrolizumab vs Lenvatinib vs cabozantinib — head-to-head trials needed.
 - [concept/hif-2a-pas-b-small-molecule-inhibition] Dose-response and chronic toxicity: long-term Belzutifan safety in young VHL patients (lifelong therapy).
@@ -1082,6 +1089,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/physiological-versus-pathological-hypoxia-immunological-niche] Quantitative thresholds (pO₂, duration, oscillation frequency) that separate homeostatic from pathological HIF responses in vivo.
 - [concept/polyamine-hypusine-axis-macrophage-residency] How tissue polyamine availability tunes the axis in health, age and disease.
 - [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
+- [concept/power-analysis-research-fraud-detector] Automating plausibility screening at scale with acceptable false-positive rates.
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Cell of origin of pre-CAFs (tissue-resident fibroblast vs recruited)
 - [concept/pre-cafs-cancer-associated-fibroblasts-premalignant] Whether pre-CAFs are reversible by anti-inflammatory or stromal-modifying therapy
 - [concept/prmt5-mccc2-arginine-methylation-oxygen-switch] Broader catalogue of PRMT5 metabolic-enzyme substrates.
@@ -1092,6 +1100,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/proteomic-signature-classifies-proinflammatory-tumor-associated] Generalization across more tumor types and platforms
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Quantitative dissection of pseudohypoxic vs true-hypoxic contribution to mutational signatures
 - [concept/pseudohypoxia-oncogene-induced-hif-activation] Whether pseudohypoxia produces the same DDR phenotype as true hypoxia
+- [concept/rare-cell-type-single-cell-enrichment] Quantifying the power gain from each enrichment strategy relative to its cost and bias.
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
 - [concept/rare-immune-cell-types-produce-many] Whether the relation generalizes outside lymph nodes (tumours, infected tissue)
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Calibrating short-horizon velocity against multi-day lineage tracing
@@ -1324,6 +1333,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
 - [claim/de-novo-purine-gene-expression-correlates-fitness-hypoxia] De novo purine synthesis gene expression positively correlates with cancer cell fitness under hypoxia (status: weakly_supported)
 - [claim/de-novo-purine-synthesis-more-essential-in-vivo-than-in-vitro] De novo purine synthesis is more essential for PDAC tumor growth in vivo than in vitro (status: weakly_supported)
+- [claim/deseq2-mean-dispersion-curve-approximated-heuristic] The DESeq2 mean-dispersion curve can be approximated by a data-free order-of-magnitude band (status: weakly_supported)
 - [claim/discrete-cell-type-embeddings-structurally-preclude] Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages (status: proposed)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
 - [claim/effector-neighbourhoods-enriched-crohns-not-uc] Effector-targeted network neighbourhoods are enriched for Crohn's disease but not ulcerative colitis (status: weakly_supported)
@@ -1341,6 +1351,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
+- [claim/heuristic-deseq2-power-analysis-values-concordant] Heuristic DESeq2 power-analysis p-values are broadly concordant with full PyDESeq2 (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/higher-altitude-correlates-lower-cancer-mortality] Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US (status: weakly_supported)
@@ -1385,6 +1396,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/pet-ml-model-detects-cac-nsclc-81-accuracy] PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy (status: weakly_supported)
 - [claim/phf2-phf8-negatively-associated-cgas-activation] PHF2 and PHF8 are negatively associated with cGAS activation; combined copy-number loss elevates it (status: weakly_supported)
 - [claim/physiological-hypoxia-maintains-hsc-quiescence-hif] Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial) (status: weakly_supported)
+- [claim/power-analysis-flag-implausible-published-results] Power-analysis mathematics can flag implausible published results but does not scale as a fraud detector (status: proposed)
 - [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
 - [claim/proinflammatory-macrophage-fraction-correlates-cell-fraction] Proinflammatory macrophage fraction correlates strongly with B-cell fraction in brain metastases (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
@@ -1399,6 +1411,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/tumors-do-not-acquire-resistance-to-systemic-hypoxia] Tumors do not develop resistance to systemic hypoxia therapy over serial passage (status: weakly_supported)
 - [claim/type-2b-vhl-missense-mutants-enhance] Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
+- [claim/unbiased-single-cell-rna-seq-insufficient] Unbiased single-cell RNA-seq is statistically insufficient for rare cell types; enrichment is mandatory (status: weakly_supported)
 - [claim/ups-markers-conflicting-evidence-cac] MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity (status: weakly_supported)
 - [claim/wnt2-fzd2-cardiomyocyte-pharyngeal-mesoderm-ligand-receptor] Wnt2 (cardiomyocyte) — Fzd2 (pharyngeal mesoderm) emerges as a predicted ligand-receptor pair underlying cardiomyocyte–pharyngeal-mesoderm covariation in E8.5 embryo, consistent with known WNT-dependence of SHF progenitor proliferation (status: weakly_supported)
 - [claim/wnt3-fzd7-paneth-stem-niche-progenitor-source] Wnt3 (Paneth) — Fzd7 (stem/TA) is the predicted ligand-receptor pair mediating the stem-cell niche, with Wnt3 trajectory downregulating during Paneth maturation — implicating nascent Paneth progenitors, not mature Paneth cells, as the dominant Wnt-source (status: weakly_supported)
