@@ -17,9 +17,13 @@ evidence:
     type: tested_by
     strength: strong
     detail: Antibody-mediated IL-1β neutralization in a syngeneic mouse LUAD transplant model did not reduce in vivo tumor growth (Figure S8J), in sharp contrast to the precancerous NNK Gprc5a−/− model.
+  - source: mapping-inflammatory-origins-lung-cancer
+    type: supports
+    strength: weak
+    detail: "Cancer Cell Preview: tumor suppression in the syngeneic tumor model was not observed, suggesting IL-1β inhibition is effective only in the early stages of LUAD development."
 conditions: "Established (transplanted) syngeneic LUAD tumors with intact immune system."
 date_proposed: 2026-05-26
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 ---
 
 ## Statement

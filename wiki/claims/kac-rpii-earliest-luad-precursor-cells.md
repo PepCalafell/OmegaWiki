@@ -17,9 +17,13 @@ evidence:
     type: supports
     strength: strong
     detail: Spatial CNA + pseudotime + CytoTRACE place RPII in earliest-clone regions shared with precursors and LUAD; KAC score elevated in shared and stage-specific clones across patient evolution patterns 1a, 1b, 2.
+  - source: mapping-inflammatory-origins-lung-cancer
+    type: supports
+    strength: weak
+    detail: "Cancer Cell Preview restating the finding: RPII represents a 'bridging cell population' in the transition from normal alveolar cells to tumor cells, existing even before clinically recognizable precursor lesions emerge."
 conditions: "Human resected lung tissue (25 patients, 56 lesions Visium ST + 75 samples snRNA-seq); validated on independent 36-lesion TMA (19 patients, 593K cells, Xenium); mouse Gprc5a−/− NNK model recapitulates pattern."
 date_proposed: 2026-05-26
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 ---
 
 ## Statement

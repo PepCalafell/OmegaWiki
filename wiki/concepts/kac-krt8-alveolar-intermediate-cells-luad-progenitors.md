@@ -24,8 +24,9 @@ tags:
 maturity: emerging
 key_papers:
   - multimodal-spatial-omics-reveal-co-evolution
+  - mapping-inflammatory-origins-lung-cancer
 first_introduced: "2024"
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 related_concepts:
   - cancer-initiating-cell-cell-origin
   - epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor

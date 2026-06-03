@@ -18,9 +18,13 @@ evidence:
     type: tested_by
     strength: strong
     detail: Combo arm shows greatest tumor volume reduction (especially in interception phase), greatest reduction in KAC fraction at 3 months, greatest reduction in BALF cytokines (CCL3, IL33, IL17A; plus IL23, IL21, CXCL1), highest CD8+ T cell infiltration, and counteracts anti-PD-1-associated macrophage enrichment.
+  - source: mapping-inflammatory-origins-lung-cancer
+    type: supports
+    strength: weak
+    detail: "Cancer Cell Preview: anti-IL-1β monotherapy showed stronger tumor suppression than anti-PD-1, with combination most pronounced in the interception phase; combination reduced KAC and macrophage fractions while inducing CD8+ T-cell infiltration."
 conditions: "NNK Gprc5a−/− model, both prevention and interception windows."
 date_proposed: 2026-05-26
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 ---
 
 ## Statement

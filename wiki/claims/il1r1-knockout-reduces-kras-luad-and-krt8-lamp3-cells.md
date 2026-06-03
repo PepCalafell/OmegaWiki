@@ -17,9 +17,13 @@ evidence:
     type: tested_by
     strength: strong
     detail: Crossing Il1r1 knockout with CC-LR Kras-LSL-G12D mice yields significant reduction in Kras-mutant lung tumor burden and reduced LAMP3+/KRT8+ cells in normal alveolar regions (Figures S8G-S8I).
+  - source: mapping-inflammatory-origins-lung-cancer
+    type: supports
+    strength: weak
+    detail: "Cancer Cell Preview: deletion of Il1r1 in mouse lung epithelial cells significantly reduced tumor formation and the KRT8+/LAMP3+ cell population."
 conditions: "Mouse genetic model with lung-epithelium-restricted Kras G12D expression."
 date_proposed: 2026-05-26
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 ---
 
 ## Statement

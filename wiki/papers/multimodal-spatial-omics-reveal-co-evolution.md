@@ -230,7 +230,8 @@ exclusion_reason:
 data_availability: "GEO: GSE222901, GSE300288, GSE300293 (mouse); GSE307534, GSE308103, GSE307529 (human). Zenodo: 10.5281/zenodo.17172149 (code), 10.5281/zenodo.15670280 (processed human data)."
 
 code_url: "https://github.com/FuduanPeng/LungPCA_Code"
-cited_by: []
+cited_by:
+  - mapping-inflammatory-origins-lung-cancer
 ---
 
 ## Problem

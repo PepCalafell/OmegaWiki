@@ -18,9 +18,13 @@ evidence:
     type: tested_by
     strength: strong
     detail: AT2-derived KRT8-lineage-traced organoids (Gprc5a−/−; Krt8CreER; RosatdT/+; NNK-exposed) treated with recombinant IL-1β or co-cultured with isolated interstitial macrophages show significantly increased organoid number and size vs control medium (unpaired t-test).
+  - source: mapping-inflammatory-origins-lung-cancer
+    type: supports
+    strength: weak
+    detail: "Cancer Cell Preview: administration of recombinant IL-1β or co-culture with macrophages promoted growth of KAC-rich organoids."
 conditions: "Mouse AT2-derived organoids; 4-hydroxytamoxifen-induced KRT8 lineage labeling."
 date_proposed: 2026-05-26
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 ---
 
 ## Statement

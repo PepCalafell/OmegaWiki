@@ -198,6 +198,12 @@ papers:
     importance: 5
     domain: single-cell methods / hematology / proteomics
     priority: core
+  - slug: mapping-inflammatory-origins-lung-cancer
+    title: "Mapping the inflammatory origins of lung cancer"
+    tags: [luad, lung-cancer, precancer-interception, il1b-il1r1, spatial-omics, proinflammatory-niche, kac, rpii, canakinumab, commentary]
+    importance: 2
+    domain: oncology
+    priority: reference
   - slug: mcrigor-statistical-method-enhance-rigor-metacell
     title: "mcRigor: a statistical method to enhance the rigor of metacell partitioning in single-cell data analysis"
     tags: [single-cell, metacell, statistics, benchmarking, methods, scRNA-seq, multiome]

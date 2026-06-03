@@ -17,9 +17,13 @@ evidence:
     type: supports
     strength: strong
     detail: Ligand-receptor inference on inflammatory response genes upregulated in KACs identifies IL1B-IL1R1 in the top 8 myeloid-epithelial LR pairs; uniquely highly expressed in KAC and precursor cells, absent in normal AT1/AT2.
+  - source: mapping-inflammatory-origins-lung-cancer
+    type: supports
+    strength: weak
+    detail: "Cancer Cell Preview: high IL1R1 in RPII/KACs and high IL1B in adjacent macrophages implicate IL-1β–IL1R1 coupling as a core driver of alveolar epithelial cell tumorigenesis."
 conditions: "Human Visium ST + snRNA-seq. Effect strongest in KRAS-mutant precursor cases (100% LR enrichment)."
 date_proposed: 2026-05-26
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 ---
 
 ## Statement

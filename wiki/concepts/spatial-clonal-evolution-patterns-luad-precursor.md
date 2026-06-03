@@ -23,8 +23,9 @@ tags:
 maturity: emerging
 key_papers:
   - multimodal-spatial-omics-reveal-co-evolution
+  - mapping-inflammatory-origins-lung-cancer
 first_introduced: "2026"
-date_updated: 2026-05-26
+date_updated: 2026-06-03
 related_concepts:
   - field-cancerization-clonal-expansion-normal-tissue
 ---

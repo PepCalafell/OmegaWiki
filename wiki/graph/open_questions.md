@@ -254,6 +254,10 @@ _Auto-generated open questions. Do not edit._
 - [paper/mapping-early-human-blood-cell-differentiation] Does the SOD1-KO granulocytic block reflect a redox-specific requirement, or is it a general HSPC stress phenotype? The SOD1/SOD2 contrast (SOD2 KO replicates much of the phenotype but without proliferation arrest) is suggestive but unresolved.
 - [paper/mapping-early-human-blood-cell-differentiation] How sensitive are scProtVelo's translation-rate inferences to mis-specified pseudotime priors?
 - [paper/mapping-early-human-blood-cell-differentiation] Would the same conclusions hold under sparser TMT channels (e.g., 8-plex) or shotgun-DIA workflows that bypass isobaric labeling entirely?
+- [paper/mapping-inflammatory-origins-lung-cancer] Will inhibition of IL-1β demonstrate similar efficacy in human LUAD as in the mouse models, particularly when applied at the precancerous window (Can-Prevent-Lung Trial)?
+- [paper/mapping-inflammatory-origins-lung-cancer] What is the effect of combining anti-IL-1β with ICIs during the precancerous therapeutic window?
+- [paper/mapping-inflammatory-origins-lung-cancer] Can a non-invasive biomarker (e.g., IL1R1-high RPII/KAC signature) prospectively identify the precancer window in which IL-1β blockade is effective?
+- [paper/mapping-inflammatory-origins-lung-cancer] Does the stage-dependence of IL-1β efficacy generalize across LUAD oncogenic drivers beyond Kras/Gprc5a contexts?
 - [paper/mcrigor-statistical-method-enhance-rigor-metacell] Does multi-round double permutation improve robustness?
 - [paper/mcrigor-statistical-method-enhance-rigor-metacell] Can dubious metacells be recursively re-partitioned rather than discarded?
 - [paper/mcrigor-statistical-method-enhance-rigor-metacell] Can a new method generate only trustworthy metacells by construction?
