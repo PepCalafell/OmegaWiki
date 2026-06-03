@@ -403,23 +403,29 @@ papers:
     importance: 5
     domain: immunology / oncology / cell biology
     priority: context
+  - slug: tnf-switches-homeostatic-efferocytosis-lytic-caspase
+    title: "TNF switches homeostatic efferocytosis to lytic caspase-8-dependent pyroptosis and IL-1β maturation"
+    tags: [efferocytosis, efferoptosis, pyroptosis, caspase-8, gasdermin-d, il-1beta, sepsis, sirs, innate-immunity, trif]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: towards-building-world-model-simulate-perturbation
     title: "Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell"
     tags: [AlphaCell, virtual-cell, world-model, perturbation-prediction, flow-matching, optimal-transport, mixture-of-experts, mamba, foundation-model, single-cell, zero-shot, genome-wide]
     importance: 4
     domain: methods / single-cell / perturbation-modeling
     priority: reference
-  - slug: transcriptome-based-network-analysis-reveals-spectrum
-    title: "Transcriptome-Based Network Analysis Reveals a Spectrum Model of Human Macrophage Activation"
-    tags: [macrophage, activation, transcriptomics, network-analysis, immunology, WGCNA]
-    importance: 5
-    domain: immunology
-    priority: context
   - slug: transcriptional-regulator-network-human-inflammatory-macrophages
     title: "The transcriptional regulator network of human inflammatory macrophages is defined by open chromatin"
     tags: [macrophage, epigenetics, transcription-factors, chromatin, inflammation, network-biology, open-chromatin, super-enhancer, PU.1, ChIP-seq]
     importance: 4
     domain: epigenetics
+    priority: context
+  - slug: transcriptome-based-network-analysis-reveals-spectrum
+    title: "Transcriptome-Based Network Analysis Reveals a Spectrum Model of Human Macrophage Activation"
+    tags: [macrophage, activation, transcriptomics, network-analysis, immunology, WGCNA]
+    importance: 5
+    domain: immunology
     priority: context
   - slug: transition-monocyte-tissue-resident-macrophage-requires
     title: "The transition from monocyte to tissue-resident macrophage requires DHPS"
@@ -668,6 +674,10 @@ concepts:
     title: "Tipping point along the carcinogenic trajectory"
     tags: [oncology, early-cancer, theory]
     maturity: emerging
+  - slug: caspase-8-dependent-pyroptosis
+    title: "Caspase-8-dependent pyroptosis independent of the canonical inflammasome"
+    tags: [caspase-8, pyroptosis, gasdermin-d, cell-death, innate-immunity]
+    maturity: active
   - slug: cci-influence-tensor
     title: "CCI influence tensor"
     tags: [cell-cell-interaction, spatial-transcriptomics, interpretability, methods]
@@ -951,6 +961,10 @@ concepts:
     tags: [efferocytosis, macrophage, fao, mitochondrial, regeneration, inflammation-resolution]
     domain: innate immunology / immunometabolism
     maturity: active
+  - slug: efferoptosis-tnf-driven-pyroptotic-switch
+    title: "Efferoptosis — TNF-driven switch of efferocytosis to lytic caspase-8 pyroptosis"
+    tags: [efferocytosis, pyroptosis, caspase-8, sepsis, innate-immunity]
+    maturity: emerging
   - slug: egfr-mutant-luad-immune-excluded-tme
     title: "EGFR-mutant LUAD immune-excluded stromal-rich TME"
     tags: [egfr, luad, immune-exclusion, low-tmb, tki-resistance, ici-resistance]
@@ -1239,6 +1253,10 @@ concepts:
   - slug: in-vivo-perturb-seq
     title: "In vivo Perturb-seq"
     tags: [methods, crispr, single-cell, functional-genomics, immunology]
+    maturity: active
+  - slug: inflammasome-independent-il-1b-maturation
+    title: "Inflammasome-independent IL-1β maturation by caspase-8"
+    tags: [il-1beta, caspase-8, inflammasome, plc-gamma, innate-immunity]
     maturity: active
   - slug: inflammatory-hypoxia-neutrophil-oxygen-depletion
     title: "Inflammatory hypoxia (neutrophil-driven oxygen depletion)"
@@ -2095,6 +2113,10 @@ concepts:
     title: "TREX1 as an innate immune checkpoint restraining STING-IFN"
     tags: [cgas-sting, innate-immune-checkpoint, trex1, exonuclease, radiation-immunotherapy]
     maturity: emerging
+  - slug: trifosome-death-complex
+    title: "TRIFosome — TRIF-RIPK1-ZBP1-caspase-8 death-inducing complex"
+    tags: [trif, ripk1, zbp1, caspase-8, cell-death]
+    maturity: active
   - slug: trm-bmdm-tissue-repair-fibrosis-dichotomy
     title: "TRM-restorative / BMDM-fibrotic functional dichotomy in tissue repair"
     tags: [macrophage, tissue-repair, fibrosis, CCR2, immunology, liver, heart, kidney, lung]
@@ -2205,6 +2227,9 @@ people:
   - slug: alexander-coulton
     tags: [tumor-associated-macrophage, scRNA-seq, pan-cancer-atlas, immune-checkpoint-inhibitor, immunogenomics]
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
+  - slug: alexander-poltorak
+    tags: [immunology, innate-immunity, tlr, cell-death, sepsis]
+    affiliation: "Tufts University School of Medicine, Boston, MA"
   - slug: alexander-rosenberg
     tags: [single-cell-genomics, split-pool-barcoding, SPLiT-seq, industry]
     affiliation: "Parse Biosciences"
@@ -2250,12 +2275,12 @@ people:
   - slug: bing-he
     tags: [bioinformatics, single-cell-genomics, virtual-cell, perturbation-modeling]
     affiliation: "National Key Laboratory of Autonomous Intelligent Unmanned Systems, Frontiers Science Center for Intelligent Autonomous Systems, Tongji University area, Shanghai, China"
-  - slug: bo-li-ut-southwestern
-    tags: [computational-immunology, bioinformatics, innate-immunity, cancer-immunology, cGAS-STING]
-    affiliation: "UT Southwestern Medical Center, Dallas, TX, USA / Children's Hospital of Philadelphia"
   - slug: bo-li
     tags: [hypoxia, VHL, metabolism, mitochondria, biochemistry, oncology]
     affiliation: "Southern Medical University, Guangzhou, China"
+  - slug: bo-li-ut-southwestern
+    tags: [computational-immunology, bioinformatics, innate-immunity, cancer-immunology, cGAS-STING]
+    affiliation: "UT Southwestern Medical Center, Dallas, TX, USA / Children's Hospital of Philadelphia"
   - slug: bo-porse
     tags: [hematopoiesis, HSPC, molecular-hematology, leukemia, single-cell-genomics]
     affiliation: "The Finsen Laboratory, Rigshospitalet; Biotech Research and Innovation Centre (BRIC); Department of Clinical Medicine, University of Copenhagen"
@@ -2448,6 +2473,9 @@ people:
   - slug: hani-goodarzi
     tags: [cancer-genomics, rna-biology, computational-biology, pi]
     affiliation: "Arc Institute & UCSF"
+  - slug: hayley-muendlein
+    tags: [immunology, cell-death, innate-immunity, pyroptosis]
+    affiliation: "Tufts University School of Medicine, Boston, MA"
   - slug: heming-ge
     tags: [pancreatic-cancer, hypoxia, tumor-associated-macrophage, prognostic-model, scRNA-seq, bioinformatics]
     affiliation: "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
@@ -4383,6 +4411,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: innate immunity / genomics
+  - slug: cleaved-caspase8-75pct-splenic-macrophages
+    title: "TNF induces cleaved caspase-8 in ~75% of splenic CD68+ macrophages in vivo, reduced by TRIF deficiency."
+    tags: ["quantitative", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: cleaved-mites-270-fold-higher-il2rb-affinity-vs-wt-il2
     title: "Cleaved MiTE constructs bind IL-2Rβ with ~270-fold higher affinity than wild-type IL-2"
     tags: [IL-2, IL-2Rβ, superkine, binding-affinity, MiTE]
@@ -5211,12 +5245,30 @@ claims:
     status: supported
     confidence: 0.85
     domain: innate immunity / immunometabolism
+  - slug: efferocytosis-inhibits-tak1-nfkb-spares-mapk
+    title: "Neutrophil efferocytosis blocks TNF-induced TAK1 phosphorylation and NF-κB activation while leaving p38/ERK MA"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: efferocytosis-lowers-cflip-cflar
+    title: "Efferocytosis reduces TNF-driven upregulation of the prosurvival factor cFLIP (Cflar), removing the caspase-8 "
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: efferocytosis-phagolysosomal-degradation-required-ptgs2-tgfb1
     title: "Phagolysosomal AC degradation, not engulfment alone, is required for efferocytosis-induced Ptgs2/Tgfb1 upregulation in macrophages"
     tags: [efferocytosis, phagolysosome, Ptgs2, Tgfb1, bafilomycin, Rubicon, macrophage]
     status: supported
     confidence: 0.95
     domain: immunology / cell biology
+  - slug: efferocytosis-protective-in-lung-kidney
+    title: "Blocking efferocytosis (TIM3 inhibition) exacerbates TUNEL+ cell death in lung and kidney, showing efferocytos"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: efferocytosis-requires-ucp2-drp1-mitochondrial-rewiring
     title: "Continuous efferocytosis requires UCP2-driven ΔΨm lowering and DRP1-driven mitochondrial fission"
     tags: [efferocytosis, ucp2, drp1, mitochondrial-fission, macrophage]
@@ -5235,6 +5287,48 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / cell biology
+  - slug: efferoptosis-gsdme-independent
+    title: "Unlike pharmacological TAK1-inhibition death, efferoptosis does not require GSDME; Gsdme-/- macrophages die no"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: efferoptosis-independent-nlrp3-caspase1
+    title: "Efferoptotic death and IL-1β release proceed independently of NLRP3 and caspase-1."
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: efferoptosis-requires-caspase8-cleavage
+    title: "Efferoptosis depends on caspase-8 autoprocessing; noncleavable Casp8 D387A macrophages are protected."
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: efferoptosis-requires-gsdmd
+    title: "GSDMD is the executioner pore of efferoptosis; Gsdmd-/- macrophages show attenuated death."
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: efferoptosis-requires-trif
+    title: "Macrophage efferoptosis requires the TLR adaptor TRIF; Trif-/- macrophages are largely protected from TNF+neut"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: efferoptosis-requires-zbp1
+    title: "ZBP1 is required for efferoptosis, consistent with its role nucleating the TRIFosome."
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: efferoptosis-tnf-dependent-ecoli-sepsis
+    title: "In E. coli-induced septic peritonitis, Tnfr1-/- mice retain efferocytosis but abrogate death of neutrophil-eng"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: efibro-cthrc1-emt-ecm-glycosaminoglycan-enriched
     title: "eFibro_CTHRC1 cells are pathway-enriched for EMT, ECM receptor interaction, and glycosaminoglycan biosynthesis (chondroitin/dermatan sulfate)"
     tags: [caf, cthrc1, emt, ecm, glycosaminoglycan, metabolism, stromal]
@@ -5691,6 +5785,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: methods / Markov-chain coarse-graining
+  - slug: gsdmd-p30-30pct-splenic-macrophages
+    title: "GSDMD p30 puncta appear in ~30% of splenic CD68+ macrophages after TNF and are reduced ~60% by TRIF deficiency"
+    tags: ["quantitative", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: gsmap-skin-cancer-heritability-cell-type-mapping
     title: "Skin-cancer GWAS heritability maps spatially to melanocytes, dysplastic/cornified keratinocytes, and fibroblasts"
     tags: [gwas, heritability, spatial-omics, skin-cancer, fibroblast]
@@ -6165,6 +6265,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: cell biology
+  - slug: human-thp1-macrophages-efferoptosis
+    title: "Human THP-1-derived macrophages recapitulate efferoptosis: TNF+neutrophils increase death and mature IL-1β rel"
+    tags: ["methodological", "efferoptosis", "pyroptosis"]
+    status: weakly_supported
+    confidence: 0.7
+    domain: immunology
   - slug: human-tissue-tr-networks-follow-integrated
     title: "Human tissue TR networks follow integrated epigenetic and transcriptional regulation"
     tags: [tissue, transcription-factors, epigenetics, network-biology]
@@ -6693,6 +6799,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: lung cancer / cell signaling
+  - slug: il1b-maturation-inflammasome-independent-caspase8
+    title: "During efferoptosis, pro-IL-1β is matured by direct caspase-8 cleavage independently of caspase-1 and the cano"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: il1r1-expression-restricted-kac-precursor-absent-at1-at2
     title: "IL1R1 is highly and specifically expressed in KACs and precursor cells, but absent in normal AT1/AT2 alveolar cells"
     tags: [lung, alveolar, il1r1, kac, precursor]
@@ -8061,6 +8173,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / oncology / DAMP-signaling
+  - slug: neutrophil-depletion-reduces-macrophage-pyroptosis
+    title: "Depleting neutrophils (1A8, 24h) reduces splenic macrophage caspase-8 and GSDMD activation by ~50%, implicatin"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: neutrophil-depletion-timing-determines-lethality
+    title: "Neutrophil-depletion timing is decisive: 1A8 24h before TNF protects, but 1A8 4h before TNF preloads macrophag"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: nf-kb-overactivation-not-specific-stimulus-drives-hypoxic-inflammation
     title: "NF-κB activation per se, not the specific stimulus, drives hypoxic upregulation of inflammatory genes — multiple NF-κB stimuli converge on the same response"
     tags: [NF-kB, hypoxia, LPS, P3C, polyI-C, CpG, TNF-alpha, IL-1-beta, PAMP]
@@ -8859,6 +8983,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: hypoxia-immunology
+  - slug: plcg-mapk-drives-il1b-upregulation
+    title: "PLCγ acts downstream of PS receptors to sustain MAPK and prime pro-Il1b; PLC inhibition abolishes IL-1β withou"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: pmd-methylation-spatial-mitotic-history-readout-embryos-brain
     title: "Partially Methylated Domain (PMD) methylation acts as a spatial mitotic-history readout: low in proliferative tissue (embryonic heart, P21 dentate gyrus), high in differentiated tissue (P21 cortex)"
     tags: [PMD, mitotic-history, partially-methylated-domain, proliferation, spatial-omics]
@@ -8958,6 +9088,12 @@ claims:
   - slug: prr-agonists-tam-activation-clinical-limited
     title: "PRR/CD40 agonists activate TAMs in preclinical models but yield low or inconsistent clinical response rates"
     tags: [tlr, sting, cd40, prr, clinical-trials, myeloid-activator]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: ps-recognition-initiates-efferoptosis
+    title: "PS recognition is the initiating event of efferoptosis: annexin-V masking, CD14 deficiency, or TIM3/TAM inhibi"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -9152,6 +9288,12 @@ claims:
     tags: [DHPS, RiboTag, translatome, eIF5A, ribosome-profiling]
     status: supported
     confidence: 0.85
+    domain: immunology
+  - slug: ripk1-scaffold-not-kinase-efferoptosis
+    title: "RIPK1 contributes to efferoptosis through its scaffolding function rather than kinase activity."
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
     domain: immunology
   - slug: ripk2-autophosphorylation-site-s176-higher-m1
     title: "RIPK2 activation-segment autophosphorylation site S176 is phosphorylated higher in M1 macrophages"
@@ -10185,6 +10327,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / immuno-oncology
+  - slug: tim3-inhibition-protects-tnf-sirs
+    title: "In vivo αTIM3 antibody attenuates hypothermia, improves survival, lowers serum IL-1β and LDH (not CXCL-1/IL-6)"
+    tags: ["pharmacological", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: time-dependent-flux-parameters-required-fit
     title: "Time-dependent flux parameters are required to fit 9-month in vivo haematopoiesis"
     tags: [in-vivo-haematopoiesis, time-dependent-rates, model-fit]
@@ -10281,6 +10429,12 @@ claims:
     status: weakly_supported
     confidence: 0.7
     domain: immunology / dermatology
+  - slug: tnf-switches-efferocytosis-to-efferoptosis
+    title: "In TNF-activated phagocytes, efferocytosis of dying neutrophils is converted from an immunologically silent pr"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: tobacco-ahr-mtor-pdl1-immune-evasion-nsclc
     title: "Persistent tobacco smoking upregulates PD-L1 via aryl hydrocarbon receptor–mTOR signalling, reinforcing immune evasion in NSCLC"
     tags: [smoking, ahr, mtor, pd-l1, immune-evasion, nsclc]
@@ -10431,6 +10585,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunometabolism / hypoxia-signaling
+  - slug: transcriptional-dichotomy-il1b-up-tnf-down
+    title: "Efferocytosis produces a transcriptional dichotomy: pro-Il1b mRNA is upregulated while Tnf mRNA is suppressed."
+    tags: ["correlational", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: transferred-adversarial-training-removes-batch-effects
     title: "Transferred adversarial training removes batch effects between train-tissue and target-tissue"
     tags: [batch-effect, adversarial, deconvolution]
@@ -10580,6 +10740,18 @@ claims:
     tags: [cgas-sting, trex1, innate-immune-checkpoint, exonuclease]
     status: supported
     confidence: 0.9
+    domain: immunology
+  - slug: trif-drives-neutrophil-organ-damage
+    title: "TRIF mediates TNF-induced neutrophil recruitment, endothelial interaction, vascular permeability, Nos2/NO, and"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: trifosome-assembly-neutrophils-tnf
+    title: "TNF plus neutrophils enhance assembly of a RIPK1-ZBP1-caspase-8 death complex (TRIFosome), captured by RIPK1 i"
+    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    status: supported
+    confidence: 0.8
     domain: immunology
   - slug: trm-conditioned-medium-promotes-kp-migration
     title: "TRM-conditioned medium promotes KP tumour-cell transwell migration"
@@ -11280,6 +11452,14 @@ foundations:
     title: "CARD — Conditional autoregressive deconvolution for ST spots"
     status: mainstream
     domain: methods/spatial-transcriptomics
+  - slug: caspase-1-casp1
+    title: "Caspase-1 (CASP1)"
+    status: mainstream
+    domain: immunology
+  - slug: caspase-8-casp8
+    title: "Caspase-8 (CASP8)"
+    status: mainstream
+    domain: immunology
   - slug: catch-channelrhodopsin-optogenetics
     title: "CatCh — calcium-translocating channelrhodopsin (optogenetics)"
     status: mainstream
@@ -11312,6 +11492,10 @@ foundations:
     title: "CCR5 chemokine receptor"
     status: mainstream
     domain: immunology / chemokine biology
+  - slug: cd14-receptor
+    title: "CD14"
+    status: mainstream
+    domain: immunology
   - slug: cd169-dtr-trm-depletion
     title: "CD169-DTR mouse for tissue-resident macrophage depletion"
     status: mainstream
@@ -11386,6 +11570,10 @@ foundations:
     title: "CETSA — cellular thermal shift assay"
     status: mainstream
     domain: biophysics / target engagement / methods
+  - slug: cflip-cflar
+    title: "cFLIP (CFLAR)"
+    status: mainstream
+    domain: immunology
   - slug: cgamp-cyclic-dinucleotide
     title: "2′3′-cGAMP — cyclic GMP-AMP second messenger"
     status: mainstream
@@ -11767,6 +11955,14 @@ foundations:
     title: "GAPDH — Glyceraldehyde-3-phosphate dehydrogenase"
     status: mainstream
     domain: metabolism
+  - slug: gasdermin-d-gsdmd
+    title: "Gasdermin D (GSDMD)"
+    status: mainstream
+    domain: immunology
+  - slug: gasdermin-e-gsdme
+    title: "Gasdermin E (GSDME)"
+    status: mainstream
+    domain: immunology
   - slug: gata6-tf
     title: "GATA6 (transcription factor)"
     tags: [transcription-factor, macrophage-identity, peritoneal-macrophage, tissue-resident-macrophage]
@@ -12794,6 +12990,10 @@ foundations:
     title: "Pho4 (S. cerevisiae bHLH phosphate-response TF)"
     status: mainstream
     domain: yeast / bHLH transcription factor
+  - slug: phosphatidylserine-eat-me-signal
+    title: "Phosphatidylserine (PS) eat-me signal"
+    status: mainstream
+    domain: cell biology
   - slug: phthiocol-mtb-naphthoquinone
     title: "Phthiocol (M. tuberculosis naphthoquinone AHR agonist)"
     status: mainstream
@@ -12834,6 +13034,10 @@ foundations:
     title: "PLAU (uPA, urokinase-type plasminogen activator)"
     status: mainstream
     domain: molecular-biology / ECM-remodelling
+  - slug: plc-gamma-plcg
+    title: "Phospholipase C gamma (PLCγ)"
+    status: mainstream
+    domain: cell biology
   - slug: pme-seq-whole-tissue-rna-seq
     title: "PME-seq — whole-tissue RNA-seq toolkit"
     status: mainstream
@@ -12975,6 +13179,10 @@ foundations:
     title: "RiboTag (ribosome-engaged transcript sequencing)"
     status: mainstream
     domain: method / translatomics
+  - slug: ripk1-kinase
+    title: "RIPK1 (receptor-interacting protein kinase 1)"
+    status: mainstream
+    domain: immunology
   - slug: ripk2-kinase
     title: "RIPK2 — receptor-interacting serine/threonine kinase 2"
     status: mainstream
@@ -13322,6 +13530,10 @@ foundations:
     title: "Tahoe-100M — giga-scale single-cell perturbation atlas"
     status: mainstream
     domain: data / single-cell
+  - slug: tak1-map3k7-kinase
+    title: "TAK1 (MAP3K7)"
+    status: mainstream
+    domain: immunology
   - slug: taldo1-transaldolase
     title: "TALDO1 — transaldolase 1 (pentose phosphate pathway)"
     status: mainstream
@@ -13334,14 +13546,14 @@ foundations:
     title: "Tangram — deep-learning spatial mapping of scRNA-seq onto spatial transcriptomics"
     status: mainstream
     domain: methods / spatial-transcriptomics / cross-modality-mapping
-  - slug: tapinarof-ahr-agonist
-    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
-    status: mainstream
-    domain: pharmacology / AHR agonist / dermatology drug
   - slug: tapinarof
     title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
     status: mainstream
     domain: immunology / dermatology / small-molecule drug
+  - slug: tapinarof-ahr-agonist
+    title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
+    status: mainstream
+    domain: pharmacology / AHR agonist / dermatology drug
   - slug: tbk1-tank-binding-kinase-1
     title: "TBK1 — TANK-binding kinase 1"
     status: mainstream
@@ -13386,6 +13598,10 @@ foundations:
     title: "TIM-4 (TIMD4)"
     status: mainstream
     domain: immunology / macrophage biology
+  - slug: tim3-havcr2-receptor
+    title: "TIM3 (HAVCR2)"
+    status: mainstream
+    domain: immunology
   - slug: timer-tumor-immune-deconvolution
     title: "TIMER — Tumor IMmune Estimation Resource"
     status: mainstream
@@ -13410,6 +13626,10 @@ foundations:
     title: "TNF (Tumor Necrosis Factor)"
     status: mainstream
     domain: immunology / cytokine
+  - slug: tnfr1-tnfrsf1a-receptor
+    title: "TNFR1 (TNFRSF1A)"
+    status: mainstream
+    domain: immunology
   - slug: tnik-kinase
     title: "TNIK (TRAF2/NCK-interacting kinase)"
     status: mainstream
@@ -13454,6 +13674,10 @@ foundations:
     title: "TREX1 — three-prime repair exonuclease 1"
     status: mainstream
     domain: immunology / DNA metabolism
+  - slug: trif-ticam1
+    title: "TRIF (TICAM1)"
+    status: mainstream
+    domain: immunology
   - slug: trvae-conditional-vae
     title: "trVAE — conditional out-of-distribution VAE for unpaired single-cell data"
     status: mainstream
@@ -13559,6 +13783,10 @@ foundations:
     title: "Yeast two-hybrid (Y2H)"
     status: mainstream
     domain: methods
+  - slug: zbp1-z-dna-binding-protein
+    title: "ZBP1 (Z-DNA binding protein 1)"
+    status: mainstream
+    domain: immunology
   - slug: zscan20-tf
     title: "ZSCAN20"
     status: mainstream

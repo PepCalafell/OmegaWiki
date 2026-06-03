@@ -520,6 +520,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Whether the TREM2/SPP1/APOE/GPNMB MDM signature here corresponds 1:1 to MoMac-VERSE cluster #3 TREM2_Mac in human pan-cancer atlases.
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] What is the contribution of HIF1α / hypoxia signalling to the TRM-induced EMT programme — does hypoxia prime the niche?
 - [paper/tissue-resident-macrophages-provide-pro-tumorigenic] Are there epigenetic regulators (TET2, NF-κB, PPARG) that switch the TRM compartment between homeostatic and pro-tumorigenic states (relevant to thesis-project axis)?
+- [paper/tnf-switches-homeostatic-efferocytosis-lytic-caspase] Does efferoptosis occur and contribute to pathology under physiological (chronic) conditions?
+- [paper/tnf-switches-homeostatic-efferocytosis-lytic-caspase] Can TRIF/TNFR1-level immunomodulation decouple harmful efferoptosis from beneficial efferocytosis?
+- [paper/tnf-switches-homeostatic-efferocytosis-lytic-caspase] Which efferocytic cell types beyond splenic macrophages undergo efferoptosis in vivo?
+- [paper/tnf-switches-homeostatic-efferocytosis-lytic-caspase] Is the PLCγ→pro-IL-1β priming arm shared with other IL-1 family cytokines?
+- [paper/tnf-switches-homeostatic-efferocytosis-lytic-caspase] How is the PS-recognition signal mechanistically relayed to TRIFosome assembly?
 - [paper/towards-building-world-model-simulate-perturbation] How to incorporate gene/chemical embeddings for zero-shot prediction of unseen perturbations?
 - [paper/towards-building-world-model-simulate-perturbation] How to extend the single-modality virtual world to a multi-modal digital twin?
 - [paper/towards-building-world-model-simulate-perturbation] Do the reported sweeps hold under independent benchmarks (e.g., Wei et al. 2025 generalizable perturbation benchmark)?
@@ -1448,6 +1453,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/higher-altitude-correlates-lower-cancer-mortality] Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US (status: weakly_supported)
 - [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
+- [claim/human-thp1-macrophages-efferoptosis] Human THP-1-derived macrophages recapitulate efferoptosis: TNF+neutrophils increase death and mature IL-1β rel (status: weakly_supported)
 - [claim/hvg-feature-selection-theoretically-ill-posed] HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction (status: proposed)
 - [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)
 - [claim/hypoxia-purine-suppression-tracks-myc-target-downregulation] Hypoxia-induced suppression of de novo purine synthesis tracks downregulation of Myc target genes (status: weakly_supported)

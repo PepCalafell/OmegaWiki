@@ -23,8 +23,9 @@ key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
   - macrophages-use-apoptotic-cell-derived-methionine
   - transition-monocyte-tissue-resident-macrophage-requires
+  - tnf-switches-homeostatic-efferocytosis-lytic-caspase
 first_introduced: "deCathelineau & Henson 2003 (term efferocytosis); reviewed in Lazarov & Geissmann 2023"
-date_updated: 2026-05-06
+date_updated: 2026-06-03
 related_concepts:
   - macrophage-ontogeny-resident-vs-monocyte-derived
   - sirpa-cd47-don-t-eat-me-axis
