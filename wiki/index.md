@@ -1,6 +1,11 @@
 # Wiki Index
 
 papers:
+  - slug: genomic-investigation-innate-sensing-pathways-tumor
+    title: "Genomic investigation of innate sensing pathways in the tumor microenvironment"
+    tags: [innate-immunity, cGAS-STING, TCGA, ssGSEA, tumor-microenvironment, PHF2, PHF8, intratumor-microbiome, colorectal-cancer]
+    domain: oncology / immunology
+    priority: context
   - slug: aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic
     title: "The aryl hydrocarbon receptor: a rehabilitated target for therapeutic immune modulation"
     tags: [AHR, aryl-hydrocarbon-receptor, immune-modulation, tapinarof, Treg, Th17, Tr1, dendritic-cell, ILC3, psoriasis, atopic-dermatitis, inflammatory-bowel-disease, multiple-sclerosis, tryptophan-metabolism, kynurenine, microbiota-AHR-axis, tumour-associated-macrophage, antiviral, drug-discovery, review]
@@ -405,6 +410,22 @@ papers:
     priority: context
 
 concepts:
+  - slug: innate-immune-pathway-ssgsea-immunophenotyping-pan
+    title: "ssGSEA immunophenotyping of innate sensing pathways (pan-cancer)"
+    tags: [innate-immunity, ssGSEA, pan-cancer, immunophenotyping, TCGA, PRR]
+    maturity: emerging
+  - slug: phf-histone-demethylase-genomic-stability-cgas
+    title: "PHF demethylase–genomic stability–cGAS activation axis"
+    tags: [cGAS-STING, histone-demethylase, genomic-instability, PHF2, PHF8, immune-evasion, therapeutic-target]
+    maturity: emerging
+  - slug: innate-immune-activation-tumor-immunogenicity-immune
+    title: "Innate immune activation linked to tumor immunogenicity and exhaustion (colorectal)"
+    tags: [colorectal-cancer, tumor-mutation-burden, immunogenicity, T-cell-exhaustion, innate-immunity, neoantigen]
+    maturity: emerging
+  - slug: intratumor-microbiome-innate-immune-activation-association
+    title: "Intratumor microbiome–innate immune activation association"
+    tags: [intratumor-microbiome, innate-immunity, tumor-microenvironment, colon-cancer, lung-cancer, cancer-adjuvant]
+    maturity: emerging
   - slug: 6d-tam-translational-framework
     title: "6D TAM translational framework"
     tags: [macrophage, tumor-associated-macrophage, framework, translational-oncology]
@@ -2007,6 +2028,12 @@ concepts:
 topics:
 
 people:
+  - slug: gabriella-quinn
+    tags: [immunology, innate-immunity, cancer, bioinformatics, cGAS-STING]
+    affiliation: "UT Southwestern Medical Center, Dallas, TX, USA"
+  - slug: bo-li-ut-southwestern
+    tags: [computational-immunology, bioinformatics, innate-immunity, cancer-immunology, cGAS-STING]
+    affiliation: "UT Southwestern Medical Center, Dallas, TX, USA / Children's Hospital of Philadelphia"
   - slug: alexander-coulton
     tags: [tumor-associated-macrophage, scRNA-seq, pan-cancer-atlas, immune-checkpoint-inhibitor, immunogenomics]
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
@@ -2661,6 +2688,54 @@ ideas:
 experiments:
 
 claims:
+  - slug: custom-ssgsea-ontology-recapitulates-innate-immune
+    title: "A custom 5-pathway ssGSEA ontology recapitulates innate immune activation by viral and bacterial stimuli"
+    tags: [ssGSEA, innate-immunity, methodological, validation]
+    status: supported
+    confidence: 0.75
+    domain: methods / immunology
+  - slug: innate-immune-activation-predicts-patient-survival
+    title: "Innate immune activation scores predict patient survival in a subset of TCGA cancer types"
+    tags: [survival, pan-cancer, TCGA, innate-immunity, correlational, prognosis]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / immunology
+  - slug: cgas-activation-negatively-associated-global-transcription
+    title: "cGAS activation is negatively associated with global transcription pan-cancer"
+    tags: [cGAS, transcription, DNA-damage, pan-cancer, correlational]
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology / immunology
+  - slug: phf2-phf8-negatively-associated-cgas-activation
+    title: "PHF2 and PHF8 are negatively associated with cGAS activation; combined copy-number loss elevates it"
+    tags: [PHF2, PHF8, cGAS, copy-number, genomic-instability, correlational]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / epigenetics
+  - slug: microsatellite-instability-high-tumors-reduced-phf2
+    title: "Microsatellite-instability-high tumors show significantly reduced PHF2 expression"
+    tags: [PHF2, microsatellite-instability, genomic-stability, correlational]
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology / epigenetics
+  - slug: phf2-phf8-knockdown-increases-ifnb1-cell
+    title: "Combined PHF2/PHF8 knockdown increases IFNB1 and cell death in a cGAS-dependent manner"
+    tags: [PHF2, PHF8, cGAS, IFNB1, siRNA, pharmacological, mechanistic]
+    status: supported
+    confidence: 0.72
+    domain: oncology / immunology
+  - slug: colorectal-innate-activation-associated-mutation-burden
+    title: "In colorectal cancer, high innate immune activation associates with mutation burden, MUC16 mutation, and exhaustion markers"
+    tags: [colorectal-cancer, tumor-mutation-burden, MUC16, T-cell-exhaustion, immunogenicity, correlational]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology / immunology
+  - slug: intratumor-microbes-weak-tissue-specific-association
+    title: "Intratumor microbial abundance shows weak, tissue-specific associations with innate immune activation"
+    tags: [intratumor-microbiome, innate-immunity, colon-cancer, lung-cancer, correlational]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology / microbiome
   - slug: 100x-tokenization-preserves-gene-expression-resolution
     title: "100x tokenization preserves gene-expression resolution of 0.01 within a vocabulary of 1024"
     tags: [AlphaCell, tokenization, preprocessing, gene-dosage, methods]
@@ -9979,6 +10054,18 @@ claims:
 Summary:
 
 foundations:
+  - slug: phf2-histone-demethylase
+    title: "PHF2 — PHD finger protein 2 (Jumonji-C histone demethylase)"
+    status: mainstream
+    domain: epigenetics / chromatin biology
+  - slug: phf8-histone-demethylase
+    title: "PHF8 — PHD finger protein 8 (Jumonji-C histone demethylase)"
+    status: mainstream
+    domain: epigenetics / chromatin biology
+  - slug: timer-tumor-immune-deconvolution
+    title: "TIMER — Tumor IMmune Estimation Resource"
+    status: mainstream
+    domain: methods / computational immunology
   - slug: 10x-visium-spatial-transcriptomics
     title: "10x Genomics Visium — sequencing-based spatial transcriptomics"
     status: mainstream

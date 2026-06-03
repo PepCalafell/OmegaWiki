@@ -142,6 +142,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/emerging-strategies-investigate-biology-early-cancer] For solid tumours without clinically defined precursor lesions, what minimal molecular signature can mark "precancerous cells" in single-cell atlases?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Is the immune surveillance-to-evasion switch reversible by current ICI or by pre-CAF/senescent-cell-targeted interception?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Does ecDNA emergence have an analogue in cancers other than EAC?
+- [paper/genomic-investigation-innate-sensing-pathways-tumor] How and whether PRRs identify self-antigens/neoantigens.
+- [paper/genomic-investigation-innate-sensing-pathways-tumor] Why innate activation is protective in some cancers and hazardous in others.
+- [paper/genomic-investigation-innate-sensing-pathways-tumor] Whether MUC16 mutation-derived protein is a viable vaccine target.
+- [paper/genomic-investigation-innate-sensing-pathways-tumor] Is PHF inhibition pharmacologically tractable and tumor-selective in vivo?
+- [paper/genomic-investigation-innate-sensing-pathways-tumor] Do innate-high/exhausted CRC tumors preferentially respond to checkpoint blockade?
+- [paper/genomic-investigation-innate-sensing-pathways-tumor] Does the transcriptional suppression accompanying high cGAS reflect cause or consequence of DNA damage?
 - [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Implicitly: which O-GlcNAcylated substrate(s) mediate the cell-cycle "calibration" enabling residency and IL-4 responsiveness?
 - [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Does the O-GlcNAc→residency axis operate in tumour-associated macrophages and in hypoxic, glucose-competing niches (the thesis-relevant test)?
 - [paper/glcnacylation-shapes-macrophage-tissue-residency-alternative] Is the senescence-like G2/M arrest of Ogt-deficient LCMs reversible by restoring O-GlcNAc or relieving ROS/DNA damage?
@@ -1309,7 +1315,9 @@ _Auto-generated open questions. Do not edit._
 - [claim/cd-prevalent-effectors-target-cd-susceptibility-proteins-cog6-tnip1] Crohn's-prevalent effectors physically target Crohn's susceptibility proteins (COG6, TNIP1) (status: weakly_supported)
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
+- [claim/cgas-activation-negatively-associated-global-transcription] cGAS activation is negatively associated with global transcription pan-cancer (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
+- [claim/colorectal-innate-activation-associated-mutation-burden] In colorectal cancer, high innate immune activation associates with mutation burden, MUC16 mutation, and exhaustion markers (status: weakly_supported)
 - [claim/commensal-pathogen-effectors-share-12-human-targets] Commensal and pathogen effectors share a small but significant set of human targets (status: weakly_supported)
 - [claim/continuous-flow-smooth-latent-manifold-acts] Continuous flow on a smooth latent manifold acts as an implicit denoiser without explicit imputation (status: weakly_supported)
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
@@ -1346,6 +1354,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
 - [claim/imac1-paradoxical-down-p65-bound-genes] Unstimulated hypoxic MACs (iMAC1) paradoxically down-regulate p65-bound genes, suggesting incomplete inflammatory differentiation in absence of LPS (status: weakly_supported)
 - [claim/influence-tensor-clustering-yields-sharper-spatial] Clustering on GITIII's influence tensor yields cell subgroups with sharper spatial boundaries than expression alone (mouse primary motor cortex) (status: weakly_supported)
+- [claim/innate-immune-activation-predicts-patient-survival] Innate immune activation scores predict patient survival in a subset of TCGA cancer types (status: weakly_supported)
+- [claim/intratumor-microbes-weak-tissue-specific-association] Intratumor microbial abundance shows weak, tissue-specific associations with innate immune activation (status: weakly_supported)
 - [claim/irak1-irak4-inferred-upregulated-m2a-camkk2] Footprinting nominates IRAK1/IRAK4 in M2a and CAMKK2/GAK in M2c as novel immunosuppressive-state kinases (status: weakly_supported)
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
@@ -1358,6 +1368,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
 - [claim/microablation-mrna-lnp-transfects-39-percent] Laser microablation plus topical mRNA-LNP transfects 39.1% of basal keratinocytes (skin stem cells) in a 3D ARCI skin model (status: weakly_supported)
+- [claim/microsatellite-instability-high-tumors-reduced-phf2] Microsatellite-instability-high tumors show significantly reduced PHF2 expression (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells] Mevalonate (MVA) pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma (status: weakly_supported)
@@ -1372,6 +1383,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/perivasc-fib-i-immune-recruitment-ccl19-cxcl12] Perivasc Fib I may maintain skin immune recruitment and residence via CCL19-CCR7 and CXCL12-CXCR4, analogous to lymph-node FRCs (status: weakly_supported)
 - [claim/perivasc-i-physical-correlate-salt] PERIVASC I provides the long-sought physical correlate of the skin-associated lymphoid tissue (SALT) conceptual framework (status: weakly_supported)
 - [claim/pet-ml-model-detects-cac-nsclc-81-accuracy] PET/CT-based machine-learning model identifies CAC at diagnosis in lung-cancer patients with 81% accuracy (status: weakly_supported)
+- [claim/phf2-phf8-negatively-associated-cgas-activation] PHF2 and PHF8 are negatively associated with cGAS activation; combined copy-number loss elevates it (status: weakly_supported)
 - [claim/physiological-hypoxia-maintains-hsc-quiescence-hif] Physiological hypoxia in bone marrow maintains haematopoietic stem cell quiescence via HIF (controversial) (status: weakly_supported)
 - [claim/pre-cachectic-muscle-tca-flux-trends-early] Pre-cachectic mice (no weight loss) already exhibit trends towards increased TCA flux in GC muscle — muscle glucose hypermetabolism is an early event preceding wasting (status: weakly_supported)
 - [claim/proinflammatory-macrophage-fraction-correlates-cell-fraction] Proinflammatory macrophage fraction correlates strongly with B-cell fraction in brain metastases (status: weakly_supported)

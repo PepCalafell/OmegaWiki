@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1219 total)
+## Claims (1227 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -31,7 +31,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (67 total)
+## Papers (68 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] Hypoxic microenvironment in cancer: molecular mechanisms and therapeutic interventions (oncology)
@@ -47,13 +47,12 @@ _Auto-generated open questions. Do not edit._
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
 - [4] Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy (immunology)
-## Recent Relationships (2658 total)
-  papers/systemic-hypoxia-suppresses-solid-tumor-growth --supports--> claims/tumors-do-not-acquire-resistance-to-systemic-hypoxia
-  papers/systemic-hypoxia-suppresses-solid-tumor-growth --supports--> claims/hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression
-  papers/editing-skin-place-vivo-genome-correction --introduces_concept--> concepts/in-situ-genome-editing-skin
-  papers/editing-skin-place-vivo-genome-correction --introduces_concept--> concepts/laser-microablation-transdermal-lnp-delivery
-  papers/editing-skin-place-vivo-genome-correction --introduces_concept--> concepts/bystander-free-precision-base-editing
-  papers/editing-skin-place-vivo-genome-correction --derived_from--> foundations/cytosine-base-editor
-  papers/editing-skin-place-vivo-genome-correction --derived_from--> foundations/mrna-lipid-nanoparticle
-  papers/editing-skin-place-vivo-genome-correction --derived_from--> foundations/transglutaminase-1
-  papers/editing-skin-place-vivo-genome-correction --derived_fro
+## Recent Relationships (2678 total)
+  papers/delineation-signaling-routes-underlie-differences-macrophage --derived_from--> foundations/maxquant-proteomics
+  papers/delineation-signaling-routes-underlie-differences-macrophage --derived_from--> foundations/kinase-library-phosphosite-atlas
+  papers/delineation-signaling-routes-underlie-differences-macrophage --derived_from--> foundations/kea3-kinase-enrichment-analysis
+  papers/delineation-signaling-routes-underlie-differences-macrophage --derived_from--> foundations/netphorest-kinase-prediction
+  papers/delineation-signaling-routes-underlie-differences-macrophage --same_problem_as--> papers/transcriptome-based-network-analysis-reveals-spectrum
+  papers/genomic-investigation-innate-sensing-pathways-tumor --introduces_concept--> concepts/innate-immune-pathway-ssgsea-immunophenotyping-pan
+  papers/genomic-investigation-innate-sensing-pathways-tumor --introduces_concept--> concepts/phf-histone-demethylase-genomic-stability-cgas
+  papers/genomic-investigation-innate-sensing-pa
