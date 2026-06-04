@@ -22,6 +22,7 @@ maturity: stable
 key_papers:
   - "[[papers/benchmarking-atlas-level-data-integration-single]]"
   - "[[papers/novae-graph-based-foundation-model-spatial]]"
+  - "[[papers/interpretable-inflammation-landscape-circulating-immune-cells]]"
 first_introduced: "Luecken et al. 2022 Nature Methods (scIB benchmark formalises the tradeoff)"
 date_updated: 2026-05-22
 related_concepts:

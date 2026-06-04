@@ -24,6 +24,7 @@ key_papers:
   - using-pan-cancer-atlas-investigate-tumour
   - cross-tissue-single-cell-landscape-human
   - pan-cancer-tumor-classification-holistic-tumor
+  - interpretable-inflammation-landscape-circulating-immune-cells
 first_introduced: "Stuart et al. 2019 *Cell* Seurat V3; popularized as Azimuth (Hao et al. 2021); applied to TAMs in Coulton 2024 and Mulder 2021"
 date_updated: 2026-05-13
 related_concepts:

@@ -225,6 +225,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/integrative-epigenome-based-strategy-unbiased-functional] How well does the H3K27ac resolution advantage over RNA-seq hold across timepoints and slower-kinetic systems?
 - [paper/integrative-epigenome-based-strategy-unbiased-functional] Could a functional epigenomic readout be used to re-annotate CKI targets beyond binding assays?
 - [paper/integrative-epigenome-based-strategy-unbiased-functional] Is dsRNA sensing (RIG-I/MDA5) required for the proposed viral-mimicry Ifnb1 induction?
+- [paper/interpretable-inflammation-landscape-circulating-immune-cells] How faithfully do circulating immune states reflect tissue-resident inflammation?
+- [paper/interpretable-inflammation-landscape-circulating-immune-cells] Can a generalizable, batch-robust universal classifier be built without single-chemistry centralization?
+- [paper/interpretable-inflammation-landscape-circulating-immune-cells] What ancestry-diverse data are needed to capture global immune variability?
+- [paper/interpretable-inflammation-landscape-circulating-immune-cells] Is SP1's role in the IFN-induced program causal or correlative?
+- [paper/interpretable-inflammation-landscape-circulating-immune-cells] Could circulating CD8 STAT1 activity or monocyte CYBA serve as prospective flare/subtype biomarkers?
+- [paper/interpretable-inflammation-landscape-circulating-immune-cells] Would a VAE with stronger regularization match Harmony's cross-study robustness?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What is the role of perturbed baseline JAK-STAT signaling in human disease (inborn errors of immunity, inflammatory disorders, cancer)?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Which specific cell-extrinsic ligands and source cell types trigger baseline JAK-STAT in the spleen tissue context?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What non-ISGF3 protein complexes does IRF9 form to regulate ISGF3-independent targets?
@@ -738,6 +744,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/chromothripsis-hypoxia-prostate] Chromothripsis at specific loci (e.g., chr10 PTEN region in PCa) may be mechanistically distinct from genome-wide chromothripsis
 - [concept/chronic-sting-noncanonical-nfkb-cin] Whether biasing STING output toward canonical IRF3 (e.g., via dose, schedule, or co-treatment) can convert pro-tumor chronic activation into antitumor acute activation
 - [concept/chronic-sting-noncanonical-nfkb-cin] IL-6/IL-6R blockade (tocilizumab, siltuximab) as a STING-pathway-directed combination strategy
+- [concept/circulating-immune-cells-living-biomarkers] How faithfully circulating immune programs mirror organ-specific disease activity.
+- [concept/circulating-immune-cells-living-biomarkers] Standardization needed to deploy single-cell diagnostics in clinics.
 - [concept/cki-induced-retroelement-activation-drives-interferon] Which off-target kinase(s) cause the derepression for each implicated CKI.
 - [concept/cki-induced-retroelement-activation-drives-interferon] Clinical relevance of drug-induced viral mimicry for efficacy and toxicity.
 - [concept/cluster-c2-hypoxia-hypomethylation-signature] Whether the C2 signature persists epigenetically once hypoxia is relieved (memory / trained-immunity question).
@@ -954,8 +962,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/in-situ-genome-editing-skin] Competitive dynamics of corrected vs uncorrected skin stem cells
 - [concept/in-situ-genome-editing-skin] Scaling from focal application to whole-body surface area
 - [concept/in-situ-genome-editing-skin] Moving from immortalised human cells / 3D models to primary patient cells and clinical settings
+- [concept/inflammation-atlas-circulating-immune-cells] Linking circulating immune states to tissue-resident inflammation.
+- [concept/inflammation-atlas-circulating-immune-cells] Building a single-chemistry, multi-center training atlas for clinical use.
 - [concept/inflammatory-hypoxia-neutrophil-oxygen-depletion] How to harness pro-resolution inflammatory hypoxia therapeutically without exacerbating tissue injury.
 - [concept/intermittent-versus-sustained-hypoxia-inflammation] Defining the oscillation frequency/amplitude thresholds that maximise inflammatory signalling.
+- [concept/interpretable-ml-disease-discriminative-gene-discovery] Calibrated thresholds for separating disease- from study-driven attributions.
+- [concept/interpretable-ml-disease-discriminative-gene-discovery] Extending to multi-class, multi-cell-type joint attribution.
 - [concept/intraductal-cribriform-carcinoma] Whether IDC-CA *causes* worse outcome or merely *reflects* underlying molecular state (hypoxia, PTEN loss)
 - [concept/intraductal-cribriform-carcinoma] Molecular basis of intraductal architecture — what cell-cell signaling sustains it?
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
@@ -1161,6 +1173,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/paneth-progenitor-wnt3-stem-niche] Whether the same logic operates in colon "deep-crypt secretory cells" — Wnt-like-progenitor feedback to colon stem cells.
 - [concept/partially-methylated-domains-mitotic-clock] Quantitative model linking single-pixel PMD methylation to absolute division count.
 - [concept/partially-methylated-domains-mitotic-clock] Joint PMD + transcription readout to disentangle proliferation rate from differentiation state.
+- [concept/patient-classification-reference-embedding-projection] Achieving robust unseen-study generalization without single-chemistry centralization.
+- [concept/patient-classification-reference-embedding-projection] Whether linear backbones (Harmony) beat VAEs when no query labels are available for tuning.
 - [concept/patient-derived-organotypic-tumour-spheroid] Standardized fragment-size control.
 - [concept/patient-derived-organotypic-tumour-spheroid] Larger validation cohorts for ICB prediction.
 - [concept/patient-derived-tumour-organoid] Generating PDOs from FNA biopsies with sufficient cellular biomass for immune analyses.
@@ -1443,6 +1457,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/crc-pdo-pbmc-cannot-predict-icb-response] Co-culture of patient-derived MMR-deficient CRC organoids with autologous peripheral blood T cells did not predict clinical response to combination ICB (status: weakly_supported)
 - [claim/cscc-spp1-integrin-bcc-wnt-angiogenesis-interactions] cSCC interactomes are enriched for SPP1-integrin/CD44 and BCC for WNT and angiogenesis pairs (status: weakly_supported)
 - [claim/csf1r-initial-program-hypusine-tissue-occupancy-model] Proposed model: CSF1R signalling drives initial macrophage development while the polyamine–hypusine pathway determines subsequent tissue occupancy (status: proposed)
+- [claim/cyba-discriminative-marker-separating-intestinal-skin] CYBA discriminates intestinal from skin barrier IMIDs (high→UC/CD, low→PS/PSA) (status: weakly_supported)
 - [claim/de-novo-purine-gene-expression-correlates-fitness-hypoxia] De novo purine synthesis gene expression positively correlates with cancer cell fitness under hypoxia (status: weakly_supported)
 - [claim/de-novo-purine-synthesis-more-essential-in-vivo-than-in-vitro] De novo purine synthesis is more essential for PDAC tumor growth in vivo than in vitro (status: weakly_supported)
 - [claim/deseq2-mean-dispersion-curve-approximated-heuristic] The DESeq2 mean-dispersion curve can be approximated by a data-free order-of-magnitude band (status: weakly_supported)
@@ -1467,6 +1482,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/glcnacylation-dynamically-regulated-monocyte-large-cavity] O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition (status: proposed)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/haematopoiesis-shifts-early-megakaryocyte-biased-balanced] In vivo haematopoiesis shifts from early megakaryocyte-biased to balanced homeostatic output (status: weakly_supported)
+- [claim/harmony-generalizes-best-among-integration-methods] Harmony generalizes best among integration methods on unseen studies (status: weakly_supported)
 - [claim/hepatic-trem2-macs-calr-counters-cd47-pro-phagocytic] Hepatic TREM2 macs uniquely express CALR (calreticulin), a pro-phagocytic surface molecule that counteracts CD47 don't-eat-me signaling (status: weakly_supported)
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
@@ -1474,6 +1490,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/higher-altitude-correlates-lower-cancer-mortality] Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US (status: weakly_supported)
+- [claim/hiv-best-classified-naive-lymphoid-cells] HIV is best classified by naive lymphoid cells, consistent with CD4 T-cell tropism (status: weakly_supported)
 - [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
 - [claim/human-thp1-macrophages-efferoptosis] Human THP-1-derived macrophages recapitulate efferoptosis: TNF+neutrophils increase death and mature IL-1β rel (status: weakly_supported)
 - [claim/hvg-feature-selection-theoretically-ill-posed] HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction (status: proposed)
@@ -1483,6 +1500,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hypoxia-shifts-cancer-cells-toward-g1-arrest] Systemic hypoxia shifts cancer cells toward G1 arrest and reduced S-phase occupancy (status: weakly_supported)
 - [claim/hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression] HypoxyStat, a small-molecule hemoglobin-oxygen affinity modulator, recapitulates inhaled hypoxia's tumor suppression (status: weakly_supported)
 - [claim/ifit1-low-tumors-enriched-mt1x-low] IFIT1-low tumors are enriched for MT1X+ populations and low-activation T cells, marking an immune-cold state (status: weakly_supported)
+- [claim/ifitm1-discriminates-copd-asthma-lymphoid-cells] IFITM1 discriminates COPD from asthma in lymphoid cells (high→COPD, low→asthma) (status: weakly_supported)
 - [claim/ifn-multicellular-module-promotes-immune-permissive] The type I interferon multicellular module (M-IFN1) promotes an immune-permissive TME (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
@@ -1542,14 +1560,19 @@ _Auto-generated open questions. Do not edit._
 - [claim/relative-transcriptional-abundance-complementary-route-rapid] Relative transcriptional abundance (transcription exceeding promoter accessibility) is a complementary route to rapid immune gene upregulation (status: weakly_supported)
 - [claim/rho-gtpase-pathway-genes-rise-microglia] Rho GTPase pathway genes rise progressively in microglia along the Alzheimer trajectory (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
+- [claim/scanvi-generative-integration-outperforms-alternatives-annotated] Generative probabilistic integration (scVI/scANVI) outperforms alternatives for annotated atlas integration (status: weakly_supported)
+- [claim/severe-influenza-patients-molecularly-resemble-severe] Severe influenza patients molecularly resemble severe COVID-19 cases (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/sfpq-ep300-negative-regulators-interferon-response] SFPQ and EP300 are negative regulators of the interferon response that share transcriptional effects across post-transcriptional and transcriptional layers (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
+- [claim/sle-shows-opposing-stat1-sp1-activity] SLE shows opposing STAT1 and SP1 activity in monocytes and non-naive CD8 T cells (status: weakly_supported)
 - [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)
 - [claim/spi1-expression-decreases-under-hypoxia-contributing] Spi1 expression decreases under hypoxia, potentially contributing to P2ry12 downregulation (status: weakly_supported)
 - [claim/spi1-pu-knockout-increases-interferon-stimulated] SPI1/PU.1 knockout unexpectedly increases interferon-stimulated gene expression, suggesting a repressive role at certain ISGs (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
+- [claim/stat1-activity-rises-during-sle-flares] STAT1 activity rises during SLE flares while SP1 dominates myeloid cells in non-flare (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
+- [claim/study-classifier-shap-disentangles-disease-specific] A study classifier (s-SHAP) disentangles disease-specific from batch-confounded genes (status: weakly_supported)
 - [claim/subset-activation-specific-enhancers-pu-independent] A subset of activation-specific enhancers are PU.1-independent, resembling latent enhancers (status: weakly_supported)
 - [claim/time-dependent-flux-parameters-required-fit] Time-dependent flux parameters are required to fit 9-month in vivo haematopoiesis (status: weakly_supported)
 - [claim/time-independent-models-wrongly-assign-high] Time-independent models wrongly assign high growth rates to quiescent HSCs (status: weakly_supported)

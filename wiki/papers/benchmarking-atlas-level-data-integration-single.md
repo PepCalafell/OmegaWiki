@@ -119,7 +119,8 @@ hypoxiaverse_status:
 exclusion_reason:
 data_availability: "scIB Python module + Snakemake pipeline; 23 published datasets re-curated. Website: https://theislab.github.io/scib-reproducibility"
 code_url: "https://github.com/theislab/scib ; https://github.com/theislab/scib-pipeline"
-cited_by: []
+cited_by:
+  - interpretable-inflammation-landscape-circulating-immune-cells
 ---
 
 ## Problem
