@@ -61,6 +61,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: chinese-immune-multi-omics-atlas
+    title: "Chinese Immune Multi-Omics Atlas"
+    tags: [immune-atlas, multi-omics, xqtl, single-cell, gene-regulatory-network, population-genomics, chromatin-accessibility, cell-language-model]
+    importance: 5
+    domain: genomics
+    priority: reference
   - slug: complex-biology-aryl-hydrocarbon-receptor-activation
     title: "The complex biology of aryl hydrocarbon receptor activation in cancer and beyond"
     tags: [AHR, aryl-hydrocarbon-receptor, context-specificity, ARNT, AHRR, posttranslational-modifications, epigenetic-regulation, DNA-methylation, histone-modifications, non-genomic-AHR, tryptophan-metabolism, kynurenine, IDO1, TDO2, IL4I1, CYP1A1, TIPARP, HIF1A, HIF2A, SRC, vemurafenib, BRAFi-resistance, melanoma, tumor-suppression, tumor-promotion, SUMOylation, phosphorylation, ARNT2, HK2, TET2, CUL4B, UCHL3, review]
@@ -620,6 +626,10 @@ concepts:
     title: "Anatomical niche predicts macrophage function in tumors"
     tags: [macrophage, spatial-transcriptomics, tumor-microenvironment, niche]
     maturity: emerging
+  - slug: ancestry-specific-immune-regulatory-variation
+    title: "Ancestry-specific immune regulatory variation"
+    tags: [population-genomics, ancestry, xqtl, equity]
+    maturity: active
   - slug: ancestry-specific-tumor-hypoxia
     title: "Ancestry-specific tumor hypoxia"
     tags: [hypoxia, cancer, health-disparity, ancestry, BRCA, clinical-trial, precision-medicine]
@@ -732,6 +742,10 @@ concepts:
     title: "Cell-type abundance scoring from bulk tissue RNA-seq using specificity-ranked gene sets"
     tags: [deconvolution, bulk-RNA-seq, cell-type, methods]
     maturity: active
+  - slug: cell-type-specific-genetic-regulation-immune
+    title: "Cell type–specific genetic regulation of immune cells"
+    tags: [immune-genomics, xqtl, cell-type-specificity, single-cell]
+    maturity: active
   - slug: cell-type-zero-shot-perturbation-generalization
     title: "Cell-type zero-shot perturbation generalization"
     tags: [zero-shot, perturbation, generalization, cell-type, benchmark, single-cell]
@@ -768,6 +782,10 @@ concepts:
     title: "Chronic STING → non-canonical NF-κB → IL-6/STAT3 in CIN-high tumors"
     tags: [chromosomal-instability, cgas-sting, nf-kb, il-6, stat3, pro-tumor, metastasis]
     maturity: stable
+  - slug: cima-clm-chromatin-accessibility-cell-language
+    title: "CIMA-CLM — cell language model for chromatin accessibility"
+    tags: [deep-learning, chromatin-accessibility, foundation-model, multimodal]
+    maturity: emerging
   - slug: circulating-immune-cells-living-biomarkers
     title: "Circulating immune cells as living biomarkers"
     tags: [biomarker, liquid-biopsy, diagnostics, PBMC, precision-medicine]
@@ -950,6 +968,10 @@ concepts:
     title: "Trustworthy vs dubious metacells: a statistical definition"
     tags: [single-cell, metacell, statistics, homogeneity, measurement-model]
     maturity: emerging
+  - slug: dynamic-eqtl-along-differentiation-pseudotime
+    title: "Dynamic eQTL along differentiation pseudotime"
+    tags: [eqtl, pseudotime, single-cell, dynamic-genetics]
+    maturity: active
   - slug: e3-ligase-protac-tumor-selectivity
     title: "Tumor-type-enriched E3 ubiquitin ligases for PROTAC selectivity"
     tags: [protac, e3-ligase, ubiquitin-proteasome, drug-design, selectivity]
@@ -1003,6 +1025,10 @@ concepts:
     title: "Endometrial metabolic reprogramming across cycle, endometriosis, and endometrial carcinoma"
     tags: [endometrium, menstrual-cycle, endometriosis, endometrial-carcinoma, kynurenine, mevalonate, estrogen-signaling, metabolic-reprogramming]
     maturity: emerging
+  - slug: enhancer-driven-gene-regulatory-network-eregulon
+    title: "Enhancer-driven gene regulatory network (eRegulon)"
+    tags: [gene-regulatory-network, eRegulon, scATAC-seq, transcription-factor]
+    maturity: active
   - slug: epigenetic-cgas-sting-silencing-immune-evasion
     title: "Epigenetic cGAS/STING silencing as a tumor immune-evasion mechanism"
     tags: [epigenetics, cgas-sting, immune-evasion, dnmt, ezh2, h3k27me3]
@@ -2395,6 +2421,9 @@ people:
   - slug: christoph-bock
     tags: [epigenomics, single-cell, methods, immunology, jak-stat, dna-methylation, cancer]
     affiliation: "CeMM Research Center for Molecular Medicine, Austrian Academy of Sciences; Medical University of Vienna"
+  - slug: chuanyu-liu
+    tags: [single-cell, immune-genomics, BGI]
+    affiliation: "BGI Research, Shenzhen"
   - slug: claire-e-lewis
     tags: [tumor-associated-macrophage, macrophage-tumour-niche, angiogenesis, hypoxia-macrophage, TAM-classification, immunometabolism]
     affiliation: "Department of Oncology and Metabolism, University of Sheffield Medical School, Beech Hill Road, Sheffield, Yorkshire S10 2RX, UK"
@@ -2584,6 +2613,9 @@ people:
   - slug: jianguo-wu
     tags: [virology, hypoxia-signaling, HIF1A, SARS-CoV-2, viral-pathogenesis, PI]
     affiliation: "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou; The First Affiliated Hospital of Jinan University, Guangzhou"
+  - slug: jianhua-yin
+    tags: [immunology, single-cell, genomics, BGI]
+    affiliation: "BGI Research, Shenzhen"
   - slug: jingyi-jessica-li
     tags: [single-cell, statistics, biostatistics, computational-biology, simulation]
     affiliation: "Department of Statistics and Data Science, UCLA; Biostatistics, Fred Hutchinson Cancer Center / University of Washington"
@@ -2665,6 +2697,9 @@ people:
   - slug: longda-jiang
     tags: [single-cell, computational-biology, methods]
     affiliation: "New York Genome Center"
+  - slug: longqi-liu
+    tags: [single-cell, spatial, multi-omics, BGI]
+    affiliation: "BGI Research, Hangzhou"
   - slug: luca-pinello
     tags: [computational-biology, gene-regulation, spatial-transcriptomics, single-cell, benchmarking, epigenomics]
     affiliation: "Broad Institute of MIT and Harvard; Molecular Pathology Unit, Krantz Family Center for Cancer Research, Massachusetts General Hospital"
@@ -2986,18 +3021,27 @@ people:
   - slug: xiaoqi-sun
     tags: [macrophage, tumor-associated-macrophage, cancer-immunotherapy, mononuclear-phagocyte]
     affiliation: "Icahn Genomics Institute, Lipschultz Precision Immunology Institute, Department of Immunology & Immunotherapy, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+  - slug: xin-jin
+    tags: [population-genomics, immunology, BGI]
+    affiliation: "BGI Research / South China University of Technology"
   - slug: xingqiao-wen
     tags: [urology, hypoxia, VHL, kidney, ccRCC, ischemia]
     affiliation: "Guangdong Provincial People's Hospital, Southern Medical University, Guangzhou, China"
   - slug: xiwen-tang
     tags: [early-cancer]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
+  - slug: xun-xu
+    tags: [genomics, single-cell, BGI]
+    affiliation: "BGI Research, Shenzhen"
   - slug: ya-han
     tags: [single-cell-genomics, pan-cancer, tme, computational-oncology]
     affiliation: "Tongji University"
   - slug: yadong-wang
     tags: [bioinformatics, deconvolution, computing]
     affiliation: "Harbin Institute of Technology"
+  - slug: yanan-cao
+    tags: [immunology, population-genomics, BGI]
+    affiliation: "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine"
   - slug: yanqing-wang
     tags: [neurobiology, integrative-medicine, acupuncture, pain]
     affiliation: "Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences, Shanghai Medical College, Fudan University, Shanghai, China"
@@ -4473,6 +4517,42 @@ claims:
     status: supported
     confidence: 0.75
     domain: methods
+  - slug: cima-clm-accurately-predicts-cell-type
+    title: "CIMA-CLM accurately predicts cell type–specific chromatin accessibility"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: cima-clm-outperforms-existing-chromatin-accessibility
+    title: "CIMA-CLM outperforms existing sequence-free and sequence-based accessibility models"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: cima-clm-silico-mutagenesis-predicts-noncoding
+    title: "CIMA-CLM in silico mutagenesis predicts noncoding variant effects on accessibility"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.7
+    domain: immunology
+  - slug: cima-identifies-9600-egenes-52361-capeaks
+    title: "CIMA identifies 9600 eGenes and 52,361 caPeaks at immune cell type resolution"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: cima-profiles-ten-million-pbmcs-428
+    title: "CIMA profiles over 10 million PBMCs from 428 Chinese adults into 73 immune cell types"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.95
+    domain: immunology
+  - slug: cima-specific-ccres-predominantly-cell-type
+    title: "CIMA-specific cCREs are predominantly restricted to a single cell type"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: cin-chronic-sting-nfkb-il6-drives-metastasis
     title: "In CIN-high tumors, chronic cGAS-STING engages non-canonical NF-κB and IL-6/STAT3 to drive metastasis"
     tags: [chromosomal-instability, cgas-sting, nf-kb, il6, stat3, metastasis]
@@ -4920,6 +5000,12 @@ claims:
     tags: [tissue-specificity-index, TSI, TPO, IL-15, response-magnitude]
     status: supported
     confidence: 0.9
+    domain: immunology
+  - slug: cytotoxic-cell-grn-transcription-factor-activity
+    title: "Cytotoxic T cell GRN transcription factor activity increases with age"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.7
     domain: immunology
   - slug: dca-polarizes-m1-via-m2-muscarinic-tlr2-transactivation
     title: "Deoxycholic acid polarizes macrophages to M1 via TLR2 transactivation by the M2 muscarinic acetylcholine receptor"
@@ -5485,6 +5571,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: hematology / cell sorting
+  - slug: enhancer-driven-grn-links-regulatory-regions
+    title: "An enhancer-driven GRN links tens of thousands of regions to target genes via eRegulons"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: enpp1-degrades-cgamp-drives-breast-cancer
     title: "ENPP1 degrades extracellular cGAMP and promotes breast cancer growth/metastasis by dampening anti-tumor immunity"
     tags: [cgas-sting, enpp1, cgamp, breast-cancer, metastasis]
@@ -6307,6 +6399,12 @@ claims:
     status: weakly_supported
     confidence: 0.5
     domain: oncology
+  - slug: higher-cells-per-sample-increases-cis
+    title: "Higher average cells per sample, not sample count, drives greater cis-eGene discovery"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.7
+    domain: immunology
   - slug: hiv-best-classified-naive-lymphoid-cells
     title: "HIV is best classified by naive lymphoid cells, consistent with CD4 T-cell tropism"
     tags: [HIV, classification, lymphoid, tropism]
@@ -7109,6 +7207,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology
+  - slug: immune-ccres-predominantly-distal-noncoding-regulatory
+    title: "Immune cCREs are predominantly distal noncoding regulatory elements"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: immune-dictionary-characterizes-66-cytokine-driven
     title: "The Immune Dictionary characterizes 66 cytokine-driven polarization states across 17 immune cell types"
     tags: [polarization, immune-dictionary, scRNA-seq, atlas]
@@ -7121,6 +7225,24 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology
+  - slug: immune-transcription-factor-activity-shows-sex
+    title: "Immune transcription factor activity shows sex-biased differences"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.65
+    domain: immunology
+  - slug: immune-xqtl-effects-largely-cell-type
+    title: "Immune regulatory genetic effects (xQTLs) are largely cell type–specific"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: immune-xqtl-genetic-effects-show-substantial
+    title: "Immune xQTL effects show substantial but variable sharing across cell types"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: in-vivo-pho4-cbf1-binding-resilience-tracks-overlapping-site-counts
     title: "In vivo Pho4 ChIP-seq dominance over Cbf1 increases with Pho4-specific overlapping active 8-mers (and vice versa)"
     tags: [Pho4, Cbf1, ChIP-seq, paralog-competition, in-vivo, correlational]
@@ -7749,6 +7871,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: regenerative immunology
+  - slug: majority-smr-pleiotropic-associations-single-cell
+    title: "Most immune SMR pleiotropic associations are significant in only a single cell type"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: many-lead-cis-eqtls-exhibit-dynamic
+    title: "Many immune lead cis-eQTLs exhibit dynamic effects along differentiation pseudotime"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: maraviroc-enhances-neoantigen-vaccine-antitumor-immunity
     title: "Maraviroc enhances neoantigen vaccine antitumor immunity"
     tags: [pharmacological, macrophage, tumor-immunity, lung-cancer]
@@ -9601,6 +9735,30 @@ claims:
     status: supported
     confidence: 0.75
     domain: lung cancer / spatial genomics
+  - slug: rs11886530-exerts-cis-eqtl-npas2-trans
+    title: "rs11886530 exerts a cis-eQTL on NPAS2 and a trans-eQTL on circadian NR1D1"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
+  - slug: rs2235922-upregulates-padi2-monocytes-increasing-rheumatoid
+    title: "rs2235922 up-regulates PADI2 in classical monocytes, linked to rheumatoid arthritis risk"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
+  - slug: rs312457-regulates-slc16a11-cells-linked-type
+    title: "rs312457 regulates SLC16A11 in CD4 T cells, linked to type 2 diabetes risk"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: weakly_supported
+    confidence: 0.55
+    domain: immunology
+  - slug: rs34415530-regulates-ikzf4-treg-affecting-il
+    title: "rs34415530 lowers Treg IKZF4 expression with pleiotropic effects on IL-12B and asthma"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology
   - slug: rs606231230-pathogenic-preaxial-polydactyly-creates-overlapping-hoxd13-sites
     title: "Pathogenic SNP rs606231230 (preaxial polydactyly) creates multiple overlapping HOXD13 binding sites in a limb enhancer"
     tags: [HOXD13, noncoding-variant, polydactyly, enhancer, limb-development, disease]
@@ -10318,6 +10476,12 @@ claims:
     tags: [donor-variability, ISG, interferon-group, baseline, IFIT]
     status: supported
     confidence: 0.85
+    domain: immunology
+  - slug: subset-immune-xqtls-reflects-ancestry-specific
+    title: "A subset of immune xQTLs reflects ancestry-specific regulatory effects"
+    tags: [immune-genomics, xqtl, single-cell]
+    status: supported
+    confidence: 0.75
     domain: immunology
   - slug: succinate-itaconate-tam-set-point
     title: "Succinate stabilizes HIF-1α and drives IL-1β; itaconate alkylates KEAP1 to activate NRF2 — opposing TAM metabolic set points"
@@ -12563,6 +12727,10 @@ foundations:
     title: "Highly Variable Gene (HVG) selection in scRNA-seq"
     status: mainstream
     domain: methods / scRNA-seq-preprocessing
+  - slug: hyenadna-genomic-sequence-model
+    title: "HyenaDNA — long-range genomic sequence model"
+    status: mainstream
+    domain: machine learning / genomics
   - slug: icgc-paca-pdac-cohorts
     title: "ICGC PACA-CA and PACA-AU — external validation cohorts for PDAC"
     status: mainstream
@@ -12587,6 +12755,10 @@ foundations:
     title: "IKBKE (IKKε) — inhibitor of NF-κB kinase subunit epsilon"
     status: mainstream
     domain: cell signaling / innate immunity
+  - slug: ikzf4-eos-transcription-factor
+    title: "IKZF4 (Eos) — Ikaros-family transcription factor"
+    status: mainstream
+    domain: immunology
   - slug: il-1-beta-cytokine
     title: "IL-1β (Interleukin-1 beta)"
     status: mainstream
@@ -12595,6 +12767,10 @@ foundations:
     title: "IL-10 (Interleukin-10)"
     status: mainstream
     domain: immunology / cytokine / regulatory effector
+  - slug: il-12b-interleukin-12b-subunit
+    title: "IL-12B (p40) — shared IL-12/IL-23 subunit"
+    status: mainstream
+    domain: immunology
   - slug: il-15-cytokine
     title: "IL-15 — interleukin-15 cytokine"
     status: mainstream
@@ -13107,6 +13283,10 @@ foundations:
     tags: [kinase, nutrient-sensing, immunometabolism, autophagy]
     status: mainstream
     domain: immunology
+  - slug: multi-omics-factor-analysis-mofa
+    title: "MOFA — Multi-Omics Factor Analysis"
+    status: mainstream
+    domain: computational biology
   - slug: multinichenetr-cell-cell-comm
     title: "MultiNicheNetR — multi-sample ligand-receptor cell-cell communication inference"
     status: mainstream
@@ -13266,6 +13446,10 @@ foundations:
     title: "P2RY12 — purinergic receptor P2Y12, homeostatic microglial marker"
     status: mainstream
     domain: neuroimmunology / cell-biology
+  - slug: padi2-peptidylarginine-deiminase
+    title: "PADI2 — peptidylarginine deiminase 2"
+    status: mainstream
+    domain: immunology
   - slug: paga-trajectory
     title: "PAGA — partition-based graph abstraction for trajectory inference"
     status: mainstream
@@ -13775,6 +13959,10 @@ foundations:
     title: "Snakemake — reproducible bioinformatics workflow engine"
     status: mainstream
     domain: methods / workflow-engine / bioinformatics-infrastructure
+  - slug: snapatac2-single-cell-atac-workflow
+    title: "SnapATAC2 — single-cell ATAC analysis workflow"
+    status: mainstream
+    domain: single-cell genomics
   - slug: snp-selex
     title: "SNP-SELEX (high-throughput allelic TF binding affinity by SELEX)"
     status: mainstream
@@ -13908,6 +14096,10 @@ foundations:
     title: "SUCNR1 / GPR91 — succinate receptor"
     status: mainstream
     domain: molecular-biology / metabolism / cell-signaling
+  - slug: summary-data-based-mendelian-randomization-smr
+    title: "SMR — Summary-data-based Mendelian Randomization"
+    status: mainstream
+    domain: statistical genetics
   - slug: super-enhancer
     title: "Super-enhancer"
     status: mainstream
@@ -13980,6 +14172,10 @@ foundations:
     title: "TDO2 (tryptophan 2,3-dioxygenase)"
     status: mainstream
     domain: metabolism / immunology
+  - slug: tensorqtl
+    title: "TensorQTL — GPU-accelerated QTL mapping"
+    status: mainstream
+    domain: statistical genetics
   - slug: tert-telomerase
     title: "TERT (Telomerase Reverse Transcriptase)"
     status: mainstream

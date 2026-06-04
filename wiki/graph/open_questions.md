@@ -68,6 +68,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/chemokine-defined-macrophage-niches-establish-spatial] Is niche assignment instructive (niche programs the macrophage) or selective (programmed macrophages home to niches)?
 - [paper/chemokine-defined-macrophage-niches-establish-spatial] Does preserving the CD206hi IM bronchovascular–TLS niche synergize with checkpoint blockade?
 - [paper/chemokine-defined-macrophage-niches-establish-spatial] How does this division of labor intersect with hypoxia in tumor cores (relevant to the broader corpus, though not addressed here)?
+- [paper/chinese-immune-multi-omics-atlas] How to perform refined genome-wide single-cell (non-pseudobulk) QTL mapping efficiently.
+- [paper/chinese-immune-multi-omics-atlas] Whether true multiome platforms confirm the inferred enhancer-driven GRNs.
+- [paper/chinese-immune-multi-omics-atlas] How much does an ancestry-matched, cell type–resolved reference improve disease-risk portability versus European-centric resources?
+- [paper/chinese-immune-multi-omics-atlas] Can CIMA-CLM generalize to cell states and ancestries outside the training cohort, and are predicted variant-effect magnitudes calibrated to functional assays?
+- [paper/chinese-immune-multi-omics-atlas] Do dynamic (pseudotime) eQTLs explain disease loci missed by static cell-type mapping?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Which kinases (beyond PKC and tyrosine kinases) directly phosphorylate AHR, and at which residues? Most of the high-throughput PTM sites have no assigned upstream enzyme (Fig. 3).
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Does ARNT2 antagonise AHR in tissues where it is dominantly expressed (CNS, kidney, retinal epithelium)?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Why do AHRR and CYP1A1 promoter methylation respond in *opposite* directions to maternal smoking exposure if both are downstream of the same AHR axis?
@@ -1559,6 +1564,10 @@ _Auto-generated open questions. Do not edit._
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
 - [claim/relative-transcriptional-abundance-complementary-route-rapid] Relative transcriptional abundance (transcription exceeding promoter accessibility) is a complementary route to rapid immune gene upregulation (status: weakly_supported)
 - [claim/rho-gtpase-pathway-genes-rise-microglia] Rho GTPase pathway genes rise progressively in microglia along the Alzheimer trajectory (status: weakly_supported)
+- [claim/rs11886530-exerts-cis-eqtl-npas2-trans] rs11886530 exerts a cis-eQTL on NPAS2 and a trans-eQTL on circadian NR1D1 (status: weakly_supported)
+- [claim/rs2235922-upregulates-padi2-monocytes-increasing-rheumatoid] rs2235922 up-regulates PADI2 in classical monocytes, linked to rheumatoid arthritis risk (status: weakly_supported)
+- [claim/rs312457-regulates-slc16a11-cells-linked-type] rs312457 regulates SLC16A11 in CD4 T cells, linked to type 2 diabetes risk (status: weakly_supported)
+- [claim/rs34415530-regulates-ikzf4-treg-affecting-il] rs34415530 lowers Treg IKZF4 expression with pleiotropic effects on IL-12B and asthma (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/scanvi-generative-integration-outperforms-alternatives-annotated] Generative probabilistic integration (scVI/scANVI) outperforms alternatives for annotated atlas integration (status: weakly_supported)
 - [claim/severe-influenza-patients-molecularly-resemble-severe] Severe influenza patients molecularly resemble severe COVID-19 cases (status: weakly_supported)

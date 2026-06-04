@@ -89,3 +89,4 @@
 ## [2026-06-04] ingest | added papers/hypoxic-stress-dysregulates-functions-glioma-associated | +5 concepts, +26 claims, +11 foundations, +3 people, +1 paper-paper edge (complementary_to hypoxia-driven-crosstalk-between-tumor-tumor)
 ## [2026-06-04] ingest | added papers/integrated-time-series-analysis-high-content | +15 claims (14 new, 1 merged), +3 concepts, +3 foundations, +2 people, +29 edges, +1 citation
 ## [2026-06-04] ingest | added papers/interpretable-inflammation-landscape-circulating-immune-cells | +22 claims, +4 concepts, +10 foundations, +5 people; updated concepts atlas-level-data-integration, batch-removal-vs-bioconservation-tradeoff, scrna-atlas-as-reference-projection; cites benchmarking-atlas-level-data-integration-single
+## [2026-06-04] ingest | added papers/chinese-immune-multi-omics-atlas | +20 claims, +5 concepts, +8 foundations, +6 people, +51 edges
