@@ -163,6 +163,12 @@ papers:
     importance: 4
     domain: oncology
     priority: core
+  - slug: hypoxic-stress-dysregulates-functions-glioma-associated
+    title: "Hypoxic stress dysregulates functions of glioma-associated myeloid cells through epigenomic and transcriptional programs"
+    tags: [hypoxia, glioma, glioblastoma, glioma-associated-macrophages, microglia, myeloid-cells, epigenomics, chromatin-accessibility, ATAC-seq, H3K27ac, HDAC, lipid-droplets, tumor-microenvironment, galectin-3, P2RY12, TMEM119]
+    importance: 4
+    domain: oncology / immunology / epigenetics
+    priority: core
   - slug: identifying-spatial-single-cell-level-interactions
     title: "Identifying spatial single-cell-level interactions with graph transformer"
     tags: [news-and-views, commentary, cell-cell-interaction, spatial-transcriptomics, graph-transformer, self-supervised, ligand-receptor-free, GITIII, methods]
@@ -297,7 +303,7 @@ papers:
     priority: reference
   - slug: pan-cancer-tumor-classification-holistic-tumor
     title: "Pan-cancer tumor classification by a holistic tumor microenvironment atlas"
-    tags: [pan-cancer, tumor-microenvironment, single-cell, tumor-classification, macrophage, interferon, IFIT1-TAM, CXCL9-TAM, multicellular-module, ICB, CAF, TME-groups]
+    tags: [pan-cancer, tumor-microenvironment, single-cell, tumor-classification, macrophage, interferon, ICB, CAF]
     importance: 4
     domain: oncology
     priority: reference
@@ -417,7 +423,7 @@ papers:
     priority: reference
   - slug: transcriptional-regulator-network-human-inflammatory-macrophages
     title: "The transcriptional regulator network of human inflammatory macrophages is defined by open chromatin"
-    tags: [macrophage, epigenetics, transcription-factors, chromatin, inflammation, network-biology, open-chromatin, super-enhancer, PU.1, ChIP-seq]
+    tags: [macrophage, epigenetics, transcription-factors, chromatin, inflammation, network-biology]
     importance: 4
     domain: epigenetics
     priority: context
@@ -695,7 +701,7 @@ concepts:
     tags: [macrophage, tertiary-lymphoid-structure, chemokine, lung-cancer, spatial-transcriptomics]
     maturity: emerging
   - slug: cd44-ecm-axis-melanoma-invasion
-    title: "CD44-ECM ligand-receptor axis in melanoma invasion"
+    title: "CD44–ECM ligand-receptor axis in melanoma invasion"
     tags: [melanoma, cell-cell-interaction, extracellular-matrix, therapeutic-target]
     maturity: emerging
   - slug: cd8-t-cell-exhaustion-texterm
@@ -901,6 +907,10 @@ concepts:
     title: "Differential stromal cell-cell interactions across skin cancer subtypes"
     tags: [skin-cancer, tumour-microenvironment, cell-cell-interaction, fibroblast]
     maturity: emerging
+  - slug: direct-glioma-microglia-co-culture-under
+    title: "Direct glioma–microglia co-culture under controlled hypoxia"
+    tags: [co-culture, model-system, hypoxia, microglia, glioma, BV2, GL261, tumor-microenvironment]
+    maturity: emerging
   - slug: discordance-between-vitro-kinase-inhibitor-selectivity
     title: "Discordance between in vitro kinase-inhibitor selectivity and cellular effects"
     tags: [kinase-inhibitors, drug-selectivity, kinobeads, target-engagement, pharmacology]
@@ -1029,6 +1039,10 @@ concepts:
     title: "Adult skin F3 FRC-like fibroblasts potentially arise from prenatal LTo-like cells"
     tags: [skin, fibroblast, FRC, development, lymphoid-tissue-organizer, ontogeny]
     maturity: emerging
+  - slug: gam-hypoxia-score-transcriptomic-signature
+    title: "GAM hypoxia score — cell-type-specific hypoxic TAM signature"
+    tags: [hypoxia-signature, glioma-associated-macrophages, scRNA-seq, gene-signature, tumor-microenvironment]
+    maturity: emerging
   - slug: geneva-multiplexed-mosaic-xenograft
     title: "GENEVA multiplexed mosaic xenograft platform"
     tags: [xenograft, scrna-seq, functional-genomics, platform, in_vivo]
@@ -1064,6 +1078,10 @@ concepts:
   - slug: harmonized-skin-fibroblast-subtype-atlas-f1
     title: "Harmonized human skin fibroblast subtype taxonomy (F1–F8)"
     tags: [skin, fibroblast, single-cell, spatial-transcriptomics, atlas, nomenclature]
+    maturity: emerging
+  - slug: hdac-h3k27ac-control-lipid-droplet-accumulation
+    title: "HDAC/H3K27ac control of lipid-droplet accumulation in hypoxic GAMs"
+    tags: [hypoxia, H3K27ac, HDAC, lipid-droplets, microglia, macrophage, panobinostat, epigenetics]
     maturity: emerging
   - slug: hepatic-trem2-protective-tam-program
     title: "Hepatic TREM2 protective TAM program"
@@ -1122,10 +1140,18 @@ concepts:
     title: "Hypoxia drives centrosome amplification and mitotic CIN"
     tags: [hypoxia, mitosis, chromosomal-instability, aneuploidy]
     maturity: emerging
+  - slug: hypoxia-chromatin-remodeling-myeloid-identity-gene
+    title: "Hypoxia-driven chromatin remodeling of myeloid identity gene promoters"
+    tags: [hypoxia, chromatin-accessibility, ATAC-seq, microglia, P2RY12, epigenomics, transcription-factors]
+    maturity: emerging
   - slug: hypoxia-co-driver-tumour-evolution-cancer
     title: "Hypoxia is a co-driver of tumour evolution alongside cancer driver genes"
     tags: [hypoxia, clonal-evolution, cancer-genomics]
     maturity: stable
+  - slug: hypoxia-confounds-gam-subtype-marker-classification
+    title: "Hypoxia confounds GAM subtype marker-based classification"
+    tags: [hypoxia, glioma-associated-macrophages, microglia, myeloid-markers, tumor-microenvironment, marker-confounding]
+    maturity: emerging
   - slug: hypoxia-emt-lineage-plasticity-metastasis
     title: "Hypoxia drives EMT, lineage plasticity and metastasis"
     tags: [hypoxia, metastasis, EMT, epigenetics]
@@ -2229,7 +2255,7 @@ people:
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
   - slug: alexander-poltorak
     tags: [immunology, innate-immunity, tlr, cell-death, sepsis]
-    affiliation: "Tufts University School of Medicine, Boston, MA"
+    affiliation: "Tufts University School of Medicine"
   - slug: alexander-rosenberg
     tags: [single-cell-genomics, split-pool-barcoding, SPLiT-seq, industry]
     affiliation: "Parse Biosciences"
@@ -2275,18 +2301,21 @@ people:
   - slug: bing-he
     tags: [bioinformatics, single-cell-genomics, virtual-cell, perturbation-modeling]
     affiliation: "National Key Laboratory of Autonomous Intelligent Unmanned Systems, Frontiers Science Center for Intelligent Autonomous Systems, Tongji University area, Shanghai, China"
-  - slug: bo-li
-    tags: [hypoxia, VHL, metabolism, mitochondria, biochemistry, oncology]
-    affiliation: "Southern Medical University, Guangzhou, China"
   - slug: bo-li-ut-southwestern
     tags: [computational-immunology, bioinformatics, innate-immunity, cancer-immunology, cGAS-STING]
     affiliation: "UT Southwestern Medical Center, Dallas, TX, USA / Children's Hospital of Philadelphia"
+  - slug: bo-li
+    tags: [hypoxia, VHL, metabolism, mitochondria, biochemistry, oncology]
+    affiliation: "Southern Medical University, Guangzhou, China"
   - slug: bo-porse
     tags: [hematopoiesis, HSPC, molecular-hematology, leukemia, single-cell-genomics]
     affiliation: "The Finsen Laboratory, Rigshospitalet; Biotech Research and Innovation Centre (BRIC); Department of Clinical Medicine, University of Copenhagen"
   - slug: boris-reizis
     tags: [dendritic-cell, mononuclear-phagocyte, hematopoiesis, PI, immunology, lineage-tracing]
     affiliation: "Department of Pathology, New York University Grossman School of Medicine, New York, NY, USA"
+  - slug: bozena-kaminska
+    tags: [glioma, microglia, tumor-microenvironment, neuroimmunology, GAMs]
+    affiliation: "Nencki Institute of Experimental Biology, Polish Academy of Sciences, Warsaw"
   - slug: brent-s-carroll
     tags: [transcription-factor, DNA-binding, PADIT-seq]
     affiliation: "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA"
@@ -2475,7 +2504,7 @@ people:
     affiliation: "Arc Institute & UCSF"
   - slug: hayley-muendlein
     tags: [immunology, cell-death, innate-immunity, pyroptosis]
-    affiliation: "Tufts University School of Medicine, Boston, MA"
+    affiliation: "Tufts University School of Medicine"
   - slug: heming-ge
     tags: [pancreatic-cancer, hypoxia, tumor-associated-macrophage, prognostic-model, scRNA-seq, bioinformatics]
     affiliation: "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
@@ -2539,6 +2568,9 @@ people:
   - slug: julio-aguirre-ghiso
     tags: [cancer-dormancy, metastasis, tumor-microenvironment, PI, cell-biology, oncology]
     affiliation: "Albert Einstein College of Medicine (current); Icahn School of Medicine at Mount Sinai (formerly)"
+  - slug: katarzyna-leszczynska
+    tags: [hypoxia, epigenomics, glioma, tumor-microenvironment, microglia]
+    affiliation: "Nencki Institute of Experimental Biology, Polish Academy of Sciences, Warsaw"
   - slug: kevin-litchfield
     tags: [tumor-immunogenomics, immune-checkpoint-inhibitor, bioinformatics, tumour-evolution, biomarker-discovery, CPI1000]
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
@@ -2662,6 +2694,9 @@ people:
   - slug: mirja-prentzell
     tags: [AHR, tryptophan-metabolism, DKFZ, Heidelberg]
     affiliation: "German Cancer Research Center (DKFZ), Heidelberg; Faculty of Bioscience, Heidelberg University"
+  - slug: monika-dzwigonska
+    tags: [hypoxia, glioma, microglia, epigenomics, GAMs]
+    affiliation: "Nencki Institute of Experimental Biology, Polish Academy of Sciences, Warsaw"
   - slug: muzlifah-haniffa
     tags: [immunology, single-cell, skin, developmental-atlas, spatial-transcriptomics]
     affiliation: "Wellcome Sanger Institute; Newcastle University"
@@ -2945,8 +2980,8 @@ people:
     tags: [nsclc, tumour-microenvironment, spatial-biology]
     affiliation: "MD Anderson Cancer Center"
   - slug: zemin-zhang
-    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology, immunogenomics]
-    affiliation: "BIOPIC, Peking University, Beijing; Chongqing Medical University, China"
+    tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
+    affiliation: "BIOPIC, Peking University, Beijing, China"
   - slug: zhen-luo
     tags: [virology, hypoxia-signaling, HIF1A, SARS-CoV-2, viral-hepatitis, immunology]
     affiliation: "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou; Foshan Institute of Medical Microbiology, Foshan"
@@ -4413,7 +4448,7 @@ claims:
     domain: innate immunity / genomics
   - slug: cleaved-caspase8-75pct-splenic-macrophages
     title: "TNF induces cleaved caspase-8 in ~75% of splenic CD68+ macrophages in vivo, reduced by TRIF deficiency."
-    tags: ["quantitative", "efferoptosis", "pyroptosis"]
+    tags: [quantitative, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -4441,6 +4476,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology
+  - slug: cocl2-hypoxia-mimetic-reproduces-hypoxic-dysregulation
+    title: "CoCl2 hypoxia mimetic reproduces hypoxic dysregulation of Lgals3, P2ry12, Tmem119"
+    tags: [pharmacological, hypoxia-mimetic, CoCl2, HIF]
+    status: supported
+    confidence: 0.8
+    domain: neuro-oncology / immunology
   - slug: codex-cellular-neighbourhoods-stratify-crc-risk
     title: "CODEX-defined cellular neighbourhoods in CRC FFPE samples stratify patients for tumour progression risk and predict immunotherapy response"
     tags: [correlational, oncology, organoid, immunotherapy]
@@ -5247,13 +5288,13 @@ claims:
     domain: innate immunity / immunometabolism
   - slug: efferocytosis-inhibits-tak1-nfkb-spares-mapk
     title: "Neutrophil efferocytosis blocks TNF-induced TAK1 phosphorylation and NF-κB activation while leaving p38/ERK MA"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
   - slug: efferocytosis-lowers-cflip-cflar
     title: "Efferocytosis reduces TNF-driven upregulation of the prosurvival factor cFLIP (Cflar), removing the caspase-8 "
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -5265,7 +5306,7 @@ claims:
     domain: immunology / cell biology
   - slug: efferocytosis-protective-in-lung-kidney
     title: "Blocking efferocytosis (TIM3 inhibition) exacerbates TUNEL+ cell death in lung and kidney, showing efferocytos"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.75
     domain: immunology
@@ -5289,43 +5330,43 @@ claims:
     domain: immunology / cell biology
   - slug: efferoptosis-gsdme-independent
     title: "Unlike pharmacological TAK1-inhibition death, efferoptosis does not require GSDME; Gsdme-/- macrophages die no"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
   - slug: efferoptosis-independent-nlrp3-caspase1
     title: "Efferoptotic death and IL-1β release proceed independently of NLRP3 and caspase-1."
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: efferoptosis-requires-caspase8-cleavage
     title: "Efferoptosis depends on caspase-8 autoprocessing; noncleavable Casp8 D387A macrophages are protected."
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: efferoptosis-requires-gsdmd
     title: "GSDMD is the executioner pore of efferoptosis; Gsdmd-/- macrophages show attenuated death."
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: efferoptosis-requires-trif
     title: "Macrophage efferoptosis requires the TLR adaptor TRIF; Trif-/- macrophages are largely protected from TNF+neut"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.85
     domain: immunology
   - slug: efferoptosis-requires-zbp1
     title: "ZBP1 is required for efferoptosis, consistent with its role nucleating the TRIFosome."
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
   - slug: efferoptosis-tnf-dependent-ecoli-sepsis
     title: "In E. coli-induced septic peritonitis, Tnfr1-/- mice retain efferocytosis but abrogate death of neutrophil-eng"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -5725,6 +5766,12 @@ claims:
     status: proposed
     confidence: 0.4
     domain: immunology / immunometabolism
+  - slug: glioma-co-culture-remodels-microglial-chromatin
+    title: "Glioma co-culture remodels microglial chromatin accessibility more than hypoxia alone"
+    tags: [quantitative, ATAC-seq, chromatin-accessibility, microglia, co-culture]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology / epigenetics
   - slug: global-5mc-increase-efferocytosis-mat2a-dnmt3a-dependent
     title: "AC-induced macrophage global 5-methylcytosine percentage is partially MAT2A- and DNMT3A-dependent"
     tags: [5mC, global-DNA-methylation, DNMT3A, MAT2A, efferocytosis, macrophage]
@@ -5787,7 +5834,7 @@ claims:
     domain: methods / Markov-chain coarse-graining
   - slug: gsdmd-p30-30pct-splenic-macrophages
     title: "GSDMD p30 puncta appear in ~30% of splenic CD68+ macrophages after TNF and are reduced ~60% by TRIF deficiency"
-    tags: ["quantitative", "efferoptosis", "pyroptosis"]
+    tags: [quantitative, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -6001,6 +6048,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia-immunology
+  - slug: hif-inducible-genes-gain-accessibility-genic
+    title: "HIF-inducible genes gain accessibility at genic, not promoter-only, peaks under hypoxia"
+    tags: [mechanistic, ATAC-seq, HIF, genic-peaks, hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: neuro-oncology / immunology / epigenetics
   - slug: hif-master-regulator-metazoan-adaptive-response
     title: "HIF is the master transcriptional regulator of the metazoan adaptive response to hypoxia"
     tags: [HIF, hypoxia, transcription-factor, HIF1, HIF2]
@@ -6267,7 +6320,7 @@ claims:
     domain: cell biology
   - slug: human-thp1-macrophages-efferoptosis
     title: "Human THP-1-derived macrophages recapitulate efferoptosis: TNF+neutrophils increase death and mature IL-1β rel"
-    tags: ["methodological", "efferoptosis", "pyroptosis"]
+    tags: [methodological, efferoptosis, pyroptosis]
     status: weakly_supported
     confidence: 0.7
     domain: immunology
@@ -6325,6 +6378,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: hypoxia
+  - slug: hypoxia-alone-reduces-promoter-accessibility-while
+    title: "Hypoxia alone reduces promoter accessibility while glioma+hypoxia increases promoter openness"
+    tags: [mechanistic, ATAC-seq, promoter-accessibility, hypoxia, co-culture]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology / epigenetics
   - slug: hypoxia-associated-mutations-cnas-predominantly-clonal
     title: "Hypoxia-associated mutations and CNAs are predominantly clonal/early in tumour evolution (99% of hypoxia-associated CNAs in prostate are early)"
     tags: [hypoxia, clonal-evolution, prostate-cancer, early-mutations]
@@ -6355,6 +6414,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: hypoxia-causes-global-loss-h3k27ac-microglia
+    title: "Hypoxia causes global loss of H3K27ac in microglia"
+    tags: [mechanistic, H3K27ac, histone-acetylation, CUT&RUN, hypoxia]
+    status: supported
+    confidence: 0.82
+    domain: neuro-oncology / immunology / epigenetics
   - slug: hypoxia-ccl28-recruits-treg-hif1a-polarization-crc
     title: "Hypoxia induces tumor cell CCL28 to recruit Tregs; HIF1α drives Treg polarization in CRC"
     tags: [hypoxia, HIF1a, Treg, CCL28, CRC, immune-evasion, chemokine, immunosuppression]
@@ -6373,12 +6438,24 @@ claims:
     status: supported
     confidence: 0.9
     domain: hypoxia-immunology
+  - slug: hypoxia-dominant-driver-microglial-transcriptome-over
+    title: "Hypoxia is the dominant driver of the microglial transcriptome over glioma contact"
+    tags: [quantitative, RNA-seq, hypoxia, microglia, co-culture]
+    status: supported
+    confidence: 0.82
+    domain: neuro-oncology / immunology
   - slug: hypoxia-downregulates-cadherin-induces-snail-twist
     title: "Hypoxia downregulates E-cadherin and induces SNAIL, TWIST, N-cadherin, vimentin and JAGGED2 (EMT program)"
     tags: [hypoxia, EMT, E-cadherin, SNAIL, TWIST, N-cadherin, vimentin, JAGGED2]
     status: supported
     confidence: 0.85
     domain: hypoxia
+  - slug: hypoxia-downregulates-microglial-markers-p2ry12-tmem119
+    title: "Hypoxia downregulates microglial markers P2ry12 and Tmem119 across myeloid cells"
+    tags: [mechanistic, hypoxia, microglial-markers, P2RY12, TMEM119]
+    status: supported
+    confidence: 0.85
+    domain: neuro-oncology / immunology
   - slug: hypoxia-drug-response-lung-cell-line-validation
     title: "Lung cancer cell-line experiments confirm hypoxia-dependent drug resistance and sensitivity predictions"
     tags: [hypoxia, drug-response, experimental-validation, NSCLC, cell-line]
@@ -6403,6 +6480,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology / pharmacogenomics / hypoxia
+  - slug: hypoxia-glioma-co-culture-upregulate-axon
+    title: "Hypoxia and glioma co-culture upregulate axon development pathways in microglia"
+    tags: [correlational, GO-enrichment, hypoxia, microglia, axon-development]
+    status: weakly_supported
+    confidence: 0.65
+    domain: neuro-oncology / immunology
+  - slug: hypoxia-globally-increases-repressive-h3k27me3-h3k9me3
+    title: "Hypoxia globally increases repressive H3K27me3 and H3K9me3 in microglia and glioma"
+    tags: [mechanistic, histone-methylation, H3K27me3, H3K9me3, hypoxia]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology / epigenetics
   - slug: hypoxia-hif1-dependently-induces-low-fidelity
     title: "Hypoxia induces low-fidelity translesion-synthesis DNA polymerases in a HIF1-dependent manner"
     tags: [hypoxia, HIF1, translesion-synthesis, mutator, DNA-polymerase]
@@ -6433,6 +6522,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: hypoxia
+  - slug: hypoxia-increases-lipid-droplet-accumulation-gams
+    title: "Hypoxia increases lipid droplet accumulation in GAMs"
+    tags: [mechanistic, lipid-droplets, BODIPY, hypoxia, myeloid]
+    status: supported
+    confidence: 0.82
+    domain: neuro-oncology / immunology / metabolism
+  - slug: hypoxia-increases-phagocytosis-bone-marrow-derived
+    title: "Hypoxia increases phagocytosis in bone marrow-derived macrophages"
+    tags: [mechanistic, phagocytosis, BMDM, hypoxia, functional-validation]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology
   - slug: hypoxia-inhibits-ap-driven-demethylation-during
     title: "Hypoxia partially blocks AP-1-driven DNA demethylation that normally occurs during macrophage differentiation (cluster C1)"
     tags: [hypoxia, DNA-methylation, TET-inhibition, AP-1, macrophage-differentiation, cluster-C1]
@@ -6511,6 +6612,18 @@ claims:
     status: weakly_supported
     confidence: 0.58
     domain: oncology
+  - slug: hypoxia-represses-ifn-ribosomal-gam-markers
+    title: "Hypoxia represses IFN/transitory/ribosomal GAM markers and induces phagocytic/chemotactic markers"
+    tags: [mechanistic, GAM-subtypes, hypoxia, myeloid-markers]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology
+  - slug: hypoxia-represses-ribosome-biogenesis-rna-processing
+    title: "Hypoxia represses ribosome biogenesis and RNA processing genes in microglia"
+    tags: [correlational, GO-enrichment, hypoxia, ribosome-biogenesis]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology
   - slug: hypoxia-scna-harbour-actionable-genes
     title: "Hypoxia-associated somatic copy number alterations harbour clinically actionable genes"
     tags: [hypoxia, SCNA, copy-number, actionable-genes, immunotherapy]
@@ -6523,6 +6636,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / clinical-genomics / hypoxia
+  - slug: hypoxia-score-positively-correlates-lgals3-negatively
+    title: "Hypoxia score positively correlates with Lgals3 and negatively with P2ry12/Tmem119 in GBM TAMs"
+    tags: [correlational, hypoxia-score, scRNA-seq, GBM, TAM]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology
   - slug: hypoxia-shifts-cancer-cells-toward-g1-arrest
     title: "Systemic hypoxia shifts cancer cells toward G1 arrest and reduced S-phase occupancy"
     tags: [cell-cycle, hypoxia, proliferation]
@@ -6583,6 +6702,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia
+  - slug: hypoxia-upregulates-lgals3-microglia-macrophages
+    title: "Hypoxia upregulates Lgals3 (galectin-3) in microglia and macrophages"
+    tags: [mechanistic, hypoxia, galectin-3, myeloid]
+    status: supported
+    confidence: 0.85
+    domain: neuro-oncology / immunology
+  - slug: hypoxia-upregulates-lipid-storage-genes-plin2
+    title: "Hypoxia upregulates lipid storage genes (Plin2, Plin3, Hilpda, Soat1) in GAMs"
+    tags: [mechanistic, lipid-storage, PLIN2, HILPDA, hypoxia, myeloid]
+    status: supported
+    confidence: 0.8
+    domain: neuro-oncology / immunology / metabolism
   - slug: hypoxia-upregulates-mitotic-genes-cdc20-bub1
     title: "Hypoxia alters expression of mitotic-control genes (CDC20, BUB1, PLK1, KIF4A) in TNBC independent of CN/mutation status"
     tags: [hypoxia, TNBC, CDC20, BUB1, PLK1, KIF4A, SAC, mitosis]
@@ -6801,7 +6932,7 @@ claims:
     domain: lung cancer / cell signaling
   - slug: il1b-maturation-inflammasome-independent-caspase8
     title: "During efferoptosis, pro-IL-1β is matured by direct caspase-8 cleavage independently of caspase-1 and the cano"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -7303,6 +7434,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: statistics / methods
+  - slug: lgals3-highest-tmem119-p2ry12-lowest-hypoxic
+    title: "LGALS3 is highest and TMEM119/P2RY12 lowest in hypoxic perinecrotic GBM regions"
+    tags: [correlational, IvyGAP, spatial, GBM, hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: neuro-oncology / immunology
+  - slug: lgals3-promoter-gains-accessibility-ap1-atf3
+    title: "Lgals3 promoter gains accessibility at an AP1/ATF3 motif region under hypoxia"
+    tags: [mechanistic, LGALS3, AP1, ATF3, chromatin-accessibility]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology / epigenetics
   - slug: lifetime-oesophageal-cancer-risk-less-than
     title: "Lifetime oesophageal cancer risk is <1% despite high normal-tissue TP53 burden"
     tags: [quantitative, oncology]
@@ -7777,6 +7920,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: neuroimmunology / immunometabolism
+  - slug: microglia-under-hypoxia-enhance-glioma-cell
+    title: "Microglia under hypoxia enhance glioma cell migration and invasion"
+    tags: [mechanistic, invasion, glioma, microglia, hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: neuro-oncology / immunology
   - slug: microsatellite-instability-high-tumors-reduced-phf2
     title: "Microsatellite-instability-high tumors show significantly reduced PHF2 expression"
     tags: [PHF2, microsatellite-instability, genomic-stability, correlational]
@@ -8175,13 +8324,13 @@ claims:
     domain: immunology / oncology / DAMP-signaling
   - slug: neutrophil-depletion-reduces-macrophage-pyroptosis
     title: "Depleting neutrophils (1A8, 24h) reduces splenic macrophage caspase-8 and GSDMD activation by ~50%, implicatin"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
   - slug: neutrophil-depletion-timing-determines-lethality
     title: "Neutrophil-depletion timing is decisive: 1A8 24h before TNF protects, but 1A8 4h before TNF preloads macrophag"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.75
     domain: immunology
@@ -8593,6 +8742,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: humoral immunity / lipid signaling
+  - slug: p2ry12-promoter-loses-accessibility-spi1-irf8
+    title: "P2ry12 promoter loses accessibility at a SPI1/IRF8 motif peak under hypoxic co-culture"
+    tags: [mechanistic, P2RY12, SPI1, IRF8, chromatin-accessibility, microglial-identity]
+    status: supported
+    confidence: 0.8
+    domain: neuro-oncology / immunology / epigenetics
   - slug: p65-inhibition-blocks-hypoxia-specific-demethylation
     title: "BAY11-7082 (p65 inhibitor) blocks hypoxia-specific C2 demethylation; PX-478 (HIF1α inhibitor) does not"
     tags: [BAY11-7082, PX-478, p65-inhibitor, HIF1A-inhibitor, DNA-demethylation, cluster-C2, pharmacological]
@@ -8665,6 +8820,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology/prognosis
+  - slug: pan-hdac-inhibitor-panobinostat-restores-tmem119
+    title: "Pan-HDAC inhibitor panobinostat restores Tmem119 and blocks hypoxia-induced Lgals3"
+    tags: [pharmacological, panobinostat, HDAC, TMEM119, LGALS3, H3K27ac]
+    status: supported
+    confidence: 0.82
+    domain: neuro-oncology / immunology / epigenetics
   - slug: pancreatic-cancer-highest-stromal-score
     title: "Pancreatic cancer has the highest ESTIMATE stromal score among solid cancers in TPCPA"
     tags: [pancreatic-cancer, stroma, estimate, tme]
@@ -8677,6 +8838,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: panobinostat-reduces-hypoxia-induced-lipid-droplet
+    title: "Panobinostat reduces hypoxia-induced lipid droplet formation in GAMs"
+    tags: [pharmacological, panobinostat, lipid-droplets, HDAC, hypoxia]
+    status: supported
+    confidence: 0.8
+    domain: neuro-oncology / immunology / metabolism
   - slug: papil-fib-correlates-epidermal-thickness
     title: "Papillary fibroblast (Papil Fib) abundance correlates positively with epidermal thickness across skin sites (Spearman = 0.26, P = 0.012)"
     tags: [skin, papillary-fibroblast, epidermis-thickness, quantitative]
@@ -8985,7 +9152,7 @@ claims:
     domain: hypoxia-immunology
   - slug: plcg-mapk-drives-il1b-upregulation
     title: "PLCγ acts downstream of PS receptors to sustain MAPK and prime pro-Il1b; PLC inhibition abolishes IL-1β withou"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -9067,6 +9234,12 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: immunology
+  - slug: promoters-hypoxia-induced-myeloid-genes-enriched
+    title: "Promoters of hypoxia-induced myeloid genes are enriched for HIF, RUNX, NF-κB, AP1 motifs"
+    tags: [methodological, motif-enrichment, HIF, NF-kB, AP1, RUNX]
+    status: supported
+    confidence: 0.75
+    domain: neuro-oncology / immunology
   - slug: propensity-score-confounder-balanced-hypoxia-features
     title: "A propensity score algorithm balances clinical confounders to isolate hypoxia-associated molecular features"
     tags: [methodology, propensity-score, confounders, hypoxia, pancancer]
@@ -9093,7 +9266,7 @@ claims:
     domain: immunology
   - slug: ps-recognition-initiates-efferoptosis
     title: "PS recognition is the initiating event of efferoptosis: annexin-V masking, CD14 deficiency, or TIM3/TAM inhibi"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -9291,7 +9464,7 @@ claims:
     domain: immunology
   - slug: ripk1-scaffold-not-kinase-efferoptosis
     title: "RIPK1 contributes to efferoptosis through its scaffolding function rather than kinase activity."
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -9301,6 +9474,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: rna-atac-seq-changes-only-partially
+    title: "RNA and ATAC-seq changes are only partially concordant in hypoxic microglia"
+    tags: [quantitative, RNA-ATAC-concordance, chromatin-accessibility, hypoxia]
+    status: supported
+    confidence: 0.8
+    domain: neuro-oncology / immunology / epigenetics
   - slug: rnascope-validates-oas3-ifit3-stat1-dependence
     title: "RNAscope single-molecule RNA-FISH validates STAT1 dependence of Oas3 and Ifit3 in WT vs Stat1-KO mouse spleen at sub-cellular resolution"
     tags: [rnascope, smfish, stat1, oas3, ifit3, isg, spleen, in-vivo-validation]
@@ -9632,7 +9811,7 @@ claims:
     confidence: 0.8
     domain: cell biology
   - slug: six-validated-kc-cancer-markers-multiplatform
-    title: "Six genes are consistently upregulated in keratinocyte cancer cells across four platforms"
+    title: "Six genes are consistently upregulated in keratinocyte cancer cells across scRNA-seq and three spatial platforms"
     tags: [cscc, biomarkers, spatial-transcriptomics, keratinocyte]
     status: supported
     confidence: 0.8
@@ -9781,6 +9960,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: iron metabolism / macrophage biology
+  - slug: spi1-expression-decreases-under-hypoxia-contributing
+    title: "Spi1 expression decreases under hypoxia, potentially contributing to P2ry12 downregulation"
+    tags: [mechanistic, SPI1, PU.1, hypoxia, P2RY12]
+    status: weakly_supported
+    confidence: 0.65
+    domain: neuro-oncology / immunology
   - slug: spn-kc-ii-scalp-sole-infundibular-like
     title: "Spn KC II keratinocyte subset is enriched in scalp and sole with an infundibular-like S100A8/SOX9/GJB2/GJB6 signature"
     tags: [skin, keratinocyte, scalp, sole, correlational]
@@ -10329,7 +10514,7 @@ claims:
     domain: oncology / immuno-oncology
   - slug: tim3-inhibition-protects-tnf-sirs
     title: "In vivo αTIM3 antibody attenuates hypothermia, improves survival, lowers serum IL-1β and LDH (not CXCL-1/IL-6)"
-    tags: ["pharmacological", "efferoptosis", "pyroptosis"]
+    tags: [pharmacological, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -10387,6 +10572,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: tmem119-downregulated-gpnmb-upregulated-gams-within
+    title: "TMEM119 is downregulated and GPNMB upregulated in GAMs within hypoxic human GBM regions"
+    tags: [correlational, CODEX, TMEM119, GPNMB, human-GBM, hypoxia]
+    status: supported
+    confidence: 0.78
+    domain: neuro-oncology / immunology
   - slug: tnbc-cgas-sting-il6-stat3-tocilizumab-synergy
     title: "In CIN-high TNBC, cGAS-STING-NF-κB-IL-6-STAT3 drives survival; tocilizumab + STING activation selectively impairs growth"
     tags: [tnbc, cgas-sting, il6, stat3, tocilizumab, cin]
@@ -10431,7 +10622,7 @@ claims:
     domain: immunology / dermatology
   - slug: tnf-switches-efferocytosis-to-efferoptosis
     title: "In TNF-activated phagocytes, efferocytosis of dying neutrophils is converted from an immunologically silent pr"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -10587,7 +10778,7 @@ claims:
     domain: immunometabolism / hypoxia-signaling
   - slug: transcriptional-dichotomy-il1b-up-tnf-down
     title: "Efferocytosis produces a transcriptional dichotomy: pro-Il1b mRNA is upregulated while Tnf mRNA is suppressed."
-    tags: ["correlational", "efferoptosis", "pyroptosis"]
+    tags: [correlational, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.75
     domain: immunology
@@ -10743,13 +10934,13 @@ claims:
     domain: immunology
   - slug: trif-drives-neutrophil-organ-damage
     title: "TRIF mediates TNF-induced neutrophil recruitment, endothelial interaction, vascular permeability, Nos2/NO, and"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
   - slug: trifosome-assembly-neutrophils-tnf
     title: "TNF plus neutrophils enhance assembly of a RIPK1-ZBP1-caspase-8 death complex (TRIFosome), captured by RIPK1 i"
-    tags: ["mechanistic", "efferoptosis", "pyroptosis"]
+    tags: [mechanistic, efferoptosis, pyroptosis]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -11294,6 +11485,10 @@ foundations:
     title: "ATAC-seq (Assay for Transposase-Accessible Chromatin)"
     status: mainstream
     domain: genomics / methods / epigenetics
+  - slug: atf3-activating-transcription-factor
+    title: "ATF3 — activating transcription factor 3"
+    status: mainstream
+    domain: transcriptional-regulation / stress-signaling
   - slug: atgl-adipose-triglyceride-lipase
     title: "ATGL (adipose triglyceride lipase / PNPLA2)"
     status: mainstream
@@ -11403,6 +11598,10 @@ foundations:
     title: "Busulfan vs irradiation conditioning to spare tissue-resident macrophages"
     status: mainstream
     domain: immunology / hematopoietic chimerism
+  - slug: bv2-microglial-cell-line
+    title: "BV2 — immortalized mouse microglial cell line"
+    status: mainstream
+    domain: neuroimmunology / model-system
   - slug: c-ebp-beta
     title: "C/EBPβ (CCAAT/enhancer-binding protein beta)"
     tags: [transcription-factor, lipid-metabolism, inflammation, macrophage-identity]
@@ -11678,6 +11877,10 @@ foundations:
     title: "CUL4B (Cullin 4B) — substrate-adaptor scaffold of the AHR-CUL4B E3 ubiquitin ligase"
     status: mainstream
     domain: molecular biology / ubiquitin-proteasome
+  - slug: cut-run-cleavage-under-targets-release
+    title: "CUT&RUN — cleavage under targets and release using nuclease"
+    status: mainstream
+    domain: epigenomics / methods
   - slug: cx3cr1-creer-fate-mapping
     title: "Cx3cr1-creER fate mapping (monocyte progeny)"
     status: mainstream
@@ -12012,6 +12215,10 @@ foundations:
     title: "GITIII — self-supervised graph transformer for single-cell-level cell–cell interactions"
     status: mainstream
     domain: spatial transcriptomics / methods / cell–cell interaction
+  - slug: gl261-mouse-glioma-cell-line
+    title: "GL261 — syngeneic mouse glioma cell line"
+    status: mainstream
+    domain: oncology / model-system
   - slug: glcnacylation
     title: "O-GlcNAcylation (protein O-GlcNAc modification)"
     status: mainstream
@@ -12057,7 +12264,7 @@ foundations:
     status: mainstream
     domain: datasets / scRNA-seq
   - slug: gsmap-spatial-heritability
-    title: "gsMAP - genetics-to-spatial heritability mapping"
+    title: "gsMAP — genetics-to-spatial heritability mapping"
     status: mainstream
     domain: statistical genetics
   - slug: h1f0-linker-histone
@@ -12120,6 +12327,10 @@ foundations:
     title: "HIF2α (Hypoxia-Inducible Factor 2α / EPAS1)"
     status: mainstream
     domain: molecular-biology / hypoxia-signaling
+  - slug: hilpda-hypoxia-inducible-lipid-droplet-associated
+    title: "HILPDA — hypoxia-inducible lipid droplet-associated protein"
+    status: mainstream
+    domain: metabolism / cell-biology
   - slug: hiv-virus
     title: "Human immunodeficiency virus (HIV)"
     status: mainstream
@@ -12345,6 +12556,10 @@ foundations:
     title: "IRF4 (Interferon Regulatory Factor 4)"
     status: mainstream
     domain: immunology
+  - slug: irf8-interferon-regulatory-factor
+    title: "IRF8 — interferon regulatory factor 8, myeloid/microglial identity TF"
+    status: mainstream
+    domain: immunology / transcriptional-regulation
   - slug: irf9-tf
     title: "IRF9 — interferon regulatory factor 9"
     status: mainstream
@@ -12379,6 +12594,10 @@ foundations:
     title: "Ivosidenib (AG-120) — mIDH1 inhibitor"
     status: mainstream
     domain: oncology-therapeutics
+  - slug: ivygap-ivy-glioblastoma-atlas-project
+    title: "IvyGAP — Ivy Glioblastoma Atlas Project"
+    status: mainstream
+    domain: oncology / genomics-resource
   - slug: jak2-kinase
     title: "JAK2 — Janus kinase 2"
     status: mainstream
@@ -12669,7 +12888,7 @@ foundations:
     status: mainstream
     domain: dna-repair
   - slug: mmcci-multiplatform-cci
-    title: "MMCCI - multi-platform multi-modal cell-cell interaction integration"
+    title: "MMCCI — multi-platform multi-modal cell-cell interaction integration"
     status: mainstream
     domain: spatial omics methods
   - slug: mmp14-matrix-metalloproteinase
@@ -12884,6 +13103,10 @@ foundations:
     title: "P14 TCR transgenic CD8+ T cells"
     status: mainstream
     domain: immunology
+  - slug: p2ry12-purinergic-receptor-microglial-marker
+    title: "P2RY12 — purinergic receptor P2Y12, homeostatic microglial marker"
+    status: mainstream
+    domain: neuroimmunology / cell-biology
   - slug: paga-trajectory
     title: "PAGA — partition-based graph abstraction for trajectory inference"
     status: mainstream
@@ -12916,6 +13139,10 @@ foundations:
     title: "PanIN — Pancreatic intraepithelial neoplasia"
     status: mainstream
     domain: oncology
+  - slug: panobinostat-pan-hdac-inhibitor
+    title: "Panobinostat — pan-histone deacetylase (HDAC) inhibitor"
+    status: mainstream
+    domain: pharmacology / epigenetics
   - slug: parabiosis
     title: "Parabiosis"
     status: mainstream
@@ -13038,6 +13265,10 @@ foundations:
     title: "Phospholipase C gamma (PLCγ)"
     status: mainstream
     domain: cell biology
+  - slug: plin2-perilipin
+    title: "PLIN2 — perilipin 2 (adipophilin/ADRP), lipid-droplet coat protein"
+    status: mainstream
+    domain: metabolism / cell-biology
   - slug: pme-seq-whole-tissue-rna-seq
     title: "PME-seq — whole-tissue RNA-seq toolkit"
     status: mainstream
@@ -13503,7 +13734,7 @@ foundations:
     status: mainstream
     domain: oncology / tumor suppressor
   - slug: stlearn-sctp-spatial-lr
-    title: "stLearn SCTP - spatially-constrained ligand-receptor inference"
+    title: "stLearn SCTP — spatially-constrained ligand-receptor inference"
     status: mainstream
     domain: spatial omics methods
   - slug: sucnr1-succinate-receptor
@@ -13546,14 +13777,14 @@ foundations:
     title: "Tangram — deep-learning spatial mapping of scRNA-seq onto spatial transcriptomics"
     status: mainstream
     domain: methods / spatial-transcriptomics / cross-modality-mapping
-  - slug: tapinarof
-    title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
-    status: mainstream
-    domain: immunology / dermatology / small-molecule drug
   - slug: tapinarof-ahr-agonist
     title: "Tapinarof (bacteria-derived AHR agonist, FDA-approved for plaque psoriasis)"
     status: mainstream
     domain: pharmacology / AHR agonist / dermatology drug
+  - slug: tapinarof
+    title: "Tapinarof (DMVT-505 / GSK2894512 / VTAMA / WBI-1001)"
+    status: mainstream
+    domain: immunology / dermatology / small-molecule drug
   - slug: tbk1-tank-binding-kinase-1
     title: "TBK1 — TANK-binding kinase 1"
     status: mainstream
@@ -13618,6 +13849,10 @@ foundations:
     title: "Tissue-resident alveolar macrophage (TR-AM)"
     status: mainstream
     domain: immunology / lung-biology / macrophage-biology
+  - slug: tmem119-transmembrane-protein-119-microglial-marker
+    title: "TMEM119 — transmembrane protein 119, homeostatic microglial marker"
+    status: mainstream
+    domain: neuroimmunology / cell-biology
   - slug: tmtpro-isobaric-multiplexing
     title: "TMTpro isobaric multiplexing for single-cell proteomics"
     status: mainstream

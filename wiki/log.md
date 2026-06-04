@@ -86,3 +86,4 @@
 ## [2026-06-03] ingest | added papers/pan-cancer-tumor-classification-holistic-tumor | +18 claims, +5 concepts, +8 foundations, +6 people, +62 edges; updated key_papers on 5 concepts; reverse Related on 2 papers
 ## [2026-06-03] ingest | added papers/transcriptional-regulator-network-human-inflammatory-macrophages | updated: 2 concepts created + 3 linked, 6 foundations, 16 claims, 3 people created + 3 updated, edges+citation
 ## [2026-06-03] ingest | added papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase | updated: +24 claims, +4 concepts, +14 foundations, +2 people, +5 concept edges, +20 foundation edges, +24 claim edges; concept efferocytosis-anti-inflammatory-clearance back-linked
+## [2026-06-04] ingest | added papers/hypoxic-stress-dysregulates-functions-glioma-associated | +5 concepts, +26 claims, +11 foundations, +3 people, +1 paper-paper edge (complementary_to hypoxia-driven-crosstalk-between-tumor-tumor)

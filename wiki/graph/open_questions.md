@@ -195,6 +195,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] How does HIF2α-driven 5-FU resistance via macrophage DPD inform CRC combination strategy?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] What is the relationship between this review's HIF/TAM/TME framing and the genomic-instability framework of [[papers/tumour-hypoxia-driving-genomic-instability-tumour]] (Suvac, Ashton, Bristow 2025)?
 - [paper/hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic] For the user's thesis (skin / hypoxia / TAMs), which therapeutic class (HAP vs vascular normalization vs HIF inhibitor vs nano-O₂) maps best onto the skin-cancer hypoxic niche?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] How do glioma contact and hypoxia synergize to close the P2ry12 promoter?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] What is the functional significance of accessibility changes that do not affect nearby gene expression (3D structure? timing?)?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] Can targeting hypoxia-induced epigenomic alterations (HDAC, LGALS3) therapeutically benefit hypoxic GBM?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] Which HDAC isoform mediates the hypoxic H3K27ac loss and lipid phenotype?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] Is the marker dysregulation HIF-dependent in microglia (genetic HIF1α/HIF2α tests)?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] Does a myeloid-specific hypoxia score generalize beyond glioma to other solid tumors (HypoxiaVERSE relevance)?
+- [paper/hypoxic-stress-dysregulates-functions-glioma-associated] Is GPNMB a more hypoxia-robust myeloid marker than LGALS3 in human tumors?
 - [paper/identifying-spatial-single-cell-level-interactions] How can causal machine learning move CCI inference from correlation to mechanism?
 - [paper/identifying-spatial-single-cell-level-interactions] How should structured prior knowledge (ligand diffusion ranges, contact-dependence) be integrated into de-novo inference?
 - [paper/identifying-spatial-single-cell-level-interactions] Can multi-omics integration compensate for limited gene panels and reveal cross-omics regulatory mechanisms?
@@ -784,6 +791,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/dichotomous-epigenetic-versus-transcriptional-regulation-tr] What molecular machinery keeps activation-network loci constitutively open
 - [concept/differential-stromal-interactions-skin-cancer] Whether differential fibroblast wiring is causal for metastatic potential
 - [concept/differential-stromal-interactions-skin-cancer] Mapping fibroblast subtypes (CAF, EMT-fibroblast) to the differential interactions
+- [concept/direct-glioma-microglia-co-culture-under] Adding additional TME cell types while retaining controllability.
+- [concept/direct-glioma-microglia-co-culture-under] Mapping the relative contributions of direct contact vs secreted factors.
 - [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Identifying the true cellular mediators behind binding/function discordances.
 - [concept/discordance-between-vitro-kinase-inhibitor-selectivity] Building predictive bridges from binding profiles to cellular phenotype.
 - [concept/dnmt3a-dusp4-efferocytosis-resolution-pathway] Site-specific methyl-mark tracking at the Dusp4 promoter (e.g., 13C5-methionine + targeted bisulfite + LC-MS)
@@ -826,12 +835,16 @@ _Auto-generated open questions. Do not edit._
 - [concept/folr2-tissue-resident-macrophage] Mechanism of the tissue-context-dependent functional flip.
 - [concept/fos-ncor2-ppargamma-transcriptional-hub-immunosuppressive] Causal validation that FOS/NCOR2/PPARγ drive (rather than mark) M2a programs
 - [concept/fos-ncor2-ppargamma-transcriptional-hub-immunosuppressive] How these TF hubs connect to the PAK2/PKCα kinase hubs mechanistically
+- [concept/gam-hypoxia-score-transcriptomic-signature] Cross-dataset/cross-cancer validation and refinement of the gene set.
+- [concept/gam-hypoxia-score-transcriptomic-signature] Whether a myeloid hypoxia score generalizes beyond glioma.
 - [concept/genome-wide-cell-representation-versus-highly] Quantifying how many response-relevant genes fall outside control-derived HVG sets.
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Which O-GlcNAcylated substrate(s) gate the G2/M-to-division step in maturing cavity macrophages?
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Is the senescence-like phenotype of Ogt-deficient LCMs reversible by restoring O-GlcNAc?
 - [concept/glcnacylation-metabolic-regulator-macrophage-cell-cycle] Does the same axis operate in tumour-associated macrophages and hypoxic niches?
 - [concept/glutamine-asymmetric-metabolism-tumor-immune] Selective glutamine modulation that suppresses tumour/MDSC/M2 without impairing effector T cells.
 - [concept/h3k27ac-functional-readout-signaling-perturbation] Whether the resolution advantage generalizes across cell types and slower-kinetic systems.
+- [concept/hdac-h3k27ac-control-lipid-droplet-accumulation] Which HDAC isoform mediates the effect; whether selective inhibition reproduces it.
+- [concept/hdac-h3k27ac-control-lipid-droplet-accumulation] Whether the lipid-droplet reversal translates to reduced tumor support in vivo.
 - [concept/hepatic-trem2-protective-tam-program] Which subset of the 209 liver-specific genes is causally responsible for the protective phenotype?
 - [concept/hepatic-trem2-protective-tam-program] Does the program persist outside HCC (e.g., hepatic metastases of non-liver primaries)?
 - [concept/hepatic-trem2-protective-tam-program] Is the program reversible by chronic-inflammation context (NASH, fibrosis)?
@@ -862,8 +875,12 @@ _Auto-generated open questions. Do not edit._
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Causal vs correlational role in driving CNAs
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Cycling vs chronic hypoxia contributions to centrosome defects
 - [concept/hypoxia-centrosome-amplification-mitotic-cin] Spatial validation in situ via single-cell centrosome imaging or spatial transcriptomics
+- [concept/hypoxia-chromatin-remodeling-myeloid-identity-gene] Which chromatin modifiers execute the closing/opening (HDACs, demethylases)?
+- [concept/hypoxia-chromatin-remodeling-myeloid-identity-gene] Time-resolved and chromatin-conformation studies to link accessibility to expression.
 - [concept/hypoxia-co-driver-tumour-evolution-cancer] Hypoxia "niches" with locally distinct driver enrichment
 - [concept/hypoxia-co-driver-tumour-evolution-cancer] Pseudohypoxic vs true-hypoxic separation in driver-co-occurrence analyses
+- [concept/hypoxia-confounds-gam-subtype-marker-classification] A hypoxia-robust marker set (or correction) for GAM classification.
+- [concept/hypoxia-confounds-gam-subtype-marker-classification] Quantifying how much published GAM heterogeneity is oxygen-driven artifact versus true subtype structure.
 - [concept/hypoxia-emt-lineage-plasticity-metastasis] Whether hypoxic "creeping" cells in tumour niches are primed metastatic seeds
 - [concept/hypoxia-emt-lineage-plasticity-metastasis] Mechanism by which polyclonal metastases originate from peri-necrotic hypoxic regions (e.g., TRACERx Renal)
 - [concept/hypoxia-emt-lineage-plasticity-metastasis] Therapeutic targeting of hypoxia-driven lineage plasticity
@@ -1456,6 +1473,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/human-thp1-macrophages-efferoptosis] Human THP-1-derived macrophages recapitulate efferoptosis: TNF+neutrophils increase death and mature IL-1β rel (status: weakly_supported)
 - [claim/hvg-feature-selection-theoretically-ill-posed] HVG feature selection is theoretically ill-posed for zero-shot perturbation prediction (status: proposed)
 - [claim/hypothalamic-fmri-distinguishes-cac-anorexia] Hypothalamic fMRI differentiates lung-cancer patients with vs without anorexia after oral nutritional supplementation (status: weakly_supported)
+- [claim/hypoxia-glioma-co-culture-upregulate-axon] Hypoxia and glioma co-culture upregulate axon development pathways in microglia (status: weakly_supported)
 - [claim/hypoxia-purine-suppression-tracks-myc-target-downregulation] Hypoxia-induced suppression of de novo purine synthesis tracks downregulation of Myc target genes (status: weakly_supported)
 - [claim/hypoxia-shifts-cancer-cells-toward-g1-arrest] Systemic hypoxia shifts cancer cells toward G1 arrest and reduced S-phase occupancy (status: weakly_supported)
 - [claim/hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression] HypoxyStat, a small-molecule hemoglobin-oxygen affinity modulator, recapitulates inhaled hypoxia's tumor suppression (status: weakly_supported)
@@ -1521,6 +1539,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)
+- [claim/spi1-expression-decreases-under-hypoxia-contributing] Spi1 expression decreases under hypoxia, potentially contributing to P2ry12 downregulation (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/subset-activation-specific-enhancers-pu-independent] A subset of activation-specific enhancers are PU.1-independent, resembling latent enhancers (status: weakly_supported)
