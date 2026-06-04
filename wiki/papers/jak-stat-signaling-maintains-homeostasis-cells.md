@@ -58,7 +58,7 @@ data_availability: "GEO GSE204736; supplementary website http://jakstat.bocklab.
 
 # === Cross-references ===
 code_url: "https://doi.org/10.5281/zenodo.10649062"
-cited_by: []
+cited_by: [integrated-time-series-analysis-high-content]
 ---
 
 ## Problem
@@ -227,3 +227,4 @@ This is the single most comprehensive in vivo dissection of a cytokine-receptor 
 - [[people/christoph-bock]]
 - [[people/thomas-decker]]
 - [[people/mathias-mueller]]
+- [[papers/integrated-time-series-analysis-high-content]] — follow-up from the same group; extends homeostatic JAK-STAT findings to a macrophage multi-omics time series + CRISPR screen

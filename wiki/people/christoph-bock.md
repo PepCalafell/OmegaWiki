@@ -4,13 +4,13 @@ affiliation: "CeMM Research Center for Molecular Medicine, Austrian Academy of S
 role: pi
 group: "Bock Lab (Medical Epigenomics)"
 institution: "CeMM, Vienna"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags: [epigenomics, single-cell, methods, immunology, jak-stat, dna-methylation, cancer]
 homepage: "https://www.medical-epigenomics.org/"
 scholar: ""
-date_updated: 2026-05-22
+date_updated: 2026-06-04
 ---
 
 ## Research areas
@@ -23,3 +23,4 @@ date_updated: 2026-05-22
 ## Key papers in vault
 
 - [[papers/jak-stat-signaling-maintains-homeostasis-cells]]
+- [[papers/integrated-time-series-analysis-high-content]] (senior author, lead contact)

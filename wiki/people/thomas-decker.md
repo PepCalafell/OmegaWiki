@@ -4,13 +4,13 @@ affiliation: "Max Perutz Labs, University of Vienna"
 role: pi
 group: "Decker Lab"
 institution: "University of Vienna / Max Perutz Labs"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags: [jak-stat, transcription, immunology, gas-isre, interferon]
 homepage: ""
 scholar: ""
-date_updated: 2026-05-22
+date_updated: 2026-06-04
 ---
 
 ## Research areas
@@ -22,3 +22,4 @@ date_updated: 2026-05-22
 ## Key papers in vault
 
 - [[papers/jak-stat-signaling-maintains-homeostasis-cells]]
+- [[papers/integrated-time-series-analysis-high-content]] (co-author)

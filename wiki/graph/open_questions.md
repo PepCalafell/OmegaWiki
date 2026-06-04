@@ -209,6 +209,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/identifying-spatial-single-cell-level-interactions] How does GITIII benchmark head-to-head against L–R-based tools ([[foundations/cellchat-cell-cell-communication]], [[foundations/cellphonedb-ligand-receptor]], [[foundations/nichenet-ligand-target-inference]]) and against graph-based spatial frameworks ([[concepts/graph-based-foundation-model-spatial-transcriptomics]])? (requires the primary paper)
 - [paper/identifying-spatial-single-cell-level-interactions] Does the single-layer constraint cost predictive accuracy relative to deeper transformers?
 - [paper/identifying-spatial-single-cell-level-interactions] Would GITIII's influence tensor recover TAM–cancer-cell or TAM–stromal CCI patterns relevant to hypoxic-niche biology — the thesis-relevant test?
+- [paper/integrated-time-series-analysis-high-content] How do regulators establish vs realize epigenetic potential, and does the framework transfer to other cell types and disease contexts?
+- [paper/integrated-time-series-analysis-high-content] What is the precise mechanism (histone vs non-histone acetylation, HDAC/BRD4 balance) of EP300-mediated ISG repression?
+- [paper/integrated-time-series-analysis-high-content] Are the STRING-independent functional similarities (e.g. Ep300/Smc1a) reproducible in primary macrophages and other systems?
+- [paper/integrated-time-series-analysis-high-content] Does PU.1 directly bind and repress the ISG loci that increase upon its knockout?
+- [paper/integrated-time-series-analysis-high-content] Which post-accessibility mechanisms (elongation, splicing, mRNA stability) drive relative transcriptional abundance?
 - [paper/integrating-12-spatial-single-cell-technologies] Which factors differentiate progressor from non-progressor actinic-keratosis/naevus lesions?
 - [paper/integrating-12-spatial-single-cell-technologies] Why are most cSCCs and BCCs less invasive than melanoma, and does differential fibroblast wiring explain it?
 - [paper/integrating-12-spatial-single-cell-technologies] Can risk loci be mechanistically attributed to keratinocyte cis-regulation of melanocytes?
@@ -1534,12 +1539,15 @@ _Auto-generated open questions. Do not edit._
 - [claim/pseudodynamics-recovers-synthetic-differentiation-rate-pearson] pseudodynamics+ recovers synthetic differentiation rate at average Pearson 0.81 (status: weakly_supported)
 - [claim/pseudodynamics-solves-single-cell-advection-reaction] pseudodynamics+ solves the single-cell advection-reaction-diffusion PDE without pseudotime discretization via a PINN (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
+- [claim/relative-transcriptional-abundance-complementary-route-rapid] Relative transcriptional abundance (transcription exceeding promoter accessibility) is a complementary route to rapid immune gene upregulation (status: weakly_supported)
 - [claim/rho-gtpase-pathway-genes-rise-microglia] Rho GTPase pathway genes rise progressively in microglia along the Alzheimer trajectory (status: weakly_supported)
 - [claim/sah-sam-thf-5mthf-ratios-trend-up-cachexia] SAH/SAM and THF/5-methylTHF ratios trend higher in cachectic plasma, adipose, tumour and liver — consistent with one-carbon flux activation (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
+- [claim/sfpq-ep300-negative-regulators-interferon-response] SFPQ and EP300 are negative regulators of the interferon response that share transcriptional effects across post-transcriptional and transcriptional layers (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)
 - [claim/spi1-expression-decreases-under-hypoxia-contributing] Spi1 expression decreases under hypoxia, potentially contributing to P2ry12 downregulation (status: weakly_supported)
+- [claim/spi1-pu-knockout-increases-interferon-stimulated] SPI1/PU.1 knockout unexpectedly increases interferon-stimulated gene expression, suggesting a repressive role at certain ISGs (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)
 - [claim/stem-immunity-hub-tcf7-pd1-nsclc] A pretreatment stem-immunity hub (TCF7+PD1+CD8 / CCR7+LAMP3+ DC / CCL19+ CAF / CXCL10+ TAM) predicts ICI response in NSCLC (status: weakly_supported)
 - [claim/subset-activation-specific-enhancers-pu-independent] A subset of activation-specific enhancers are PU.1-independent, resembling latent enhancers (status: weakly_supported)
@@ -1551,6 +1559,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/treg-fibroblast-colocalize-melanocytes-melanoma] Tregs and fibroblasts co-localize with melanocytes in melanoma communities (status: weakly_supported)
 - [claim/tumors-do-not-acquire-resistance-to-systemic-hypoxia] Tumors do not develop resistance to systemic hypoxia therapy over serial passage (status: weakly_supported)
 - [claim/type-2b-vhl-missense-mutants-enhance] Type 2B VHL missense mutants enhance mitochondrial function and accelerate ccRCC progression (status: weakly_supported)
+- [claim/type-interferon-causes-stronger-cell-cycle] Type I interferon stimulation (IFN-β, Listeria, LPS) causes stronger cell-cycle gene downregulation than type II interferon (IFN-γ) in murine macrophages (status: weakly_supported)
 - [claim/um1-macrophages-elevated-inositol-trisphosphate-and-methylglyoxal-endometriosis] Uterine M1 (uM1) macrophages in the eutopic endometrium of endometriosis donors show elevated myo-inositol-bisphosphate→trisphosphate conversion and methylglyoxal production, consistent with their proinflammatory phenotype (status: weakly_supported)
 - [claim/unbiased-single-cell-rna-seq-insufficient] Unbiased single-cell RNA-seq is statistically insufficient for rare cell types; enrichment is mandatory (status: weakly_supported)
 - [claim/ups-markers-conflicting-evidence-cac] MURF1 and Atrogin-1 expression in CAC muscle is elevated in some human cohorts and unchanged in others — driven by definition heterogeneity (status: weakly_supported)

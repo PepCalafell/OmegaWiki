@@ -18,6 +18,7 @@ related_concepts:
   - dichotomous-epigenetic-versus-transcriptional-regulation-tr
   - macrophage-activation-core-regulatory-hubs
   - spectrum-model-macrophage-activation
+  - epigenetic-potential-macrophage
 ---
 
 ## Definition

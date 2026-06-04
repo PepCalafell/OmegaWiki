@@ -175,6 +175,12 @@ papers:
     importance: 2
     domain: methods / spatial transcriptomics / cell–cell interaction
     priority: reference
+  - slug: integrated-time-series-analysis-high-content
+    title: "Integrated time-series analysis and high-content CRISPR screening delineate the dynamics of macrophage immune regulation"
+    tags: [macrophage, epigenetics, chromatin-accessibility, crispr-screen, crop-seq, cite-seq, interferon, jak-stat, innate-immunity, multi-omics, time-series]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: integrating-12-spatial-single-cell-technologies
     title: "Integrating 12 Spatial and Single Cell Technologies to Characterise Tumour Neighbourhoods and Cellular Interactions in three Skin Cancer Types"
     tags: [spatial-omics, multiomics, skin-cancer, single-cell, cell-cell-interaction, atlas, melanoma, cscc, bcc]

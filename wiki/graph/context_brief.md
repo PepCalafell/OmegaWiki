@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1394 total)
+## Claims (1408 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -10,15 +10,14 @@ _Auto-generated compressed context. Do not edit._
 - [supported] AHR signalling is dampened by multiple negative feedbacks: AHRR, TIPARP, HIF-1α competition, miRNA/lncRNA (conf: 0.9)
 - [supported] Combined anti-IL-1β + anti-PD-1 in precancerous phase achieves the greatest reduction in tumor volume, KAC fraction, and pro-tumor inflammatory cytokines vs either monotherapy (conf: 0.85)
 - [supported] Anti-IL-1β neutralization fails to reduce the growth of established mouse LUAD cells in a syngeneic transplant model (conf: 0.85)
+- [supported] Tonic / baseline JAK-STAT signaling exists in unstimulated CD8+ T cells and macrophages of unperturbed mice (conf: 0.9)
 - [supported] HIF-α is hydroxylated by PHD1/2/3 and FIH under normoxia and degraded via pVHL ubiquitination (conf: 0.99)
 - [supported] Hypoxia silences MLH1, MSH2 and MSH6 in a HIF1α-dependent manner, increasing MSI (conf: 0.8)
 - [supported] Hypoxia upregulates PD-L1 on TAMs through HIF-1α, exosome cargo, lactate, and IL-6/STAT3 inputs (conf: 0.75)
 - [supported] Hypoxia upregulates immune checkpoint molecules PD-L1 and CD47 in tumour cells (conf: 0.85)
 - [supported] Hypoxic tumours are clinically refractory to immune checkpoint inhibition despite elevated TMB and neoantigens (conf: 0.8)
 - [supported] IL1B-IL1R1 is among the top ligand-receptor pairs enriched between myeloid and epithelial cells in lung precursor lesions (conf: 0.85)
-- [supported] Genetic Il1r1 knockout in CC-LR (Kras G12D) mice significantly reduces Kras-mutant lung tumor development and LAMP3+/KRT8+ alveolar transformation (conf: 0.9)
-- [supported] IL4I1 macrophages are the in vivo correlates of in vitro mMAC1 (conf: 0.8)
-- [supported] KRT8-hi
+- [supported] Genetic Il1r1 knockout in CC-LR (Kras G12D) mice significantly reduces Kras-mutant lung tumor development and LAMP3+/KRT8+ alveolar tra
 ## Open Gaps
 _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How to design SAHRMs that engage tolerogenic AHR functions without off-target dioxin-like effects
@@ -30,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (78 total)
+## Papers (79 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -46,13 +45,14 @@ _Auto-generated open questions. Do not edit._
 - [4] Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer (metabolism / oncology / cachexia)
 - [4] NF-κB and TET2 promote macrophage reprogramming in hypoxia that overrides the immunosuppressive effects of the tumor microenvironment (immunology / epigenetics / oncology)
 - [4] Single-cell spatial transcriptomic analysis of human skin anatomy (cell biology / dermatology / immunology)
-## Recent Relationships (3022 total)
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/tnf-switches-efferocytosis-to-efferoptosis
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/il1b-maturation-inflammasome-independent-caspase8
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/efferoptosis-requires-trif
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/efferoptosis-requires-caspase8-cleavage
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/efferoptosis-requires-gsdmd
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/efferoptosis-requires-zbp1
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/efferoptosis-independent-nlrp3-caspase1
-  papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase --supports--> claims/ripk1-scaffold-not-kinase-efferoptosis
-  papers/tnf-switches-homeostatic-efferocy
+## Recent Relationships (3051 total)
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/crop-seq-crispr-droplet-sequencing
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/cite-seq-citeseq
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/mixscape-crispr-perturbation-analysis
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/ep300-histone-acetyltransferase
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/atac-seq
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/spi1-pu1-master-tf
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/isgf3-complex
+  papers/integrated-time-series-analysis-high-content --derived_from--> foundations/type-interferon-ifna-ifnb
+  papers/integrated-time-series-analysis-high-content --builds_on--> papers/jak-stat-signaling-maintains-homeostasis-cells
+  papers/integr

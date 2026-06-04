@@ -87,3 +87,4 @@
 ## [2026-06-03] ingest | added papers/transcriptional-regulator-network-human-inflammatory-macrophages | updated: 2 concepts created + 3 linked, 6 foundations, 16 claims, 3 people created + 3 updated, edges+citation
 ## [2026-06-03] ingest | added papers/tnf-switches-homeostatic-efferocytosis-lytic-caspase | updated: +24 claims, +4 concepts, +14 foundations, +2 people, +5 concept edges, +20 foundation edges, +24 claim edges; concept efferocytosis-anti-inflammatory-clearance back-linked
 ## [2026-06-04] ingest | added papers/hypoxic-stress-dysregulates-functions-glioma-associated | +5 concepts, +26 claims, +11 foundations, +3 people, +1 paper-paper edge (complementary_to hypoxia-driven-crosstalk-between-tumor-tumor)
+## [2026-06-04] ingest | added papers/integrated-time-series-analysis-high-content | +15 claims (14 new, 1 merged), +3 concepts, +3 foundations, +2 people, +29 edges, +1 citation

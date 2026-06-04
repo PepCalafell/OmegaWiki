@@ -4,13 +4,13 @@ affiliation: "Medical University of Vienna, Department of Dermatology; CeMM"
 role: pi
 group: "Farlik Lab (Single-cell Epigenomics in Inflammation)"
 institution: "Medical University of Vienna"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags: [epigenomics, single-cell, dermatology, jak-stat, immunology]
 homepage: ""
 scholar: ""
-date_updated: 2026-05-22
+date_updated: 2026-06-04
 ---
 
 ## Research areas
@@ -22,3 +22,4 @@ date_updated: 2026-05-22
 ## Key papers in vault
 
 - [[papers/jak-stat-signaling-maintains-homeostasis-cells]]
+- [[papers/integrated-time-series-analysis-high-content]] (senior author)

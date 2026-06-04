@@ -4,13 +4,13 @@ affiliation: "Paris Lodron University Salzburg; CeMM Research Center for Molecul
 role: pi
 group: "Fortelny Lab (Computational Systems Biology)"
 institution: "PLUS Salzburg / CeMM, Vienna"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags: [computational-biology, immunology, jak-stat, epigenetics, gene-regulatory-networks]
 homepage: ""
 scholar: ""
-date_updated: 2026-05-22
+date_updated: 2026-06-04
 ---
 
 ## Research areas
@@ -22,3 +22,4 @@ date_updated: 2026-05-22
 ## Key papers in vault
 
 - [[papers/jak-stat-signaling-maintains-homeostasis-cells]]
+- [[papers/integrated-time-series-analysis-high-content]] (co-author)
