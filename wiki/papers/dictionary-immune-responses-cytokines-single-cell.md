@@ -173,6 +173,7 @@ data_availability: "Immune Dictionary portal (www.immune-dictionary.org); GEO ac
 code_url: "https://github.com/cui-lab/IREA"
 cited_by:
   - single-cell-cytokine-dictionary-human-peripheral
+  - immune-dictionary-immune-response-enrichment-analysis
 ---
 
 ## Problem
@@ -307,3 +308,4 @@ This is the most ambitious in vivo perturbational cytokine atlas to date and the
 - [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] — NRDD 2025 review of AHR biology and therapeutic targeting; provides pharmacological framework for the Trp-Kyn-AHR / IDO1 / IL4I1 immunosuppression axis discussed here
 - [[papers/pairwise-cytokine-code-explains-organism-wide]] — complementary axis: pairwise (vs single) cytokine perturbation, in vivo organism-wide (vs ex vivo lymph node), bulk tissue (vs single-cell) resolution; both papers anchor the cytokine-perturbation literature for the wiki.
 - [[papers/single-cell-cytokine-dictionary-human-peripheral]] — the human PBMC counterpart (Oesinghaus/Seelig/Theis 2025); directly compares 81 shared cytokines against this mouse Dictionary and finds only weak human↔mouse gene-level concordance, plus human-specific cytokines (IL-32) absent in mouse.
+- [[papers/immune-dictionary-immune-response-enrichment-analysis]] — web-portal companion (Lai, …, Cui; AAI 2025) deploying this atlas + IREA as a freely-available interactive web application with added chemokine coverage and network-analysis upgrades.

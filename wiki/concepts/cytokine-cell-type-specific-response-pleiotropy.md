@@ -20,8 +20,9 @@ maturity: stable
 key_papers:
   - dictionary-immune-responses-cytokines-single-cell
   - single-cell-cytokine-dictionary-human-peripheral
+  - immune-dictionary-immune-response-enrichment-analysis
 first_introduced: "2024"
-date_updated: 2026-05-13
+date_updated: 2026-06-04
 related_concepts:
   - cytokine-driven-immune-polarization-states-atlas
   - cytokine-mediated-immune-cell-cell-interactome

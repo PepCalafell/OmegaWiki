@@ -12,8 +12,9 @@ aliases:
   - Cui & Hacohen IREA
   - polarization state inference IREA
   - cytokine signature enrichment scRNA-seq
+  - IREA web portal
 first_introduced: "2024"
-date_updated: 2026-05-13
+date_updated: 2026-06-04
 source_url: "https://github.com/cui-lab/IREA"
 ---
 
@@ -34,3 +35,5 @@ Receptor expression alone is a poor predictor of cytokine response because ligan
 ## Relevance to active research
 
 IREA enables systematic cytokine inference from any scRNA-seq or bulk transcriptomic dataset — including tumour ICB cohorts, COVID-19 cohorts and vaccine response data. Reproduces canonical findings (M1 polarization after anti-PD-1, TGFβ1 negative regulation, IL-12 axis in checkpoint response).
+
+IREA and the Immune Dictionary are now deployed as a freely-available **web portal** (www.immune-dictionary.org) that returns key-driver-cytokine predictions from a user gene list within minutes and supports interactive browsing of the perturbational atlas — see [[papers/immune-dictionary-immune-response-enrichment-analysis]] (AAI 2025). Recent portal updates add accelerated graph displays, expanded network analysis, additional coverage of immunostimulatory agents such as chemokines, and comprehensive user instructions.

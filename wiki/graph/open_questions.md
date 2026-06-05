@@ -214,6 +214,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/identifying-spatial-single-cell-level-interactions] How does GITIII benchmark head-to-head against L–R-based tools ([[foundations/cellchat-cell-cell-communication]], [[foundations/cellphonedb-ligand-receptor]], [[foundations/nichenet-ligand-target-inference]]) and against graph-based spatial frameworks ([[concepts/graph-based-foundation-model-spatial-transcriptomics]])? (requires the primary paper)
 - [paper/identifying-spatial-single-cell-level-interactions] Does the single-layer constraint cost predictive accuracy relative to deeper transformers?
 - [paper/identifying-spatial-single-cell-level-interactions] Would GITIII's influence tensor recover TAM–cancer-cell or TAM–stromal CCI patterns relevant to hypoxic-niche biology — the thesis-relevant test?
+- [paper/immune-dictionary-immune-response-enrichment-analysis] None explicitly posed in the abstract.
+- [paper/immune-dictionary-immune-response-enrichment-analysis] How accurate are the portal's gene-list-driven cytokine-driver predictions on independent benchmark datasets?
+- [paper/immune-dictionary-immune-response-enrichment-analysis] Does the added chemokine coverage use the same in vivo lymph-node perturbation design, or imported signatures?
+- [paper/immune-dictionary-immune-response-enrichment-analysis] Can the portal be applied to hypoxic tumour scRNA-seq to infer active cytokine networks (HypoxiaVERSE relevance)?
+- [paper/immune-dictionary-immune-response-enrichment-analysis] Is there a human-Dictionary equivalent in the portal, or only the mouse reference?
 - [paper/integrated-time-series-analysis-high-content] How do regulators establish vs realize epigenetic potential, and does the framework transfer to other cell types and disease contexts?
 - [paper/integrated-time-series-analysis-high-content] What is the precise mechanism (histone vs non-histone acetylation, HDAC/BRD4 balance) of EP300-mediated ISG repression?
 - [paper/integrated-time-series-analysis-high-content] Are the STRING-independent functional similarities (e.g. Ep300/Smc1a) reproducible in primary macrophages and other systems?

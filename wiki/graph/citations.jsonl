@@ -18,3 +18,4 @@
 {"from": "papers/transcriptional-regulator-network-human-inflammatory-macrophages", "to": "papers/transcriptome-based-network-analysis-reveals-spectrum", "type": "cites", "source": "semantic_scholar", "date": "2026-06-03"}
 {"from": "papers/integrated-time-series-analysis-high-content", "to": "papers/jak-stat-signaling-maintains-homeostasis-cells", "type": "cites", "source": "semantic_scholar", "date": "2026-06-04"}
 {"from": "papers/interpretable-inflammation-landscape-circulating-immune-cells", "to": "papers/benchmarking-atlas-level-data-integration-single", "type": "cites", "source": "semantic_scholar", "date": "2026-06-04"}
+{"from": "papers/immune-dictionary-immune-response-enrichment-analysis", "to": "papers/dictionary-immune-responses-cytokines-single-cell", "type": "cites", "source": "manual", "date": "2026-06-04"}

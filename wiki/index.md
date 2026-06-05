@@ -181,6 +181,12 @@ papers:
     importance: 2
     domain: methods / spatial transcriptomics / cell–cell interaction
     priority: reference
+  - slug: immune-dictionary-immune-response-enrichment-analysis
+    title: "The Immune Dictionary and Immune Response Enrichment Analysis Web Portal"
+    tags: [IREA, immune-dictionary, web-portal, cytokine-inference, cytokines, chemokines, perturbational-scRNA-seq, computational-immunology, software-tool, meeting-abstract]
+    importance: 2
+    domain: immunology
+    priority: reference
   - slug: integrated-time-series-analysis-high-content
     title: "Integrated time-series analysis and high-content CRISPR screening delineate the dynamics of macrophage immune regulation"
     tags: [macrophage, epigenetics, chromatin-accessibility, crispr-screen, crop-seq, cite-seq, interferon, jak-stat, innate-immunity, multi-omics, time-series]
@@ -2781,6 +2787,9 @@ people:
   - slug: nathan-e-lewis
     tags: [systems-biology, metabolism, genome-scale-metabolic-models, CellFie, glycomics, CHO-biomanufacturing]
     affiliation: "UC San Diego (Pediatrics, Bioengineering); University of Georgia (CCRC, Biochemistry & Molecular Biology)"
+  - slug: nicholas-lai
+    tags: [computational-immunology, cytokine-biology, software-tools]
+    affiliation: "Harvard School of Dental Medicine, Harvard University"
   - slug: nicolas-chevrier
     tags: [immunology, sepsis, organism-wide-profiling, cytokines]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
@@ -7219,6 +7228,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: immunology
+  - slug: immune-dictionary-web-application-enables-exploratory
+    title: "The Immune Dictionary web application enables exploratory visualization of cytokine stimulation response in each major immune cell type"
+    tags: [IREA, web-portal, visualization, perturbational-scRNA-seq, immune-dictionary]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: immune-surveillance-evasion-transition-precancer-hallmark
     title: "A shift from immune surveillance to evasion underlies the onset of malignant transformation"
     tags: [immunology, oncology]
@@ -7366,6 +7381,24 @@ claims:
     tags: [IREA, cytokine-inference, polarization-inference, scRNA-seq, methodology]
     status: supported
     confidence: 0.9
+    domain: immunology
+  - slug: irea-web-portal-freely-hosts-immune
+    title: "The IREA web portal freely hosts the Immune Dictionary cytokine atlas and its companion inference software"
+    tags: [IREA, web-portal, immune-dictionary, cytokine-inference, open-resource]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: irea-web-portal-predicts-key-driver
+    title: "The IREA web portal predicts key driver cytokines of an immune process from a user-supplied gene list within minutes"
+    tags: [IREA, web-portal, cytokine-inference, gene-list, on-demand-inference]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: irea-web-portal-updates-add-accelerated
+    title: "Recent IREA web portal updates add accelerated graph displays, expanded network analysis, and coverage of chemokines and other immunostimulatory agents"
+    tags: [IREA, web-portal, chemokines, network-analysis, software-update]
+    status: supported
+    confidence: 0.75
     domain: immunology
   - slug: irf1-irf2-antagonistic-transcription-factors-control
     title: "IRF1 and IRF2 are antagonistic TFs preferentially active in CXCL9+ and IFIT1+ TAMs respectively"
