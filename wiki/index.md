@@ -289,6 +289,12 @@ papers:
     importance: 5
     domain: oncology
     priority: core
+  - slug: multiomics-analysis-cxcl9-macrophages-immunotherapy-response
+    title: "Multiomics analysis of CXCL9+ macrophages in the immunotherapy response of bladder cancer"
+    tags: [bladder-cancer, CXCL9, macrophages, immunotherapy, ICB, biomarker, scRNA-seq, spatial-transcriptomics, multiomics, Mscore, TAM]
+    importance: 3
+    domain: oncology / immunology
+    priority: reference
   - slug: multiple-overlapping-binding-sites-determine-transcription
     title: "Multiple overlapping binding sites determine transcription factor occupancy"
     tags: [transcription-factor, DNA-binding, low-affinity-TFBS, overlapping-binding-sites, paralog-competition, noncoding-variants, regulatory-genomics, method-development]
@@ -1479,6 +1485,14 @@ concepts:
     tags: [macrophage, immunometabolism, itaconate, succinate, hif1a, tca-cycle]
     domain: immunology / immunometabolism
     maturity: stable
+  - slug: macro-cxcl9-progenitor-node-tumor-macrophage
+    title: "Macro-CXCL9 as the early/progenitor node of tumor macrophage differentiation"
+    tags: [macrophage, trajectory, CXCL9, tumor-immunology]
+    maturity: emerging
+  - slug: macrophage-abundance-immune-subtypes-bladder-cancer
+    title: "Macrophage-abundance immune subtypes of bladder cancer"
+    tags: [bladder-cancer, immune-subtypes, classification, CXCL9, consensus-clustering]
+    maturity: emerging
   - slug: macrophage-activation-core-regulatory-hubs
     title: "Core regulatory hubs of macrophage activation"
     tags: [macrophage, transcription-factors, network-biology]
@@ -1599,6 +1613,10 @@ concepts:
     title: "mRNA-protein discordance in single cells"
     tags: [multi-omics, proteomics, translation, post-transcriptional-regulation, single-cell]
     maturity: active
+  - slug: mscore-cxcl9-macrophage-marker-gene-icb
+    title: "Mscore — CXCL9+ macrophage marker-gene risk model for ICB efficacy"
+    tags: [biomarker, risk-model, ICB, bladder-cancer, macrophage]
+    maturity: emerging
   - slug: multi-omics-coordinated-host-tissue-response-cachexia
     title: "Coordinated multi-tissue host response in cancer cachexia — multi-omics integration framing"
     tags: [multi-omics, metabolomics, transcriptomics, isotope-tracing, cachexia, multi-tissue, integration]
@@ -2361,6 +2379,9 @@ people:
   - slug: berthold-gottgens
     tags: [haematopoiesis, stem-cells, HSC, single-cell-genomics, gene-regulatory-networks, methods]
     affiliation: "University of Cambridge"
+  - slug: bin-xu
+    tags: [tumor-immunology, macrophages, bladder-cancer, urology]
+    affiliation: "Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine"
   - slug: bing-he
     tags: [bioinformatics, single-cell-genomics, virtual-cell, perturbation-modeling]
     affiliation: "National Key Laboratory of Autonomous Intelligent Unmanned Systems, Frontiers Science Center for Intelligent Autonomous Systems, Tongji University area, Shanghai, China"
@@ -2682,6 +2703,9 @@ people:
   - slug: lin-zhao
     tags: [hypoxia, molecular-pharmacology, cancer-drug-development, tumor-associated-macrophage, corresponding-author]
     affiliation: "Department of Pharmacology, School of Pharmacy, China Medical University; Liaoning Key Laboratory of Molecular Targeted Anti-Tumor Drug Development and Evaluation"
+  - slug: lin-zhou
+    tags: [tumor-immunology, macrophages, bladder-cancer, bioinformatics]
+    affiliation: "Shanghai Ninth People's Hospital, Shanghai Jiao Tong University School of Medicine"
   - slug: linda-goodman
     tags: [computational-biology, rna-seq, genomics, industry]
     affiliation: "Fauna Bio, Emeryville, CA"
@@ -3922,6 +3946,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / immuno-oncology
+  - slug: bladder-cancer-tme-contains-four-macrophage
+    title: "Bladder cancer TME contains four macrophage subpopulations: Macro-CCL4, -CXCL9, -FOLR2, -SPP1"
+    tags: [macrophage, scRNA-seq, bladder-cancer, TME, cell-states]
+    status: supported
+    confidence: 0.75
+    domain: oncology / immunology
   - slug: blood-vs-solid-pan-cancer-de-recapitulates-biology
     title: "Blood-vs-solid pan-cancer DE on TPCPA recovers expected immune and adhesion biology"
     tags: [pan-cancer, differential-expression, blood-cancer, solid-cancer]
@@ -5776,6 +5806,12 @@ claims:
     title: "FGFBP2 and GZMB are upregulated in effector-memory CD8 T cells in barrier IMIDs"
     tags: [CD8-T-cell, cytotoxicity, IMID, effector-memory]
     status: supported
+  - slug: fgfr3-mutation-associated-reduced-cxcl9-cxcl10
+    title: "FGFR3 mutation is associated with reduced CXCL9, CXCL10, PDCD1, and CD274 expression in bladder cancer"
+    tags: [FGFR3, mutation, immune-cold, CXCL9, PD-L1, bladder-cancer]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology / immunology
   - slug: fibroblast-composition-distinguishes-clinical-scarring-risk
     title: "Fibroblast subtype composition distinguishes clinically defined scarring-risk categories of skin disease"
     tags: [skin, fibroblast, scarring, fibrosis, disease-endotype]
@@ -5818,6 +5854,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: five-gene-mscore-predicts-immune-checkpoint
+    title: "A five-gene Mscore (CXCL9, C3, CTSC, CAPG, CTSB) predicts ICB efficacy in bladder cancer"
+    tags: [Mscore, risk-model, biomarker, ICB, bladder-cancer, machine-learning]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology / immunology
+  - slug: five-immune-subtypes-bladder-cancer-class
+    title: "Bladder cancer stratifies into five immune subtypes (A-E) with Class E enriched for Macro-CXCL9"
+    tags: [bladder-cancer, immune-subtypes, consensus-clustering, CXCL9, classification]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology / immunology
   - slug: folfirinox-vs-gemnab-differential-loss
     title: "In advanced PDAC, FOLFIRINOX → greater SKM loss in males; GEM/NAB → greater adipose-tissue loss in both sexes"
     tags: [cancer-cachexia, pancreatic-cancer, FOLFIRINOX, GEM-NAB, sex-dimorphism, pharmacology]
@@ -6396,6 +6444,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / clinical-trials / hypoxia
+  - slug: high-mscore-correlates-worse-survival-reduced
+    title: "High Mscore correlates with worse overall survival and reduced ICB response (14% vs 44%)"
+    tags: [Mscore, survival, ICB-response, prognostic, bladder-cancer]
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology / immunology
   - slug: high-receptor-transcript-abundance-does-always
     title: "High receptor transcript abundance does not always translate into strong cytokine response"
     tags: [receptor-insufficiency, L-R-inference, TGF-beta, decorin, resistin]
@@ -7820,6 +7874,30 @@ claims:
     status: supported
     confidence: 0.85
     domain: immuno-oncology
+  - slug: macro-cxcl9-abundance-higher-immunotherapy-responders
+    title: "Macro-CXCL9 abundance is higher in immunotherapy responders across multiple cohorts"
+    tags: [CXCL9, macrophage, ICB-response, biomarker, deconvolution]
+    status: supported
+    confidence: 0.7
+    domain: oncology / immunology
+  - slug: macro-cxcl9-governed-distinct-transcription-factors
+    title: "Macro-CXCL9 is governed by distinct transcription factors (LYL1, NRF1, SMARCC2, CCNT2, TCF3)"
+    tags: [transcription-factor, SCENIC, macrophage, CXCL9, gene-regulatory-network]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology / immunology
+  - slug: macro-cxcl9-ligand-receptor-interactions-ackr1
+    title: "Macro-CXCL9 engages ACKR1+ endothelium and LAG3+ CD8-CXCL13 cells via distinct ligand-receptor axes"
+    tags: [cell-cell-interaction, LIANA, CXCL9, LAG3, ACKR1, macrophage]
+    status: weakly_supported
+    confidence: 0.45
+    domain: oncology / immunology
+  - slug: macro-cxcl9-occupies-early-node-tumor
+    title: "Macro-CXCL9 occupies the early node of the tumor macrophage differentiation trajectory"
+    tags: [macrophage, trajectory, pseudotime, CXCL9, bladder-cancer]
+    status: weakly_supported
+    confidence: 0.5
+    domain: oncology / immunology
   - slug: macro-slpi-distinct-developmental-branch-from-c1qc-thbs1
     title: "Macro_SLPI follows a developmental branch distinct from Macro_C1QC and Macro_THBS1 despite shared monocyte origin"
     tags: [macrophage, tam, trajectory, pseudotime, tme]
@@ -8496,6 +8574,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / neurology
+  - slug: mscore-independent-prognostic-indicator-inversely-correlated
+    title: "Mscore is an independent prognostic indicator (HR=1.92) inversely correlated with TMB and TNB"
+    tags: [Mscore, Cox-regression, TMB, TNB, AUC, prognostic, bladder-cancer]
+    status: weakly_supported
+    confidence: 0.55
+    domain: oncology / immunology
   - slug: mtap-deletion-destabilizes-irf3-sting-resistance
     title: "MTAP deficiency confers STING-agonist resistance by destabilizing IRF3 and co-deletion of chromosome 9p type I IFN genes"
     tags: [mtap, cdkn2a, 9p-deletion, cgas-sting, irf3, biomarker]
@@ -12085,6 +12169,10 @@ foundations:
     title: "cellRank — Markov-chain trajectory and fate-mapping for single-cell data"
     status: mainstream
     domain: methods / trajectory-inference
+  - slug: celltrek-single-cell-spatial-mapping
+    title: "CellTrek — single-cell to spatial coordinate mapping"
+    status: mainstream
+    domain: methods / spatial transcriptomics
   - slug: celltypist
     title: "CellTypist"
     status: mainstream
@@ -12161,6 +12249,10 @@ foundations:
     title: "CONCH — pathology vision-language foundation model"
     status: mainstream
     domain: methods / digital-pathology / foundation-models
+  - slug: consensusclusterplus-consensus-clustering
+    title: "ConsensusClusterPlus — consensus clustering for subtype discovery"
+    status: mainstream
+    domain: methods / unsupervised clustering
   - slug: contrastive-learning
     title: "Contrastive learning"
     status: mainstream
@@ -12217,6 +12309,10 @@ foundations:
     title: "Cx3cr1-creER fate mapping (monocyte progeny)"
     status: mainstream
     domain: mouse genetics / lineage tracing / immunology
+  - slug: cxcl10-chemokine
+    title: "CXCL10 (IP-10, interferon-gamma-induced protein 10)"
+    status: mainstream
+    domain: immunology / chemokines
   - slug: cxcl12-chemokine
     title: "CXCL12 (Stromal cell-derived factor 1)"
     status: mainstream
@@ -12231,6 +12327,10 @@ foundations:
     domain: molecular-biology / immunology / chemokine
   - slug: cxcl9-chemokine
     title: "CXCL9 (MIG, monokine induced by gamma interferon)"
+    status: mainstream
+    domain: immunology / chemokines
+  - slug: cxcr3-receptor
+    title: "CXCR3 (chemokine receptor for CXCL9/CXCL10/CXCL11)"
     status: mainstream
     domain: immunology / chemokines
   - slug: cyba-cytochrome-b245-light-chain
@@ -13070,6 +13170,10 @@ foundations:
     title: "Lgr5+ intestinal stem cells"
     status: mainstream
     domain: cell biology / stem-cell-biology / intestinal-biology
+  - slug: liana-cell-cell-interaction-inference
+    title: "LIANA — ligand-receptor / cell-cell interaction inference"
+    status: mainstream
+    domain: methods / cell-cell communication
   - slug: liger-nmf-integration
     title: "LIGER — integrative non-negative matrix factorization for single-cell multi-omics"
     status: mainstream

@@ -13,6 +13,7 @@ tags:
 maturity: emerging
 key_papers:
   - macrophage-targeted-immunocytokine-leverages-myeloid-nk
+  - multiomics-analysis-cxcl9-macrophages-immunotherapy-response
 first_introduced: "von Locquenghien et al. 2025 Cell (MERFISH 1.86 M-cell pan-cancer atlas)"
 date_updated: 2026-05-27
 related_concepts:

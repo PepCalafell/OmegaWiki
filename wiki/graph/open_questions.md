@@ -350,6 +350,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/multimodal-spatial-omics-reveal-co-evolution] How do these epithelial-proinflammatory niches relate to the hypoxia-immunosuppressive niches identified in invasive NSCLC ([[papers/tumour-microenvironment-crosstalk-nsclc-progression-response]])? Are they sequential — early IL-1β niche → late hypoxic/SPP1⁺ niche?
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Does the precancer interception logic generalize to other organs' precursors (PanIN, BE, breast DCIS, colon adenoma)?
 - [paper/multimodal-spatial-omics-reveal-co-evolution] Are pattern-2 (clonal-disjoint) precursors mechanistically driven by independent founder clones in a shared field, and does the niche pre-date all of them?
+- [paper/multiomics-analysis-cxcl9-macrophages-immunotherapy-response] Which TAM subsets exert antitumour effects and the optimal timing for intervention remain challenges across tumour types (p.7).
+- [paper/multiomics-analysis-cxcl9-macrophages-immunotherapy-response] Precise mechanisms of TIL recruitment under ICIs are "not yet fully understood" (p.7).
+- [paper/multiomics-analysis-cxcl9-macrophages-immunotherapy-response] Is the Macro-CXCL9 differentiation origin a true hierarchy or an IFN-γ activation continuum?
+- [paper/multiomics-analysis-cxcl9-macrophages-immunotherapy-response] Does Mscore add predictive value beyond CXCL9:SPP1 ratio, CXCL9 alone, PD-L1, or TMB?
+- [paper/multiomics-analysis-cxcl9-macrophages-immunotherapy-response] Do the five immune subtypes replicate prospectively and guide subtype-specific therapy?
 - [paper/multiple-overlapping-binding-sites-determine-transcription] Does OBS extend to prokaryotic TFs?
 - [paper/multiple-overlapping-binding-sites-determine-transcription] Can OBS be cast in absolute thermodynamic (partition-function) form?
 - [paper/multiple-overlapping-binding-sites-determine-transcription] Have flanking sequences at paralog-shared sites evolved under selection to encode differential overlapping-site counts?
@@ -1040,6 +1045,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/lysosomal-storage-disease-macrophage-dysfunction] The role of microglia replacement (CSF1R-blockade-and-replacement strategies) in neuropathic LSDs.
 - [concept/m1-m2-polarization-paradigm] A formal replacement nomenclature that combines stimulus, ontogeny, and tissue niche
 - [concept/m1-m2-polarization-paradigm] Quantitative scoring frameworks that encode multidimensional polarisation rather than collapsing to one axis
+- [concept/macro-cxcl9-progenitor-node-tumor-macrophage] Distinguishing a true differentiation hierarchy from an activation-state continuum driven by local IFN-γ.
+- [concept/macrophage-abundance-immune-subtypes-bladder-cancer] Prospective replication and whether the subtypes predict differential drug response.
 - [concept/macrophage-activation-core-regulatory-hubs] Functional validation of HIVEP1 and other under-studied hubs in macrophage activation.
 - [concept/macrophage-activation-core-regulatory-hubs] Causal direction within the inferred network.
 - [concept/macrophage-induced-emt-tumor-invasiveness] Identification of the necessary and sufficient TRM-secreted EMT inducer(s)
@@ -1100,6 +1107,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/mrna-protein-discordance] Mechanism-by-mechanism dissection of *why* specific proteins are discordant (translation rate, degradation, stabilization).
 - [concept/mrna-protein-discordance] Paired single-cell mRNA + untargeted protein measurements (vs current unpaired integrations).
 - [concept/mrna-protein-discordance] Translating bulk-derived translation-rate priors into single-cell models.
+- [concept/mscore-cxcl9-macrophage-marker-gene-icb] Whether Mscore adds value over simpler predictors (CXCL9, PD-L1, TMB) and generalises across platforms.
 - [concept/multi-omics-coordinated-host-tissue-response-cachexia] Whether a single-cell version of this design would reveal cell-type-specific drivers within muscle, liver and adipose.
 - [concept/multi-omics-coordinated-host-tissue-response-cachexia] Whether longitudinal patient sampling could reproduce the pseudo-time signature.
 - [concept/multi-omics-coordinated-host-tissue-response-cachexia] Whether the WebApp (https://m3cav.metabolomics.fgu.cas.cz/) becomes a community standard for cachexia metabolomics queries.
@@ -1486,6 +1494,9 @@ _Auto-generated open questions. Do not edit._
 - [claim/etd-cbe-restores-30-percent-tg1] eTD-CBE achieves 12% mean on-target TGM1 correction and restores 30% of wild-type TG1 enzyme activity in a 3D human ARCI skin model (status: weakly_supported)
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
+- [claim/fgfr3-mutation-associated-reduced-cxcl9-cxcl10] FGFR3 mutation is associated with reduced CXCL9, CXCL10, PDCD1, and CD274 expression in bladder cancer (status: weakly_supported)
+- [claim/five-gene-mscore-predicts-immune-checkpoint] A five-gene Mscore (CXCL9, C3, CTSC, CAPG, CTSB) predicts ICB efficacy in bladder cancer (status: weakly_supported)
+- [claim/five-immune-subtypes-bladder-cancer-class] Bladder cancer stratifies into five immune subtypes (A-E) with Class E enriched for Macro-CXCL9 (status: weakly_supported)
 - [claim/folr2-macs-enriched-hcc-non-responders-paradox] FOLR2 macrophages are enriched in HCC tumor nodules and in PD-1 non-responders — paradox vs breast cancer where FOLR2 macs are linked to better outcome (status: weakly_supported)
 - [claim/fos-ncor2-ppargamma-central-transcription-regulators] FOS, NCOR2, and PPARγ are central transcription regulators of the immunosuppressive M2a macrophage network (status: weakly_supported)
 - [claim/g09-chromosome-1q-cnv-associates-lrrc15] G09 stromal-centric tumors associate with chromosome 1q CNV that tracks LRRC15+ myCAF abundance (status: weakly_supported)
@@ -1499,6 +1510,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/heuristic-deseq2-power-analysis-values-concordant] Heuristic DESeq2 power-analysis p-values are broadly concordant with full PyDESeq2 (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
+- [claim/high-mscore-correlates-worse-survival-reduced] High Mscore correlates with worse overall survival and reduced ICB response (14% vs 44%) (status: weakly_supported)
 - [claim/higher-altitude-correlates-lower-cancer-mortality] Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US (status: weakly_supported)
 - [claim/hiv-best-classified-naive-lymphoid-cells] HIV is best classified by naive lymphoid cells, consistent with CD4 T-cell tropism (status: weakly_supported)
 - [claim/hucira-reveals-disease-specific-cytokine-activity] huCIRA reveals disease-specific cytokine activity in SLE, MS and NSCLC (status: weakly_supported)
@@ -1527,6 +1539,9 @@ _Auto-generated open questions. Do not edit._
 - [claim/kupffer-cells-increase-nash-wda-stay] Kupffer cells increase in NASH and WDA but stay stable in HFD liver (status: weakly_supported)
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
+- [claim/macro-cxcl9-governed-distinct-transcription-factors] Macro-CXCL9 is governed by distinct transcription factors (LYL1, NRF1, SMARCC2, CCNT2, TCF3) (status: weakly_supported)
+- [claim/macro-cxcl9-ligand-receptor-interactions-ackr1] Macro-CXCL9 engages ACKR1+ endothelium and LAG3+ CD8-CXCL13 cells via distinct ligand-receptor axes (status: weakly_supported)
+- [claim/macro-cxcl9-occupies-early-node-tumor] Macro-CXCL9 occupies the early node of the tumor macrophage differentiation trajectory (status: weakly_supported)
 - [claim/macrophage-ogt-deletion-reduces-il-alternative] Macrophage-specific Ogt deletion reduces O-GlcNAcylation, IL-4-driven AAM markers, and helminth control (status: proposed)
 - [claim/master-regulators-human-macrophage-activation-stimulus] Master regulators of human macrophage activation are stimulus-specific transcription factors (status: weakly_supported)
 - [claim/matched-cytokine-pathway-inhibition-perturbs-group] Cytokine-pathway inhibition matched to a TME group specifically perturbs that group's expression signature (status: weakly_supported)
@@ -1542,6 +1557,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/microsatellite-instability-high-tumors-reduced-phf2] Microsatellite-instability-high tumors show significantly reduced PHF2 expression (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
+- [claim/mscore-independent-prognostic-indicator-inversely-correlated] Mscore is an independent prognostic indicator (HR=1.92) inversely correlated with TMB and TNB (status: weakly_supported)
 - [claim/murine-tissue-macrophage-tr-network-epigenetically] Murine tissue-macrophage TR network is epigenetically and transcriptionally integrated (status: weakly_supported)
 - [claim/mva-pathway-shared-marker-endometrial-epithelium-and-malignant-eec-cells] Mevalonate (MVA) pathway is a metabolic marker of endometrial epithelial cells in early secretory phase and is co-opted by malignant cells in endometrial carcinoma (status: weakly_supported)
 - [claim/myeloid-ogt-deficiency-disrupts-peritoneal-tissue] Myeloid Ogt deficiency disrupts peritoneal tissue-resident macrophage homeostasis (reduced LCMs, increased SCMs/CCMs) (status: proposed)

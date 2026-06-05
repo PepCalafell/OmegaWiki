@@ -6,6 +6,7 @@ tags: [deconvolution, cell-state, methods]
 maturity: emerging
 key_papers:
   - decode-deep-learning-based-common-deconvolution
+  - multiomics-analysis-cxcl9-macrophages-immunotherapy-response
 first_introduced: "2026"
 date_updated: 2026-05-28
 related_concepts: [universal-multiomics-deconvolution, intrinsic-vs-extrinsic-cell-state-determinants]
