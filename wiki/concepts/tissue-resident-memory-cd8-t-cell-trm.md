@@ -15,7 +15,7 @@ aliases:
   - "resident memory CD8+"
 tags: [immunology, cd8-t-cells, memory, mucosal-immunity, anti-tumour-immunity]
 maturity: active
-key_papers: [atlas-guided-discovery-transcription-factors-cell]
+key_papers: [atlas-guided-discovery-transcription-factors-cell, classification-human-chronic-inflammatory-skin-disease]
 first_introduced: ""
 date_updated: 2026-05-22
 related_concepts: [cd8-t-cell-exhaustion-texterm]

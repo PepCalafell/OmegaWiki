@@ -67,6 +67,12 @@ papers:
     importance: 5
     domain: genomics
     priority: reference
+  - slug: classification-human-chronic-inflammatory-skin-disease
+    title: "Classification of human chronic inflammatory skin disease based on single-cell immune profiling"
+    tags: [immunology, skin, scrna-seq, cite-seq, atopic-dermatitis, psoriasis, trm, classification, dupilumab]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: complex-biology-aryl-hydrocarbon-receptor-activation
     title: "The complex biology of aryl hydrocarbon receptor activation in cancer and beyond"
     tags: [AHR, aryl-hydrocarbon-receptor, context-specificity, ARNT, AHRR, posttranslational-modifications, epigenetic-regulation, DNA-methylation, histone-modifications, non-genomic-AHR, tryptophan-metabolism, kynurenine, IDO1, TDO2, IL4I1, CYP1A1, TIPARP, HIF1A, HIF2A, SRC, vemurafenib, BRAFi-resistance, melanoma, tumor-suppression, tumor-promotion, SUMOylation, phosphorylation, ARNT2, HK2, TET2, CUL4B, UCHL3, review]
@@ -1597,6 +1603,10 @@ concepts:
     title: "MMP14–TREM2 co-expression as TAM-specific marker pair"
     tags: [TREM2, MMP14, tumor-associated-macrophage, tumor-microenvironment, protease, biomarker]
     maturity: emerging
+  - slug: molecular-stratification-indeterminate-rash-predicts-dupilumab
+    title: "Molecular stratification of indeterminate rashes predicts dupilumab response"
+    tags: [immunology, skin, scrna-seq, classification, dupilumab, precision-medicine]
+    maturity: emerging
   - slug: momac-verse-mnp-verse-atlas
     title: "MoMac-VERSE / MNP-VERSE — pan-tissue MNP scRNA-seq compendium"
     tags: [macrophage, monocyte, single-cell, atlas, reference-mapping, immunology]
@@ -1884,6 +1894,10 @@ concepts:
     title: "Rare immune cell types produce the most cytokines (inverse abundance–production correlation)"
     tags: [cytokine-networks, rare-cell-types, FRC, ILC, basophil]
     maturity: emerging
+  - slug: rashx-rash-classification-web-portal
+    title: "RashX — web portal for patient-level rash scRNA-seq classification"
+    tags: [resource, tool, skin, scrna-seq, classification, web-portal]
+    maturity: active
   - slug: recurrent-malignant-metaprograms-nmf
     title: "Recurrent malignant metaprograms (NMF-derived)"
     tags: [scrna-seq, nmf, ith, metaprograms, malignant-cells, pan-cancer]
@@ -2201,6 +2215,10 @@ concepts:
     title: "Treg depletion-induced reprogramming of NSCLC stromal-TAM landscape via VEGF"
     tags: [treg, tme-reprogramming, vegf, luad, vascularization]
     maturity: emerging
+  - slug: treg-trm-expansion-cd8-exhaustion-chronic
+    title: "Treg/Trm expansion with CD8 exhaustion as a shared signature of chronic skin inflammation"
+    tags: [immunology, skin, scrna-seq, treg, trm, cd8-exhaustion, inflammation]
+    maturity: active
   - slug: trem2-mac-pd1-immune-niche-quartet
     title: "TREM2-mac / CXCL13+ Th / TCF1+ PD-1hi CD8 / mregDC immune-aggregate quartet"
     tags: [TREM2, CXCL13, TCF1, mregDC, immune-aggregate, PD-1-blockade, spatial-niche, tertiary-lymphoid-structure]
@@ -2229,6 +2247,10 @@ concepts:
     title: "TRM-induced Treg licensing (CD73/CTLA-4)"
     tags: [macrophage, regulatory-T-cell, immunosuppression, CD73, CTLA-4, tumor-microenvironment, tissue-resident-macrophage, lung-cancer, immune-evasion]
     maturity: emerging
+  - slug: trm1-th2-th17-molecular-classification-inflammatory
+    title: "Trm1 TH2/TH17 molecular classification of inflammatory skin disease"
+    tags: [immunology, skin, scrna-seq, classification, atopic-dermatitis, psoriasis, trm]
+    maturity: active
   - slug: tryptophan-ido1-kynurenine-immunosuppression
     title: "Tryptophan-IDO1/TDO-kynurenine axis of tumour immunosuppression"
     tags: [tryptophan, ido1, tdo, kynurenine, immunosuppression, ahr, melanoma]
@@ -2511,6 +2533,9 @@ people:
   - slug: elisa-t-zhang
     tags: [organoids, oncology, tumour-immune-microenvironment]
     affiliation: "Stanford University School of Medicine"
+  - slug: elizabeth-purdom
+    tags: [statistics, computational-biology, single-cell, genomics]
+    affiliation: "Department of Statistics, University of California, Berkeley"
   - slug: erick-armingol
     tags: [single-cell, metabolism, cell-cell-communication, tensor-factorization, endometrium]
     affiliation: "Wellcome Sanger Institute, Cambridge, UK"
@@ -2631,6 +2656,9 @@ people:
   - slug: jean-ehrland-ricci
     tags: [tumor-metabolism, immunometabolism, dlbcl, oxphos, asnase]
     affiliation: "Université Côte d'Azur, INSERM, C3M, Nice, France; Équipe labellisée LIGUE Contre le Cancer"
+  - slug: jeffrey-cheng
+    tags: [dermatology, scrna-seq, skin-disease, genomics]
+    affiliation: "Department of Dermatology, UCSF; SF VA Medical Center"
   - slug: jia-xue
     tags: [immunology, macrophage, transcriptomics]
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn"
@@ -2907,6 +2935,9 @@ people:
   - slug: ran-zhou
     tags: [early-cancer, lineage-tracing]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
+  - slug: raymond-cho
+    tags: [dermatology, genomics, skin-disease, scrna-seq]
+    affiliation: "Department of Dermatology, University of California, San Francisco"
   - slug: renaud-vincentelli
     tags: [structural-biology, holdup-assay, pdz, protein-interactions]
     affiliation: "Aix-Marseille Université / CNRS"
@@ -3072,6 +3103,9 @@ people:
   - slug: yadong-wang
     tags: [bioinformatics, deconvolution, computing]
     affiliation: "Harbin Institute of Technology"
+  - slug: yale-liu
+    tags: [dermatology, scrna-seq, skin-inflammation]
+    affiliation: "Department of Dermatology, Second Affiliated Hospital of Xi'an Jiaotong University; UCSF"
   - slug: yanan-cao
     tags: [immunology, population-genomics, BGI]
     affiliation: "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine"
@@ -3198,6 +3232,12 @@ claims:
     status: supported
     confidence: 0.65
     domain: microbiology
+  - slug: 31-patient-cd45-scrna-seq-dataset
+    title: "A 31-sample CD45+ scRNA-seq/CITE-seq dataset of inflammatory skin disease yielded 158,037 cells"
+    tags: [skin, scrna-seq, cite-seq, dataset, immunology]
+    status: supported
+    confidence: 0.9
+    domain: immunology / single-cell
   - slug: 32-134d-hif-inhibitor-anti-pd1-hcc-67-percent
     title: "32-134D HIF-1/2 inhibitor combined with anti-PD-1 increases HCC eradication from 25% to 67% in mice"
     tags: [hypoxia, HIF, 32-134D, anti-PD-1, HCC, combination-therapy, pharmacological, quantitative]
@@ -3216,6 +3256,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: 41-cutaneous-immune-cell-classes-defined
+    title: "Iterative subclustering of CD45+ cells defined 41 cutaneous immune cell classes"
+    tags: [skin, scrna-seq, clustering, cell-types, immunology]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
   - slug: 6d-tam-atlas-rational-design
     title: "A 6D TAM atlas (causal drivers / spatial niches / temporal dynamics / signaling state / metabolism / ontogeny) is required for rational TAM-targeted therapy design"
     tags: [framework, tumor-associated-macrophage, translational-oncology, atlas]
@@ -3300,6 +3346,24 @@ claims:
     status: supported
     confidence: 0.8
     domain: epigenetics
+  - slug: ad-pv-specific-trm1-genes-segregate
+    title: "AD- and PV-specific Trm1 genes segregate discretely in coexpression and STRING networks"
+    tags: [skin, trm, network, string, atopic-dermatitis, psoriasis, methods]
+    status: supported
+    confidence: 0.8
+    domain: immunology / network biology
+  - slug: ad-pv-transcriptional-signatures-localize-cd69
+    title: "AD and PV disease-specific transcriptional signatures localize to CD69+CD103+ Trm cells"
+    tags: [skin, trm, atopic-dermatitis, psoriasis, signature, immunology]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
+  - slug: ad-specific-upregulated-genes-localize-trm
+    title: "AD-specific upregulated genes (TWIST1, IL17RB, KMT2A, NEAT1) localize to Trm, ILC, and effector CTLs"
+    tags: [atopic-dermatitis, trm, ilc, th2, deg, immunology]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
   - slug: adcp-induces-proangiogenic-tam-program
     title: "Antibody-dependent cellular phagocytosis (ADCP) induces an anti-inflammatory, pro-angiogenic program in macrophages"
     tags: [adcp, phagocytosis, angiogenesis, tam-feedback]
@@ -3630,6 +3694,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology / immuno-oncology
+  - slug: all-three-treg-classes-expand-rash
+    title: "All three Treg classes expand 2.19-3.13 fold in rash-affected skin"
+    tags: [skin, treg, scrna-seq, immunology, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
   - slug: allele-specific-chipseq-91-percent-concordance-with-padit-seq
     title: "PADIT-seq identifies the preferred allele in allele-specific ChIP-seq at 91% concordance"
     tags: [allele-specific-ChIP-seq, PADIT-seq, variant-effect, in-vivo, quantitative]
@@ -4006,6 +4076,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: bullous-pemphigoid-segregates-ad-lichen-planus
+    title: "Bullous pemphigoid segregates with AD and lichen planus with PV by Trm1 signature"
+    tags: [skin, bullous-pemphigoid, lichen-planus, classification, immunology]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology / single-cell
   - slug: busulfan-versus-irradiation-conditioning-isolates-im
     title: "Busulfan versus irradiation conditioning isolates IM-derived CCL2 function"
     tags: [methodological, macrophage, tumor-immunity, lung-cancer]
@@ -5706,6 +5782,24 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: exhausted-cd8-cells-increase-chronic-inflammatory
+    title: "Exhausted CD8+ T cells (CTLex) increase 80.4% in chronic inflammatory skin disease"
+    tags: [skin, cd8-exhaustion, scrna-seq, immunology, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
+  - slug: exhausted-cd8-cells-shared-end-state
+    title: "Exhausted CD8+ T cells are a shared end state, not a disease-discriminating force, across rashes"
+    tags: [skin, cd8-exhaustion, mechanism, immunology]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology / single-cell
+  - slug: exhausted-cd8-nk-cells-more-elevated
+    title: "Exhausted CD8+ and NK cells are more elevated in psoriasis than atopic dermatitis"
+    tags: [skin, psoriasis, atopic-dermatitis, cd8-exhaustion, nk-cells, immunology]
+    status: supported
+    confidence: 0.8
+    domain: immunology / single-cell
   - slug: exogenous-tgfb1-enhances-efferocytosis-via-tgfbri-smad
     title: "Exogenous TGF-β1 enhances macrophage efferocytosis in vitro, dependent on TGFβRI-SMAD phosphorylation (blocked by LY3200882)"
     tags: [TGFβ1, TGFβRI, SMAD, LY3200882, efferocytosis, macrophage, BMDM]
@@ -7340,6 +7434,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: hypoxia-immunology
+  - slug: inflammation-shifts-skin-immune-composition-toward
+    title: "Skin inflammation shifts immune composition toward lymphoid and away from myeloid cells"
+    tags: [skin, immune-composition, scrna-seq, immunology, correlational]
+    status: supported
+    confidence: 0.8
+    domain: immunology / single-cell
   - slug: inflammatory-hypoxia-arises-neutrophil-nadph-oxidase
     title: "Inflammatory hypoxia arises from oxygen consumption by activated neutrophils and can promote inflammatory resolution"
     tags: [inflammatory-hypoxia, neutrophil, NADPH-oxidase, mucosa, HIF, resolution, IBD, GLUT1]
@@ -8402,6 +8502,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: metabolism
+  - slug: mitotically-active-immune-clusters-expand-lesional
+    title: "Mitotically active immune clusters expand, indicating local proliferation in lesional skin"
+    tags: [skin, proliferation, trm, treg, scrna-seq, immunology]
+    status: supported
+    confidence: 0.8
+    domain: immunology / single-cell
   - slug: mmac1-chemoattracts-cells-cxcl9-cxcl10
     title: "mMAC1 chemoattracts T cells via CXCL9:CXCR3 and CXCL10:CXCR2 and supports T-cell activation via HLA class I and MIF:CD74"
     tags: [mMAC1, CXCL9, CXCL10, CXCR3, CXCR2, T-cell, CellChat, ligand-receptor, bladder-carcinoma]
@@ -8462,6 +8568,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: molecular-rash-stratification-matches-dupilumab-clinical
+    title: "Molecular stratification of indeterminate rashes matched dupilumab clinical response"
+    tags: [skin, dupilumab, classification, precision-medicine, pharmacological]
+    status: weakly_supported
+    confidence: 0.6
+    domain: immunology / clinical
   - slug: momac-verse-conserved-mnp-signatures-cross-tissue
     title: "MoMac-VERSE defines conserved monocyte and macrophage gene signatures across human tissues and disease states"
     tags: [MoMac-VERSE, MNP-VERSE, scRNA-seq, integration, atlas, macrophage, monocyte]
@@ -9706,6 +9818,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: pv-specific-upregulated-genes-concentrate-resident
+    title: "PV-specific upregulated genes (IL17F, CXCL13, GNLY, CTLA4) concentrate in Trm1/Trm3"
+    tags: [psoriasis, trm, th17, il17f, cxcl13, deg, immunology]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
   - slug: px-478-hif1a-inhibitor-mechanism-pdac
     title: "PX-478 inhibits HIF-1α protein, transactivation, deubiquitination, hypoxic VEGF synthesis, and PDAC GM-CSF / PNI"
     tags: [PX-478, HIF1A-inhibitor, VEGF, GM-CSF, perineural-invasion, pancreatic-ductal-adenocarcinoma, PDAC, small-molecule, clinical-trial]
@@ -9736,6 +9854,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: statistics / methods
+  - slug: rashx-portal-classifies-external-rash-scrna
+    title: "The RashX web portal classifies external rash scRNA-seq within the TH2/TH17 framework"
+    tags: [skin, rashx, web-portal, classification, resource, scrna-seq]
+    status: supported
+    confidence: 0.8
+    domain: immunology / resource
   - slug: recmacs-express-protumorigenic-spp1-vegfa-arg1
     title: "recMacs express protumorigenic Spp1, Vegfa, Arg1, PD-L1 (Cd274) and CCL2"
     tags: [correlational, macrophage, tumor-immunity, lung-cancer]
@@ -9768,6 +9892,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: single-cell-methods
+  - slug: resident-memory-cell-classes-increase-rash
+    title: "Resident memory T cell classes (Trm1, Trm2) increase in rash-affected skin"
+    tags: [skin, trm, scrna-seq, immunology, quantitative]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
   - slug: resource-299-human-macrophage-transcriptomes-across
     title: "A resource of 299 human macrophage transcriptomes across 28 stimuli on a single platform"
     tags: [macrophage, transcriptomics, resource]
@@ -11470,6 +11600,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology / oncology
+  - slug: trm1-deg-signatures-classify-rash-type
+    title: "Trm1 DEG signatures classify rash type in an external validation dataset"
+    tags: [skin, trm, classification, validation, scrna-seq, methods]
+    status: supported
+    confidence: 0.8
+    domain: immunology / single-cell
+  - slug: trm1-harbors-most-disease-discriminating-degs
+    title: "The Trm1 cluster harbors the most disease-discriminating DEGs between AD and PV"
+    tags: [skin, trm, deg, atopic-dermatitis, psoriasis, scrna-seq]
+    status: supported
+    confidence: 0.85
+    domain: immunology / single-cell
   - slug: trms-originate-yolk-sac-emps-mammals
     title: "Tissue-resident macrophages originate primarily from yolk-sac erythro-myeloid progenitors in mammals"
     tags: [macrophage, tissue-resident-macrophage, yolk-sac, emp, haematopoiesis, ontogeny, developmental-biology]
@@ -12143,6 +12285,10 @@ foundations:
     title: "Cecal Ligation and Puncture (CLP)"
     status: mainstream
     domain: immunology / sepsis model
+  - slug: cell-ranger-10x-alignment
+    title: "Cell Ranger — 10x Genomics alignment and quantification pipeline"
+    status: mainstream
+    domain: methods / single-cell / preprocessing
   - slug: cell2location-deconvolution
     title: "cell2location — Bayesian deconvolution for spatial transcriptomics"
     status: mainstream
@@ -12229,6 +12375,10 @@ foundations:
     title: "clusterProfiler — R package for functional enrichment / GSEA"
     status: mainstream
     domain: methods / genomics-enrichment
+  - slug: clustree-clustering-resolution-selection
+    title: "clustree — clustering resolution selection"
+    status: mainstream
+    domain: methods / clustering / single-cell
   - slug: cms-classifier-crc
     title: "Consensus Molecular Subtypes (CMS) classifier for colorectal cancer"
     status: mainstream
@@ -13058,6 +13208,10 @@ foundations:
     title: "ITE (2-(1'H-indole-3'-carbonyl)-thiazole-4-carboxylic acid methyl ester)"
     status: mainstream
     domain: small-molecule pharmacology / AHR agonist
+  - slug: itgae-cd103-integrin-trm-marker
+    title: "ITGAE (CD103) — integrin defining tissue-resident memory T cells"
+    status: mainstream
+    domain: immunology / T cell biology
   - slug: ivosidenib-ag120
     title: "Ivosidenib (AG-120) — mIDH1 inhibitor"
     status: mainstream
@@ -13198,6 +13352,10 @@ foundations:
     title: "Lithocholic acid (LCA) and its derivatives (3-oxoLCA, isoLCA, isoalloLCA, alloLCA)"
     status: mainstream
     domain: bile acid metabolism / immunometabolism
+  - slug: louvain-community-detection-clustering
+    title: "Louvain community detection clustering"
+    status: mainstream
+    domain: methods / clustering / single-cell
   - slug: lps-toll-like-receptor-signaling
     title: "LPS / Toll-like receptor signaling"
     status: mainstream
@@ -13251,6 +13409,10 @@ foundations:
     title: "Markov chain (cell-state trajectory model)"
     status: mainstream
     domain: methods / probabilistic dynamics
+  - slug: mast-hurdle-model-single-cell-differential
+    title: "MAST — hurdle model for single-cell differential expression"
+    status: mainstream
+    domain: methods / single-cell / differential expression
   - slug: mat1a-methionine-adenosyltransferase-1a
     title: "MAT1A — methionine adenosyltransferase 1A (hepatic SAM synthase)"
     status: mainstream
@@ -13850,6 +14012,10 @@ foundations:
     title: "Pyruvate carboxylase (PC)"
     status: mainstream
     domain: metabolism / TCA anaplerosis
+  - slug: qgraph-network-visualization
+    title: "qgraph — correlation network visualization"
+    status: mainstream
+    domain: methods / network biology / visualization
   - slug: r162-gdh-inhibitor
     title: "R162 — glutamate dehydrogenase (GDH) inhibitor"
     status: mainstream
@@ -13970,6 +14136,10 @@ foundations:
     title: "scANVI — semi-supervised single-cell ANnotation using Variational Inference"
     status: mainstream
     domain: methods / single-cell-integration / deep-learning
+  - slug: scdblfinder-doublet-detection
+    title: "scDblFinder — doublet detection for single-cell data"
+    status: mainstream
+    domain: methods / single-cell / quality control
   - slug: scdesign3-simulator
     title: "scDesign3 — realistic single-cell and spatial simulation framework"
     status: mainstream
@@ -14229,6 +14399,10 @@ foundations:
     title: "stLearn SCTP — spatially-constrained ligand-receptor inference"
     status: mainstream
     domain: spatial omics methods
+  - slug: string-protein-protein-interaction-database
+    title: "STRING — protein-protein interaction database"
+    status: mainstream
+    domain: methods / network biology / functional genomics
   - slug: sucnr1-succinate-receptor
     title: "SUCNR1 / GPR91 — succinate receptor"
     status: mainstream
@@ -14462,6 +14636,10 @@ foundations:
     title: "UK-5099 — Mitochondrial pyruvate carrier (MPC) inhibitor"
     status: mainstream
     domain: pharmacology
+  - slug: umap-dimensionality-reduction
+    title: "UMAP — Uniform Manifold Approximation and Projection"
+    status: mainstream
+    domain: methods / dimensionality reduction / visualization
   - slug: upbm-protein-binding-microarray
     title: "uPBM (universal protein-binding microarray)"
     status: mainstream

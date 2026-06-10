@@ -15,7 +15,7 @@ aliases:
   - "exhaustion trajectory"
 tags: [immunology, cd8-t-cells, exhaustion, cancer-immunotherapy, chronic-infection]
 maturity: active
-key_papers: [atlas-guided-discovery-transcription-factors-cell]
+key_papers: [atlas-guided-discovery-transcription-factors-cell, classification-human-chronic-inflammatory-skin-disease]
 first_introduced: ""
 date_updated: 2026-05-22
 related_concepts: [tissue-resident-memory-cd8-t-cell-trm]

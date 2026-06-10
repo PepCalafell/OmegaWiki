@@ -73,6 +73,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/chinese-immune-multi-omics-atlas] How much does an ancestry-matched, cell type–resolved reference improve disease-risk portability versus European-centric resources?
 - [paper/chinese-immune-multi-omics-atlas] Can CIMA-CLM generalize to cell states and ancestries outside the training cohort, and are predicted variant-effect magnitudes calibrated to functional assays?
 - [paper/chinese-immune-multi-omics-atlas] Do dynamic (pseudotime) eQTLs explain disease loci missed by static cell-type mapping?
+- [paper/classification-human-chronic-inflammatory-skin-disease] Can complementary disease signatures be recovered in non-Trm populations with deeper sampling?
+- [paper/classification-human-chronic-inflammatory-skin-disease] Will molecular class predict drug response in larger prospective trials?
+- [paper/classification-human-chronic-inflammatory-skin-disease] How does TCR clonality refine the inflammatory-dysregulation picture?
+- [paper/classification-human-chronic-inflammatory-skin-disease] Do the AD/PV Trm modules map onto distinct druggable pathway hubs (via the STRING modules)?
+- [paper/classification-human-chronic-inflammatory-skin-disease] Is the TH2/TH17 two-axis model adequate for dermatoses outside the AD-PV-BP-LP spectrum?
+- [paper/classification-human-chronic-inflammatory-skin-disease] Are Trm cells causal drivers or faithful reporters of disease-specific programs?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Which kinases (beyond PKC and tyrosine kinases) directly phosphorylate AHR, and at which residues? Most of the high-throughput PTM sites have no assigned upstream enzyme (Fig. 3).
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Does ARNT2 antagonise AHR in tissues where it is dominantly expressed (CNS, kidney, retinal epithelium)?
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Why do AHRR and CYP1A1 promoter methylation respond in *opposite* directions to maternal smoking exposure if both are downstream of the same AHR axis?
@@ -1095,6 +1101,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/mmp14-trem2-tam-marker-pair] Whether MMP14-TREM2 co-expression is functionally coupled or independently regulated
 - [concept/mmp14-trem2-tam-marker-pair] Stability across tumor types and treatment courses
 - [concept/mmp14-trem2-tam-marker-pair] Single-cell prevalence: what fraction of TAMs co-express both vs only one?
+- [concept/molecular-stratification-indeterminate-rash-predicts-dupilumab] Prospective, blinded trials linking molecular class to therapeutic outcome across drug classes (IL4R, IL17, IL23 blockers).
 - [concept/momac-verse-mnp-verse-atlas] Updating the atlas with newer datasets (single-cell multi-omics, spatial)
 - [concept/momac-verse-mnp-verse-atlas] Standardising tumour-core / periphery annotations across cancers
 - [concept/momac-verse-mnp-verse-atlas] Bridging MoMac-VERSE clusters to murine populations across more tissues than liver
@@ -1230,6 +1237,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/rare-cell-type-single-cell-enrichment] Quantifying the power gain from each enrichment strategy relative to its cost and bias.
 - [concept/rare-immune-cell-types-produce-many] Whether the same inverse relation holds in human tissue
 - [concept/rare-immune-cell-types-produce-many] Whether the relation generalizes outside lymph nodes (tumours, infected tissue)
+- [concept/rashx-rash-classification-web-portal] Extending input to spatial or bulk modalities and to larger, multi-center reference cohorts.
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Calibrating short-horizon velocity against multi-day lineage tracing
 - [concept/rna-velocity-spatial-tc-to-le-differentiation] Joint spatial-temporal velocity models for ST time courses
 - [concept/s1p-s1pr-immune-trafficking] Whether S1P-S1PR2 macrophage tuning is exploitable for tumour-associated macrophage repolarization.
@@ -1375,6 +1383,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/treatment-induced-cachexia] Should chemotherapy dosing be reformulated by LBM rather than BSA?
 - [concept/treatment-induced-cachexia] Can pretreatment body composition be a TRIAL STRATIFICATION variable in cachexia interventions, or for adjusting the chemotherapy regimen itself?
 - [concept/treatment-induced-cachexia] What is the mechanism of immunotherapy-induced cachexia, and does it differ from chemotherapy-induced cachexia?
+- [concept/treg-trm-expansion-cd8-exhaustion-chronic] Whether Treg expansion reflects failed regulation (qualitative dysfunction) versus successful but insufficient control.
 - [concept/trem2-mac-pd1-immune-niche-quartet] Does perturbing any quartet member (e.g., anti-TREM2 antibody) destabilise the niche and reduce ICB response in HCC?
 - [concept/trem2-mac-pd1-immune-niche-quartet] Are the quartet contacts simultaneously formed or sequentially recruited?
 - [concept/trem2-microglia-dementia-axis] Whether TREM2 agonists in late-stage Alzheimer's will help (DAM may be exhausted) or harm (overdrive of inflammation).
@@ -1393,6 +1402,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/trm-induced-treg-licensing] Generalisability beyond NSCLC and B16-OVA melanoma
 - [concept/trm-induced-treg-licensing] Single-cell phenotyping of TRM-licensed vs MDM-induced Tregs in human tumours
 - [concept/trm-induced-treg-licensing] Therapeutic exploitation: blocking TRM-Treg licensing without depleting TRMs
+- [concept/trm1-th2-th17-molecular-classification-inflammatory] Whether the two-axis TH2/TH17 model generalizes to rashes outside the AD-PV-BP-LP spectrum.
 - [concept/tryptophan-ido1-kynurenine-immunosuppression] Biomarker-driven IDO1 trials.
 - [concept/tryptophan-ido1-kynurenine-immunosuppression] Combination with AhR antagonists.
 - [concept/tumor-associated-macrophage-immunosuppression] Single-cell-resolved markers and signatures across cancers (atlas-scale).
@@ -1456,6 +1466,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
+- [claim/bullous-pemphigoid-segregates-ad-lichen-planus] Bullous pemphigoid segregates with AD and lichen planus with PV by Trm1 signature (status: weakly_supported)
 - [claim/cancer-lineage-variation-exceeds-intralineage] Transcriptomic variation between skin-cancer lineages exceeds variation within a lineage (status: weakly_supported)
 - [claim/cardiomyocyte-pharyngeal-mesoderm-covariation-shf-axis] In E8.5 embryo seqFISH, cardiomyocyte Fa2 significantly covaries with pharyngeal-mesoderm Fa1 (log10P = -3.92), with negatively correlated mature cardiac markers (Tnnt2, Tnni3, Myl2/3, Acta) and positively correlated SHF progenitor markers (Nkx2-5, Isl1, Mef2c, Fgf8) (status: weakly_supported)
 - [claim/cca3-no-data-integration-preserves-biological-signal] Avoiding data-integration methods (Harmony/scANVI/Seurat) preserves biological signal in cancer scRNA-seq compendia (status: weakly_supported)
@@ -1492,6 +1503,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/endomucin-alternative-lt-hsc-marker] Endomucin is proposed as an alternative LT-HSC surface marker because CD90 and CD49f show lower specificity in scp-MS data (status: weakly_supported)
 - [claim/etd-cbe-bystander-free-26-percent] eTD-CBE achieves up to 26% on-target editing of TGM1 c.877-2A>G with no bystander editing in ARCI patient keratinocytes (status: weakly_supported)
 - [claim/etd-cbe-restores-30-percent-tg1] eTD-CBE achieves 12% mean on-target TGM1 correction and restores 30% of wild-type TG1 enzyme activity in a 3D human ARCI skin model (status: weakly_supported)
+- [claim/exhausted-cd8-cells-shared-end-state] Exhausted CD8+ T cells are a shared end state, not a disease-discriminating force, across rashes (status: weakly_supported)
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
 - [claim/fgfr3-mutation-associated-reduced-cxcl9-cxcl10] FGFR3 mutation is associated with reduced CXCL9, CXCL10, PDCD1, and CD274 expression in bladder cancer (status: weakly_supported)
@@ -1556,6 +1568,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/microablation-mrna-lnp-transfects-39-percent] Laser microablation plus topical mRNA-LNP transfects 39.1% of basal keratinocytes (skin stem cells) in a 3D ARCI skin model (status: weakly_supported)
 - [claim/microsatellite-instability-high-tumors-reduced-phf2] Microsatellite-instability-high tumors show significantly reduced PHF2 expression (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
+- [claim/molecular-rash-stratification-matches-dupilumab-clinical] Molecular stratification of indeterminate rashes matched dupilumab clinical response (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/mscore-independent-prognostic-indicator-inversely-correlated] Mscore is an independent prognostic indicator (HR=1.92) inversely correlated with TMB and TNB (status: weakly_supported)
 - [claim/murine-tissue-macrophage-tr-network-epigenetically] Murine tissue-macrophage TR network is epigenetically and transcriptionally integrated (status: weakly_supported)
