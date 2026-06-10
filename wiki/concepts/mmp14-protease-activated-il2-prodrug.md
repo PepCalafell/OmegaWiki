@@ -20,6 +20,7 @@ related_concepts:
   - masked-antibody-tme-conditional
   - myeloid-targeted-immunocytokine-mite
   - trans-acting-immunocytokine
+  - switchable-cytokine-mimic-signalling-timing
 ---
 
 ## Definition

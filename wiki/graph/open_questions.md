@@ -122,6 +122,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/depower-approximate-power-analysis-deseq2] How well does heuristic-vs-full concordance hold across larger, heterogeneous, unbalanced designs?
 - [paper/depower-approximate-power-analysis-deseq2] What empirical inflation factor converts the "lower bound" into a realistic target n?
 - [paper/depower-approximate-power-analysis-deseq2] Quantitative power/cost trade-off of specific cell-type enrichment strategies.
+- [paper/design-facilitated-dissociation-enables-timing-cytokine] Do cellular responses differ when IL-2 signalling complexes are disrupted at the cell surface versus in the endosome?
+- [paper/design-facilitated-dissociation-enables-timing-cytokine] How can switchable cytokines be deployed therapeutically for timing-controlled immune activation?
+- [paper/design-facilitated-dissociation-enables-timing-cytokine] Can the approach be extended to design directional motors and multi-step protein machines?
+- [paper/design-facilitated-dissociation-enables-timing-cytokine] Can ternary-complex strain energy and dissociation acceleration be predicted directly from structure, removing the empirical geometry search?
+- [paper/design-facilitated-dissociation-enables-timing-cytokine] How does the seconds-scale IL-2 off-switch interact with receptor internalization/endosomal signalling kinetics in vivo?
+- [paper/design-facilitated-dissociation-enables-timing-cytokine] Could the same temporal-control logic be applied to other γc-family cytokines (IL-15, IL-7) or to non-cytokine receptor systems relevant to immune regulation?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] What protein-level expression patterns underlie the 13-gene transcriptional model?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] Is the regulatory mechanism in pancreatic cancer experimentally validated?
 - [paper/development-hypoxia-responsive-macrophage-prognostic-model] How broadly does KRTCAP2 act as a therapeutic target across cancer types?
@@ -829,6 +835,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/cytokine-pair-synergy-antagonism-tissue] Higher-order (≥3) cytokine combinatorics
 - [concept/de-novo-lipogenesis-effector-immune-cells] Therapeutic dose-window of FASN inhibition: tumour benefit vs memory CD8 loss vs Treg suppression.
 - [concept/de-novo-lipogenesis-effector-immune-cells] SCD-MUFA selectivity for GC B cells in vaccine adjuvancy.
+- [concept/designed-protein-excited-states-kinetic-control] A predictive, quantitative map from structure → strain energy → rate acceleration.
+- [concept/designed-protein-excited-states-kinetic-control] Generalizing excited-state design to motors, ratchets, and multi-step machines.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
 - [concept/dichotomous-epigenetic-versus-transcriptional-regulation-tr] Whether the two regimes are discrete or a continuum
@@ -870,6 +878,9 @@ _Auto-generated open questions. Do not edit._
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Are these niches reversible by inflammation resolution agents (e.g., resolvins) rather than blockade?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Which precursor lesions carry an active niche versus a resolved one, and can imaging (IL1R1 IF) stratify them?
 - [concept/epithelial-proinflammatory-niche-il1b-il1r1-luad-precursor] Does similar stage-specific niche logic apply to other organ precancers (PanIN, BE, AAH-like states elsewhere)?
+- [concept/facilitated-dissociation-effector-induced] Predicting strain energy and dissociation acceleration directly from structure.
+- [concept/facilitated-dissociation-effector-induced] Chaining many orthogonal facilitated-dissociation modules into complex protein logic.
+- [concept/facilitated-dissociation-effector-induced] In vivo deployment (immunogenicity, pharmacokinetics of effector + host).
 - [concept/fao-memory-cd8-trm-treg-program] CPT1A vs CPT1B isoform-specific immune effects.
 - [concept/fao-memory-cd8-trm-treg-program] Whether AMPK agonists (metformin) act via FAO or independent pathways for ICI synergy.
 - [concept/fidas-5-methionine-blockade-rescues-cachexia] Does systemic FIDAS-5 (or another MAT inhibitor) preserve muscle mass and survival in C26 / PDAC mice in vivo?
@@ -994,6 +1005,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/in-situ-genome-editing-skin] Competitive dynamics of corrected vs uncorrected skin stem cells
 - [concept/in-situ-genome-editing-skin] Scaling from focal application to whole-body surface area
 - [concept/in-situ-genome-editing-skin] Moving from immortalised human cells / 3D models to primary patient cells and clinical settings
+- [concept/induced-fit-power-stroke-flexible-effector] Quantifying how much folding energy is converted into conformational driving force.
+- [concept/induced-fit-power-stroke-flexible-effector] Designing effectors that are both fast (flexible) and high-affinity.
 - [concept/inflammation-atlas-circulating-immune-cells] Linking circulating immune states to tissue-resident inflammation.
 - [concept/inflammation-atlas-circulating-immune-cells] Building a single-chemistry, multi-center training atlas for clinical use.
 - [concept/inflammatory-hypoxia-neutrophil-oxygen-depletion] How to harness pro-resolution inflammatory hypoxia therapeutically without exacerbating tissue injury.
@@ -1345,6 +1358,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/superstar-gene-attention-skew] Designing incentives to broaden coverage of understudied genes.
 - [concept/svg-pvalue-calibration] A unified well-calibrated test that does not require multiple-kernel Cauchy combination.
 - [concept/svg-pvalue-calibration] Calibration analysis for spatial ATAC-seq, where the binary/sparse signal further complicates the null distribution.
+- [concept/switchable-cytokine-mimic-signalling-timing] Whether disrupting signalling at the cell surface vs endosome yields distinct cellular responses.
+- [concept/switchable-cytokine-mimic-signalling-timing] Translating seconds-scale control to therapeutic timing of immune activation.
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Are there recruitment programs unique to chronic vs cyclic hypoxia? CCL2 induction kinetics under H-R cycles is not characterized.
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Does intermittent hypoxia (OSA setting) drive a distinct chemokine signature with implications for sleep-apnea cancer comorbidity?
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Which MoMac-VERSE / Casanova-Acebes TAM cluster is the canonical "hypoxic-niche-recruited" subset, and is recruitment cluster-specific or receptor-promiscuous?

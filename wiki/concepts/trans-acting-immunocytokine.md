@@ -17,6 +17,7 @@ date_updated: 2026-05-27
 related_concepts:
   - myeloid-targeted-immunocytokine-mite
   - innate-immune-checkpoint-blockade
+  - switchable-cytokine-mimic-signalling-timing
 ---
 
 ## Definition
