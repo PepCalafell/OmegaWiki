@@ -12,8 +12,9 @@ tags:
   - immune-heterogeneity
 key_papers:
   - single-cell-cytokine-dictionary-human-peripheral
+  - dissecting-type-ii-interferon-impacts-human
 first_introduced: "2025"
-date_updated: 2026-05-28
+date_updated: 2026-06-10
 related_concepts:
   - cytokine-cell-type-specific-response-pleiotropy
   - cross-species-human-mouse-cytokine-response

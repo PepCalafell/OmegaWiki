@@ -139,6 +139,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/dictionary-immune-responses-cytokines-single-cell] How does the Mac-a/b/c/d/e taxonomy map onto hypoxic TAM phenotypes (e.g., mmac1-hypoxic-inflammatory-macrophage)?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Is the IL-18 NK-f state operative in tumour-infiltrating NK cells?
 - [paper/dictionary-immune-responses-cytokines-single-cell] Can the Immune Dictionary serve as a reference panel for human PBMC datasets despite species differences?
+- [paper/dissecting-type-ii-interferon-impacts-human] How does IFN signaling behave in tissue-resident immune and non-immune cells?
+- [paper/dissecting-type-ii-interferon-impacts-human] What is the functional role of persistent/marrow IFN-γ in myeloma progression and treatment resistance?
+- [paper/dissecting-type-ii-interferon-impacts-human] Can stage-specific IFN-I/IFN-II contributions to autoimmune pathogenesis be resolved longitudinally?
+- [paper/dissecting-type-ii-interferon-impacts-human] How robust is the NMF deconvolution on bulk-only data lacking cell-type resolution?
+- [paper/dissecting-type-ii-interferon-impacts-human] Do the monocyte-unique IFN-γ programs (e.g., IDO1/CXCL9, M1-like) map onto tumor-resident IFN-γ macrophage states described elsewhere in the vault?
+- [paper/dissecting-type-ii-interferon-impacts-human] What sets IFN-I response magnitude if not receptor abundance?
 - [paper/editing-skin-place-vivo-genome-correction] Does the approach work in primary patient cells and a disease-relevant in vivo model?
 - [paper/editing-skin-place-vivo-genome-correction] Is restored TG1 enzyme activity durable beyond 48 h?
 - [paper/editing-skin-place-vivo-genome-correction] What are the competitive dynamics of corrected vs uncorrected skin stem cells?

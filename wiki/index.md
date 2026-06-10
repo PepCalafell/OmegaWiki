@@ -121,6 +121,12 @@ papers:
     importance: 5
     domain: immunology
     priority: core
+  - slug: dissecting-type-ii-interferon-impacts-human
+    title: "Dissecting type I and II interferon impacts on human immune cells in disease by a cell type-specific interferon response atlas"
+    tags: [interferon, ISG, single-cell, immune-atlas, IFN-I, IFN-II, multiple-myeloma, SLE, deconvolution, HIRISA, CD14-monocyte, NMF-scoring]
+    importance: 4
+    domain: immunology
+    priority: context
   - slug: editing-skin-place-vivo-genome-correction
     title: "Editing the skin in place: In vivo genome correction of rare skin disease"
     tags: [genome-editing, base-editing, gene-therapy, genodermatosis, lipid-nanoparticle, commentary]
@@ -851,6 +857,10 @@ concepts:
     title: "Continuous disease-progression modeling"
     tags: [disease-progression, trajectory, case-control, reproducibility]
     maturity: emerging
+  - slug: core-versus-subset-specific-isg-programs
+    title: "Core versus cell-type-specific ISG programs"
+    tags: [interferon, ISG, cell-type-specificity, IFN-I, IFN-II, antiviral]
+    maturity: emerging
   - slug: cori-cycle-tumor-host-metabolism
     title: "Cori cycle and tumour-driven host metabolic rewiring"
     tags: [cachexia, oncology, metabolism, cori-cycle]
@@ -1176,6 +1186,10 @@ concepts:
     title: "HIF1α/NF-κB cooperative chromatin binding"
     tags: [transcription-factor, chromatin, hypoxia, inflammation, HIF1a, NF-kB]
     maturity: emerging
+  - slug: hirisa-human-interferon-response-immune-subsets
+    title: "HIRISA — Human Interferon Response in Immune Subsets Atlas"
+    tags: [interferon, immune-atlas, scRNA-seq, resource, HIRISA, ISG]
+    maturity: emerging
   - slug: holistic-tme-based-pan-cancer-tumor
     title: "Holistic TME-based pan-cancer tumor classification (10 groups, T/M/S trichotomy)"
     tags: [pan-cancer, tme, classification, single-cell, immune-stratification]
@@ -1271,6 +1285,10 @@ concepts:
   - slug: ifit1-tam-type-interferon-induced-state
     title: "IFIT1+ TAM — type I interferon-induced macrophage state"
     tags: [tam, interferon, ifit1, macrophage-state, tme]
+    maturity: emerging
+  - slug: ifn-ifn-ii-activity-deconvolution-scoring
+    title: "IFN-I / IFN-II activity deconvolution scoring (NMF on cell-type ISGs)"
+    tags: [interferon, deconvolution, NMF, methodology, IFN-score]
     maturity: emerging
   - slug: ifng-mac-cxcl9-tam-ici-responder
     title: "IFN-γ-driven CXCL9+ TAM (8_IFNGMac) — T-cell-recruiting macrophage associated with ICI response"
@@ -2368,6 +2386,8 @@ people:
   - slug: amitava-sinha
     tags: [macrophage, immunometabolism, vienna, preprint-club]
     affiliation: "Medical University of Vienna"
+  - slug: ananda-goldrath
+    tags: [immunology, T-cell, tissue-resident-memory, interferon]
   - slug: andreas-zanzoni
     tags: [bioinformatics, interactome, slim, host-microbe]
     affiliation: "Aix-Marseille Université"
@@ -2536,6 +2556,8 @@ people:
   - slug: elizabeth-purdom
     tags: [statistics, computational-biology, single-cell, genomics]
     affiliation: "Department of Statistics, University of California, Berkeley"
+  - slug: emma-kuan
+    tags: [immunology, interferon, single-cell, HIRISA]
   - slug: erick-armingol
     tags: [single-cell, metabolism, cell-cell-communication, tensor-factorization, endometrium]
     affiliation: "Wellcome Sanger Institute, Cambridge, UK"
@@ -2842,6 +2864,8 @@ people:
   - slug: nicholas-lai
     tags: [computational-immunology, cytokine-biology, software-tools]
     affiliation: "Harvard School of Dental Medicine, Harvard University"
+  - slug: nicholas-moss
+    tags: [immunology, interferon, single-cell, HIRISA]
   - slug: nicolas-chevrier
     tags: [immunology, sepsis, organism-wide-profiling, cytokines]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago"
@@ -3946,6 +3970,12 @@ claims:
     status: proposed
     confidence: 0.55
     domain: oncology
+  - slug: autoimmune-diseases-show-strongest-ifn-alpha
+    title: "Autoimmune cohorts show the strongest IFN-α responses across the disease atlas"
+    tags: [interferon, autoimmune, cross-disease]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: average-51-degs-per-cytokine-cell
     title: "Average of 51 DEGs per cytokine × cell-type combination (range 0–1,510)"
     tags: [DEG, cytokine, statistics, scope]
@@ -4364,6 +4394,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: hematology / cell sorting
+  - slug: cd14-monocytes-dominant-ifn-gamma-responder
+    title: "CD14 monocytes are the dominant IFN-γ responder with 792 DEGs"
+    tags: [interferon, type-II-IFN, monocyte, quantitative]
+    status: supported
+    confidence: 0.9
+    domain: immunology
+  - slug: cd14-monocytes-show-most-extensive-transcriptional
+    title: "CD14 monocytes show the most extensive transcriptional remodeling to interferon"
+    tags: [interferon, monocyte, immune-heterogeneity]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: cd163-alone-fails-classify-proinflammatory-versus
     title: "CD163 alone fails to classify proinflammatory vs immunosuppressive macrophages; multi-marker proteomic lists outperform"
     tags: [macrophage, marker, classification, CD163, TAM]
@@ -4415,6 +4457,12 @@ claims:
   - slug: cd206lo-ims-recmacs-within-tumor-microenvironment
     title: "CD206lo IMs and recMacs within the TME coexpress Ccl2"
     tags: [correlational, macrophage, tumor-immunity, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: cd300e-antagonistic-regulation-ifn-versus-ifn
+    title: "CD300e is oppositely regulated by IFN-α and IFN-γ"
+    tags: [interferon, myeloid, antagonistic-regulation]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -4674,6 +4722,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: circulating-ifn-lambda1-response-restricted-cells
+    title: "Circulating IFN-λ1 responses are restricted to B cells and select T cells"
+    tags: [interferon, type-III-IFN, B-cell]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: cki-effects-ifnb1-induction-translate-mouse
     title: "CKI effects on IFNB1 induction translate from mouse macrophages to human THP-1 cells"
     tags: [methodological, translation, human, IFNB1, THP-1]
@@ -4812,6 +4866,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: cell biology / immunology
+  - slug: conserved-ifn-antiviral-isg-signature-induced
+    title: "A conserved IFN-I antiviral ISG signature is induced across all immune cell types"
+    tags: [interferon, ISG, antiviral]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: conserved-overlapping-active-kmer-regions-evolutionarily-conserved
     title: "Genomic regions with multiple consecutive overlapping active k-mers are significantly more evolutionarily conserved than flanking sequence"
     tags: [evolution, conservation, phastCons, overlapping-binding-sites, functional]
@@ -5698,6 +5758,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: enriched-stimulation-reduces-bystander-activation-ifn
+    title: "Enriched-population stimulation yields more consistent IFN-α signatures by minimizing bystander activation"
+    tags: [interferon, methodology, scRNA-seq, bystander-activation]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: eosinophil-depletion-protects-stress-exacerbated-dermatitis
     title: "Genetic eosinophil depletion (Epx-iCre-DTA) abolishes stress-induced exacerbation of AD-like dermatitis without affecting baseline AD pathology"
     tags: [eosinophil, Epx-iCre, DTA, MC903, RHS, atopic-dermatitis, conditional-ablation, mouse]
@@ -6562,6 +6628,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: immunology
+  - slug: hirisa-single-cell-atlas-ifn-responses
+    title: "HIRISA is a single-cell atlas of IFN responses across 13 human immune subsets"
+    tags: [interferon, scRNA-seq, immune-atlas, resource]
+    status: supported
+    confidence: 0.95
+    domain: immunology
   - slug: hiv-best-classified-naive-lymphoid-cells
     title: "HIV is best classified by naive lymphoid cells, consistent with CD4 T-cell tropism"
     tags: [HIV, classification, lymphoid, tropism]
@@ -7118,6 +7190,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: pulmonary disease / immunometabolism
+  - slug: ido1-cxcl9-monocyte-biomarkers-ifn-gamma
+    title: "IDO1 and CXCL9 are monocyte-specific biomarkers of IFN-γ activity"
+    tags: [interferon, type-II-IFN, biomarker, monocyte]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: ido1-inhibition-phase3-melanoma-failure
     title: "First-generation IDO1 inhibition failed in phase 3 melanoma trials (ECHO-301/KEYNOTE-252)"
     tags: [ido1, kynurenine, melanoma, clinical-trials, immunometabolism]
@@ -7152,9 +7230,21 @@ claims:
     title: "IFITM1 discriminates COPD from asthma in lymphoid cells (high->COPD, low->asthma)"
     tags: [IFITM1, biomarker, COPD, asthma, lymphoid]
     status: weakly_supported
+  - slug: ifn-alpha-ifn-beta-induce-near
+    title: "IFN-α and IFN-β induce near-identical transcriptomic programs across immune subsets"
+    tags: [interferon, ISG, type-I-IFN]
+    status: supported
+    confidence: 0.9
+    domain: immunology
   - slug: ifn-beta-partially-rescues-context-deprivation-except-stat1beta
     title: "IFN-β stimulation partially rescues context-deprivation transcriptional changes, except for STAT1β-dependent genes"
     tags: [ifn-beta, rescue, ex-vivo, jak-stat, stat1beta, isoform-specific]
+    status: supported
+    confidence: 0.8
+    domain: immunology
+  - slug: ifn-gamma-drives-m1-like-polarization
+    title: "IFN-γ drives M1-like polarization in CD14 monocytes"
+    tags: [interferon, type-II-IFN, monocyte, macrophage-polarization]
     status: supported
     confidence: 0.8
     domain: immunology
@@ -7164,11 +7254,23 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: ifn-gamma-response-restricted-cd14-monocytes
+    title: "IFN-γ transcriptomic responses are restricted to CD14 monocytes and B cells"
+    tags: [interferon, type-II-IFN, monocyte, B-cell]
+    status: supported
+    confidence: 0.85
+    domain: immunology
   - slug: ifn-multicellular-module-promotes-immune-permissive
     title: "The type I interferon multicellular module (M-IFN1) promotes an immune-permissive TME"
     tags: [tme, multicellular-module, interferon, mechanistic]
     status: weakly_supported
     confidence: 0.65
+    domain: immunology
+  - slug: ifn-receptor-abundance-does-predict-ifn
+    title: "IFNAR abundance does not predict IFN-I response magnitude, unlike IFNGR2/IFNLR1"
+    tags: [interferon, receptor, signaling]
+    status: supported
+    confidence: 0.75
     domain: immunology
   - slug: ifn-type-signatures-downregulated-imids-except
     title: "IFN type 1 and 2 signatures are downregulated in most IMIDs except in non-naive CD8 T cells"
@@ -7418,6 +7520,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: muscle biology / metabolic flux
+  - slug: induction-therapy-vrd-suppresses-ifn-ifn
+    title: "Induction therapy (VRd) selectively suppresses IFN-I but not IFN-II in myeloma"
+    tags: [interferon, multiple-myeloma, pharmacology, treatment-response]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: infection-site-hypoxia-regulates-host-immunity
     title: "At sites of infection, hypoxia regulates both host immunity and pathogen virulence"
     tags: [infection, hypoxia, HIF, Pseudomonas-aeruginosa, virulence, antibiotic-resistance, host-defence]
@@ -7872,6 +7980,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: methods / spatial-transcriptomics
+  - slug: long-covid-shows-ifn-gamma-dominant
+    title: "Long COVID shows IFN-γ-dominant but IFN-α-suppressed signaling"
+    tags: [interferon, long-COVID, infection]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: longitudinal-trajectories-cac-liver-cancer
     title: "Latent longitudinal trajectories of SKM and adipose loss (Jin et al. liver-cancer) define CAC vs non-CAC patients"
     tags: [cancer-cachexia, liver-cancer, trajectory-analysis, body-composition]
@@ -8788,6 +8902,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology
+  - slug: newly-diagnosed-multiple-myeloma-shows-systemic
+    title: "NDMM shows systemic and bone-marrow elevation of both IFN-I and IFN-II responses"
+    tags: [interferon, multiple-myeloma, oncology]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: nf-kb-overactivation-not-specific-stimulus-drives-hypoxic-inflammation
     title: "NF-κB activation per se, not the specific stimulus, drives hypoxic upregulation of inflammatory genes — multiple NF-κB stimuli converge on the same response"
     tags: [NF-kB, hypoxia, LPS, P3C, polyI-C, CpG, TNF-alpha, IL-1-beta, PAMP]
@@ -8863,6 +8983,12 @@ claims:
   - slug: nk-cells-resistant-to-sting-cytotoxicity
     title: "Human NK cells are resistant to STING-induced cytotoxicity due to low intrinsic STING expression and blunted IRF3 response"
     tags: [cgas-sting, nk-cell, cytotoxicity-resistance]
+    status: supported
+    confidence: 0.85
+    domain: immunology
+  - slug: nmf-scoring-algorithm-separates-ifn-ifn
+    title: "An NMF scoring algorithm built on HIRISA separates IFN-I and IFN-II activity per cell type"
+    tags: [interferon, NMF, methodology, deconvolution]
     status: supported
     confidence: 0.85
     domain: immunology
@@ -10366,6 +10492,18 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology
+  - slug: sle-flare-disrupts-coordination-between-ifn
+    title: "SLE flare disrupts coordination between IFN-I and IFN-II responses"
+    tags: [interferon, SLE, autoimmune, immune-dysregulation]
+    status: supported
+    confidence: 0.75
+    domain: immunology
+  - slug: sle-flare-shows-elevated-ifn-gamma
+    title: "SLE flare shows elevated IFN-γ scores in T cells versus managed disease"
+    tags: [interferon, SLE, autoimmune, T-cell]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: sle-shows-opposing-stat1-sp1-activity
     title: "SLE shows opposing STAT1 and SP1 activity in monocytes and non-naive CD8 T cells"
     tags: [SLE, STAT1, SP1, monocyte]
