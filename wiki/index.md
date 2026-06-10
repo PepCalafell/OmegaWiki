@@ -511,6 +511,12 @@ papers:
     importance: 4
     domain: immuno-oncology / tumor immunology / single-cell genomics / pan-cancer atlas / immunotherapy biomarkers
     priority: high
+  - slug: wealth-discovery-built-human-genome-project
+    title: "A wealth of discovery built on the Human Genome Project — by the numbers"
+    tags: [network-science, network-medicine, bibliometrics, genomics, science-of-science, drug-discovery, HGP]
+    importance: 4
+    domain: genomics
+    priority: reference
 
 concepts:
   - slug: 6d-tam-translational-framework
@@ -992,6 +998,10 @@ concepts:
     title: "Repurposing clinical kinase inhibitors to control inflammation"
     tags: [kinase-inhibitors, drug-repurposing, inflammation, macrophages, therapeutics]
     maturity: emerging
+  - slug: druggable-genome
+    title: "Druggable genome / undruggable proteome"
+    tags: [drug-discovery, pharmacology, genomics]
+    maturity: active
   - slug: dubious-versus-trustworthy-metacell-statistical-definition
     title: "Trustworthy vs dubious metacells: a statistical definition"
     tags: [single-cell, metacell, statistics, homogeneity, measurement-model]
@@ -1685,6 +1695,10 @@ concepts:
     title: "Nested hierarchical spatial domains"
     domain: methods / spatial-transcriptomics / clustering
     maturity: emerging
+  - slug: network-medicine
+    title: "Network medicine"
+    tags: [network-science, systems-biology, drug-discovery, genomics]
+    maturity: active
   - slug: nf-kb-mediated-dna-demethylation-hypoxia
     title: "NF-κB-mediated DNA demethylation in hypoxia"
     tags: [DNA-methylation, NF-kB, TET, hypoxia, epigenetics]
@@ -2113,6 +2127,10 @@ concepts:
     title: "Tumor-derived succinate engages SUCNR1 on TAMs to drive M2 polarization, recruitment, and EMT"
     tags: [succinate, SUCNR1, GPR91, oncometabolite, macrophage-polarization, hypoxia, TAM, EMT, cancer-cell-migration, HIF-1α]
     maturity: emerging
+  - slug: superstar-gene-attention-skew
+    title: "Superstar-gene attention skew"
+    tags: [bibliometrics, network-science, genomics, science-of-science]
+    maturity: active
   - slug: svg-pvalue-calibration
     title: "Statistical calibration of SVG detection p-values"
     tags: [spatial-transcriptomics, statistics, calibration, benchmarking]
@@ -2368,9 +2386,15 @@ concepts:
 topics:
 
 people:
+  - slug: albert-laszlo-barabasi
+    tags: [network-science, network-medicine, complex-systems]
+    affiliation: "Network Science Institute, Northeastern University, Boston, MA, USA"
   - slug: alexander-coulton
     tags: [tumor-associated-macrophage, scRNA-seq, pan-cancer-atlas, immune-checkpoint-inhibitor, immunogenomics]
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
+  - slug: alexander-gates
+    tags: [network-science, science-of-science, bibliometrics]
+    affiliation: "Network Science Institute, Northeastern University, Boston, MA, USA"
   - slug: alexander-poltorak
     tags: [immunology, innate-immunity, tlr, cell-death, sepsis]
     affiliation: "Tufts University School of Medicine"
@@ -2535,6 +2559,9 @@ people:
   - slug: david-sancho
     tags: [macrophage, dendritic-cell, innate-immunity, immunometabolism, tumor-immunology]
     affiliation: "Centro Nacional de Investigaciones Cardiovasculares (CNIC), Madrid"
+  - slug: deisy-morselli-gysi
+    tags: [network-science, network-medicine, drug-repurposing]
+    affiliation: "Network Science Institute, Northeastern University; Brigham and Women's Hospital, Boston"
   - slug: dominic-grun
     tags: [single-cell-genomics, spatial-transcriptomics, computational-biology, niche-analysis, stem-cell-biology, lineage-inference]
     affiliation: "Würzburg Institute of Systems Immunology, Julius-Maximilians-Universität Würzburg, Germany; CAIDAS Center for AI and Data Science, Würzburg, Germany"
@@ -2789,6 +2816,9 @@ people:
   - slug: malte-luecken
     tags: [single-cell-genomics, data-integration, benchmarking, Human-Cell-Atlas, methods]
     affiliation: "Helmholtz Zentrum München, Institute of Computational Biology"
+  - slug: manolis-kellis
+    tags: [computational-biology, genomics, epigenomics, regulatory-genomics]
+    affiliation: "CSAIL, MIT; Broad Institute of MIT and Harvard, Cambridge, MA, USA"
   - slug: marc-beyer
     tags: [immunology, macrophage, systems-immunology]
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn; DZNE"
@@ -4040,6 +4070,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: biology-team-size-growth-not-hgp-step-change
+    title: "Biology team sizes grew consistently since the 1950s; the HGP did not mark a step change"
+    tags: [science-of-science, collaboration, bibliometrics, HGP]
+    status: supported
+    confidence: 0.8
+    domain: genomics
   - slug: bladder-assembloid-bmp-foxa1-axis
     title: "In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype"
     tags: [mechanistic, oncology, organoid, immunotherapy]
@@ -4950,6 +4986,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology
+  - slug: covid-repurposing-candidates-target-human-proteins
+    title: "In COVID-19 repurposing screens, only ~1% of promising candidates targeted a viral protein; the majority modulated human proteins"
+    tags: [drug-repurposing, network-medicine, COVID-19]
+    status: supported
+    confidence: 0.75
+    domain: genomics
   - slug: cox2-pge2-intermediate-tgfb1-efferocytosis
     title: "AC-induced PGE2 via COX2 is the obligate intermediate that induces TGF-β1 in efferocytosing macrophages"
     tags: [efferocytosis, COX2, PGE2, TGFβ1, NS-398, siPtgs2, macrophage]
@@ -5470,6 +5512,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology
+  - slug: drug-target-attention-skewed-adra1a
+    title: "ADRA1A is targeted by 99 distinct approved drugs (5% of all approved) despite only ~130 publications"
+    tags: [ADRA1A, drug-targets, attention-skew, pharmacology]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: drvi-identifies-82-cytokine-induced-immune
     title: "DRVI identifies 82 cytokine-induced immune programs (CIPs), predominantly myeloid"
     tags: [DRVI, CIP, gene-programs, 82-programs, myeloid]
@@ -6086,6 +6134,18 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: gene-research-attention-concentrated-superstars
+    title: "By 2017, 22% of gene-related publications referenced just 1% of genes"
+    tags: [bibliometrics, attention-skew, genomics]
+    status: supported
+    confidence: 0.9
+    domain: genomics
+  - slug: gene-study-follows-preferential-attachment
+    title: "Yearly new publications on a gene are linearly proportional to its existing literature (preferential attachment)"
+    tags: [network-science, preferential-attachment, bibliometrics]
+    status: supported
+    confidence: 0.8
+    domain: genomics
   - slug: genetic-modification-cart-prodh2-fh-a2ar-regnase-enhances-antitumor
     title: "Genetic modification of CAR-T cells (Regnase-1 KO, PRODH2 OE, PGC1α OE, FH OE, A2AR KO, ARG1/ARG2/ASS/OTC modulation) enhances antitumour function and persistence"
     tags: [car-t, gene-editing, regnase-1, prodh2, pgc1a, fumarate-hydratase, a2ar]
@@ -6228,6 +6288,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / microbiology
+  - slug: gwas-associations-concentrated-noncoding
+    title: "There are now >30,000 papers per year linking SNPs and traits, with a large fraction of associations in non-coding regions"
+    tags: [GWAS, SNP, non-coding, genomics]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: h-dnmt3a-ko-fibrous-cap-thinning-impaired-lesional-efferocytosis
     title: "Haematopoietic DNMT3A deletion causes fibrous cap thinning and impaired lesional efferocytosis in atherosclerotic Ldlr-/- mice without changing lesion size"
     tags: [DNMT3A, atherosclerosis, fibrous-cap, efferocytosis, Ldlr, plaque-stability, in-vivo]
@@ -6352,6 +6418,18 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: statistics / methods
+  - slug: hgp-enabled-near-complete-drug-target-identification
+    title: "Since 2001, nearly 100% of US-licensed drugs each year have all protein targets identified (vs <50% before the HGP)"
+    tags: [drug-discovery, HGP, pharmacology]
+    status: supported
+    confidence: 0.8
+    domain: genomics
+  - slug: hgp-value-is-network-era-not-catalogue
+    title: "The HGP's lasting value is the network era of genomics it enabled, not the protein catalogue itself"
+    tags: [HGP, network-medicine, systems-biology, interpretation]
+    status: weakly_supported
+    confidence: 0.65
+    domain: genomics
   - slug: hgs-predicts-cac-survival
     title: "Reduced handgrip strength (HGS) predicts poor survival in CAC across European, Chinese, and Indian elderly populations"
     tags: [cancer-cachexia, handgrip-strength, functional-assessment, survival]
@@ -8196,6 +8274,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: regenerative immunology
+  - slug: majority-functional-sequences-noncoding
+    title: "The majority of functional sequences in the human genome do not encode proteins"
+    tags: [genomics, non-coding, gene-regulation]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: majority-smr-pleiotropic-associations-single-cell
     title: "Most immune SMR pleiotropic associations are significant in only a single cell type"
     tags: [immune-genomics, xqtl, single-cell]
@@ -9004,6 +9088,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: noncoding-element-discovery-outpaces-coding-5x
+    title: "Discovery of non-protein-coding elements has outstripped protein-coding gene discovery by ~5x"
+    tags: [genomics, non-coding, HGP]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: nonmetastatic-breast-tumors-higher-cell-pvl
     title: "Nonmetastatic breast tumors have higher T-cell and PVL and lower B-cell abundance than metastatic"
     tags: [breast-cancer, tumor-microenvironment, metastasis, deconvolution-derived]
@@ -9208,6 +9298,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: cachexia / metabolomics
+  - slug: only-10-percent-proteome-drug-targeted
+    title: "Only ~10% of human proteins (2,149) are targeted by approved drugs; ~90% of the proteome is untargeted"
+    tags: [drug-discovery, pharmacology, proteome]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: only-decode-produces-usable-metabolomic-deconvolution
     title: "Only DECODE produces usable metabolomic deconvolution under perturbation"
     tags: [metabolomics, robustness, benchmark]
@@ -9836,6 +9932,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: protein-coding-gene-count-plateaued-20000
+    title: "Human protein-coding gene count plateaued near 20,000, far below earlier 100,000 estimates"
+    tags: [genomics, gene-count, HGP]
+    status: supported
+    confidence: 0.95
+    domain: genomics
   - slug: proteomic-signatures-separate-proinflammatory-macrophages-patient
     title: "Proteomics-derived signatures separate proinflammatory macrophages in patient tumor scRNA-seq"
     tags: [macrophage, proteomics, signature, scRNA-seq, TAM]
@@ -10012,6 +10114,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: regulatory-network-interactions-charted-300k
+    title: "More than 300,000 regulatory network interactions have been charted"
+    tags: [interactome, gene-regulation, network-medicine]
+    status: supported
+    confidence: 0.8
+    domain: genomics
   - slug: removing-dubious-metacells-uncovers-covid19-differential
     title: "Removing dubious metacells uncovers COVID-19-enriched differential gene co-expression and eliminates artifact correlations"
     tags: [single-cell, metacell, mcRigor, co-expression, COVID-19, B-cells]
@@ -10868,6 +10976,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology
+  - slug: successful-drugs-target-network-neighbors
+    title: "Most successful drugs target proteins one or two interactions away from the disease gene"
+    tags: [network-medicine, drug-discovery, interactome]
+    status: supported
+    confidence: 0.8
+    domain: genomics
   - slug: succinate-itaconate-tam-set-point
     title: "Succinate stabilizes HIF-1α and drives IL-1β; itaconate alkylates KEAP1 to activate NRF2 — opposing TAM metabolic set points"
     tags: [succinate, itaconate, hif1a, keap1, nrf2, immunometabolism, macrophage]
@@ -11264,6 +11378,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology
+  - slug: tnf-associated-most-diseases
+    title: "TNF is associated with 160 known diseases, the most of any gene"
+    tags: [TNF, disease-association, superstar-genes]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: tnf-blockade-reverses-clp-tissue-transcriptome
     title: "Combined anti-TNF + cytokine genetic deletion counteracts 31.9%–63.3% of CLP sepsis gene expression changes"
     tags: [TNF, CLP, sepsis, therapeutics]
@@ -11336,6 +11456,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: methods
+  - slug: tp53-most-studied-superstar-gene
+    title: "TP53 is the most-studied gene (9,232 publications) and its variants appear in >50% of tumour sequences"
+    tags: [TP53, cancer, superstar-genes]
+    status: supported
+    confidence: 0.9
+    domain: genomics
   - slug: tp53-mutant-human-gastric-organoids-show
     title: "TP53-mutant human gastric organoids show clonal evolution and CNV accumulation over 2 years of culture"
     tags: [methodological, oncology]
@@ -12060,6 +12186,10 @@ claims:
 Summary:
 
 foundations:
+  - slug: 1000-genomes-project
+    title: "1000 Genomes Project"
+    status: historical
+    domain: genomics
   - slug: 10x-visium-spatial-transcriptomics
     title: "10x Genomics Visium — sequencing-based spatial transcriptomics"
     status: mainstream
@@ -12096,6 +12226,10 @@ foundations:
     title: "ADI-PEG20 — PEGylated arginine deiminase"
     status: mainstream
     domain: oncology-therapeutics
+  - slug: adra1a-adrenergic-receptor
+    title: "ADRA1A (α1A-adrenergic receptor)"
+    status: mainstream
+    domain: pharmacology
   - slug: adrb2-beta2-adrenergic-receptor
     title: "Adrb2 — β2 adrenergic receptor"
     status: mainstream
@@ -13003,6 +13137,10 @@ foundations:
     title: "gsMAP — genetics-to-spatial heritability mapping"
     status: mainstream
     domain: statistical genetics
+  - slug: gwas-genome-wide-association-study
+    title: "Genome-wide association study (GWAS)"
+    status: mainstream
+    domain: genomics
   - slug: gzmb-granzyme
     title: "GZMB — granzyme B"
     status: mainstream
@@ -13027,6 +13165,10 @@ foundations:
     title: "H3K4me3 (histone H3 lysine 4 trimethylation)"
     status: mainstream
     domain: epigenetics
+  - slug: hapmap-project
+    title: "International HapMap Project"
+    status: historical
+    domain: genomics
   - slug: harmony-integration
     title: "Harmony — fast iterative integration via soft clustering"
     status: mainstream
@@ -13140,6 +13282,10 @@ foundations:
     title: "Human Cytokine Dictionary dataset"
     status: mainstream
     domain: immunology
+  - slug: human-genome-project
+    title: "Human Genome Project (HGP)"
+    status: historical
+    domain: genomics
   - slug: huri-human-reference-interactome
     title: "HuRI (Human Reference Interactome)"
     status: mainstream
@@ -13490,6 +13636,10 @@ foundations:
     title: "Lithocholic acid (LCA) and its derivatives (3-oxoLCA, isoLCA, isoalloLCA, alloLCA)"
     status: mainstream
     domain: bile acid metabolism / immunometabolism
+  - slug: long-non-coding-rna
+    title: "Long non-coding RNA (lncRNA) and non-coding genome"
+    status: mainstream
+    domain: genomics
   - slug: louvain-community-detection-clustering
     title: "Louvain community detection clustering"
     status: mainstream
@@ -14066,6 +14216,10 @@ foundations:
     title: "PRDM1 / BLIMP1"
     status: mainstream
     domain: immunology
+  - slug: preferential-attachment
+    title: "Preferential attachment (rich-gets-richer)"
+    status: mainstream
+    domain: network science
   - slug: prescient-population-dynamics-model
     title: "PRESCIENT"
     status: mainstream

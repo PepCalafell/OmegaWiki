@@ -636,6 +636,10 @@ _Auto-generated open questions. Do not edit._
 - [paper/using-pan-cancer-atlas-investigate-tumour] How does 18_ECMMac coordinate with cancer-associated fibroblasts (CAFs) — competition, complementarity, or co-differentiation?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Are the 8_IFNGMac and 18_ECMMac axes orthogonal predictors that can be combined into a multivariate ICI-response classifier?
 - [paper/using-pan-cancer-atlas-investigate-tumour] Do hypoxia-driven TAM states (relevant to the user's thesis) preferentially seed 18_ECMMac or other ECM-modifying clusters?
+- [paper/wealth-discovery-built-human-genome-project] What drives the choice of "what gets studied next" — importance/urgency or grant-safe repetition?
+- [paper/wealth-discovery-built-human-genome-project] Could the untargeted majority of the proteome yield many viable drug targets?
+- [paper/wealth-discovery-built-human-genome-project] How much of the gene-attention skew is genuine biological importance versus self-reinforcing momentum, and can it be measured?
+- [paper/wealth-discovery-built-human-genome-project] How far from complete is the human interactome relative to the >300,000 charted interactions?
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Chromatin-resolved tracing: do AC-derived methyl groups deposit preferentially at specific loci (e.g., Dusp4) or genome-wide?
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Quantitative dissection of methionine source (AC vs media vs recycling)
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Whether other phagocytic targets (pathogens, debris) likewise contribute methionine to phagocyte epigenetic programs
@@ -846,6 +850,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/drift-association-gene-discovery-test] Establishing regulatory causality for drift-associated genes.
 - [concept/drug-repurposing-kinase-inhibitors-control-inflammation] Translating macrophage epigenomic signatures into predicted clinical anti-inflammatory benefit.
 - [concept/drug-repurposing-kinase-inhibitors-control-inflammation] Balancing desired anti-inflammatory effects against off-target interferon induction.
+- [concept/druggable-genome] Whether the untargeted 90% holds many viable targets if researchers, funders, and publishers were less risk-averse.
 - [concept/dubious-versus-trustworthy-metacell-statistical-definition] Recursive re-partitioning of dubious metacells into trustworthy ones (vs simply discarding them).
 - [concept/dubious-versus-trustworthy-metacell-statistical-definition] A from-scratch partitioning method that produces only trustworthy metacells by construction.
 - [concept/e3-ligase-protac-tumor-selectivity] Demonstrate tumour-selective degradation in vivo using a HERC5- or RNF5-recruiting PROTAC.
@@ -1137,6 +1142,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/myeloid-targeted-immunocytokine-mite] ADA formation rates with masked IL-2 in human trials
 - [concept/n3-pufa-immunomodulation] Whether n-3:n-6 ratio biomarkers can predict ICI response.
 - [concept/n3-pufa-immunomodulation] SPM (resolvin/protectin) pharmacology in chronic inflammation.
+- [concept/network-medicine] Completing and contextualizing the human interactome (>300,000 regulatory interactions charted so far, far from complete).
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Mechanism of TET licensing by p65: direct recruitment vs cofactor competition vs chromatin opening.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Whether the same override exists for AP-1 / IRF1 / STAT2 binding in other epigenetic contexts.
 - [concept/nf-kb-mediated-dna-demethylation-hypoxia] Generalizability to GM-CSF MACs, dendritic cells, and tissue MACs.
@@ -1335,6 +1341,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/succinate-sucnr1-tam-axis] Whether SUCNR1 signaling in TAM converges with the lactate-GPCR axis at common downstream nodes (HIF-1α, mTOR).
 - [concept/succinate-sucnr1-tam-axis] The role of cyclic / intermittent hypoxia in modulating tumor-cell succinate release: H-R cycles induce ROS bursts that may release succinate transiently.
 - [concept/succinate-sucnr1-tam-axis] Tissue-resident macrophage vs monocyte-derived macrophage SUCNR1 expression — likely heterogeneous and ontogeny-linked.
+- [concept/superstar-gene-attention-skew] No course correction has occurred despite the imbalance being flagged at the 10th anniversary of the draft genome.
+- [concept/superstar-gene-attention-skew] Designing incentives to broaden coverage of understudied genes.
 - [concept/svg-pvalue-calibration] A unified well-calibrated test that does not require multiple-kernel Cauchy combination.
 - [concept/svg-pvalue-calibration] Calibration analysis for spatial ATAC-seq, where the binary/sparse signal further complicates the null distribution.
 - [concept/tam-recruitment-hypoxic-niche-chemokines] Are there recruitment programs unique to chronic vs cyclic hypoxia? CCL2 induction kinetics under H-R cycles is not characterized.
@@ -1526,6 +1534,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hepatic-trem2-macs-metallothionein-mt1g-mt1h-ferroptosis-protection] Hepatic TREM2 macs uniquely express high metallothioneins (MT1G, MT1H) — proposed oxidative-stress and ferroptosis protection (status: weakly_supported)
 - [claim/hepatocyte-abundance-falls-nash-rises-slightly] Hepatocyte abundance falls in NASH and rises slightly in HFD (status: weakly_supported)
 - [claim/heuristic-deseq2-power-analysis-values-concordant] Heuristic DESeq2 power-analysis p-values are broadly concordant with full PyDESeq2 (status: weakly_supported)
+- [claim/hgp-value-is-network-era-not-catalogue] The HGP's lasting value is the network era of genomics it enabled, not the protein catalogue itself (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/high-mscore-correlates-worse-survival-reduced] High Mscore correlates with worse overall survival and reduced ICB response (14% vs 44%) (status: weakly_supported)
