@@ -489,6 +489,10 @@ _Auto-generated open questions. Do not edit._
 - [paper/role-ahr-host-pathogen-interactions] The AHR-IDO-KYN-mucin axis in SARS-CoV-2 (claim c16) overlaps with the AHR-TIPARP-TBK1-IFN evasion concept ([[concepts/ahr-tiparp-antiviral-type-i-ifn-evasion]]) — are these distinct branches or one integrated AHR-anti-IFN programme?
 - [paper/role-ahr-host-pathogen-interactions] For TIER_1 pathogens in immunology, how would the AHR-PRR framework integrate with the [[concepts/pattern-recognition-receptors-macrophage]] canonical PRR signalling? Are AHR-PRR responses additive, synergistic, or antagonistic to TLR responses in macrophages co-stimulated with phthiocol + LPS?
 - [paper/role-ahr-host-pathogen-interactions] Does the AHR-Th17/Treg/Tr1 logic catalogued in [[papers/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic]] map cleanly to bacterial-clearance contexts (e.g., S. agalactiae)?
+- [paper/scbench-evaluating-ai-agents-single-cell] How to make agents reliable on judgment-heavy tasks (cell typing, DE) that
+- [paper/scbench-evaluating-ai-agents-single-cell] Whether reliability gains will come primarily from model training or harness
+- [paper/scbench-evaluating-ai-agents-single-cell] Do agent improvements on scBench transfer to SpatialBench (and vice versa),
+- [paper/scbench-evaluating-ai-agents-single-cell] Would providing platform-specific tooling/context close most of the 32.7 pp
 - [paper/single-cell-cytokine-dictionary-human-peripheral] What are the early and late dynamics of cytokine-driven responses beyond 24 h?
 - [paper/single-cell-cytokine-dictionary-human-peripheral] Which cytokine response modules are genuinely conserved vs human-specific across species?
 - [paper/single-cell-cytokine-dictionary-human-peripheral] What genetic/demographic factors drive the interferon-high baseline state and donor response variability?
@@ -1071,6 +1075,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/ligand-receptor-free-cell-cell-interaction] Distinguishing direct signalling from biomechanical/metabolic confounders.
 - [concept/lipid-rafts-bcr-tcr-signaling] Whether α2,6-sialylation control is a viable handle for psoriasis / atopic dermatitis where Th17 is central.
 - [concept/lipid-rafts-bcr-tcr-signaling] Drug-discovery tractability of "raft modulators" (cholesterol-depleting agents lack specificity).
+- [concept/llm-agent-single-cell-rna-seq] Whether agents can learn transferable analysis techniques rather than
+- [concept/llm-agent-single-cell-rna-seq] Whether reliability gains come from model training or from harness engineering.
 - [concept/low-affinity-tf-binding-site] Universal definition of "low-affinity but functional" across TF families
 - [concept/low-affinity-tf-binding-site] In vivo cofactor / chromatin contributions to low-affinity binding
 - [concept/low-affinity-tf-binding-site] Evolutionary turnover of low-affinity sites
@@ -1248,6 +1254,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/perivascular-immune-stromal-niche-skin-salt] Does PERIVASC I expansion precede or follow inflammatory infiltration in skin disease?
 - [concept/perturbation-continuous-flow-versus-discrete-jump] Stochastic flow formulations for heterogeneous responder populations.
 - [concept/physiological-versus-pathological-hypoxia-immunological-niche] Quantitative thresholds (pO₂, duration, oscillation frequency) that separate homeostatic from pathological HIF responses in vivo.
+- [concept/platform-dependence-agent-analysis-accuracy] Whether platform-aware context, assay-specific tooling, and self-calibration
 - [concept/polyamine-hypusine-axis-macrophage-residency] How tissue polyamine availability tunes the axis in health, age and disease.
 - [concept/polyamine-hypusine-axis-macrophage-residency] Whether the axis can be therapeutically modulated to reshape resident-macrophage pools.
 - [concept/polypharmacology-clinical-kinase-inhibitors] Predicting which off-targets drive efficacy vs toxicity for a given indication.
@@ -1478,6 +1485,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/type-interferon-multicellular-module-ifn1] Whether M-IFN1 causally establishes the immune-permissive niche and can be therapeutically induced.
 - [concept/variably-methylated-regions-vmr] Statistical model for VMR significance (rather than top-N heuristic).
 - [concept/variably-methylated-regions-vmr] Joint VMR / variable-accessibility / variable-gene region calling in spatial multi-omics data.
+- [concept/verifiable-deterministic-bioinformatics-benchmark-grading] Calibrating tolerances so they neither reward shortcuts nor penalise valid
+- [concept/verifiable-deterministic-bioinformatics-benchmark-grading] Extending deterministic grading to multi-step, long-horizon workflows.
 - [concept/vhl-mccc2-leucine-catabolism-inhibition] Whether VHL similarly regulates other carboxylases/mitochondrial enzymes.
 - [concept/vhl-mccc2-leucine-catabolism-inhibition] Quantitative contribution of MCCC inhibition vs other hypoxic metabolic changes.
 - [concept/viral-infection-hijacks-hif-signaling-hbv-hcv-sars-cov2] Whether HIF inhibitors synergize with antivirals to clear HBV cccDNA

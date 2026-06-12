@@ -397,6 +397,12 @@ papers:
     importance: 4
     domain: immunology
     priority: context
+  - slug: scbench-evaluating-ai-agents-single-cell
+    title: "scBench: Evaluating AI Agents on Single-Cell RNA-seq Analysis"
+    tags: [benchmark, llm-agent, scrna-seq, single-cell, ai-evaluation, bioinformatics-tooling]
+    importance: 3
+    domain: methods
+    priority: reference
   - slug: single-cell-cytokine-dictionary-human-peripheral
     title: "A single-cell cytokine dictionary of human peripheral blood"
     tags: [cytokines, human-cytokine-dictionary, PBMC, single-cell, perturbation-atlas, IL-32, cytokine-induced-immune-programs, cell-cell-communication, donor-variability, huCIRA]
@@ -1531,6 +1537,10 @@ concepts:
     title: "Lipid rafts organize BCR and TCR proximal signaling"
     tags: [lipid-raft, bcr, tcr, b-cell, t-cell, membrane-microdomain, sphingolipid, cholesterol]
     maturity: active
+  - slug: llm-agent-single-cell-rna-seq
+    title: "LLM agent for single-cell RNA-seq analysis"
+    tags: [llm-agent, scrna-seq, ai-evaluation, bioinformatics]
+    maturity: emerging
   - slug: low-affinity-tf-binding-site
     title: "Low-affinity TF binding site"
     tags: [transcription-factor, DNA-binding, low-affinity, cis-regulation, developmental-enhancer]
@@ -1919,6 +1929,10 @@ concepts:
     title: "Physiological versus pathological hypoxia in immunological niches"
     tags: [hypoxia, HIF, immunology, immunological-niche, inflammation, tissue-microenvironment]
     maturity: stable
+  - slug: platform-dependence-agent-analysis-accuracy
+    title: "Platform dependence of agent analysis accuracy"
+    tags: [benchmark, platform, scrna-seq, generalization]
+    maturity: emerging
   - slug: polyamine-hypusine-axis-macrophage-residency
     title: "Polyamine–hypusine–eIF5A axis as a cell-intrinsic regulator of macrophage tissue residency"
     tags: [macrophage, immunometabolism, polyamine, hypusine, tissue-residency, translation]
@@ -2414,6 +2428,10 @@ concepts:
     title: "Variably Methylated Regions (VMRs)"
     tags: [DNA-methylation, epigenetics, methylome-analysis]
     maturity: stable
+  - slug: verifiable-deterministic-bioinformatics-benchmark-grading
+    title: "Verifiable deterministic bioinformatics benchmark grading"
+    tags: [benchmark, methodology, deterministic-grading, ai-evaluation]
+    maturity: emerging
   - slug: vhl-mccc2-leucine-catabolism-inhibition
     title: "VHL–MCCC2 binding inhibits leucine catabolism under hypoxia"
     tags: [hypoxia, VHL, MCCC2, leucine, BCAA-metabolism]
@@ -2829,6 +2847,9 @@ people:
   - slug: katarzyna-leszczynska
     tags: [hypoxia, epigenomics, glioma, tumor-microenvironment, microglia]
     affiliation: "Nencki Institute of Experimental Biology, Polish Academy of Sciences, Warsaw"
+  - slug: kenny-workman
+    tags: [ai-agents, single-cell, benchmarking]
+    affiliation: "LatchBio, San Francisco, CA"
   - slug: kevin-litchfield
     tags: [tumor-immunogenomics, immune-checkpoint-inhibitor, bioinformatics, tumour-evolution, biomarker-discovery, CPI1000]
     affiliation: "Tumour Immunogenomics and Immunosurveillance (TIGI) Lab, UCL Cancer Institute, London WC1E 6DD, UK"
@@ -4983,6 +5004,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: innate immunity / genomics
+  - slug: claude-opus-reaches-52-percent-top
+    title: "Claude Opus 4.6 reaches 52.8% top accuracy on scBench"
+    tags: [benchmark, llm-agent, scrna-seq]
+    status: supported
+    confidence: 0.9
+    domain: methods
   - slug: cleaved-caspase8-75pct-splenic-macrophages
     title: "TNF induces cleaved caspase-8 in ~75% of splenic CD68+ macrophages in vivo, reduced by TRIF deficiency."
     tags: [quantitative, efferoptosis, pyroptosis]
@@ -5559,6 +5586,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: protein design
+  - slug: deterministic-graders-enable-verifiable-data-grounded
+    title: "Deterministic graders enable verifiable, data-grounded scRNA-seq agent evaluation"
+    tags: [benchmark, methodology, deterministic-grading]
+    status: supported
+    confidence: 0.85
+    domain: methods
   - slug: dhps-alveolar-proteinosis-lung-inflammation
     title: "Loss of functional alveolar macrophages in DHPS-deficient mice causes alveolar proteinosis and lung immune infiltration"
     tags: [DHPS, alveolar-macrophage, proteinosis, lung-inflammation, homeostasis]
@@ -5649,6 +5682,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: differential-expression-hardest-scrna-seq-task
+    title: "Differential expression is the hardest scRNA-seq task for agents"
+    tags: [benchmark, differential-expression, task-difficulty]
+    status: supported
+    confidence: 0.85
+    domain: methods
+  - slug: differential-expression-most-model-discriminative-scrna
+    title: "Differential expression is the most model-discriminative scRNA-seq task"
+    tags: [benchmark, differential-expression, discriminability]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: differential-fibroblast-interactions-skin-cancers
     title: "Fibroblasts interact preferentially with T cells in keratinocyte cancers and with melanocytes in melanoma"
     tags: [fibroblast, cell-cell-interaction, skin-cancer, tumour-microenvironment]
@@ -6384,6 +6429,12 @@ claims:
   - slug: fowlkes-mallows-stability-identifies-biologically-meaningful
     title: "Fowlkes–Mallows stability identifies biologically meaningful spatial cluster counts"
     tags: [clustering, model-selection, methodological, spatial-omics]
+    status: supported
+    confidence: 0.8
+    domain: methods
+  - slug: frontier-agents-cannot-autonomously-extract-scrna
+    title: "Frontier agents cannot autonomously extract scRNA-seq biological insight without oversight"
+    tags: [benchmark, llm-agent, reliability]
     status: supported
     confidence: 0.8
     domain: methods
@@ -8937,6 +8988,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: hypoxia
+  - slug: missionbio-hardest-scrna-seq-platform-all
+    title: "MissionBio is the hardest scRNA-seq platform for all evaluated agents"
+    tags: [benchmark, platform, missionbio]
+    status: supported
+    confidence: 0.85
+    domain: methods
   - slug: mite144-activates-nk-cytotoxic-proliferation-reduces-exhaustion
     title: "MiTE-144 activates NK cell cytotoxicity and proliferation while downregulating exhaustion markers"
     tags: [MiTE, NK-cell, cytotoxicity, exhaustion, perforin, granzyme, MC38]
@@ -10665,6 +10722,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: single-cell-methods
+  - slug: scbench-model-accuracy-spans-29-53
+    title: "scBench model accuracy spans 29–53% with a 23.6 pp spread"
+    tags: [benchmark, llm-agent, scrna-seq]
+    status: supported
+    confidence: 0.9
+    domain: methods
   - slug: sccellfie-scales-metabolic-task-inference-to-single-cell-and-spatial
     title: "scCellFie infers metabolic-task activities from single-cell and spatial transcriptomics at atlas scale via GPR-rule aggregation over GEMs"
     tags: [sccellfie, metabolic-task, GPR-rules, single-cell, spatial-transcriptomics]
@@ -10749,6 +10812,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: scrna-seq-analysis-more-tractable-agents
+    title: "scRNA-seq analysis is more tractable for agents than spatial transcriptomics"
+    tags: [benchmark, scrna-seq, spatial-transcriptomics]
+    status: supported
+    confidence: 0.8
+    domain: methods
   - slug: scslide-alzheimer-trajectory-correlates-neuropathology-pseudoprogression
     title: "The scSLIDE Alzheimer trajectory correlates with the independent neuropathology CPS score (r=0.67)"
     tags: [Alzheimer, validation, CPS, neuropathology, scSLIDE]
@@ -10833,6 +10902,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: sequencing-platform-affects-agent-scrna-seq
+    title: "Sequencing platform affects agent scRNA-seq accuracy as much as model choice"
+    tags: [benchmark, platform, scrna-seq]
+    status: supported
+    confidence: 0.85
+    domain: methods
   - slug: seurat-rpca-best-pan-tam-integration
     title: "Seurat RPCA outperforms Scanorama and ties Harmony on iLISI for pan-cancer TAM integration; Seurat CCA fails at 1.5 TB RAM"
     tags: [Seurat, RPCA, Harmony, Scanorama, iLISI, integration, benchmark]
@@ -14330,6 +14405,10 @@ foundations:
     title: "minfi"
     status: mainstream
     domain: methods
+  - slug: mini-swe-agent-harness
+    title: "mini-SWE-agent harness"
+    status: mainstream
+    domain: methods
   - slug: mir-133a-3p-mirna
     title: "miR-133a-3p (microRNA-133a-3p)"
     status: mainstream
@@ -15163,6 +15242,10 @@ foundations:
     title: "Spatial ATAC-seq — spatially resolved chromatin accessibility profiling"
     status: mainstream
     domain: spatial-epigenomics
+  - slug: spatialbench-spatial-transcriptomics-agent-benchmark
+    title: "SpatialBench — spatial transcriptomics agent benchmark"
+    status: mainstream
+    domain: methods
   - slug: spatialdata-framework
     title: "SpatialData — open framework for spatial omics data"
     status: mainstream
