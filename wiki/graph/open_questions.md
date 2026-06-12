@@ -276,6 +276,13 @@ _Auto-generated open questions. Do not edit._
 - [paper/lipid-metabolism-homeostasis-disease] The dual M1-M2 modulatory pattern of SCFAs (acetate suppresses M2 in asthma but propionate/butyrate suppress M1) — is this concentration- or receptor-isoform-dependent (GPR43 vs HDAC)?
 - [paper/lipid-metabolism-homeostasis-disease] How do FASN-loss CD8 anti-tumor benefits (raised MHC-I) reconcile with loss of memory CD8 survival? Is there a dose window for clinical FASN inhibition?
 - [paper/lipid-metabolism-homeostasis-disease] Lipid raft α2,6-sialylation could be targeted in ulcerative colitis — is there a parallel sialylation handle in psoriasis / atopic dermatitis where Th17 is similarly central?
+- [paper/long-term-dna-methylation-changes-mediate] What molecular machinery drives the delayed "late" demethylation?
+- [paper/long-term-dna-methylation-changes-mediate] Are mediating CpGs (SLC12A3, GSDMC, MC3R) causal for cytokine changes?
+- [paper/long-term-dna-methylation-changes-mediate] How do sex hormones mechanistically shape sex-specific epigenetic-immune responses?
+- [paper/long-term-dna-methylation-changes-mediate] Do these methylation changes generalize to older and non-European populations?
+- [paper/long-term-dna-methylation-changes-mediate] Is methylation memory cell-intrinsic (within trained cells across divisions) or a composition shift (given strong neutrophil correlation)?
+- [paper/long-term-dna-methylation-changes-mediate] How does DNA-methylation memory integrate with histone-mark memory quantitatively?
+- [paper/long-term-dna-methylation-changes-mediate] Could baseline methylation serve as a deployable clinical predictor of vaccine responsiveness?
 - [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Long-term safety of protease-activated IL-2 in primates and chronic dosing
 - [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Activity of MiTEs across tumor types beyond RCC, MC38, MCA205
 - [paper/macrophage-targeted-immunocytokine-leverages-myeloid-nk] Combination with radiotherapy / chemotherapy / other immunotherapies
@@ -1493,6 +1500,11 @@ _Auto-generated open questions. Do not edit._
 - [claim/anti-trem2-ali-bcc-induces-epithelial-death] Anti-TREM2 in patient-derived basal cell carcinoma ALI organoids induces epithelial cell death by targeting TREM2+ macrophages (status: weakly_supported)
 - [claim/aspartate-depletion-does-not-explain-hypoxia-purine-suppression] Aspartate depletion does not explain purine synthesis suppression in hypoxic tumors in vivo (status: weakly_supported)
 - [claim/authors-propose-tumor-hypoxia-neutrophil-emt] Authors propose a positive-feedback loop between tumour hypoxia, chemokine-driven neutrophil recruitment, and EMT in LUAD (status: proposed)
+- [claim/baseline-methylation-trained-immunity-associations-stronger] Baseline methylation–trained-immunity associations are stronger in males than females (status: weakly_supported)
+- [claim/bcg-induced-dna-methylation-changes-sex] BCG-induced DNA methylation changes are sex-specific and non-overlapping (status: weakly_supported)
+- [claim/bcg-late-epigenetic-effect-opposes-natural] The 'late' BCG epigenetic effect opposes the methylation direction of natural aging (status: weakly_supported)
+- [claim/bcg-methylation-findings-apply-primarily-young] BCG methylation findings apply primarily to young adults (status: weakly_supported)
+- [claim/bcg-methylation-findings-replicate-independent-booster] BCG methylation findings partially replicate in an independent booster cohort (status: weakly_supported)
 - [claim/bladder-assembloid-bmp-foxa1-axis] In 3D bladder assembloids, stromal-secreted BMP induces tumoural FOXA1 to determine tumour phenotype (status: weakly_supported)
 - [claim/body-composition-loss-precedes-pancreatic-cancer-diagnosis] Body-composition loss precedes clinical pancreatic-cancer diagnosis — pre-CAC phase (status: weakly_supported)
 - [claim/bullous-pemphigoid-segregates-ad-lichen-planus] Bullous pemphigoid segregates with AD and lichen planus with PV by Trm1 signature (status: weakly_supported)
@@ -1505,6 +1517,8 @@ _Auto-generated open questions. Do not edit._
 - [claim/cd44-fgf2-melanoma-therapeutic-target-pla-validated] CD44 is a dominant melanoma receptor and CD44-FGF2 is a PLA-validated candidate therapeutic target (status: weakly_supported)
 - [claim/cell-cycle-phase-signatures-consistent-across] Cell-cycle phase signatures are consistent across cell types (status: weakly_supported)
 - [claim/cellchat-receptor-ligand-candidates-baseline-jak-stat-spleen] CellChat nominates KLRB1-CLEC2B, SIGLEC1-SPN, LILRB1-HLA-F, HAVCR2-LGALS9 as candidate cell-extrinsic triggers of baseline JAK-STAT in spleen (status: weakly_supported)
+- [claim/cg21375332-near-slc12a3-mediates-genetic-effect] cg21375332 near SLC12A3 mediates 32.7% of rs604639's effect on IFN-γ change (status: weakly_supported)
+- [claim/cg25926804-near-gsdmc-mediates-genetic-effect] cg25926804 near GSDMC mediates 28.6% of rs6991078's effect on IFN-γ trained immunity (status: weakly_supported)
 - [claim/cgas-activation-negatively-associated-global-transcription] cGAS activation is negatively associated with global transcription pan-cancer (status: weakly_supported)
 - [claim/ckis-upregulate-ifnb1-induce-transposable-element] CKIs that upregulate Ifnb1 induce transposable-element expression, suggesting viral mimicry (status: weakly_supported)
 - [claim/col11a1-spp1-fibrotic-axis-cd8-exclusion-nsclc] COL11A1+GREM1+ CAF / SPP1+ TAM axis physically excludes CTLs from NSCLC tumour cells (status: weakly_supported)
@@ -1522,6 +1536,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/differential-fibroblast-interactions-skin-cancers] Fibroblasts interact preferentially with T cells in keratinocyte cancers and with melanocytes in melanoma (status: weakly_supported)
 - [claim/diffusion-map-coordinates-gaussian-kde-best] Diffusion-map coordinates with Gaussian KDE best recapitulate the pseudotime density ground truth (status: weakly_supported)
 - [claim/discrete-cell-type-embeddings-structurally-preclude] Discrete learnable cell-type embeddings structurally preclude zero-shot prediction on unseen lineages (status: proposed)
+- [claim/dna-methylation-changes-mediate-genetic-variant] DNA methylation changes mediate genetic-variant effects on trained-immunity cytokine changes (status: weakly_supported)
 - [claim/dp-thymocyte-proliferative-wave-validated-high] The DP thymocyte proliferative wave is validated by a high G2M cell-cycle fraction (status: weakly_supported)
 - [claim/drift-association-test-recovers-canonical-haematopoietic] The drift-association test recovers canonical haematopoietic lineage regulators (status: weakly_supported)
 - [claim/dynamic-optimal-transport-methods-underperform-cell] Dynamic optimal-transport methods underperform at cell-state fate prediction (status: weakly_supported)
@@ -1535,6 +1550,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/exhausted-cd8-cells-shared-end-state] Exhausted CD8+ T cells are a shared end state, not a disease-discriminating force, across rashes (status: weakly_supported)
 - [claim/f6-inflammatory-myofibroblasts-predicted-recruit-neutrophils] F6 inflammatory myofibroblasts are predicted to recruit neutrophils, monocytes/macrophages and B cells via defined chemokine-receptor axes (status: weakly_supported)
 - [claim/f7-terminal-myofibroblasts-arise-two-differentiation] F7 terminal myofibroblasts arise via two trajectories: directly from F2 universal, and from F1 superficial through an intermediate F6 state (status: weakly_supported)
+- [claim/female-ifn-gamma-associated-cpg-sites] Female IFN-γ-associated CpG sites correlate with cortisol; male sites do not (status: weakly_supported)
 - [claim/fgfr3-mutation-associated-reduced-cxcl9-cxcl10] FGFR3 mutation is associated with reduced CXCL9, CXCL10, PDCD1, and CD274 expression in bladder cancer (status: weakly_supported)
 - [claim/five-gene-mscore-predicts-immune-checkpoint] A five-gene Mscore (CXCL9, C3, CTSC, CAPG, CTSB) predicts ICB efficacy in bladder cancer (status: weakly_supported)
 - [claim/five-immune-subtypes-bladder-cancer-class] Bladder cancer stratifies into five immune subtypes (A-E) with Class E enriched for Macro-CXCL9 (status: weakly_supported)
@@ -1565,6 +1581,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/hypoxystat-recapitulates-inhaled-hypoxia-tumor-suppression] HypoxyStat, a small-molecule hemoglobin-oxygen affinity modulator, recapitulates inhaled hypoxia's tumor suppression (status: weakly_supported)
 - [claim/ifit1-low-tumors-enriched-mt1x-low] IFIT1-low tumors are enriched for MT1X+ populations and low-activation T cells, marking an immune-cold state (status: weakly_supported)
 - [claim/ifitm1-discriminates-copd-asthma-lymphoid-cells] IFITM1 discriminates COPD from asthma in lymphoid cells (high→COPD, low→asthma) (status: weakly_supported)
+- [claim/ifn-gamma-trained-immunity-methylation-changes] IFN-γ trained-immunity methylation changes are enriched in mTOR and VEGFA-VEGFR2 pathways (status: weakly_supported)
 - [claim/ifn-multicellular-module-promotes-immune-permissive] The type I interferon multicellular module (M-IFN1) promotes an immune-permissive TME (status: weakly_supported)
 - [claim/il10-blockade-potentiates-cart-crc-explant] IL-10 blockade activates TILs and potentiates CAR-T cell killing in colorectal cancer liver metastasis explant cultures (status: weakly_supported)
 - [claim/il4-myeloid-immunosuppression-dupilumab-anti-pdl1-nsclc] IL-4 signalling in bone-marrow myeloid progenitors fuels NSCLC immunosuppression; dupilumab + anti-PD-(L)1 reduced suppressive monocytes and increased CD8 infiltration in a 6-patient first-in-human trial (status: weakly_supported)
@@ -1577,10 +1594,14 @@ _Auto-generated open questions. Do not edit._
 - [claim/irf9-stat3-stat5-partnership-macrophage-correlation] IRF9 KO transcriptomes correlate with STAT3 and STAT5 KO macrophage transcriptomes, suggesting IRF9 partners with STAT3/STAT5 under homeostasis (status: weakly_supported)
 - [claim/itga6-malignant-cells-induces-cthrc1-caf-via-tgfb] ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release (status: proposed)
 - [claim/kc-cancer-ecm-remodeling-il17-signature] Keratinocyte cancer cells upregulate ECM-remodeling and IL-17 pathway genes (status: weakly_supported)
+- [claim/kisspeptin-receptor-pathway-top-enriched-among] Kisspeptin receptor system is the top-enriched pathway among baseline IFN-γ CpG sites (status: weakly_supported)
 - [claim/klf5-transcription-factor-activity-marks-f2] KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state (status: weakly_supported)
 - [claim/kupffer-cells-increase-nash-wda-stay] Kupffer cells increase in NASH and WDA but stay stable in HFD liver (status: weakly_supported)
 - [claim/kynurenine-ahr-axis-active-endometrial-epithelium-and-elevated-in-eec] Tryptophan→kynurenine→AHR signaling is active in endometrial epithelial cells in health and is elevated in malignant regions of endometrial carcinoma (status: weakly_supported)
+- [claim/late-epigenetic-reprogramming-after-bcg-occurs] A 'late' epigenetic reprogramming after BCG develops mostly after day 14 (status: weakly_supported)
 - [claim/local-androgen-to-estrogen-conversion-in-endometrial-carcinoma-tumor-microenvironment] Endometrial-carcinoma malignant regions support local androgen→estrogen conversion and elevated estradiol–ESR1 co-localization, suggesting an intra-tumoral estrogen-signaling axis independent of obesity-driven systemic estrogen (status: weakly_supported)
+- [claim/long-term-short-term-methylation-changes] Long-term, not short-term/recovery, methylation changes underlie trained-immunity memory (status: weakly_supported)
+- [claim/long-term-t90-bcg-methylation-changes] Long-term (T90) BCG methylation changes reflect lasting epigenetic immune memory (status: weakly_supported)
 - [claim/macro-cxcl9-governed-distinct-transcription-factors] Macro-CXCL9 is governed by distinct transcription factors (LYL1, NRF1, SMARCC2, CCNT2, TCF3) (status: weakly_supported)
 - [claim/macro-cxcl9-ligand-receptor-interactions-ackr1] Macro-CXCL9 engages ACKR1+ endothelium and LAG3+ CD8-CXCL13 cells via distinct ligand-receptor axes (status: weakly_supported)
 - [claim/macro-cxcl9-occupies-early-node-tumor] Macro-CXCL9 occupies the early node of the tumor macrophage differentiation trajectory (status: weakly_supported)
@@ -1636,7 +1657,10 @@ _Auto-generated open questions. Do not edit._
 - [claim/scanvi-generative-integration-outperforms-alternatives-annotated] Generative probabilistic integration (scVI/scANVI) outperforms alternatives for annotated atlas integration (status: weakly_supported)
 - [claim/severe-influenza-patients-molecularly-resemble-severe] Severe influenza patients molecularly resemble severe COVID-19 cases (status: weakly_supported)
 - [claim/sex-dimorphism-skm-loss-cac] Skeletal-muscle loss in CAC shows sex dimorphism — observed in males but not consistently in females (status: weakly_supported)
+- [claim/sex-specific-pathway-enrichment-bcg-methylation] Sex-specific pathway enrichment of BCG methylation changes (hormones in females, nervous/infection in males) (status: weakly_supported)
 - [claim/sfpq-ep300-negative-regulators-interferon-response] SFPQ and EP300 are negative regulators of the interferon response that share transcriptional effects across post-transcriptional and transcriptional layers (status: weakly_supported)
+- [claim/short-term-bcg-methylation-changes-associate] Short-term BCG methylation changes associate with reduced circulating inflammatory proteins (status: weakly_supported)
+- [claim/short-term-t14-bcg-methylation-changes] Short-term (T14) BCG methylation changes are reversed during a T14–T90 recovery phase (status: weakly_supported)
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/sle-shows-opposing-stat1-sp1-activity] SLE shows opposing STAT1 and SP1 activity in monocytes and non-naive CD8 T cells (status: weakly_supported)
 - [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)

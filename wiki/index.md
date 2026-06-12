@@ -241,6 +241,12 @@ papers:
     importance: 4
     domain: immunology / immunometabolism / lipid biology
     priority: reference
+  - slug: long-term-dna-methylation-changes-mediate
+    title: "Long-term DNA methylation changes mediate heterologous cytokine responses after BCG vaccination"
+    tags: [trained-immunity, dna-methylation, bcg, ewas, cytokine, ifn-gamma, epigenetic-memory, systems-immunology, sex-differences, mediation, kisspeptin]
+    importance: 4
+    domain: epigenetics
+    priority: reference
   - slug: macrophage-targeted-immunocytokine-leverages-myeloid-nk
     title: "Macrophage-targeted immunocytokine leverages myeloid, T, and NK cell synergy for cancer immunotherapy"
     tags: [TREM2, immunocytokine, MiTE, IL-2, IL-2-superkine, MMP14, tumor-associated-macrophage, protease-activated-prodrug, cancer-immunotherapy, PD-1, CTLA-4, patient-derived-tumor-fragment, RCC, scRNA-seq, CITE-seq, MERFISH, NK-cell, CD8-T-cell]
@@ -689,6 +695,10 @@ concepts:
     title: "Autochthonous mouse models of early cancer"
     tags: [methods, oncology, early-cancer]
     maturity: stable
+  - slug: baseline-dna-methylation-predicts-heterologous-trained
+    title: "Baseline DNA methylation predicts heterologous trained-immunity cytokine response"
+    tags: [trained-immunity, dna-methylation, ifn-gamma, biomarker, variance-explained, bcg]
+    maturity: emerging
   - slug: batch-removal-vs-bioconservation-tradeoff
     title: "Batch removal vs biological-variance conservation tradeoff in single-cell integration"
     tags: [data-integration, benchmarking, scRNA-seq, tradeoff]
@@ -697,6 +707,10 @@ concepts:
     title: "Bile acid derivatives rebalance Treg/Th17 and macrophage polarization"
     tags: [bile-acid, treg, th17, macrophage, microbiota, foxp3, rorgt, tgr5, fxr]
     maturity: active
+  - slug: biphasic-short-term-reversible-long-term
+    title: "Biphasic short-term reversible and long-term lasting BCG methylation dynamics"
+    tags: [trained-immunity, dna-methylation, bcg, temporal-dynamics, epigenetic-memory]
+    maturity: emerging
   - slug: bystander-free-precision-base-editing
     title: "Bystander-free precision base editing of splice sites"
     tags: [base-editing, genome-editing, precision, splice-site, TGM1]
@@ -990,6 +1004,14 @@ concepts:
     title: "Discordance between in vitro kinase-inhibitor selectivity and cellular effects"
     tags: [kinase-inhibitors, drug-selectivity, kinobeads, target-engagement, pharmacology]
     maturity: active
+  - slug: dna-methylation-mediates-genetic-variant-effects
+    title: "DNA methylation mediates genetic variant effects on cytokine responses"
+    tags: [mediation, dna-methylation, genetics, cytokine, trained-immunity, mqtl]
+    maturity: emerging
+  - slug: dna-methylation-substrate-trained-immunity-epigenetic
+    title: "DNA methylation as a substrate of trained-immunity epigenetic memory"
+    tags: [trained-immunity, dna-methylation, epigenetics, innate-immune-memory, bcg]
+    maturity: emerging
   - slug: dnmt3a-dusp4-efferocytosis-resolution-pathway
     title: "DNMT3A–DUSP4 efferocytosis-resolution pathway"
     tags: [macrophage, efferocytosis, DNA-methylation, DNMT3A, Dusp4, COX2, PGE2, TGFβ1, resolution, atherosclerosis]
@@ -1457,6 +1479,10 @@ concepts:
     title: "Kinase-independent regulatory functions of TYK2"
     tags: [immunology, tyk2, jak-stat, kinase, scaffold-function]
     maturity: active
+  - slug: kisspeptin-kiss1-immunomodulation-ifn-gamma-production
+    title: "Kisspeptin (KISS1) immunomodulation of IFN-γ production"
+    tags: [kisspeptin, ifn-gamma, neuroendocrine-immune, trained-immunity, dna-methylation]
+    maturity: emerging
   - slug: kras-stat3-sex-dimorphic-luad
     title: "KRAS-mutant LUAD: sex-dimorphic response to STAT3 loss"
     tags: [kras, stat3, sex-dimorphism, luad, il-6, neutrophil, oestrogen]
@@ -2003,6 +2029,10 @@ concepts:
     title: "Senescent cells promote early tumorigenesis"
     tags: [oncology, senescence, microenvironment, early-cancer]
     maturity: active
+  - slug: sex-specific-epigenetic-cytokine-effects-bcg
+    title: "Sex-specific epigenetic and cytokine effects of BCG vaccination"
+    tags: [sex-differences, dna-methylation, trained-immunity, bcg, cytokine, sex-hormones]
+    maturity: emerging
   - slug: siglec15-pd-l1-mutually-exclusive-tam-dichotomization
     title: "SIGLEC15/PD-L1 mutual exclusivity as a scRNA-seq TAM dichotomization strategy"
     tags: [scRNA-seq, methodological, macrophage, PD-L1, SIGLEC15, dropout]
@@ -2511,6 +2541,9 @@ people:
   - slug: camille-bleriot
     tags: [macrophage, tissue-residence, mononuclear-phagocyte, immunology, ontogeny]
     affiliation: "Gustave Roussy / INSERM U1015, Villejuif, France"
+  - slug: cancan-qi
+    tags: [epigenetics, trained-immunity, systems-immunology, bioinformatics]
+    affiliation: "Centre for Individualised Infection Medicine (CiiM) / TWINCORE, Hannover; Zhujiang Hospital, Southern Medical University"
   - slug: carlos-de-la-calle-fabregat
     tags: [immunology, epigenetics, macrophage, hypoxia, postdoc]
     affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; previously Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
@@ -2535,6 +2568,9 @@ people:
   - slug: chenfei-wang
     tags: [computational-oncology, single-cell-genomics, pan-cancer, tme, maestro, tabulatime]
     affiliation: "Tongji University"
+  - slug: cheng-jian-xu
+    tags: [systems-immunology, epigenetics, trained-immunity, multi-omics, personalized-medicine]
+    affiliation: "CiiM, Helmholtz Centre for Infection Research & Hannover Medical School; Radboud University Medical Center"
   - slug: chin-nien-lee
     tags: [spatial-omics, DNA-methylation, methods-development]
     affiliation: "University of Pennsylvania — Department of Pathology and Laboratory Medicine; Institute of RNA Innovation, Perelman School of Medicine"
@@ -2820,6 +2856,9 @@ people:
   - slug: leng-han
     tags: [cancer-genomics, bioinformatics, pancancer, precision-medicine]
     affiliation: "The University of Texas Health Science Center at Houston (McGovern Medical School)"
+  - slug: leo-joosten
+    tags: [trained-immunity, inflammation, cytokines, innate-immunity]
+    affiliation: "Radboud University Medical Center, Nijmegen; Iuliu Haţieganu University, Cluj-Napoca"
   - slug: liang-cheng
     tags: [bioinformatics, deconvolution, molecular-diagnosis]
     affiliation: "Harbin Medical University"
@@ -2919,6 +2958,9 @@ people:
   - slug: michihiro-takahama
     tags: [immunology, sepsis, cytokines, first-author]
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago; Osaka University"
+  - slug: mihai-netea
+    tags: [trained-immunity, innate-immunity, infectious-disease, immunometabolism, bcg]
+    affiliation: "Radboud University Medical Center, Nijmegen; LIMES Institute, University of Bonn"
   - slug: minjie-wei
     tags: [hypoxia, molecular-pharmacology, cancer-drug-development, tumor-microenvironment, HIF-pathway, senior-corresponding-author]
     affiliation: "Department of Pharmacology, School of Pharmacy, China Medical University; Liaoning Key Laboratory of Molecular Targeted Anti-Tumor Drug Development and Evaluation; Shenyang Kangwei Medical Laboratory Analysis Co. LTD"
@@ -3216,6 +3258,9 @@ people:
   - slug: yanan-cao
     tags: [immunology, single-cell, genomics, BGI]
     affiliation: "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine"
+  - slug: yang-li
+    tags: [systems-immunology, computational-biology, multi-omics, trained-immunity, genetics]
+    affiliation: "CiiM, Helmholtz Centre for Infection Research & Hannover Medical School; TWINCORE; Radboud University Medical Center"
   - slug: yanqing-wang
     tags: [neurobiology, integrative-medicine, acupuncture, pain]
     affiliation: "Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences, Shanghai Medical College, Fudan University, Shanghai, China"
@@ -3243,6 +3288,9 @@ people:
   - slug: zemin-zhang
     tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
     affiliation: "BIOPIC, Peking University, Beijing, China"
+  - slug: zhaoli-liu
+    tags: [epigenetics, trained-immunity, bioinformatics]
+    affiliation: "Centre for Individualised Infection Medicine (CiiM) / TWINCORE, Hannover"
   - slug: zhen-luo
     tags: [virology, hypoxia-signaling, HIF1A, SARS-CoV-2, viral-hepatitis, immunology]
     affiliation: "Guangdong Provincial Key Laboratory of Virology, Institute of Medical Microbiology, Jinan University, Guangzhou; Foshan Institute of Medical Microbiology, Foshan"
@@ -4101,12 +4149,36 @@ claims:
     status: supported
     confidence: 0.8
     domain: single-cell-methods
+  - slug: baseline-dna-methylation-41-cpg-sites
+    title: "Baseline DNA methylation at 41 CpG sites associates with IFN-γ trained immunity"
+    tags: [baseline-methylation, ifn-gamma, trained-immunity, ewas, pld2]
+    status: supported
+    confidence: 0.75
+    domain: epigenetics
+  - slug: baseline-dna-methylation-explains-largest-variance
+    title: "Baseline DNA methylation explains the largest variance in IFN-γ trained immunity among omics layers"
+    tags: [baseline-methylation, ifn-gamma, variance-explained, multi-omics, prs]
+    status: supported
+    confidence: 0.7
+    domain: epigenetics
   - slug: baseline-jak-stat-homeostasis-cd8-macrophage
     title: "Tonic / baseline JAK-STAT signaling exists in unstimulated CD8+ T cells and macrophages of unperturbed mice"
     tags: [jak-stat, homeostasis, immune-cells, baseline-signaling, spleen]
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: baseline-methylation-predicts-ifn-gamma-il
+    title: "Baseline methylation predicts IFN-γ but not IL-1β or TNF-α trained immunity"
+    tags: [baseline-methylation, cytokine-specificity, ifn-gamma, il-6]
+    status: supported
+    confidence: 0.7
+    domain: epigenetics
+  - slug: baseline-methylation-trained-immunity-associations-stronger
+    title: "Baseline methylation–trained-immunity associations are stronger in males than females"
+    tags: [sex-differences, baseline-methylation, ifn-gamma, trained-immunity]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
   - slug: batch-correction-essential-joint-multi-sample
     title: "Batch correction is essential for joint multi-sample spatial clustering"
     tags: [batch-effect, spatial-transcriptomics, methodological, DLPFC]
@@ -4125,6 +4197,42 @@ claims:
     status: supported
     confidence: 0.95
     domain: single-cell-methods
+  - slug: bcg-associated-cpg-methylation-correlates-neutrophil
+    title: "BCG-associated CpG methylation correlates strongly with neutrophil proportion"
+    tags: [bcg, dna-methylation, neutrophil, cell-composition]
+    status: supported
+    confidence: 0.75
+    domain: epigenetics
+  - slug: bcg-induced-dna-methylation-changes-sex
+    title: "BCG-induced DNA methylation changes are sex-specific and non-overlapping"
+    tags: [sex-differences, bcg, dna-methylation, trained-immunity]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
+  - slug: bcg-late-epigenetic-effect-opposes-natural
+    title: "The 'late' BCG epigenetic effect opposes the methylation direction of natural aging"
+    tags: [bcg, dna-methylation, aging, epigenetic-clock]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
+  - slug: bcg-methylation-findings-apply-primarily-young
+    title: "BCG methylation findings apply primarily to young adults"
+    tags: [age, generalizability, bcg, dna-methylation, scope]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
+  - slug: bcg-methylation-findings-replicate-independent-booster
+    title: "BCG methylation findings partially replicate in an independent booster cohort"
+    tags: [replication, bcg, dna-methylation, validation]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
+  - slug: bcg-vaccination-induces-11-genome-wide
+    title: "BCG vaccination induces 11 genome-wide significant CpG methylation changes over 90 days"
+    tags: [bcg, dna-methylation, ewas, trained-immunity]
+    status: supported
+    confidence: 0.8
+    domain: epigenetics
   - slug: bcl7a-ikzf1-dock2-pax5-blood-cancer-markers
     title: "BCL7A, IKZF1, SEPTIN6, DOCK2, PTPRC, PAX5 and PASK rank among top blood-cancer-enriched proteins in TPCPA"
     tags: [blood-cancer, biomarker, bcl7a, ikzf1, dock2, pax5]
@@ -4725,6 +4833,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: cell biology / dermatology
+  - slug: cg21375332-near-slc12a3-mediates-genetic-effect
+    title: "cg21375332 near SLC12A3 mediates 32.7% of rs604639's effect on IFN-γ change"
+    tags: [mediation, slc12a3, ifn-gamma, il-18, snp]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
+  - slug: cg25926804-near-gsdmc-mediates-genetic-effect
+    title: "cg25926804 near GSDMC mediates 28.6% of rs6991078's effect on IFN-γ trained immunity"
+    tags: [mediation, gsdmc, ifn-gamma, pyroptosis, snp]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
   - slug: cgas-activation-negatively-associated-global-transcription
     title: "cGAS activation is negatively associated with global transcription pan-cancer"
     tags: [cGAS, transcription, DNA-damage, pan-cancer, correlational]
@@ -5571,6 +5691,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: immunology
+  - slug: dna-methylation-changes-mediate-genetic-variant
+    title: "DNA methylation changes mediate genetic-variant effects on trained-immunity cytokine changes"
+    tags: [mediation, genetics, dna-methylation, cytokine, trained-immunity]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
   - slug: dna-methylation-machinery-dnmt1-dnmt3a-mecp2-tet1-elevated-e13-vs-e11-brain
     title: "DNA-methylation writers (Dnmt1, Dnmt3a), readers (Mecp2) and erasers (Tet1) are elevated in expression in E13 vs E11 embryonic brain"
     tags: [DNMT1, DNMT3A, MeCP2, TET1, embryonic-brain, methylation-machinery]
@@ -6135,6 +6261,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: protein design
+  - slug: female-ifn-gamma-associated-cpg-sites
+    title: "Female IFN-γ-associated CpG sites correlate with cortisol; male sites do not"
+    tags: [sex-differences, cortisol, ifn-gamma, sex-hormones, baseline-methylation]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
   - slug: few-cytokine-perturbations-cause-major-shifts
     title: "Few cytokine perturbations cause major shifts in PBMC cell-type composition"
     tags: [cell-composition, differential-abundance, scCODA, PBMC]
@@ -7491,6 +7623,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: ifn-gamma-trained-immunity-methylation-changes
+    title: "IFN-γ trained-immunity methylation changes are enriched in mTOR and VEGFA-VEGFR2 pathways"
+    tags: [ifn-gamma, mtor, vegf, pathway-enrichment, trained-immunity]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
   - slug: ifn-multicellular-module-promotes-immune-permissive
     title: "The type I interferon multicellular module (M-IFN1) promotes an immune-permissive TME"
     tags: [tme, multicellular-module, interferon, mechanistic]
@@ -8031,6 +8169,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: pharmacology / chemoproteomics
+  - slug: kisspeptin-receptor-pathway-top-enriched-among
+    title: "Kisspeptin receptor system is the top-enriched pathway among baseline IFN-γ CpG sites"
+    tags: [kisspeptin, ifn-gamma, pathway-enrichment, baseline-methylation]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
   - slug: klf5-transcription-factor-activity-marks-f2
     title: "KLF5 transcription-factor activity marks F2 universal fibroblasts, consistent with driving the universal PI16+ state"
     tags: [skin, fibroblast, transcription-factor, KLF5, universal-fibroblast]
@@ -8133,6 +8277,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / metabolism / immunology
+  - slug: late-epigenetic-reprogramming-after-bcg-occurs
+    title: "A 'late' epigenetic reprogramming after BCG develops mostly after day 14"
+    tags: [bcg, dna-methylation, late-effect, temporal-dynamics]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
   - slug: le-cell-cycle-emt-angiogenesis-elevated
     title: "LE spots show significantly higher cell-cycle, EMT, and angiogenesis hallmark scores than TC"
     tags: [quantitative, hallmark, EMT, angiogenesis, OSCC]
@@ -8229,6 +8379,24 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology
+  - slug: long-term-bcg-methylation-changes-associate
+    title: "Long-term (T90–T0) BCG methylation changes associate with ex vivo cytokine production changes"
+    tags: [bcg, dna-methylation, cytokine, trained-immunity, ifn-gamma, il-1beta]
+    status: supported
+    confidence: 0.7
+    domain: epigenetics
+  - slug: long-term-short-term-methylation-changes
+    title: "Long-term, not short-term/recovery, methylation changes underlie trained-immunity memory"
+    tags: [bcg, dna-methylation, epigenetic-memory, trained-immunity]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
+  - slug: long-term-t90-bcg-methylation-changes
+    title: "Long-term (T90) BCG methylation changes reflect lasting epigenetic immune memory"
+    tags: [bcg, dna-methylation, epigenetic-memory, trained-immunity]
+    status: weakly_supported
+    confidence: 0.65
+    domain: epigenetics
   - slug: longitudinal-trajectories-cac-liver-cancer
     title: "Latent longitudinal trajectories of SKM and adipose loss (Jin et al. liver-cancer) define CAC vs non-CAC patients"
     tags: [cancer-cachexia, liver-cancer, trajectory-analysis, body-composition]
@@ -10281,6 +10449,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: lung cancer / functional validation
+  - slug: recombinant-kisspeptin-10-inhibits-ifn-gamma
+    title: "Recombinant kisspeptin-10 inhibits IFN-γ production capacity in human PBMCs"
+    tags: [kisspeptin, ifn-gamma, functional-validation, pbmc, pharmacological]
+    status: supported
+    confidence: 0.8
+    domain: epigenetics
   - slug: recursive-top-down-clustering-resolves-64
     title: "Recursive top-down clustering resolves 64 circulating immune populations"
     tags: [cell-annotation, clustering, immune-populations]
@@ -10695,6 +10869,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / clinical phenotyping
+  - slug: sex-specific-pathway-enrichment-bcg-methylation
+    title: "Sex-specific pathway enrichment of BCG methylation changes"
+    tags: [sex-differences, pathway-enrichment, gnrh, tlr, bcg]
+    status: weakly_supported
+    confidence: 0.55
+    domain: epigenetics
   - slug: sfpq-ep300-negative-regulators-interferon-response
     title: "SFPQ and EP300 are negative regulators of the interferon response that share transcriptional effects across post-transcriptional and transcriptional layers"
     tags: [sfpq, ep300, interferon, ISG, splicing, multilayer-regulation, macrophage]
@@ -10725,6 +10905,18 @@ claims:
     status: supported
     confidence: 0.75
     domain: immunology / cytokines
+  - slug: short-term-bcg-methylation-changes-associate
+    title: "Short-term BCG methylation changes associate with reduced circulating inflammatory proteins"
+    tags: [bcg, dna-methylation, inflammatory-proteins, cd6, opg]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
+  - slug: short-term-t14-bcg-methylation-changes
+    title: "Short-term (T14) BCG methylation changes are reversed during a T14–T90 recovery phase"
+    tags: [bcg, dna-methylation, temporal-dynamics, trained-immunity]
+    status: weakly_supported
+    confidence: 0.6
+    domain: epigenetics
   - slug: single-cell-snapshot-trajectories-confound-cell
     title: "Single-cell snapshot trajectories confound cell flux with population-size changes"
     tags: [single-cell, trajectory-inference, population-dynamics, conceptual]
@@ -12677,6 +12869,10 @@ foundations:
     title: "BCAT-IN-2 — branched-chain aminotransferase (BCAT) inhibitor"
     status: mainstream
     domain: pharmacology / metabolism tool compound
+  - slug: bcg-vaccine-bacillus-calmette-guerin
+    title: "BCG vaccine (Bacillus Calmette–Guérin)"
+    status: mainstream
+    domain: immunology
   - slug: behav3d-imaging
     title: "BEHAV3D — live confocal 3D imaging + transcriptomic phenotyping of immune cell behaviour"
     status: mainstream
@@ -12778,6 +12974,10 @@ foundations:
     title: "CatCh — calcium-translocating channelrhodopsin (optogenetics)"
     status: mainstream
     domain: optogenetics / channelrhodopsin variant
+  - slug: causal-mediation-analysis
+    title: "Causal mediation analysis"
+    status: mainstream
+    domain: methods
   - slug: cb-839-telaglenastat
     title: "CB-839 (telaglenastat) — GLS1 inhibitor"
     status: mainstream
@@ -12964,6 +13164,10 @@ foundations:
     title: "ConsensusClusterPlus — consensus clustering for subtype discovery"
     status: mainstream
     domain: methods / unsupervised clustering
+  - slug: consensuspathdb-cpdb-pathway-enrichment
+    title: "ConsensusPathDB (CPDB)"
+    status: mainstream
+    domain: methods
   - slug: contrastive-learning
     title: "Contrastive learning"
     status: mainstream
@@ -13189,6 +13393,10 @@ foundations:
     title: "EffectiveDB (secretion system & effector prediction)"
     status: mainstream
     domain: methods
+  - slug: eforge-epigenomic-element-overlap-enrichment
+    title: "eFORGE"
+    status: mainstream
+    domain: methods
   - slug: egfr-mutation-luad
     title: "EGFR activating mutations in lung adenocarcinoma"
     status: mainstream
@@ -13225,6 +13433,14 @@ foundations:
     title: "Epacadostat — IDO1 inhibitor"
     status: historical
     domain: oncology-therapeutics
+  - slug: epidish-cell-type-deconvolution-methylation
+    title: "EpiDISH"
+    status: mainstream
+    domain: methods
+  - slug: epigenome-wide-association-study-ewas
+    title: "Epigenome-wide association study (EWAS)"
+    status: mainstream
+    domain: methods
   - slug: erythropoietin-epo
     title: "Erythropoietin (EPO)"
     status: mainstream
@@ -13426,6 +13642,14 @@ foundations:
     title: "GraphST — spatially informed clustering, integration & deconvolution"
     status: mainstream
     domain: methods / spatial-transcriptomics / contrastive-learning
+  - slug: great-cis-regulatory-region-annotation
+    title: "GREAT"
+    status: mainstream
+    domain: methods
+  - slug: gsdmc-gasdermin
+    title: "GSDMC (gasdermin C)"
+    status: mainstream
+    domain: immunology
   - slug: gse155698-steele-pdac-scrnaseq
     title: "GSE155698 — Steele et al. 2020 PDAC scRNA-seq dataset"
     status: mainstream
@@ -13543,6 +13767,10 @@ foundations:
     title: "Hotspot — gene module analysis on scRNA-seq latent embeddings"
     status: mainstream
     domain: computational-biology / methods
+  - slug: houseman-methylation-cell-composition-deconvolution
+    title: "Houseman cell-composition deconvolution"
+    status: mainstream
+    domain: methods
   - slug: hoxd13-tf
     title: "HOXD13 (homeodomain transcription factor)"
     status: mainstream
@@ -13829,6 +14057,10 @@ foundations:
     title: "Kinobeads chemoproteomic selectivity profiling (and CATDS score)"
     status: mainstream
     domain: chemoproteomics / drug profiling / methods
+  - slug: kisspeptin-kiss1-gpr54-system
+    title: "Kisspeptin (KISS1 / GPR54) system"
+    status: mainstream
+    domain: cell biology
   - slug: klf4-tf
     title: "KLF4 (Krüppel-like factor 4)"
     status: mainstream
@@ -14010,6 +14242,10 @@ foundations:
     title: "MAT2A — methionine adenosyltransferase 2A"
     status: mainstream
     domain: metabolism / one-carbon biology
+  - slug: matrix-eqtl
+    title: "Matrix eQTL"
+    status: mainstream
+    domain: methods
   - slug: maxquant-proteomics
     title: "MaxQuant — MS-based proteomics quantification software"
     status: mainstream
@@ -14088,6 +14324,10 @@ foundations:
     domain: single-cell genomics
   - slug: mimicint-slim-domain-inference
     title: "mimicINT (SLiM–domain interaction inference)"
+    status: mainstream
+    domain: methods
+  - slug: minfi-methylation-array-preprocessing
+    title: "minfi"
     status: mainstream
     domain: methods
   - slug: mir-133a-3p-mirna
@@ -14520,6 +14760,10 @@ foundations:
     title: "PML — promyelocytic leukemia protein"
     status: mainstream
     domain: cell biology
+  - slug: polygenic-risk-score
+    title: "Polygenic risk score (PRS)"
+    status: mainstream
+    domain: methods
   - slug: pparg-tf
     title: "PPARγ (peroxisome proliferator-activated receptor gamma)"
     tags: [transcription-factor, nuclear-receptor, lipid-metabolism, macrophage-identity]
@@ -14859,6 +15103,10 @@ foundations:
     title: "Skin-associated lymphoid tissue (SALT)"
     status: historical
     domain: immunology / skin biology
+  - slug: slc12a3-ncc-sodium-chloride-cotransporter
+    title: "SLC12A3 (NCC)"
+    status: mainstream
+    domain: cell biology
   - slug: slc1a5-asct2-glutamine-transporter
     title: "SLC1A5 — ASCT2 / glutamine transporter"
     status: mainstream
@@ -14964,6 +15212,10 @@ foundations:
     title: "STAGATE — adaptive graph attention autoencoder for spatial domains"
     status: mainstream
     domain: methods / spatial-transcriptomics / graph-neural-networks
+  - slug: staphylococcus-aureus
+    title: "Staphylococcus aureus"
+    status: mainstream
+    domain: immunology
   - slug: starmap-in-situ-sequencing
     title: "STARmap — Spatially-resolved Transcript Amplicon Readout Mapping"
     status: mainstream
@@ -15188,6 +15440,10 @@ foundations:
     title: "TRADE (transcriptome-wide impact)"
     status: mainstream
     domain: single-cell genomics
+  - slug: trained-immunity
+    title: "Trained immunity"
+    status: mainstream
+    domain: immunology
   - slug: transglutaminase-1
     title: "Transglutaminase 1 (TG1 / TGM1)"
     status: mainstream
