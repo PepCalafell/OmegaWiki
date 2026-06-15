@@ -4,7 +4,7 @@ affiliation: "Broad Institute of MIT and Harvard; Molecular Pathology Unit, Kran
 role: pi
 group: "Pinello Lab / Gene Regulatory Observatory"
 institution: "Broad Institute / MGH / Harvard Medical School"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -16,7 +16,7 @@ tags:
   - epigenomics
 homepage: "https://pinellolab.org/"
 scholar: ""
-date_updated: 2026-05-21
+date_updated: 2026-06-15
 ---
 
 ## Research areas
@@ -30,6 +30,7 @@ date_updated: 2026-05-21
 ## Key papers in vault
 
 - [[papers/systematic-benchmarking-computational-methods-identify-spatially]] — senior/corresponding author
+- [[papers/defining-benchmarking-open-problems-single-cell]] (2025, co-author, *Nat. Biotechnol.*) — Open Problems platform.
 
 ## Recent work
 

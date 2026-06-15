@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1568 total)
+## Claims (1583 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (89 total)
+## Papers (90 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -45,13 +45,13 @@ _Auto-generated open questions. Do not edit._
 - [4] Lipid metabolism in homeostasis and disease (immunology / immunometabolism / lipid biology)
 - [4] Long-term DNA methylation changes mediate heterologous cytokine responses after BCG vaccination (epigenetics)
 - [4] Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer (metabolism / oncology / cachexia)
-## Recent Relationships (3376 total)
-  papers/long-term-dna-methylation-changes-mediate --supports--> claims/bcg-induced-dna-methylation-changes-sex
-  papers/long-term-dna-methylation-changes-mediate --supports--> claims/sex-specific-pathway-enrichment-bcg-methylation
-  papers/long-term-dna-methylation-changes-mediate --supports--> claims/baseline-methylation-trained-immunity-associations-stronger
-  papers/long-term-dna-methylation-changes-mediate --supports--> claims/female-ifn-gamma-associated-cpg-sites
-  papers/long-term-dna-methylation-changes-mediate --supports--> claims/bcg-methylation-findings-replicate-independent-booster
-  papers/long-term-dna-methylation-changes-mediate --supports--> claims/bcg-methylation-findings-apply-primarily-young
-  papers/scbench-evaluating-ai-agents-single-cell --introduces_concept--> concepts/llm-agent-single-cell-rna-seq
-  papers/scbench-evaluating-ai-agents-single-cell --extends_concept--> concepts/verifiable-deterministic-bioinformatics-benchmark-grading
-  papers/scbench-evaluating-a
+## Recent Relationships (3400 total)
+  papers/scbench-evaluating-ai-agents-single-cell --supports--> claims/frontier-agents-cannot-autonomously-extract-scrna
+  papers/defining-benchmarking-open-problems-single-cell --introduces_concept--> concepts/static-versus-living-benchmark-paradigm
+  papers/defining-benchmarking-open-problems-single-cell --uses_concept--> concepts/benchmark-self-assessment-bias
+  papers/defining-benchmarking-open-problems-single-cell --introduces_concept--> concepts/simple-baselines-outperform-complex-single-cell
+  papers/defining-benchmarking-open-problems-single-cell --uses_concept--> concepts/batch-removal-vs-bioconservation-tradeoff
+  papers/defining-benchmarking-open-problems-single-cell --derived_from--> foundations/openproblems-benchmark
+  papers/defining-benchmarking-open-problems-single-cell --derived_from--> foundations/common-task-framework
+  papers/defining-benchmarking-open-problems-single-cell --derived_from--> foundations/viash-component-framework
+  papers/defining-benchmarking-open-pr

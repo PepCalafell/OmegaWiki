@@ -97,6 +97,12 @@ papers:
     importance: 4
     domain: methods
     priority: reference
+  - slug: defining-benchmarking-open-problems-single-cell
+    title: "Defining and benchmarking open problems in single-cell analysis"
+    tags: [benchmarking, single-cell, methods-evaluation, reproducibility, cell-cell-communication, batch-integration, community-platform]
+    importance: 4
+    domain: methods
+    priority: reference
   - slug: delineation-signaling-routes-underlie-differences-macrophage
     title: "Delineation of signaling routes that underlie differences in macrophage phenotypic states"
     tags: [macrophage, polarization, phosphoproteomics, proteomics, kinase, signaling, TAM, immunosuppression]
@@ -243,7 +249,7 @@ papers:
     priority: reference
   - slug: long-term-dna-methylation-changes-mediate
     title: "Long-term DNA methylation changes mediate heterologous cytokine responses after BCG vaccination"
-    tags: [trained-immunity, dna-methylation, bcg, ewas, cytokine, ifn-gamma, epigenetic-memory, systems-immunology, sex-differences, mediation, kisspeptin]
+    tags: [trained-immunity, dna-methylation, bcg, ewas, cytokine, ifn-gamma, epigenetic-memory, systems-immunology, sex-differences, mediation]
     importance: 4
     domain: epigenetics
     priority: reference
@@ -709,6 +715,10 @@ concepts:
     title: "Batch removal vs biological-variance conservation tradeoff in single-cell integration"
     tags: [data-integration, benchmarking, scRNA-seq, tradeoff]
     maturity: stable
+  - slug: benchmark-self-assessment-bias
+    title: "Benchmark self-assessment bias"
+    tags: [benchmarking, meta-science, bias]
+    maturity: active
   - slug: bile-acid-treg-th17-rebalancing
     title: "Bile acid derivatives rebalance Treg/Th17 and macrophage polarization"
     tags: [bile-acid, treg, th17, macrophage, microbiota, foxp3, rorgt, tgr5, fxr]
@@ -1539,7 +1549,6 @@ concepts:
     maturity: active
   - slug: llm-agent-single-cell-rna-seq
     title: "LLM agent for single-cell RNA-seq analysis"
-    tags: [llm-agent, scrna-seq, ai-evaluation, bioinformatics]
     maturity: emerging
   - slug: low-affinity-tf-binding-site
     title: "Low-affinity TF binding site"
@@ -1931,7 +1940,6 @@ concepts:
     maturity: stable
   - slug: platform-dependence-agent-analysis-accuracy
     title: "Platform dependence of agent analysis accuracy"
-    tags: [benchmark, platform, scrna-seq, generalization]
     maturity: emerging
   - slug: polyamine-hypusine-axis-macrophage-residency
     title: "Polyamine–hypusine–eIF5A axis as a cell-intrinsic regulator of macrophage tissue residency"
@@ -2051,6 +2059,10 @@ concepts:
     title: "SIGLEC15/PD-L1 mutual exclusivity as a scRNA-seq TAM dichotomization strategy"
     tags: [scRNA-seq, methodological, macrophage, PD-L1, SIGLEC15, dropout]
     maturity: emerging
+  - slug: simple-baselines-outperform-complex-single-cell
+    title: "Simple baselines outperform complex single-cell methods"
+    tags: [benchmarking, single-cell, baselines]
+    maturity: active
   - slug: single-cell-proteomics-mass-spec
     title: "Single-cell proteomics by mass spectrometry (scp-MS)"
     tags: [proteomics, single-cell, mass-spectrometry, methods]
@@ -2139,6 +2151,10 @@ concepts:
   - slug: stat5b-n642h-neomorphic-oncogenic-driver
     title: "STAT5BN642H as a neomorphic oncogenic transcription factor"
     tags: [oncology, transcription-factor, stat5, t-cell-leukemia, neomorphic-mutation, jak-stat]
+    maturity: active
+  - slug: static-versus-living-benchmark-paradigm
+    title: "Static vs living benchmark paradigm"
+    tags: [benchmarking, meta-science, reproducibility]
     maturity: active
   - slug: stem-immunity-hub-nsclc-ici-response
     title: "Stem-immunity hub (TCF7+PD1+CD8+ niche) predicting ICI response in NSCLC"
@@ -2430,7 +2446,6 @@ concepts:
     maturity: stable
   - slug: verifiable-deterministic-bioinformatics-benchmark-grading
     title: "Verifiable deterministic bioinformatics benchmark grading"
-    tags: [benchmark, methodology, deterministic-grading, ai-evaluation]
     maturity: emerging
   - slug: vhl-mccc2-leucine-catabolism-inhibition
     title: "VHL–MCCC2 binding inhibits leucine catabolism under hypoxia"
@@ -2588,7 +2603,7 @@ people:
     affiliation: "Tongji University"
   - slug: cheng-jian-xu
     tags: [systems-immunology, epigenetics, trained-immunity, multi-omics, personalized-medicine]
-    affiliation: "CiiM, Helmholtz Centre for Infection Research & Hannover Medical School; Radboud University Medical Center"
+    affiliation: "Centre for Individualised Infection Medicine (CiiM), Helmholtz Centre for Infection Research & Hannover Medical School; Radboud University Medical Center"
   - slug: chin-nien-lee
     tags: [spatial-omics, DNA-methylation, methods-development]
     affiliation: "University of Pennsylvania — Department of Pathology and Laboratory Medicine; Institute of RNA Innovation, Perelman School of Medicine"
@@ -2625,6 +2640,9 @@ people:
   - slug: dan-hasson
     tags: [bioinformatics, chromatin, genomics-core, single-cell]
     affiliation: "Department of Oncological Sciences, Tisch Cancer Institute, Bioinformatics for Next Generation Sequencing (BiNGS) Shared Resource Facility, Icahn School of Medicine at Mount Sinai, New York City, NY, USA"
+  - slug: daniel-burkhardt
+    tags: [single-cell, benchmarking, machine-learning]
+    affiliation: "NVIDIA"
   - slug: daniel-j-puleston
     tags: [immunometabolism, polyamine, hypusine, eIF5A, macrophage, T-cell, PI]
     affiliation: "Precision Immunology Institute and Tisch Cancer Institute, Icahn School of Medicine at Mount Sinai, New York; Max Planck Institute of Immunobiology and Epigenetics, Freiburg"
@@ -2879,7 +2897,7 @@ people:
     affiliation: "The University of Texas Health Science Center at Houston (McGovern Medical School)"
   - slug: leo-joosten
     tags: [trained-immunity, inflammation, cytokines, innate-immunity]
-    affiliation: "Radboud University Medical Center, Nijmegen; Iuliu Haţieganu University, Cluj-Napoca"
+    affiliation: "Department of Internal Medicine & Radboud Center for Infectious Diseases, Radboud University Medical Center, Nijmegen; Iuliu Haţieganu University of Medicine and Pharmacy, Cluj-Napoca"
   - slug: liang-cheng
     tags: [bioinformatics, deconvolution, molecular-diagnosis]
     affiliation: "Harbin Medical University"
@@ -2981,7 +2999,7 @@ people:
     affiliation: "Pritzker School of Molecular Engineering, University of Chicago; Osaka University"
   - slug: mihai-netea
     tags: [trained-immunity, innate-immunity, infectious-disease, immunometabolism, bcg]
-    affiliation: "Radboud University Medical Center, Nijmegen; LIMES Institute, University of Bonn"
+    affiliation: "Department of Internal Medicine & Radboud Center for Infectious Diseases, Radboud University Medical Center, Nijmegen; LIMES Institute, University of Bonn"
   - slug: minjie-wei
     tags: [hypoxia, molecular-pharmacology, cancer-drug-development, tumor-microenvironment, HIF-pathway, senior-corresponding-author]
     affiliation: "Department of Pharmacology, School of Pharmacy, China Medical University; Liaoning Key Laboratory of Molecular Targeted Anti-Tumor Drug Development and Evaluation; Shenyang Kangwei Medical Laboratory Analysis Co. LTD"
@@ -3114,6 +3132,9 @@ people:
   - slug: robert-g-bristow
     tags: [radiation-oncology, prostate-cancer, hypoxia, DNA-repair, genomic-instability, cancer-genomics, PI, clinician-scientist]
     affiliation: "Princess Margaret Hospital / University Health Network, Toronto; Division of Cancer Sciences, Faculty of Biology, Medicine and Health, University of Manchester; The Christie NHS Foundation Trust; CRUK Manchester Institute and Manchester Cancer Research Centre"
+  - slug: robrecht-cannoodt
+    tags: [single-cell, reproducible-pipelines, benchmarking]
+    affiliation: "Data Intuitive / VIB-UGent"
   - slug: roel-polak
     tags: [organoids, oncology, paediatric-oncology, tumour-immune-microenvironment]
     affiliation: "Stanford University School of Medicine; Princess Máxima Center for Pediatric Oncology, Utrecht"
@@ -3141,6 +3162,9 @@ people:
   - slug: saskia-trump
     tags: [AHR, molecular-epidemiology, DNA-methylation, smoking, environmental-exposure, BIH, Charite]
     affiliation: "Molecular Epidemiology Unit, Berlin Institute of Health at Charité; DKTK Partner Site Berlin"
+  - slug: scott-gigante
+    tags: [single-cell, benchmarking, computational-biology]
+    affiliation: "Immunai"
   - slug: sean-colgan
     tags: [mucosal-immunology, hypoxia, HIF, intestinal-epithelium, inflammation-resolution, PI]
     affiliation: "Department of Medicine and the Mucosal Inflammation Program, University of Colorado School of Medicine, Aurora, Colorado, USA"
@@ -3165,6 +3189,9 @@ people:
   - slug: sidharth-v-puram
     tags: [hnscc, head-and-neck-cancer, scrna-seq, partial-emt, oncology]
     affiliation: "Washington University in St. Louis"
+  - slug: smita-krishnaswamy
+    tags: [single-cell, machine-learning, computational-biology, manifold-learning]
+    affiliation: "Yale University"
   - slug: soubhik-ghosh
     tags: [immunology, macrophage-biology, tumor-immunology]
     affiliation: "Dartmouth Geisel School of Medicine"
@@ -3281,7 +3308,7 @@ people:
     affiliation: "Ruijin Hospital, Shanghai Jiao Tong University School of Medicine"
   - slug: yang-li
     tags: [systems-immunology, computational-biology, multi-omics, trained-immunity, genetics]
-    affiliation: "CiiM, Helmholtz Centre for Infection Research & Hannover Medical School; TWINCORE; Radboud University Medical Center"
+    affiliation: "Centre for Individualised Infection Medicine (CiiM), Helmholtz Centre for Infection Research & Hannover Medical School; TWINCORE; Radboud University Medical Center"
   - slug: yanqing-wang
     tags: [neurobiology, integrative-medicine, acupuncture, pain]
     affiliation: "Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences, Shanghai Medical College, Fudan University, Shanghai, China"
@@ -4212,6 +4239,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: methods
+  - slug: batch-effects-easier-correct-single-cell
+    title: "Batch effects are easier to correct in single-cell graphs than in embeddings or expression matrices"
+    tags: [batch-integration, benchmarking, single-cell]
+    status: supported
+    confidence: 0.75
+    domain: methods / benchmarking / single-cell
   - slug: batch-removal-vs-bioconservation-tradeoff
     title: "There is a consistent tradeoff between batch-effect removal and biological-variance conservation across scRNA-seq integration methods"
     tags: [data-integration, scRNA-seq, benchmarking, tradeoff]
@@ -4770,6 +4803,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: cancer immunology
+  - slug: cell-cell-communication-methods-accurate-only
+    title: "Cell–cell communication methods are reliable only for their top-ranked interactions"
+    tags: [cell-cell-communication, benchmarking, interpretation]
+    status: supported
+    confidence: 0.75
+    domain: methods / benchmarking / single-cell
   - slug: cell-cycle-phase-signatures-consistent-across
     title: "Cell-cycle phase signatures are consistent across cell types"
     tags: [cell-cycle, cell-state, proteomics]
@@ -4812,6 +4851,12 @@ claims:
     status: weakly_supported
     confidence: 0.45
     domain: immunology
+  - slug: cellphonedb-liana-magnitude-ensemble-top-cell
+    title: "CellPhoneDB and LIANA's magnitude ensemble are the top cell–cell communication performers"
+    tags: [cell-cell-communication, benchmarking, single-cell]
+    status: supported
+    confidence: 0.8
+    domain: methods / benchmarking / single-cell
   - slug: cellrank-decomposes-trajectory-inference-into-kernels
     title: "CellRank decomposes fate mapping into kernels, estimators and analysis tools"
     tags: [trajectory-inference, single-cell, cellrank, software-architecture]
@@ -5556,6 +5601,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology
+  - slug: denoising-methods-perform-best-variance-stabilizing
+    title: "Denoising methods perform best with non-standard variance-stabilizing preprocessing"
+    tags: [denoising, preprocessing, benchmarking]
+    status: supported
+    confidence: 0.75
+    domain: methods / benchmarking / single-cell
   - slug: depletion-cd206hi-ims-increases-lung-tumor
     title: "Depletion of CD206hi IMs increases lung tumor burden across three cancer models"
     tags: [quantitative, macrophage, tumor-immunity, lung-cancer]
@@ -6420,6 +6471,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / sepsis
+  - slug: four-independent-batch-integration-benchmarks-recommend
+    title: "Four independent batch-integration benchmarks each recommend different optimal methods"
+    tags: [benchmarking, batch-integration, single-cell]
+    status: supported
+    confidence: 0.85
+    domain: methods / benchmarking / single-cell
   - slug: four-momac-states-hcc-tme-folr2-trem2-fcn1-fcgr2b
     title: "Four monocyte-derived macrophage states (FOLR2, TREM2, FCN1/CXCL9, FCGR2B) plus Kupffer cells partition the HCC TME mo-mac landscape"
     tags: [HCC, mo-mac, macrophage-heterogeneity, FOLR2, TREM2, FCN1, CXCL9, FCGR2B, Kupffer-cell, scRNA-seq]
@@ -8424,6 +8481,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: methods / spatial-transcriptomics
+  - slug: logistic-regression-outperforms-complex-batch-modeling
+    title: "Logistic regression outperforms complex batch-modeling methods for label projection"
+    tags: [label-projection, simple-baselines, benchmarking]
+    status: supported
+    confidence: 0.8
+    domain: methods / benchmarking / single-cell
   - slug: long-covid-shows-ifn-gamma-dominant
     title: "Long COVID shows IFN-γ-dominant but IFN-α-suppressed signaling"
     tags: [interferon, long-COVID, infection]
@@ -8664,6 +8727,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology
+  - slug: magnitude-based-cell-cell-communication-scoring
+    title: "Magnitude-based cell–cell communication scoring outperforms specificity-based scoring"
+    tags: [cell-cell-communication, benchmarking, single-cell]
+    status: supported
+    confidence: 0.8
+    domain: methods / benchmarking / single-cell
   - slug: majority-functional-sequences-noncoding
     title: "The majority of functional sequences in the human genome do not encode proteins"
     tags: [genomics, non-coding, gene-regulation]
@@ -8712,6 +8781,12 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: oncology
+  - slug: max-aggregation-ligand-receptor-scores-outperforms
+    title: "Max aggregation of ligand–receptor scores outperforms mean aggregation in CCC inference"
+    tags: [cell-cell-communication, aggregation, benchmarking]
+    status: supported
+    confidence: 0.8
+    domain: methods / benchmarking / single-cell
   - slug: mccc2-depletion-phenocopies-vhl-growth-promotion
     title: "MCCC2 depletion phenocopies VHL-mediated growth promotion in hypoxia but not normoxia"
     tags: [hypoxia, VHL, MCCC2, cell-growth, phenocopy, methodological]
@@ -8874,6 +8949,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: muscle biology / adipocyte biology
+  - slug: method-developer-run-benchmarks-inflate-performance
+    title: "Benchmarks run by method-developing groups inflate the performance of their own newest models"
+    tags: [benchmarking, bias, reproducibility]
+    status: supported
+    confidence: 0.8
+    domain: methods / benchmarking
   - slug: methylation-loss-bidirectional-coupling-nrg3-pdgfra-oligodendrogenesis
     title: "During oligodendrogenesis, loss of DNA methylation is bidirectionally coupled to gene expression: Nrg3 is activated, Pdgfra is silenced"
     tags: [oligodendrogenesis, DNA-methylation, Nrg3, Pdgfra, bidirectional-coupling]
@@ -9378,6 +9459,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology / oncology / DAMP-signaling
+  - slug: neurips-single-cell-competitions-drew-260
+    title: "NeurIPS multimodal single-cell competitions drew 260 and 1,600 participants"
+    tags: [competitions, multimodal-integration, community]
+    status: supported
+    confidence: 0.9
+    domain: methods / benchmarking / single-cell
   - slug: neutrophil-depletion-reduces-macrophage-pyroptosis
     title: "Depleting neutrophils (1A8, 24h) reduces splenic macrophage caspase-8 and GSDMD activation by ~50%, implicatin"
     tags: [mechanistic, efferoptosis, pyroptosis]
@@ -9726,6 +9813,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: epigenetics
+  - slug: open-problems-hosts-12-single-cell
+    title: "Open Problems hosts 12 single-cell benchmarking tasks on a living community platform"
+    tags: [benchmarking, single-cell, infrastructure]
+    status: supported
+    confidence: 0.95
+    domain: methods / benchmarking / single-cell
   - slug: open-promoter-landscape-tr-network-macrophage
     title: "The open promoter landscape of the TR network is a macrophage-specific feature"
     tags: [macrophage, open-chromatin, cell-identity]
@@ -9810,6 +9903,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: bone biology / human genetics / immunology
+  - slug: over-1700-single-cell-analysis-algorithms
+    title: "Over 1,700 single-cell analysis algorithms had been published by February 2024"
+    tags: [single-cell, tool-proliferation, benchmarking]
+    status: supported
+    confidence: 0.9
+    domain: methods / benchmarking / single-cell
   - slug: oxldl-cd36-shifts-peritoneal-macrophages-to-glycolysis-nfkb-inflammation
     title: "oxLDL via CD36 reduces FAO/OXPHOS and shifts peritoneal macrophages to glycolysis with NF-κB-driven inflammation"
     tags: [macrophage, oxldl, cd36, glycolysis, nf-kb, atherosclerosis]
@@ -10511,7 +10610,7 @@ claims:
     tags: [kisspeptin, ifn-gamma, functional-validation, pbmc, pharmacological]
     status: supported
     confidence: 0.8
-    domain: epigenetics
+    domain: immunology
   - slug: recursive-top-down-clustering-resolves-64
     title: "Recursive top-down clustering resolves 64 circulating immune populations"
     tags: [cell-annotation, clustering, immune-populations]
@@ -10945,7 +11044,7 @@ claims:
     confidence: 0.6
     domain: oncology / clinical phenotyping
   - slug: sex-specific-pathway-enrichment-bcg-methylation
-    title: "Sex-specific pathway enrichment of BCG methylation changes"
+    title: "Sex-specific pathway enrichment of BCG methylation changes (hormones in females, nervous/infection in males)"
     tags: [sex-differences, pathway-enrichment, gnrh, tlr, bcg]
     status: weakly_supported
     confidence: 0.55
@@ -10992,6 +11091,24 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: epigenetics
+  - slug: simple-models-outperform-complex-models-perturbation
+    title: "Simple models tend to outperform complex models for perturbation prediction"
+    tags: [perturbation-prediction, simple-baselines, benchmarking]
+    status: supported
+    confidence: 0.75
+    domain: methods / benchmarking / single-cell
+  - slug: single-cell-benchmarks-overlap-less-than
+    title: "Independent single-cell benchmarks share less than 10% of datasets and metrics"
+    tags: [benchmarking, reproducibility, single-cell]
+    status: supported
+    confidence: 0.85
+    domain: methods / benchmarking / single-cell
+  - slug: single-cell-naive-competitors-outperformed-state
+    title: "Single-cell-naive competitors outperformed state-of-the-art integration methods"
+    tags: [competitions, multimodal-integration, benchmarking]
+    status: supported
+    confidence: 0.8
+    domain: methods / benchmarking / single-cell
   - slug: single-cell-snapshot-trajectories-confound-cell
     title: "Single-cell snapshot trajectories confound cell flux with population-size changes"
     tags: [single-cell, trajectory-inference, population-dynamics, conceptual]
@@ -13231,6 +13348,10 @@ foundations:
     title: "ComBat — empirical Bayes batch effect correction"
     status: mainstream
     domain: methods / batch-correction / bulk-and-single-cell
+  - slug: common-task-framework
+    title: "Common task framework"
+    status: mainstream
+    domain: benchmarking / meta-science
   - slug: conch-pathology-foundation-model
     title: "CONCH — pathology vision-language foundation model"
     status: mainstream
@@ -15608,6 +15729,10 @@ foundations:
     title: "VHL — Von Hippel-Lindau tumor suppressor / E3 ubiquitin ligase"
     status: mainstream
     domain: molecular-biology / hypoxia-signaling / oncology
+  - slug: viash-component-framework
+    title: "Viash component framework"
+    status: mainstream
+    domain: bioinformatics / reproducible-pipelines
   - slug: von-willebrand-factor-vwf
     title: "Von Willebrand factor (vWF / Vwf)"
     status: mainstream

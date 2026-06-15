@@ -4,7 +4,7 @@ affiliation: "Gene Regulatory Observatory, Broad Institute of MIT and Harvard; M
 role: individual
 group: "Pinello Lab"
 institution: "Broad Institute / MGH"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -13,7 +13,7 @@ tags:
   - benchmarking
 homepage: ""
 scholar: ""
-date_updated: 2026-05-21
+date_updated: 2026-06-15
 ---
 
 ## Research areas
@@ -25,6 +25,7 @@ date_updated: 2026-05-21
 ## Key papers in vault
 
 - [[papers/systematic-benchmarking-computational-methods-identify-spatially]] — co-first author (with Zain M. Patel)
+- [[papers/defining-benchmarking-open-problems-single-cell]] (2025, co-author, *Nat. Biotechnol.*) — Open Problems platform.
 
 ## Recent work
 

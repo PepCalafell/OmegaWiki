@@ -111,6 +111,11 @@ _Auto-generated open questions. Do not edit._
 - [paper/decode-deep-learning-based-common-deconvolution] Would independent third-party benchmarking confirm the cross-omics SOTA claims?
 - [paper/decode-deep-learning-based-common-deconvolution] How does accuracy degrade as the unknown-cell-type fraction grows large?
 - [paper/decode-deep-learning-based-common-deconvolution] Could non-uniform (Dirichlet) proportion sampling better match real tissue distributions and improve transfer?
+- [paper/defining-benchmarking-open-problems-single-cell] How best to expand the task set and metric pool with sustained community participation while keeping quality high.
+- [paper/defining-benchmarking-open-problems-single-cell] Whether competition-driven, metric-optimised solutions translate to real-world single-cell analysis.
+- [paper/defining-benchmarking-open-problems-single-cell] How much the neutral-hosting model actually reduces self-assessment inflation versus registered reports.
+- [paper/defining-benchmarking-open-problems-single-cell] In which regimes model complexity genuinely beats simple baselines for single-cell tasks.
+- [paper/defining-benchmarking-open-problems-single-cell] Governance: how to prevent platform-level metric bias as the maintainer set grows.
 - [paper/delineation-signaling-routes-underlie-differences-macrophage] What are the precise activities and clinical roles of PKCα, PKACα, PAK2, PDPK1, and LRRK2 in immunosuppressive macrophages?
 - [paper/delineation-signaling-routes-underlie-differences-macrophage] Can rational signaling rewiring reprogram macrophage states in the TME?
 - [paper/delineation-signaling-routes-underlie-differences-macrophage] How best to expand state-specific macrophage biomarkers from unbiased proteomic signatures?

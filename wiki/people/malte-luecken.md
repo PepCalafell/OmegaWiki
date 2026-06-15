@@ -10,10 +10,10 @@ tags:
   - benchmarking
   - Human-Cell-Atlas
   - methods
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
-date_updated: 2026-05-22
+date_updated: 2026-06-15
 ---
 
 ## Background
@@ -29,6 +29,7 @@ Malte D. Luecken is a senior scientist in Fabian Theis's group at Helmholtz Zent
 ## Key papers in vault
 
 - [[papers/benchmarking-atlas-level-data-integration-single]] (2022, first author) — the scIB benchmark.
+- [[papers/defining-benchmarking-open-problems-single-cell]] (2025, co-first author, *Nat. Biotechnol.*) — Open Problems living benchmarking platform.
 
 ## External links
 

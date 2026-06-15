@@ -4,7 +4,7 @@ affiliation: "Institute for Computational Biomedicine, Heidelberg University & H
 role: pi
 group: "Saez-Rodriguez Lab (saezlab)"
 institution: "Heidelberg University"
-papers_in_vault: 1
+papers_in_vault: 2
 relevance_tier: emerging
 manual_override:
 tags:
@@ -15,7 +15,7 @@ tags:
   - PI
 homepage: "https://saezlab.org/"
 scholar: ""
-date_updated: 2026-06-04
+date_updated: 2026-06-15
 ---
 
 ## Research areas
@@ -27,6 +27,7 @@ date_updated: 2026-06-04
 ## Key papers in vault
 
 - [[papers/interpretable-inflammation-landscape-circulating-immune-cells]] — co-author; provided functional-inference framework (Nature Medicine 2026)
+- [[papers/defining-benchmarking-open-problems-single-cell]] (2025, co-author, *Nat. Biotechnol.*) — Open Problems platform; LIANA/CCC task contributor.
 
 ## Recent work
 

@@ -19,3 +19,4 @@
 {"from": "papers/integrated-time-series-analysis-high-content", "to": "papers/jak-stat-signaling-maintains-homeostasis-cells", "type": "cites", "source": "semantic_scholar", "date": "2026-06-04"}
 {"from": "papers/interpretable-inflammation-landscape-circulating-immune-cells", "to": "papers/benchmarking-atlas-level-data-integration-single", "type": "cites", "source": "semantic_scholar", "date": "2026-06-04"}
 {"from": "papers/immune-dictionary-immune-response-enrichment-analysis", "to": "papers/dictionary-immune-responses-cytokines-single-cell", "type": "cites", "source": "manual", "date": "2026-06-04"}
+{"from": "papers/defining-benchmarking-open-problems-single-cell", "to": "papers/benchmarking-atlas-level-data-integration-single", "type": "cites", "source": "semantic_scholar", "date": "2026-06-15"}

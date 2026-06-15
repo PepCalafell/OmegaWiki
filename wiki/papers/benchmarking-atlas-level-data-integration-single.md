@@ -121,6 +121,7 @@ data_availability: "scIB Python module + Snakemake pipeline; 23 published datase
 code_url: "https://github.com/theislab/scib ; https://github.com/theislab/scib-pipeline"
 cited_by:
   - interpretable-inflammation-landscape-circulating-immune-cells
+  - defining-benchmarking-open-problems-single-cell
 ---
 
 ## Problem
@@ -268,6 +269,7 @@ This is the foundational benchmark for atlas-level scRNA-seq integration and sha
 - [[foundations/trvae-conditional-vae]]
 - [[foundations/seurat-v3-integration]]
 - [[foundations/scib-benchmark-pipeline]]
+- [[papers/defining-benchmarking-open-problems-single-cell]] — the living-benchmark successor (Open Problems) that builds on and absorbs this benchmark as a task.
 - [[foundations/snakemake-workflow]]
 - [[foundations/kbet-batch-test]]
 - [[foundations/lisi-local-inverse-simpson]]
