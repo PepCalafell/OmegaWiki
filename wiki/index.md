@@ -79,6 +79,12 @@ papers:
     importance: 4
     domain: oncology
     priority: core
+  - slug: convergent-genetic-adaptation-human-tumors-developed
+    title: "Convergent Genetic Adaptation in Human Tumors Developed Under Systemic Hypoxia and in Populations Living at High Altitudes"
+    tags: [hypoxia, EPAS1, HIF2A, PPGL, convergent-evolution, tumor-evolution, high-altitude]
+    importance: 4
+    domain: oncology
+    priority: core
   - slug: cross-tissue-single-cell-landscape-human
     title: "Cross-tissue single-cell landscape of human monocytes and macrophages in health and disease"
     tags: [macrophage, monocyte, dendritic-cell, mononuclear-phagocyte, single-cell, scRNA-seq, atlas, cross-tissue, tumor-microenvironment, immunology, cancer, immunosuppression, reference-mapping]
@@ -896,6 +902,10 @@ concepts:
     title: "Continuous disease-progression modeling"
     tags: [disease-progression, trajectory, case-control, reproducibility]
     maturity: emerging
+  - slug: convergent-epas1-adaptation-high-altitude-populations
+    title: "Convergent EPAS1 adaptation in high-altitude populations and hypoxic tumors"
+    tags: [hypoxia, EPAS1, tumor-evolution, convergent-evolution]
+    maturity: emerging
   - slug: core-versus-subset-specific-isg-programs
     title: "Core versus cell-type-specific ISG programs"
     tags: [interferon, ISG, cell-type-specificity]
@@ -904,6 +914,10 @@ concepts:
     title: "Cori cycle and tumour-driven host metabolic rewiring"
     tags: [cachexia, oncology, metabolism, cori-cycle]
     maturity: active
+  - slug: cox4i2-isoform-switch-balances-oxygen-consumption
+    title: "COX4I2 isoform switch balances oxygen consumption under hypoxia"
+    tags: [COX4I2, electron-transport-chain, hypoxia, mitochondria, EPAS1]
+    maturity: emerging
   - slug: crc-stemness-metaprogram
     title: "CRC stemness metaprogram (LGR5/PROM1/ASCL2)"
     tags: [crc, colorectal-cancer, stemness, metaprogram, lgr5, intestinal-stem-cell, scrna-seq]
@@ -999,6 +1013,10 @@ concepts:
   - slug: designed-protein-excited-states-kinetic-control
     title: "Design of protein excited states for kinetic control"
     tags: [protein-design, kinetics, strain-energy, structural-frustration, transition-states]
+    maturity: emerging
+  - slug: developmental-time-window-systemic-hypoxia-tumorigenesis
+    title: "Developmental time window of systemic hypoxia tumorigenesis"
+    tags: [hypoxia, development, chromaffin-cell, PPGL, tumorigenesis]
     maturity: emerging
   - slug: dia-ms-pan-cancer-proteomics-approach
     title: "Single-shot DIA-MS as a pan-cancer proteomics approach"
@@ -1109,6 +1127,10 @@ concepts:
     maturity: emerging
   - slug: enhancer-driven-gene-regulatory-network-eregulon
     title: "Enhancer-driven gene regulatory network (eRegulon)"
+    maturity: active
+  - slug: epas1-gain-function-oxygen-degradation-domain
+    title: "EPAS1 gain-of-function oxygen-degradation-domain missense mutation"
+    tags: [EPAS1, HIF2A, gain-of-function, PPGL]
     maturity: active
   - slug: epigenetic-cgas-sting-silencing-immune-evasion
     title: "Epigenetic cGAS/STING silencing as a tumor immune-evasion mechanism"
@@ -2580,6 +2602,9 @@ people:
   - slug: carlos-de-la-calle-fabregat
     tags: [immunology, epigenetics, macrophage, hypoxia, postdoc]
     affiliation: "INSERM UMR1015, Gustave Roussy Cancer Campus, Villejuif, France; previously Josep Carreras Leukaemia Research Institute (IJC), Badalona, Spain"
+  - slug: carlota-arenillas
+    tags: [PPGL, hypoxia, cancer-genomics]
+    affiliation: "Vall d'Hebron Institute of Oncology (VHIO), Barcelona, Spain"
   - slug: carolina-m-polonio
     tags: [AHR, neuroimmunology, tryptophan-metabolism]
     affiliation: "Brigham and Women's Hospital, Harvard Medical School"
@@ -3057,6 +3082,9 @@ people:
   - slug: pascal-falter-braun
     tags: [interactome, systems-biology, microbiome, plant-microbe]
     affiliation: "Helmholtz Munich / LMU Munich"
+  - slug: patricia-dahia
+    tags: [PPGL, hypoxia, cancer-genetics, EPAS1]
+    affiliation: "Mays Cancer Center, University of Texas Health Science Center, San Antonio, Texas"
   - slug: patrick-b-ampomah
     tags: [efferocytosis, macrophage, resolution, atherosclerosis, DNMT3A, epigenetics]
     affiliation: "Columbia University Irving Medical Center; Novartis Institutes for BioMedical Research"
@@ -3135,6 +3163,9 @@ people:
   - slug: robrecht-cannoodt
     tags: [single-cell, reproducible-pipelines, benchmarking]
     affiliation: "Data Intuitive / VIB-UGent"
+  - slug: rodrigo-toledo
+    tags: [PPGL, hypoxia, cancer-genomics, HIF2A]
+    affiliation: "Vall d'Hebron Institute of Oncology (VHIO), Barcelona, Spain"
   - slug: roel-polak
     tags: [organoids, oncology, paediatric-oncology, tumour-immune-microenvironment]
     affiliation: "Stanford University School of Medicine; Princess Máxima Center for Pediatric Oncology, Utrecht"
@@ -4617,6 +4648,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: oncology
+  - slug: cchd-ppgl-more-aggressive-younger-multiple
+    title: "CCHD-PPGL is younger-onset, more multifocal, and more metastatic"
+    tags: [PPGL, hypoxia, clinical-outcomes]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: cci-interaction-strength-decays-distance-long
     title: "GITIII recapitulates distance-decay of CCI strength and identifies long-range interactions missed by fixed-neighbourhood methods"
     tags: [cell-cell-interaction, spatial-transcriptomics, long-range-interaction]
@@ -5895,6 +5932,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: pharmacology / epigenomics
+  - slug: early-heart-repair-surgery-restoring-normoxia
+    title: "Early heart-repair surgery restoring normoxia is associated with reduced PPGL risk"
+    tags: [hypoxia, prevention, CCHD, PPGL]
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology
   - slug: ebf1-expressed-binding-motif-across-three-tissue-clusters-e11-embryo
     title: "EBF1 is expressed and its binding motif is enriched at hypomethylated VMRs across three distinct E11 embryo tissue clusters (heart, brain/spinal cord, craniofacial)"
     tags: [EBF1, TF-motif, hypomethylated-VMR, cross-tissue, TET2]
@@ -6171,6 +6214,78 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: epas1-cox4i2-co-expressed-immature-chromaffin
+    title: "EPAS1 and COX4I2 are co-expressed in immature chromaffin cells, fetal-like in tumors"
+    tags: [development, chromaffin-cell, COX4I2, EPAS1]
+    status: supported
+    confidence: 0.75
+    domain: cell biology
+  - slug: epas1-gain-function-induces-cox4i2-reduces
+    title: "EPAS1 gain-of-function induces COX4I2 and reduces oxygen consumption"
+    tags: [COX4I2, EPAS1, respiration, mechanism]
+    status: supported
+    confidence: 0.8
+    domain: cell biology
+  - slug: epas1-hif2alpha-activation-upregulates-cox4i2-across
+    title: "EPAS1-HIF2α activation upregulates COX4I2 across independent cohorts"
+    tags: [COX4I2, EPAS1, transcriptomics]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: epas1-mutated-ppgl-tumors-show-elevated
+    title: "EPAS1-mutated PPGL tumors show elevated fumarate and reduced succinate"
+    tags: [oncometabolites, fumarate, succinate, EPAS1]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: epas1-mutation-frequency-20-fold-higher
+    title: "EPAS1 mutation frequency is 20-fold higher in hypoxic than normoxic PPGL"
+    tags: [EPAS1, PPGL, hypoxia]
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: epas1-mutations-absent-parasympathetic-carotid-body
+    title: "EPAS1 mutations are absent in parasympathetic carotid-body PPGL"
+    tags: [EPAS1, PPGL, tissue-specificity]
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: epas1-mutations-clonal-trunk-tumor-initiating
+    title: "EPAS1 mutations are clonal trunk tumor-initiating events in PPGL"
+    tags: [EPAS1, clonality, tumor-initiation]
+    status: supported
+    confidence: 0.85
+    domain: genomics
+  - slug: epas1-mutations-cluster-oxygen-dependent-degradation
+    title: "EPAS1 mutations cluster in the HIF2α oxygen-dependent degradation domain"
+    tags: [EPAS1, HIF2A, gain-of-function]
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: epas1-only-gene-under-strong-positive
+    title: "EPAS1 is the only gene under strong positive selection in CCHD-PPGL"
+    tags: [EPAS1, positive-selection, PPGL]
+    status: supported
+    confidence: 0.85
+    domain: genomics
+  - slug: epas1-prevalence-cchd-ppgl-parallels-tibetan
+    title: "EPAS1 prevalence in CCHD-PPGL parallels Tibetan/Sherpa highlanders"
+    tags: [EPAS1, convergent-evolution, high-altitude]
+    status: supported
+    confidence: 0.8
+    domain: genomics
+  - slug: epas1-somatic-mutations-most-sympathetic-cchd
+    title: "EPAS1 somatic mutations occur in most sympathetic CCHD-PPGL tumors"
+    tags: [EPAS1, PPGL, hypoxia]
+    status: supported
+    confidence: 0.9
+    domain: oncology
+  - slug: epas1-somatic-mutations-near-absent-across
+    title: "EPAS1 somatic mutations are nearly absent across other cancer types"
+    tags: [EPAS1, pan-cancer]
+    status: supported
+    confidence: 0.9
+    domain: genomics
   - slug: epigenetic-sting-silencing-many-cancers
     title: "Tumor cells most commonly silence cGAS/STING epigenetically (DNMT/EZH2/KDM5) rather than by mutation"
     tags: [epigenetics, cgas-sting, immune-evasion, dnmt, ezh2, kdm5]
@@ -7521,6 +7636,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology
+  - slug: hypoxia-since-birth-favors-sympathetic-ppgl
+    title: "Hypoxia since birth favors sympathetic PPGL; childhood-onset favors parasympathetic"
+    tags: [hypoxia, development, PPGL, timing]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: hypoxia-sirpa-cd47-paradox-colon-cancer-phagocytosis
     title: "In colon cancer, hypoxia decreases macrophage SIRPα while increasing tumor CD47, paradoxically enhancing phagocytosis"
     tags: [SIRPα, SIRPA, CD47, hypoxia, phagocytosis, colon-cancer, paradoxical-effect, dual-edged-hypoxia, immune-checkpoint]
@@ -8517,6 +8638,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology / clinical methodology
+  - slug: lower-oxygen-saturation-associates-ppgl-development
+    title: "Lower oxygen saturation associates with PPGL development in CCHD"
+    tags: [hypoxia, SatO2, PPGL]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: lowering-granularity-alone-insufficient-mcrigor-essential
     title: "Lowering granularity alone is insufficient; coarse partition + mcRigor filtering beats a naively fine partition"
     tags: [single-cell, metacell, mcRigor, granularity, statistical-power]
@@ -10419,6 +10546,12 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: immunology
+  - slug: prolonged-hypoxia-increases-dna-damage-reduces
+    title: "Prolonged hypoxia increases DNA damage and reduces PARP1 in PC12 cells"
+    tags: [hypoxia, DNA-damage, PARP1, in-vitro]
+    status: supported
+    confidence: 0.8
+    domain: cell biology
   - slug: promoters-hypoxia-induced-myeloid-genes-enriched
     title: "Promoters of hypoxia-induced myeloid genes are enriched for HIF, RUNX, NF-κB, AP1 motifs"
     tags: [methodological, motif-enrichment, HIF, NF-kB, AP1, RUNX]
@@ -11667,6 +11800,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: neuroimmunology / pharmacology / mouse-model
+  - slug: sympathetic-cchd-ppgl-tumors-higher-mutation
+    title: "Sympathetic CCHD-PPGL tumors have higher mutation burden than normoxic PPGL"
+    tags: [TMB, genomic-instability, PPGL, hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: genomics
+  - slug: sympathetic-cchd-ppgl-tumors-show-microsatellite
+    title: "Sympathetic CCHD-PPGL tumors show microsatellite instability and MMR loss"
+    tags: [MSI, DNA-repair, PPGL, hypoxia]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: systemic-hypoxia-depletes-tumor-purine-nucleotides
     title: "Systemic hypoxia depletes purine nucleotides and nucleotide intermediates in tumors"
     tags: [metabolomics, purine, nucleotide, adenine, amp]
@@ -11949,6 +12094,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: lung cancer / clonal evolution
+  - slug: tibetan-epas1-high-altitude-variants-loss
+    title: "Tibetan high-altitude EPAS1 variants are loss-of-function, opposite to tumor mutations"
+    tags: [EPAS1, high-altitude, functional-plasticity]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: tils-trex-clonotypes-recapitulated-in-ali-pdo
     title: "ALI native immune organoids preserve TCR clonotype diversity and tumour-infiltrating T cell repertoires of cognate fresh biopsies"
     tags: [methodological, oncology, organoid, immunotherapy]
@@ -13138,6 +13289,10 @@ foundations:
     title: "Cancer cachexia"
     status: mainstream
     domain: oncology / metabolic disease
+  - slug: cancer-cell-fraction-ccf
+    title: "Cancer cell fraction (CCF)"
+    status: mainstream
+    domain: genomics
   - slug: cancer-finder
     title: "Cancer-Finder"
     status: mainstream
@@ -13348,6 +13503,10 @@ foundations:
     title: "ComBat — empirical Bayes batch effect correction"
     status: mainstream
     domain: methods / batch-correction / bulk-and-single-cell
+  - slug: comet-assay-single-cell-gel-electrophoresis
+    title: "Comet assay (single-cell gel electrophoresis)"
+    status: mainstream
+    domain: methods
   - slug: common-task-framework
     title: "Common task framework"
     status: mainstream
@@ -13372,6 +13531,10 @@ foundations:
     title: "CosMx Spatial Molecular Imager — NanoString in situ multiplex transcriptomics"
     status: mainstream
     domain: molecular-biology / spatial-transcriptomics / methods
+  - slug: cox4i2-cytochrome-oxidase-subunit-isoform
+    title: "COX4I2 (cytochrome c oxidase subunit 4 isoform 2)"
+    status: mainstream
+    domain: cell biology
   - slug: cpi1000-plus-ici-cohort
     title: "CPI1000+ — expanded ICI-treated bulk RNAseq cohort (Litchfield lab)"
     status: mainstream
@@ -13448,6 +13611,10 @@ foundations:
     title: "CXCR3 (chemokine receptor for CXCL9/CXCL10/CXCL11)"
     status: mainstream
     domain: immunology / chemokines
+  - slug: cyanotic-congenital-heart-disease-cchd
+    title: "Cyanotic congenital heart disease (CCHD)"
+    status: mainstream
+    domain: medicine
   - slug: cyba-cytochrome-b245-light-chain
     title: "CYBA — cytochrome b-245 light chain (p22phox)"
     status: mainstream
@@ -13536,6 +13703,10 @@ foundations:
     title: "DMXAA / vadimezan — murine-specific STING agonist"
     status: historical
     domain: pharmacology / STING agonist
+  - slug: dn-ds-positive-selection-inference
+    title: "dN/dS positive selection inference"
+    status: mainstream
+    domain: genomics
   - slug: dnmt1-maintenance-methyltransferase
     title: "DNMT1 — DNA (cytosine-5)-methyltransferase 1 (maintenance)"
     status: mainstream
@@ -13733,6 +13904,10 @@ foundations:
     title: "Galectin-3 (Gal-3, LGALS3, Mac-2) — β-galactoside-binding lectin"
     status: mainstream
     domain: molecular-biology / immunology / oncology
+  - slug: gamma-h2ax-dna-damage-marker
+    title: "γH2AX (DNA damage marker)"
+    status: mainstream
+    domain: cell biology
   - slug: gapdh
     title: "GAPDH — Glyceraldehyde-3-phosphate dehydrogenase"
     status: mainstream
@@ -14510,6 +14685,10 @@ foundations:
     title: "Micro-organosphere (MOS) — droplet-emulsion microfluidic tumour organoid platform"
     status: mainstream
     domain: methods / organoids
+  - slug: microsatellite-instability-msi
+    title: "Microsatellite instability (MSI)"
+    status: mainstream
+    domain: genomics
   - slug: midostaurin
     title: "Midostaurin (PKC412, Rydapt)"
     status: mainstream
@@ -14888,6 +15067,10 @@ foundations:
     title: "PHD — prolyl hydroxylase domain enzymes (PHD1, PHD2, PHD3 / EGLN2, EGLN1, EGLN3)"
     status: mainstream
     domain: molecular-biology / hypoxia-signaling / enzymology
+  - slug: pheochromocytoma-paraganglioma-ppgl
+    title: "Pheochromocytoma and paraganglioma (PPGL)"
+    status: mainstream
+    domain: oncology
   - slug: phf2-histone-demethylase
     title: "PHF2 — PHD finger protein 2 (Jumonji-C histone demethylase)"
     status: mainstream

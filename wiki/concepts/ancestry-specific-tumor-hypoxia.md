@@ -20,6 +20,7 @@ tags:
 maturity: emerging
 key_papers:
   - molecular-landmarks-tumor-hypoxia-across-cancer
+  - convergent-genetic-adaptation-human-tumors-developed
 first_introduced: "Bhandari et al. 2019 Nat Genet"
 date_updated: 2026-05-06
 related_concepts: []

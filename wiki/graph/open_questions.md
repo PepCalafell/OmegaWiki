@@ -88,6 +88,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Are there *single-cell* signatures of layered AHR context specificity (ligand profile × ARNT/ARNT2/iso ratio × AHRR expression × HIF crosstalk) that could be derived from existing scRNA-seq atlases? Relevant for [[concepts/ahr-tam-immunosuppression-tumour]].
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] How does cellular hypoxia (HIF1α/HIF2α-ARNT competition) interact with ligand-degrading enzyme expression to determine net AHR activity in the tumour microenvironment? The crosstalk is mentioned but not synthesised.
 - [paper/complex-biology-aryl-hydrocarbon-receptor-activation] Could pocket-selective AHR ligands (suggested by the vemurafenib example) form a class of "biased AHR agonists" analogous to biased GPCR agonists?
+- [paper/convergent-genetic-adaptation-human-tumors-developed] Why is hypoxia-driven tumorigenesis restricted to sympathetic (adrenal medulla/paraganglia) tissues?
+- [paper/convergent-genetic-adaptation-human-tumors-developed] What is the mechanistic basis of the ~6-fold PPGL risk in CCHD beyond EPAS1?
+- [paper/convergent-genetic-adaptation-human-tumors-developed] Do other stressor-adaptation genes (UV, diet) drive their corresponding cancers?
+- [paper/convergent-genetic-adaptation-human-tumors-developed] Is early surgical normoxia restoration causally protective, or is the association confounded?
+- [paper/convergent-genetic-adaptation-human-tumors-developed] What links hypoxia/HIF2α activation to acquired mismatch-repair loss mechanistically?
+- [paper/convergent-genetic-adaptation-human-tumors-developed] Are EPAS1 ODD alleles uniformly sensitive to HIF2α inhibitors?
 - [paper/cross-tissue-single-cell-landscape-human] What are the precise ligand-receptor pathways by which IL4I1_Macs dampen antitumour T-cell responses, and how do they vary across tumour types? "The precise pathways involved are still unclear and deserve further investigation to fully decipher the T cell/TAM relationship" (p.1897, citing Gordon et al. 2017).
 - [paper/cross-tissue-single-cell-landscape-human] Are the monocyte-derived TAMs (TREM2, IL4I1, proliferating, C1Qhi) the appropriate therapeutic targets, given that they are monocyte-derived and therefore replenishable? Targeting recruitment vs differentiation are distinct strategies.
 - [paper/cross-tissue-single-cell-landscape-human] Is the M1/M2 Mills et al. 2000 paradigm refinable into a state + ontogeny taxonomy that captures the full diversity revealed by MoMac-VERSE?
@@ -807,9 +813,13 @@ _Auto-generated open questions. Do not edit._
 - [concept/compositional-perturbation-generalization] Standardized, independent compositional benchmarks across modalities.
 - [concept/continuous-density-transport] Quantitative benchmarking of CDT maps against ground-truth lineage-tracing flux.
 - [concept/continuous-disease-progression-modeling] Distinguishing genuine progression axes from confounding technical gradients.
+- [concept/convergent-epas1-adaptation-high-altitude-populations] Do UV-adaptation or diet-adaptation genes drive the corresponding cancers (melanoma, metabolic tumors)?
+- [concept/convergent-epas1-adaptation-high-altitude-populations] Mechanistic basis for why convergence is restricted to sympathoadrenal lineage.
 - [concept/cori-cycle-tumor-host-metabolism] Can targeting hepatic gluconeogenesis (metformin? specific GP inhibitors?) reduce host REE without harming tumour control?
 - [concept/cori-cycle-tumor-host-metabolism] Are lactate-shuttle inhibitors (MCT1/MCT4 antagonists) viable CAC therapeutics?
 - [concept/cori-cycle-tumor-host-metabolism] How does the Cori cycle interact with the IL-6/NNMT one-carbon-metabolism axis described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
+- [concept/cox4i2-isoform-switch-balances-oxygen-consumption] Therapeutic exploitability of forcing ETC/oxygen mismatch in EPAS1-mutant tumors
+- [concept/cox4i2-isoform-switch-balances-oxygen-consumption] Quantitative ATP-yield trade-off of the isoform switch
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Does anti-TNF therapy revert PERIVASC I expansion specifically?
 - [concept/cross-disease-perivasc-immune-remodeling-skin] Can PERIVASC I score be used as a transversal disease-activity biomarker?
 - [concept/cross-platform-spatial-meta-community] Statistical calibration of cross-platform community matching
@@ -853,6 +863,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/de-novo-lipogenesis-effector-immune-cells] SCD-MUFA selectivity for GC B cells in vaccine adjuvancy.
 - [concept/designed-protein-excited-states-kinetic-control] A predictive, quantitative map from structure → strain energy → rate acceleration.
 - [concept/designed-protein-excited-states-kinetic-control] Generalizing excited-state design to motors, ratchets, and multi-step machines.
+- [concept/developmental-time-window-systemic-hypoxia-tumorigenesis] Precise molecular gating of the window's closure at chromaffin maturation
+- [concept/developmental-time-window-systemic-hypoxia-tumorigenesis] Whether early surgical normoxia restoration causally lowers tumor risk
 - [concept/dia-ms-pan-cancer-proteomics-approach] Standardisation of DIA pipelines across labs.
 - [concept/dia-ms-pan-cancer-proteomics-approach] Direct DIA on FFPE / formalin-fixed inputs at full sensitivity.
 - [concept/dichotomous-epigenetic-versus-transcriptional-regulation-tr] Whether the two regimes are discrete or a continuum
@@ -887,6 +899,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/efferocytosis-anti-inflammatory-clearance] Whether efferocytosis-engaged macrophages acquire a long-term anti-inflammatory programme or merely a transient state.
 - [concept/efferocytosis-anti-inflammatory-clearance] Reconciling efferocytosis with tumour immune evasion — TAMs that efferocytose may be selectively immunosuppressive in cancer.
 - [concept/eif5a-selective-translation-cell-adhesion-mrnas] A predictive model of hypusine-dependent transcripts from sequence alone.
+- [concept/epas1-gain-function-oxygen-degradation-domain] Allele-specific differences in HIF2α stability and downstream transcriptional output
+- [concept/epas1-gain-function-oxygen-degradation-domain] Whether ODD mutations sensitize uniformly to HIF2α inhibitors
 - [concept/epigenetic-cgas-sting-silencing-immune-evasion] Predictive cutoffs for cGAS/STING protein staining as a biomarker
 - [concept/epigenetic-cgas-sting-silencing-immune-evasion] Whether epigenetic derepression alone is sufficient or always needs a co-stimulus (STING agonist, radiation, MPS1 inhibitor)
 - [concept/epigenome-based-functional-profiling-kinase-inhibitors] Integrating multiple cell types/contexts and clinical efficacy/toxicity data to predict clinical outcomes.
@@ -1555,6 +1569,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/drift-association-test-recovers-canonical-haematopoietic] The drift-association test recovers canonical haematopoietic lineage regulators (status: weakly_supported)
 - [claim/dynamic-optimal-transport-methods-underperform-cell] Dynamic optimal-transport methods underperform at cell-state fate prediction (status: weakly_supported)
 - [claim/dynamo-effective-drugs-induce-le-state-reversal] High-AAC anticancer drugs induce LE→TC state reversal in Dynamo in-silico perturbation, vs low-AAC controls (status: weakly_supported)
+- [claim/early-heart-repair-surgery-restoring-normoxia] Early heart-repair surgery restoring normoxia is associated with reduced PPGL risk (status: weakly_supported)
 - [claim/effector-neighbourhoods-enriched-crohns-not-uc] Effector-targeted network neighbourhoods are enriched for Crohn's disease but not ulcerative colitis (status: weakly_supported)
 - [claim/effector-targets-enriched-gwas-immune-metabolic-disease-variation] Effector-targeted human genes are enriched for GWAS variation in immune and metabolic diseases (status: weakly_supported)
 - [claim/endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps] Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation (status: weakly_supported)

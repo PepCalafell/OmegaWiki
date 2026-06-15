@@ -21,6 +21,7 @@ maturity: stable
 key_papers:
   - tumour-hypoxia-driving-genomic-instability-tumour
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
+  - convergent-genetic-adaptation-human-tumors-developed
 first_introduced: "2003"
 date_updated: 2026-05-13
 related_concepts:

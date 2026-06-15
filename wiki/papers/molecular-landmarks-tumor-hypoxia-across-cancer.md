@@ -214,7 +214,8 @@ data_availability: "TCGA (https://portal.gdc.cancer.gov/), CPC-GENE (ICGC PRAD-C
 
 # === Cross-references ===
 code_url: ""
-cited_by: []
+cited_by:
+  - convergent-genetic-adaptation-human-tumors-developed
 ---
 
 ## Problem
