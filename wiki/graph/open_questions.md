@@ -181,6 +181,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/emerging-strategies-investigate-biology-early-cancer] For solid tumours without clinically defined precursor lesions, what minimal molecular signature can mark "precancerous cells" in single-cell atlases?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Is the immune surveillance-to-evasion switch reversible by current ICI or by pre-CAF/senescent-cell-targeted interception?
 - [paper/emerging-strategies-investigate-biology-early-cancer] Does ecDNA emergence have an analogue in cancers other than EAC?
+- [paper/functional-genetic-screens-reveal-key-pathways] How are metabolic inputs transduced to CIITA/MHC-II-locus chromatin closure?
+- [paper/functional-genetic-screens-reveal-key-pathways] Is TAM phenotype commitment reversible at the single-cell level in vivo?
+- [paper/functional-genetic-screens-reveal-key-pathways] Would relieving tumor hypoxia re-partition TAM phenotypes as the model predicts?
+- [paper/functional-genetic-screens-reveal-key-pathways] Does myeloid ADAR inhibition have a viable therapeutic window given interferon toxicity?
+- [paper/functional-genetic-screens-reveal-key-pathways] Do the LGP dose–combination rules generalize to human TAMs in situ?
+- [paper/functional-genetic-screens-reveal-key-pathways] How does the ISG+ state relate mechanistically to the angiogenic state (the observed paradoxical co-increase)?
 - [paper/genomic-investigation-innate-sensing-pathways-tumor] How and whether PRRs identify self-antigens/neoantigens.
 - [paper/genomic-investigation-innate-sensing-pathways-tumor] Why innate activation is protective in some cancers and hazardous in others.
 - [paper/genomic-investigation-innate-sensing-pathways-tumor] Whether MUC16 mutation-derived protein is a viable vaccine target.
@@ -673,6 +679,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Whether other phagocytic targets (pathogens, debris) likewise contribute methionine to phagocyte epigenetic programs
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Generalisation to other professional phagocytes (DCs, tingible-body B-cell-clearing macrophages, RPE cells)
 - [concept/ac-derived-methionine-sam-macrophage-epigenetics] Cross-talk with histone methylation and small-molecule methylation
+- [concept/adar-isg-tam-reprogramming-antitumor] Durability and safety of myeloid ADAR inhibition in vivo.
+- [concept/adar-isg-tam-reprogramming-antitumor] Whether ISG+ reprogramming synergises with LGP-axis blockade.
 - [concept/adipose-lipolysis-cancer-cachexia] Are β-AR antagonists (e.g., specific β3 antagonists) viable for human CAC, or do they trade adipose preservation against host energy demand?
 - [concept/adipose-lipolysis-cancer-cachexia] Does WAT browning contribute MEANINGFULLY to human CAC REE, or is it a minor/artefactual contributor (current consensus: probably the latter)?
 - [concept/adipose-lipolysis-cancer-cachexia] How does adipose lipolysis interact with the one-carbon metabolism axis (NNMT in adipose) described in [[papers/multi-omics-profiling-cachexia-targeted-tissues]]?
@@ -746,6 +754,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/ancestry-specific-tumor-hypoxia] Validation in non-TCGA cohorts with prospective hypoxia measurement
 - [concept/ancestry-specific-tumor-hypoxia] Does ancestry-specific hypoxia mediate the higher evofosfamide response in Asian-descent MAESTRO subjects (post-hoc finding)
 - [concept/ancestry-specific-tumor-hypoxia] Replication in pediatric cancers and rare tumor types
+- [concept/angiogenic-mhc-ii-tam-mutual-exclusivity] Whether commitment is reversible at the single-cell level in vivo.
+- [concept/angiogenic-mhc-ii-tam-mutual-exclusivity] The transcription-factor logic (ETS/bZIP) that enforces the switch.
 - [concept/arginase-mdsc-arginine-depletion-tcell] Tissue-selective ARG inhibition that spares hepatic urea cycle.
 - [concept/asparagine-tcell-activation-lck-axis] Therapeutic window between Asn-depleting tumour effect and TIL impairment.
 - [concept/atlas-level-data-integration] Reference-mapping (scArches) as an alternative to from-scratch integration.
@@ -1090,6 +1100,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/laser-microablation-transdermal-lnp-delivery] Translating from 3D skin models to in vivo human skin
 - [concept/leucine-allosteric-gdh-glutaminolysis-activation] Quantitative split of glutamine carbon between lipids and nucleotides under this regime.
 - [concept/leucine-allosteric-gdh-glutaminolysis-activation] Whether the leucine→GDH axis is druggable for hypoxia-related disease.
+- [concept/lgp-factor-tam-polarization-axis] Quantitative dose-combination mapping of L/G/P to phenotype fractions.
+- [concept/lgp-factor-tam-polarization-axis] Whether the axis generalises beyond the tumor models tested to human TAMs in situ.
 - [concept/ligand-receptor-free-cell-cell-interaction] Combining L–R-free discovery with curated prior knowledge for biological realism.
 - [concept/ligand-receptor-free-cell-cell-interaction] Distinguishing direct signalling from biomechanical/metabolic confounders.
 - [concept/lipid-rafts-bcr-tcr-signaling] Whether α2,6-sialylation control is a viable handle for psoriasis / atopic dermatitis where Th17 is central.
@@ -1120,6 +1132,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/macrophage-ontogeny-resident-vs-monocyte-derived] Functional consequences of mixed-origin macrophage populations in human disease
 - [concept/manifold-rectification-continuous-virtual-cell-space] Verifying the manifold is genuinely "differentiable" enough for the flow model vs merely smooth.
 - [concept/megakaryocyte-biased-balanced-haematopoiesis-temporal-shift] Disentangling intrinsic HSC kinetic heterogeneity from induction/perturbation effects experimentally.
+- [concept/metabolic-niche-partitioning-tam-phenotype] Higher-resolution (MERFISH-scale) validation of the niche boundaries.
+- [concept/metabolic-niche-partitioning-tam-phenotype] Whether relieving hypoxia in vivo re-partitions TAM phenotypes as the model predicts.
 - [concept/metacell-divergence-score-mcdiv-double-permutation] Whether multiple double-permutation rounds yield more robust detection.
 - [concept/metacell-divergence-score-mcdiv-double-permutation] Extending the statistic to integrate multiple modalities (RNA + ATAC) jointly rather than one modality at a time.
 - [concept/metacell-granularity-optimization-dubrate-zerorate-score] Joint multi-hyperparameter and multi-modality optimization.
@@ -1587,6 +1601,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/fos-ncor2-ppargamma-central-transcription-regulators] FOS, NCOR2, and PPARγ are central transcription regulators of the immunosuppressive M2a macrophage network (status: weakly_supported)
 - [claim/g09-chromosome-1q-cnv-associates-lrrc15] G09 stromal-centric tumors associate with chromosome 1q CNV that tracks LRRC15+ myCAF abundance (status: weakly_supported)
 - [claim/glcnacylation-dynamically-regulated-monocyte-large-cavity] O-GlcNAcylation is dynamically regulated during the monocyte–SCM–CCM–LCM transition (status: proposed)
+- [claim/gm-csf-lactic-acid-cooperatively-induce] GM-CSF and lactic acid cooperatively induce interferon-stimulated genes in macrophages (status: weakly_supported)
 - [claim/gut-microbiota-akkermansia-alistipes-ici-modulation] Gut microbiota composition modulates ICI efficacy in NSCLC: Akkermansia/Ruminococcus/Bifidobacterium enhance response; Alistipes promotes resistance (status: weakly_supported)
 - [claim/haematopoiesis-shifts-early-megakaryocyte-biased-balanced] In vivo haematopoiesis shifts from early megakaryocyte-biased to balanced homeostatic output (status: weakly_supported)
 - [claim/harmony-generalizes-best-among-integration-methods] Harmony generalizes best among integration methods on unseen studies (status: weakly_supported)
@@ -1644,6 +1659,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/meps-show-transient-megakaryocyte-bias-giving] MEPs show transient megakaryocyte bias giving way to balanced erythroid-megakaryocyte output (status: weakly_supported)
 - [claim/metformin-treg-teff-ici-synergy] Metformin enhances ICI efficacy by reducing Treg activity and improving Teff function (status: weakly_supported)
 - [claim/methylmalonic-acid-tgfb-sox4-emt-aged-nsclc-metastasis] Methylmalonic acid promotes EMT, activates TGFβ/SOX4 and enhances metastatic potential in aged NSCLC (status: weakly_supported)
+- [claim/mhc-ii-tam-programs-associate-better] MHC-II TAM programs associate with better survival and angiogenic programs with worse (status: weakly_supported)
 - [claim/mibi-cxcl13-exhausted-t-cells-tls-formation] MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma (status: weakly_supported)
 - [claim/microablation-mrna-lnp-transfects-39-percent] Laser microablation plus topical mRNA-LNP transfects 39.1% of basal keratinocytes (skin stem cells) in a 3D ARCI skin model (status: weakly_supported)
 - [claim/microsatellite-instability-high-tumors-reduced-phf2] Microsatellite-instability-high tumors show significantly reduced PHF2 expression (status: weakly_supported)
@@ -1693,6 +1709,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/site-specific-lr-mhc-cd4-cd8-antecubital] Antecubital fossa skin shows site-specific elevation of MHC class I/class II and CD4/CD8 L-R activity, suggesting an adaptive immune setpoint (status: weakly_supported)
 - [claim/sle-shows-opposing-stat1-sp1-activity] SLE shows opposing STAT1 and SP1 activity in monocytes and non-naive CD8 T cells (status: weakly_supported)
 - [claim/sox2-marks-kc-cancer-cells] SOX2 specifically marks keratinocyte cancer cells and is absent in normal epithelium (status: weakly_supported)
+- [claim/spatial-multiomics-links-fao-metabolites-mhc] Spatial multiomics links FAO metabolites to MHC-II niches and lactate prostaglandins to angiogenic niches (status: weakly_supported)
 - [claim/spi1-expression-decreases-under-hypoxia-contributing] Spi1 expression decreases under hypoxia, potentially contributing to P2ry12 downregulation (status: weakly_supported)
 - [claim/spi1-pu-knockout-increases-interferon-stimulated] SPI1/PU.1 knockout unexpectedly increases interferon-stimulated gene expression, suggesting a repressive role at certain ISGs (status: weakly_supported)
 - [claim/src-hypoxia-induced-hif-hif-through] SRC is hypoxia-induced via HIF-1 and HIF-2 through promoter hypoxia-response elements (status: weakly_supported)

@@ -27,8 +27,9 @@ key_papers:
   - hypoxia-driven-crosstalk-between-tumor-tumor
   - hypoxic-microenvironment-cancer-molecular-mechanisms-therapeutic
   - tumor-induced-metabolic-immunosuppression-mechanisms-therapeutic
+  - functional-genetic-screens-reveal-key-pathways
 first_introduced: "Colegio 2014 Nature (lactate → HIF-1α → VEGF/Arg-1 in macrophages); Bohn 2018 Nat Immunol (TAM subset metabolism by lactate); reviewed Bai 2022"
-date_updated: 2026-05-08
+date_updated: 2026-07-23
 related_concepts:
   - tumor-associated-macrophage-immunosuppression
   - m1-m2-polarization-paradigm
@@ -103,6 +104,7 @@ vs lactate effects on T cells: lactate suppresses T-cell function directly, dist
 ## Key papers
 
 - [[papers/hypoxia-driven-crosstalk-between-tumor-tumor]] — Bai et al. 2022 *Molecular Cancer*. Section "Oncometabolites" is the latest synthesis of lactate-driven TAM polarization, including the explicit caveat that most prior work was done in normoxia.
+- [[papers/functional-genetic-screens-reveal-key-pathways]] — Lu et al. 2025 *Cancer Immunol Res*. Shows lactate is necessary but *not sufficient* for the angiogenic phenotype: it must combine with PGE2 (and antagonise GM-CSF) as part of the [[lgp-factor-tam-polarization-axis]].
 
 ## My understanding
 

@@ -163,6 +163,12 @@ papers:
     importance: 4
     domain: oncology
     priority: context
+  - slug: functional-genetic-screens-reveal-key-pathways
+    title: "Functional Genetic Screens Reveal Key Pathways Instructing the Molecular Phenotypes of Tumor-Associated Macrophages"
+    tags: [tumor-associated-macrophage, macrophage-polarization, CRISPR-screen, CROP-seq, spatial-multiomics, hypoxia, lactic-acid, PGE2, GM-CSF, MHC-II, interferon-stimulated-genes, cancer-immunotherapy]
+    importance: 4
+    domain: oncology
+    priority: core
   - slug: genomic-investigation-innate-sensing-pathways-tumor
     title: "Genomic investigation of innate sensing pathways in the tumor microenvironment"
     tags: [innate-immunity, cGAS-STING, TCGA, ssGSEA, tumor-microenvironment, PHF2, PHF8, intratumor-microbiome, colorectal-cancer]
@@ -557,6 +563,10 @@ concepts:
     title: "Apoptotic-cell-derived methionine fuels macrophage SAM and DNA methylation"
     tags: [macrophage, efferocytosis, methionine, SAM, DNA-methylation, one-carbon-metabolism, epigenetics, metabolic-signaling]
     maturity: emerging
+  - slug: adar-isg-tam-reprogramming-antitumor
+    title: "Adar-loss ISG+ TAM reprogramming for antitumor immunity"
+    tags: [TAM, interferon-stimulated-genes, ADAR, macrophage-immunotherapy, CD8-T-cell, anti-PD-1]
+    maturity: emerging
   - slug: adipose-lipolysis-cancer-cachexia
     title: "Adipose-tissue lipolysis in cancer cachexia"
     tags: [cachexia, oncology, metabolism, adipose-tissue]
@@ -697,6 +707,10 @@ concepts:
     title: "Androgen signalling expands progenitor exhausted CD8+ T cells and reduces male ICI efficacy"
     tags: [androgen, sex-differences, cd8-exhaustion, ici-bias, hormone-immunity]
     maturity: active
+  - slug: angiogenic-mhc-ii-tam-mutual-exclusivity
+    title: "Angiogenic vs. MHC-II TAM mutual exclusivity"
+    tags: [TAM, macrophage-heterogeneity, MHC-II, angiogenesis, chromatin-accessibility, pan-cancer]
+    maturity: emerging
   - slug: arginase-mdsc-arginine-depletion-tcell
     title: "MDSC arginase-driven arginine depletion as T-cell immunosuppression"
     tags: [arginine, arg1, mdsc, t-cell-suppression, adi-peg20, immunometabolism]
@@ -1561,6 +1575,10 @@ concepts:
     title: "Leucine accumulation allosterically activates GDH to drive glutaminolysis in hypoxia"
     tags: [hypoxia, leucine, GDH, glutaminolysis, lipogenesis, nucleotide-synthesis]
     maturity: emerging
+  - slug: lgp-factor-tam-polarization-axis
+    title: "LGP-factor axis — lactic acid + GM-CSF + PGE2 combinatorial TAM polarization"
+    tags: [TAM, macrophage-polarization, lactic-acid, PGE2, GM-CSF, tumor-microenvironment, combinatorial-signaling]
+    maturity: emerging
   - slug: ligand-receptor-free-cell-cell-interaction
     title: "Ligand–receptor-free cell–cell interaction inference"
     tags: [cell-cell-interaction, spatial-transcriptomics, self-supervised, methods]
@@ -1637,6 +1655,10 @@ concepts:
     maturity: emerging
   - slug: megakaryocyte-biased-balanced-haematopoiesis-temporal-shift
     title: "Temporal shift from megakaryocyte-biased to balanced haematopoiesis"
+    maturity: emerging
+  - slug: metabolic-niche-partitioning-tam-phenotype
+    title: "Metabolic-niche partitioning of TAM phenotypes"
+    tags: [TAM, tumor-hypoxia, spatial-metabolomics, fatty-acid-oxidation, glycolysis, tumor-microenvironment]
     maturity: emerging
   - slug: metabolomics-deconvolution
     title: "Metabolomics deconvolution"
@@ -2614,6 +2636,9 @@ people:
   - slug: catherine-j-wu
     tags: [cancer-immunology, neoantigen-vaccines, cancer-genomics, immunotherapy, PI, clinician-scientist]
     affiliation: "Department of Medical Oncology, Dana–Farber Cancer Institute; Department of Medicine, Brigham and Women's Hospital, Harvard Medical School; Broad Institute of MIT and Harvard"
+  - slug: ce-luo
+    tags: [computational-biology, single-cell, spatial-omics]
+    affiliation: "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing, China"
   - slug: cenap-gungor
     tags: [pancreatic-cancer, surgical-oncology, tumor-microenvironment, PDAC, hypoxia]
     affiliation: "Department of General, Visceral and Thoracic Surgery, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
@@ -2695,6 +2720,9 @@ people:
   - slug: deisy-morselli-gysi
     tags: [network-science, network-medicine, drug-repurposing]
     affiliation: "Network Science Institute, Northeastern University, Boston, MA, USA; Dept. of Medicine, Brigham and Women's Hospital, Boston"
+  - slug: deng-pan
+    tags: [tumor-immunology, macrophage, CRISPR-screen, cancer-immunotherapy]
+    affiliation: "School of Basic Medical Sciences, State Key Laboratory of Molecular Oncology, Tsinghua University; Tsinghua-Peking Joint Centre for Life Sciences (CLS), Beijing, China"
   - slug: dominic-grun
     tags: [single-cell-genomics, spatial-transcriptomics, computational-biology, niche-analysis, stem-cell-biology, lineage-inference]
     affiliation: "Würzburg Institute of Systems Immunology, Julius-Maximilians-Universität Würzburg, Germany; CAIDAS Center for AI and Data Science, Würzburg, Germany"
@@ -2758,6 +2786,9 @@ people:
   - slug: frederic-geissmann
     tags: [macrophage, tissue-resident-macrophage, immunology, developmental-biology, haematopoiesis, microglia, PI, mononuclear-phagocyte, macrophage-ontogeny]
     affiliation: "Memorial Sloan Kettering Cancer Center, New York, NY, USA; Weill Cornell Graduate School of Medical Sciences, New York, NY, USA"
+  - slug: fubing-wang
+    tags: [laboratory-medicine, clinical-specimens, tumor-immunology]
+    affiliation: "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China"
   - slug: fuduan-peng
     tags: [spatial-transcriptomics, lung-cancer, computational-biology]
     affiliation: "MD Anderson Cancer Center"
@@ -3352,6 +3383,9 @@ people:
   - slug: youqiong-ye
     tags: [cancer-genomics, hypoxia, bioinformatics, pancancer]
     affiliation: "Shanghai Jiao Tong University School of Medicine; formerly UTHealth / MD Anderson"
+  - slug: youxue-lu
+    tags: [tumor-immunology, macrophage, CRISPR-screen]
+    affiliation: "School of Basic Medical Sciences, State Key Laboratory of Molecular Oncology, Tsinghua University, Beijing, China"
   - slug: yuan-wang
     tags: [early-cancer, lineage-tracing, glioma, autochthonous-mouse-models]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
@@ -3367,6 +3401,9 @@ people:
   - slug: zemin-zhang
     tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
     affiliation: "BIOPIC, Peking University, Beijing, China"
+  - slug: zexian-zeng
+    tags: [computational-biology, single-cell, spatial-omics, tumor-immunology]
+    affiliation: "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University; Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies; Tsinghua-Peking CLS, China"
   - slug: zhaoli-liu
     tags: [epigenetics, trained-immunity, bioinformatics]
     affiliation: "Centre for Individualised Infection Medicine (CiiM) / TWINCORE, Hannover"
@@ -3598,6 +3635,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunology / single-cell
+  - slug: adar-myeloid-knockout-enhances-cxcl10-cxcr3
+    title: "Adar myeloid knockout enhances CXCL10-CXCR3 and CD40-CD40L crosstalk and reduces CD8 exhaustion"
+    tags: [Adar, CXCL10, CXCR3, CD40, CD8-exhaustion]
+    status: supported
+    confidence: 0.75
+    domain: immunology
   - slug: adcp-induces-proangiogenic-tam-program
     title: "Antibody-dependent cellular phagocytosis (ADCP) induces an anti-inflammatory, pro-angiogenic program in macrophages"
     tags: [adcp, phagocytosis, angiogenesis, tam-feedback]
@@ -4042,6 +4085,18 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology / immunology
+  - slug: angiogenic-mhc-ii-tam-programs-mutually
+    title: "Angiogenic and MHC-II TAM programs are mutually exclusive and conserved pan-cancer"
+    tags: [TAM, macrophage-heterogeneity, MHC-II, angiogenesis, pan-cancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: angiogenic-tams-reside-hypoxic-pimonidazole-positive
+    title: "Angiogenic TAMs reside in hypoxic pimonidazole-positive niches while MHC-II TAMs occupy normoxic areas"
+    tags: [hypoxia, pimonidazole, TAM, spatial-niche]
+    status: supported
+    confidence: 0.85
+    domain: oncology
   - slug: anti-ccl2-rebound-clinical-failure
     title: "Anti-CCL2 antibodies fail clinically because free CCL2 rebounds within 1 week of dosing"
     tags: [ccl2, ccr2, tam-recruitment, clinical-trials, pharmacokinetics]
@@ -5362,6 +5417,12 @@ claims:
     status: weakly_supported
     confidence: 0.6
     domain: oncology / immuno-oncology
+  - slug: crispr-screen-identifies-hif1a-ptger4-csf2ra
+    title: "CRISPR screen identifies Hif1a Ptger4 Csf2ra Adar and SWI-SNF as angiogenic phenotype regulators"
+    tags: [CRISPR-screen, Hif1a, Ptger4, Csf2ra, Adar, SWI-SNF]
+    status: supported
+    confidence: 0.85
+    domain: genomics
   - slug: cross-platform-melanocyte-meta-community
     title: "A melanocyte-enriched spatial meta-community is reproducible across platforms and enriched in melanoma"
     tags: [spatial-omics, community, melanoma, niche]
@@ -6754,6 +6815,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: T-cell biology / autoimmunity
+  - slug: gm-csf-lactic-acid-cooperatively-induce
+    title: "GM-CSF and lactic acid cooperatively induce interferon-stimulated genes in macrophages"
+    tags: [GM-CSF, lactic-acid, ISG, interferon]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: gpcca-estimator-coarse-grains-markov-chain
     title: "GPCCA coarse-grains the cell–cell Markov chain into macrostates, terminal states and fate probabilities"
     tags: [trajectory-inference, gpcca, markov-chain, cellrank]
@@ -8284,6 +8351,12 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: immunology
+  - slug: isg-tam-signature-correlates-effector-cd8
+    title: "ISG TAM signature correlates with effector CD8 T cell signature across cancers"
+    tags: [ISG, TAM, CD8-T-cell, antitumor-immunity]
+    status: supported
+    confidence: 0.7
+    domain: immunology
   - slug: isoallolca-3oxolca-rebalance-treg-th17-via-foxp3-rorgt
     title: "IsoalloLCA induces Treg via mitochondrial ROS / NR4A1-Foxp3; 3-oxoLCA antagonizes RORγt to block Th17"
     tags: [bile-acid, isoallolca, 3-oxolca, treg, th17, foxp3, rorgt, nr4a1]
@@ -8500,12 +8573,36 @@ claims:
     status: supported
     confidence: 0.8
     domain: cancer metabolism
+  - slug: lactate-pge2-antagonize-gm-csf-repress
+    title: "Lactate and PGE2 antagonize GM-CSF to repress MHC-II genes Cd74 and Ciita"
+    tags: [lactic-acid, PGE2, GM-CSF, MHC-II, antagonism]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: lactate-pge2-close-gm-csf-induced
+    title: "Lactate and PGE2 close GM-CSF-induced ETS-family motif open chromatin sites"
+    tags: [ATAC-seq, chromatin, ETS-motif, GM-CSF, antagonism]
+    status: supported
+    confidence: 0.75
+    domain: epigenetics
+  - slug: lactate-pge2-cooperatively-induce-glycolysis-hypoxia
+    title: "Lactate and PGE2 cooperatively induce glycolysis and hypoxia angiogenic genes in macrophages"
+    tags: [lactic-acid, PGE2, glycolysis, hypoxia, angiogenesis]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: lactate-tam-m2-polarization-hif1a-pka-creb
     title: "Tumor-derived lactate drives TAM M2 polarization via HIF-1α and via GPCR/PKA-CREB; synergizes with hypoxia"
     tags: [lactate, lactic-acid, TAM, M2-polarization, HIF-1α, PKA-CREB, oncometabolite, hypoxia, VEGFA, ARG1]
     status: supported
     confidence: 0.85
     domain: oncology / metabolism / immunology
+  - slug: lactic-acid-gm-csf-pge2-together
+    title: "Lactic acid GM-CSF and PGE2 together are necessary and sufficient for angiogenic ARG1 macrophage polarization"
+    tags: [LGP, macrophage-polarization, ARG1, lactic-acid, PGE2, GM-CSF]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: late-epigenetic-reprogramming-after-bcg-occurs
     title: "A 'late' epigenetic reprogramming after BCG develops mostly after day 14"
     tags: [bcg, dna-methylation, late-effect, temporal-dynamics]
@@ -9100,6 +9197,18 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunometabolism / pharmacology
+  - slug: mhc-ii-tam-programs-associate-better
+    title: "MHC-II TAM programs associate with better survival and angiogenic programs with worse"
+    tags: [TAM, survival, TCGA, prognosis]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
+  - slug: mhc-ii-tams-carry-far-more
+    title: "MHC-II TAMs carry far more accessible chromatin sites than angiogenic TAMs in vivo"
+    tags: [ATAC-seq, chromatin-accessibility, TAM, plasticity]
+    status: supported
+    confidence: 0.75
+    domain: epigenetics
   - slug: mibi-cxcl13-exhausted-t-cells-tls-formation
     title: "MIBI suggests CXCL13+ exhausted T cells drive tertiary lymphoid structure formation in immune-infiltrated melanoma"
     tags: [mechanistic, oncology, organoid, immunotherapy]
@@ -9556,6 +9665,12 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunometabolism
+  - slug: myeloid-adar-knockout-expands-isg-tams
+    title: "Myeloid Adar knockout expands ISG TAMs slows tumor growth and enhances anti-PD-1 response"
+    tags: [Adar, ISG, anti-PD-1, tumor-growth, immunotherapy]
+    status: supported
+    confidence: 0.8
+    domain: immunology
   - slug: myeloid-cells-most-transcriptionally-affected-populations
     title: "Myeloid cells are the most transcriptionally affected populations across COVID-19 sample axes"
     tags: [COVID-19, myeloid, monocytes, transcriptome-wide-impact]
@@ -11434,6 +11549,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: methodology / cohort scale
+  - slug: spatial-multiomics-links-fao-metabolites-mhc
+    title: "Spatial multiomics links FAO metabolites to MHC-II niches and lactate prostaglandins to angiogenic niches"
+    tags: [spatial-multiomics, metabolomics, FAO, lactate, niche]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: spatial-pseudotime-oligodendrogenesis-subpallium-to-pallium-migration
     title: "Spatial pseudotime mapping of DNA-methylation + RNA reveals migration of oligodendrocyte progenitors from subpallium to pallium during E11 oligodendrogenesis"
     tags: [pseudotime, oligodendrogenesis, embryonic-brain, spatial-trajectory]
@@ -12724,6 +12845,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: tumor-conditioned-media-induce-angiogenic-hypoxia
+    title: "Tumor-conditioned media induce angiogenic hypoxia genes and suppress MHC-II interferon genes in macrophages"
+    tags: [TAM, tumor-educated-macrophage, hypoxia, MHC-II]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: tumor-derived-pge2-gm-csf-required
+    title: "Tumor-derived PGE2 and GM-CSF are required to induce the angiogenic TEM phenotype"
+    tags: [PGE2, GM-CSF, Cox2, Csf2, tumor-intrinsic]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: tumor-ecosystem-subtype-prognostic-skcm-brca
     title: "Tumor ecosystem subtype stratifies overall survival in TCGA SKCM (P=2.54×10⁻⁵) and BRCA (P=0.0229)"
     tags: [prognosis, tcga, skcm, brca, ecotype, subtype, survival]
@@ -12760,6 +12893,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunometabolism
+  - slug: tumor-ldha-cox2-double-knockout-increases
+    title: "Tumor Ldha and Cox2 double knockout increases MHC-II and decreases angiogenic TAMs in vivo"
+    tags: [Ldha, Cox2, tumor-intrinsic, TAM, in-vivo]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: tumor-slc1a5-glutamine-competition-ire1a-xbp1-myeloid-suppression
     title: "Tumour SLC1A5 upregulation drives glutamine starvation of myeloid cells, triggering IRE1α-XBP1 ER stress and GPR109A-mediated immunosuppressive polarisation"
     tags: [glutamine, slc1a5, myeloid, ire1a, xbp1, gpr109a, liver-cancer]
@@ -12880,6 +13019,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: regulatory-genomics
+  - slug: vegfa-mhc-ii-mutually-exclusive-patient
+    title: "VEGFA and MHC-II are mutually exclusive in patient TAMs by flow cytometry"
+    tags: [TAM, VEGFA, MHC-II, flow-cytometry]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: vemurafenib-ahr-secondary-pocket-blocks-arnt
     title: "Vemurafenib binds AHR at a distinct pocket, drives nuclear translocation but blocks AHR-ARNT heterodimerisation — i.e. an AHR ligand can dissociate nuclear translocation from canonical XRE transcription"
     tags: [AHR, vemurafenib, BRAF, ligand-pocket, non-canonical, melanoma]
@@ -12910,6 +13055,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunology
+  - slug: vivo-crop-seq-hif1a-knockout-enriches
+    title: "In vivo CROP-seq Hif1a knockout enriches MHC-II TAMs and Ppp2r3c knockout enriches proliferating TAMs"
+    tags: [CROP-seq, Hif1a, Ppp2r3c, Jak1, TAM]
+    status: supported
+    confidence: 0.75
+    domain: genomics
   - slug: vmr-hypomethylation-correlates-cluster-specific-expression
     title: "Spatial cluster-specific gene expression is frequently associated with low DNA methylation at neighbouring VMRs (Runx2 craniofacial, Mapt brain, Trim55 heart)"
     tags: [VMR, DNA-methylation, gene-expression, embryogenesis]
@@ -13042,6 +13193,10 @@ foundations:
     title: "ACLY — ATP-citrate lyase"
     status: mainstream
     domain: lipid metabolism / immunometabolism
+  - slug: adar-rna-editing-enzyme
+    title: "ADAR — adenosine deaminase acting on RNA (A-to-I editing)"
+    status: mainstream
+    domain: RNA biology / innate immunity
   - slug: addmodulescore-seurat
     title: "AddModuleScore (Seurat) — per-cell gene-set average expression score"
     status: mainstream
@@ -13066,6 +13221,10 @@ foundations:
     title: "Adversarial domain adaptation (DANN-style batch alignment)"
     status: mainstream
     domain: methods
+  - slug: afadesi-msi-spatial-metabolomics
+    title: "AFADESI-MSI — air flow-assisted desorption electrospray ionization mass spectrometry imaging"
+    status: mainstream
+    domain: spatial metabolomics / mass spectrometry imaging
   - slug: ahr-ido1-tryptophan-axis
     title: "AHR / IDO1 / IL4I1 tryptophan-degradation immunosuppression axis"
     status: mainstream
@@ -13467,6 +13626,10 @@ foundations:
     title: "CIBERSORTx — bulk deconvolution"
     status: mainstream
     domain: computational-biology / methods
+  - slug: ciita-mhc-ii-transactivator
+    title: "CIITA — class II major histocompatibility complex transactivator"
+    status: mainstream
+    domain: immunology / gene regulation
   - slug: cite-seq-citeseq
     title: "CITE-seq — cellular indexing of transcriptomes and epitopes by sequencing"
     status: mainstream
@@ -14577,6 +14740,10 @@ foundations:
     title: "maftools — Bioconductor toolkit for somatic mutation analysis"
     status: mainstream
     domain: methods / genomics
+  - slug: mageck-crispr-screen-analysis
+    title: "MAGeCK — Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout"
+    status: mainstream
+    domain: genomics / functional genetics
   - slug: maldi-msi-spatial-glycomics
     title: "MALDI-MSI spatial glycomics"
     status: mainstream
@@ -14816,6 +14983,10 @@ foundations:
     status: mainstream
     domain: imaging / spatial-biology
     maturity: established
+  - slug: multivi-multimodal-integration
+    title: "MultiVI — deep generative model for multimodal single-cell/spatial integration"
+    status: mainstream
+    domain: computational biology / multi-omics integration
   - slug: muramyl-dipeptide
     title: "Muramyl dipeptide (MDP)"
     status: mainstream
@@ -15107,6 +15278,10 @@ foundations:
     title: "PILOT (optimal-transport patient trajectory)"
     status: mainstream
     domain: single-cell genomics
+  - slug: pimonidazole-hypoxia-probe
+    title: "Pimonidazole — exogenous hypoxia marker probe"
+    status: mainstream
+    domain: tumor hypoxia / histology
   - slug: pkac-alpha-prkaca
     title: "PKACα — protein kinase A catalytic subunit alpha (PRKACA)"
     status: mainstream
