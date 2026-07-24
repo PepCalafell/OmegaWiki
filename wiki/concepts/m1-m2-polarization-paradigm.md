@@ -34,6 +34,7 @@ key_papers:
   - transcriptome-based-network-analysis-reveals-spectrum
   - regulation-immunity-inflammation-hypoxia-immunological-niches
   - delineation-signaling-routes-underlie-differences-macrophage
+  - irg1-itaconate-rewires-macrophage-lung-tumor
 first_introduced: "Mills, Kincaid et al. 2000 *J Immunol* (M1/M2 framing); refined by Cui & Hacohen 2024 *Nature* Mac-a/b/c/d/e at scRNA-seq resolution"
 date_updated: 2026-06-02
 related_concepts:

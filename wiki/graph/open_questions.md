@@ -276,6 +276,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/interpretable-inflammation-landscape-circulating-immune-cells] Is SP1's role in the IFN-induced program causal or correlative?
 - [paper/interpretable-inflammation-landscape-circulating-immune-cells] Could circulating CD8 STAT1 activity or monocyte CYBA serve as prospective flare/subtype biomarkers?
 - [paper/interpretable-inflammation-landscape-circulating-immune-cells] Would a VAE with stronger regularization match Harmony's cross-study robustness?
+- [paper/irg1-itaconate-rewires-macrophage-lung-tumor] What controls IRG1 downregulation during lung tumor progression?
+- [paper/irg1-itaconate-rewires-macrophage-lung-tumor] Does PPP/G6PD sensitivity vary across lung cancer genetic subtypes?
+- [paper/irg1-itaconate-rewires-macrophage-lung-tumor] What are the transporters governing itaconate movement in/out of cells?
+- [paper/irg1-itaconate-rewires-macrophage-lung-tumor] Can a co-crystal structure confirm the non-covalent itaconate–G6PD pocket?
+- [paper/irg1-itaconate-rewires-macrophage-lung-tumor] What is the therapeutic window for Octyl Ita given systemic G6PD's role in redox homeostasis (e.g. hemolysis risk)?
+- [paper/irg1-itaconate-rewires-macrophage-lung-tumor] How is direct tumor-cell action reconciled quantitatively with paracrine/macrophage contributions in vivo?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What is the role of perturbed baseline JAK-STAT signaling in human disease (inborn errors of immunity, inflammatory disorders, cancer)?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] Which specific cell-extrinsic ligands and source cell types trigger baseline JAK-STAT in the spleen tissue context?
 - [paper/jak-stat-signaling-maintains-homeostasis-cells] What non-ISGF3 protein complexes does IRF9 form to regulate ISGF3-independent targets?
@@ -1058,6 +1064,10 @@ _Auto-generated open questions. Do not edit._
 - [concept/intraductal-cribriform-carcinoma] Whether pre-malignant lesions (HGPIN) progress preferentially to IDC-CA in hypoxic regions
 - [concept/intrinsic-vs-extrinsic-cell-state-determinants] Quantitative apportionment of intrinsic vs extrinsic variance per gene per cell type in vivo.
 - [concept/intrinsic-vs-extrinsic-cell-state-determinants] Time-resolved spatial data needed to disentangle persistence of niche-induced state changes.
+- [concept/irg1-itaconate-context-dependent-tumor-role] What tissue features determine the direction of itaconate's tumor effect.
+- [concept/irg1-itaconate-context-dependent-tumor-role] Whether itaconate-derivative therapy can be safely targeted to anti-tumor contexts.
+- [concept/irg1-itaconate-g6pd-pentose-phosphate-pathway] Structural basis and specificity of non-covalent itaconate–G6PD binding.
+- [concept/irg1-itaconate-g6pd-pentose-phosphate-pathway] Extent of PPP/G6PD dependence across additional lung cancer subtypes.
 - [concept/isgf3-independent-irf9-function] IP-MS / proximity-labeling to identify IRF9 partners under homeostasis.
 - [concept/isgf3-independent-irf9-function] Test whether STAT3 or STAT5 KO abolishes the IRF9-only target subset.
 - [concept/isgf3-independent-irf9-function] Determine if ISGF3-independent IRF9 has analogous roles in human macrophages and TILs.
@@ -1327,6 +1337,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/secondary-cytokine-response-cascade] Temporal resolution of primary vs secondary waves
 - [concept/secondary-cytokine-response-cascade] Quantifying cascade depth (tertiary and higher orders)
 - [concept/secondary-cytokine-response-cascade] Disentangling cascades in dense tissue / tumor niches
+- [concept/secreted-itaconate-non-cell-autonomous-tumor] Transporters governing itaconate import into recipient cells.
+- [concept/secreted-itaconate-non-cell-autonomous-tumor] Whether OXGR1 receptor signaling contributes alongside direct intracellular G6PD inhibition.
 - [concept/senescent-cells-promote-early-tumorigenesis] Specificity of senolytic agents to tumour-promoting senescent populations
 - [concept/senescent-cells-promote-early-tumorigenesis] Whether epithelial senescence at the precancer stage is uniformly tumour-promoting
 - [concept/single-cell-proteomics-mass-spec] Reducing missingness without sacrificing throughput.
@@ -1534,6 +1546,7 @@ _Auto-generated open questions. Do not edit._
 - [concept/wgcna-protein-coexpression-cancer-hubs] Wet-lab validation of hub-protein dependency across cancer types.
 - [concept/wgcna-protein-coexpression-cancer-hubs] Integration with single-cell co-expression networks.
 - [claim/6d-tam-atlas-rational-design] A 6D TAM atlas (causal drivers / spatial niches / temporal dynamics / signaling state / metabolism / ontogeny) is required for rational TAM-targeted therapy design (status: proposed)
+- [claim/abcg2-itaconate-opposite-prognostic-value-lung] ABCG2/itaconate has opposite prognostic value in lung/breast versus colorectal/gastric cancers (status: weakly_supported)
 - [claim/acetate-induces-breg-il10-via-acetyl-coa-tca] Acetate induces IL-10⁺ Breg differentiation via conversion to acetyl-CoA, TCA-cycle fuelling, and protein acetylation (status: weakly_supported)
 - [claim/adult-skin-f3-frc-like-fibroblasts] Adult skin F3 FRC-like fibroblasts may arise from a prenatal LTo gene program (prenatal skin CCL19+ cells ≈ intestinal mLTo) (status: weakly_supported)
 - [claim/ahr-klf6-cps1-h1k34-homocitrullination-pad2] AHR ligand activation recruits an AHR-KLF6 complex to non-canonical XREs (NC-XREs); KLF6 recruits CPS1, driving homocitrullination of histone H1K34 and induction of peptidyl-arginine-deiminase 2 (PAD2) — a histone-carbamylation arm of AHR signalling (status: weakly_supported)
@@ -1611,6 +1624,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/heuristic-deseq2-power-analysis-values-concordant] Heuristic DESeq2 power-analysis p-values are broadly concordant with full PyDESeq2 (status: weakly_supported)
 - [claim/hgp-value-is-network-era-not-catalogue] The HGP's lasting value is the network era of genomics it enabled, not the protein catalogue itself (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/high-g6pd-predicts-worse-survival-high] High G6PD predicts worse survival and high ABCG2 predicts better survival in lung adenocarcinoma (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/high-mscore-correlates-worse-survival-reduced] High Mscore correlates with worse overall survival and reduced ICB response (14% vs 44%) (status: weakly_supported)
 - [claim/higher-altitude-correlates-lower-cancer-mortality] Higher county-level elevation is associated with lower age-adjusted cancer mortality in the US (status: weakly_supported)
@@ -1664,6 +1678,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/microablation-mrna-lnp-transfects-39-percent] Laser microablation plus topical mRNA-LNP transfects 39.1% of basal keratinocytes (skin stem cells) in a 3D ARCI skin model (status: weakly_supported)
 - [claim/microsatellite-instability-high-tumors-reduced-phf2] Microsatellite-instability-high tumors show significantly reduced PHF2 expression (status: weakly_supported)
 - [claim/mite144-disturbs-canonical-m1-m2-axis-coexpressing-inflammatory-hypoxia] Effective MiTE-144 therapy co-induces TAM 'inflammatory monocyte-like' and 'hypoxia' modules — challenging simple M1-vs-M2 dichotomies (status: weakly_supported)
+- [claim/molecular-docking-predicts-itaconate-binds-g6pd] Molecular docking predicts itaconate and Octyl itaconate bind the G6PD active site (status: weakly_supported)
 - [claim/molecular-rash-stratification-matches-dupilumab-clinical] Molecular stratification of indeterminate rashes matched dupilumab clinical response (status: weakly_supported)
 - [claim/mos-icb-response-correlates-with-clinical] Microfluidic MOS reaggregation of bulk colorectal tumours preserves infiltrating immune populations and correlates in vitro and clinical responses to anti-PD1 and bispecifics (status: weakly_supported)
 - [claim/mscore-independent-prognostic-indicator-inversely-correlated] Mscore is an independent prognostic indicator (HR=1.92) inversely correlated with TMB and TNB (status: weakly_supported)
@@ -1692,6 +1707,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/pseudodynamics-recovers-synthetic-differentiation-rate-pearson] pseudodynamics+ recovers synthetic differentiation rate at average Pearson 0.81 (status: weakly_supported)
 - [claim/pseudodynamics-solves-single-cell-advection-reaction] pseudodynamics+ solves the single-cell advection-reaction-diffusion PDE without pseudotime discretization via a PINN (status: weakly_supported)
 - [claim/pthrp-detection-nsclc-lower-lbm-higher-ree] NSCLC patients with detectable circulating PTHrP have lower LBM and higher REE; PTHrP induces UCP1 in adipocyte cultures (status: weakly_supported)
+- [claim/reduced-ribose-production-rather-than-nadph] Reduced ribose production, not NADPH depletion, is the primary driver of growth suppression (status: weakly_supported)
 - [claim/relative-transcriptional-abundance-complementary-route-rapid] Relative transcriptional abundance (transcription exceeding promoter accessibility) is a complementary route to rapid immune gene upregulation (status: weakly_supported)
 - [claim/rho-gtpase-pathway-genes-rise-microglia] Rho GTPase pathway genes rise progressively in microglia along the Alzheimer trajectory (status: weakly_supported)
 - [claim/rs11886530-exerts-cis-eqtl-npas2-trans] rs11886530 exerts a cis-eQTL on NPAS2 and a trans-eQTL on circadian NR1D1 (status: weakly_supported)

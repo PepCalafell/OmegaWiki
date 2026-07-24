@@ -11,6 +11,7 @@ maturity: active
 key_papers:
   - macrophages-targets-next-generation-cancer-immunotherapy
   - macrophages-use-apoptotic-cell-derived-methionine
+  - irg1-itaconate-rewires-macrophage-lung-tumor
 first_introduced: "2013"
 date_updated: 2026-05-27
 related_concepts:

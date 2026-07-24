@@ -19,6 +19,7 @@ key_papers:
   - metabolism-tissue-macrophages-homeostasis-pathology
   - macrophages-targets-next-generation-cancer-immunotherapy
   - hif-regulates-mitochondrial-function-bone-marrow
+  - irg1-itaconate-rewires-macrophage-lung-tumor
 related_concepts:
   - m1-m2-polarization-paradigm
   - hif-dependent-glycolysis-immune-cell-differentiation

@@ -188,6 +188,7 @@ data_availability: "Mouse scRNA-seq and ATAC-seq deposited at GEO (accession in 
 code_url: ""
 cited_by:
   - trem2-macrophages-associated-enhanced-response-pd
+  - irg1-itaconate-rewires-macrophage-lung-tumor
 ---
 
 ## Problem
@@ -336,3 +337,4 @@ A landmark paper for the field of cancer macrophage biology and a critical refer
 - [[foundations/scrna-seq-10x-chromium]] — primary transcriptomic platform
 - [[papers/cross-tissue-single-cell-landscape-human]] — Mulder 2021 MoMac-VERSE provides the pan-cancer reference atlas where TREM2 TAM is cluster #3; complementary to the NSCLC-specific niche mechanism here
 - [[papers/nf-kb-tet2-promote-macrophage-reprogramming]] — Calafell 2024 MAC reprogramming under hypoxia is mechanistically orthogonal but contextually related (hypoxic mMAC1 is monocyte-derived and maps to MDM territory)
+- [[papers/irg1-itaconate-rewires-macrophage-lung-tumor]] — Mansouri 2026 cites this paper's observation that monocyte-derived macrophages dominate advanced lesions and Irg1 declines with progression; complementary lung-TAM biology (IRG1/itaconate-G6PD axis)
