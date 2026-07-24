@@ -29,8 +29,9 @@ key_papers:
   - atlas-scale-metabolic-activities-inferred-single
   - characterization-hypoxia-associated-molecular-features-aid
   - regulation-immunity-inflammation-hypoxia-immunological-niches
+  - oxygen-independent-expression-hif-during-cell
 first_introduced: "Warburg 1924; HIF link Semenza 1990s"
-date_updated: 2026-05-13
+date_updated: 2026-07-24
 related_concepts:
   - lactate-driven-tam-m2-polarization
   - pseudohypoxia-oncogene-induced-hif-activation

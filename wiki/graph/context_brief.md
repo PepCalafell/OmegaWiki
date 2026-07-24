@@ -2,7 +2,7 @@
 
 _Auto-generated compressed context. Do not edit._
 
-## Claims (1646 total)
+## Claims (1656 total)
 - [supported] Ligand-bound AHR acts as a CUL4B E3 ubiquitin ligase that targets substrates for proteasomal degradation (conf: 0.8)
 - [supported] AHR–ARNT heterodimer binds 5'-TNGCGTG-3' XRE/DRE motifs to drive target gene transcription (conf: 0.95)
 - [supported] Cancer cells over-express IDO1 and TDO2 to produce kynurenine, which activates AHR and suppresses antitumour immunity (conf: 0.9)
@@ -29,7 +29,7 @@ _Auto-generated open questions. Do not edit._
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Do CD8⁺ tissue-resident memory T cells, central to tapinarof's "remittive effect", behave the same way in IBD or atopic dermatitis?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] Can the AHR-driven Th17 → Tr1 conversion be pharmacologically enforced as an autoimmunity therapy?
 - [paper/aryl-hydrocarbon-receptor-rehabilitated-target-therapeutic] How does the AHR-HIF1α competition for ARNT affect tumour macrophage biology in [[hypoxia-pd-l1-tam-immune-eva
-## Papers (93 total)
+## Papers (94 total)
 - [4] Tumour and microenvironment crosstalk in NSCLC progression and response to therapy (oncology)
 - [4] The complex biology of aryl hydrocarbon receptor activation in cancer and beyond (oncology)
 - [4] The hypoxia-driven crosstalk between tumor and tumor-associated macrophages: mechanisms and clinical treatment strategies (oncology / immunology / hypoxia)
@@ -45,13 +45,13 @@ _Auto-generated open questions. Do not edit._
 - [4] Lipid metabolism in homeostasis and disease (immunology / immunometabolism / lipid biology)
 - [4] Long-term DNA methylation changes mediate heterologous cytokine responses after BCG vaccination (epigenetics)
 - [4] Multi-omics profiling of cachexia-targeted tissues reveals a spatio-temporally coordinated response to cancer (metabolism / oncology / cachexia)
-## Recent Relationships (3537 total)
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --complementary_to--> papers/tissue-resident-macrophages-provide-pro-tumorigenic
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/endogenous-itaconate-spatially-depleted-within-lung
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/macrophages-primary-irg1-expressing-cells-lung
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/irg1-knockout-increases-lung-tumor-growth
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/hematopoietic-irg1-deficiency-accelerates-lung-tumor
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/irg1-loss-shifts-tumor-associated-macrophages
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/octyl-itaconate-reduces-lung-tumor-growth
-  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/octyl-itaconate-inhibits-lung-cancer-proliferation
-  paper
+## Recent Relationships (3554 total)
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/pro-inflammatory-macrophages-high-irg1-itaconate
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/endogenous-irg1-itaconate-suppresses-g6pd-activity
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/macrophage-secreted-itaconate-exported-abcg2-mediates
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/irg1-loss-raises-octyl-itaconate-lowers
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/human-irg1-positive-tams-show-lower
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/high-g6pd-predicts-worse-survival-high
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/abcg2-itaconate-opposite-prognostic-value-lung
+  papers/irg1-itaconate-rewires-macrophage-lung-tumor --supports--> claims/itaconate-ppp-effects-nrf2-independent-cancer
+  papers/oxygen-independent-expression

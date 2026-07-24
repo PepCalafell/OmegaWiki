@@ -436,6 +436,12 @@ _Auto-generated open questions. Do not edit._
 - [paper/novae-graph-based-foundation-model-spatial] Out-of-distribution generalisation to unseen tissues / panels / proteomics modalities.
 - [paper/novae-graph-based-foundation-model-spatial] Whether prototypes can be safely shared across modalities (transcriptomics + proteomics + H&E).
 - [paper/novae-graph-based-foundation-model-spatial] Therapeutic relevance of D497 reduction and D492 TLS niche in larger HNSCC cohorts.
+- [paper/oxygen-independent-expression-hif-during-cell] Which coactivator/isoform differences make HCC (but not HeLa) cells normoxia-dependent on HIF-1α?
+- [paper/oxygen-independent-expression-hif-during-cell] Does HIF-1α directly regulate cell-cycle/replication-licensing genes, and how does the G2/M pulse couple to metabolite demand at G1/S?
+- [paper/oxygen-independent-expression-hif-during-cell] Can oxygen-level-dependent HIF-1 signatures define cell-type-specific intervention strategies in HCC?
+- [paper/oxygen-independent-expression-hif-during-cell] Is normoxic HIF-1α-maintained glycolysis/cholesterol reflected in measurable glucose flux, lactate output, or sterol synthesis in HCC under normoxia?
+- [paper/oxygen-independent-expression-hif-during-cell] What fraction of an asynchronous normoxic HCC population carries active HIF-1 at any instant, and is the pulse quantitatively sufficient for the observed proteome dependency?
+- [paper/oxygen-independent-expression-hif-during-cell] Is normoxic HIF-1α-dependent cholesterol supply a druggable HCC vulnerability independent of tumor oxygenation?
 - [paper/pairwise-cytokine-code-explains-organism-wide] What fills the unexplained ~48% of LPS cellular effects beyond the three cytokine pairs?
 - [paper/pairwise-cytokine-code-explains-organism-wide] Are the direct cellular targets of each cytokine pair separable from indirect ones?
 - [paper/pairwise-cytokine-code-explains-organism-wide] What molecular pathway rewiring (MAPK / NF-κB / IRF / JAK-STAT) underlies the synergy and antagonism?
@@ -965,6 +971,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Order of TF arrival in time: ChIP-seq is steady-state; live single-cell or sequential ChIP would reveal whether HIF1α primes or merely co-occupies.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether the ~15% cobinding is enriched at C2-demethylated CpGs specifically or at other regulatory elements.
 - [concept/hif1a-nf-kb-cooperative-chromatin-binding] Whether other hypoxic TFs (HIF2α, EPAS1) participate in this cobinding pattern.
+- [concept/hif1a-normoxic-metabolic-dependency-hcc] Whether normoxic HIF-1α-dependent cholesterol supply is druggable in HCC without hypoxia-targeting
+- [concept/hif1a-normoxic-metabolic-dependency-hcc] Contribution of HIF-1-dependent amino-acid/glucose transporter induction to the growth phenotype
 - [concept/holistic-tme-based-pan-cancer-tumor] Stability of the scheme as new cancer types/platforms are added.
 - [concept/hspc-differentiation-multiomics] Better LT-HSC markers across human populations.
 - [concept/hspc-differentiation-multiomics] Linking the multi-omics hierarchy to functional readouts (LTC-IC, xenografts) gene-by-gene rather than population-by-population.
@@ -1233,6 +1241,8 @@ _Auto-generated open questions. Do not edit._
 - [concept/noncoding-variant-tf-binding-effect] Building a TF-wide PADIT-seq atlas for variant interpretation
 - [concept/noncoding-variant-tf-binding-effect] Integrating OBS variant scoring with MPRA expression data at scale
 - [concept/noncoding-variant-tf-binding-effect] Quantifying cumulative effects of multiple linked variants on the same enhancer
+- [concept/normoxic-cell-cycle-dependent-hif1a-hcc] Which E3-ligase step is blocked, and how CDK1 activity gates it
+- [concept/normoxic-cell-cycle-dependent-hif1a-hcc] Whether the pulse synchronizes metabolism to specific cell-cycle checkpoints (G1/S metabolite demand)
 - [concept/nutrient-competition-tumor-immune-cells-tme] Localised nutrient restoration (e.g. intratumoural methionine, glutamine, arginine-producing bacteria).
 - [concept/nutrient-competition-tumor-immune-cells-tme] Identifying the dominant scarcity axis per tumour entity.
 - [concept/obesity-paradox-tam-pd1-glycolysis] Whether targeted TAM-PD-1 modulation benefits lean patients.
@@ -1624,6 +1634,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/heuristic-deseq2-power-analysis-values-concordant] Heuristic DESeq2 power-analysis p-values are broadly concordant with full PyDESeq2 (status: weakly_supported)
 - [claim/hgp-value-is-network-era-not-catalogue] The HGP's lasting value is the network era of genomics it enabled, not the protein catalogue itself (status: weakly_supported)
 - [claim/hif1a-binds-earlier-than-p65-cobound-peaks] HIF1α binds cobound peaks earlier than p65 — HIF1α priming hypothesis on shared enhancers (status: weakly_supported)
+- [claim/hif1a-downregulates-mcm-replication-licensing-normoxia-hcc] HIF-1α downregulates DNA-replication-licensing proteins (e.g. MCM3) under normoxia in HCC but not HeLa (status: weakly_supported)
 - [claim/high-g6pd-predicts-worse-survival-high] High G6PD predicts worse survival and high ABCG2 predicts better survival in lung adenocarcinoma (status: weakly_supported)
 - [claim/high-hypoxia-score-worse-sorafenib-prognosis-nsclc] High hypoxia score predicts worse prognosis after sorafenib treatment in advanced NSCLC (status: weakly_supported)
 - [claim/high-mscore-correlates-worse-survival-reduced] High Mscore correlates with worse overall survival and reduced ICB response (14% vs 44%) (status: weakly_supported)
@@ -1688,6 +1699,7 @@ _Auto-generated open questions. Do not edit._
 - [claim/nfkb-dimer-composition-determines-tam-m1-m2] NF-κB dimer composition (p50-p50 vs p65-p50) determines whether TAMs polarize toward M1 or M2 (status: weakly_supported)
 - [claim/nico-applicable-slide-seqv2-cerebellum-purkinje-bergmann] NiCo applied to Slide-seqV2 mouse cerebellum (10 µm pixels) recovers the canonical Purkinje neuron–Bergmann glial cell interaction and detects covarying calcium-signaling secretory programs from Bergmann glia to Purkinje neurons, demonstrating generalizability to sequencing-based spatial transcriptomics when per-pixel cell-type assignments are available (status: weakly_supported)
 - [claim/nonmetastatic-breast-tumors-higher-cell-pvl] Nonmetastatic breast tumors have higher T-cell and PVL and lower B-cell abundance than metastatic (status: weakly_supported)
+- [claim/normoxic-hif1a-stabilized-by-ubiquitination-block-not-hydroxylation] Normoxic cell-cycle HIF-1α is stabilized by blocked ubiquitination, not loss of proline hydroxylation (status: weakly_supported)
 - [claim/notch3-stromal-tumour-invasion-tgfb-nsclc] NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature (status: weakly_supported)
 - [claim/ogt-deficiency-rewires-macrophage-metabolism-induces] Ogt deficiency rewires LCM metabolism and induces a senescence-like phenotype with G2/M arrest (status: proposed)
 - [claim/ogt-inhibition-increases-macrophage-costimulation-cell] Pharmacological OGT inhibition increases macrophage co-stimulatory molecules and T cell proliferation in co-culture (status: proposed)

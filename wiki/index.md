@@ -367,6 +367,12 @@ papers:
     importance: 4
     domain: methods / spatial-transcriptomics / oncology
     priority: secondary
+  - slug: oxygen-independent-expression-hif-during-cell
+    title: "Oxygen-independent expression of HIF-1α during the cell cycle in hepatocellular carcinoma cells controls essential metabolic pathways under normoxia"
+    tags: [HIF1a, hypoxia, normoxia, hepatocellular-carcinoma, cell-cycle, CDK1, glycolysis, cholesterol, steroid-biosynthesis, proteomics, CRISPR-knockout, cancer-metabolism]
+    importance: 3
+    domain: oncology / hypoxia-signaling / cancer-metabolism
+    priority: context
   - slug: pairwise-cytokine-code-explains-organism-wide
     title: "A pairwise cytokine code explains the organism-wide response to sepsis"
     tags: [sepsis, cytokines, TNF, IL-18, IFN-gamma, IL-1-beta, organism-wide, multi-tissue, topic-model, spatial-transcriptomics, immunology]
@@ -1289,6 +1295,10 @@ concepts:
     title: "HIF1α/NF-κB cooperative chromatin binding"
     tags: [transcription-factor, chromatin, hypoxia, inflammation, HIF1a, NF-kB]
     maturity: emerging
+  - slug: hif1a-normoxic-metabolic-dependency-hcc
+    title: "HIF-1α-dependent normoxic metabolic reprogramming in hepatocellular carcinoma"
+    tags: [HIF1a, hypoxia, normoxia, glycolysis, cholesterol, steroid-biosynthesis, hepatocellular-carcinoma, cancer-metabolism]
+    maturity: emerging
   - slug: hirisa-human-interferon-response-immune-subsets
     title: "HIRISA — Human Interferon Response in Immune Subsets Atlas"
     tags: [interferon, immune-atlas, scRNA-seq, resource]
@@ -1513,13 +1523,13 @@ concepts:
     title: "Intrinsic vs extrinsic determinants of cell state"
     tags: [cell-state, gene-regulatory-networks, cell-cell-communication, spatial-transcriptomics]
     maturity: active
-  - slug: irg1-itaconate-g6pd-pentose-phosphate-pathway
-    title: "IRG1/itaconate–G6PD–pentose phosphate pathway inhibition axis"
-    tags: [immunometabolism, itaconate, pentose-phosphate-pathway, G6PD, macrophage, lung-cancer]
-    maturity: emerging
   - slug: irg1-itaconate-context-dependent-tumor-role
     title: "Context-dependent tumor role of the IRG1/itaconate pathway"
     tags: [itaconate, tumor-microenvironment, context-dependence, immunometabolism, prognosis]
+    maturity: emerging
+  - slug: irg1-itaconate-g6pd-pentose-phosphate-pathway
+    title: "IRG1/itaconate–G6PD–pentose phosphate pathway inhibition axis"
+    tags: [immunometabolism, itaconate, pentose-phosphate-pathway, G6PD, macrophage, lung-cancer]
     maturity: emerging
   - slug: isgf3-independent-irf9-function
     title: "ISGF3-independent transcriptional functions of IRF9"
@@ -1851,6 +1861,10 @@ concepts:
     title: "Noncoding variant effects on TF binding (multi-site additive model)"
     tags: [GWAS, noncoding-variant, transcription-factor, variant-effect-prediction, regulatory-genomics]
     maturity: emerging
+  - slug: normoxic-cell-cycle-dependent-hif1a-hcc
+    title: "Cell-cycle-dependent transient normoxic HIF-1α stabilization in HCC"
+    tags: [HIF1a, hypoxia, normoxia, cell-cycle, CDK1, hepatocellular-carcinoma, oxygen-independent]
+    maturity: emerging
   - slug: notch3-stromal-tumour-invasion
     title: "NOTCH3 stromal signalling driving CAF–pericyte–endothelial crosstalk and NSCLC invasion"
     tags: [notch3, stromal-signalling, caf, pericyte, tgfb, nsclc-invasion]
@@ -2097,10 +2111,6 @@ concepts:
     title: "scRNAseq atlas as a reference for query-to-atlas projection"
     tags: [scRNA-seq, atlas, projection, reference-mapping, cell-type-prediction, methodological]
     maturity: stable
-  - slug: secreted-itaconate-non-cell-autonomous-tumor
-    title: "Secreted itaconate as a non-cell-autonomous tumor suppressor"
-    tags: [itaconate, macrophage, paracrine-signaling, tumor-microenvironment, lung-cancer]
-    maturity: emerging
   - slug: scrna-derived-lasso-cox-prognostic-signature
     title: "scRNA-derived LASSO-Cox prognostic signature (single-cell to bulk-survival pipeline)"
     tags: [prognostic-model, LASSO-Cox, scRNA-seq, bulk-RNA-seq, gene-signature, survival-analysis, TCGA, methodology]
@@ -2108,6 +2118,10 @@ concepts:
   - slug: secondary-cytokine-response-cascade
     title: "Secondary cytokine response cascade (indirect signaling)"
     tags: [cytokines, signaling-cascade, indirect-response, cell-cell-communication]
+    maturity: emerging
+  - slug: secreted-itaconate-non-cell-autonomous-tumor
+    title: "Secreted itaconate as a non-cell-autonomous tumor suppressor"
+    tags: [itaconate, macrophage, paracrine-signaling, tumor-microenvironment, lung-cancer]
     maturity: emerging
   - slug: senescent-cells-promote-early-tumorigenesis
     title: "Senescent cells promote early tumorigenesis"
@@ -2681,6 +2695,9 @@ people:
   - slug: christiane-opitz
     tags: [AHR, tryptophan-metabolism, kynurenine, IL4I1, tumour-immunometabolism, glioblastoma, DKFZ]
     affiliation: "German Cancer Research Center (DKFZ), Heidelberg; Neurology Clinic and National Center for Tumor Diseases, Heidelberg"
+  - slug: christina-arseni
+    tags: [HIF1a, hypoxia-signaling, hepatocellular-carcinoma, cell-cycle, biochemistry]
+    affiliation: "Laboratory of Biochemistry, Faculty of Medicine, University of Thessaly, Larissa, Greece"
   - slug: christoph-bock
     tags: [epigenomics, single-cell, methods, immunology, jak-stat, dna-methylation, cancer]
     affiliation: "CeMM Research Center for Molecular Medicine, Austrian Academy of Sciences; Medical University of Vienna"
@@ -2804,12 +2821,12 @@ people:
   - slug: francisco-j-quintana
     tags: [AHR, neuroimmunology, multiple-sclerosis, tryptophan-metabolism, astrocyte, microglia, regulatory-T-cells]
     affiliation: "Brigham and Women's Hospital, Harvard Medical School"
-  - slug: friedrich-grimminger
-    tags: [lung-cancer, pulmonary-hypertension, respiratory-medicine, translational-oncology]
-    affiliation: "Institute for Lung Health (ILH) & Department of Internal Medicine, DZL/CPI, Justus Liebig University, Giessen, Germany"
   - slug: frederic-geissmann
     tags: [macrophage, tissue-resident-macrophage, immunology, developmental-biology, haematopoiesis, microglia, PI, mononuclear-phagocyte, macrophage-ontogeny]
     affiliation: "Memorial Sloan Kettering Cancer Center, New York, NY, USA; Weill Cornell Graduate School of Medical Sciences, New York, NY, USA"
+  - slug: friedrich-grimminger
+    tags: [lung-cancer, pulmonary-hypertension, respiratory-medicine, translational-oncology]
+    affiliation: "Institute for Lung Health (ILH) & Department of Internal Medicine, DZL/CPI, Justus Liebig University, Giessen, Germany"
   - slug: fubing-wang
     tags: [laboratory-medicine, clinical-specimens, tumor-immunology]
     affiliation: "Department of Laboratory Medicine, Zhongnan Hospital of Wuhan University, Wuhan, China"
@@ -2825,6 +2842,9 @@ people:
   - slug: georg-seelig
     tags: [molecular-programming, synthetic-biology, single-cell-genomics, immune-engineering]
     affiliation: "University of Washington / Botnar Institute for Immune Engineering"
+  - slug: george-simos
+    tags: [HIF1a, hypoxia-signaling, hepatocellular-carcinoma, biochemistry, oncology]
+    affiliation: "Laboratory of Biochemistry, Faculty of Medicine, University of Thessaly, Larissa, Greece; Gerald Bronfman Department of Oncology, McGill University, Montreal, Canada"
   - slug: gioacchino-natoli
     tags: [macrophages, enhancers, inflammation, chromatin, transcription-factors, innate-immunity]
     affiliation: "Department of Experimental Oncology, IEO, European Institute of Oncology IRCCS, Milan, Italy"
@@ -2873,6 +2893,12 @@ people:
   - slug: ido-amit
     tags: [systems-immunology, single-cell-genomics, PIC-seq, macrophage, tumor-immunology, microglia, dendritic-cell]
     affiliation: "Department of Systems Immunology, Weizmann Institute of Science, Rehovot, Israel"
+  - slug: ilias-mylonis
+    tags: [HIF1a, hypoxia-signaling, hepatocellular-carcinoma, cell-cycle, biochemistry]
+    affiliation: "Laboratory of Biochemistry, Faculty of Medicine, University of Thessaly, Larissa, Greece"
+  - slug: ioanna-maria-gkotinakou
+    tags: [HIF1a, hypoxia-signaling, hepatocellular-carcinoma, proteomics, biochemistry]
+    affiliation: "Laboratory of Biochemistry, Faculty of Medicine, University of Thessaly, Larissa, Greece"
   - slug: ira-tabas
     tags: [efferocytosis, macrophage, resolution, atherosclerosis, inflammation, lipid-metabolism, DNMT3A]
     affiliation: "Columbia University Irving Medical Center"
@@ -3194,15 +3220,15 @@ people:
   - slug: quan-nguyen
     tags: [spatial-omics, single-cell, computational-biology, cell-cell-interaction]
     affiliation: "QIMR Berghofer; Institute for Molecular Bioscience, University of Queensland"
-  - slug: rajkumar-savai
-    tags: [tumor-associated-macrophages, lung-cancer, immunometabolism, tumor-microenvironment]
-    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, DZL/CPI, Giessen/Bad Nauheim, Germany; Quebec Heart and Lung Institute, Laval University, Canada"
   - slug: quentin-blampey
     tags: [spatial-transcriptomics, graph-neural-networks, foundation-models, single-cell, oncology, software-engineering]
     affiliation: "Université Paris-Saclay, CentraleSupélec, Lab of Mathematics and Computer Science; Université Paris-Saclay, Inserm U981, Gustave Roussy; IHU PRISM, National PRecISion Medicine Center in Oncology"
   - slug: rahul-satija
     tags: [single-cell, genomics, computational-biology, methods]
     affiliation: "New York Genome Center; New York University"
+  - slug: rajkumar-savai
+    tags: [tumor-associated-macrophages, lung-cancer, immunometabolism, tumor-microenvironment]
+    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, DZL/CPI, Giessen/Bad Nauheim, Germany; Quebec Heart and Lung Institute, Laval University, Canada"
   - slug: ran-zhou
     tags: [early-cancer, lineage-tracing]
     affiliation: "Department of Neurosurgery, State Key Laboratory of Biotherapy and Cancer Center, West China Hospital, Sichuan University, Chengdu, China"
@@ -3266,27 +3292,27 @@ people:
   - slug: shenbin-liu
     tags: [neuroimmunology, sympathetic-nervous-system, atopic-dermatitis, psychological-stress, eosinophil]
     affiliation: "State Key Laboratory of Brain Function and Disorders, MOE Frontiers Center for Brain Science, Institutes of Brain Science, Department of Neurosurgery, Huashan Hospital; Department of Integrative Medicine and Neurobiology, School of Basic Medical Sciences; Institute of Acupuncture Research, Institutes of Integrative Medicine, Fudan University, Shanghai, China"
-  - slug: siavash-mansouri
-    tags: [immunometabolism, tumor-associated-macrophages, lung-cancer]
-    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, Giessen/Bad Nauheim, Germany"
   - slug: shishang-qin
     tags: [single-cell, pan-cancer, tumor-microenvironment, oncology]
     affiliation: "BIOPIC, Peking University, Beijing, China"
-  - slug: soni-savai-pullamsetti
-    tags: [lung-cancer, pulmonary-hypertension, epigenetics, tumor-microenvironment]
-    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, DZL/CPI, Giessen/Bad Nauheim, Germany"
   - slug: shubham-khetan
     tags: [transcription-factor, DNA-binding, PADIT-seq, regulatory-genomics, noncoding-variants]
     affiliation: "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA"
   - slug: shunsuke-kitajima
     tags: [cancer-immunotherapy, lung-cancer, oncology, tumor-microenvironment]
     affiliation: "Japanese Foundation for Cancer Research, Tokyo, Japan"
+  - slug: siavash-mansouri
+    tags: [immunometabolism, tumor-associated-macrophages, lung-cancer]
+    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, Giessen/Bad Nauheim, Germany"
   - slug: sidharth-v-puram
     tags: [hnscc, head-and-neck-cancer, scrna-seq, partial-emt, oncology]
     affiliation: "Washington University in St. Louis"
   - slug: smita-krishnaswamy
     tags: [single-cell, machine-learning, computational-biology, manifold-learning]
     affiliation: "Yale University"
+  - slug: soni-savai-pullamsetti
+    tags: [lung-cancer, pulmonary-hypertension, epigenetics, tumor-microenvironment]
+    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, DZL/CPI, Giessen/Bad Nauheim, Germany"
   - slug: soubhik-ghosh
     tags: [immunology, macrophage-biology, tumor-immunology]
     affiliation: "Dartmouth Geisel School of Medicine"
@@ -3329,9 +3355,6 @@ people:
   - slug: tianyi-zhao
     tags: [bioinformatics, deconvolution, deep-learning]
     affiliation: "Harbin Institute of Technology"
-  - slug: ujjwal-neogi
-    tags: [systems-biology, metabolomics, multi-omics, virology]
-    affiliation: "The Systems Virology Lab, Division of Clinical Microbiology, Department of Laboratory Medicine, Karolinska Institutet, Stockholm, Sweden"
   - slug: tiberiu-totu
     tags: [phosphoproteomics, data-curation, network-integration, macrophage]
     affiliation: "Empa & Swiss Institute of Bioinformatics & ETH Zurich"
@@ -3347,12 +3370,12 @@ people:
   - slug: tomi-lazarov
     tags: [macrophage, tissue-resident-macrophage, immunology, developmental-biology, postdoc, mononuclear-phagocyte]
     affiliation: "Memorial Sloan Kettering Cancer Center, New York, NY, USA; Weill Cornell Graduate School of Medical Sciences, New York, NY, USA"
+  - slug: ujjwal-neogi
+    tags: [systems-biology, metabolomics, multi-omics, virology]
+    affiliation: "The Systems Virology Lab, Division of Clinical Microbiology, Department of Laboratory Medicine, Karolinska Institutet, Stockholm, Sweden"
   - slug: veronika-young
     tags: [microbiome, interactome, t3ss]
     affiliation: "Helmholtz Munich"
-  - slug: werner-seeger
-    tags: [lung-disease, pulmonary-hypertension, lung-cancer, respiratory-medicine]
-    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, DZL/CPI, Giessen/Bad Nauheim, Germany"
   - slug: vinayak-bhandari
     tags: [cancer-genomics, hypoxia, prostate-cancer, pancancer, bioinformatics, computational-oncology]
     affiliation: "Department of Medical Biophysics, University of Toronto; Informatics and Biocomputing Program, Ontario Institute for Cancer Research (OICR)"
@@ -3371,6 +3394,9 @@ people:
   - slug: wende-deng
     tags: [immunometabolism, lipid-metabolism, pharmacology]
     affiliation: "Macau University of Science and Technology — State Key Laboratory of Quality Research in Chinese Medicines; School of Pharmacy, Faculty of Medicine"
+  - slug: werner-seeger
+    tags: [lung-disease, pulmonary-hypertension, lung-cancer, respiratory-medicine]
+    affiliation: "Institute for Lung Health (ILH), Justus Liebig University & Max Planck Institute for Heart and Lung Research, DZL/CPI, Giessen/Bad Nauheim, Germany"
   - slug: wolfgang-krebs
     tags: [bioinformatics, macrophage, epigenetics]
     affiliation: "Genomics and Immunoregulation, LIMES-Institute, University of Bonn"
@@ -3614,18 +3640,18 @@ claims:
     status: supported
     confidence: 0.9
     domain: immuno-oncology
-  - slug: abcg2-itaconate-opposite-prognostic-value-lung
-    title: "ABCG2/itaconate has opposite prognostic value in lung/breast versus colorectal/gastric cancers"
-    tags: [ABCG2, itaconate, context-dependence, prognosis, pan-cancer]
-    status: weakly_supported
-    confidence: 0.6
-    domain: oncology
   - slug: 92-percent-gut-pseudomonadota-have-host-directed-secretion-system
     title: "92% of gut Pseudomonadota genomes encode at least one host-directed secretion system"
     tags: [t3ss, t4ss, t6ss, microbiome, comparative-genomics]
     status: supported
     confidence: 0.85
     domain: microbiology
+  - slug: abcg2-itaconate-opposite-prognostic-value-lung
+    title: "ABCG2/itaconate has opposite prognostic value in lung/breast versus colorectal/gastric cancers"
+    tags: [ABCG2, itaconate, context-dependence, prognosis, pan-cancer]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
   - slug: ac-induced-ptgs2-tgfb1-independent-of-extracellular-methionine
     title: "AC-induced Ptgs2 and Tgfb1 in macrophages do not require extracellular methionine in the media — AC-derived methionine is sufficient"
     tags: [methionine, methionine-free-media, efferocytosis, Ptgs2, Tgfb1, BMDM]
@@ -6260,18 +6286,6 @@ claims:
     status: supported
     confidence: 0.8
     domain: oncology
-  - slug: endogenous-itaconate-spatially-depleted-within-lung
-    title: "Endogenous itaconate is spatially depleted within lung tumor regions relative to adjacent non-tumor tissue"
-    tags: [itaconate, spatial-metabolomics, lung-cancer, tumor-microenvironment]
-    status: supported
-    confidence: 0.8
-    domain: oncology
-  - slug: endogenous-irg1-itaconate-suppresses-g6pd-activity
-    title: "Endogenous IRG1/itaconate suppresses G6PD activity in macrophages"
-    tags: [IRG1, G6PD, macrophage, loss-of-function]
-    status: supported
-    confidence: 0.8
-    domain: oncology
   - slug: embedding-outputs-outperform-gene-corrected
     title: "Embedding outputs of integration methods tend to outperform gene-corrected matrix outputs of the same method"
     tags: [data-integration, scRNA-seq, output-type, embeddings]
@@ -6284,6 +6298,18 @@ claims:
     status: supported
     confidence: 0.95
     domain: developmental biology / immunology
+  - slug: endogenous-irg1-itaconate-suppresses-g6pd-activity
+    title: "Endogenous IRG1/itaconate suppresses G6PD activity in macrophages"
+    tags: [IRG1, G6PD, macrophage, loss-of-function]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: endogenous-itaconate-spatially-depleted-within-lung
+    title: "Endogenous itaconate is spatially depleted within lung tumor regions relative to adjacent non-tumor tissue"
+    tags: [itaconate, spatial-metabolomics, lung-cancer, tumor-microenvironment]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: endometrial-organoids-replicate-most-cycle-metabolic-patterns-with-specific-gaps
     title: "Epithelial endometrial organoids replicate most in-vivo cycle-dependent metabolic patterns but diverge in nucleotide salvage and Tn-antigen glycosylation"
     tags: [endometrial-organoids, menstrual-cycle, nucleotide-salvage, Tn-antigen-glycosylation, in-vitro-vs-in-vivo]
@@ -6716,12 +6742,6 @@ claims:
     status: supported
     confidence: 0.85
     domain: methods / benchmarking / single-cell
-  - slug: g6pd-inhibition-underlies-anti-proliferative-effect
-    title: "G6PD inhibition underlies the anti-proliferative effect of Octyl itaconate"
-    tags: [G6PD, epistasis, proliferation, pentose-phosphate-pathway]
-    status: supported
-    confidence: 0.8
-    domain: oncology
   - slug: four-momac-states-hcc-tme-folr2-trem2-fcn1-fcgr2b
     title: "Four monocyte-derived macrophage states (FOLR2, TREM2, FCN1/CXCL9, FCGR2B) plus Kupffer cells partition the HCC TME mo-mac landscape"
     tags: [HCC, mo-mac, macrophage-heterogeneity, FOLR2, TREM2, FCN1, CXCL9, FCGR2B, Kupffer-cell, scRNA-seq]
@@ -6745,6 +6765,12 @@ claims:
     tags: [cnv, caf, g09, genetics, correlational]
     status: weakly_supported
     confidence: 0.6
+    domain: oncology
+  - slug: g6pd-inhibition-underlies-anti-proliferative-effect
+    title: "G6PD inhibition underlies the anti-proliferative effect of Octyl itaconate"
+    tags: [G6PD, epistasis, proliferation, pentose-phosphate-pathway]
+    status: supported
+    confidence: 0.8
     domain: oncology
   - slug: galectin-3-ros-nfkb-hypoxic-tam-not-hif1a
     title: "Galectin-3 in hypoxic TAMs is regulated by ROS-NF-κB rather than HIF-1α"
@@ -6986,12 +7012,6 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: haematopoiesis
-  - slug: hematopoietic-irg1-deficiency-accelerates-lung-tumor
-    title: "Hematopoietic IRG1 deficiency is sufficient to accelerate lung tumor progression"
-    tags: [IRG1, bone-marrow-transplant, macrophage, lung-cancer]
-    status: supported
-    confidence: 0.8
-    domain: oncology
   - slug: harmony-generalizes-best-among-integration-methods
     title: "Harmony generalizes best among integration methods on unseen studies"
     tags: [data-integration, Harmony, generalization, benchmarking]
@@ -7022,6 +7042,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: hypoxia
+  - slug: hematopoietic-irg1-deficiency-accelerates-lung-tumor
+    title: "Hematopoietic IRG1 deficiency is sufficient to accelerate lung tumor progression"
+    tags: [IRG1, bone-marrow-transplant, macrophage, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: hepatic-hif2a-improves-glucose-tolerance-insulin-sensitivity
     title: "Increased hepatic HIF-2α (but not HIF-1α) improves glucose tolerance and insulin sensitivity in a HIF-2α-IRS-2-dependent manner"
     tags: [HIF2A, hepatic-metabolism, glucose-tolerance, insulin-sensitivity, IRS-2, diabetes, liver, HIF1A-vs-HIF2A]
@@ -7202,18 +7228,36 @@ claims:
     status: weakly_supported
     confidence: 0.7
     domain: epigenetics
+  - slug: hif1a-controls-26pct-huh7-proteome-normoxia
+    title: "~26% of the Huh7 proteome is HIF-1α-dependent under normoxia (vs ~10% in HeLa)"
+    tags: [HIF1a, proteomics, normoxia, hepatocellular-carcinoma, quantitative]
+    status: supported
+    confidence: 0.8
+    domain: oncology / proteomics
   - slug: hif1a-deletion-asymmetric-transcriptome-bmdm-vs-tram
     title: "HIF-1α deletion produces large baseline transcriptomic remodelling in BMDMs (305 DEGs) but minimal change in TR-AMs (10 DEGs)"
     tags: [HIF1A, BMDM, TR-AM, RNA-seq, transcriptome, macrophage-ontogeny]
     status: supported
     confidence: 0.9
     domain: immunometabolism / macrophage-biology
+  - slug: hif1a-downregulates-mcm-replication-licensing-normoxia-hcc
+    title: "HIF-1α downregulates DNA-replication-licensing proteins (e.g. MCM3) under normoxia in HCC but not HeLa"
+    tags: [HIF1a, cell-cycle, DNA-replication-licensing, MCM3, normoxia, hepatocellular-carcinoma]
+    status: weakly_supported
+    confidence: 0.6
+    domain: cell biology / hypoxia-signaling
   - slug: hif1a-emt-multidrug-resistance-chemoresistance-cancer
     title: "HIF-1α drives EMT and multidrug resistance in cancer (P-gp/MDR1, miR-27a, miR-421, NF-κB-EMT, Cyclin D1) — a central mediator of treatment failure"
     tags: [HIF1A, EMT, multidrug-resistance, MDR1, P-gp, chemoresistance, miR-27a, miR-421, NF-kB, tumor-progression]
     status: supported
     confidence: 0.85
     domain: oncology / chemoresistance / hypoxia
+  - slug: hif1a-essential-hcc-survival-normoxia
+    title: "HIF-1α is essential for hepatocellular carcinoma cell survival and proliferation even under normoxia"
+    tags: [HIF1a, hepatocellular-carcinoma, normoxia, cell-survival, CRISPR-knockout]
+    status: supported
+    confidence: 0.8
+    domain: oncology / hypoxia-signaling
   - slug: hif1a-glycolysis-required-th17-versus-treg-differentiation
     title: "HIF-1α-dependent glycolysis promotes Th17 differentiation and inhibits Treg differentiation; HIF-1α is required for CD8+ T cell anti-cancer immunity"
     tags: [HIF1A, Th17, Treg, CD8-T-cell, glycolysis, immunometabolism, adaptive-immunity, anti-tumor-immunity]
@@ -7232,6 +7276,24 @@ claims:
     status: supported
     confidence: 0.95
     domain: molecular-biology / metabolism / hypoxia
+  - slug: hif1a-maintains-cholesterol-steroid-biosynthesis-normoxia-hcc
+    title: "HIF-1α maintains steroid/cholesterol biosynthetic enzymes and total cholesterol under normoxia in HCC"
+    tags: [HIF1a, cholesterol, steroid-biosynthesis, normoxia, hepatocellular-carcinoma]
+    status: supported
+    confidence: 0.75
+    domain: oncology / cancer-metabolism
+  - slug: hif1a-maintains-glycolytic-enzymes-normoxia-hcc
+    title: "HIF-1α maintains glycolytic/gluconeogenic enzyme expression under normoxia in HCC cells"
+    tags: [HIF1a, glycolysis, normoxia, hepatocellular-carcinoma, HK2, GAPDH]
+    status: supported
+    confidence: 0.8
+    domain: oncology / cancer-metabolism
+  - slug: hif1a-normoxic-growth-dependency-hcc-specific
+    title: "The normoxic growth dependency on HIF-1α is HCC-specific (Huh7) and absent in HeLa cells"
+    tags: [HIF1a, cell-type-specificity, normoxia, hepatocellular-carcinoma, HeLa]
+    status: supported
+    confidence: 0.8
+    domain: oncology / hypoxia-signaling
   - slug: hif1a-only-p65-only-cobound-peaks-distinct-functions
     title: "HIF1α-only, p65-only, and cobound peaks map to functionally distinct gene sets: glycolysis, immune differentiation/adhesion, LPS signaling"
     tags: [HIF1A, p65, ChIP-seq, GO-enrichment, GSEA, glycolysis, LPS-signaling]
@@ -7262,12 +7324,6 @@ claims:
     status: supported
     confidence: 0.85
     domain: molecular-biology / cancer-metabolism / hypoxia
-  - slug: high-g6pd-predicts-worse-survival-high
-    title: "High G6PD predicts worse survival and high ABCG2 predicts better survival in lung adenocarcinoma"
-    tags: [G6PD, ABCG2, survival, prognosis, lung-adenocarcinoma]
-    status: weakly_supported
-    confidence: 0.65
-    domain: oncology
   - slug: hif1a-slc7a11-axis-restrains-ferroptosis-hcc
     title: "HIF-1α restrains ferroptosis in hepatocellular carcinoma through the SLC7A11 axis; sorafenib induces hepatic stellate cell ferroptosis via the same HIF-1α/SLC7A11 pathway"
     tags: [HIF1A, ferroptosis, SLC7A11, xCT, hepatocellular-carcinoma, HCC, sorafenib, liver-fibrosis, hypoxia]
@@ -7280,6 +7336,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: molecular-biology / hypoxia / structural-biology
+  - slug: hif1a-transient-cell-cycle-normoxic-expression-hcc
+    title: "HIF-1α is transiently expressed in normoxic HCC cells in a cell-cycle-dependent manner (G2/M)"
+    tags: [HIF1a, cell-cycle, normoxia, CDK1, cyclin-B1, hepatocellular-carcinoma]
+    status: supported
+    confidence: 0.75
+    domain: cell biology / hypoxia-signaling
+  - slug: hif2a-cannot-compensate-hif1a-loss-hcc
+    title: "HIF-2α cannot compensate for HIF-1α loss in hepatocellular carcinoma cells"
+    tags: [HIF1a, HIF2a, isoform-specificity, hepatocellular-carcinoma, non-redundancy]
+    status: supported
+    confidence: 0.7
+    domain: oncology / hypoxia-signaling
   - slug: hif2a-pas-b-pocket-small-molecule-inhibitors-selective
     title: "HIF-2α small-molecule inhibitors targeting the PAS-B pocket are selective for HIF-2α/ARNT dissociation without affecting HIF-1"
     tags: [HIF2A, PAS-B, small-molecule-inhibitor, Belzutifan, MK-6482, PT2385, ARNT, HIF-1, selectivity, structural-biology, allosteric-inhibition]
@@ -7304,6 +7372,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: molecular-biology / hypoxia
+  - slug: high-g6pd-predicts-worse-survival-high
+    title: "High G6PD predicts worse survival and high ABCG2 predicts better survival in lung adenocarcinoma"
+    tags: [G6PD, ABCG2, survival, prognosis, lung-adenocarcinoma]
+    status: weakly_supported
+    confidence: 0.65
+    domain: oncology
   - slug: high-hypoxia-cell-cycle-dna-replication-enrichment-pdac
     title: "High hypoxia group in TCGA-PAAD is enriched for cell-cycle, DNA replication, E2F, G2M, and protein-processing pathways by GSEA"
     tags: [hypoxia, PDAC, GSEA, cell-cycle, DNA-replication, E2F, G2M, proliferation]
@@ -7388,12 +7462,6 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology / haematology
-  - slug: human-irg1-positive-tams-show-lower
-    title: "Human IRG1+ TAMs show lower G6PD activity than IRG1- TAMs"
-    tags: [IRG1, G6PD, TAM, human, lung-cancer]
-    status: supported
-    confidence: 0.75
-    domain: oncology
   - slug: hsc-differentiation-glycolysis-to-oxphos
     title: "HSC differentiation drives a metabolic switch from glycolysis to oxidative phosphorylation, with ATP synthase upregulation"
     tags: [HSC, metabolism, glycolysis, OXPHOS, ATP-synthase, mechanistic]
@@ -7436,6 +7504,12 @@ claims:
     status: supported
     confidence: 0.95
     domain: immunology
+  - slug: human-irg1-positive-tams-show-lower
+    title: "Human IRG1+ TAMs show lower G6PD activity than IRG1- TAMs"
+    tags: [IRG1, G6PD, TAM, human, lung-cancer]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: human-macrophage-activation-forms-spectrum-least
     title: "Human macrophage activation forms a spectrum of at least nine programs beyond M1/M2"
     tags: [macrophage, activation, spectrum-model]
@@ -8390,42 +8464,6 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology/pathway-analysis
-  - slug: irg1-loss-shifts-tumor-associated-macrophages
-    title: "IRG1 loss shifts tumor-associated macrophages toward a pro-tumor phenotype"
-    tags: [IRG1, macrophage-polarization, TAM, CD80, CD206]
-    status: supported
-    confidence: 0.8
-    domain: oncology
-  - slug: irg1-loss-raises-octyl-itaconate-lowers
-    title: "IRG1 loss raises and Octyl itaconate lowers in situ G6PD activity in lung tumors in vivo"
-    tags: [G6PD, IRG1, 4-octyl-itaconate, in-vivo, lung-tumor]
-    status: supported
-    confidence: 0.8
-    domain: oncology
-  - slug: irg1-knockout-increases-lung-tumor-growth
-    title: "IRG1 knockout increases lung tumor growth and metastasis in mouse models"
-    tags: [IRG1, lung-cancer, tumor-growth, mouse-model]
-    status: supported
-    confidence: 0.85
-    domain: oncology
-  - slug: itaconate-ppp-effects-nrf2-independent-cancer
-    title: "Itaconate's PPP effects are NRF2-independent in cancer cells but NRF2-dependent in macrophages"
-    tags: [NRF2, itaconate, pentose-phosphate-pathway, cell-type-specificity]
-    status: supported
-    confidence: 0.7
-    domain: oncology
-  - slug: itaconate-non-covalently-inhibits-g6pd-reducing
-    title: "Itaconate and Octyl itaconate non-covalently inhibit G6PD by reducing Vmax"
-    tags: [G6PD, itaconate, enzyme-inhibition, non-covalent, kinetics]
-    status: supported
-    confidence: 0.8
-    domain: oncology
-  - slug: irg1-itaconate-directly-inhibits-cancer-cell
-    title: "IRG1/itaconate directly inhibits cancer cell proliferation cell-autonomously"
-    tags: [itaconate, IRG1-overexpression, proliferation, cancer-cell-intrinsic]
-    status: supported
-    confidence: 0.8
-    domain: oncology
   - slug: irak1-irak4-inferred-upregulated-m2a-camkk2
     title: "Footprinting nominates IRAK1/IRAK4 in M2a and CAMKK2/GAK in M2c as novel immunosuppressive-state kinases"
     tags: [macrophage, kinase, immunosuppression, footprinting]
@@ -8474,6 +8512,30 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: immunology
+  - slug: irg1-itaconate-directly-inhibits-cancer-cell
+    title: "IRG1/itaconate directly inhibits cancer cell proliferation cell-autonomously"
+    tags: [itaconate, IRG1-overexpression, proliferation, cancer-cell-intrinsic]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: irg1-knockout-increases-lung-tumor-growth
+    title: "IRG1 knockout increases lung tumor growth and metastasis in mouse models"
+    tags: [IRG1, lung-cancer, tumor-growth, mouse-model]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: irg1-loss-raises-octyl-itaconate-lowers
+    title: "IRG1 loss raises and Octyl itaconate lowers in situ G6PD activity in lung tumors in vivo"
+    tags: [G6PD, IRG1, 4-octyl-itaconate, in-vivo, lung-tumor]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: irg1-loss-shifts-tumor-associated-macrophages
+    title: "IRG1 loss shifts tumor-associated macrophages toward a pro-tumor phenotype"
+    tags: [IRG1, macrophage-polarization, TAM, CD80, CD206]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: isg-tam-signature-correlates-effector-cd8
     title: "ISG TAM signature correlates with effector CD8 T cell signature across cancers"
     tags: [ISG, TAM, CD8-T-cell, antitumor-immunity]
@@ -8492,6 +8554,18 @@ claims:
     status: supported
     confidence: 0.85
     domain: immunometabolism / pulmonary
+  - slug: itaconate-non-covalently-inhibits-g6pd-reducing
+    title: "Itaconate and Octyl itaconate non-covalently inhibit G6PD by reducing Vmax"
+    tags: [G6PD, itaconate, enzyme-inhibition, non-covalent, kinetics]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: itaconate-ppp-effects-nrf2-independent-cancer
+    title: "Itaconate's PPP effects are NRF2-independent in cancer cells but NRF2-dependent in macrophages"
+    tags: [NRF2, itaconate, pentose-phosphate-pathway, cell-type-specificity]
+    status: supported
+    confidence: 0.7
+    domain: oncology
   - slug: itga6-malignant-cells-induces-cthrc1-caf-via-tgfb
     title: "ITGA6 expression in malignant cells correlates with eFibro_CTHRC1 induction — proposed matrix-stiffness mechanosensor activating TGFβ release"
     tags: [itga6, mechanotransduction, tgfb, caf, cthrc1, lung-fibrosis, malignant-fibroblast-crosstalk]
@@ -8966,24 +9040,12 @@ claims:
     status: supported
     confidence: 0.7
     domain: oncology / immunology
-  - slug: macrophage-secreted-itaconate-exported-abcg2-mediates
-    title: "Macrophage-secreted itaconate exported via ABCG2 mediates non-cell-autonomous tumor suppression"
-    tags: [itaconate, ABCG2, paracrine, macrophage, tumor-suppression]
-    status: supported
-    confidence: 0.7
-    domain: oncology
   - slug: macro-cxcl9-governed-distinct-transcription-factors
     title: "Macro-CXCL9 is governed by distinct transcription factors (LYL1, NRF1, SMARCC2, CCNT2, TCF3)"
     tags: [transcription-factor, SCENIC, macrophage, CXCL9, gene-regulatory-network]
     status: weakly_supported
     confidence: 0.5
     domain: oncology / immunology
-  - slug: macrophages-primary-irg1-expressing-cells-lung
-    title: "Macrophages are the primary IRG1-expressing cells in human and mouse lung tumors"
-    tags: [IRG1, macrophage, scRNA-seq, lung-cancer]
-    status: supported
-    confidence: 0.8
-    domain: oncology
   - slug: macro-cxcl9-ligand-receptor-interactions-ackr1
     title: "Macro-CXCL9 engages ACKR1+ endothelium and LAG3+ CD8-CXCL13 cells via distinct ligand-receptor axes"
     tags: [cell-cell-interaction, LIANA, CXCL9, LAG3, ACKR1, macrophage]
@@ -9062,6 +9124,12 @@ claims:
     status: proposed
     confidence: 0.45
     domain: immunology / immunometabolism
+  - slug: macrophage-secreted-itaconate-exported-abcg2-mediates
+    title: "Macrophage-secreted itaconate exported via ABCG2 mediates non-cell-autonomous tumor suppression"
+    tags: [itaconate, ABCG2, paracrine, macrophage, tumor-suppression]
+    status: supported
+    confidence: 0.7
+    domain: oncology
   - slug: macrophages-express-five-prr-families-tlr
     title: "Macrophages express five pattern recognition receptor families — TLRs, NLRs, RLRs, ALRs and CLRs — for pathogen sensing"
     tags: [macrophage, prr, pattern-recognition-receptor, tlr, nlr, rlr, alr, clr, innate-immunity, immunology]
@@ -9074,6 +9142,12 @@ claims:
     status: supported
     confidence: 0.75
     domain: oncology-hypoxia
+  - slug: macrophages-primary-irg1-expressing-cells-lung
+    title: "Macrophages are the primary IRG1-expressing cells in human and mouse lung tumors"
+    tags: [IRG1, macrophage, scRNA-seq, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: macrophages-secrete-glutamine-to-support-satellite-cell-muscle-regeneration
     title: "Macrophages synthesize and secrete glutamine to support satellite cell growth during muscle regeneration"
     tags: [macrophage, glutamine, satellite-cell, muscle-regeneration, immunometabolism]
@@ -9524,12 +9598,6 @@ claims:
     status: supported
     confidence: 0.85
     domain: oncology / immunotherapy
-  - slug: molecular-docking-predicts-itaconate-binds-g6pd
-    title: "Molecular docking predicts itaconate and Octyl itaconate bind the G6PD active site"
-    tags: [molecular-docking, G6PD, itaconate, in-silico]
-    status: weakly_supported
-    confidence: 0.6
-    domain: oncology
   - slug: mite144-treg-expansion-blocked-by-ctla4-combo
     title: "MiTE-144 slightly expands Tregs in TME/tdLNs; combination with anti-CTLA-4 abrogates this Treg expansion"
     tags: [MiTE, Treg, CTLA-4, IL-2-superkine, combination-therapy]
@@ -9626,6 +9694,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: molecular-docking-predicts-itaconate-binds-g6pd
+    title: "Molecular docking predicts itaconate and Octyl itaconate bind the G6PD active site"
+    tags: [molecular-docking, G6PD, itaconate, in-silico]
+    status: weakly_supported
+    confidence: 0.6
+    domain: oncology
   - slug: molecular-rash-stratification-matches-dupilumab-clinical
     title: "Molecular stratification of indeterminate rashes matched dupilumab clinical response"
     tags: [skin, dupilumab, classification, precision-medicine, pharmacological]
@@ -9974,6 +10048,18 @@ claims:
     status: weakly_supported
     confidence: 0.55
     domain: oncology
+  - slug: normoxic-hif1a-signature-poor-prognosis-lihc
+    title: "Huh7-derived normoxic and hypoxic HIF-1α protein signatures correlate with poor survival in LIHC (not HeLa/CESC)"
+    tags: [HIF1a, prognosis, LIHC, TCGA, GEPIA2, gene-signature, hepatocellular-carcinoma]
+    status: supported
+    confidence: 0.7
+    domain: oncology / cancer-genomics
+  - slug: normoxic-hif1a-stabilized-by-ubiquitination-block-not-hydroxylation
+    title: "Normoxic cell-cycle HIF-1α is stabilized by blocked ubiquitination, not loss of proline hydroxylation"
+    tags: [HIF1a, ubiquitination, proline-hydroxylation, CDK1, normoxia, protein-stability]
+    status: weakly_supported
+    confidence: 0.6
+    domain: cell biology / hypoxia-signaling
   - slug: notch3-stromal-tumour-invasion-tgfb-nsclc
     title: "NOTCH3 signalling among CAFs, pericytes and endothelial cells drives NSCLC invasion, collagen production and a TGFβ-related poor-prognosis signature"
     tags: [notch3, caf, pericyte, tgfb, nsclc-invasion]
@@ -10028,36 +10114,6 @@ claims:
     status: supported
     confidence: 0.8
     domain: methods
-  - slug: octyl-itaconate-reprograms-anti-inflammatory-macrophages
-    title: "Octyl itaconate reprograms anti-inflammatory macrophages toward a tumor-suppressive state via PPP/G6PD suppression"
-    tags: [4-octyl-itaconate, macrophage-reprogramming, pentose-phosphate-pathway, anti-tumor]
-    status: supported
-    confidence: 0.75
-    domain: oncology
-  - slug: octyl-itaconate-reduces-lung-tumor-growth
-    title: "4-octyl itaconate reduces lung tumor growth in vivo, ex vivo, and in vitro"
-    tags: [4-octyl-itaconate, lung-cancer, therapeutic, precision-cut-lung-slices]
-    status: supported
-    confidence: 0.85
-    domain: oncology
-  - slug: octyl-itaconate-lowers-glutathione-gsh-gssg
-    title: "Octyl itaconate lowers glutathione and the GSH/GSSG ratio, consistent with impaired PPP-derived NADPH"
-    tags: [glutathione, NADPH, redox, pentose-phosphate-pathway]
-    status: supported
-    confidence: 0.75
-    domain: oncology
-  - slug: octyl-itaconate-inhibits-lung-cancer-proliferation
-    title: "Octyl itaconate inhibits lung cancer cell proliferation independent of KEAP1/NRF2 status"
-    tags: [4-octyl-itaconate, KEAP1, NRF2, proliferation, lung-cancer]
-    status: supported
-    confidence: 0.8
-    domain: oncology
-  - slug: octyl-itaconate-depletes-pentose-phosphate-pathway
-    title: "Octyl itaconate depletes pentose phosphate pathway intermediates and impairs oxidative PPP activity"
-    tags: [4-octyl-itaconate, pentose-phosphate-pathway, metabolomics, R5P]
-    status: supported
-    confidence: 0.85
-    domain: oncology
   - slug: novae-native-batch-correction-via-relaxed-ot-prototypes
     title: "Novae natively corrects batch effects via shared prototypes and a relaxed optimal-transport assignment"
     tags: [spatial-transcriptomics, batch-correction, methodological]
@@ -10160,6 +10216,36 @@ claims:
     status: supported
     confidence: 0.8
     domain: immunometabolism
+  - slug: octyl-itaconate-depletes-pentose-phosphate-pathway
+    title: "Octyl itaconate depletes pentose phosphate pathway intermediates and impairs oxidative PPP activity"
+    tags: [4-octyl-itaconate, pentose-phosphate-pathway, metabolomics, R5P]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: octyl-itaconate-inhibits-lung-cancer-proliferation
+    title: "Octyl itaconate inhibits lung cancer cell proliferation independent of KEAP1/NRF2 status"
+    tags: [4-octyl-itaconate, KEAP1, NRF2, proliferation, lung-cancer]
+    status: supported
+    confidence: 0.8
+    domain: oncology
+  - slug: octyl-itaconate-lowers-glutathione-gsh-gssg
+    title: "Octyl itaconate lowers glutathione and the GSH/GSSG ratio, consistent with impaired PPP-derived NADPH"
+    tags: [glutathione, NADPH, redox, pentose-phosphate-pathway]
+    status: supported
+    confidence: 0.75
+    domain: oncology
+  - slug: octyl-itaconate-reduces-lung-tumor-growth
+    title: "4-octyl itaconate reduces lung tumor growth in vivo, ex vivo, and in vitro"
+    tags: [4-octyl-itaconate, lung-cancer, therapeutic, precision-cut-lung-slices]
+    status: supported
+    confidence: 0.85
+    domain: oncology
+  - slug: octyl-itaconate-reprograms-anti-inflammatory-macrophages
+    title: "Octyl itaconate reprograms anti-inflammatory macrophages toward a tumor-suppressive state via PPP/G6PD suppression"
+    tags: [4-octyl-itaconate, macrophage-reprogramming, pentose-phosphate-pathway, anti-tumor]
+    status: supported
+    confidence: 0.75
+    domain: oncology
   - slug: oestrogen-tam-immunosuppression-fulvestrant-resensitization
     title: "Oestrogen polarizes TAMs to an immunosuppressive phenotype causing CD8+ exhaustion and ICI resistance, reversed by fulvestrant in mouse melanoma"
     tags: [oestrogen, tam-polarization, sex-differences, fulvestrant, ici-resensitization]
@@ -10694,12 +10780,6 @@ claims:
     status: supported
     confidence: 0.95
     domain: hypoxia-immunology
-  - slug: pro-inflammatory-macrophages-high-irg1-itaconate
-    title: "Pro-inflammatory macrophages have high IRG1/itaconate and low G6PD activity; anti-inflammatory macrophages the opposite"
-    tags: [macrophage-polarization, IRG1, G6PD, immunometabolism]
-    status: supported
-    confidence: 0.8
-    domain: oncology
   - slug: phf2-phf8-knockdown-increases-ifnb1-cell
     title: "Combined PHF2/PHF8 knockdown increases IFNB1 and cell death in a cGAS-dependent manner"
     tags: [PHF2, PHF8, cGAS, IFNB1, siRNA, pharmacological, mechanistic]
@@ -10832,6 +10912,12 @@ claims:
     status: supported
     confidence: 0.8
     domain: metabolism
+  - slug: pro-inflammatory-macrophages-high-irg1-itaconate
+    title: "Pro-inflammatory macrophages have high IRG1/itaconate and low G6PD activity; anti-inflammatory macrophages the opposite"
+    tags: [macrophage-polarization, IRG1, G6PD, immunometabolism]
+    status: supported
+    confidence: 0.8
+    domain: oncology
   - slug: proinflammatory-macrophage-fraction-correlates-cell-fraction
     title: "Proinflammatory macrophage fraction correlates strongly with B-cell fraction in brain metastases"
     tags: [macrophage, B-cell, brain-metastasis, correlation, TME]
@@ -10904,12 +10990,6 @@ claims:
     status: weakly_supported
     confidence: 0.65
     domain: haematopoiesis / immunology
-  - slug: reduced-ribose-production-rather-than-nadph
-    title: "Reduced ribose production, not NADPH depletion, is the primary driver of growth suppression"
-    tags: [ribose, NADPH, transketolase, pentose-phosphate-pathway]
-    status: weakly_supported
-    confidence: 0.7
-    domain: oncology
   - slug: pseudodynamics-imputes-held-out-haematopoiesis-timepoints
     title: "pseudodynamics+ imputes held-out haematopoiesis timepoints at average KLD 0.097"
     tags: [imputation, held-out, KLD, quantitative]
@@ -11048,6 +11128,12 @@ claims:
     status: supported
     confidence: 0.9
     domain: immunology
+  - slug: reduced-ribose-production-rather-than-nadph
+    title: "Reduced ribose production, not NADPH depletion, is the primary driver of growth suppression"
+    tags: [ribose, NADPH, transketolase, pentose-phosphate-pathway]
+    status: weakly_supported
+    confidence: 0.7
+    domain: oncology
   - slug: reference-embedding-patient-classifier-reaches-wf1
     title: "Reference-embedding patient classifier reaches WF1 0.90 / BAS 0.85 in cross-validation"
     tags: [patient-classifier, reference-mapping, majority-voting]
@@ -13375,7 +13461,7 @@ foundations:
   - slug: abcg2-itaconate-exporter-transporter
     title: "ABCG2 (ATP-binding cassette subfamily G member 2; itaconate exporter)"
     status: mainstream
-    domain: "membrane transport / immunometabolism"
+    domain: membrane transport / immunometabolism
   - slug: acly-atp-citrate-lyase
     title: "ACLY — ATP-citrate lyase"
     status: mainstream
@@ -13731,6 +13817,10 @@ foundations:
     title: "CD74 (HLA class II invariant chain)"
     status: mainstream
     domain: immunology
+  - slug: cdk1-cyclin-dependent-kinase-1
+    title: "CDK1 (cyclin-dependent kinase 1)"
+    status: mainstream
+    domain: cell biology / cell cycle
   - slug: cdkn2a-tumor-suppressor
     title: "CDKN2A (Cyclin-Dependent Kinase Inhibitor 2A; p16INK4a / p14ARF)"
     status: mainstream
@@ -13973,6 +14063,10 @@ foundations:
     title: "Cyclic di-GMP (c-di-GMP)"
     status: mainstream
     domain: microbiology
+  - slug: cyclin-b1-ccnb1
+    title: "Cyclin B1 (CCNB1)"
+    status: mainstream
+    domain: cell biology / cell cycle
   - slug: cyp1a1-cytochrome
     title: "CYP1A1 (cytochrome P450 1A1)"
     status: mainstream
@@ -14033,6 +14127,10 @@ foundations:
     title: "DIA-MS — Data-Independent Acquisition Mass Spectrometry"
     status: mainstream
     domain: proteomics
+  - slug: dia-nn-proteomics
+    title: "DIA-NN — data-independent acquisition by neural networks"
+    status: mainstream
+    domain: proteomics / computational methods
   - slug: diabzi-amidobenzimidazole
     title: "diABZI — diamidobenzimidazole non-CDN STING agonist"
     status: mainstream
@@ -14246,14 +14344,14 @@ foundations:
     title: "Fulvestrant (selective oestrogen receptor degrader, SERD)"
     status: mainstream
     domain: pharmacology
-  - slug: g6pd-glucose-phosphate-dehydrogenase
-    title: "G6PD (glucose-6-phosphate dehydrogenase)"
-    status: mainstream
-    domain: "metabolism / enzymology"
   - slug: fzd7-receptor
     title: "Fzd7 — Frizzled 7 Wnt receptor"
     status: mainstream
     domain: signaling / stem-cell-biology
+  - slug: g6pd-glucose-phosphate-dehydrogenase
+    title: "G6PD (glucose-6-phosphate dehydrogenase)"
+    status: mainstream
+    domain: metabolism / enzymology
   - slug: galectin-3
     title: "Galectin-3 (Gal-3, LGALS3, Mac-2) — β-galactoside-binding lectin"
     status: mainstream
@@ -14307,6 +14405,10 @@ foundations:
     title: "GeoMx Digital Spatial Profiler (DSP)"
     status: mainstream
     domain: spatial omics
+  - slug: gepia2-gene-expression-profiling
+    title: "GEPIA2 — Gene Expression Profiling Interactive Analysis 2"
+    status: mainstream
+    domain: bioinformatics / cancer genomics tools
   - slug: gfi1-tf
     title: "GFI1"
     status: mainstream
@@ -14423,6 +14525,10 @@ foundations:
     title: "HDAC — histone deacetylase family"
     status: mainstream
     domain: epigenetics / chromatin
+  - slug: hela-cell-line
+    title: "HeLa — human cervical carcinoma cell line"
+    status: mainstream
+    domain: cell biology / oncology models
   - slug: hepatic-stellate-cells
     title: "Hepatic stellate cells (HSCs)"
     status: mainstream
@@ -14431,6 +14537,10 @@ foundations:
     title: "Hepatocellular carcinoma (HCC) — primary liver cancer"
     status: mainstream
     domain: oncology / hepatology
+  - slug: hepg2-hepatoma-cell-line
+    title: "HepG2 — human hepatoblastoma/hepatocellular carcinoma cell line"
+    status: mainstream
+    domain: cell biology / oncology models
   - slug: herc5-e3-ligase
     title: "HERC5 — HECT and RLD domain containing E3 ubiquitin ligase 5"
     status: mainstream
@@ -14528,6 +14638,10 @@ foundations:
     title: "Hugging Face Hub — open model and dataset hosting platform"
     status: mainstream
     domain: infrastructure / model-hosting
+  - slug: huh7-hepatoma-cell-line
+    title: "Huh7 — human hepatocellular carcinoma cell line"
+    status: mainstream
+    domain: cell biology / oncology models
   - slug: human-cytokine-dictionary-dataset
     title: "Human Cytokine Dictionary dataset"
     status: mainstream
@@ -14931,10 +15045,6 @@ foundations:
     title: "maftools — Bioconductor toolkit for somatic mutation analysis"
     status: mainstream
     domain: methods / genomics
-  - slug: maldi-msi-spatial-metabolomics-imaging
-    title: "MALDI-MSI — matrix-assisted laser desorption/ionization mass spectrometry imaging (spatial metabolomics)"
-    status: mainstream
-    domain: "spatial metabolomics / mass spectrometry imaging"
   - slug: mageck-crispr-screen-analysis
     title: "MAGeCK — Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout"
     status: mainstream
@@ -14943,6 +15053,10 @@ foundations:
     title: "MALDI-MSI spatial glycomics"
     status: mainstream
     domain: spatial metabolomics
+  - slug: maldi-msi-spatial-metabolomics-imaging
+    title: "MALDI-MSI — matrix-assisted laser desorption/ionization mass spectrometry imaging (spatial metabolomics)"
+    status: mainstream
+    domain: spatial metabolomics / mass spectrometry imaging
   - slug: mamba-selective-state-space-model
     title: "Mamba — selective state space model (SSM)"
     status: mainstream
@@ -14999,6 +15113,10 @@ foundations:
     title: "mclust — Gaussian mixture model clustering in R"
     status: mainstream
     domain: methods / clustering / statistics
+  - slug: mcm3-minichromosome-maintenance-3
+    title: "MCM3 (minichromosome maintenance complex component 3)"
+    status: mainstream
+    domain: cell biology / DNA replication
   - slug: mct1-monocarboxylate-transporter-1
     title: "MCT1 — Monocarboxylate transporter 1 (SLC16A1)"
     status: mainstream
@@ -15397,10 +15515,6 @@ foundations:
     status: mainstream
     domain: immunology / immune-checkpoint
     maturity: established
-  - slug: pentose-phosphate-pathway
-    title: "Pentose phosphate pathway (PPP)"
-    status: mainstream
-    domain: "metabolism / biochemistry"
   - slug: pdpk1-pdk1-kinase
     title: "PDPK1 — 3-phosphoinositide-dependent protein kinase 1 (PDK1)"
     status: mainstream
@@ -15413,6 +15527,10 @@ foundations:
     title: "Pdzk1ip1 (Map17)-creER fate mapping (adult HSC progeny)"
     status: mainstream
     domain: mouse genetics / lineage tracing / immunology
+  - slug: pentose-phosphate-pathway
+    title: "Pentose phosphate pathway (PPP)"
+    status: mainstream
+    domain: metabolism / biochemistry
   - slug: perk-upr-pathway
     title: "PERK–UPR pathway"
     status: mainstream
@@ -15514,10 +15632,6 @@ foundations:
     status: mainstream
     domain: genomics / bulk transcriptomics
   - slug: pml-promyelocytic-leukemia-protein
-  - slug: precision-cut-lung-slices-ex-vivo
-    title: "Tumor-derived precision-cut lung slices (TD-PCLS)"
-    status: mainstream
-    domain: "ex vivo modeling / translational oncology"
     title: "PML — promyelocytic leukemia protein"
     status: mainstream
     domain: cell biology
@@ -15534,6 +15648,10 @@ foundations:
     title: "PRDM1 / BLIMP1"
     status: mainstream
     domain: immunology
+  - slug: precision-cut-lung-slices-ex-vivo
+    title: "Tumor-derived precision-cut lung slices (TD-PCLS)"
+    status: mainstream
+    domain: ex vivo modeling / translational oncology
   - slug: preferential-attachment
     title: "Preferential attachment (rich-gets-richer)"
     status: mainstream
@@ -15686,6 +15804,10 @@ foundations:
     title: "RNF5 — Ring Finger Protein 5 E3 ubiquitin ligase"
     status: mainstream
     domain: cell biology
+  - slug: ro-3306-cdk1-inhibitor
+    title: "RO-3306 — selective CDK1 inhibitor (G2/M synchronization)"
+    status: mainstream
+    domain: chemical biology / cell-cycle tools
   - slug: rorgt-tf
     title: "RORγt (RORC)"
     status: mainstream
@@ -15953,10 +16075,6 @@ foundations:
     tags: [transcription-factor, macrophage-identity, iron-metabolism, red-pulp-macrophage, kupffer-cell]
     status: mainstream
     domain: immunology
-  - slug: stable-isotope-13c-glucose-metabolic-flux
-    title: "Stable-isotope ¹³C-glucose metabolic flux tracing"
-    status: mainstream
-    domain: "metabolomics / isotope tracing"
   - slug: spi1-pu1-master-tf
     title: "PU.1 / SPI1 — master transcription factor of myeloid lineages"
     status: mainstream
@@ -15977,6 +16095,10 @@ foundations:
     title: "ST2 / IL1RL1 — IL-33 receptor"
     status: mainstream
     domain: immunology / cytokine signalling
+  - slug: stable-isotope-13c-glucose-metabolic-flux
+    title: "Stable-isotope ¹³C-glucose metabolic flux tracing"
+    status: mainstream
+    domain: metabolomics / isotope tracing
   - slug: stagate-graph-attention-autoencoder
     title: "STAGATE — adaptive graph attention autoencoder for spatial domains"
     status: mainstream
